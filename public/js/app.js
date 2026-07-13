@@ -249,8 +249,38 @@ function transposeLine(text,shift){
   });
 }
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
-function songIndexFromHash(){const match=location.hash.match(/^#canto-(\d+)$/);if(!match)return null;const index=Number(match[1])-1;return index>=0&&index<songs.length?index:null}
-function showSong(i,updateHistory=true){const wasOpen=document.body.classList.contains('song-open');if(!wasOpen)listScrollY=window.scrollY;activeIndex=i;renderTiles();renderSong(i);document.body.classList.add('song-open');if(updateHistory){const method=wasOpen?'replaceState':'pushState';history[method]({view:'song',song:i},'',`#canto-${i+1}`)}window.scrollTo({top:0,behavior:'auto'})}
+function songHash(index){
+  const id=songId(index);
+  return id?`#canto/${encodeURIComponent(id)}`:'';
+}
+function songIndexFromHash(){
+  const idMatch=location.hash.match(/^#canto\/([^/?#]+)$/);
+  if(idMatch){
+    const id=decodeURIComponent(idMatch[1]);
+    const index=songIndexFromId(id);
+    return index>=0?index:null;
+  }
+
+  // Compatibilità con i vecchi collegamenti numerici, per esempio #canto-23.
+  const legacyMatch=location.hash.match(/^#canto-(\d+)$/);
+  if(!legacyMatch)return null;
+  const legacyIndex=Number(legacyMatch[1])-1;
+  return legacyIndex>=0&&legacyIndex<songs.length?legacyIndex:null;
+}
+function showSong(i,updateHistory=true){
+  if(!songs[i])return;
+  const wasOpen=document.body.classList.contains('song-open');
+  if(!wasOpen)listScrollY=window.scrollY;
+  activeIndex=i;
+  renderTiles();
+  renderSong(i);
+  document.body.classList.add('song-open');
+  if(updateHistory){
+    const method=wasOpen?'replaceState':'pushState';
+    history[method]({view:'song',songId:songId(i)},'',songHash(i));
+  }
+  window.scrollTo({top:0,behavior:'auto'});
+}
 function showList(){document.body.classList.remove('song-open');renderTiles();requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}))}
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
 function renderTiles(filter=search.value){
@@ -544,7 +574,18 @@ if('serviceWorker' in navigator){
 
 window.addEventListener('popstate',()=>{const index=songIndexFromHash();if(index===null)showList();else showSong(index,false)});
 const initialSong=songIndexFromHash();
-if(initialSong===null){history.replaceState({view:'list'},'',location.pathname+location.search);renderTiles();renderSong(0)}else{history.replaceState({view:'list'},'',location.pathname+location.search);showSong(initialSong,true)}
+if(initialSong===null){
+  history.replaceState({view:'list'},'',location.pathname+location.search);
+  renderTiles();
+  renderSong(0);
+}else{
+  const openedFromLegacyHash=/^#canto-\d+$/.test(location.hash);
+  history.replaceState({view:'song',songId:songId(initialSong)},'',songHash(initialSong));
+  showSong(initialSong,false);
+  if(openedFromLegacyHash){
+    history.replaceState({view:'song',songId:songId(initialSong)},'',songHash(initialSong));
+  }
+}
 importSetlistFromUrl();
 }
 

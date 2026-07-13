@@ -170,7 +170,15 @@ const APP_ASSETS = [
 ];
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_ASSETS)));
+  // Promise.allSettled: se anche un solo file manca o è stato rinominato,
+  // l'installazione non fallisce più per intero — vengono semplicemente
+  // messi in cache tutti gli altri, e quello mancante verrà comunque
+  // recuperato dalla rete al primo utilizzo (gestione nel fetch handler).
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(cache =>
+      Promise.allSettled(APP_ASSETS.map(url => cache.add(url)))
+    )
+  );
   self.skipWaiting();
 });
 
@@ -183,11 +191,31 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-  event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
-      const copy = response.clone();
-      caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
-      return response;
-    }))
-  );
+
+  const isData = event.request.url.endsWith('.json');
+
+  if (isData) {
+    // Rete prima, cache come fallback: i dati dei canti sono quelli che
+    // correggiamo più spesso, quindi chi è online deve vedere sempre
+    // l'ultima versione pubblicata. Offline, si torna all'ultima nota.
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+  } else {
+    // Cache prima per gli asset statici (CSS/JS/icone): cambiano raramente
+    // e non serve rifare fetch ad ogni apertura del sito.
+    event.respondWith(
+      caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+        return response;
+      }))
+    );
+  }
 });

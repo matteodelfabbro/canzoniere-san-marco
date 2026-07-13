@@ -53,8 +53,8 @@
   .toolbar-controls{display:flex;align-items:center;gap:.65rem;flex-wrap:nowrap;min-width:0}
   .primary-actions{display:flex;align-items:center;gap:.38rem;min-width:0}
   .secondary-actions{display:flex;align-items:center;gap:.55rem;min-width:0}
-  .transpose-controls{display:grid;grid-template-columns:auto 1.7rem minmax(4.8rem,auto) 1.7rem auto;align-items:center;gap:.4rem;min-width:0}
-  .text-controls{display:grid;grid-template-columns:auto 1.9rem 2.7rem 1.9rem;align-items:center;gap:.4rem}
+  .transpose-controls{display:grid;grid-template-columns:auto 1.62rem minmax(5.2rem,auto) 1.62rem auto;align-items:center;gap:.4rem;min-width:0}
+  .text-controls{display:grid;grid-template-columns:auto 1.68rem 2.7rem 1.68rem;align-items:center;gap:.4rem}
   .command-separator{width:1px;height:1.35rem;background:var(--line);margin:0 .15rem}
   .back-list{display:inline-flex;align-items:center;gap:.45rem;border:0;background:transparent;color:var(--wine);font-family:Manrope,sans-serif;font-size:.82rem;font-weight:600;padding:.45rem 0;cursor:pointer}
   .back-list:hover{color:var(--wine-bright)}
@@ -67,15 +67,15 @@
   .badges{display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap}
   .badge{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;background:transparent;color:var(--wine);border:1px solid rgba(109,22,38,.25)}
   .transpose-row{display:flex;align-items:center;gap:.55rem;margin-top:.9rem;flex-wrap:wrap}
-  .transpose-label{font-family:Manrope,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:none;color:rgba(28,27,23,.45)}
-  .transpose-btn{width:1.7rem;height:1.7rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:var(--ink);font-family:Manrope,sans-serif;font-weight:600;font-size:1rem;line-height:1;cursor:pointer;transition:background .15s,border-color .15s}
+  .transpose-label{font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:none;color:rgba(28,27,23,.45)}
+  .transpose-btn{width:1.62rem;height:1.62rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:var(--ink);font-family:Manrope,sans-serif;font-weight:600;font-size:.92rem;line-height:1;cursor:pointer;transition:background .15s,border-color .15s}
   .transpose-btn:hover{background:rgba(198,162,77,.14);border-color:var(--gold)}
-  .transpose-value{font-family:Manrope,sans-serif;font-size:.74rem;font-weight:600;color:var(--wine);min-width:0;text-align:center;white-space:nowrap}
-  .transpose-reset{font-family:Manrope,sans-serif;font-size:.72rem;font-weight:600;text-decoration:underline;color:rgba(28,27,23,.4);background:none;border:0;padding:0;cursor:pointer}
+  .transpose-value{font-family:Manrope,sans-serif;font-size:.8rem;font-weight:600;color:var(--wine);min-width:0;text-align:center;white-space:nowrap}
+  .transpose-reset{font-family:Manrope,sans-serif;font-size:.76rem;font-weight:600;text-decoration:underline;color:rgba(28,27,23,.4);background:none;border:0;padding:0;cursor:pointer}
   .transpose-reset:hover{color:var(--wine)}
-  .text-size-label{font-family:Manrope,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:none;color:rgba(28,27,23,.45)}
-  .text-size-value{font-family:Manrope,sans-serif;font-size:.74rem;font-weight:600;color:var(--wine);min-width:2.7rem;text-align:center}
-  .command-btn{width:1.9rem;height:1.9rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:var(--ink);font-family:Manrope,sans-serif;font-weight:600;font-size:1rem;line-height:1;cursor:pointer;transition:background .15s,border-color .15s}
+  .text-size-label{font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:none;color:rgba(28,27,23,.45)}
+  .text-size-value{font-family:Manrope,sans-serif;font-size:.8rem;font-weight:600;color:var(--wine);min-width:2.7rem;text-align:center}
+  .command-btn{width:1.68rem;height:1.68rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:var(--ink);font-family:Manrope,sans-serif;font-weight:600;font-size:.92rem;line-height:1;cursor:pointer;transition:background .15s,border-color .15s}
   .command-btn:hover{background:rgba(198,162,77,.14);border-color:var(--gold)}
   .command-btn:focus-visible{outline:2px solid var(--wine);outline-offset:2px}
   .song-favorite{width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.38);font-family:Manrope,sans-serif;font-weight:600;font-size:1rem;line-height:1;cursor:pointer}
@@ -153,12 +153,12 @@
     .song-nav>.command-group:first-child{display:grid;grid-template-columns:auto 1fr;align-items:center;width:100%;gap:.4rem}
     .primary-actions{justify-content:flex-end;gap:.32rem}
     .toolbar-controls{display:grid;grid-template-columns:1fr auto;width:100%;gap:.4rem}
-    .transpose-controls{grid-template-columns:1.7rem minmax(4rem,1fr) 1.7rem auto;gap:.28rem}
-    .text-controls{grid-template-columns:1.9rem 2.35rem 1.9rem;gap:.25rem}
+    .transpose-controls{grid-template-columns:1.62rem minmax(4.4rem,1fr) 1.62rem auto;gap:.3rem}
+    .text-controls{grid-template-columns:1.68rem 2.55rem 1.68rem;gap:.28rem}
     .back-list{font-size:.78rem;padding:.38rem 0}
     .text-size-label,.transpose-label,.command-separator{display:none}
-    .transpose-value{font-size:.68rem}
-    .transpose-reset{font-size:.68rem}
+    .transpose-value{font-size:.76rem}
+    .transpose-reset{font-size:.72rem}
     .song-favorite{width:1.9rem;height:1.9rem;font-size:.92rem}
     .song-setlist,.lyrics-only-toggle,.feedback-trigger{height:1.9rem;padding:0 .38rem;font-size:.68rem}
     .feedback-card{padding:1rem;border-radius:8px}

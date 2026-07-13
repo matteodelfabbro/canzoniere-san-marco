@@ -1,0 +1,102 @@
+{
+  "title": "Chi Darà da Bere a Me",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Chi Darà da Bere a Me  Ritornello Chi  darà   da  bere  a  me   acqua   pura,  acqua    pura,       Chi   ha  l'acqua  di  felici -  tà,       L'acqua    che  ristorerà       L'acqua    che  ristorerà.  Strofa 1                     1. Il mondo    è  già un  deserto,   la terra  inaridì,                       Milioni   di  assetati  si sentono   morir.  Strofa 2                     2. Il mio  fratello  ha  sete,  ma   l'acqua   lui non  ha,                        Se  gli indichi  la strada  la fonte   troverà.  Strofa 3                     3. Orgoglio    e  presunzione     ci tolgono    il respir                        Chiunque     che  vi  beve,  vi  beve  l'ansietà.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       RE             SOL     RE     LA            RE"
+    },
+    {
+      "t": "l",
+      "v": "Chi  darà   da  bere  a  me   acqua   pura,  acqua    pura,"
+    },
+    {
+      "t": "c",
+      "v": "       RE           RE7          SOL    RE"
+    },
+    {
+      "t": "l",
+      "v": "      Chi   ha  l'acqua  di  felici -  tà,"
+    },
+    {
+      "t": "c",
+      "v": "       LA                    SOL     LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "      L'acqua    che  ristorerà"
+    },
+    {
+      "t": "c",
+      "v": "       LA                    RE    RE7"
+    },
+    {
+      "t": "l",
+      "v": "      L'acqua    che  ristorerà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                      SOL                                    RE     RE7"
+    },
+    {
+      "t": "l",
+      "v": "                    1. Il mondo    è  già un  deserto,   la terra  inaridì,"
+    },
+    {
+      "t": "c",
+      "v": "                      SOL                       LA"
+    },
+    {
+      "t": "l",
+      "v": "                      Milioni   di  assetati  si sentono   morir."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "                    2. Il mio  fratello  ha  sete,  ma   l'acqua   lui non  ha,"
+    },
+    {
+      "t": "l",
+      "v": "                       Se  gli indichi  la strada  la fonte   troverà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "                    3. Orgoglio    e  presunzione     ci tolgono    il respir"
+    },
+    {
+      "t": "l",
+      "v": "                       Chiunque     che  vi  beve,  vi  beve  l'ansietà."
+    }
+  ],
+  "id": "chi-dara-da-bere-a-me"
+}

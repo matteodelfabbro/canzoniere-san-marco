@@ -1,0 +1,149 @@
+{
+  "title": "Come Fuoco Vivo",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Come Fuoco Vivo  Intro Vocalizzo  Ritornello Come     fuoco   vivo   si accende   in  noi        un'immensa     felicità        che  mai  più  nessuno    ci toglierà        perché   tu sei ritornato.        Chi  potrà   tacere,  da  ora  in poi,        che  sei tu in cammino      con   noi,        che  la morte   è  vinta  per  sempre,        che  ci hai ridonato    la vita?  Strofa 1 1. Spezzi   il pane  davanti    a noi  mentre    il sole è al tramonto:    ora  gli occhi  ti vedono,    sei tu!  Resta  con   noi.  Strofa 2 2.  E per  sempre    ti mostrerai   in  quel  gesto  d'amore:     mani   che  ancora   spezzano     pane   d'eternità.  Finale",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO      RE-     DO"
+    },
+    {
+      "t": "h",
+      "v": "Vocalizzo"
+    },
+    {
+      "t": "c",
+      "v": "DO RE- DO SOL LA-7 SOL FA DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          DO            SOL             LA-"
+    },
+    {
+      "t": "l",
+      "v": "Come     fuoco   vivo   si accende   in  noi"
+    },
+    {
+      "t": "c",
+      "v": "              RE-7         SOL     DO"
+    },
+    {
+      "t": "l",
+      "v": "       un'immensa     felicità"
+    },
+    {
+      "t": "c",
+      "v": "                  FA       SOL         DO     FA"
+    },
+    {
+      "t": "l",
+      "v": "       che  mai  più  nessuno    ci toglierà"
+    },
+    {
+      "t": "c",
+      "v": "       RE-                   SOL4"
+    },
+    {
+      "t": "l",
+      "v": "       perché   tu sei ritornato."
+    },
+    {
+      "t": "c",
+      "v": "                  DO     SOL        LA-"
+    },
+    {
+      "t": "l",
+      "v": "       Chi  potrà   tacere,  da  ora  in poi,"
+    },
+    {
+      "t": "c",
+      "v": "            RE-7          SOL       DO"
+    },
+    {
+      "t": "l",
+      "v": "       che  sei tu in cammino      con   noi,"
+    },
+    {
+      "t": "c",
+      "v": "                FA        SOL            DO"
+    },
+    {
+      "t": "l",
+      "v": "       che  la morte   è  vinta  per  sempre,"
+    },
+    {
+      "t": "c",
+      "v": "       FA      RE-7               SOL4      SOL"
+    },
+    {
+      "t": "l",
+      "v": "       che  ci hai ridonato    la vita?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   LA-                       FA       DO                           SOL4      SOL"
+    },
+    {
+      "t": "l",
+      "v": "1. Spezzi   il pane  davanti    a noi  mentre    il sole è al tramonto:"
+    },
+    {
+      "t": "c",
+      "v": "   SOL-      LA            RE-    FA                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   ora  gli occhi  ti vedono,    sei tu!  Resta  con   noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.  E per  sempre    ti mostrerai   in  quel  gesto  d'amore:"
+    },
+    {
+      "t": "l",
+      "v": "    mani   che  ancora   spezzano     pane   d'eternità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "DO RE- DO SOL LA-7 SOL FA DO"
+    }
+  ],
+  "id": "come-fuoco-vivo"
+}

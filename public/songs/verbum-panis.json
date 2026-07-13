@@ -1,0 +1,277 @@
+{
+  "title": "Verbum Panis",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Verbum Panis  Intro  Strofa 1      Prima   del  tempo,    prima   ancora    che  la terra      cominciasse    a  vivere,  il Verbo   era  presso   Dio.      Venne    nel  mondo     e per  non   abbandonarci      in questo   viaggio   ci lasciò  tutto  se  stesso  come   pane.  Acclamazione 1 (x2)                Verbum     caro  factum    est                Verbum     panis  factum    est.  Ritornello 1                Qui  spezzi   ancora   il pane   in mezzo    a noi                e chiunque    mangerà     non   avrà   più fame.                Qui  vive  la  tua chiesa   intorno   a  te                dove   ognuno     troverà   la sua  vera  casa.  Finale 1                Verbum     caro  factum    est                Verbum     panis  factum    est                Verbum     caro  factum    est                Verbum     panis!  Strofa 2      Prima   del  tempo,    quando     l'universo   fu creato      dall'oscurità,   il Verbo   era presso   Dio.      Venne    nel  mondo,     nella  sua misericordia      Dio  ha  mandato      il Figlio suo,  tutto  se stesso  come    pane.  Acclamazione 2 (x2)                Verbum     caro   factum   est                Verbum     panis   factum   est.  Ritornello 2 (x2)                Qui   spezzi  ancora    il pane  in  mezzo    a noi                e  chiunque    mangerà     non   avrà  più  fame.                Qui   vive  la tua  chiesa  intorno    a te                dove    ognuno    troverà    la sua  vera  casa.  Finale 2                Verbum     caro   factum   est                Verbum     panis   factum   est                Verbum     caro   factum   est                Verbum     panis   factum   est.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI-    RE     MI-     RE     MI-     RE       DO   RE   MI-"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "     MI-         RE                     MI-           RE"
+    },
+    {
+      "t": "l",
+      "v": "     Prima   del  tempo,    prima   ancora    che  la terra"
+    },
+    {
+      "t": "c",
+      "v": "             MI-           RE    MI-       RE            MI-     RE    (MI-   RE)"
+    },
+    {
+      "t": "l",
+      "v": "     cominciasse    a  vivere,  il Verbo   era  presso   Dio."
+    },
+    {
+      "t": "c",
+      "v": "     MI-            RE              MI-               RE"
+    },
+    {
+      "t": "l",
+      "v": "     Venne    nel  mondo     e per  non   abbandonarci"
+    },
+    {
+      "t": "c",
+      "v": "                  MI-             RE   MI-       RE              MI-     RE"
+    },
+    {
+      "t": "l",
+      "v": "     in questo   viaggio   ci lasciò  tutto  se  stesso  come   pane."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Acclamazione 1 (x2)"
+    },
+    {
+      "t": "c",
+      "v": "               MI-"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     caro  factum    est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     panis  factum    est."
+    },
+    {
+      "t": "c",
+      "v": "DO RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "               SOL    RE                 DO                     RE"
+    },
+    {
+      "t": "l",
+      "v": "               Qui  spezzi   ancora   il pane   in mezzo    a noi"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL              RE   DO               RE"
+    },
+    {
+      "t": "l",
+      "v": "               e chiunque    mangerà     non   avrà   più fame."
+    },
+    {
+      "t": "c",
+      "v": "               SOL    RE              DO                RE"
+    },
+    {
+      "t": "l",
+      "v": "               Qui  vive  la  tua chiesa   intorno   a  te"
+    },
+    {
+      "t": "c",
+      "v": "                         SOL           RE  DO             RE"
+    },
+    {
+      "t": "l",
+      "v": "               dove   ognuno     troverà   la sua  vera  casa."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale 1"
+    },
+    {
+      "t": "c",
+      "v": "               MI-"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     caro  factum    est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     panis  factum    est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     caro  factum    est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     panis!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "     MI-         RE                     MI-        RE"
+    },
+    {
+      "t": "l",
+      "v": "     Prima   del  tempo,    quando     l'universo   fu creato"
+    },
+    {
+      "t": "c",
+      "v": "       MI-      RE   MI-         RE            MI-     RE    (MI-   RE)"
+    },
+    {
+      "t": "l",
+      "v": "     dall'oscurità,   il Verbo   era presso   Dio."
+    },
+    {
+      "t": "c",
+      "v": "     MI-            RE              MI-          RE"
+    },
+    {
+      "t": "l",
+      "v": "     Venne    nel  mondo,     nella  sua misericordia"
+    },
+    {
+      "t": "c",
+      "v": "                    MI-              RE    MI-        RE             MI-     RE"
+    },
+    {
+      "t": "l",
+      "v": "     Dio  ha  mandato      il Figlio suo,  tutto  se stesso  come    pane."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Acclamazione 2 (x2)"
+    },
+    {
+      "t": "c",
+      "v": "               MI-"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     caro   factum   est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     panis   factum   est."
+    },
+    {
+      "t": "c",
+      "v": "DO RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2 (x2)"
+    },
+    {
+      "t": "c",
+      "v": "               SOL     RE                 DO                     RE"
+    },
+    {
+      "t": "l",
+      "v": "               Qui   spezzi  ancora    il pane  in  mezzo    a noi"
+    },
+    {
+      "t": "c",
+      "v": "                     SOL              RE   DO               RE"
+    },
+    {
+      "t": "l",
+      "v": "               e  chiunque    mangerà     non   avrà  più  fame."
+    },
+    {
+      "t": "c",
+      "v": "               SOL    RE               DO               RE"
+    },
+    {
+      "t": "l",
+      "v": "               Qui   vive  la tua  chiesa  intorno    a te"
+    },
+    {
+      "t": "c",
+      "v": "                          SOL           RE  DO             RE"
+    },
+    {
+      "t": "l",
+      "v": "               dove    ognuno    troverà    la sua  vera  casa."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale 2"
+    },
+    {
+      "t": "c",
+      "v": "               MI-"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     caro   factum   est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     panis   factum   est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     caro   factum   est"
+    },
+    {
+      "t": "l",
+      "v": "               Verbum     panis   factum   est."
+    }
+  ],
+  "id": "verbum-panis"
+}

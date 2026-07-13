@@ -1,0 +1,110 @@
+{
+  "title": "Non Avere Paura",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Non Avere Paura  Intro Ritornello               Ma   non   avere   paura,   non   ti fermare   mai               Perché    il mio  amore    è fedele,   e non   finisce mai  Strofa 1    Guardo     sempre    dentro    me  e  non   vedo   te    C'è  rumore    nel  mio   cuor   e non   so perché  Strofa 2    Non    sapere   cosa  dir  non   saper  che  far    Fai  silenzio  dentro    te ed  ascolta   me  Strofa 3    Ogni    volta  che  tu  vuoi  tu  mi  troverai    E  l'amore   mio,   lo sai non   finisce  mai",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "       LA7"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                          RE  (LA)  RE          SI-    (RE)    LA"
+    },
+    {
+      "t": "l",
+      "v": "              Ma   non   avere   paura,   non   ti fermare   mai"
+    },
+    {
+      "t": "c",
+      "v": "                                    SI-        RE      SOL      LA     RE"
+    },
+    {
+      "t": "l",
+      "v": "              Perché    il mio  amore    è fedele,   e non   finisce mai"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE         LA         SI-         SOL       LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Guardo     sempre    dentro    me  e  non   vedo   te"
+    },
+    {
+      "t": "c",
+      "v": "   RE        LA    SI-             SOL     LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "   C'è  rumore    nel  mio   cuor   e non   so perché"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   RE         LA     SI-      SOL     LA         RE"
+    },
+    {
+      "t": "l",
+      "v": "   Non    sapere   cosa  dir  non   saper  che  far"
+    },
+    {
+      "t": "c",
+      "v": "   RE    LA         SI-       SOL     LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Fai  silenzio  dentro    te ed  ascolta   me"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "   RE      LA      SI-         SOL        LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Ogni    volta  che  tu  vuoi  tu  mi  troverai"
+    },
+    {
+      "t": "c",
+      "v": "   RE    LA      SI-          SOL     LA      RE"
+    },
+    {
+      "t": "l",
+      "v": "   E  l'amore   mio,   lo sai non   finisce  mai"
+    }
+  ],
+  "id": "non-avere-paura"
+}

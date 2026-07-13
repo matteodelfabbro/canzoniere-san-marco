@@ -1,0 +1,157 @@
+{
+  "title": "Maranathà",
+  "sub": "Soffio di Dio",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Maranathà Soffio di Dio Intro  Strofa 1    Spirito  Santo   scendi   su di me    e donami     un  cuore   puro      Apri  i miei  occhi  con   la tua  luce  solleva   le mie   braccia  verso   te    Rivelami    la verità  o  Spirito  d'amor    Infiamma     col tuo   fuoco   il mio  cuore  Ritornello    Ma    - ra  -  na   -  thà       vie   -  ni  Signor    Ma    - ra  -  na   -  thà                    vieni  in me   Signor  Strofa 2    Dai  quattro   venti   soffia su  di noi  e sana   ogni  ferita  col tuo   amore      Scendi  dal  cielo  Spirito  di Dio    e semina    la sua  parola   in noi    È acqua   che   zampilla   questo    canto  che    eleviam    Battezzaci   nel  tuo  eterno   amore  Ritornello finale    Ma    - ra  -  na   -  thà       vie   -  ni  Signor    Ma    - ra  -  na   -  thà                    vieni  in me   Signor Finale (noi)    Vie   - ni    Signor!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL DO FA+7"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO        MI-     FA               DO      RE-            LA-     SOL     SOL7"
+    },
+    {
+      "t": "l",
+      "v": "   Spirito  Santo   scendi   su di me    e donami     un  cuore   puro"
+    },
+    {
+      "t": "c",
+      "v": "   DO             MI-      FA           DO         RE-         LA-               SOL"
+    },
+    {
+      "t": "l",
+      "v": "     Apri  i miei  occhi  con   la tua  luce  solleva   le mie   braccia  verso   te"
+    },
+    {
+      "t": "c",
+      "v": "     LA-     SOL           DO           FA+7"
+    },
+    {
+      "t": "l",
+      "v": "   Rivelami    la verità  o  Spirito  d'amor"
+    },
+    {
+      "t": "c",
+      "v": "     DO               SOL                FA"
+    },
+    {
+      "t": "l",
+      "v": "   Infiamma     col tuo   fuoco   il mio  cuore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   SOL    FA            DO         SOL     FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ma    - ra  -  na   -  thà       vie   -  ni  Signor"
+    },
+    {
+      "t": "c",
+      "v": "   SOL    FA   (SOL)    LA-   SOL    FA     DO      SOL        LA-   SOL   DO   FA+7"
+    },
+    {
+      "t": "l",
+      "v": "   Ma    - ra  -  na   -  thà                    vieni  in me   Signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   DO             MI-      FA           DO      RE-           LA-               SOL     SOL7"
+    },
+    {
+      "t": "l",
+      "v": "   Dai  quattro   venti   soffia su  di noi  e sana   ogni  ferita  col tuo   amore"
+    },
+    {
+      "t": "c",
+      "v": "   DO             MI-      FA         DO      RE-         LA-             SOL"
+    },
+    {
+      "t": "l",
+      "v": "     Scendi  dal  cielo  Spirito  di Dio    e semina    la sua  parola   in noi"
+    },
+    {
+      "t": "c",
+      "v": "     LA-            SOL                DO                   FA+7"
+    },
+    {
+      "t": "l",
+      "v": "   È acqua   che   zampilla   questo    canto  che    eleviam"
+    },
+    {
+      "t": "c",
+      "v": "     DO           SOL                 FA"
+    },
+    {
+      "t": "l",
+      "v": "   Battezzaci   nel  tuo  eterno   amore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "   SOL    FA            DO         SOL     FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ma    - ra  -  na   -  thà       vie   -  ni  Signor"
+    },
+    {
+      "t": "c",
+      "v": "   SOL    FA   (SOL)    LA-   SOL    FA     DO      SOL        LA-   SOL   DO   FA+7"
+    },
+    {
+      "t": "l",
+      "v": "   Ma    - ra  -  na   -  thà                    vieni  in me   Signor"
+    },
+    {
+      "t": "h",
+      "v": "Finale (noi)"
+    },
+    {
+      "t": "c",
+      "v": "   DO       FA     DO"
+    },
+    {
+      "t": "l",
+      "v": "   Vie   - ni    Signor!"
+    }
+  ],
+  "id": "maranatha-soffio-di-dio"
+}

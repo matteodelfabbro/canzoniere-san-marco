@@ -1,0 +1,125 @@
+{
+  "title": "Laudato Sii, o Mi Signore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Laudato Sii, o Mi Signore  Ritornello           Laudato     sii, o mi  Signore          Laudato     sii, o mi  Signore           Laudato     sii, o mi  Signore          Laudato     sii, o mi  Signore  Strofa 1     1. E  per  tutte  le tue  creature         per  il sole e per  la  luna        Per  le stelle e  per  il vento         e per   l'acqua  e per  il fuoco  Strofa 2     2.  Per sorella   madre    terra           ci alimenta    e ci sostiene        Per  i frutti i fiori e l'erba          per  i monti   e  per  il mare  Strofa 3     3.  Perché   il senso  della  vita         è cantare   e lodarti        E  perché   la nostra   vita            sia sempre    una   canzone  Strofa 4     4.  E per  quelli  che  ora  piangono      e per  quelli  che  ora   soffrono        E  per  quelli  che  ora  nascono       e per  quelli  che  ora  muoiono",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "           DO                                     LA-"
+    },
+    {
+      "t": "l",
+      "v": "          Laudato     sii, o mi  Signore          Laudato     sii, o mi  Signore"
+    },
+    {
+      "t": "c",
+      "v": "           FA                                     SOL7"
+    },
+    {
+      "t": "l",
+      "v": "          Laudato     sii, o mi  Signore          Laudato     sii, o mi  Signore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       DO                                      LA-"
+    },
+    {
+      "t": "l",
+      "v": "    1. E  per  tutte  le tue  creature         per  il sole e per  la  luna"
+    },
+    {
+      "t": "c",
+      "v": "       FA                                      SOL7"
+    },
+    {
+      "t": "l",
+      "v": "       Per  le stelle e  per  il vento         e per   l'acqua  e per  il fuoco"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "       DO                                      LA-"
+    },
+    {
+      "t": "l",
+      "v": "    2.  Per sorella   madre    terra           ci alimenta    e ci sostiene"
+    },
+    {
+      "t": "c",
+      "v": "       FA                                      SOL7"
+    },
+    {
+      "t": "l",
+      "v": "       Per  i frutti i fiori e l'erba          per  i monti   e  per  il mare"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "       DO                                      LA-"
+    },
+    {
+      "t": "l",
+      "v": "    3.  Perché   il senso  della  vita         è cantare   e lodarti"
+    },
+    {
+      "t": "c",
+      "v": "       FA                                      SOL7"
+    },
+    {
+      "t": "l",
+      "v": "       E  perché   la nostra   vita            sia sempre    una   canzone"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "       DO                                      LA-"
+    },
+    {
+      "t": "l",
+      "v": "    4.  E per  quelli  che  ora  piangono      e per  quelli  che  ora   soffrono"
+    },
+    {
+      "t": "c",
+      "v": "       FA                                      SOL7"
+    },
+    {
+      "t": "l",
+      "v": "       E  per  quelli  che  ora  nascono       e per  quelli  che  ora  muoiono"
+    }
+  ],
+  "id": "laudato-sii-o-mi-signore"
+}

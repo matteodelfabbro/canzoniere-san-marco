@@ -1,0 +1,95 @@
+{
+  "title": "È Bello Lodarti",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "È Bello Lodarti  Ritornello È bello   cantare   il tuo amore,       è  bello  lodare   il tuo  nome.       È bello   cantare    il tuo amore,       è  bello  lodarti,  Signore,       è  bello  cantare   a Te!  Strofa 1 1. Tu  che  sei l'amore    infinito  che  neppure    il cielo può   contenere,    ti sei fatto uomo,     Tu  sei venuto    qui  ad  abitare  in  mezzo    a noi,  allora...  Strofa 2 2. Tu  che  conti  tutte  le stelle e  le chiami   una   ad  una  per  nome,    da  mille  sentieri  ci hai radunati    qui, ci hai  chiamati    figli tuoi, allora...",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       SOL     RE    DO            SOL"
+    },
+    {
+      "t": "l",
+      "v": "È bello   cantare   il tuo amore,"
+    },
+    {
+      "t": "c",
+      "v": "       LA-7        RE4           RE"
+    },
+    {
+      "t": "l",
+      "v": "      è  bello  lodare   il tuo  nome."
+    },
+    {
+      "t": "c",
+      "v": "       SOL     SI4   DO"
+    },
+    {
+      "t": "l",
+      "v": "      È bello   cantare    il tuo amore,"
+    },
+    {
+      "t": "c",
+      "v": "       SOL      RE        DO"
+    },
+    {
+      "t": "l",
+      "v": "      è  bello  lodarti,  Signore,"
+    },
+    {
+      "t": "c",
+      "v": "         SOL        RE      DO"
+    },
+    {
+      "t": "l",
+      "v": "      è  bello  cantare   a Te!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   MI-                    SI-             DO"
+    },
+    {
+      "t": "l",
+      "v": "1. Tu  che  sei l'amore    infinito  che  neppure    il cielo può   contenere,"
+    },
+    {
+      "t": "c",
+      "v": "     LA-         7       RE6                  SI7                       DO"
+    },
+    {
+      "t": "l",
+      "v": "   ti sei fatto uomo,     Tu  sei venuto    qui  ad  abitare  in  mezzo    a noi,  allora..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2. Tu  che  conti  tutte  le stelle e  le chiami   una   ad  una  per  nome,"
+    },
+    {
+      "t": "l",
+      "v": "   da  mille  sentieri  ci hai radunati    qui, ci hai  chiamati    figli tuoi, allora..."
+    }
+  ],
+  "id": "e-bello-lodarti"
+}

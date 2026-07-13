@@ -1,0 +1,196 @@
+{
+  "title": "Come Tu Mi Vuoi",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Come Tu Mi Vuoi  Intro  Strofa 1    Eccomi  Signor,  vengo   a Te mio  Re,  che si compia  in me  la tua volontà.    Eccomi  Signor,  vengo   a Te mio  Dio,  plasma  il cuore mio  e di Te  vivrò.    Se Tu  lo vuoi, Signore  manda   me      e il Tuo nome   annuncerò  Ritornello    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Questa  vita io voglio  donarla  a Te  per dar  gloria al Tuo  nome   mio  Re    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Se mi  guida il Tuo  Amore   paura  non  ho,    per sempre   io sarò                   come   Tu mi  vuoi.  Strofa 2    Eccomi  Signor,  vengo   a Te mio  Re,  che si compia  in me  la tua volontà.    Eccomi  Signor,  vengo   a Te mio  Dio,  plasma  il cuore mio  e di Te  vivrò.    Tra le tue mani   mai più  vacillerò e strumento   Tuo  sarò  Ritornello    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Questa  vita io voglio  donarla  a Te  per dar  gloria al Tuo  nome   mio  Re    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Se mi  guida il Tuo  Amore   paura  non  ho,    per sempre   io sarò  Finale    Come   Tu  mi  vuoi  (Io sarò)    Come   Tu  mi  vuoi  (Io sarò)    Come   Tu  mi  vuoi  (Io sarò)     Come   Tu  mi  vuoi",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL   DO   MI-  RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   SOL              DO                     MI-                           RE"
+    },
+    {
+      "t": "l",
+      "v": "   Eccomi  Signor,  vengo   a Te mio  Re,  che si compia  in me  la tua volontà."
+    },
+    {
+      "t": "c",
+      "v": "   SOL              DO                     MI-                     SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Eccomi  Signor,  vengo   a Te mio  Dio,  plasma  il cuore mio  e di Te  vivrò."
+    },
+    {
+      "t": "c",
+      "v": "   DO             RE                MI-    LA-                SI-    LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Se Tu  lo vuoi, Signore  manda   me      e il Tuo nome   annuncerò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   RE7            SOL       RE                MI-          SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,"
+    },
+    {
+      "t": "c",
+      "v": "           DO       RE         SI-    MI-         FA                         RE4"
+    },
+    {
+      "t": "l",
+      "v": "   Questa  vita io voglio  donarla  a Te  per dar  gloria al Tuo  nome   mio  Re"
+    },
+    {
+      "t": "c",
+      "v": "   RE             MI-        RE   SI           MI-         SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,"
+    },
+    {
+      "t": "c",
+      "v": "         DO               RE       SI        MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Se mi  guida il Tuo  Amore   paura  non  ho,"
+    },
+    {
+      "t": "c",
+      "v": "           LA-       RE                                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "   per sempre   io sarò                   come   Tu mi  vuoi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Eccomi  Signor,  vengo   a Te mio  Re,  che si compia  in me  la tua volontà."
+    },
+    {
+      "t": "l",
+      "v": "   Eccomi  Signor,  vengo   a Te mio  Dio,  plasma  il cuore mio  e di Te  vivrò."
+    },
+    {
+      "t": "l",
+      "v": "   Tra le tue mani   mai più  vacillerò e strumento   Tuo  sarò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   RE7            SOL       RE                MI-          SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,"
+    },
+    {
+      "t": "c",
+      "v": "           DO       RE         SI-    MI-         FA                         RE4"
+    },
+    {
+      "t": "l",
+      "v": "   Questa  vita io voglio  donarla  a Te  per dar  gloria al Tuo  nome   mio  Re"
+    },
+    {
+      "t": "c",
+      "v": "   RE             MI-        RE   SI           MI-         SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,"
+    },
+    {
+      "t": "c",
+      "v": "         DO               RE       SI        MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Se mi  guida il Tuo  Amore   paura  non  ho,"
+    },
+    {
+      "t": "c",
+      "v": "           LA-       RE"
+    },
+    {
+      "t": "l",
+      "v": "   per sempre   io sarò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "                 DO           RE"
+    },
+    {
+      "t": "l",
+      "v": "   Come   Tu  mi  vuoi  (Io sarò)"
+    },
+    {
+      "t": "c",
+      "v": "                 DO           RE"
+    },
+    {
+      "t": "l",
+      "v": "   Come   Tu  mi  vuoi  (Io sarò)"
+    },
+    {
+      "t": "c",
+      "v": "                 DO           RE                     SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Come   Tu  mi  vuoi  (Io sarò)     Come   Tu  mi  vuoi"
+    }
+  ],
+  "id": "come-tu-mi-vuoi"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Tu Sei Sorgente Viva",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Tu Sei Sorgente Viva  Invocazione                                Tu    sei sorgente    vi  - va,                                Tu  sei fuo  - co,    sei     carità.                                Vieni   Spirito        Santo,                                Vieni   Spirito  Santo!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Invocazione"
+    },
+    {
+      "t": "c",
+      "v": "                               RE   SI-    MI-   RE   SI-"
+    },
+    {
+      "t": "l",
+      "v": "                               Tu    sei sorgente    vi  - va,"
+    },
+    {
+      "t": "c",
+      "v": "                               SI-     LA-   MI-   LA-   RE  MI-"
+    },
+    {
+      "t": "l",
+      "v": "                               Tu  sei fuo  - co,    sei     carità."
+    },
+    {
+      "t": "c",
+      "v": "                               SI-   DO               LA-   RE"
+    },
+    {
+      "t": "l",
+      "v": "                               Vieni   Spirito        Santo,"
+    },
+    {
+      "t": "c",
+      "v": "                               MI-    DO      SOL   RE"
+    },
+    {
+      "t": "l",
+      "v": "                               Vieni   Spirito  Santo!"
+    }
+  ],
+  "id": "tu-sei-sorgente-viva"
+}

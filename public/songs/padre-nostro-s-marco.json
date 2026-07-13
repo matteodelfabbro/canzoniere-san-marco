@@ -1,0 +1,88 @@
+{
+  "title": "Padre Nostro",
+  "sub": "S. Marco",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Padre Nostro S. Marco Intro  Preghiera Padre   nostro   che  sei  nei cieli sia    santificato  il tuo  nome Venga    il tuo  regno   sia fatta la  tua volontà Come     in cielo  così in  terra, dacci     oggi  il nostro   pane   quotidiano E rimetti   a noi  i nostri  debiti come    noi  li rimettiamo    ai nostri  debitori E non   ci indurre   in  tentazione,    ma   liberaci  dal male. Finale Amen.                          amen.                          amen.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI DO#- (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Preghiera"
+    },
+    {
+      "t": "c",
+      "v": "MI       DO#-         MI      DO#-     RE   MI     LA    MI        LA"
+    },
+    {
+      "t": "l",
+      "v": "Padre   nostro   che  sei  nei cieli sia    santificato  il tuo  nome"
+    },
+    {
+      "t": "c",
+      "v": "RE     MI        LA          RE       MI       LA"
+    },
+    {
+      "t": "l",
+      "v": "Venga    il tuo  regno   sia fatta la  tua volontà"
+    },
+    {
+      "t": "c",
+      "v": "             RE       MI     LA    DO#-       RE       MI                     LA"
+    },
+    {
+      "t": "l",
+      "v": "Come     in cielo  così in  terra, dacci     oggi  il nostro   pane   quotidiano"
+    },
+    {
+      "t": "c",
+      "v": "  RE          MI            LA    FA#-"
+    },
+    {
+      "t": "l",
+      "v": "E rimetti   a noi  i nostri  debiti"
+    },
+    {
+      "t": "c",
+      "v": "        RE      MI                              LA"
+    },
+    {
+      "t": "l",
+      "v": "come    noi  li rimettiamo    ai nostri  debitori"
+    },
+    {
+      "t": "c",
+      "v": "  MI             LA      MI       LA        RE     MI         LA"
+    },
+    {
+      "t": "l",
+      "v": "E non   ci indurre   in  tentazione,    ma   liberaci  dal male."
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "FA#-     RE    MI                FA#-     RE    MI            FA#-     RE    MI     LA"
+    },
+    {
+      "t": "l",
+      "v": "Amen.                          amen.                          amen."
+    }
+  ],
+  "id": "padre-nostro-s-marco"
+}

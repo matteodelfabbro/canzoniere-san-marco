@@ -1,0 +1,141 @@
+{
+  "title": "Jesus Christ, You Are My Life",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Jesus Christ, You Are My Life  Ritornello - inglese Jesus  Christ  you   are  my   life,  Alle   - luia,  Alle  -  lu  -  ia Jesus  Christ  you   are  my   life, you  are  my   life, Al  - lelu   - ia  Ritornello - italiano           Cristo   vive    in mezzo    a  noi,  Alle   -  luia, Alle  - lu  -  ia           Cristo   vive    in mezzo    a  noi, in  mezzo    a noi,  Al   - lelu  - ia  Strofa 1 1.  Tu  sei Via    sei Verità     Tu  sei la nostra       vi     -     ta     Camminando        insieme    a Te     Vivremo     in Te  per  sem    -  pre  Strofa 2 2. Ci  raccogli   nell'unità,     riuniti nell'amore,     nella  gioia  dinanzi   a Te     cantando     la Tua   gloria.  Strofa 3 3.  Nella  gioia  camminerem,     portando     il Tuo  Vangelo,     testimoni    di carità,     figli di Dio  nel  mondo.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello - inglese"
+    },
+    {
+      "t": "c",
+      "v": "DO     SOL     FA             DO      RE-      LA-            RE-    SOL"
+    },
+    {
+      "t": "l",
+      "v": "Jesus  Christ  you   are  my   life,  Alle   - luia,  Alle  -  lu  -  ia"
+    },
+    {
+      "t": "c",
+      "v": "DO     SOL     LA-            DO     FA             DO         SOL       DO"
+    },
+    {
+      "t": "l",
+      "v": "Jesus  Christ  you   are  my   life, you  are  my   life, Al  - lelu   - ia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello - italiano"
+    },
+    {
+      "t": "c",
+      "v": "          DO       SOL     FA            DO     RE-       LA-          RE-     SOL"
+    },
+    {
+      "t": "l",
+      "v": "          Cristo   vive    in mezzo    a  noi,  Alle   -  luia, Alle  - lu  -  ia"
+    },
+    {
+      "t": "c",
+      "v": "          DO       SOL     LA-           DO    FA             DO          SOL      DO"
+    },
+    {
+      "t": "l",
+      "v": "          Cristo   vive    in mezzo    a  noi, in  mezzo    a noi,  Al   - lelu  - ia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "     MI     LA-    MI         LA-"
+    },
+    {
+      "t": "l",
+      "v": "1.  Tu  sei Via    sei Verità"
+    },
+    {
+      "t": "c",
+      "v": "     FA           DO      RE-7     DO     SOL"
+    },
+    {
+      "t": "l",
+      "v": "    Tu  sei la nostra       vi     -     ta"
+    },
+    {
+      "t": "c",
+      "v": "    MI        LA-     FA              DO"
+    },
+    {
+      "t": "l",
+      "v": "    Camminando        insieme    a Te"
+    },
+    {
+      "t": "c",
+      "v": "    FA               DO      RE6   SOL"
+    },
+    {
+      "t": "l",
+      "v": "    Vivremo     in Te  per  sem    -  pre"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2. Ci  raccogli   nell'unità,"
+    },
+    {
+      "t": "l",
+      "v": "    riuniti nell'amore,"
+    },
+    {
+      "t": "l",
+      "v": "    nella  gioia  dinanzi   a Te"
+    },
+    {
+      "t": "l",
+      "v": "    cantando     la Tua   gloria."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.  Nella  gioia  camminerem,"
+    },
+    {
+      "t": "l",
+      "v": "    portando     il Tuo  Vangelo,"
+    },
+    {
+      "t": "l",
+      "v": "    testimoni    di carità,"
+    },
+    {
+      "t": "l",
+      "v": "    figli di Dio  nel  mondo."
+    }
+  ],
+  "id": "jesus-christ-you-are-my-life"
+}

@@ -1,0 +1,127 @@
+{
+  "title": "Alleluia e Poi",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia e Poi  Strofa 1    Chiama    ed  io  verrò  da   Te    Figlio  nel silenzio   mi  accoglierai.    Voce   e poi  la  libertà    nella  tua  parola   camminerò  Ritornello    Alleluia      Alleluia        Alleluia    Alleluia      Alle -    lu  -   ia    Alleluia      Alleluia        Alleluia    Alleluia      Alle -  lu - ia  Strofa 2    Danza    ed  io verrò   con  Te    Figlio  la tua  strada  comprenderò.    Luce  e  poi  nel tempo     Tuo    oltre il desiderio riposerò    RIT.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE        LA      SI-         FA#-"
+    },
+    {
+      "t": "l",
+      "v": "   Chiama    ed  io  verrò  da   Te"
+    },
+    {
+      "t": "c",
+      "v": "   SOL           RE         MI         LA4"
+    },
+    {
+      "t": "l",
+      "v": "   Figlio  nel silenzio   mi  accoglierai."
+    },
+    {
+      "t": "c",
+      "v": "   RE        LA      SI-  FA#-"
+    },
+    {
+      "t": "l",
+      "v": "   Voce   e poi  la  libertà"
+    },
+    {
+      "t": "c",
+      "v": "   SOL           RE          MI    LA4"
+    },
+    {
+      "t": "l",
+      "v": "   nella  tua  parola   camminerò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   RE             LA              SI-   FA#-"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia      Alleluia        Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   SOL           RE        MI7     LA4"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia      Alle -    lu  -   ia"
+    },
+    {
+      "t": "c",
+      "v": "   RE             LA              SI-   FA#-"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia      Alleluia        Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   SOL           RE     LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia      Alle -  lu - ia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   RE          LA     SI-       FA#-"
+    },
+    {
+      "t": "l",
+      "v": "   Danza    ed  io verrò   con  Te"
+    },
+    {
+      "t": "c",
+      "v": "   SOL            RE            MI        LA4"
+    },
+    {
+      "t": "l",
+      "v": "   Figlio  la tua  strada  comprenderò."
+    },
+    {
+      "t": "c",
+      "v": "   RE      LA         SI-     FA#-"
+    },
+    {
+      "t": "l",
+      "v": "   Luce  e  poi  nel tempo     Tuo"
+    },
+    {
+      "t": "c",
+      "v": "   SOL           RE    MI     LA4"
+    },
+    {
+      "t": "l",
+      "v": "   oltre il desiderio riposerò    RIT."
+    }
+  ],
+  "id": "alleluia-e-poi"
+}

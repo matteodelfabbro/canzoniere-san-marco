@@ -1,0 +1,152 @@
+{
+  "title": "Le Tue Mani",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Le Tue Mani  Intro  Strofa 1    Le tue mani   son piene  di fiori    dove  li portavi fratello mio?    Li portavo  alla tomba   di Cristo,    ma  l'ho trovata  vuota  sorella mia.  Ritornello Al    -     le -  lu - ia        Al  - le - lu - ia                           Al    -     le -  lu - ia        Al - le - lu - ia  Strofa 2    I tuoi occhi riflettono gioia,    dimmi   cosa hai visto fratello mio?    Ho  veduto   morire  la morte,    ecco  cosa ho  visto sorella mia.  Rit.  Strofa 3    Hai portato   una  mano   all'orecchio,    dimmi   cosa ascolti fratello mio?    Sento  squilli di tromba  lontani,    sento  cori d'angeli sorella mia.  RIT.  Strofa 4    Stai cantando   un'allegra canzone    dimmi   perché  canti fratello mio?    Perché  so che  la vita non muore    ecco  perché  canto  sorella mia.     RIT.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE LA  RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "           RE        LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "   Le tue mani   son piene  di fiori"
+    },
+    {
+      "t": "c",
+      "v": "            FA#-      SOL     LA7"
+    },
+    {
+      "t": "l",
+      "v": "   dove  li portavi fratello mio?"
+    },
+    {
+      "t": "c",
+      "v": "          RE        LA         RE"
+    },
+    {
+      "t": "l",
+      "v": "   Li portavo  alla tomba   di Cristo,"
+    },
+    {
+      "t": "c",
+      "v": "                      SI-     LA     RE7"
+    },
+    {
+      "t": "l",
+      "v": "   ma  l'ho trovata  vuota  sorella mia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                          SOL   LA           RE  SI-    SOL     LA        RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "Al    -     le -  lu - ia        Al  - le - lu - ia"
+    },
+    {
+      "t": "c",
+      "v": "                          SOL  LA            RE  SI-    SOL     LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "                          Al    -     le -  lu - ia        Al - le - lu - ia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   I tuoi occhi riflettono gioia,"
+    },
+    {
+      "t": "l",
+      "v": "   dimmi   cosa hai visto fratello mio?"
+    },
+    {
+      "t": "l",
+      "v": "   Ho  veduto   morire  la morte,"
+    },
+    {
+      "t": "l",
+      "v": "   ecco  cosa ho  visto sorella mia.  Rit."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "   Hai portato   una  mano   all'orecchio,"
+    },
+    {
+      "t": "l",
+      "v": "   dimmi   cosa ascolti fratello mio?"
+    },
+    {
+      "t": "l",
+      "v": "   Sento  squilli di tromba  lontani,"
+    },
+    {
+      "t": "l",
+      "v": "   sento  cori d'angeli sorella mia.  RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "   Stai cantando   un'allegra canzone"
+    },
+    {
+      "t": "l",
+      "v": "   dimmi   perché  canti fratello mio?"
+    },
+    {
+      "t": "l",
+      "v": "   Perché  so che  la vita non muore"
+    },
+    {
+      "t": "l",
+      "v": "   ecco  perché  canto  sorella mia.     RIT."
+    }
+  ],
+  "id": "le-tue-mani"
+}

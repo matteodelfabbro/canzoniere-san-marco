@@ -1,0 +1,135 @@
+{
+  "title": "Spirito di Dio",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Spirito di Dio  Invocazione 1                           Spirito  di  Dio  riempimi                           Spirito  di  Dio  battezzami                           Spirito  di  Dio  consacrami                           Vieni   ad  abitare  dentro    me!  Invocazione 2                           Spirito  di  Dio  guariscimi                           Spirito  di  Dio  rinnovami                           Spirito  di  Dio  consacrami                           Vieni   ad  abitare  dentro    me!  Finale in MI                           Spirito  di  Dio  riempici                           Spirito  di  Dio  battezzaci                           Spirito  di  Dio  consa    -  cra    -   ci                           Vieni   ad  abitare  dentro    noi!                           Vieni   ad  abitare  dentro    noi!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Invocazione 1"
+    },
+    {
+      "t": "c",
+      "v": "                          RE           SOL          RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  riempimi"
+    },
+    {
+      "t": "c",
+      "v": "                          RE           SOL          MI     LA7"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  battezzami"
+    },
+    {
+      "t": "c",
+      "v": "                          RE           SOL       RE    FA#7      SI-"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  consacrami"
+    },
+    {
+      "t": "c",
+      "v": "                          SOL             LA             RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": "                          Vieni   ad  abitare  dentro    me!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 2"
+    },
+    {
+      "t": "c",
+      "v": "                          RE           SOL            RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  guariscimi"
+    },
+    {
+      "t": "c",
+      "v": "                          RE           SOL            MI    LA7"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  rinnovami"
+    },
+    {
+      "t": "c",
+      "v": "                          RE           SOL       RE    FA#7      SI-"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  consacrami"
+    },
+    {
+      "t": "c",
+      "v": "                          SOL             LA             RE    SI7"
+    },
+    {
+      "t": "l",
+      "v": "                          Vieni   ad  abitare  dentro    me!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale in MI"
+    },
+    {
+      "t": "c",
+      "v": "                          MI          LA           MI    LA"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  riempici"
+    },
+    {
+      "t": "c",
+      "v": "                          MI          LA       FA#     SI   SI7"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  battezzaci"
+    },
+    {
+      "t": "c",
+      "v": "                          MI           LA       MI     SOL#7       DO#-"
+    },
+    {
+      "t": "l",
+      "v": "                          Spirito  di  Dio  consa    -  cra    -   ci"
+    },
+    {
+      "t": "c",
+      "v": "                          LA              SI             MI"
+    },
+    {
+      "t": "l",
+      "v": "                          Vieni   ad  abitare  dentro    noi!"
+    },
+    {
+      "t": "c",
+      "v": "                          LA              SI             MI"
+    },
+    {
+      "t": "l",
+      "v": "                          Vieni   ad  abitare  dentro    noi!"
+    }
+  ],
+  "id": "spirito-di-dio"
+}

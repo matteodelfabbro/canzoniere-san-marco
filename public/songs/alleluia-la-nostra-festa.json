@@ -1,0 +1,67 @@
+{
+  "title": "Alleluia",
+  "sub": "La nostra festa",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia La nostra festa Ritornello 1 pennata Alleluia!  (7v)  Strofa    La nostra   festa  non   deve   finire, non   deve   finire e  non   finirà.       (2v)    Perché   la festa  siamo   noi,  che  camminiamo        verso  Te.    Perché   la festa  siamo   noi,  cantando     insieme   così!  La, la, la...  Ritornello (ripetere)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "h",
+      "v": "1 pennata"
+    },
+    {
+      "t": "c",
+      "v": "       DO    FA   DO    SOL    DO    FA   DO     SOL   DO        [ SOL    DO   ]      ( 2 v )"
+    },
+    {
+      "t": "l",
+      "v": "Alleluia!  (7v)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "   DO         FA           SOL        DO           LA-     RE-    SOL    DO"
+    },
+    {
+      "t": "l",
+      "v": "   La nostra   festa  non   deve   finire, non   deve   finire e  non   finirà.       (2v)"
+    },
+    {
+      "t": "c",
+      "v": "       FA     SOL    DO       LA-       FA       SOL      DO        DO7"
+    },
+    {
+      "t": "l",
+      "v": "   Perché   la festa  siamo   noi,  che  camminiamo        verso  Te."
+    },
+    {
+      "t": "c",
+      "v": "       FA     SOL     DO      LA-   RE7             SOL    DO    LA-   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Perché   la festa  siamo   noi,  cantando     insieme   così!  La, la, la..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    }
+  ],
+  "id": "alleluia-la-nostra-festa"
+}

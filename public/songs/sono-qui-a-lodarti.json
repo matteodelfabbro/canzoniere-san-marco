@@ -1,0 +1,148 @@
+{
+  "title": "Sono Qui a Lodarti",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Sono Qui a Lodarti  Strofa 1    Luce  del  mondo,     nel  buio  del  cuore    Vieni  ed  illuminami    Tu  mia   sola speranza    di  vita    Resta  per   sempre    con  me  Ritornello Sono   qui  a  lodarti,  qui  per  adorarti          Qui   per  dirti che  Tu   sei il mio  Dio          E  solo  Tu  sei santo,   sei meraviglioso          Degno     e glorioso   sei per  me.  Strofa 2    Re  della  storia  e Re  nella  gloria    Sei sceso  in  terra  fra noi    Con   umiltà   il Tuo  trono   hai  lasciato    Per  dimostrarci    il Tuo  amor  Ripetere il ritornello  Ponte (x4)    Io mai   saprò   quanto    ti costò    Lì sulla croce   morir   per  me  Ripetere il ritornello",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE          LA           MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Luce  del  mondo,     nel  buio  del  cuore"
+    },
+    {
+      "t": "c",
+      "v": "   RE      LA      SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Vieni  ed  illuminami"
+    },
+    {
+      "t": "c",
+      "v": "   RE        LA        MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  mia   sola speranza    di  vita"
+    },
+    {
+      "t": "c",
+      "v": "   RE          LA         SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Resta  per   sempre    con  me"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                     RE                  LA"
+    },
+    {
+      "t": "l",
+      "v": "Sono   qui  a  lodarti,  qui  per  adorarti"
+    },
+    {
+      "t": "c",
+      "v": "                     SI-                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "         Qui   per  dirti che  Tu   sei il mio  Dio"
+    },
+    {
+      "t": "c",
+      "v": "                            RE                    LA"
+    },
+    {
+      "t": "l",
+      "v": "         E  solo  Tu  sei santo,   sei meraviglioso"
+    },
+    {
+      "t": "c",
+      "v": "                           SI-             SOL"
+    },
+    {
+      "t": "l",
+      "v": "         Degno     e glorioso   sei per  me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Re  della  storia  e Re  nella  gloria"
+    },
+    {
+      "t": "l",
+      "v": "   Sei sceso  in  terra  fra noi"
+    },
+    {
+      "t": "l",
+      "v": "   Con   umiltà   il Tuo  trono   hai  lasciato"
+    },
+    {
+      "t": "l",
+      "v": "   Per  dimostrarci    il Tuo  amor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte (x4)"
+    },
+    {
+      "t": "c",
+      "v": "        LA        RE        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Io mai   saprò   quanto    ti costò"
+    },
+    {
+      "t": "c",
+      "v": "       LA    RE      SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Lì sulla croce   morir   per  me"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    }
+  ],
+  "id": "sono-qui-a-lodarti"
+}

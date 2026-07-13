@@ -1,0 +1,142 @@
+{
+  "title": "Adoro Te",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Adoro Te  Strofa 1    Sei qui  davanti   a  me,  o  mio   Signore,    sei in questa   brezza   che  ristora  il cuore,    roveto   che  mai   si consumerà,    presenza    che  riempie   l'anima.  Ritornello          Adoro    Te, fonte   della  Vita,          adoro    Te, Trinità  infinita.          I miei  calzari  leverò   su questo    santo  suolo,          alla presenza    Tua  mi   pro  - stre  - rò  Strofa 2    Sei qui  davanti    a me,   o mio   Signore,    nella  Tua  grazia  trovo   la mia   gioia.    Io lodo,   ringrazio   e prego    perché    il mondo    ritorni  a vivere   in Te.  Finale Mio Signor",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE                         LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei qui  davanti   a  me,  o  mio   Signore,"
+    },
+    {
+      "t": "c",
+      "v": "   SI-                     DO#               FA#"
+    },
+    {
+      "t": "l",
+      "v": "   sei in questa   brezza   che  ristora  il cuore,"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                        RE"
+    },
+    {
+      "t": "l",
+      "v": "   roveto   che  mai   si consumerà,"
+    },
+    {
+      "t": "c",
+      "v": "   DO       SOL                LA4   LA"
+    },
+    {
+      "t": "l",
+      "v": "   presenza    che  riempie   l'anima."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "         RE-          DO               FA4   FA"
+    },
+    {
+      "t": "l",
+      "v": "         Adoro    Te, fonte   della  Vita,"
+    },
+    {
+      "t": "c",
+      "v": "         RE-          DO            FA4    FA"
+    },
+    {
+      "t": "l",
+      "v": "         adoro    Te, Trinità  infinita."
+    },
+    {
+      "t": "c",
+      "v": "         LA-         RE-      RE-7              LA-      SOL-7    SOL-6"
+    },
+    {
+      "t": "l",
+      "v": "         I miei  calzari  leverò   su questo    santo  suolo,"
+    },
+    {
+      "t": "c",
+      "v": "         SOL-        RE-            MI      LA      SIb    DO"
+    },
+    {
+      "t": "l",
+      "v": "         alla presenza    Tua  mi   pro  - stre  - rò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   RE                         LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei qui  davanti    a me,   o mio   Signore,"
+    },
+    {
+      "t": "c",
+      "v": "   SI-                   DO#              FA#"
+    },
+    {
+      "t": "l",
+      "v": "   nella  Tua  grazia  trovo   la mia   gioia."
+    },
+    {
+      "t": "c",
+      "v": "   SOL                        RE"
+    },
+    {
+      "t": "l",
+      "v": "   Io lodo,   ringrazio   e prego    perché"
+    },
+    {
+      "t": "c",
+      "v": "   DO        SOL                  LA4    LA"
+    },
+    {
+      "t": "l",
+      "v": "   il mondo    ritorni  a vivere   in Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "DO RE-"
+    },
+    {
+      "t": "l",
+      "v": "Mio Signor"
+    }
+  ],
+  "id": "adoro-te"
+}

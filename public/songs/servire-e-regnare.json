@@ -1,0 +1,149 @@
+{
+  "title": "Servire È Regnare",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Servire È Regnare  Intro  Strofa 1    Guardiamo      a te  che  sei   Maestro    e  Signore    chinato   a terra  stai,   ci mostri   che  l'amore    è cingersi  il grembiule,      sapersi  inginocchiare,    c'insegni  che   amare             è servire.  Ritornello Fa'  che  impariamo,      Signore,   da  Te,    che  il più grande    è chi  più  sa      servire,    chi si abbassa   e  chi si sa piegare,    perché   grande    è soltanto   l'amore.  Strofa 2    E ti vediamo     poi,    Maestro    e Signore,    che  lavi i piedi  a noi     che  siamo   tue  creature;    e cinto  del  grembiule,       che  è il manto    tuo  regale,    c'insegni  che   servire           è  regnare.  Finale",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "REm      LA#    FA     DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "        REm                  LA#       FA            DO"
+    },
+    {
+      "t": "l",
+      "v": "   Guardiamo      a te  che  sei   Maestro    e  Signore"
+    },
+    {
+      "t": "c",
+      "v": "       REm            LA#          FA              DO"
+    },
+    {
+      "t": "l",
+      "v": "   chinato   a terra  stai,   ci mostri   che  l'amore"
+    },
+    {
+      "t": "c",
+      "v": "       REm              LA#           FA           DO"
+    },
+    {
+      "t": "l",
+      "v": "   è cingersi  il grembiule,      sapersi  inginocchiare,"
+    },
+    {
+      "t": "c",
+      "v": "       REm            LA#    DO           REm               DO"
+    },
+    {
+      "t": "l",
+      "v": "   c'insegni  che   amare             è servire."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "           FA            DO             SOLm      REm"
+    },
+    {
+      "t": "l",
+      "v": "Fa'  che  impariamo,      Signore,   da  Te,"
+    },
+    {
+      "t": "c",
+      "v": "                  LA#               SOLm7        LA"
+    },
+    {
+      "t": "l",
+      "v": "   che  il più grande    è chi  più  sa      servire,"
+    },
+    {
+      "t": "c",
+      "v": "           REm               LA#     FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "   chi si abbassa   e  chi si sa piegare,"
+    },
+    {
+      "t": "c",
+      "v": "           LA#             DO          REm      LA#     FA   DO"
+    },
+    {
+      "t": "l",
+      "v": "   perché   grande    è soltanto   l'amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "     REm            LA#        FA           DO"
+    },
+    {
+      "t": "l",
+      "v": "   E ti vediamo     poi,    Maestro    e Signore,"
+    },
+    {
+      "t": "c",
+      "v": "        REm             LA#           FA               DO"
+    },
+    {
+      "t": "l",
+      "v": "   che  lavi i piedi  a noi     che  siamo   tue  creature;"
+    },
+    {
+      "t": "c",
+      "v": "      REm                LA#                FA            DO"
+    },
+    {
+      "t": "l",
+      "v": "   e cinto  del  grembiule,       che  è il manto    tuo  regale,"
+    },
+    {
+      "t": "c",
+      "v": "        REm           LA#     DO           REm               DO"
+    },
+    {
+      "t": "l",
+      "v": "   c'insegni  che   servire           è  regnare."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "REm LA# FA DO REm"
+    }
+  ],
+  "id": "servire-e-regnare"
+}

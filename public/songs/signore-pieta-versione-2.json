@@ -1,0 +1,90 @@
+{
+  "title": "Signore Pietà",
+  "sub": "Versione 2",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Signore Pietà Versione 2 Intro  Invocazione 1                  Signore,   che  sei   venuto    a perdonare,                  abbi  pietà   di noi,       abbi  pietà  di  noi.                  Signore   pietà,  Signore    pietà.  Invocazione 2                  Cristo,  che  fai festa  per  chi  ritorna  a te,                  abbi  pietà   di noi,  abbi  pietà  di  noi.                  Cristo  pietà,  Cristo   pietà.  Invocazione 3                  Signore,   che  perdoni    molto    a chi  molto   ama,                  abbi  pietà   di noi,  abbi  pietà  di  noi.                  Signore   pietà,  Signore    pietà.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI    FA#-     SOL#-       LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 1"
+    },
+    {
+      "t": "c",
+      "v": "                    MI           FA#-      SOL#-           LA"
+    },
+    {
+      "t": "l",
+      "v": "                 Signore,   che  sei   venuto    a perdonare,"
+    },
+    {
+      "t": "c",
+      "v": "                 DO#-             SOL#-      LA               MI"
+    },
+    {
+      "t": "l",
+      "v": "                 abbi  pietà   di noi,       abbi  pietà  di  noi."
+    },
+    {
+      "t": "c",
+      "v": "                   LA         MI     LA         MI    FA#-     SOL#-      LA"
+    },
+    {
+      "t": "l",
+      "v": "                 Signore   pietà,  Signore    pietà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 2"
+    },
+    {
+      "t": "l",
+      "v": "                 Cristo,  che  fai festa  per  chi  ritorna  a te,"
+    },
+    {
+      "t": "l",
+      "v": "                 abbi  pietà   di noi,  abbi  pietà  di  noi."
+    },
+    {
+      "t": "l",
+      "v": "                 Cristo  pietà,  Cristo   pietà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 3"
+    },
+    {
+      "t": "l",
+      "v": "                 Signore,   che  perdoni    molto    a chi  molto   ama,"
+    },
+    {
+      "t": "l",
+      "v": "                 abbi  pietà   di noi,  abbi  pietà  di  noi."
+    },
+    {
+      "t": "l",
+      "v": "                 Signore   pietà,  Signore    pietà."
+    }
+  ],
+  "id": "signore-pieta-versione-2"
+}

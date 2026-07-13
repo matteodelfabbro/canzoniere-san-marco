@@ -1,0 +1,125 @@
+{
+  "title": "Non Vivere di Corsa",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Non Vivere di Corsa  Strofa 1 Non    vivere  di  corsa  ma   fermati   a guardare    la  strada  che  percorri così  un  giorno   ti accorgerai    di non   aver  vissuto   un'esistenza    inutile.  Ritornello Non   temere    non   sei solo  Lui  cammina     sempre    insieme   a  te           chiede   solo  di avere   in Lui  fiducia  di  accettarlo   di amarlo  Strofa 2 C'è  gente   che  ride  anche   di  te cui basta   il conto  in  banca   l'ossequio   riverente e non   si rende   conto   che   solo  tu Signore   puoi   dar  la vera   gioia.  Strofa 3 Signore   io  non   posso   venire   sono   stanco   e ho  da  fare  ho  i figli da guardare io  devo   pur  studiare   sfruttando    il tempo    libero  non   posso   a Te  pensare.  Strofa 4 Io  temo   d'ingannarmi      scegliendo    la Tua   strada  amando      tutti quanti ma   so  che  sei risorto  che  una   speranza    nuova    Tu  stesso  ci hai donato",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE                FA#-    FA-   MI-                         SOL             LA"
+    },
+    {
+      "t": "l",
+      "v": "Non    vivere  di  corsa  ma   fermati   a guardare    la  strada  che  percorri"
+    },
+    {
+      "t": "c",
+      "v": "RE                       FA#-      FA-  MI-                    SOL            LA"
+    },
+    {
+      "t": "l",
+      "v": "così  un  giorno   ti accorgerai    di non   aver  vissuto   un'esistenza    inutile."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          RE            FA#                SI7              MI-                      SOL-"
+    },
+    {
+      "t": "l",
+      "v": "Non   temere    non   sei solo  Lui  cammina     sempre    insieme   a  te"
+    },
+    {
+      "t": "c",
+      "v": "          SOL-     SIb LA      RE              SI-  MI-                   SOL-   LA"
+    },
+    {
+      "t": "l",
+      "v": "          chiede   solo  di avere   in Lui  fiducia  di  accettarlo   di amarlo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE                FA#-                FA-   MI-                              SOL        LA"
+    },
+    {
+      "t": "l",
+      "v": "C'è  gente   che  ride  anche   di  te cui basta   il conto  in  banca   l'ossequio   riverente"
+    },
+    {
+      "t": "c",
+      "v": "RE                  FA#-    FA-  MI-                       SOL             LA"
+    },
+    {
+      "t": "l",
+      "v": "e non   si rende   conto   che   solo  tu Signore   puoi   dar  la vera   gioia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "RE                   FA#-            FA-     MI-                           SOL         LA"
+    },
+    {
+      "t": "l",
+      "v": "Signore   io  non   posso   venire   sono   stanco   e ho  da  fare  ho  i figli da guardare"
+    },
+    {
+      "t": "c",
+      "v": "RE                   FA#-    FA-   MI-                             SOL                LA"
+    },
+    {
+      "t": "l",
+      "v": "io  devo   pur  studiare   sfruttando    il tempo    libero  non   posso   a Te  pensare."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "RE              FA#-         FA-   MI-                         SOL              LA"
+    },
+    {
+      "t": "l",
+      "v": "Io  temo   d'ingannarmi      scegliendo    la Tua   strada  amando      tutti quanti"
+    },
+    {
+      "t": "c",
+      "v": "RE                 FA#-    FA-  MI-                            SOL                LA"
+    },
+    {
+      "t": "l",
+      "v": "ma   so  che  sei risorto  che  una   speranza    nuova    Tu  stesso  ci hai donato"
+    }
+  ],
+  "id": "non-vivere-di-corsa"
+}

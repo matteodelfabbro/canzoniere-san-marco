@@ -1,0 +1,131 @@
+{
+  "title": "Dove Troveremo Tutto il Pane",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Dove Troveremo Tutto il Pane  Ritornello         Dove    troveremo     tutto  il pane        Per  sfamare   tanta   gente         Dove    troveremo     tutto  il pane        Se non   abbiamo     niente  Strofa 1   Io  possiedo    solo  cinque   pani             Io possiedo    solo   due  pesci   Io  possiedo    un  soldo   soltanto            Io  non   possiedo    niente  Ritornello (ripetere)  Strofa 2   Io  so suonare    la chitarra                    Io  so dipingere,    fare  poesie,   Io  so scrivere   e penso    molto               Io  non   so fare  niente  Ritornello (ripetere)  Strofa 3   Io  sono   un  tipo  molto    bello               Io sono   intelligente   Io  sono   molto   furbo                          Io non   sono   niente  Ritornello finale         Dio  ci ha  dato   tutto  il pane         Per sfamare    tanta   gente         Dio  ci ha  dato   tutto  il pane         Anche   se  non   abbiamo     niente         Anche    se non   abbiamo     niente",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "        RE                    SOL        LA         RE             SOL       LA"
+    },
+    {
+      "t": "l",
+      "v": "        Dove    troveremo     tutto  il pane        Per  sfamare   tanta   gente"
+    },
+    {
+      "t": "c",
+      "v": "        RE                    SOL        LA         RE           LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "        Dove    troveremo     tutto  il pane        Se non   abbiamo     niente"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "  RE              MI-             LA              RE             SOL          LA"
+    },
+    {
+      "t": "l",
+      "v": "  Io  possiedo    solo  cinque   pani             Io possiedo    solo   due  pesci"
+    },
+    {
+      "t": "c",
+      "v": "  RE                  MI-         LA              RE            LA7      RE"
+    },
+    {
+      "t": "l",
+      "v": "  Io  possiedo    un  soldo   soltanto            Io  non   possiedo    niente"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "  Io  so suonare    la chitarra                    Io  so dipingere,    fare  poesie,"
+    },
+    {
+      "t": "l",
+      "v": "  Io  so scrivere   e penso    molto               Io  non   so fare  niente"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "  Io  sono   un  tipo  molto    bello               Io sono   intelligente"
+    },
+    {
+      "t": "l",
+      "v": "  Io  sono   molto   furbo                          Io non   sono   niente"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "        RE                 SOL        LA          RE              SOL    LA"
+    },
+    {
+      "t": "l",
+      "v": "        Dio  ci ha  dato   tutto  il pane         Per sfamare    tanta   gente"
+    },
+    {
+      "t": "c",
+      "v": "        RE                 SOL        LA                   RE           LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "        Dio  ci ha  dato   tutto  il pane         Anche   se  non   abbiamo     niente"
+    },
+    {
+      "t": "c",
+      "v": "                 RE           LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "        Anche    se non   abbiamo     niente"
+    }
+  ],
+  "id": "dove-troveremo-tutto-il-pane"
+}

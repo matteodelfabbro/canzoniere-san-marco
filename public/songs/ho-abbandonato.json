@@ -1,0 +1,157 @@
+{
+  "title": "Ho Abbandonato",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ho Abbandonato  Ritornello 1                Ho   abbandonato                dietro  di me                Ogni   paura   ogni   dubbio    perché                Una   grande    gioia           mi  sento   in cuor                Se  penso   a quanto    è buono    il mio   Signor  Strofa 1         Ha  fatto  i cieli sopra   di me         Ha  fatto  il sole, il mare   i fior         Ma   il più bel  dono    che  mi  ha  fatto  il mio  Signor         È stata la  vita ed  il suo  amor  Ritornello 2                Ho   abbandonato       dietro   di me                Ogni   tristezza   ogni  dolor                E  credo   ancora   in un   mondo     che                Sarà  diverso   a causa   del  suo  amor  Strofa 2         Se  poi  un  giorno   mi  chiamerà         Un   lungo   viaggio   io farò         Per  monti   e  valli allor a  tutti io dirò         Sappiate    che  è buono    il mio  signor  Ritornello finale                Ho   abbandonato       dietro  di  me                Ogni   paura   ogni   dubbio    perché                Una   grande    gioia  mi  sento   in cuor                Se  penso   a quanto    è buono    il mio   Signor",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "        RE7                     SOL    SOL7               DO     LA-"
+    },
+    {
+      "t": "l",
+      "v": "               Ho   abbandonato                dietro  di me"
+    },
+    {
+      "t": "c",
+      "v": "                         RE           RE7          SOL       (DO    SOL)"
+    },
+    {
+      "t": "l",
+      "v": "               Ogni   paura   ogni   dubbio    perché"
+    },
+    {
+      "t": "c",
+      "v": "                                SOL     SOL7                    DO      LA-"
+    },
+    {
+      "t": "l",
+      "v": "               Una   grande    gioia           mi  sento   in cuor"
+    },
+    {
+      "t": "c",
+      "v": "                                RE          RE7                SOL       (DO    SOL)"
+    },
+    {
+      "t": "l",
+      "v": "               Se  penso   a quanto    è buono    il mio   Signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                     DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "        Ha  fatto  i cieli sopra   di me"
+    },
+    {
+      "t": "c",
+      "v": "                      LA-       DO       RE"
+    },
+    {
+      "t": "l",
+      "v": "        Ha  fatto  il sole, il mare   i fior"
+    },
+    {
+      "t": "c",
+      "v": "                         DO      RE          SOL       SI7       MI-"
+    },
+    {
+      "t": "l",
+      "v": "        Ma   il più bel  dono    che  mi  ha  fatto  il mio  Signor"
+    },
+    {
+      "t": "c",
+      "v": "            LA-      RE                 SOL       (DO    SOL)"
+    },
+    {
+      "t": "l",
+      "v": "        È stata la  vita ed  il suo  amor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "l",
+      "v": "               Ho   abbandonato       dietro   di me"
+    },
+    {
+      "t": "l",
+      "v": "               Ogni   tristezza   ogni  dolor"
+    },
+    {
+      "t": "l",
+      "v": "               E  credo   ancora   in un   mondo     che"
+    },
+    {
+      "t": "l",
+      "v": "               Sarà  diverso   a causa   del  suo  amor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "        Se  poi  un  giorno   mi  chiamerà"
+    },
+    {
+      "t": "l",
+      "v": "        Un   lungo   viaggio   io farò"
+    },
+    {
+      "t": "l",
+      "v": "        Per  monti   e  valli allor a  tutti io dirò"
+    },
+    {
+      "t": "l",
+      "v": "        Sappiate    che  è buono    il mio  signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "l",
+      "v": "               Ho   abbandonato       dietro  di  me"
+    },
+    {
+      "t": "l",
+      "v": "               Ogni   paura   ogni   dubbio    perché"
+    },
+    {
+      "t": "l",
+      "v": "               Una   grande    gioia  mi  sento   in cuor"
+    },
+    {
+      "t": "l",
+      "v": "               Se  penso   a quanto    è buono    il mio   Signor"
+    }
+  ],
+  "id": "ho-abbandonato"
+}

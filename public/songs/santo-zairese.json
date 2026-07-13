@@ -1,0 +1,108 @@
+{
+  "title": "Santo",
+  "sub": "Zairese",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Santo Zairese Santo        Santo    Santo      Osa   - a - anna        Santo    Santo      Osa   - a - anna  Osanna             Osanna    eh  Osanna     eh Osanna     al Cristo  Signor     (Osanna     eh)             Osanna    eh  Osanna     eh Osanna     al Cristo  Signor  I cieli e la terra        I cieli e la terra, o  Signore       sono   pieni  di Te        I cieli e la terra, o  Signore       sono   pieni  di Te  Ripresa             Osanna    eh  Osanna     eh…  Benedetto        Benedetto     colui  che  viene      nel  nome    tuo  Signor        Benedetto     colui  che  viene      nel  nome    tuo  Signor  Ripresa finale             Osanna    eh  Osanna     eh…",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Santo"
+    },
+    {
+      "t": "c",
+      "v": "       MI       LA    MI     MI   LA   MI"
+    },
+    {
+      "t": "l",
+      "v": "       Santo    Santo      Osa   - a - anna"
+    },
+    {
+      "t": "c",
+      "v": "       MI       LA    MI     MI   LA   MI"
+    },
+    {
+      "t": "l",
+      "v": "       Santo    Santo      Osa   - a - anna"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna"
+    },
+    {
+      "t": "c",
+      "v": "              MI            LA      MI     LA            SI         MI"
+    },
+    {
+      "t": "l",
+      "v": "            Osanna    eh  Osanna     eh Osanna     al Cristo  Signor     (Osanna     eh)"
+    },
+    {
+      "t": "c",
+      "v": "              MI            LA      MI     LA            SI         MI"
+    },
+    {
+      "t": "l",
+      "v": "            Osanna    eh  Osanna     eh Osanna     al Cristo  Signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "I cieli e la terra"
+    },
+    {
+      "t": "l",
+      "v": "       I cieli e la terra, o  Signore       sono   pieni  di Te"
+    },
+    {
+      "t": "l",
+      "v": "       I cieli e la terra, o  Signore       sono   pieni  di Te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripresa"
+    },
+    {
+      "t": "l",
+      "v": "            Osanna    eh  Osanna     eh…"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Benedetto"
+    },
+    {
+      "t": "l",
+      "v": "       Benedetto     colui  che  viene      nel  nome    tuo  Signor"
+    },
+    {
+      "t": "l",
+      "v": "       Benedetto     colui  che  viene      nel  nome    tuo  Signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripresa finale"
+    },
+    {
+      "t": "l",
+      "v": "            Osanna    eh  Osanna     eh…"
+    }
+  ],
+  "id": "santo-zairese"
+}

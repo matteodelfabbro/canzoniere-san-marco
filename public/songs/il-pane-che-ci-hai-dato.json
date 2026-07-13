@@ -1,0 +1,117 @@
+{
+  "title": "Il Pane Che Ci Hai Dato",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Il Pane Che Ci Hai Dato  Strofa 1       Il pane  che   ci hai dato           Oggi   mangiamo      ancora  Ritornello          Gloria   al Signor                   Gloria   al Signor          Gloria   al Signor                   Gloria   al Signor          Gloria   al Signor                   Gloria   al Signor  Ponte          Per  questa   terra               Noi   ti lodiam          Su  questa   terra                Per  te danziam          E battiamo     le mani                 A  te Signor          E battiamo     le mani               A  te Signor  Strofa 2       Il vino  che  ci hai  dato        Oggi   beviamo     ancora  Strofa 3       La  gioia  di cantarti            Riempie    i nostri  cuor",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "  RE                                      LA            SOL        RE      SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "      Il pane  che   ci hai dato           Oggi   mangiamo      ancora"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                          RE                       SOL         RE"
+    },
+    {
+      "t": "l",
+      "v": "         Gloria   al Signor                   Gloria   al Signor"
+    },
+    {
+      "t": "c",
+      "v": "                          RE                       SOL         RE"
+    },
+    {
+      "t": "l",
+      "v": "         Gloria   al Signor                   Gloria   al Signor"
+    },
+    {
+      "t": "c",
+      "v": "                       RE                                  LA11    LA"
+    },
+    {
+      "t": "l",
+      "v": "         Gloria   al Signor                   Gloria   al Signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte"
+    },
+    {
+      "t": "c",
+      "v": "                       SOL                              RE"
+    },
+    {
+      "t": "l",
+      "v": "         Per  questa   terra               Noi   ti lodiam"
+    },
+    {
+      "t": "c",
+      "v": "                      LA   SOL#     SOL                   RE    SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "         Su  questa   terra                Per  te danziam"
+    },
+    {
+      "t": "c",
+      "v": "                            LA   SOL#     SOL             RE    SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "         E battiamo     le mani                 A  te Signor"
+    },
+    {
+      "t": "c",
+      "v": "                            LA   SOL#     SOL             RE    SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "         E battiamo     le mani               A  te Signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "      Il vino  che  ci hai  dato        Oggi   beviamo     ancora"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "      La  gioia  di cantarti            Riempie    i nostri  cuor"
+    }
+  ],
+  "id": "il-pane-che-ci-hai-dato"
+}

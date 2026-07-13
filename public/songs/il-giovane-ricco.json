@@ -1,0 +1,134 @@
+{
+  "title": "Il Giovane Ricco",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Il Giovane Ricco  Strofa 1        Lui stava   parlando        seduto    sopra   i gradini        Di quella   casa  bianca       in  mezzo    a tanti  bambini        Erano   tutti sudati        Pietro   cercava   da  bere        C'erano   anche    i soldati        io  non   riuscivo  a  vedere  Ritornello                   Vai    vendi   tutto  quello   che  hai                   e    vieni  con   Me                   Vai    vendi   tutto  quello   che  hai                   e    vieni  con   Me  Strofa 2        Mi  feci avanti   pian   piano     finché   non   giunsi  tra i primi        Tenevo    la testa  bassa     gli occhi  fissi ai gradini        Lui continuava     a  parlare     sembrava     dicesse   a me        Guardavo     fisso  per  terra    e  mi  chiedevo    perché  Strofa 3        Sentivo   quelle   parole      ma   non   volevo    capire        Poi  mi  riprese  la folla       e non   lo  volli seguire        Lui stava   parlando        seduto    sopra   i gradini        Di  quella  casa  bianca        in mezzo    a tanti  bambini",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       MI-   LA       MI-     LA       MI-   LA           MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "       Lui stava   parlando        seduto    sopra   i gradini"
+    },
+    {
+      "t": "c",
+      "v": "            MI-    LA     MI-    LA        MI-       LA           MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "       Di quella   casa  bianca       in  mezzo    a tanti  bambini"
+    },
+    {
+      "t": "c",
+      "v": "       MI-     LA       MI-   LA    MI-        LA         MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "       Erano   tutti sudati        Pietro   cercava   da  bere"
+    },
+    {
+      "t": "c",
+      "v": "        MI-      LA            MI-   LA   MI-            LA          MI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "       C'erano   anche    i soldati        io  non   riuscivo  a  vedere"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-    LA               MI-         LA"
+    },
+    {
+      "t": "l",
+      "v": "                  Vai    vendi   tutto  quello   che  hai"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-    LA         MI-    SOL     LA    SI"
+    },
+    {
+      "t": "l",
+      "v": "                  e    vieni  con   Me"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-    LA               MI-         LA"
+    },
+    {
+      "t": "l",
+      "v": "                  Vai    vendi   tutto  quello   che  hai"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-    LA         MI-    LA    MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "                  e    vieni  con   Me"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "       Mi  feci avanti   pian   piano     finché   non   giunsi  tra i primi"
+    },
+    {
+      "t": "l",
+      "v": "       Tenevo    la testa  bassa     gli occhi  fissi ai gradini"
+    },
+    {
+      "t": "l",
+      "v": "       Lui continuava     a  parlare     sembrava     dicesse   a me"
+    },
+    {
+      "t": "l",
+      "v": "       Guardavo     fisso  per  terra    e  mi  chiedevo    perché"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "       Sentivo   quelle   parole      ma   non   volevo    capire"
+    },
+    {
+      "t": "l",
+      "v": "       Poi  mi  riprese  la folla       e non   lo  volli seguire"
+    },
+    {
+      "t": "l",
+      "v": "       Lui stava   parlando        seduto    sopra   i gradini"
+    },
+    {
+      "t": "l",
+      "v": "       Di  quella  casa  bianca        in mezzo    a tanti  bambini"
+    }
+  ],
+  "id": "il-giovane-ricco"
+}

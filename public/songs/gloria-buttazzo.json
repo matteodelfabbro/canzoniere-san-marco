@@ -1,0 +1,146 @@
+{
+  "title": "Gloria",
+  "sub": "Buttazzo",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Gloria Buttazzo Intro  Ritornello Gloria a Dio  nell'alto dei cieli      pace  in terra agli uomini.         Gloria a  Dio nell'alto dei cieli     pace  in terra agli uomini.  Strofa 1    Ti   lodiamo,   Ti benediciamo,       Ti adoriamo,   Ti glorifichiamo.    Ti rendiamo   gra  -  zie     per la Tua  gloria immensa       RIT.  Strofa 2    Signore  Dio, Re  del cielo Dio  Padre  onnipotente.    Gesù  cristo, Agnello  di Dio, tu figlio del Padre   RIT.  Strofa 3    Tu che  togli i peccati del mondo    la nostra supplica  ascolta, Signore    Tu che  siedi alla destra del Padre  abbi  pietà di noi.  RIT.  Strofa 4    Tu solo  il Santo, Tu solo  il Signore, Tu, l'Altissimo Gesù  Cristo    con  lo Spirito Santo nella  gloria del Padre.  RIT.  Finale Gloria  a Dio  nell'alto dei cieli      pace  in terra agli uomini.    Gloria a Dio  nell'alto dei cieli     pace  in terra agli uomini.  Outro",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL   RE  DO    SOL   MI-  DO    RE4   RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       SOL       RE        DO       SOL        MI-     DO          RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "Gloria a Dio  nell'alto dei cieli      pace  in terra agli uomini."
+    },
+    {
+      "t": "c",
+      "v": "        SOL       FA      DO         SOL       MI-     DO           RE SOL     FA  DO  SI"
+    },
+    {
+      "t": "l",
+      "v": "        Gloria a  Dio nell'alto dei cieli     pace  in terra agli uomini."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   MI-    DO          RE      SOL       MI-     DO          RE       SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Ti   lodiamo,   Ti benediciamo,       Ti adoriamo,   Ti glorifichiamo."
+    },
+    {
+      "t": "c",
+      "v": "   SI     MI-    DO      SOL    DO           LA-       RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "   Ti rendiamo   gra  -  zie     per la Tua  gloria immensa       RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Signore  Dio, Re  del cielo Dio  Padre  onnipotente."
+    },
+    {
+      "t": "l",
+      "v": "   Gesù  cristo, Agnello  di Dio, tu figlio del Padre   RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "   Tu che  togli i peccati del mondo    la nostra supplica  ascolta, Signore"
+    },
+    {
+      "t": "l",
+      "v": "   Tu che  siedi alla destra del Padre  abbi  pietà di noi.  RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "   Tu solo  il Santo, Tu solo  il Signore, Tu, l'Altissimo Gesù  Cristo"
+    },
+    {
+      "t": "l",
+      "v": "   con  lo Spirito Santo nella  gloria del Padre.  RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "         SOL       RE       DO        SOL       MI-      DO         RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "Gloria  a Dio  nell'alto dei cieli      pace  in terra agli uomini."
+    },
+    {
+      "t": "c",
+      "v": "   SOL       FA      DO         SOL      MI-      DO          RE  SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria a Dio  nell'alto dei cieli     pace  in terra agli uomini."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Outro"
+    },
+    {
+      "t": "c",
+      "v": "RE DO SOL MI- DO RE4 RE SOL"
+    }
+  ],
+  "id": "gloria-buttazzo"
+}

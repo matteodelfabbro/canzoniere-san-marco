@@ -1,0 +1,147 @@
+{
+  "title": "Santo",
+  "sub": "Gen Verde",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Santo Gen Verde Santo                       San   -  to     San   - to     San     -   to                       San   -  to     San   - to     San     -   to  Gloria       Il Signore,   Dio  dell'universo,    il Signore,  Dio   dell'universo       I cieli e la ter  -  ra sono   pieni  della  tua  gloria  Osanna       Osanna,     Osanna,    nell'alto  dei  cieli       Osanna,     Osanna,    nell'alto  dei  cieli  Ripresa                       Santo...  Benedetto       Benedetto     Colui   che  viene   nel nome     del Signore       Benedetto     Colui   che  viene   nel nome     del Signore  Osanna finale       Osanna,     Osanna,    nell'alto  dei  cieli       Osanna,     Osanna,    nell'alto  dei  cieli  Ripresa finale                       Santo...",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Santo"
+    },
+    {
+      "t": "c",
+      "v": "                      SOL     DO      SOL    DO      SOL    RE   DO"
+    },
+    {
+      "t": "l",
+      "v": "                      San   -  to     San   - to     San     -   to"
+    },
+    {
+      "t": "c",
+      "v": "                      SOL     DO      SOL    DO      SOL    RE   DO"
+    },
+    {
+      "t": "l",
+      "v": "                      San   -  to     San   - to     San     -   to"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Gloria"
+    },
+    {
+      "t": "c",
+      "v": "             DO                   SOL            DO                    SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Il Signore,   Dio  dell'universo,    il Signore,  Dio   dell'universo"
+    },
+    {
+      "t": "c",
+      "v": "         DO        SOL    DO                              SOL"
+    },
+    {
+      "t": "l",
+      "v": "      I cieli e la ter  -  ra sono   pieni  della  tua  gloria"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna"
+    },
+    {
+      "t": "c",
+      "v": "        DO         SOL           RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Osanna,     Osanna,    nell'alto  dei  cieli"
+    },
+    {
+      "t": "c",
+      "v": "        DO         SOL           RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Osanna,     Osanna,    nell'alto  dei  cieli"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripresa"
+    },
+    {
+      "t": "l",
+      "v": "                      Santo..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Benedetto"
+    },
+    {
+      "t": "c",
+      "v": "             DO                   SOL         DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Benedetto     Colui   che  viene   nel nome     del Signore"
+    },
+    {
+      "t": "c",
+      "v": "             DO                   SOL         DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Benedetto     Colui   che  viene   nel nome     del Signore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna finale"
+    },
+    {
+      "t": "c",
+      "v": "        DO         SOL           RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Osanna,     Osanna,    nell'alto  dei  cieli"
+    },
+    {
+      "t": "c",
+      "v": "        DO         SOL           RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Osanna,     Osanna,    nell'alto  dei  cieli"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripresa finale"
+    },
+    {
+      "t": "l",
+      "v": "                      Santo..."
+    }
+  ],
+  "id": "santo-gen-verde"
+}

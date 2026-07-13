@@ -1,0 +1,118 @@
+{
+  "title": "Alleluia",
+  "sub": "Cristo è risorto veramente - Capo 2/4",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia Cristo è risorto veramente - Capo 2/4 Ritornello Alleluia,  alleluia,  alleluia,  alleluia!          Cristo   è risorto  veramente      alleluia, alleluia!    (x2)  Strofa 1    Cristo  ha  inaugurato     il suo regno,    salvezza   e vita  sono   con   lui.    Rallegriamoci,     esultiamo    con  lui:    la morte   è  stata  vinta,  la vita ora   trionfa.  RIT.  Strofa 2    L'Agnello    ha  redento    il suo gregge    riconciliando    l'uomo    con   Dio.    Rallegriamoci,     esultiamo    con  lui:    il Signore  della  vita  era  morto,    ora  trionfa.  RIT.  Ritornello finale Alleluia,  alleluia,  alleluia,  alleluia!                        Cristo  è  risorto  veramente     alleluia,  alleluia!    (x2)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "              DO          MI-       FA          DO"
+    },
+    {
+      "t": "l",
+      "v": "Alleluia,  alleluia,  alleluia,  alleluia!"
+    },
+    {
+      "t": "c",
+      "v": "         LA-                       RE           FA           DO"
+    },
+    {
+      "t": "l",
+      "v": "         Cristo   è risorto  veramente      alleluia, alleluia!    (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO                                 MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Cristo  ha  inaugurato     il suo regno,"
+    },
+    {
+      "t": "c",
+      "v": "     FA                            DO"
+    },
+    {
+      "t": "l",
+      "v": "   salvezza   e vita  sono   con   lui."
+    },
+    {
+      "t": "c",
+      "v": "       LA-                               RE"
+    },
+    {
+      "t": "l",
+      "v": "   Rallegriamoci,     esultiamo    con  lui:"
+    },
+    {
+      "t": "c",
+      "v": "   FA                                SOL"
+    },
+    {
+      "t": "l",
+      "v": "   la morte   è  stata  vinta,  la vita ora   trionfa.  RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   L'Agnello    ha  redento    il suo gregge"
+    },
+    {
+      "t": "l",
+      "v": "   riconciliando    l'uomo    con   Dio."
+    },
+    {
+      "t": "l",
+      "v": "   Rallegriamoci,     esultiamo    con  lui:"
+    },
+    {
+      "t": "l",
+      "v": "   il Signore  della  vita  era  morto,    ora  trionfa.  RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                           RE        FA#-       SOL          RE"
+    },
+    {
+      "t": "l",
+      "v": "Alleluia,  alleluia,  alleluia,  alleluia!"
+    },
+    {
+      "t": "c",
+      "v": "                        SI-                      MI           SOL           RE"
+    },
+    {
+      "t": "l",
+      "v": "                       Cristo  è  risorto  veramente     alleluia,  alleluia!    (x2)"
+    }
+  ],
+  "id": "alleluia-cristo-e-risorto-veramente-capo-2-4"
+}

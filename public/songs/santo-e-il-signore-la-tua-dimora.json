@@ -1,0 +1,151 @@
+{
+  "title": "Santo È il Signore",
+  "sub": "La tua dimora",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Santo È il Signore La tua dimora Intro (x2)  Santo    Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (I cieli e la terra)     Santo  Santo   Santo  (Sono  pieni  della tua Gloria)  Osanna    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Benedetto    Benedetto    colui  che  viene  nel  nome    del  Signore  Osanna finale    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Coda    Osanna!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro (x2)"
+    },
+    {
+      "t": "c",
+      "v": "   SOL      RE       LA-"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Santo"
+    },
+    {
+      "t": "c",
+      "v": "   SOL            RE        LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   SOL            RE        LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   SOL            RE        LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Santo  Santo   Santo  (I cieli e la terra)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   SOL            RE        LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Santo  Santo   Santo  (Sono  pieni  della tua Gloria)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                RE       LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Benedetto"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                      RE          DO      RE   DO   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Benedetto    colui  che  viene  nel  nome    del  Signore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna finale"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                RE       LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                RE       LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                RE       LA-"
+    },
+    {
+      "t": "l",
+      "v": "   Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Coda"
+    },
+    {
+      "t": "c",
+      "v": "           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Osanna!"
+    }
+  ],
+  "id": "santo-e-il-signore-la-tua-dimora"
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Pietro Vai",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Pietro Vai  Strofa 1 Signore,   ho  pescato    tutto  il giorno,   le reti son  rimaste   sempre    vuote; s'è fatto  tardi,  a casa  ora  ritorno:   Signore,   son   deluso,   me   ne  vado.  La  vita con   me   è sempre    stata  dura,  e  niente  mai   mi  dà  soddisfazione; la strada   in cui mi   guidi  è insi - cura:  sono   stanco   ed  ora  non   aspetto   più.  Ritornello 1 Pietro,  vai,  fidati di me:       getta   ancora   in acqua    le tue  re   - ti. Prendi   ancora    il largo sulla  mia  parola:   con   la mia  potenza     io ti farò pescatore    di uomi    - ni.  Strofa 2 Maestro,    dimmi    cosa   devo   fare;  insegnami,    Signore,   dove   andare. Gesù,   dammi     la forza  di  partire,  la forza  di lasciare   le mie  cose;  Questa    famiglia   che  mi  son  creato,   le barche   che   a fatica  ho  conquistato, la casa,  la mia   terra, la  mia    gente,  Signore,    dammi    tu  una  fede   forte.  Ritornello 2 Pietro  vai,  fidati di  me:      la mia  Chiesa   su  di te io  fonderò. Manderò      lo Spirito,  ti darà  coraggio;    donerà    la forza   dell'  amore per  il Regno   di    Di  -  o.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE-              SOL-               RE-      SIb           DO               FA     LA"
+    },
+    {
+      "t": "l",
+      "v": "Signore,   ho  pescato    tutto  il giorno,   le reti son  rimaste   sempre    vuote;"
+    },
+    {
+      "t": "c",
+      "v": "     SOL-    LA      RE-          FA            SIb           DO               RE-"
+    },
+    {
+      "t": "l",
+      "v": "s'è fatto  tardi,  a casa  ora  ritorno:   Signore,   son   deluso,   me   ne  vado."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   RE-         SOL-             RE-    LA7         SIb             DO            FA     LA"
+    },
+    {
+      "t": "l",
+      "v": "La  vita con   me   è sempre    stata  dura,  e  niente  mai   mi  dà  soddisfazione;"
+    },
+    {
+      "t": "c",
+      "v": "     SOL-               LA       RE-   FA             SIb               DO              LA7"
+    },
+    {
+      "t": "l",
+      "v": "la strada   in cui mi   guidi  è insi - cura:  sono   stanco   ed  ora  non   aspetto   più."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "RE        LA  SI-         FA#-     SOL                 RE              LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "Pietro,  vai,  fidati di me:       getta   ancora   in acqua    le tue  re   - ti."
+    },
+    {
+      "t": "c",
+      "v": "SI-                 FA#-          SOL      RE     SOL              RE       MI-     SI-  SOL"
+    },
+    {
+      "t": "l",
+      "v": "Prendi   ancora    il largo sulla  mia  parola:   con   la mia  potenza     io ti farò"
+    },
+    {
+      "t": "c",
+      "v": "       LA        SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "pescatore    di uomi    - ni."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE-                   SOL-         RE-       SIb        DO                    FA    LA"
+    },
+    {
+      "t": "l",
+      "v": "Maestro,    dimmi    cosa   devo   fare;  insegnami,    Signore,   dove   andare."
+    },
+    {
+      "t": "c",
+      "v": "   SOL-              LA      RE-    FA    SIb             DO               RE-"
+    },
+    {
+      "t": "l",
+      "v": "Gesù,   dammi     la forza  di  partire,  la forza  di lasciare   le mie  cose;"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "RE-          SOL-             RE-      LA7      SIb                 DO                FA    LA"
+    },
+    {
+      "t": "l",
+      "v": "Questa    famiglia   che  mi  son  creato,   le barche   che   a fatica  ho  conquistato,"
+    },
+    {
+      "t": "c",
+      "v": "   SOL-            LA         RE-    FA         SIb               DO               LA7"
+    },
+    {
+      "t": "l",
+      "v": "la casa,  la mia   terra, la  mia    gente,  Signore,    dammi    tu  una  fede   forte."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "RE      LA    SI-        FA#-     SOL              RE            LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "Pietro  vai,  fidati di  me:      la mia  Chiesa   su  di te io  fonderò."
+    },
+    {
+      "t": "c",
+      "v": "SI-              FA#-     SOL          RE       SOL           RE     MI-     SI-     SOL"
+    },
+    {
+      "t": "l",
+      "v": "Manderò      lo Spirito,  ti darà  coraggio;    donerà    la forza   dell'  amore"
+    },
+    {
+      "t": "c",
+      "v": "        LA           SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "per  il Regno   di    Di  -  o."
+    }
+  ],
+  "id": "pietro-vai"
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Vieni e Seguimi",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Vieni e Seguimi  Strofa 1                      Lascia  che  il mondo     vada   per  la sua  strada. Lascia  che  l'uomo    ritorni  alla sua  casa. Lascia  che  la  gente  accumuli    la sua  fortuna. Ma   tu,  tu vieni  e seguimi,    tu - u      vieni  e  seguimi.  Strofa 2       Lascia  che  la  barca  in  mare   spieghi  la  vela. Lascia  che  trovi  affetto   chi segue   il cuore. Lascia  che  dall'albero    cadano    i frutti maturi. Ma   tu,  tu vieni  e seguimi,    tu -  u     vieni  e  seguimi.  Ritornello (x2) E sarai  luce  per  gli uomini    e sarai  sale della  terra   e nel  mondo     dese   - rto  aprirai  una  strada   nuova. E sarai  luce  per  gli uomini    e sarai  sale della  terra   e nel  mondo     dese   - rto  aprirai  una  strada   nuova. Coda E per  questa   strada   va',      va'    e  non   voltarti  indietro,   va'. ...e non   voltarti  indietro,   va'.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA    SI-   LA    SI-         LA                  SI-              LA"
+    },
+    {
+      "t": "l",
+      "v": "                     Lascia  che  il mondo     vada   per  la sua  strada."
+    },
+    {
+      "t": "c",
+      "v": "        DO#-              FA#-             MI"
+    },
+    {
+      "t": "l",
+      "v": "Lascia  che  l'uomo    ritorni  alla sua  casa."
+    },
+    {
+      "t": "c",
+      "v": "         RE                                     LA"
+    },
+    {
+      "t": "l",
+      "v": "Lascia  che  la  gente  accumuli    la sua  fortuna."
+    },
+    {
+      "t": "c",
+      "v": "     MI      RE       LA         MI    RE              LA"
+    },
+    {
+      "t": "l",
+      "v": "Ma   tu,  tu vieni  e seguimi,    tu - u      vieni  e  seguimi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "LA             LA                 SI-                  LA"
+    },
+    {
+      "t": "l",
+      "v": "      Lascia  che  la  barca  in  mare   spieghi  la  vela."
+    },
+    {
+      "t": "c",
+      "v": "        DO#-            FA#-                 MI"
+    },
+    {
+      "t": "l",
+      "v": "Lascia  che  trovi  affetto   chi segue   il cuore."
+    },
+    {
+      "t": "c",
+      "v": "        RE                                        LA"
+    },
+    {
+      "t": "l",
+      "v": "Lascia  che  dall'albero    cadano    i frutti maturi."
+    },
+    {
+      "t": "c",
+      "v": "     MI      RE       LA         MI    RE             FA#-     FA#"
+    },
+    {
+      "t": "l",
+      "v": "Ma   tu,  tu vieni  e seguimi,    tu -  u     vieni  e  seguimi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (x2)"
+    },
+    {
+      "t": "c",
+      "v": "   FA#                   SI             FA#            DO#-"
+    },
+    {
+      "t": "l",
+      "v": "E sarai  luce  per  gli uomini    e sarai  sale della  terra"
+    },
+    {
+      "t": "c",
+      "v": "MI                       FA#                     SI"
+    },
+    {
+      "t": "l",
+      "v": "  e nel  mondo     dese   - rto  aprirai  una  strada   nuova."
+    },
+    {
+      "t": "c",
+      "v": "FA#                  SI             FA#             DO#-"
+    },
+    {
+      "t": "l",
+      "v": "E sarai  luce  per  gli uomini    e sarai  sale della  terra"
+    },
+    {
+      "t": "c",
+      "v": "MI                       FA#                     SI"
+    },
+    {
+      "t": "l",
+      "v": "  e nel  mondo     dese   - rto  aprirai  una  strada   nuova."
+    },
+    {
+      "t": "h",
+      "v": "Coda"
+    },
+    {
+      "t": "c",
+      "v": "        FA#              SOL#-       FA#     SI                          FA#"
+    },
+    {
+      "t": "l",
+      "v": "E per  questa   strada   va',      va'    e  non   voltarti  indietro,   va'."
+    },
+    {
+      "t": "c",
+      "v": "            SI                FA#"
+    },
+    {
+      "t": "l",
+      "v": "...e non   voltarti  indietro,   va'."
+    }
+  ],
+  "id": "vieni-e-seguimi"
+}

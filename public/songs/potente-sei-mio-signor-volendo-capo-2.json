@@ -1,0 +1,260 @@
+{
+  "title": "Potente Sei Mio Signor",
+  "sub": "Volendo, capo 2",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Potente Sei Mio Signor Volendo, capo 2 Intro  Strofa 1         Dio  di misericordia,  amore   che non  muore,   riempi  il mio cuor.         Dio  che perdona    sempre,  Padre  di tenerezza,  speranza   eterna.  Ritornello 1    Mio  Dio  muovi   le montagne    potente  sei, mio  Signor    So che  mi salverai        per  sempre  Dio  della Salvezza    La morte   hai vinto per  noi     Tu  hai vinto per  noi  Interludio 1  Strofa 2        Mi  accogli come   sono,  non  guardi  ai miei errori, riempi  il mio cuor.         Ti dono   la mia vita, mi  arrendo  a te, Signore,  speranza  eterna.  Ritornello 2    Mio  Dio  muovi   le montagne    potente  sei, mio  Signor    So che  mi salverai        per  sempre  Dio  della Salvezza    La morte   hai vinto per  noi     Tu  hai vinto per  noi  Interludio 2  Ponte (x2)      La tua luce       sempre   splenderà,      Gloria      Noi  cantiamo        a Gesù  il Signor,     Gloria      La tua luce       sempre   splenderà,      Gloria      Noi  cantiamo        a Gesù  il Signor  Ritornello finale    Mio  Dio  muovi   le montagne    potente  sei, mio  Signor    So che  mi salverai        per  sempre  Dio  della Salvezza    La morte   hai vinto per  noi     Tu  hai vinto per  noi  Ponte finale (x2)      La tua luce       sempre   splenderà,      Gloria      Noi  cantiamo        a Gesù  il Signor,     Gloria      La tua luce       sempre   splenderà,      Gloria      Noi  cantiamo        a Gesù  il Signor",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL MI- RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL                         MI-     RE"
+    },
+    {
+      "t": "l",
+      "v": "        Dio  di misericordia,  amore   che non  muore,   riempi  il mio cuor."
+    },
+    {
+      "t": "c",
+      "v": "   DO                       SOL                    MI-        RE          DO   RE   DO   RE"
+    },
+    {
+      "t": "l",
+      "v": "        Dio  che perdona    sempre,  Padre  di tenerezza,  speranza   eterna."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                      RE                        DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Mio  Dio  muovi   le montagne    potente  sei, mio  Signor"
+    },
+    {
+      "t": "c",
+      "v": "             MI-         RE            SOL                    RE"
+    },
+    {
+      "t": "l",
+      "v": "   So che  mi salverai        per  sempre  Dio  della Salvezza"
+    },
+    {
+      "t": "c",
+      "v": "                   DO            SOL            MI-               RE"
+    },
+    {
+      "t": "l",
+      "v": "   La morte   hai vinto per  noi     Tu  hai vinto per  noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO   SOL   MI-   RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   DO                       SOL                          MI-     RE"
+    },
+    {
+      "t": "l",
+      "v": "       Mi  accogli come   sono,  non  guardi  ai miei errori, riempi  il mio cuor."
+    },
+    {
+      "t": "c",
+      "v": "   DO                    SOL                        MI-        RE          DO   RE   DO   RE"
+    },
+    {
+      "t": "l",
+      "v": "        Ti dono   la mia vita, mi  arrendo  a te, Signore,  speranza  eterna."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                      RE              DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Mio  Dio  muovi   le montagne    potente  sei, mio  Signor"
+    },
+    {
+      "t": "c",
+      "v": "           MI-      RE            SOL                   RE"
+    },
+    {
+      "t": "l",
+      "v": "   So che  mi salverai        per  sempre  Dio  della Salvezza"
+    },
+    {
+      "t": "c",
+      "v": "                   DO        SOL            MI-         RE"
+    },
+    {
+      "t": "l",
+      "v": "   La morte   hai vinto per  noi     Tu  hai vinto per  noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio 2"
+    },
+    {
+      "t": "c",
+      "v": "   DO   SOL   RE       DO   SOL   RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte (x2)"
+    },
+    {
+      "t": "c",
+      "v": "   DO              SOL                 RE          MI-"
+    },
+    {
+      "t": "l",
+      "v": "     La tua luce       sempre   splenderà,      Gloria"
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL            RE           MI-"
+    },
+    {
+      "t": "l",
+      "v": "     Noi  cantiamo        a Gesù  il Signor,     Gloria"
+    },
+    {
+      "t": "c",
+      "v": "   DO              SOL                 RE          MI-"
+    },
+    {
+      "t": "l",
+      "v": "     La tua luce       sempre   splenderà,      Gloria"
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "     Noi  cantiamo        a Gesù  il Signor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                      RE              DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Mio  Dio  muovi   le montagne    potente  sei, mio  Signor"
+    },
+    {
+      "t": "c",
+      "v": "           MI-      RE            SOL                   RE"
+    },
+    {
+      "t": "l",
+      "v": "   So che  mi salverai        per  sempre  Dio  della Salvezza"
+    },
+    {
+      "t": "c",
+      "v": "                   DO        SOL            MI-         RE"
+    },
+    {
+      "t": "l",
+      "v": "   La morte   hai vinto per  noi     Tu  hai vinto per  noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte finale (x2)"
+    },
+    {
+      "t": "c",
+      "v": "   DO              SOL                 RE          MI-"
+    },
+    {
+      "t": "l",
+      "v": "     La tua luce       sempre   splenderà,      Gloria"
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL            RE           MI-"
+    },
+    {
+      "t": "l",
+      "v": "     Noi  cantiamo        a Gesù  il Signor,     Gloria"
+    },
+    {
+      "t": "c",
+      "v": "   DO              SOL                 RE          MI-"
+    },
+    {
+      "t": "l",
+      "v": "     La tua luce       sempre   splenderà,      Gloria"
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "     Noi  cantiamo        a Gesù  il Signor"
+    }
+  ],
+  "id": "potente-sei-mio-signor-volendo-capo-2"
+}

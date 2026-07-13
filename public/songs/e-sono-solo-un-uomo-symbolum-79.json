@@ -1,0 +1,166 @@
+{
+  "title": "E Sono Solo un Uomo",
+  "sub": "Symbolum '79",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "E Sono Solo un Uomo Symbolum '79 Strofa 1 Io lo so, Signore,  che vengo   da lontano:   prima  nel pensiero  e poi  nella tua mano. Io mi  rendo  conto  che  tu sei la mia vita e non  mi  sembra   vero di pregarti  così. Padre  d'ogni  uomo   e non   ti ho visto mai; Spirito di vita e nacqui  da  una donna; figlio e mio  fratello e sono  solo un  uomo,   eppure  io capisco  che  tu sei verità...  Ritornello 1                 E imparerò   a guardare  tutto  il mondo                 con gli occhi trasparenti  di un bambino,                 e insegnerò  a chiamarti:  \"Padre  nostro\"                 ad ogni  figlio che diventa   uomo  Strofa 2 Io lo so, Signore,  che tu mi  sei vicino, luce alla mia mente,   guida  al mio  cammino, mano   che  sorregge,  sguardo  che  perdona   e non  mi  sembra  vero  che  tu esista così. Dove   nasce  amore,  Tu  sei la sorgente; dove   c'è una croce,  Tu sei la speranza; dove   il tempo  ha fine, Tu  sei Vita Eterna e so che  posso  sempre   contare  su di Te...  Ritornello 2                 E accoglierò  la vita come  un  dono                 e avrò il coraggio  di morire  anch'io                 e incontro  a te verrò  col mio  fratello                 che non  si sente amato          da nessuno.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE          FA#-         SOL             RE              FA#-       SOL             LA"
+    },
+    {
+      "t": "l",
+      "v": "Io lo so, Signore,  che vengo   da lontano:   prima  nel pensiero  e poi  nella tua mano."
+    },
+    {
+      "t": "c",
+      "v": "RE             LA        SOL              RE        SOL          MI-      MI7       LA"
+    },
+    {
+      "t": "l",
+      "v": "Io mi  rendo  conto  che  tu sei la mia vita e non  mi  sembra   vero di pregarti  così."
+    },
+    {
+      "t": "c",
+      "v": "RE             FA#-        SOL                 RE         FA#-   SOL              LA"
+    },
+    {
+      "t": "l",
+      "v": "Padre  d'ogni  uomo   e non   ti ho visto mai; Spirito di vita e nacqui  da  una donna;"
+    },
+    {
+      "t": "c",
+      "v": "RE            LA       SOL          RE         SOL         MI-           MI7     LA"
+    },
+    {
+      "t": "l",
+      "v": "figlio e mio  fratello e sono  solo un  uomo,   eppure  io capisco  che  tu sei verità..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "                      RE            SOL                LA   RE7"
+    },
+    {
+      "t": "l",
+      "v": "                E imparerò   a guardare  tutto  il mondo"
+    },
+    {
+      "t": "c",
+      "v": "                        SOL          LA                  RE   MI7"
+    },
+    {
+      "t": "l",
+      "v": "                con gli occhi trasparenti  di un bambino,"
+    },
+    {
+      "t": "c",
+      "v": "                     SOL           LA               RE     SI7"
+    },
+    {
+      "t": "l",
+      "v": "                e insegnerò  a chiamarti:  \"Padre  nostro\""
+    },
+    {
+      "t": "c",
+      "v": "                   MI-         MI7   ( LA7 )  LA   ( RE )"
+    },
+    {
+      "t": "l",
+      "v": "                ad ogni  figlio che diventa   uomo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE          FA#-        SOL         RE                   FA#-     SOL             LA"
+    },
+    {
+      "t": "l",
+      "v": "Io lo so, Signore,  che tu mi  sei vicino, luce alla mia mente,   guida  al mio  cammino,"
+    },
+    {
+      "t": "c",
+      "v": "RE             LA       SOL          RE        SOL                MI-           MI7     LA"
+    },
+    {
+      "t": "l",
+      "v": "mano   che  sorregge,  sguardo  che  perdona   e non  mi  sembra  vero  che  tu esista così."
+    },
+    {
+      "t": "c",
+      "v": "RE            FA#-    SOL            RE                   FA#-    SOL         LA"
+    },
+    {
+      "t": "l",
+      "v": "Dove   nasce  amore,  Tu  sei la sorgente; dove   c'è una croce,  Tu sei la speranza;"
+    },
+    {
+      "t": "c",
+      "v": "RE                  LA    SOL          RE    SOL              MI-        MI7         LA"
+    },
+    {
+      "t": "l",
+      "v": "dove   il tempo  ha fine, Tu  sei Vita Eterna e so che  posso  sempre   contare  su di Te..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "                     RE          SOL               LA    RE7"
+    },
+    {
+      "t": "l",
+      "v": "                E accoglierò  la vita come  un  dono"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL         LA                   RE    MI7"
+    },
+    {
+      "t": "l",
+      "v": "                e avrò il coraggio  di morire  anch'io"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL           LA               RE     SI7"
+    },
+    {
+      "t": "l",
+      "v": "                e incontro  a te verrò  col mio  fratello"
+    },
+    {
+      "t": "c",
+      "v": "                    MI-           MI7   ( LA7 )  LA   ( RE )"
+    },
+    {
+      "t": "l",
+      "v": "                che non  si sente amato          da nessuno."
+    }
+  ],
+  "id": "e-sono-solo-un-uomo-symbolum-79"
+}

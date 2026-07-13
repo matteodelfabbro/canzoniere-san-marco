@@ -1,0 +1,145 @@
+{
+  "title": "Oggi È un Giorno di Festa",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Oggi È un Giorno di Festa  Intro  Ritornello Oggi   è  un  giorno   di fe  - sta      Per  i figli di Dio      Oggi   è un   giorno   di festa      Nella         casa  del  padre  Strofa 1                     1.    Venite,       accorre    -  te:                           ci chiama    il Dio  della  vita;                           saremo    tanti     fratelli                           uniti  intorno   al Signore.  Strofa 2                     2     Cantate    inni e  salmi:                           ci chiama    il Dio  della  gioia,                           saremo    una   grande   assemblea                           che  intona   le lodi  al Signore  Strofa 3                     3     Venite,   esultate:                           ci chiama    il Dio  della  vita;                           saremo    tanti  fratelli                           che  cantan    le lodi al  Signore",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "FA    DO     SIb    FA    SIb    DO     FA     SIb   FA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       FA          DO7          RE-     DO"
+    },
+    {
+      "t": "l",
+      "v": "Oggi   è  un  giorno   di fe  - sta"
+    },
+    {
+      "t": "c",
+      "v": "      SIb  RE-        SOL    DO4"
+    },
+    {
+      "t": "l",
+      "v": "     Per  i figli di Dio"
+    },
+    {
+      "t": "c",
+      "v": "      FA            DO7         RE-     DO"
+    },
+    {
+      "t": "l",
+      "v": "     Oggi   è un   giorno   di festa"
+    },
+    {
+      "t": "c",
+      "v": "     SOL-7         DO         FA"
+    },
+    {
+      "t": "l",
+      "v": "     Nella         casa  del  padre"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                              FA     DO       RE-     DO"
+    },
+    {
+      "t": "l",
+      "v": "                    1.    Venite,       accorre    -  te:"
+    },
+    {
+      "t": "c",
+      "v": "                             SIb         SOL-         FA   DO"
+    },
+    {
+      "t": "l",
+      "v": "                          ci chiama    il Dio  della  vita;"
+    },
+    {
+      "t": "c",
+      "v": "                          SIb       SOL-       RE-     FA"
+    },
+    {
+      "t": "l",
+      "v": "                          saremo    tanti     fratelli"
+    },
+    {
+      "t": "c",
+      "v": "                            SIb     RE-         DO4"
+    },
+    {
+      "t": "l",
+      "v": "                          uniti  intorno   al Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "                    2     Cantate    inni e  salmi:"
+    },
+    {
+      "t": "l",
+      "v": "                          ci chiama    il Dio  della  gioia,"
+    },
+    {
+      "t": "l",
+      "v": "                          saremo    una   grande   assemblea"
+    },
+    {
+      "t": "l",
+      "v": "                          che  intona   le lodi  al Signore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "                    3     Venite,   esultate:"
+    },
+    {
+      "t": "l",
+      "v": "                          ci chiama    il Dio  della  vita;"
+    },
+    {
+      "t": "l",
+      "v": "                          saremo    tanti  fratelli"
+    },
+    {
+      "t": "l",
+      "v": "                          che  cantan    le lodi al  Signore"
+    }
+  ],
+  "id": "oggi-e-un-giorno-di-festa"
+}

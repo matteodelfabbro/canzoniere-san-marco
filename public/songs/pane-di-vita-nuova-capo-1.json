@@ -1,0 +1,195 @@
+{
+  "title": "Pane di Vita Nuova",
+  "sub": "Capo 1",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Pane di Vita Nuova Capo 1 Strofa 1    Pane    di   vita nuo  - va,    vero  cibo dato  agli uomini,    Nutri-mento   che  sostiene  il mondo,    dono   splendido  di gra - zia.  Strofa 2    Tu sei sublime  frut - to    di quell'albero  di vita    che Adamo    non  poté  toccare:    ora è in Cristo a noi  dona  - to.  Ritornello Pane  della  vi - ta,         sangue  di   salve   -  zza,         vero   corpo,  vera  bevanda,         cibo di grazia  per  il mo - ndo  Strofa 3    Sei l'Agnello immolato    nel cui sangue  è la salvezza,    memoriale   della  vera Pasqua    della Nuova   Alleanza.  Strofa 4    Manna   che  nel deserto    nutri il popolo  in cammino,    sei sostegno  e forza nella prova    per la Chiesa  in mezzo   al mondo.  Ripetere il ritornello  Finale A     -   men",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE      SOL         LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Pane    di   vita nuo  - va,"
+    },
+    {
+      "t": "c",
+      "v": "   SOL   MI-            LA"
+    },
+    {
+      "t": "l",
+      "v": "   vero  cibo dato  agli uomini,"
+    },
+    {
+      "t": "c",
+      "v": "   SOL   RE       MI-              LA"
+    },
+    {
+      "t": "l",
+      "v": "   Nutri-mento   che  sostiene  il mondo,"
+    },
+    {
+      "t": "c",
+      "v": "   SI-   MI-             LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "   dono   splendido  di gra - zia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   RE      SOL      LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Tu sei sublime  frut - to"
+    },
+    {
+      "t": "c",
+      "v": "   SOL      MI-        LA"
+    },
+    {
+      "t": "l",
+      "v": "   di quell'albero  di vita"
+    },
+    {
+      "t": "c",
+      "v": "   SOL   RE     MI-           LA"
+    },
+    {
+      "t": "l",
+      "v": "   che Adamo    non  poté  toccare:"
+    },
+    {
+      "t": "c",
+      "v": "   SI-      MI-              LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "   ora è in Cristo a noi  dona  - to."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "        SOL   RE     MI-   LA"
+    },
+    {
+      "t": "l",
+      "v": "Pane  della  vi - ta,"
+    },
+    {
+      "t": "c",
+      "v": "        RE      FA#-       SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "        sangue  di   salve   -  zza,"
+    },
+    {
+      "t": "c",
+      "v": "        SOL    RE       MI-    SI-"
+    },
+    {
+      "t": "l",
+      "v": "        vero   corpo,  vera  bevanda,"
+    },
+    {
+      "t": "c",
+      "v": "        MI-        SI-            LA     RE"
+    },
+    {
+      "t": "l",
+      "v": "        cibo di grazia  per  il mo - ndo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "   Sei l'Agnello immolato"
+    },
+    {
+      "t": "l",
+      "v": "   nel cui sangue  è la salvezza,"
+    },
+    {
+      "t": "l",
+      "v": "   memoriale   della  vera Pasqua"
+    },
+    {
+      "t": "l",
+      "v": "   della Nuova   Alleanza."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "   Manna   che  nel deserto"
+    },
+    {
+      "t": "l",
+      "v": "   nutri il popolo  in cammino,"
+    },
+    {
+      "t": "l",
+      "v": "   sei sostegno  e forza nella prova"
+    },
+    {
+      "t": "l",
+      "v": "   per la Chiesa  in mezzo   al mondo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "             SI-  LA  RE"
+    },
+    {
+      "t": "l",
+      "v": "A     -   men"
+    }
+  ],
+  "id": "pane-di-vita-nuova-capo-1"
+}

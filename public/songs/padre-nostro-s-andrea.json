@@ -1,0 +1,138 @@
+{
+  "title": "Padre Nostro",
+  "sub": "S. Andrea",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Padre Nostro S. Andrea Strofa 1                  Padre   nostro   tu  che  stai,                  in chi  ama   la verità,                  ed  il regno   che  lui ci lasciò,                  venga    presto  nel  nostro   cuor,                  e l'amore    che  il suo  Figlio  ci donò,                  o  Signor,  rimanga     sempre    in noi  Strofa 2                  E nel  pan   dell'unità,                  dacci  la fraternità,                  e dimentica    il nostro   mal,                  che  anche   noi  sappiamo      perdonar                  non   permettere     che  cadiamo     in tentazion                  o Signor,   abbi  pietà   del mondo.  Padre nostro recitato  Ripresa                  E nel  pan   dell'unità...",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                 LA-                      SOL"
+    },
+    {
+      "t": "l",
+      "v": "                 Padre   nostro   tu  che  stai,"
+    },
+    {
+      "t": "c",
+      "v": "                                    LA-"
+    },
+    {
+      "t": "l",
+      "v": "                 in chi  ama   la verità,"
+    },
+    {
+      "t": "c",
+      "v": "                       DO                    FA   DO"
+    },
+    {
+      "t": "l",
+      "v": "                 ed  il regno   che  lui ci lasciò,"
+    },
+    {
+      "t": "c",
+      "v": "                                       FA        DO"
+    },
+    {
+      "t": "l",
+      "v": "                 venga    presto  nel  nostro   cuor,"
+    },
+    {
+      "t": "c",
+      "v": "                       FA                             DO"
+    },
+    {
+      "t": "l",
+      "v": "                 e l'amore    che  il suo  Figlio  ci donò,"
+    },
+    {
+      "t": "c",
+      "v": "                       LA-                       SOL          LA-"
+    },
+    {
+      "t": "l",
+      "v": "                 o  Signor,  rimanga     sempre    in noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                 LA-                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "                 E nel  pan   dell'unità,"
+    },
+    {
+      "t": "c",
+      "v": "                                   LA-"
+    },
+    {
+      "t": "l",
+      "v": "                 dacci  la fraternità,"
+    },
+    {
+      "t": "c",
+      "v": "                       DO              FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "                 e dimentica    il nostro   mal,"
+    },
+    {
+      "t": "c",
+      "v": "                                                  FA     DO"
+    },
+    {
+      "t": "l",
+      "v": "                 che  anche   noi  sappiamo      perdonar"
+    },
+    {
+      "t": "c",
+      "v": "                       FA                                    DO,"
+    },
+    {
+      "t": "l",
+      "v": "                 non   permettere     che  cadiamo     in tentazion"
+    },
+    {
+      "t": "c",
+      "v": "                      LA-            SOL               LA-"
+    },
+    {
+      "t": "l",
+      "v": "                 o Signor,   abbi  pietà   del mondo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Padre nostro recitato"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripresa"
+    },
+    {
+      "t": "l",
+      "v": "                 E nel  pan   dell'unità..."
+    }
+  ],
+  "id": "padre-nostro-s-andrea"
+}

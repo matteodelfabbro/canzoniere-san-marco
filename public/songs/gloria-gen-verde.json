@@ -1,0 +1,202 @@
+{
+  "title": "Gloria",
+  "sub": "Gen Verde",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Gloria Gen Verde Intro  Ritornello    Gloria, gloria a Dio.       Gloria, gloria nell'alto dei  cieli.    Pace in terra agli uomini     di buona  volontà.          Gloria!  Strofa 1           Noi   ti lodiamo,  ti benediciamo,           ti adoriamo,   glorifichiamo   te,           ti rendiamo   grazie  per la tua immensa    gloria.           Signore  Dio,  gloria!          Re del  cielo,  gloria!           Dio  Padre,  Dio  onnipotente,   gloria!  Richiamo al ritornello    Gloria…  Strofa 2           Signore,  Figlio unigenito,  Gesù  Cristo,           Signore,  Agnello   di Dio, Figlio del Padre.           Tu  che  togli i peccati del mondo,   abbi  pietà di noi;           tu  che togli i peccati del mondo,   accogli  la nostra supplica;           tu  che siedi alla destra del Padre,  abbi pietà  di noi.  Richiamo al ritornello    Gloria…  Strofa 3           Perché   tu solo il Santo, il Signore,           tu  solo l'Altissimo, Cristo Gesù           con  lo Spirito Santo  nella gloria del  Padre.  Ritornello finale    Gloria…",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI  RE    LA   SI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   MI      LA      DO#-7      SI       MI          LA        DO#-7     SI"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria, gloria a Dio.       Gloria, gloria nell'alto dei  cieli."
+    },
+    {
+      "t": "c",
+      "v": "   MI      LA         DO#-7      SI  MI     LA   MI    LA   MI   LA    MI"
+    },
+    {
+      "t": "l",
+      "v": "   Pace in terra agli uomini     di buona  volontà.          Gloria!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "              LA    MI      FA#-7      MI"
+    },
+    {
+      "t": "l",
+      "v": "          Noi   ti lodiamo,  ti benediciamo,"
+    },
+    {
+      "t": "c",
+      "v": "             LA    MI       RE          MI"
+    },
+    {
+      "t": "l",
+      "v": "          ti adoriamo,   glorifichiamo   te,"
+    },
+    {
+      "t": "c",
+      "v": "          LA     MI     FA#-          MI             RE    SI"
+    },
+    {
+      "t": "l",
+      "v": "          ti rendiamo   grazie  per la tua immensa    gloria."
+    },
+    {
+      "t": "c",
+      "v": "            LA      MI   FA#-7     MI    LA       MI     RE   MI"
+    },
+    {
+      "t": "l",
+      "v": "          Signore  Dio,  gloria!          Re del  cielo,  gloria!"
+    },
+    {
+      "t": "c",
+      "v": "          LA    MI    FA#-7        MI     RE    SI  FA#-7     RE   SI"
+    },
+    {
+      "t": "l",
+      "v": "          Dio  Padre,  Dio  onnipotente,   gloria!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Richiamo al ritornello"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria…"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "            MI                 RE      LA       MI"
+    },
+    {
+      "t": "l",
+      "v": "          Signore,  Figlio unigenito,  Gesù  Cristo,"
+    },
+    {
+      "t": "c",
+      "v": "            MI                   RE   LA           MI"
+    },
+    {
+      "t": "l",
+      "v": "          Signore,  Agnello   di Dio, Figlio del Padre."
+    },
+    {
+      "t": "c",
+      "v": "            MI                RE                LA            MI"
+    },
+    {
+      "t": "l",
+      "v": "          Tu  che  togli i peccati del mondo,   abbi  pietà di noi;"
+    },
+    {
+      "t": "c",
+      "v": "            MI                RE                LA                MI"
+    },
+    {
+      "t": "l",
+      "v": "          tu  che togli i peccati del mondo,   accogli  la nostra supplica;"
+    },
+    {
+      "t": "c",
+      "v": "            MI               RE                 LA            SI"
+    },
+    {
+      "t": "l",
+      "v": "          tu  che siedi alla destra del Padre,  abbi pietà  di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Richiamo al ritornello"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria…"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "             LA       MI     FA#-       MI"
+    },
+    {
+      "t": "l",
+      "v": "          Perché   tu solo il Santo, il Signore,"
+    },
+    {
+      "t": "c",
+      "v": "             LA       MI       RE      MI"
+    },
+    {
+      "t": "l",
+      "v": "          tu  solo l'Altissimo, Cristo Gesù"
+    },
+    {
+      "t": "c",
+      "v": "           LA      MI     FA#-         MI         RE    SI  FA#-7     RE   SI"
+    },
+    {
+      "t": "l",
+      "v": "          con  lo Spirito Santo  nella gloria del  Padre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria…"
+    }
+  ],
+  "id": "gloria-gen-verde"
+}

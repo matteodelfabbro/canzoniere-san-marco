@@ -1,0 +1,172 @@
+{
+  "title": "Andate per le Strade",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Andate per le Strade  Ritornello Andate    per  le strade   in tutto  il mondo,       chiamate     i miei  amici  per   far festa,       c'è  un  posto   per  ciascuno      alla  mia  mensa!  Strofa 1              1. Nel  vostro   cammino      annunciate     il Vangelo,                 dicendo:    \"è vicino   il Regno   dei  cieli\".                 Guarite   i malati,  mondate      i lebbrosi,                 rendete   la vita  a chi  l'ha perduta.  Strofa 2              2. Vi è stato donato   con  amore   gratuito:                 ugualmente   donate   con  gioia e per  amore.                 Con  voi  non  prendete  né  oro  né argento,                 perché  l'operaio  ha diritto al suo cibo.  Strofa 3              3. Entrando   in una  casa donatele   pace.                 Se c'è chi vi rifiuta e non accoglie  il dono                 la pace torni a  voi, e uscite dalla casa                 scuotendo   la polvere  dai vostri calzari.  Strofa 4              4. Ecco  io vi mando   come   agnelli in mezzo   ai lupi:                 siate dunque   avveduti  come   sono  i serpenti.                 Ma  liberi e chiari come  le colombe:                 dovrete  sopportare   prigioni  e tribunali.  Strofa 5              5. Nessuno   è più  grande  del proprio   maestro:                 né il servo è più importante    del suo padrone.                 Se hanno   odiato  me  odieranno   anche   voi,                 voi non  temete:  non   vi lascio soli.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          SI-               RE          SOL          LA7"
+    },
+    {
+      "t": "l",
+      "v": "Andate    per  le strade   in tutto  il mondo,"
+    },
+    {
+      "t": "c",
+      "v": "            FA#             SI-   LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "      chiamate     i miei  amici  per   far festa,"
+    },
+    {
+      "t": "c",
+      "v": "               FA#                 SOL     LA        SI-"
+    },
+    {
+      "t": "l",
+      "v": "      c'è  un  posto   per  ciascuno      alla  mia  mensa!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                     RE            SOL              LA7           RE"
+    },
+    {
+      "t": "l",
+      "v": "             1. Nel  vostro   cammino      annunciate     il Vangelo,"
+    },
+    {
+      "t": "c",
+      "v": "                   SI-             MI-          FA#-       SI-"
+    },
+    {
+      "t": "l",
+      "v": "                dicendo:    \"è vicino   il Regno   dei  cieli\"."
+    },
+    {
+      "t": "c",
+      "v": "                    SI-      SOL              LA7           RE"
+    },
+    {
+      "t": "l",
+      "v": "                Guarite   i malati,  mondate      i lebbrosi,"
+    },
+    {
+      "t": "c",
+      "v": "                    SI-         FA#-      DO#7          FA#7"
+    },
+    {
+      "t": "l",
+      "v": "                rendete   la vita  a chi  l'ha perduta."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "             2. Vi è stato donato   con  amore   gratuito:"
+    },
+    {
+      "t": "l",
+      "v": "                ugualmente   donate   con  gioia e per  amore."
+    },
+    {
+      "t": "l",
+      "v": "                Con  voi  non  prendete  né  oro  né argento,"
+    },
+    {
+      "t": "l",
+      "v": "                perché  l'operaio  ha diritto al suo cibo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "             3. Entrando   in una  casa donatele   pace."
+    },
+    {
+      "t": "l",
+      "v": "                Se c'è chi vi rifiuta e non accoglie  il dono"
+    },
+    {
+      "t": "l",
+      "v": "                la pace torni a  voi, e uscite dalla casa"
+    },
+    {
+      "t": "l",
+      "v": "                scuotendo   la polvere  dai vostri calzari."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "             4. Ecco  io vi mando   come   agnelli in mezzo   ai lupi:"
+    },
+    {
+      "t": "l",
+      "v": "                siate dunque   avveduti  come   sono  i serpenti."
+    },
+    {
+      "t": "l",
+      "v": "                Ma  liberi e chiari come  le colombe:"
+    },
+    {
+      "t": "l",
+      "v": "                dovrete  sopportare   prigioni  e tribunali."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "l",
+      "v": "             5. Nessuno   è più  grande  del proprio   maestro:"
+    },
+    {
+      "t": "l",
+      "v": "                né il servo è più importante    del suo padrone."
+    },
+    {
+      "t": "l",
+      "v": "                Se hanno   odiato  me  odieranno   anche   voi,"
+    },
+    {
+      "t": "l",
+      "v": "                voi non  temete:  non   vi lascio soli."
+    }
+  ],
+  "id": "andate-per-le-strade"
+}

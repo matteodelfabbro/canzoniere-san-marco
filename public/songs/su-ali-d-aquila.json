@@ -1,0 +1,132 @@
+{
+  "title": "Su Ali d'Aquila",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Su Ali d'Aquila  Strofa 1 1.     Tu  che  abiti al  riparo  del  Signore   e che   dimori   alla sua  ombra,        di' al Signore:   \"Mio   rifugio,  mia  roccia   in cui confido\".  Ritornello E ti rialzerà,  ti solleverà   su ali d'aquila   ti reggerà              sulla brezza    dell'alba  ti farà brillar              come    il sole, così nelle  sue  mani   vivrai.  Strofa 2 2.     Dal  laccio  del  cacciatore   ti libererà  e  dalla  carestia  che  distrugge.        Poi  ti coprirà  con   le sue  ali e rifugio  troverai.  Strofa 3 3.     Non   devi   temere   i terrori  della  notte,  né  freccia  che  vola   di giorno;        mille  cadranno     al tuo  fianco  ma   nulla  ti colpirà.  Strofa 4 4.     Perché   ai suoi  angeli  ha  dato   un  comando        di preservarti   in  tutte le tue  vie;        ti porteranno     sulle loro  mani,   contro    la pietra  non   inciamperai.  Ritornello finale                    E  ti rialzerò,  ti solleverò   su ali d'aquila   ti reggerò                    sulla  brezza   dell'alba  ti farò  brillar                    come    il sole, così  nelle  mie  mani    vivrai.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       SOL7+             RE7+                    SOL7+                         RE7+"
+    },
+    {
+      "t": "l",
+      "v": "1.     Tu  che  abiti al  riparo  del  Signore   e che   dimori   alla sua  ombra,"
+    },
+    {
+      "t": "c",
+      "v": "       FA7+                    SIb7+             SOL-                LA4/7"
+    },
+    {
+      "t": "l",
+      "v": "       di' al Signore:   \"Mio   rifugio,  mia  roccia   in cui confido\"."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                    RE          RE7+                MI-       LA4     LA7"
+    },
+    {
+      "t": "l",
+      "v": "E ti rialzerà,  ti solleverà   su ali d'aquila   ti reggerà"
+    },
+    {
+      "t": "c",
+      "v": "                    LA-7     RE7        SOL     MI-"
+    },
+    {
+      "t": "l",
+      "v": "             sulla brezza    dell'alba  ti farà brillar"
+    },
+    {
+      "t": "c",
+      "v": "                      SI-     MI-7         LA4/7   RE"
+    },
+    {
+      "t": "l",
+      "v": "             come    il sole, così nelle  sue  mani   vivrai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.     Dal  laccio  del  cacciatore   ti libererà  e  dalla  carestia  che  distrugge."
+    },
+    {
+      "t": "l",
+      "v": "       Poi  ti coprirà  con   le sue  ali e rifugio  troverai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.     Non   devi   temere   i terrori  della  notte,  né  freccia  che  vola   di giorno;"
+    },
+    {
+      "t": "l",
+      "v": "       mille  cadranno     al tuo  fianco  ma   nulla  ti colpirà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "4.     Perché   ai suoi  angeli  ha  dato   un  comando"
+    },
+    {
+      "t": "l",
+      "v": "       di preservarti   in  tutte le tue  vie;"
+    },
+    {
+      "t": "l",
+      "v": "       ti porteranno     sulle loro  mani,   contro    la pietra  non   inciamperai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "l",
+      "v": "                   E  ti rialzerò,  ti solleverò   su ali d'aquila   ti reggerò"
+    },
+    {
+      "t": "l",
+      "v": "                   sulla  brezza   dell'alba  ti farò  brillar"
+    },
+    {
+      "t": "l",
+      "v": "                   come    il sole, così  nelle  mie  mani    vivrai."
+    }
+  ],
+  "id": "su-ali-d-aquila"
+}

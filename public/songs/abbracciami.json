@@ -1,0 +1,254 @@
+{
+  "title": "Abbracciami",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Abbracciami  Intro  Strofa 1 Gesù  parola viva e vera, sorgente che disseta e cura ogni ferita. Ferma  su di me i tuoi occhi, la tua mano stendi e donami la vita.  Ritornello Abbracciami  Dio dell'eternità, rifugio dell'anima, grazia che opera. Riscaldami fuoco che libera, manda  il tuo Spirito Maranathà Gesù.  Strofa 2 Gesù  asciuga il nostro pianto, leone vincitore della tribù di Giuda. Vieni nella tua potenza, questo cuore sciogli con ogni sua paura.  Ritornello Abbracciami  Dio dell'eternità, rifugio dell'anima, grazia che opera. Riscaldami fuoco che libera, manda  il tuo Spirito Maranathà Gesù.  Ponte Per sempre io canterò la tua immensa fedeltà. Il tuo spirito in me in eterno ti loderà. (x2)  Ritornello Abbracciami  Dio dell'eternità, rifugio dell'anima, grazia che opera. Riscaldami fuoco che libera, manda  il tuo Spirito Maranathà Gesù.  Finale Abbracciami",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI   SI DO#-  LA (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "MI                 LA"
+    },
+    {
+      "t": "l",
+      "v": "Gesù  parola viva e vera,"
+    },
+    {
+      "t": "c",
+      "v": "              DO#-               LA"
+    },
+    {
+      "t": "l",
+      "v": "sorgente che disseta e cura ogni ferita."
+    },
+    {
+      "t": "c",
+      "v": "MI                  LA"
+    },
+    {
+      "t": "l",
+      "v": "Ferma  su di me i tuoi occhi,"
+    },
+    {
+      "t": "c",
+      "v": "             DO#-              LA (lungo)"
+    },
+    {
+      "t": "l",
+      "v": "la tua mano stendi e donami la vita."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI                   SI"
+    },
+    {
+      "t": "l",
+      "v": "Abbracciami  Dio dell'eternità,"
+    },
+    {
+      "t": "c",
+      "v": "           DO#-             LA"
+    },
+    {
+      "t": "l",
+      "v": "rifugio dell'anima, grazia che opera."
+    },
+    {
+      "t": "c",
+      "v": "MI                   SI"
+    },
+    {
+      "t": "l",
+      "v": "Riscaldami fuoco che libera,"
+    },
+    {
+      "t": "c",
+      "v": "              DO#-          LA (lungo)"
+    },
+    {
+      "t": "l",
+      "v": "manda  il tuo Spirito Maranathà Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "MI                    LA"
+    },
+    {
+      "t": "l",
+      "v": "Gesù  asciuga il nostro pianto,"
+    },
+    {
+      "t": "c",
+      "v": "           DO#-               LA"
+    },
+    {
+      "t": "l",
+      "v": "leone vincitore della tribù di Giuda."
+    },
+    {
+      "t": "c",
+      "v": "MI               LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni nella tua potenza,"
+    },
+    {
+      "t": "c",
+      "v": "             DO#-              LA (lungo)"
+    },
+    {
+      "t": "l",
+      "v": "questo cuore sciogli con ogni sua paura."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI                   SI"
+    },
+    {
+      "t": "l",
+      "v": "Abbracciami  Dio dell'eternità,"
+    },
+    {
+      "t": "c",
+      "v": "           DO#-             LA"
+    },
+    {
+      "t": "l",
+      "v": "rifugio dell'anima, grazia che opera."
+    },
+    {
+      "t": "c",
+      "v": "MI                   SI"
+    },
+    {
+      "t": "l",
+      "v": "Riscaldami fuoco che libera,"
+    },
+    {
+      "t": "c",
+      "v": "              DO#-          LA (lungo)"
+    },
+    {
+      "t": "l",
+      "v": "manda  il tuo Spirito Maranathà Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte"
+    },
+    {
+      "t": "c",
+      "v": "  MI             SI      LA           LA"
+    },
+    {
+      "t": "l",
+      "v": "Per sempre io canterò la tua immensa fedeltà."
+    },
+    {
+      "t": "c",
+      "v": "MI            SI       LA          LA"
+    },
+    {
+      "t": "l",
+      "v": "Il tuo spirito in me in eterno ti loderà. (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI                   SI"
+    },
+    {
+      "t": "l",
+      "v": "Abbracciami  Dio dell'eternità,"
+    },
+    {
+      "t": "c",
+      "v": "           DO#-             LA"
+    },
+    {
+      "t": "l",
+      "v": "rifugio dell'anima, grazia che opera."
+    },
+    {
+      "t": "c",
+      "v": "MI                   SI"
+    },
+    {
+      "t": "l",
+      "v": "Riscaldami fuoco che libera,"
+    },
+    {
+      "t": "c",
+      "v": "              DO#-          LA (lungo)"
+    },
+    {
+      "t": "l",
+      "v": "manda  il tuo Spirito Maranathà Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "MI"
+    },
+    {
+      "t": "l",
+      "v": "Abbracciami"
+    }
+  ],
+  "id": "abbracciami"
+}

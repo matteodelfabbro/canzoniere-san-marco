@@ -1,0 +1,281 @@
+{
+  "title": "Resurrezione",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Resurrezione  Intro  Strofa 1                   Che   gioia  ci hai  dato,  Signore    del cielo,                   Signore    del grande    univer    - so,                   che  gioia   ci hai dato,   vestito  di luce                   vestito   di gloria  infini  -  ta,                   vestito   di gloria  infini  -   ta.  Interludio 1  Strofa 2                   Vederti   risorto,  vederti   Signore                   il cuore   sta per  impazzi     -  re                   Tu   sei ritornato,   Tu  sei qui  tra noi                   e  adesso   ti avremo    per  sem   - pre,                   e  adesso   ti avremo    per  sem   - pre.  Interludio 2  Strofa 3                        Chi  cercate,  donne,    quaggiù,                   chi  cercate,  donne,    quaggiù,                   quello   ch'era  morto    non   è  qui                   è  risorto!  Sì, come   aveva    detto  anche    a voi.                   Voi   gridate  a  tutti che                   è  risorto  Lui,    tutti che    è risorto  Lui.  Interludio 3  Strofa 4                        Tu  hai  vinto  il mondo,     Gesù,                   Tu   hai vinto   il mondo,    Gesù,                   liberiamo    la felicità                   e  la morte,   no,  non   esiste  più, l'hai vinta Tu                   e  hai salvato   tutti noi,                   uomini    con   Te,    tutti noi,  uomini    con   Te.  Finale                   uomini    con   te (uomini    con  te)                   che  gioia   ci hai dato:   ti avremo    per  sempre!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE    SOL6      RE    SOL6"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                        RE             SOL6      RE          SOL6"
+    },
+    {
+      "t": "l",
+      "v": "                  Che   gioia  ci hai  dato,  Signore    del cielo,"
+    },
+    {
+      "t": "c",
+      "v": "                     RE         SOL6          LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "                  Signore    del grande    univer    - so,"
+    },
+    {
+      "t": "c",
+      "v": "                        RE             SOL6       RE       SOL6"
+    },
+    {
+      "t": "l",
+      "v": "                  che  gioia   ci hai dato,   vestito  di luce"
+    },
+    {
+      "t": "c",
+      "v": "                      RE      LA           SI-   SOL"
+    },
+    {
+      "t": "l",
+      "v": "                  vestito   di gloria  infini  -  ta,"
+    },
+    {
+      "t": "c",
+      "v": "                      RE       LA          SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "                  vestito   di gloria  infini  -   ta."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio 1"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL6      RE    SOL6"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                      RE       SOL6       RE       SOL6"
+    },
+    {
+      "t": "l",
+      "v": "                  Vederti   risorto,  vederti   Signore"
+    },
+    {
+      "t": "c",
+      "v": "                     RE         SOL6         LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "                  il cuore   sta per  impazzi     -  re"
+    },
+    {
+      "t": "c",
+      "v": "                      RE        SOL6       RE            SOL6"
+    },
+    {
+      "t": "l",
+      "v": "                  Tu   sei ritornato,   Tu  sei qui  tra noi"
+    },
+    {
+      "t": "c",
+      "v": "                      RE       LA               SI-    SOL"
+    },
+    {
+      "t": "l",
+      "v": "                  e  adesso   ti avremo    per  sem   - pre,"
+    },
+    {
+      "t": "c",
+      "v": "                      RE       LA               SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "                  e  adesso   ti avremo    per  sem   - pre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio 2"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL6      RE    SOL6"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "                  RE                   SOL6           RE"
+    },
+    {
+      "t": "l",
+      "v": "                       Chi  cercate,  donne,    quaggiù,"
+    },
+    {
+      "t": "c",
+      "v": "                                  SOL6            RE"
+    },
+    {
+      "t": "l",
+      "v": "                  chi  cercate,  donne,    quaggiù,"
+    },
+    {
+      "t": "c",
+      "v": "                                    SOL              LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "                  quello   ch'era  morto    non   è  qui"
+    },
+    {
+      "t": "c",
+      "v": "                       RE                  SOL6            RE"
+    },
+    {
+      "t": "l",
+      "v": "                  è  risorto!  Sì, come   aveva    detto  anche    a voi."
+    },
+    {
+      "t": "c",
+      "v": "                  SOL6              RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "                  Voi   gridate  a  tutti che"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-         SOL     RE       LA       SOL   RE"
+    },
+    {
+      "t": "l",
+      "v": "                  è  risorto  Lui,    tutti che    è risorto  Lui."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio 3"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL6      RE    SOL6"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "                  RE                     SOL6          RE"
+    },
+    {
+      "t": "l",
+      "v": "                       Tu  hai  vinto  il mondo,     Gesù,"
+    },
+    {
+      "t": "c",
+      "v": "                                     SOL6           RE"
+    },
+    {
+      "t": "l",
+      "v": "                  Tu   hai vinto   il mondo,    Gesù,"
+    },
+    {
+      "t": "c",
+      "v": "                       SOL              LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "                  liberiamo    la felicità"
+    },
+    {
+      "t": "c",
+      "v": "                        RE                        SOL6                RE"
+    },
+    {
+      "t": "l",
+      "v": "                  e  la morte,   no,  non   esiste  più, l'hai vinta Tu"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL6              RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "                  e  hai salvato   tutti noi,"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-            SOL     RE        LA        SOL    RE"
+    },
+    {
+      "t": "l",
+      "v": "                  uomini    con   Te,    tutti noi,  uomini    con   Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL"
+    },
+    {
+      "t": "l",
+      "v": "                  uomini    con   te (uomini    con  te)"
+    },
+    {
+      "t": "c",
+      "v": "                        RE             SOL          RE           SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "                  che  gioia   ci hai dato:   ti avremo    per  sempre!"
+    }
+  ],
+  "id": "resurrezione"
+}

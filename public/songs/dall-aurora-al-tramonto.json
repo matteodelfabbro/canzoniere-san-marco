@@ -1,0 +1,118 @@
+{
+  "title": "Dall'Aurora al Tramonto",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Dall'Aurora al Tramonto  Ritornello Dall'  aurora   io  cerco   te fino  al tramonto     ti chiamo       ha  sete  solo  di   te, l'anima    mia   come    terra  deserta  Strofa 1 1. Non    mi  fermerò    un  solo  istante,  sempre    canterò   la  tua  lode    perché   sei il mio  Dio,   il mio  riparo,    mi  proteggerai      all'ombra    delle  Tue   ali  Strofa 2 2.  Non   mi  fermerò    un  solo   istante, io  racconterò    le tue  opere     perché   sei il mio   Dio,  unico   bene     nulla  mai   potrà,  la notte   contro   di  me     Dall'aurora    io  cerco  te fino  al tramonto     ti chiamo  Ritornello finale Dall'  aurora   io cerco    te fino  al tramonto     ti chiamo                   ha  sete  solo  di   te, l'anima   mia    come    terra  deserta                   ha  sete  solo  di te,  l'anima    mia  come    terra  deserta",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       DO#-      MI        FA#-    SI   DO#-       MI        FA#-     SI"
+    },
+    {
+      "t": "l",
+      "v": "Dall'  aurora   io  cerco   te fino  al tramonto     ti chiamo"
+    },
+    {
+      "t": "c",
+      "v": "       DO#-       SOL#-     LA    SI     DO#-      SOL#-        LA   SI"
+    },
+    {
+      "t": "l",
+      "v": "      ha  sete  solo  di   te, l'anima    mia   come    terra  deserta"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO#-          MI         FA#-        SI   DO#-          MI       FA#-     SI"
+    },
+    {
+      "t": "l",
+      "v": "1. Non    mi  fermerò    un  solo  istante,  sempre    canterò   la  tua  lode"
+    },
+    {
+      "t": "c",
+      "v": "   DO#-             SOL#-      LA        SI"
+    },
+    {
+      "t": "l",
+      "v": "   perché   sei il mio  Dio,   il mio  riparo,"
+    },
+    {
+      "t": "c",
+      "v": "   DO#-      SOL#-      LA                      SI4  SI"
+    },
+    {
+      "t": "l",
+      "v": "   mi  proteggerai      all'ombra    delle  Tue   ali"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.  Non   mi  fermerò    un  solo   istante, io  racconterò    le tue  opere"
+    },
+    {
+      "t": "l",
+      "v": "    perché   sei il mio   Dio,  unico   bene"
+    },
+    {
+      "t": "l",
+      "v": "    nulla  mai   potrà,  la notte   contro   di  me"
+    },
+    {
+      "t": "l",
+      "v": "    Dall'aurora    io  cerco  te fino  al tramonto     ti chiamo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                  DO#-       MI       FA#-    SI   DO#-        MI       FA#-      SI"
+    },
+    {
+      "t": "l",
+      "v": "Dall'  aurora   io cerco    te fino  al tramonto     ti chiamo"
+    },
+    {
+      "t": "c",
+      "v": "                  DO#-        SOL#-     LA    SI     DO#-      SOL#-       LA   SI"
+    },
+    {
+      "t": "l",
+      "v": "                  ha  sete  solo  di   te, l'anima   mia    come    terra  deserta"
+    },
+    {
+      "t": "c",
+      "v": "                  DO#-       SOL#-     LA  SI    MI           LA      SI4  MI"
+    },
+    {
+      "t": "l",
+      "v": "                  ha  sete  solo  di te,  l'anima    mia  come    terra  deserta"
+    }
+  ],
+  "id": "dall-aurora-al-tramonto"
+}

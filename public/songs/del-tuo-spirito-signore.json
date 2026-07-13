@@ -1,0 +1,126 @@
+{
+  "title": "Del Tuo Spirito, Signore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Del Tuo Spirito, Signore  Ritornello Del   tuo  Spirito,     Signore,      È      piena   la    ter   -   ra,      è  piena  la  ter -  ra.   ( 2  v . )  Strofa 1 1. Benedici    il Signore,  anima     mia  - a    Signore,   Dio,       Tu   sei grande!    Sono   immense,     splendenti    tutte  le tue opere        e tutte  le creature.  Strofa 2 2.  Se togli  il tuo soffio  muore    ogni   cosa     e si dissolve   nella  terra.     Il tuo  spirito  scende:     tutto  si ricrea  e tutto  si rinnova.  Strofa 3 3.  La tua  gloria,  Signore,   resti per  sempre.     Gioisci,  Dio,  del  creato.     Questo    semplice    canto     salga  a te,  Signore:   sei tu la nostra   gioia.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "      RE       SOL    RE     SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "Del   tuo  Spirito,     Signore,"
+    },
+    {
+      "t": "c",
+      "v": "     LA     SI-         FA#-7      SOL"
+    },
+    {
+      "t": "l",
+      "v": "     È      piena   la    ter   -   ra,"
+    },
+    {
+      "t": "c",
+      "v": "        RE        MI-   RE"
+    },
+    {
+      "t": "l",
+      "v": "     è  piena  la  ter -  ra.   ( 2  v . )"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO              SIb      RE-      LA-    SIb"
+    },
+    {
+      "t": "l",
+      "v": "1. Benedici    il Signore,  anima     mia  - a"
+    },
+    {
+      "t": "c",
+      "v": "     DO      FA   DO             SOL    DO"
+    },
+    {
+      "t": "l",
+      "v": "   Signore,   Dio,       Tu   sei grande!"
+    },
+    {
+      "t": "c",
+      "v": "                              SIb"
+    },
+    {
+      "t": "l",
+      "v": "   Sono   immense,     splendenti"
+    },
+    {
+      "t": "c",
+      "v": "   RE-            SIb  FA       SOL-             RE"
+    },
+    {
+      "t": "l",
+      "v": "   tutte  le tue opere        e tutte  le creature."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.  Se togli  il tuo soffio  muore    ogni   cosa"
+    },
+    {
+      "t": "l",
+      "v": "    e si dissolve   nella  terra."
+    },
+    {
+      "t": "l",
+      "v": "    Il tuo  spirito  scende:"
+    },
+    {
+      "t": "l",
+      "v": "    tutto  si ricrea  e tutto  si rinnova."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.  La tua  gloria,  Signore,   resti per  sempre."
+    },
+    {
+      "t": "l",
+      "v": "    Gioisci,  Dio,  del  creato."
+    },
+    {
+      "t": "l",
+      "v": "    Questo    semplice    canto"
+    },
+    {
+      "t": "l",
+      "v": "    salga  a te,  Signore:   sei tu la nostra   gioia."
+    }
+  ],
+  "id": "del-tuo-spirito-signore"
+}

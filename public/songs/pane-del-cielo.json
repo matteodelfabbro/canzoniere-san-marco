@@ -1,0 +1,102 @@
+{
+  "title": "Pane del Cielo",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Pane del Cielo  Ritornello (x2)         Pane   del  cielo  Sei tu  Gesù         Via  d'amore     Tu  ci fai come    te  Strofa 1 No   non   è rimasta   fredda    la terra, tu  sei rimasto   con   noi  Per  nutrirci  di Te Pane   di vita  Ed  infiammare     col  tuo  amore    tutta  l'umanità  Strofa 2 Si il cielo è qui  su  questa   terra,  tu sei rimasto   con   noi,  ma   ci porti  con  Te Nella   Tua  casa,  dove    vivremo    insieme    a Te   tutta  l'eternità  Strofa 3 No,   la morte    non   può  farci  paura,   tu sei rimasto    con  noi,  e chi  vive  di Te Vive   per  sempre,    sei Dio  con   noi,  sei Dio  per  noi,  Dio   in mezzo    a noi",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello (x2)"
+    },
+    {
+      "t": "c",
+      "v": "        DO            MI-   FA        DO"
+    },
+    {
+      "t": "l",
+      "v": "        Pane   del  cielo  Sei tu  Gesù"
+    },
+    {
+      "t": "c",
+      "v": "        LA-         RE-   FA                DO"
+    },
+    {
+      "t": "l",
+      "v": "        Via  d'amore     Tu  ci fai come    te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "FA           RE-                    SOL    MI-         FA         DO    FA               DO"
+    },
+    {
+      "t": "l",
+      "v": "No   non   è rimasta   fredda    la terra, tu  sei rimasto   con   noi  Per  nutrirci  di Te"
+    },
+    {
+      "t": "c",
+      "v": "LA-       SOL    FA           SOL               MI-    SOL        FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "Pane   di vita  Ed  infiammare     col  tuo  amore    tutta  l'umanità"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "FA            RE-              SOL     MI-        FA          DO     FA               DO"
+    },
+    {
+      "t": "l",
+      "v": "Si il cielo è qui  su  questa   terra,  tu sei rimasto   con   noi,  ma   ci porti  con  Te"
+    },
+    {
+      "t": "c",
+      "v": "LA-          SOL     FA        SOL                MI-   SOL        FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "Nella   Tua  casa,  dove    vivremo    insieme    a Te   tutta  l'eternità"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "FA                      RE-         SOL     MI-         FA         DO   FA               DO"
+    },
+    {
+      "t": "l",
+      "v": "No,   la morte    non   può  farci  paura,   tu sei rimasto    con  noi,  e chi  vive  di Te"
+    },
+    {
+      "t": "c",
+      "v": "LA-        SOL      FA               SOL                  MI-   SOL       FA        DO"
+    },
+    {
+      "t": "l",
+      "v": "Vive   per  sempre,    sei Dio  con   noi,  sei Dio  per  noi,  Dio   in mezzo    a noi"
+    }
+  ],
+  "id": "pane-del-cielo"
+}

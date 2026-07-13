@@ -1,0 +1,102 @@
+{
+  "title": "Cantate al Signore un Canto Nuovo",
+  "sub": "Fallormi",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Cantate al Signore un Canto Nuovo Fallormi Strofa 1       Cantate   al Signore    un  canto   nuovo,    perché   ha  compiuto     prodigi.       Ha  manifestato     la sua  salvezza,   su tutti  i popoli  la  sua     bontà.  Strofa 2  Egli si è ricordato    della  sua    fedeltà  i confini  della  terra  hanno    veduto    la salvezza   del  Signor.  Strofa 3  Esultiamo    di gioia,  acclamiamo      al Signor  con  un   suono   melodioso     cantiamo     insieme:   \"Lode    e gloria  al nostro   Re\".  Strofa 4  Frema    il mare  e  la terra: il Signore   verrà  un  giudizio   di giustizia  con   rettitudine   nel  mondo     porterà.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       SOL            RE          DO      SOL       DO              SOL        LA-7    RE"
+    },
+    {
+      "t": "l",
+      "v": "      Cantate   al Signore    un  canto   nuovo,    perché   ha  compiuto     prodigi."
+    },
+    {
+      "t": "c",
+      "v": "          SOL        RE        DO      SOL    DO         SOL          LA-7    RE   SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Ha  manifestato     la sua  salvezza,   su tutti  i popoli  la  sua     bontà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL                            MI-     LA-7    RE"
+    },
+    {
+      "t": "l",
+      "v": " Egli si è ricordato    della  sua    fedeltà"
+    },
+    {
+      "t": "c",
+      "v": "DO     RE   SOL     MI-   DO         SOL           LA-     RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": " i confini  della  terra  hanno    veduto    la salvezza   del  Signor."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "SOL                             MI-      LA-7   RE"
+    },
+    {
+      "t": "l",
+      "v": " Esultiamo    di gioia,  acclamiamo      al Signor"
+    },
+    {
+      "t": "c",
+      "v": "DO          RE     SOL     MI-   DO           SOL                   LA-         RE     SOL"
+    },
+    {
+      "t": "l",
+      "v": " con  un   suono   melodioso     cantiamo     insieme:   \"Lode    e gloria  al nostro   Re\"."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "SOL                                 MI-    LA-7    RE"
+    },
+    {
+      "t": "l",
+      "v": " Frema    il mare  e  la terra: il Signore   verrà"
+    },
+    {
+      "t": "c",
+      "v": "DO        RE     SOL   MI-     DO       SOL            LA-      RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": " un  giudizio   di giustizia  con   rettitudine   nel  mondo     porterà."
+    }
+  ],
+  "id": "cantate-al-signore-un-canto-nuovo-fallormi"
+}

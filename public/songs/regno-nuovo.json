@@ -1,0 +1,146 @@
+{
+  "title": "Regno Nuovo",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Regno Nuovo  Strofa 1 Tu  mio   Signore   tra  noi  sei venuto ed  un  nuovo    regno    ci hai annunziato, un  regno    assurdo   d'amore     e di pace, un  mondo     in  cui l'uomo    nasce   morendo, un  mondo     in  cui egli vince   perdendo.  Strofa 2                   Egli fu  re negli  stracci  di un  bimbo,                   scelse  una  madre     uguale    alle altre,                   ebbe   bisogno    dell'uomo     perché   ci ama;                   Lo  ringraziamo     donandogli      una  croce.  Strofa 3 Non    abbiam    compreso     il tuo  mondo     Signore, siam   troppo   egoisti,  orgogliosi,    perfetti per  poter   capire  l'amor    che  ci hai donato abbiam    troppa    paura   di essere   diversi in un   mondo     troppo    vecchio   che  non   vuol   cambiare.  Strofa 4                   Ma   noi  come    Lui  dobbiamo      aver  coraggio                   di amare    il nemico,    l'assassino,  il peccatore                   anche   se  la gente   li giudica  e condanna                   solo  perché    han  la colpa   di aver   sbagliato.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "MI-       RE             DO            SI7"
+    },
+    {
+      "t": "l",
+      "v": "Tu  mio   Signore   tra  noi  sei venuto"
+    },
+    {
+      "t": "c",
+      "v": "MI-               RE       DO             SI7"
+    },
+    {
+      "t": "l",
+      "v": "ed  un  nuovo    regno    ci hai annunziato,"
+    },
+    {
+      "t": "c",
+      "v": "MI-           RE          DO             SI7"
+    },
+    {
+      "t": "l",
+      "v": "un  regno    assurdo   d'amore     e di pace,"
+    },
+    {
+      "t": "c",
+      "v": "MI-               RE             DO          SI7"
+    },
+    {
+      "t": "l",
+      "v": "un  mondo     in  cui l'uomo    nasce   morendo,"
+    },
+    {
+      "t": "c",
+      "v": "MI-               RE        DO           SI7"
+    },
+    {
+      "t": "l",
+      "v": "un  mondo     in  cui egli vince   perdendo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                  MI       DO#-          FA#-             SI7"
+    },
+    {
+      "t": "l",
+      "v": "                  Egli fu  re negli  stracci  di un  bimbo,"
+    },
+    {
+      "t": "c",
+      "v": "                  MI            DO#-      FA#-          DO      SI7"
+    },
+    {
+      "t": "l",
+      "v": "                  scelse  una  madre     uguale    alle altre,"
+    },
+    {
+      "t": "c",
+      "v": "                  MI         DO#-            LA       DO      SI7"
+    },
+    {
+      "t": "l",
+      "v": "                  ebbe   bisogno    dell'uomo     perché   ci ama;"
+    },
+    {
+      "t": "c",
+      "v": "                  MI          DO#-          LA    LA-           MI-    RE    DO      SI7"
+    },
+    {
+      "t": "l",
+      "v": "                  Lo  ringraziamo     donandogli      una  croce."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "Non    abbiam    compreso     il tuo  mondo     Signore,"
+    },
+    {
+      "t": "l",
+      "v": "siam   troppo   egoisti,  orgogliosi,    perfetti"
+    },
+    {
+      "t": "l",
+      "v": "per  poter   capire  l'amor    che  ci hai donato"
+    },
+    {
+      "t": "l",
+      "v": "abbiam    troppa    paura   di essere   diversi"
+    },
+    {
+      "t": "l",
+      "v": "in un   mondo     troppo    vecchio   che  non   vuol   cambiare."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "                  Ma   noi  come    Lui  dobbiamo      aver  coraggio"
+    },
+    {
+      "t": "l",
+      "v": "                  di amare    il nemico,    l'assassino,  il peccatore"
+    },
+    {
+      "t": "l",
+      "v": "                  anche   se  la gente   li giudica  e condanna"
+    },
+    {
+      "t": "l",
+      "v": "                  solo  perché    han  la colpa   di aver   sbagliato."
+    }
+  ],
+  "id": "regno-nuovo"
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Il Disegno",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Il Disegno  Strofa 1 1. Nel  mare   del  silenzio   una  voce   si alzò    da  una  notte   senza   confini  una   luce  brillò    dove   non   c'era  niente  quel   giorno.  Ritornello Avevi    scritto già  il mio  nome    lassù  nel  cielo       avevi   scritto  già la mia   vita  insieme   a te       avevi   scritto  già di  me.  Strofa 2 2. E quando     la tua  mente    fece  splendere    le stelle    e quando     le tue  mani   modellarono      la terra    dove   non   c'era  niente  quel   giorno.  Strofa 3 3. E quando     hai  calcolato   la profondità    del  cielo    e quando     hai colorato    ogni   fiore della  terra    dove   non   c'era  niente  quel   giorno.  Strofa 4 4. E quando     hai  disegnato    le nubi  e le  montagne    e quando     hai disegnato    il cammino      di ogni  uomo    l'avevi  fatto  anche   per  me.  Ritornello finale Se  ieri non   sapevo    oggi  ho  incontrato    te                    e  la mia  libertà  è  il tuo disegno    su di  me                    non   cercherò    più  niente   perché   tu  mi  salverai.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "        LA-           FA      SOL          DO     MI"
+    },
+    {
+      "t": "l",
+      "v": "1. Nel  mare   del  silenzio   una  voce   si alzò"
+    },
+    {
+      "t": "c",
+      "v": "            LA-            FA             SOL      DO      MI"
+    },
+    {
+      "t": "l",
+      "v": "   da  una  notte   senza   confini  una   luce  brillò"
+    },
+    {
+      "t": "c",
+      "v": "                LA-                      MI7"
+    },
+    {
+      "t": "l",
+      "v": "   dove   non   c'era  niente  quel   giorno."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "      LA-              RE-          SOL               DO     MI"
+    },
+    {
+      "t": "l",
+      "v": "Avevi    scritto già  il mio  nome    lassù  nel  cielo"
+    },
+    {
+      "t": "c",
+      "v": "       LA-             RE-           SOL               DO     MI"
+    },
+    {
+      "t": "l",
+      "v": "      avevi   scritto  già la mia   vita  insieme   a te"
+    },
+    {
+      "t": "c",
+      "v": "              LA-                MI"
+    },
+    {
+      "t": "l",
+      "v": "      avevi   scritto  già di  me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2. E quando     la tua  mente    fece  splendere    le stelle"
+    },
+    {
+      "t": "l",
+      "v": "   e quando     le tue  mani   modellarono      la terra"
+    },
+    {
+      "t": "l",
+      "v": "   dove   non   c'era  niente  quel   giorno."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3. E quando     hai  calcolato   la profondità    del  cielo"
+    },
+    {
+      "t": "l",
+      "v": "   e quando     hai colorato    ogni   fiore della  terra"
+    },
+    {
+      "t": "l",
+      "v": "   dove   non   c'era  niente  quel   giorno."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "4. E quando     hai  disegnato    le nubi  e le  montagne"
+    },
+    {
+      "t": "l",
+      "v": "   e quando     hai disegnato    il cammino      di ogni  uomo"
+    },
+    {
+      "t": "l",
+      "v": "   l'avevi  fatto  anche   per  me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "l",
+      "v": "Se  ieri non   sapevo    oggi  ho  incontrato    te"
+    },
+    {
+      "t": "l",
+      "v": "                   e  la mia  libertà  è  il tuo disegno    su di  me"
+    },
+    {
+      "t": "l",
+      "v": "                   non   cercherò    più  niente   perché   tu  mi  salverai."
+    }
+  ],
+  "id": "il-disegno"
+}

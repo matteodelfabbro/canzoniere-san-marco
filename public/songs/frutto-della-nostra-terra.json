@@ -1,0 +1,153 @@
+{
+  "title": "Frutto della Nostra Terra",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Frutto della Nostra Terra  Intro  Strofa 1    Frutto  della nostra  terra, del lavoro  di ogni  uomo:    pane  della  nostra vita, cibo  della quotidianità.    Tu che  lo prendevi   un giorno,  lo spezzavi   per i tuoi,    oggi  vieni in questo  pane,  cibo  vero  dell'umanità.  Ritornello                  E sarò  pane,  e sarò  vino nella mia  vita, nelle tue mani.                  Ti accoglierò   dentro  di me,  farò di me  un'offerta  viva,                  un  sacrificio       gradito  a Te.  Strofa 2    Frutto  della nostra  terra, del lavoro  di ogni  uomo:    vino delle  nostre  vigne, sulla mensa   dei  fratelli tuoi    Tu che  lo prendevi   un giorno,  lo bevevi   con  i tuoi,    oggi  vieni in questo  vino  e ti doni per  la vita mia  Ritornello finale                  E sarò  pane,  e sarò  vino nella mia  vita, nelle tue mani.                  Ti accoglierò   dentro  di me,  farò di me  un'offerta  viva,                  un  sacrificio       gradito  a Te.                  un  sacrificio       gradito  a Te.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL   RE   DO   RE4   RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                 DO       SOL               RE"
+    },
+    {
+      "t": "l",
+      "v": "   Frutto  della nostra  terra, del lavoro  di ogni  uomo:"
+    },
+    {
+      "t": "c",
+      "v": "   MI-                 SI-       DO                 RE"
+    },
+    {
+      "t": "l",
+      "v": "   pane  della  nostra vita, cibo  della quotidianità."
+    },
+    {
+      "t": "c",
+      "v": "   SOL                      DO       SOL                 RE"
+    },
+    {
+      "t": "l",
+      "v": "   Tu che  lo prendevi   un giorno,  lo spezzavi   per i tuoi,"
+    },
+    {
+      "t": "c",
+      "v": "   MI-                    SI-        DO                 RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "   oggi  vieni in questo  pane,  cibo  vero  dell'umanità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                       SOL            RE               MI-              SI-"
+    },
+    {
+      "t": "l",
+      "v": "                 E sarò  pane,  e sarò  vino nella mia  vita, nelle tue mani."
+    },
+    {
+      "t": "c",
+      "v": "                            DO              RE          MI-7          DO7+"
+    },
+    {
+      "t": "l",
+      "v": "                 Ti accoglierò   dentro  di me,  farò di me  un'offerta  viva,"
+    },
+    {
+      "t": "c",
+      "v": "                         LA-    RE4            SOL        DO   RE"
+    },
+    {
+      "t": "l",
+      "v": "                 un  sacrificio       gradito  a Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Frutto  della nostra  terra, del lavoro  di ogni  uomo:"
+    },
+    {
+      "t": "l",
+      "v": "   vino delle  nostre  vigne, sulla mensa   dei  fratelli tuoi"
+    },
+    {
+      "t": "l",
+      "v": "   Tu che  lo prendevi   un giorno,  lo bevevi   con  i tuoi,"
+    },
+    {
+      "t": "l",
+      "v": "   oggi  vieni in questo  vino  e ti doni per  la vita mia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                       SOL            RE               MI-              SI-"
+    },
+    {
+      "t": "l",
+      "v": "                 E sarò  pane,  e sarò  vino nella mia  vita, nelle tue mani."
+    },
+    {
+      "t": "c",
+      "v": "                            DO              RE          MI-7          DO7+"
+    },
+    {
+      "t": "l",
+      "v": "                 Ti accoglierò   dentro  di me,  farò di me  un'offerta  viva,"
+    },
+    {
+      "t": "c",
+      "v": "                         LA-    RE4            MI-    DO"
+    },
+    {
+      "t": "l",
+      "v": "                 un  sacrificio       gradito  a Te."
+    },
+    {
+      "t": "c",
+      "v": "                         LA-    RE4            SOL"
+    },
+    {
+      "t": "l",
+      "v": "                 un  sacrificio       gradito  a Te."
+    }
+  ],
+  "id": "frutto-della-nostra-terra"
+}

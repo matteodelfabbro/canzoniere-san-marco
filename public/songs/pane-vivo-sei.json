@@ -1,0 +1,167 @@
+{
+  "title": "Pane Vivo Sei",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Pane Vivo Sei  Strofa 1    Venne   il tempo  stabilito    di discendere  fra i tuoi.    Come   uomo    hai fissato la tua tenda fra di noi.    Il Santuario è spalancato    la Tua Gloria  appare   già.    Ogni  uomo   può   vedere  ora  cosa sia la verità.  Ritornello    Pane  Vivo  sei,         per  Amore   mio.    Ti sei dato tutto quanto   a me,  mio  Dio.    Dove   mai andrò,    per trovare  chi mi  amerà  di più    più di quanto   mi ami  tu Gesù.  Strofa 2    Sulla croce hai offerto    la Tua vita al Padre  tuo.    Ora  offri in questo Pane   la Tua vita a noi.    Sacrificio per Amore,    Chiedi  a chi Ti seguirà.    Chi ha  donato   la sua vita, oggi in te la troverà.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   LA                 MI"
+    },
+    {
+      "t": "l",
+      "v": "   Venne   il tempo  stabilito"
+    },
+    {
+      "t": "c",
+      "v": "   RE                 LA"
+    },
+    {
+      "t": "l",
+      "v": "   di discendere  fra i tuoi."
+    },
+    {
+      "t": "c",
+      "v": "   DO#-                 RE            LA           MI"
+    },
+    {
+      "t": "l",
+      "v": "   Come   uomo    hai fissato la tua tenda fra di noi."
+    },
+    {
+      "t": "c",
+      "v": "   LA                  MI"
+    },
+    {
+      "t": "l",
+      "v": "   Il Santuario è spalancato"
+    },
+    {
+      "t": "c",
+      "v": "   RE                       LA"
+    },
+    {
+      "t": "l",
+      "v": "   la Tua Gloria  appare   già."
+    },
+    {
+      "t": "c",
+      "v": "   DO#-                  RE        LA               MI"
+    },
+    {
+      "t": "l",
+      "v": "   Ogni  uomo   può   vedere  ora  cosa sia la verità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   LA            DO#-         RE            MI"
+    },
+    {
+      "t": "l",
+      "v": "   Pane  Vivo  sei,         per  Amore   mio."
+    },
+    {
+      "t": "c",
+      "v": "   FA#-         MI                 RE       MI"
+    },
+    {
+      "t": "l",
+      "v": "   Ti sei dato tutto quanto   a me,  mio  Dio."
+    },
+    {
+      "t": "c",
+      "v": "   LA                 DO#-"
+    },
+    {
+      "t": "l",
+      "v": "   Dove   mai andrò,"
+    },
+    {
+      "t": "c",
+      "v": "   RE              MI                   FA#-     MI"
+    },
+    {
+      "t": "l",
+      "v": "   per trovare  chi mi  amerà  di più"
+    },
+    {
+      "t": "c",
+      "v": "   RE                    MI             LA"
+    },
+    {
+      "t": "l",
+      "v": "   più di quanto   mi ami  tu Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   LA                 MI"
+    },
+    {
+      "t": "l",
+      "v": "   Sulla croce hai offerto"
+    },
+    {
+      "t": "c",
+      "v": "   RE                 LA"
+    },
+    {
+      "t": "l",
+      "v": "   la Tua vita al Padre  tuo."
+    },
+    {
+      "t": "c",
+      "v": "   DO#-          RE           LA               MI"
+    },
+    {
+      "t": "l",
+      "v": "   Ora  offri in questo Pane   la Tua vita a noi."
+    },
+    {
+      "t": "c",
+      "v": "   LA                  MI"
+    },
+    {
+      "t": "l",
+      "v": "   Sacrificio per Amore,"
+    },
+    {
+      "t": "c",
+      "v": "   RE                       LA"
+    },
+    {
+      "t": "l",
+      "v": "   Chiedi  a chi Ti seguirà."
+    },
+    {
+      "t": "c",
+      "v": "   DO#-                  RE              LA           MI"
+    },
+    {
+      "t": "l",
+      "v": "   Chi ha  donato   la sua vita, oggi in te la troverà."
+    }
+  ],
+  "id": "pane-vivo-sei"
+}

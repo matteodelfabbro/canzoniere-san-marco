@@ -1,0 +1,128 @@
+{
+  "title": "Dolce Sentire",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Dolce Sentire  Strofa 1 Dolce   sentire     come    nel  mio   cuore, Or   - a  umil    - mente      sta nascendo     amore. Dolce   capire      che  non   son  più  solo ma   che  son    par  - te    di un'immensa      vita, che  ge  - ne  -  ro -  sa    risplende   intorno    a me: Do   - no   di   Lu -  i      e  del suo   immenso     amore.  Strofa 2                   Ci  ha  dato   il cielo    e  le  chiare   stelle,                   Fra  -  tel - lo     so  -  le     e  sorella    luna;                   la     madre    terra  con  frutti, prati  e fiori,                   il      fuo  - co  , il ven  - to,   l'aria e l'acqua   pura                   Fon   - te      di     vi  -  ta     per  le sue  creature,                   Do   -  no  di   Lu  - i       e del  suo  immenso     amore.                   Do   -  no  di   Lu  - i       e del  suo  immenso     amore.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE          FA#-      SOL     LA        FA#-"
+    },
+    {
+      "t": "l",
+      "v": "Dolce   sentire     come    nel  mio   cuore,"
+    },
+    {
+      "t": "c",
+      "v": "SI-  LA    SOL   FA#-   SI- MI-      MI7           LA"
+    },
+    {
+      "t": "l",
+      "v": "Or   - a  umil    - mente      sta nascendo     amore."
+    },
+    {
+      "t": "c",
+      "v": "RE          FA#-      SOL     LA         FA#-"
+    },
+    {
+      "t": "l",
+      "v": "Dolce   capire      che  non   son  più  solo"
+    },
+    {
+      "t": "c",
+      "v": "SI-  LA   SOL   FA#-   SI-  MI-       LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "ma   che  son    par  - te    di un'immensa      vita,"
+    },
+    {
+      "t": "c",
+      "v": "SI-  SOL-        RE   SOL     SOL-          LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "che  ge  - ne  -  ro -  sa    risplende   intorno    a me:"
+    },
+    {
+      "t": "c",
+      "v": "SI-  SOL-        RE   SOL       SOL-          LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "Do   - no   di   Lu -  i      e  del suo   immenso     amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                  RE                 FA#-     SOL    LA      FA#-"
+    },
+    {
+      "t": "l",
+      "v": "                  Ci  ha  dato   il cielo    e  le  chiare   stelle,"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-    LA   SOL    FA#-   SI-   MI-    MI7       LA"
+    },
+    {
+      "t": "l",
+      "v": "                  Fra  -  tel - lo     so  -  le     e  sorella    luna;"
+    },
+    {
+      "t": "c",
+      "v": "                  RE                 FA#-       SOL    LA      FA#-"
+    },
+    {
+      "t": "l",
+      "v": "                  la     madre    terra  con  frutti, prati  e fiori,"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-    LA     SOL     FA#-    SI-   MI-      MI7       LA"
+    },
+    {
+      "t": "l",
+      "v": "                  il      fuo  - co  , il ven  - to,   l'aria e l'acqua   pura"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-   LA     SOL     FA#-   SI-    MI-      LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "                  Fon   - te      di     vi  -  ta     per  le sue  creature,"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-   SOL-      RE   SOL       SOL-           LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "                  Do   -  no  di   Lu  - i       e del  suo  immenso     amore."
+    },
+    {
+      "t": "c",
+      "v": "                  SI-    SOL-     RE   SOL       SOL-           LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "                  Do   -  no  di   Lu  - i       e del  suo  immenso     amore."
+    }
+  ],
+  "id": "dolce-sentire"
+}

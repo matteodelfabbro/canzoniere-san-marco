@@ -1,0 +1,147 @@
+{
+  "title": "Voi Siete di Dio",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Voi Siete di Dio  Intro  Strofa 1   Tutte  le  stelle della  not  - te le nebulose    e  le come   - te   il sole su  una  ragnate    - la       è  tutto  vostro   e voi  sie  - te  di Dio.  Strofa 2   Tutte  le  rose  della  vi - ta il grano,  i prati,  i fili d'erba   il mare,  i fiumi,  le montagne         è  tutto  vostro   e voi  sie  - te di Dio.  Strofa 3   Tutte  le  musiche    e le dan   - ze, i grattacieli, le  astrona    - vi   i quadri,  i libri, le cultu  - re        è tutto  vostro   e  voi sie  -  te di  Dio.  Sax (lungo fino alla fine del solo)  Strofa 4   Tutte  le  volte  che  perdo    - no  quando    sorrido,   quando     pian  - go   quando     mi  accorgo    di chi sono       è tutto  vostro   e  voi sie   -  te di  Dio. Finale   È tutto  nostro   e  noi  siamo   di Dio.  Ripetere l'ultima strofa in MI con il sax",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL        RE    DO      MI-7        DO      RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL                        RE    SOL                        RE     MI-"
+    },
+    {
+      "t": "l",
+      "v": "  Tutte  le  stelle della  not  - te le nebulose    e  le come   - te"
+    },
+    {
+      "t": "c",
+      "v": "SOL                       RE   SOL     DO                         SOL     RE     SOL"
+    },
+    {
+      "t": "l",
+      "v": "  il sole su  una  ragnate    - la       è  tutto  vostro   e voi  sie  - te  di Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "MI                       SI   MI                            SI DO#-"
+    },
+    {
+      "t": "l",
+      "v": "  Tutte  le  rose  della  vi - ta il grano,  i prati,  i fili d'erba"
+    },
+    {
+      "t": "c",
+      "v": "MI                             SI  MI    LA                         MI    SI     MI"
+    },
+    {
+      "t": "l",
+      "v": "  il mare,  i fiumi,  le montagne         è  tutto  vostro   e voi  sie  - te di Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "SOL                          RE    SOL                           RE      MI-"
+    },
+    {
+      "t": "l",
+      "v": "  Tutte  le  musiche    e le dan   - ze, i grattacieli, le  astrona    - vi"
+    },
+    {
+      "t": "c",
+      "v": "SOL                         RE   SOL     DO                          SOL    RE      SOL"
+    },
+    {
+      "t": "l",
+      "v": "  i quadri,  i libri, le cultu  - re        è tutto  vostro   e  voi sie  -  te di  Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Sax (lungo fino alla fine del solo)"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE SOL   SOL RE MI-"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE SOL   DO SOL RE DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "MI                            SI   MI                                    SI    DO#-"
+    },
+    {
+      "t": "l",
+      "v": "  Tutte  le  volte  che  perdo    - no  quando    sorrido,   quando     pian  - go"
+    },
+    {
+      "t": "c",
+      "v": "MI                                 SI  MI   LA                        DO#-     SI     LA"
+    },
+    {
+      "t": "l",
+      "v": "  quando     mi  accorgo    di chi sono       è tutto  vostro   e  voi sie   -  te di  Dio."
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "LA                          MI    SI     MI"
+    },
+    {
+      "t": "l",
+      "v": "  È tutto  nostro   e  noi  siamo   di Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere l'ultima strofa in MI con il sax"
+    }
+  ],
+  "id": "voi-siete-di-dio"
+}

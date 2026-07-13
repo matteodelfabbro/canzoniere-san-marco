@@ -1,0 +1,141 @@
+{
+  "title": "Cristo è Risorto Veramente",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Cristo è Risorto Veramente  Ritornello Cristo  è  risorto  veramente,     alleluia!            Gesù,   il vivente,  qui  con   noi resterà.            Cristo  Gesù,      Cristo   Gesù       è il  Signore    della  vita.  Strofa 1    Morte,   dov'è   la tua  vittoria?   Paura      non  mi  puoi   far più.    Se  sulla  croce   io morirò   insieme    a  lui,  poi  insieme    a lui risorgerò.  Strofa 2    Tu,  Signore,    amante    della  vita, mi  hai  creato   per  l'eternità.    La  vita mia   tu dal  sepolcro    strapperai,      con  questo    mio   corpo   ti vedrò.  Strofa 3    Tu  mi  hai  donato   la  tua vita,  io voglio  donar    la mia  a  te.    Fa  che   possa   dire:  \"Cristo  vive  anche    in me\"   e quel   giorno   io risorgerò.  Ritornello finale Cristo  è  risorto veramente,      alleluia!                      Gesù,    il vivente,  qui con   noi  resterà.                      Cristo   Gesù,      Cristo  Gesù       è  il Signore    della   vita.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          RE          LA           RE          LA"
+    },
+    {
+      "t": "l",
+      "v": "Cristo  è  risorto  veramente,     alleluia!"
+    },
+    {
+      "t": "c",
+      "v": "           RE          LA                SI-        LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "           Gesù,   il vivente,  qui  con   noi resterà."
+    },
+    {
+      "t": "c",
+      "v": "           SI-      SOL       RE       SOL        RE     LA             SOL    RE"
+    },
+    {
+      "t": "l",
+      "v": "           Cristo  Gesù,      Cristo   Gesù       è il  Signore    della  vita."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE           SOL           RE        FA#-       SI-             LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Morte,   dov'è   la tua  vittoria?   Paura      non  mi  puoi   far più."
+    },
+    {
+      "t": "c",
+      "v": "   SOL         LA        RE        LA        SI-     SOL               RE          LA4LA"
+    },
+    {
+      "t": "l",
+      "v": "   Se  sulla  croce   io morirò   insieme    a  lui,  poi  insieme    a lui risorgerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   RE             SOL                RE     FA#-             SI-          LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Tu,  Signore,    amante    della  vita, mi  hai  creato   per  l'eternità."
+    },
+    {
+      "t": "c",
+      "v": "   SOL         LA        RE           LA        SI-    SOL                RE          LA4LA"
+    },
+    {
+      "t": "l",
+      "v": "   La  vita mia   tu dal  sepolcro    strapperai,      con  questo    mio   corpo   ti vedrò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "   RE           SOL           RE        FA#-       SI-             LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  mi  hai  donato   la  tua vita,  io voglio  donar    la mia  a  te."
+    },
+    {
+      "t": "c",
+      "v": "   SOL               LA      RE      LA             SI-      SOL             RE       LA4LA     SI"
+    },
+    {
+      "t": "l",
+      "v": "   Fa  che   possa   dire:  \"Cristo  vive  anche    in me\"   e quel   giorno   io risorgerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                     MI           SI          MI         SI"
+    },
+    {
+      "t": "l",
+      "v": "Cristo  è  risorto veramente,      alleluia!"
+    },
+    {
+      "t": "c",
+      "v": "                     MI         SI               DO#-          SI4    SI"
+    },
+    {
+      "t": "l",
+      "v": "                     Gesù,    il vivente,  qui con   noi  resterà."
+    },
+    {
+      "t": "c",
+      "v": "                     DO#-         SI     MI      LA       MI          SI            LA   MI"
+    },
+    {
+      "t": "l",
+      "v": "                     Cristo   Gesù,      Cristo  Gesù       è  il Signore    della   vita."
+    }
+  ],
+  "id": "cristo-e-risorto-veramente"
+}

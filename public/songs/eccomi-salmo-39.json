@@ -1,0 +1,127 @@
+{
+  "title": "Eccomi",
+  "sub": "Salmo 39",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Eccomi Salmo 39 Intro  Ritornello Eccomi,      ecco  - mi!    Si  -   gnore   io  ve   -  ngo.       Eccomi,         ecco  - mi!     si compia    in me   la tua   vo   -   lontà.  Strofa 1 1.     Nel  mio   Signore   ho  sperato,   e  su di  me  s'è  chinato,        ha  dato  ascolto   al mio   gri  -  do,       m'ha   liberato   dalla  mo    -  rte.  Strofa 2 2.     I miei  piedi  ha  reso  saldi, sicuri  ha reso   i miei  passi.        Ha  messo    sulla mia   bocca   un  nuovo    canto   di  lode.  Strofa 3 3.     Il sacrificio non   gradisci,  ma   m'hai   aperto   l'orecchio,        non   hai voluto    olocausti,   allora  ho  detto:   io vengo!  Strofa 4 4.     Sul tuo  libro  di me   è  scritto: si compia    il tuo  volere.        Questo    mio   Dio,  desidero,   la  tua  legge  è nel  mio   cuore.  Strofa 5 5.     La tua  giustizia  ho  proclamato,      non   tengo   chiuse  le labbra.        Non   rifiutarmi,   Signore,   la tua  misericordia.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE    LA    SI-   SOL     RE    SOL     LA7"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       RE    LA    MI-     SI-     SOL     RE         LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "Eccomi,      ecco  - mi!    Si  -   gnore   io  ve   -  ngo."
+    },
+    {
+      "t": "c",
+      "v": "       SI-   FA#-      SOL     RE     SOL             SI-           LA4     LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "      Eccomi,         ecco  - mi!     si compia    in me   la tua   vo   -   lontà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "      RE           SOL              RE     SI-     SOL           LA"
+    },
+    {
+      "t": "l",
+      "v": "1.     Nel  mio   Signore   ho  sperato,   e  su di  me  s'è  chinato,"
+    },
+    {
+      "t": "c",
+      "v": "       MI-       LA                  SI-    FA#-      SOL         MI7          LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "       ha  dato  ascolto   al mio   gri  -  do,       m'ha   liberato   dalla  mo    -  rte."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.     I miei  piedi  ha  reso  saldi, sicuri  ha reso   i miei  passi."
+    },
+    {
+      "t": "l",
+      "v": "       Ha  messo    sulla mia   bocca   un  nuovo    canto   di  lode."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.     Il sacrificio non   gradisci,  ma   m'hai   aperto   l'orecchio,"
+    },
+    {
+      "t": "l",
+      "v": "       non   hai voluto    olocausti,   allora  ho  detto:   io vengo!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "4.     Sul tuo  libro  di me   è  scritto: si compia    il tuo  volere."
+    },
+    {
+      "t": "l",
+      "v": "       Questo    mio   Dio,  desidero,   la  tua  legge  è nel  mio   cuore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "l",
+      "v": "5.     La tua  giustizia  ho  proclamato,      non   tengo   chiuse  le labbra."
+    },
+    {
+      "t": "l",
+      "v": "       Non   rifiutarmi,   Signore,   la tua  misericordia."
+    }
+  ],
+  "id": "eccomi-salmo-39"
+}

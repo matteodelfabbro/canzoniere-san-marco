@@ -1,0 +1,185 @@
+{
+  "title": "Chiamati per Nome",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Chiamati per Nome  Intro  Ritornello Veniamo    da te, chiamati  per nome          Che  festa Signore  tu cammini   con  noi          Ci parli di te, per noi spezzi  il pane,          ti riconosciamo   il cuore arde  sei tu          E noi  tuo po - polo   siamo  qui!  Strofa 1    1. Siamo  come   terra ed argilla    E la tua parola  ci plasmerà    Brace  pronta  per la scintilla    E il tuo Spirito soffierà, ci infiammerà!  Strofa 2    2. Siamo  come   semi  nel solco,    come   vigna che  il suo frutto darà;    Grano   del signore  Risorto,    la Tua messe   che fiorirà, d'eternità!  Ritornello finale Veniamo    da te, chiamati  per nome                    Che   festa Signore tu cammini    con noi                    Ci  parli di te, per noi spezzi il pane,                    ti riconosciamo   il cuore arde  sei tu                    E  noi tuo po - polo   siamo  qui!                     E noi tuo  po - polo  siamo   qui!          Siamo  qui!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI SI MI  LA     DO#-   SI LA  SI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                       MI                 SI"
+    },
+    {
+      "t": "l",
+      "v": "Veniamo    da te, chiamati  per nome"
+    },
+    {
+      "t": "c",
+      "v": "                      MI                        LA"
+    },
+    {
+      "t": "l",
+      "v": "         Che  festa Signore  tu cammini   con  noi"
+    },
+    {
+      "t": "c",
+      "v": "                     MI                     SI"
+    },
+    {
+      "t": "l",
+      "v": "         Ci parli di te, per noi spezzi  il pane,"
+    },
+    {
+      "t": "c",
+      "v": "                     MI                       LA"
+    },
+    {
+      "t": "l",
+      "v": "         ti riconosciamo   il cuore arde  sei tu"
+    },
+    {
+      "t": "c",
+      "v": "                    DO#-    SI         LA       SI"
+    },
+    {
+      "t": "l",
+      "v": "         E noi  tuo po - polo   siamo  qui!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "      LA                       DO#-"
+    },
+    {
+      "t": "l",
+      "v": "   1. Siamo  come   terra ed argilla"
+    },
+    {
+      "t": "c",
+      "v": "       MI                     SI"
+    },
+    {
+      "t": "l",
+      "v": "   E la tua parola  ci plasmerà"
+    },
+    {
+      "t": "c",
+      "v": "   LA                        DO#-"
+    },
+    {
+      "t": "l",
+      "v": "   Brace  pronta  per la scintilla"
+    },
+    {
+      "t": "c",
+      "v": "             MI           LA                SI"
+    },
+    {
+      "t": "l",
+      "v": "   E il tuo Spirito soffierà, ci infiammerà!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   2. Siamo  come   semi  nel solco,"
+    },
+    {
+      "t": "l",
+      "v": "   come   vigna che  il suo frutto darà;"
+    },
+    {
+      "t": "l",
+      "v": "   Grano   del signore  Risorto,"
+    },
+    {
+      "t": "l",
+      "v": "   la Tua messe   che fiorirà, d'eternità!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                                   MI                 SI"
+    },
+    {
+      "t": "l",
+      "v": "Veniamo    da te, chiamati  per nome"
+    },
+    {
+      "t": "c",
+      "v": "                                   MI                        LA"
+    },
+    {
+      "t": "l",
+      "v": "                   Che   festa Signore tu cammini    con noi"
+    },
+    {
+      "t": "c",
+      "v": "                                MI                     SI"
+    },
+    {
+      "t": "l",
+      "v": "                   Ci  parli di te, per noi spezzi il pane,"
+    },
+    {
+      "t": "c",
+      "v": "                               MI                          LA"
+    },
+    {
+      "t": "l",
+      "v": "                   ti riconosciamo   il cuore arde  sei tu"
+    },
+    {
+      "t": "c",
+      "v": "                              DO#-     SI        LA       SI"
+    },
+    {
+      "t": "l",
+      "v": "                   E  noi tuo po - polo   siamo  qui!"
+    },
+    {
+      "t": "c",
+      "v": "                              DO#-     SI        LA   (stop)                MI"
+    },
+    {
+      "t": "l",
+      "v": "                    E noi tuo  po - polo  siamo   qui!          Siamo  qui!"
+    }
+  ],
+  "id": "chiamati-per-nome"
+}

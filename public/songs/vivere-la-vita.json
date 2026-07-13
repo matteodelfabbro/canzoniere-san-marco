@@ -1,0 +1,142 @@
+{
+  "title": "Vivere la Vita",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Vivere la Vita  Strofa 1      Vivere   la vita  con   le gioie  e coi  dolori  di  ogni  giorno      È quello   che  Dio   vuole   da  te      Vivere   la vita  e inabissarti   nell'amore    è il tuo destino      È quello   che  Dio   vuole   da  te  Ritornello 1                   Fare  insieme   agli altri la tua  strada   verso  Lui                   Correre   con   i fratelli tuoi...                   Scoprirai  allora   il cielo dentro   di te,                   una  scia di  luce  lascerai  Strofa 2 Vivere   la vita  è l'avventura    più stupenda    dell'amore È quello   che  Dio   vuole   da  te Vivere   la vita  e generare    ogni   momento      il paradiso È quello   che  Dio   vuole   da  te  Ritornello 2                   Vivere   perché   ritorni  al mondo     l'unità                   Perché   Dio  sia nei  fratelli tuoi...                   Scoprirai   allora  il cielo dentro   di  te,                   una  scia  di luce  lascerai                   una  scia  di luce  lascerai.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "     DO          SOL            RE-              FA              LA-      SOL"
+    },
+    {
+      "t": "l",
+      "v": "     Vivere   la vita  con   le gioie  e coi  dolori  di  ogni  giorno"
+    },
+    {
+      "t": "c",
+      "v": "                              DO            SOL"
+    },
+    {
+      "t": "l",
+      "v": "     È quello   che  Dio   vuole   da  te"
+    },
+    {
+      "t": "c",
+      "v": "     DO          SOL            RE-            FA                  LA-     SOL"
+    },
+    {
+      "t": "l",
+      "v": "     Vivere   la vita  e inabissarti   nell'amore    è il tuo destino"
+    },
+    {
+      "t": "c",
+      "v": "                              DO            SOL"
+    },
+    {
+      "t": "l",
+      "v": "     È quello   che  Dio   vuole   da  te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "                  FA                   SOL              DO            MI-"
+    },
+    {
+      "t": "l",
+      "v": "                  Fare  insieme   agli altri la tua  strada   verso  Lui"
+    },
+    {
+      "t": "c",
+      "v": "                  FA               SOL7        DO     MI-"
+    },
+    {
+      "t": "l",
+      "v": "                  Correre   con   i fratelli tuoi..."
+    },
+    {
+      "t": "c",
+      "v": "                  FA           RE-              DO6        MI-"
+    },
+    {
+      "t": "l",
+      "v": "                  Scoprirai  allora   il cielo dentro   di te,"
+    },
+    {
+      "t": "c",
+      "v": "                  FA           RE-          SOL"
+    },
+    {
+      "t": "l",
+      "v": "                  una  scia di  luce  lascerai"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "Vivere   la vita  è l'avventura    più stupenda    dell'amore"
+    },
+    {
+      "t": "l",
+      "v": "È quello   che  Dio   vuole   da  te"
+    },
+    {
+      "t": "l",
+      "v": "Vivere   la vita  e generare    ogni   momento      il paradiso"
+    },
+    {
+      "t": "l",
+      "v": "È quello   che  Dio   vuole   da  te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "l",
+      "v": "                  Vivere   perché   ritorni  al mondo     l'unità"
+    },
+    {
+      "t": "l",
+      "v": "                  Perché   Dio  sia nei  fratelli tuoi..."
+    },
+    {
+      "t": "l",
+      "v": "                  Scoprirai   allora  il cielo dentro   di  te,"
+    },
+    {
+      "t": "l",
+      "v": "                  una  scia  di luce  lascerai"
+    },
+    {
+      "t": "c",
+      "v": "                  FA            RE-         DO"
+    },
+    {
+      "t": "l",
+      "v": "                  una  scia  di luce  lascerai."
+    }
+  ],
+  "id": "vivere-la-vita"
+}

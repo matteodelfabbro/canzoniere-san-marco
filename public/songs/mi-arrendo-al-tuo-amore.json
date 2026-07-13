@@ -1,0 +1,145 @@
+{
+  "title": "Mi Arrendo al Tuo Amore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Mi Arrendo al Tuo Amore  Intro  Strofa 1 Sotto la tua croce apro le mie braccia, accolgo il tuo perdono, la tua misericordia Adoro  nel silenzio il tuo splendore, il volto tuo che libera il mio cuore  Ritornello        Mi arrendo al tuo amore, Signore Gesù        Non  posso restare lontano da te        Mi arrendo al tuo amore, Signore Gesù        Alla tua presenza per sempre resterò  Strofa 2 Ai piedi della croce visiti il mio cuore, mi doni la tua pace, consoli la mia vita Contemplo   la maestà della tua gloria, il sangue tuo che sana le ferite  Ritornello finale        Mi arrendo al tuo amore, Signore Gesù        Non  posso restare lontano da te        Mi arrendo al tuo amore, Signore Gesù        Alla tua presenza per sempre resterò",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- | MI LA | RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE-               SOL-        DO        RE-                    DO           DO7"
+    },
+    {
+      "t": "l",
+      "v": "Sotto la tua croce apro le mie braccia, accolgo il tuo perdono, la tua misericordia"
+    },
+    {
+      "t": "c",
+      "v": "  RE-             SOL-       DO7    FA              SOL-          LA4 LA"
+    },
+    {
+      "t": "l",
+      "v": "Adoro  nel silenzio il tuo splendore, il volto tuo che libera il mio cuore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "            RE           MI-      RE      SOL"
+    },
+    {
+      "t": "l",
+      "v": "       Mi arrendo al tuo amore, Signore Gesù"
+    },
+    {
+      "t": "c",
+      "v": "                    RE      MI-     LA4 LA"
+    },
+    {
+      "t": "l",
+      "v": "       Non  posso restare lontano da te"
+    },
+    {
+      "t": "c",
+      "v": "            RE           MI-      RE      SOL7+"
+    },
+    {
+      "t": "l",
+      "v": "       Mi arrendo al tuo amore, Signore Gesù"
+    },
+    {
+      "t": "c",
+      "v": "                           MI     LA7   RE"
+    },
+    {
+      "t": "l",
+      "v": "       Alla tua presenza per sempre resterò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   RE-              SOL-      DO         RE-                DO         DO7"
+    },
+    {
+      "t": "l",
+      "v": "Ai piedi della croce visiti il mio cuore, mi doni la tua pace, consoli la mia vita"
+    },
+    {
+      "t": "c",
+      "v": "    RE-               SOL-     DO7       FA            SOL-     LA4 LA"
+    },
+    {
+      "t": "l",
+      "v": "Contemplo   la maestà della tua gloria, il sangue tuo che sana le ferite"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "            RE           MI-      RE      SOL"
+    },
+    {
+      "t": "l",
+      "v": "       Mi arrendo al tuo amore, Signore Gesù"
+    },
+    {
+      "t": "c",
+      "v": "                    RE      MI-     LA4 LA"
+    },
+    {
+      "t": "l",
+      "v": "       Non  posso restare lontano da te"
+    },
+    {
+      "t": "c",
+      "v": "            RE           MI-      RE      SOL7+"
+    },
+    {
+      "t": "l",
+      "v": "       Mi arrendo al tuo amore, Signore Gesù"
+    },
+    {
+      "t": "c",
+      "v": "                           MI     LA7   RE"
+    },
+    {
+      "t": "l",
+      "v": "       Alla tua presenza per sempre resterò"
+    }
+  ],
+  "id": "mi-arrendo-al-tuo-amore"
+}

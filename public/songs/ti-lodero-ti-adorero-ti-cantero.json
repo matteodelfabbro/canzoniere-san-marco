@@ -1,0 +1,230 @@
+{
+  "title": "Ti Loderò, Ti Adorerò, Ti Canterò",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ti Loderò, Ti Adorerò, Ti Canterò  Intro (x2)  Strofa 1    Vivi nel mio cuore da quando ti ho incontrato, sei con me, o Gesù,    accresci la mia fede perché io possa amare come te, o Gesù.    Per sempre io ti dirò  il mio grazie   e in eterno canterò.  Ritornello 1 Ti loderò, ti adorerò, ti canterò che sei il mio Re,         ti loderò, ti adorerò, benedirò soltanto te,         chi è pari a te Signor, eterno amore sei, mio Salvator risorto per me.         Ti adorerò, ti canterò che sei il mio Re,         ti loderò, ti adorerò, benedirò soltanto te.  Strofa 2    Nasce in me, Signore, il canto della gioia, grande sei, o Gesù,    guidami nel mondo  se il buio è più profondo splendi tu, o Gesù.    Per sempre io ti dirò  il mio grazie   e in eterno canterò.  Ritornello 2 Ti loderò, ti adorerò, ti canterò che sei il mio Re,         ti loderò, ti adorerò, benedirò soltanto te,         chi è pari a te Signor, eterno amore sei, mio Salvator risorto per me.          Ti adorerò, ti canterò che sei il mio Re,         ti loderò, ti adorerò, benedirò soltanto te.  Modulazione  Finale in LA    Ti loderò, ti adorerò, ti canterò che sei il mio Re,    ti loderò, ti adorerò, benedirò soltanto te.    Ti loderò,   ti adorerò,     ti canterò,    Ti loderò,   ti adorerò,     ti canterò (ti canterò)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro (x2)"
+    },
+    {
+      "t": "c",
+      "v": "MI-  DO  SOL   RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                  RE                       DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Vivi nel mio cuore da quando ti ho incontrato, sei con me, o Gesù,"
+    },
+    {
+      "t": "c",
+      "v": "     SOL                 RE                 DO        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   accresci la mia fede perché io possa amare come te, o Gesù."
+    },
+    {
+      "t": "c",
+      "v": "       DO       RE   MI-   SOL        DO       LA-7       RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "   Per sempre io ti dirò  il mio grazie   e in eterno canterò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "             MI-         DO         SOL          RE"
+    },
+    {
+      "t": "l",
+      "v": "Ti loderò, ti adorerò, ti canterò che sei il mio Re,"
+    },
+    {
+      "t": "c",
+      "v": "             MI-         DO       SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "        ti loderò, ti adorerò, benedirò soltanto te,"
+    },
+    {
+      "t": "c",
+      "v": "             DO    RE  MI-    SOL         DO      RE   SOL     DO   RE  MI-"
+    },
+    {
+      "t": "l",
+      "v": "        chi è pari a te Signor, eterno amore sei, mio Salvator risorto per me."
+    },
+    {
+      "t": "c",
+      "v": "                DO        SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "        Ti adorerò, ti canterò che sei il mio Re,"
+    },
+    {
+      "t": "c",
+      "v": "             MI-         DO       SOL       RE   RE4   RE"
+    },
+    {
+      "t": "l",
+      "v": "        ti loderò, ti adorerò, benedirò soltanto te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                    RE               DO            SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Nasce in me, Signore, il canto della gioia, grande sei, o Gesù,"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                    RE                   DO          SOL"
+    },
+    {
+      "t": "l",
+      "v": "   guidami nel mondo  se il buio è più profondo splendi tu, o Gesù."
+    },
+    {
+      "t": "c",
+      "v": "       DO       RE   MI-   SOL        DO       LA-7       RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "   Per sempre io ti dirò  il mio grazie   e in eterno canterò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "             MI-         DO         SOL          RE"
+    },
+    {
+      "t": "l",
+      "v": "Ti loderò, ti adorerò, ti canterò che sei il mio Re,"
+    },
+    {
+      "t": "c",
+      "v": "             MI-         DO       SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "        ti loderò, ti adorerò, benedirò soltanto te,"
+    },
+    {
+      "t": "c",
+      "v": "             DO    RE  MI-    SOL         DO      RE   SOL     DO   RE  MI-"
+    },
+    {
+      "t": "l",
+      "v": "        chi è pari a te Signor, eterno amore sei, mio Salvator risorto per me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "                DO        SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "        Ti adorerò, ti canterò che sei il mio Re,"
+    },
+    {
+      "t": "c",
+      "v": "             MI-         DO       SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "        ti loderò, ti adorerò, benedirò soltanto te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Modulazione"
+    },
+    {
+      "t": "c",
+      "v": "   MI   FA#-  RE   LA  MI   FA#-   RE  LA   MI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale in LA"
+    },
+    {
+      "t": "c",
+      "v": "          FA#-      RE         LA            MI"
+    },
+    {
+      "t": "l",
+      "v": "   Ti loderò, ti adorerò, ti canterò che sei il mio Re,"
+    },
+    {
+      "t": "c",
+      "v": "          FA#-      RE        LA       MI"
+    },
+    {
+      "t": "l",
+      "v": "   ti loderò, ti adorerò, benedirò soltanto te."
+    },
+    {
+      "t": "c",
+      "v": "          LA            FA#-   RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "   Ti loderò,   ti adorerò,     ti canterò,"
+    },
+    {
+      "t": "c",
+      "v": "          LA            FA#-           RE        LA"
+    },
+    {
+      "t": "l",
+      "v": "   Ti loderò,   ti adorerò,     ti canterò (ti canterò)"
+    }
+  ],
+  "id": "ti-lodero-ti-adorero-ti-cantero"
+}

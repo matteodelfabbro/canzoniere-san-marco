@@ -1,0 +1,65 @@
+{
+  "title": "Accogli i Nostri Doni",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Accogli i Nostri Doni  Strofa              Accogli   Signore   i nostri  doni              in questo    misterioso   incontro              tra la  nostra  povertà         e  la  tua  grandezza.              Noi   ti offriamo   le cose              che  tu  stesso  ci hai dato              e tu  in cambio    donaci,      dona    - ci te  stesso.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "             DO"
+    },
+    {
+      "t": "l",
+      "v": "             Accogli   Signore   i nostri  doni"
+    },
+    {
+      "t": "c",
+      "v": "                LA-                       DO7"
+    },
+    {
+      "t": "l",
+      "v": "             in questo    misterioso   incontro"
+    },
+    {
+      "t": "c",
+      "v": "             FA              DO      LA-     FA    SOL        DO     SOL"
+    },
+    {
+      "t": "l",
+      "v": "             tra la  nostra  povertà         e  la  tua  grandezza."
+    },
+    {
+      "t": "c",
+      "v": "             LA-                     DO"
+    },
+    {
+      "t": "l",
+      "v": "             Noi   ti offriamo   le cose"
+    },
+    {
+      "t": "c",
+      "v": "             LA-                     DO7"
+    },
+    {
+      "t": "l",
+      "v": "             che  tu  stesso  ci hai dato"
+    },
+    {
+      "t": "c",
+      "v": "             FA                DO     LA-    RE-7     SOL     DO    FA"
+    },
+    {
+      "t": "l",
+      "v": "             e tu  in cambio    donaci,      dona    - ci te  stesso."
+    }
+  ],
+  "id": "accogli-i-nostri-doni"
+}

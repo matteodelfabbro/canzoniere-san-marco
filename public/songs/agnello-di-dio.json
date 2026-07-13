@@ -1,0 +1,90 @@
+{
+  "title": "Agnello di Dio",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Agnello di Dio  Intro  Invocazione 1              Agnello    di   Dio  che  togli  i peccati        del mondo              abbi  pietà,   abbi   pietà  di noi  Invocazione 2              Agnello    di   Dio  che  togli  i peccati        del mondo              abbi  pietà,   abbi   pietà  di noi  Invocazione 3              Agnello    di   Dio  che  togli  i peccati        del mondo                dona   a  noi  la pace,      dona   a  noi la  pace.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "FA   DO    RE-   DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 1"
+    },
+    {
+      "t": "c",
+      "v": "               FA     DO     RE-          SIb       FA   DO        LA-7    SIb"
+    },
+    {
+      "t": "l",
+      "v": "             Agnello    di   Dio  che  togli  i peccati        del mondo"
+    },
+    {
+      "t": "c",
+      "v": "             FA       DO     LA-7     SIb           FA   DO     RE-7    DO"
+    },
+    {
+      "t": "l",
+      "v": "             abbi  pietà,   abbi   pietà  di noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 2"
+    },
+    {
+      "t": "c",
+      "v": "               FA     DO     RE-          SIb       FA   DO        LA-7    SIb"
+    },
+    {
+      "t": "l",
+      "v": "             Agnello    di   Dio  che  togli  i peccati        del mondo"
+    },
+    {
+      "t": "c",
+      "v": "             FA       DO     LA-7     SIb           FA   DO     RE-7    DO"
+    },
+    {
+      "t": "l",
+      "v": "             abbi  pietà,   abbi   pietà  di noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 3"
+    },
+    {
+      "t": "c",
+      "v": "               FA     DO     RE-          SIb       FA   DO        LA-7    SIb"
+    },
+    {
+      "t": "l",
+      "v": "             Agnello    di   Dio  che  togli  i peccati        del mondo"
+    },
+    {
+      "t": "c",
+      "v": "             RE-                DO      SIb                  LA-7    RE"
+    },
+    {
+      "t": "l",
+      "v": "               dona   a  noi  la pace,      dona   a  noi la  pace."
+    }
+  ],
+  "id": "agnello-di-dio"
+}

@@ -1,0 +1,134 @@
+{
+  "title": "Devo Dire Che",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Devo Dire Che  Strofa 1       Devo    dire che,     io non   son  più  io       da  quando    so     qual è  la sola  vera  via       Ma   chissà  perché,      non   so decidermi       c'è qualcosa    in me    che   non  mi   fa muovere  Ritornello            Cosa   fai, cosa  fai? Corri   sempre    dietro  i sogni  tuoi            Tu  non   hai, tu  non   hai l'allegrezza   degli  uccelli  in ciel            Tu  non   hai, tu  non   hai la purezza    che  hanno    i gigli al sol            Ora   sai, ora  sai che  la gioia  non   si può   comprar  Strofa 2       Devo    dire che,  proprio    non   lo so       Se riuscirò  a  buttar  via  quest'abito       Per  poi  fondermi    nel  grande    regno   di Dio       come    i passeri avere   il pane   da  Lui  Ritornello            Ma   perché,   ma   perché,   dove    vedi  la difficoltà?            Come    se,  come   se  non   avessi  piena   libertà            Cosa   c'è, cosa  c'è che   lasciare  perdere   non   puoi?            Tutto  qua,   tutto  qua   di più  facile da  far  non  c'è",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": " MI-               SOL     RE                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Devo    dire che,     io non   son  più  io"
+    },
+    {
+      "t": "c",
+      "v": "      SI-  LA-         RE            SOL"
+    },
+    {
+      "t": "l",
+      "v": "      da  quando    so     qual è  la sola  vera  via"
+    },
+    {
+      "t": "c",
+      "v": "      MI-      SI-          DO       RE     MI-"
+    },
+    {
+      "t": "l",
+      "v": "      Ma   chissà  perché,      non   so decidermi"
+    },
+    {
+      "t": "c",
+      "v": "      SOL      LA-          DO            RE        DO"
+    },
+    {
+      "t": "l",
+      "v": "      c'è qualcosa    in me    che   non  mi   fa muovere"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                 MI-        SOL           RE                          SOL"
+    },
+    {
+      "t": "l",
+      "v": "           Cosa   fai, cosa  fai? Corri   sempre    dietro  i sogni  tuoi"
+    },
+    {
+      "t": "c",
+      "v": "                     SI-            LA-         RE                       SOL"
+    },
+    {
+      "t": "l",
+      "v": "           Tu  non   hai, tu  non   hai l'allegrezza   degli  uccelli  in ciel"
+    },
+    {
+      "t": "c",
+      "v": "                     MI-           SI-       DO                       RE      MI-"
+    },
+    {
+      "t": "l",
+      "v": "           Tu  non   hai, tu  non   hai la purezza    che  hanno    i gigli al sol"
+    },
+    {
+      "t": "c",
+      "v": "                SOL       LA-           DO               RE        DO"
+    },
+    {
+      "t": "l",
+      "v": "           Ora   sai, ora  sai che  la gioia  non   si può   comprar"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "      Devo    dire che,  proprio    non   lo so"
+    },
+    {
+      "t": "l",
+      "v": "      Se riuscirò  a  buttar  via  quest'abito"
+    },
+    {
+      "t": "l",
+      "v": "      Per  poi  fondermi    nel  grande    regno   di Dio"
+    },
+    {
+      "t": "l",
+      "v": "      come    i passeri avere   il pane   da  Lui"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "l",
+      "v": "           Ma   perché,   ma   perché,   dove    vedi  la difficoltà?"
+    },
+    {
+      "t": "l",
+      "v": "           Come    se,  come   se  non   avessi  piena   libertà"
+    },
+    {
+      "t": "l",
+      "v": "           Cosa   c'è, cosa  c'è che   lasciare  perdere   non   puoi?"
+    },
+    {
+      "t": "l",
+      "v": "           Tutto  qua,   tutto  qua   di più  facile da  far  non  c'è"
+    }
+  ],
+  "id": "devo-dire-che"
+}

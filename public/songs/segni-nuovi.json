@@ -1,0 +1,119 @@
+{
+  "title": "Segni Nuovi",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Segni Nuovi  Ritornello E segni   nuovi   oggi  nascono    già                    e  c'è più  sole  nelle  nostre  città.                    Il mondo     unito   splende   qui  fra  di noi                    è  un ideale   che  la storia  farà,                    un   ideale  che  storia  si fa.  Strofa 1               1.    Vedo   cambiare     le cose  che  stanno    attorno                     crollare  muri   e barriere   fin dal  profondo.                     Vedo   gente   che  vive   la vita                     vedo   in alto  un  cielo  chiaro...  Strofa 2               2.    Ormai    non   è così  strano  sentir  parlare                     di una   casa  comune     dove   abitare                     e l'amore   fra  noi  lo farà,                     invadendo     il mondo     intero.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                    RE                  SOL        LA      RE"
+    },
+    {
+      "t": "l",
+      "v": "E segni   nuovi   oggi  nascono    già"
+    },
+    {
+      "t": "c",
+      "v": "                                     SOL        LA      SI-"
+    },
+    {
+      "t": "l",
+      "v": "                   e  c'è più  sole  nelle  nostre  città."
+    },
+    {
+      "t": "c",
+      "v": "                                         SOL           LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "                   Il mondo     unito   splende   qui  fra  di noi"
+    },
+    {
+      "t": "c",
+      "v": "                                    SOL       LA      SI-"
+    },
+    {
+      "t": "l",
+      "v": "                   è  un ideale   che  la storia  farà,"
+    },
+    {
+      "t": "c",
+      "v": "                        LA            RE        SOL"
+    },
+    {
+      "t": "l",
+      "v": "                   un   ideale  che  storia  si fa."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                    SI-                                              SOL"
+    },
+    {
+      "t": "l",
+      "v": "              1.    Vedo   cambiare     le cose  che  stanno    attorno"
+    },
+    {
+      "t": "c",
+      "v": "                    SI-                                            SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    crollare  muri   e barriere   fin dal  profondo."
+    },
+    {
+      "t": "c",
+      "v": "                           LA7                      RE"
+    },
+    {
+      "t": "l",
+      "v": "                    Vedo   gente   che  vive   la vita"
+    },
+    {
+      "t": "c",
+      "v": "                               SI-         SOL         LA7"
+    },
+    {
+      "t": "l",
+      "v": "                    vedo   in alto  un  cielo  chiaro..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "              2.    Ormai    non   è così  strano  sentir  parlare"
+    },
+    {
+      "t": "l",
+      "v": "                    di una   casa  comune     dove   abitare"
+    },
+    {
+      "t": "l",
+      "v": "                    e l'amore   fra  noi  lo farà,"
+    },
+    {
+      "t": "l",
+      "v": "                    invadendo     il mondo     intero."
+    }
+  ],
+  "id": "segni-nuovi"
+}

@@ -1,0 +1,142 @@
+{
+  "title": "Ti Ringrazio Mio Signore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ti Ringrazio Mio Signore  Ritornello    Ti  ringrazio   mio   Signore   non   ho  più  paura   perché    Con   la  mia  mano    nella  mano    degli  amici   miei    Cammino       tra la gente   della  mia  città     e non   mi   sento  più  solo    Non    sento   la stanchezza    e guardo    dritto  avanti   a me    Perché    sulla mia   strada  ci sei Tu  Strofa 1         1. Amatevi     l'un  l'altro come    Lui ha  amato    noi             E siate  per  sempre    suoi  amici             E quello   che  farete  al più  piccolo   tra  voi             Credete,   l'avete   fatto  a Lui  Strofa 2         2.  Se amate    veramente     perdonatevi      tra voi,             nel cuore   di  ognuno    ci sia pace             Il Padre  che  è  nei cieli vede   tutti i figli suoi             Con   gioia  a voi  perdonerà  Strofa 3         3.  Sarete  suoi  amici   se vi amate    tra di  voi             E questo   è  tutto  il suo Vangelo             L'amore    non   ha  prezzo,   non   misura   ciò  che  dà             L'amore    confini   non  ne  ha",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "            RE     SI-       SOL     LA              RE       SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Ti  ringrazio   mio   Signore   non   ho  più  paura   perché"
+    },
+    {
+      "t": "c",
+      "v": "   LA                RE    SI-     SOL     LA            RE     RE7"
+    },
+    {
+      "t": "l",
+      "v": "   Con   la  mia  mano    nella  mano    degli  amici   miei"
+    },
+    {
+      "t": "c",
+      "v": "         SOL             LA             RE  FA#7   SI-    SOL      LA            RE   RE7"
+    },
+    {
+      "t": "l",
+      "v": "   Cammino       tra la gente   della  mia  città     e non   mi   sento  più  solo"
+    },
+    {
+      "t": "c",
+      "v": "          SOL        LA                           RE   FA#-        SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Non    sento   la stanchezza    e guardo    dritto  avanti   a me"
+    },
+    {
+      "t": "c",
+      "v": "       SOL                 LA           RE    SOL   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Perché    sulla mia   strada  ci sei Tu"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "               RE            SI-            SOL               LA"
+    },
+    {
+      "t": "l",
+      "v": "        1. Amatevi     l'un  l'altro come    Lui ha  amato    noi"
+    },
+    {
+      "t": "c",
+      "v": "              RE         SI-               SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "            E siate  per  sempre    suoi  amici"
+    },
+    {
+      "t": "c",
+      "v": "                SOL            LA          FA#-            SI-"
+    },
+    {
+      "t": "l",
+      "v": "            E quello   che  farete  al più  piccolo   tra  voi"
+    },
+    {
+      "t": "c",
+      "v": "               SOL         LA             RE   SOL    RE"
+    },
+    {
+      "t": "l",
+      "v": "            Credete,   l'avete   fatto  a Lui"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "        2.  Se amate    veramente     perdonatevi      tra voi,"
+    },
+    {
+      "t": "l",
+      "v": "            nel cuore   di  ognuno    ci sia pace"
+    },
+    {
+      "t": "l",
+      "v": "            Il Padre  che  è  nei cieli vede   tutti i figli suoi"
+    },
+    {
+      "t": "l",
+      "v": "            Con   gioia  a voi  perdonerà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "        3.  Sarete  suoi  amici   se vi amate    tra di  voi"
+    },
+    {
+      "t": "l",
+      "v": "            E questo   è  tutto  il suo Vangelo"
+    },
+    {
+      "t": "l",
+      "v": "            L'amore    non   ha  prezzo,   non   misura   ciò  che  dà"
+    },
+    {
+      "t": "l",
+      "v": "            L'amore    confini   non  ne  ha"
+    }
+  ],
+  "id": "ti-ringrazio-mio-signore"
+}

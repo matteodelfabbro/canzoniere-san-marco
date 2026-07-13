@@ -1,0 +1,102 @@
+{
+  "title": "Con Voce di Giubilo",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Con Voce di Giubilo  Ritornello Con   voce   di  giubilo  date   il grande   annuncio,                    fatelo   giungere   ai confini   del  mondo.                    Con    voce   di giubilo  date   il grande   annuncio,                    il Signore   ha  liberato   il suo po    - po  - lo.  Strofa 1 1. Lodate    il Signore  egli è  buono     Egli ha  fatto  meraviglie,    Alleluia  Strofa 2  2. Eterna   è  la sua  misericordia     nel  suo  nome     siamo   salvi, alleluia  Strofa 3  3. La  sua  gloria  riempie    i cieli e la terra     è il Signore  della   Vita, alleluia.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                          RE    LA    RE     SOL                     LA"
+    },
+    {
+      "t": "l",
+      "v": "Con   voce   di  giubilo  date   il grande   annuncio,"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL        RE             MI-        SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "                   fatelo   giungere   ai confini   del  mondo."
+    },
+    {
+      "t": "c",
+      "v": "                          RE    LA     RE     SOL                    LA"
+    },
+    {
+      "t": "l",
+      "v": "                   Con    voce   di giubilo  date   il grande   annuncio,"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL              RE                MI-    LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "                   il Signore   ha  liberato   il suo po    - po  - lo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE        LA     RE              MI-"
+    },
+    {
+      "t": "l",
+      "v": "1. Lodate    il Signore  egli è  buono"
+    },
+    {
+      "t": "c",
+      "v": "             LA    SOL       RE       MI-7     LA7"
+    },
+    {
+      "t": "l",
+      "v": "    Egli ha  fatto  meraviglie,    Alleluia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": " 2. Eterna   è  la sua  misericordia"
+    },
+    {
+      "t": "l",
+      "v": "    nel  suo  nome     siamo   salvi, alleluia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": " 3. La  sua  gloria  riempie    i cieli e la terra"
+    },
+    {
+      "t": "l",
+      "v": "    è il Signore  della   Vita, alleluia."
+    }
+  ],
+  "id": "con-voce-di-giubilo"
+}

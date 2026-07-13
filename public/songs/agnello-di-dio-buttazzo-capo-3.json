@@ -1,0 +1,98 @@
+{
+  "title": "Agnello di Dio",
+  "sub": "Buttazzo - Capo 3",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Agnello di Dio Buttazzo - Capo 3 Intro  Invocazione 1 Agnello   di Dio, che  togli i peccati del mondo, abbi  pietà di noi, pietà di noi.  Invocazione 2 Agnello   di Dio, che  togli i peccati del mondo, abbi  pietà di noi, pietà di noi.  Invocazione 3 Agnello   di Dio, che  togli i peccati del mon  - do, dona   a noi la pace, dona   a noi la pa  - ce.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE  RE7+   SOL  LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 1"
+    },
+    {
+      "t": "c",
+      "v": "RE          RE7+     SOL                  RE"
+    },
+    {
+      "t": "l",
+      "v": "Agnello   di Dio, che  togli i peccati del mondo,"
+    },
+    {
+      "t": "c",
+      "v": "MI-      RE         SOL      LA"
+    },
+    {
+      "t": "l",
+      "v": "abbi  pietà di noi, pietà di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 2"
+    },
+    {
+      "t": "c",
+      "v": "RE          RE7+     SOL                  RE"
+    },
+    {
+      "t": "l",
+      "v": "Agnello   di Dio, che  togli i peccati del mondo,"
+    },
+    {
+      "t": "c",
+      "v": "MI-      RE         SOL      LA   FA#"
+    },
+    {
+      "t": "l",
+      "v": "abbi  pietà di noi, pietà di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 3"
+    },
+    {
+      "t": "c",
+      "v": "   SI-       FA#      SI-          RE     MI     MI"
+    },
+    {
+      "t": "l",
+      "v": "Agnello   di Dio, che  togli i peccati del mon  - do,"
+    },
+    {
+      "t": "c",
+      "v": "SOL           RE"
+    },
+    {
+      "t": "l",
+      "v": "dona   a noi la pace,"
+    },
+    {
+      "t": "c",
+      "v": "MI-            LA     RE"
+    },
+    {
+      "t": "l",
+      "v": "dona   a noi la pa  - ce."
+    }
+  ],
+  "id": "agnello-di-dio-buttazzo-capo-3"
+}

@@ -1,0 +1,326 @@
+{
+  "title": "Mani",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Mani  Intro  Strofa 1 Vorrei  che le parole  mutassero   in preghiera e rivederti o  Padre  che dipingevi  il cielo. Sapessi quante   volte guardando    questo  mondo vorrei  che tu tornassi a ritoccare  il cuore. Vorrei  che le mie  mani  avessero  la forza per  sostenere  chi non  può  camminare. Vorrei  che questo   cuore  che esplode  in sentimenti diventasse  culla per  chi non  ha più madre...  Ritornello 1              Mani,  prendi  queste  mie  mani,  fanne  vita, fanne  amore              braccia aperte  per  ricevere...Chi è solo.              Cuore,  prendi  questo  mio   cuore, fa che  si spalanchi al mondo              germogliando    per  quegli occhi  che non  sanno   pianger  più.  Strofa 2 Sei tu lo spazio  che desidero  da  sempre, so che  mi stringerai e mi  terrai la mano. Fa  che le mie  strade si perdano  nel  buio ed  io cammini   dove  cammineresti    Tu.  Strofa 3 Tu  soffio della vita prendi  la mia giovinezza con  le contraddizioni   e le falsità Strumento   fa che  sia per annunciare   il Regno a chi per queste  vie Tu  chiami  Beati...  Ritornello 2              Mani,  prendi  queste  mie  mani,  fanne  vita, fanne  amore              braccia aperte  per  ricevere...Chi è solo.              Cuore,  prendi  questo  mio   cuore, fa che  si spalanchi al mondo              germogliando    per  quegli occhi  che non  sanno   pianger  più.  Strofa 4 Noi  giovani  di un  mondo    che cancella  i sentimenti e inscatola  le forze nell'asfalto di città. Siamo   stanchi di guardare   siamo  stanchi di gridare ci hai chiamati  siamo  Tuoi  cammineremo      insieme...  Finale a 3 voci - modulazione in RE              Mani,  prendi  queste  nostre  mani  fanne  vita fanne  amore,              braccia aperte  per  ricevere...Chi è solo.              Cuori,  prendi  questi nostri cuori fa che  siano testimoni              che Tu  chiami  ogni  uomo   a far festa con  Dio.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO     FA   SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "  DO             FA        SOL           DO"
+    },
+    {
+      "t": "l",
+      "v": "Vorrei  che le parole  mutassero   in preghiera"
+    },
+    {
+      "t": "c",
+      "v": "    FA         LA-        FA            SOL"
+    },
+    {
+      "t": "l",
+      "v": "e rivederti o  Padre  che dipingevi  il cielo."
+    },
+    {
+      "t": "c",
+      "v": "   DO             FA     SOL                 DO"
+    },
+    {
+      "t": "l",
+      "v": "Sapessi quante   volte guardando    questo  mondo"
+    },
+    {
+      "t": "c",
+      "v": "  FA             LA-        FA     SOL     DO"
+    },
+    {
+      "t": "l",
+      "v": "vorrei  che tu tornassi a ritoccare  il cuore."
+    },
+    {
+      "t": "c",
+      "v": "  LA-                MI-      FA        DO"
+    },
+    {
+      "t": "l",
+      "v": "Vorrei  che le mie  mani  avessero  la forza"
+    },
+    {
+      "t": "c",
+      "v": "  FA            RE                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "per  sostenere  chi non  può  camminare."
+    },
+    {
+      "t": "c",
+      "v": "  LA-                MI-          FA            DO"
+    },
+    {
+      "t": "l",
+      "v": "Vorrei  che questo   cuore  che esplode  in sentimenti"
+    },
+    {
+      "t": "c",
+      "v": "       FA                              SOL (tenuto lungo)"
+    },
+    {
+      "t": "l",
+      "v": "diventasse  culla per  chi non  ha più madre..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "             DO                           SOL                        FA"
+    },
+    {
+      "t": "l",
+      "v": "             Mani,  prendi  queste  mie  mani,  fanne  vita, fanne  amore"
+    },
+    {
+      "t": "c",
+      "v": "                                    LA-    SOL"
+    },
+    {
+      "t": "l",
+      "v": "             braccia aperte  per  ricevere...Chi è solo."
+    },
+    {
+      "t": "c",
+      "v": "             DO                             SOL                            FA"
+    },
+    {
+      "t": "l",
+      "v": "             Cuore,  prendi  questo  mio   cuore, fa che  si spalanchi al mondo"
+    },
+    {
+      "t": "c",
+      "v": "                                          LA-           SOL            FA (lungo)"
+    },
+    {
+      "t": "l",
+      "v": "             germogliando    per  quegli occhi  che non  sanno   pianger  più."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "    DO            FA     SOL         DO"
+    },
+    {
+      "t": "l",
+      "v": "Sei tu lo spazio  che desidero  da  sempre,"
+    },
+    {
+      "t": "c",
+      "v": "   FA            LA-    FA            SOL"
+    },
+    {
+      "t": "l",
+      "v": "so che  mi stringerai e mi  terrai la mano."
+    },
+    {
+      "t": "c",
+      "v": "DO              FA       SOL            DO"
+    },
+    {
+      "t": "l",
+      "v": "Fa  che le mie  strade si perdano  nel  buio"
+    },
+    {
+      "t": "c",
+      "v": "FA               LA-         FA   SOL   DO"
+    },
+    {
+      "t": "l",
+      "v": "ed  io cammini   dove  cammineresti    Tu."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "    LA-         MI-    FA                 DO"
+    },
+    {
+      "t": "l",
+      "v": "Tu  soffio della vita prendi  la mia giovinezza"
+    },
+    {
+      "t": "c",
+      "v": "    FA             RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "con  le contraddizioni   e le falsità"
+    },
+    {
+      "t": "c",
+      "v": "     LA-           MI-        FA            DO"
+    },
+    {
+      "t": "l",
+      "v": "Strumento   fa che  sia per annunciare   il Regno"
+    },
+    {
+      "t": "c",
+      "v": "  FA                               SOL"
+    },
+    {
+      "t": "l",
+      "v": "a chi per queste  vie Tu  chiami  Beati..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "             DO                           SOL                        FA"
+    },
+    {
+      "t": "l",
+      "v": "             Mani,  prendi  queste  mie  mani,  fanne  vita, fanne  amore"
+    },
+    {
+      "t": "c",
+      "v": "                                    LA-    SOL"
+    },
+    {
+      "t": "l",
+      "v": "             braccia aperte  per  ricevere...Chi è solo."
+    },
+    {
+      "t": "c",
+      "v": "             DO                             SOL                            FA"
+    },
+    {
+      "t": "l",
+      "v": "             Cuore,  prendi  questo  mio   cuore, fa che  si spalanchi al mondo"
+    },
+    {
+      "t": "c",
+      "v": "                                          LA-           SOL            FA (lungo)"
+    },
+    {
+      "t": "l",
+      "v": "             germogliando    per  quegli occhi  che non  sanno   pianger  più."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "     DO              FA             SOL           DO"
+    },
+    {
+      "t": "l",
+      "v": "Noi  giovani  di un  mondo    che cancella  i sentimenti"
+    },
+    {
+      "t": "c",
+      "v": "    FA          LA-         FA        SOL"
+    },
+    {
+      "t": "l",
+      "v": "e inscatola  le forze nell'asfalto di città."
+    },
+    {
+      "t": "c",
+      "v": "     LA-            MI-              FA           DO"
+    },
+    {
+      "t": "l",
+      "v": "Siamo   stanchi di guardare   siamo  stanchi di gridare"
+    },
+    {
+      "t": "c",
+      "v": "         FA                                         SOL"
+    },
+    {
+      "t": "l",
+      "v": "ci hai chiamati  siamo  Tuoi  cammineremo      insieme..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale a 3 voci - modulazione in RE"
+    },
+    {
+      "t": "c",
+      "v": "             RE                              LA                        SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Mani,  prendi  queste  nostre  mani  fanne  vita fanne  amore,"
+    },
+    {
+      "t": "c",
+      "v": "                                   SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "             braccia aperte  per  ricevere...Chi è solo."
+    },
+    {
+      "t": "c",
+      "v": "             RE                             LA                     SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Cuori,  prendi  questi nostri cuori fa che  siano testimoni"
+    },
+    {
+      "t": "c",
+      "v": "                                   SI-        LA        SOL       alla fine RE"
+    },
+    {
+      "t": "l",
+      "v": "             che Tu  chiami  ogni  uomo   a far festa con  Dio."
+    }
+  ],
+  "id": "mani"
+}

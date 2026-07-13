@@ -1,0 +1,122 @@
+{
+  "title": "Resta Accanto a Me",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Resta Accanto a Me  Intro  Ritornello Ora  vado    sulla mia   strada   con   l'amore   tuo   che  mi  guida             o Signore,   ovunque      io vada    resta  accanto   a  me             Io ti prego,   stammi    vicino   ogni   passo   del mio   cammino             ogni  notte,   ogni  mattino     resta  accanto   a  me.  Strofa 1      1.     Il tuo sguardo    puro   sia luce  per  me             e la tua  parola   sia voce   per  me.             Che   io trovi  il senso  del  mio   andare   solo   in   te,             nel  tuo  fedele  amare    il mio  perché.  Strofa 2      2.     Fa'  che  chi mi  guarda    non   veda   che  te             fa' che  chi  mi  ascolta  non   senta  che   te             e chi  pensa   a me,   fa' che  nel  cuore             pensi  a  te e trovi  quell'amore     che  hai  dato   a me.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE    SOL     LA4"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "            RE    LA     SOL         RE        MI-       FA#-     SOL             LA"
+    },
+    {
+      "t": "l",
+      "v": "Ora  vado    sulla mia   strada   con   l'amore   tuo   che  mi  guida"
+    },
+    {
+      "t": "c",
+      "v": "            RE     LA      SOL            RE     SOL       LA        RE43"
+    },
+    {
+      "t": "l",
+      "v": "            o Signore,   ovunque      io vada    resta  accanto   a  me"
+    },
+    {
+      "t": "c",
+      "v": "            RE    LA       SOL         RE      MI-     FA#-       SOL        LA"
+    },
+    {
+      "t": "l",
+      "v": "            Io ti prego,   stammi    vicino   ogni   passo   del mio   cammino"
+    },
+    {
+      "t": "c",
+      "v": "            RE      LA     SOL       RE       SOL       LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "            ogni  notte,   ogni  mattino     resta  accanto   a  me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "            LA                SOL                   SI-"
+    },
+    {
+      "t": "l",
+      "v": "     1.     Il tuo sguardo    puro   sia luce  per  me"
+    },
+    {
+      "t": "c",
+      "v": "            LA          SOL                     RE"
+    },
+    {
+      "t": "l",
+      "v": "            e la tua  parola   sia voce   per  me."
+    },
+    {
+      "t": "c",
+      "v": "            SOL                LA                         SI-   LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "            Che   io trovi  il senso  del  mio   andare   solo   in   te,"
+    },
+    {
+      "t": "c",
+      "v": "                LA              SOL                RE"
+    },
+    {
+      "t": "l",
+      "v": "            nel  tuo  fedele  amare    il mio  perché."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "     2.     Fa'  che  chi mi  guarda    non   veda   che  te"
+    },
+    {
+      "t": "l",
+      "v": "            fa' che  chi  mi  ascolta  non   senta  che   te"
+    },
+    {
+      "t": "l",
+      "v": "            e chi  pensa   a me,   fa' che  nel  cuore"
+    },
+    {
+      "t": "l",
+      "v": "            pensi  a  te e trovi  quell'amore     che  hai  dato   a me."
+    }
+  ],
+  "id": "resta-accanto-a-me"
+}

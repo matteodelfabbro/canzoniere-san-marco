@@ -1,0 +1,134 @@
+{
+  "title": "Ecco il Nostro Sì",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ecco il Nostro Sì  Strofa 1 1.   Fra  tutte le  donne    scelta in  Nazareth,          sul tuo  volto   risplende     il coraggio   di  quando    hai  detto   \"Sì\".       Insegna    a questo   cuore   l'umiltà,          il silenzio d'amore,        la Speranza     nel figlio  tuo  Gesù  Ritornello Ecco   il nostro  Sì,  nuova    luce che   rischiara  il giorno,               è  bellissimo   regalare   al mondo     la Speranza.               Ecco   il nostro  Sì,  camminiamo       insieme    a te Maria,               Madre     di Gesù,   madre    dell'umanità  Strofa 2 2.  Nella   tua  casa  il verbo  si rivelò     nel  segreto   del  cuore   il respiro  del figlio  Emmanuel.     Insegna   a  queste   mani   la fedeltà,     a costruire   la pace,   una  Casa   Comune      insieme   a  te.  Strofa 3 3.  Donna     dei nostri  giorni   sostienici,     guida   il nostro  cammino      con   la forza  di quando     hai  detto  \"Sì\".     Insegnaci   ad  accogliere    Gesù,     noi  saremo    dimora,    la più  bella  poesia   dell'anima.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE               FA#-               SOL"
+    },
+    {
+      "t": "l",
+      "v": "1.   Fra  tutte le  donne    scelta in  Nazareth,"
+    },
+    {
+      "t": "c",
+      "v": "   LA    SI-                  SOL      MI-                 LA"
+    },
+    {
+      "t": "l",
+      "v": "         sul tuo  volto   risplende     il coraggio   di  quando    hai  detto   \"Sì\"."
+    },
+    {
+      "t": "c",
+      "v": "   RE              FA#-             SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Insegna    a questo   cuore   l'umiltà,"
+    },
+    {
+      "t": "c",
+      "v": "   LA    SI-              SOL     MI-                     LA"
+    },
+    {
+      "t": "l",
+      "v": "         il silenzio d'amore,        la Speranza     nel figlio  tuo  Gesù"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "              RE                 MI-7          SOL           LA"
+    },
+    {
+      "t": "l",
+      "v": "Ecco   il nostro  Sì,  nuova    luce che   rischiara  il giorno,"
+    },
+    {
+      "t": "c",
+      "v": "              FA#-         SOL      MI-7               LA"
+    },
+    {
+      "t": "l",
+      "v": "              è  bellissimo   regalare   al mondo     la Speranza."
+    },
+    {
+      "t": "c",
+      "v": "              RE                 MI-7           SOL               LA"
+    },
+    {
+      "t": "l",
+      "v": "              Ecco   il nostro  Sì,  camminiamo       insieme    a te Maria,"
+    },
+    {
+      "t": "c",
+      "v": "              FA#-           SOL            MI-7           LA"
+    },
+    {
+      "t": "l",
+      "v": "              Madre     di Gesù,   madre    dell'umanità"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.  Nella   tua  casa  il verbo  si rivelò"
+    },
+    {
+      "t": "l",
+      "v": "    nel  segreto   del  cuore   il respiro  del figlio  Emmanuel."
+    },
+    {
+      "t": "l",
+      "v": "    Insegna   a  queste   mani   la fedeltà,"
+    },
+    {
+      "t": "l",
+      "v": "    a costruire   la pace,   una  Casa   Comune      insieme   a  te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.  Donna     dei nostri  giorni   sostienici,"
+    },
+    {
+      "t": "l",
+      "v": "    guida   il nostro  cammino      con   la forza  di quando     hai  detto  \"Sì\"."
+    },
+    {
+      "t": "l",
+      "v": "    Insegnaci   ad  accogliere    Gesù,"
+    },
+    {
+      "t": "l",
+      "v": "    noi  saremo    dimora,    la più  bella  poesia   dell'anima."
+    }
+  ],
+  "id": "ecco-il-nostro-si"
+}

@@ -1,0 +1,166 @@
+{
+  "title": "Cantate al Signore",
+  "sub": "Ricci",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Cantate al Signore Ricci Intro Ultimo LA di ogni sequenza: tenere a lungo  Ritornello    Cantate   al  Signore   un  cantico   nuovo    da  tutta  la terra    voi  cantate   al Signore,   cantate   a Lui,  benedite    il nome   Suo.    Annunziate         ogni   giorno   di Lui  la salvezza   e  la gloria,    a tutti i popoli   dite  i prodigi  di  Lui, benedite    il nome    Suo.  Controcanto          È nato   per  noi,  il Signore  per  noi  oggi   è  na   - to,          è nato   per  noi,  il Salvatore   del  mondo     è na   -  to.  Strofa 1    Esultino   i campi,   esulti la terra,  esultino  i mari,    esultino   i cieli cantando    di Lui, benedite    il nome    Suo.    E sia gioia      perché   Lui  stende   già sulla  terra  la mano    Sua    a tutti i popoli   la Sua  giustizia  darà,   benedite    il nome   Suo.  Ordine di esecuzione Ritornello  Strofa 1  Ritornello 2 volte (l'ultima senza controcanto)  Conclusione Pennata finale in RE",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI- RE LA MI- RE LA"
+    },
+    {
+      "t": "l",
+      "v": "Ultimo LA di ogni sequenza: tenere a lungo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "        MI-        RE              LA                 MI-    RE    LA"
+    },
+    {
+      "t": "l",
+      "v": "   Cantate   al  Signore   un  cantico   nuovo    da  tutta  la terra"
+    },
+    {
+      "t": "c",
+      "v": "          MI-          RE              LA                MI-    RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "   voi  cantate   al Signore,   cantate   a Lui,  benedite    il nome   Suo."
+    },
+    {
+      "t": "c",
+      "v": "          MI-     RE          LA                    MI-           RE    LA"
+    },
+    {
+      "t": "l",
+      "v": "   Annunziate         ogni   giorno   di Lui  la salvezza   e  la gloria,"
+    },
+    {
+      "t": "c",
+      "v": "             MI-      RE          LA                  MI-      RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "   a tutti i popoli   dite  i prodigi  di  Lui, benedite    il nome    Suo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Controcanto"
+    },
+    {
+      "t": "c",
+      "v": "                        RE         LA                        SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "         È nato   per  noi,  il Signore  per  noi  oggi   è  na   - to,"
+    },
+    {
+      "t": "c",
+      "v": "                        RE            LA                     SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "         è nato   per  noi,  il Salvatore   del  mondo     è na   -  to."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "      MI-       RE       LA                MI-       RE   LA"
+    },
+    {
+      "t": "l",
+      "v": "   Esultino   i campi,   esulti la terra,  esultino  i mari,"
+    },
+    {
+      "t": "c",
+      "v": "      MI-       RE        LA                   MI-      RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "   esultino   i cieli cantando    di Lui, benedite    il nome    Suo."
+    },
+    {
+      "t": "c",
+      "v": "          MI-    RE           LA                     MI-       RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "   E sia gioia      perché   Lui  stende   già sulla  terra  la mano    Sua"
+    },
+    {
+      "t": "c",
+      "v": "             MI-      RE          LA                  MI-      RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "   a tutti i popoli   la Sua  giustizia  darà,   benedite    il nome   Suo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ordine di esecuzione"
+    },
+    {
+      "t": "l",
+      "v": "Ritornello"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "l",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "l",
+      "v": "Ritornello 2 volte (l'ultima senza controcanto)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Conclusione"
+    },
+    {
+      "t": "c",
+      "v": "MI- RE LA MI- RE LA RE"
+    },
+    {
+      "t": "l",
+      "v": "Pennata finale in RE"
+    }
+  ],
+  "id": "cantate-al-signore-ricci"
+}

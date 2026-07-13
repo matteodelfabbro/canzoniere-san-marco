@@ -1,0 +1,138 @@
+{
+  "title": "Symbolum 77",
+  "sub": "Tu Sei la Mia Vita",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Symbolum 77 Tu Sei la Mia Vita Strofa 1 Tu  sei la mia   vita    altro  io non   ho Tu  sei la mia   strada       La  mia  verità Nella   tua  parola     io  camminerò finché  avrò   respiro       fino  a quando     tu vorrai Non    avrò  paura   sai      se tu sei  con  me       io  ti prego  resta  con   me  Strofa 2 Credo    in te Signore,   nato   da  Maria          (Credo  in Te, figlio eterno e Santo) figlio eterno    e santo,  uomo     come    noi Morto    per  amore,    vivo   in mezzo    a  noi   (Morto   per amore,  vivo in mezzo  a noi) una   cosa  sola   con  il Padre   e con  i tuoi Fino   a  quando    io  lo so,  Tu ritornerai      (Fino  a quando  io lo so, tu ritornerai) per  aprirci  il regno   di Dio  Strofa 3 Tu  sei la mia   forza,  altro  io non   ho,  tu sei la mia   pace,   la mia  libertà Niente    nella  vita ci separerà   so  che  la Tua  mano     forte  non   mi  lascerà So  che  da  ogni   male   Tu  mi  libererai   e nel  tuo  perdono     vivrò  Strofa 4 Padre   della  vita   noi  crediamo    in  Te       (Padre, in Te credo, Figlio Eterno) figlio salvatore     noi  speriamo    in Te Spirito  d'amore      vieni  in mezzo    a  noi     (Spirito d'amore, vieni in mezzo  a noi) Tu  da  mille  strade   ci raduni   in unità E per   mille  strade  poi,  dove   tu  vorrai      (E per mille strade poi, dove tu vorrai) noi  saremo    il seme   di Dio",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "MI-              DO      RE             SOL"
+    },
+    {
+      "t": "l",
+      "v": "Tu  sei la mia   vita    altro  io non   ho"
+    },
+    {
+      "t": "c",
+      "v": "MI-                DO         RE            SOL    SI7"
+    },
+    {
+      "t": "l",
+      "v": "Tu  sei la mia   strada       La  mia  verità"
+    },
+    {
+      "t": "c",
+      "v": "LA-          RE        SOL             DO"
+    },
+    {
+      "t": "l",
+      "v": "Nella   tua  parola     io  camminerò"
+    },
+    {
+      "t": "c",
+      "v": "LA-             RE                       SOL              SI7"
+    },
+    {
+      "t": "l",
+      "v": "finché  avrò   respiro       fino  a quando     tu vorrai"
+    },
+    {
+      "t": "c",
+      "v": "LA-             RE            SOL              DO      LA-             SI7        MI-"
+    },
+    {
+      "t": "l",
+      "v": "Non    avrò  paura   sai      se tu sei  con  me       io  ti prego  resta  con   me"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "Credo    in te Signore,   nato   da  Maria          (Credo  in Te, figlio eterno e Santo)"
+    },
+    {
+      "t": "l",
+      "v": "figlio eterno    e santo,  uomo     come    noi"
+    },
+    {
+      "t": "l",
+      "v": "Morto    per  amore,    vivo   in mezzo    a  noi   (Morto   per amore,  vivo in mezzo  a noi)"
+    },
+    {
+      "t": "l",
+      "v": "una   cosa  sola   con  il Padre   e con  i tuoi"
+    },
+    {
+      "t": "l",
+      "v": "Fino   a  quando    io  lo so,  Tu ritornerai      (Fino  a quando  io lo so, tu ritornerai)"
+    },
+    {
+      "t": "l",
+      "v": "per  aprirci  il regno   di Dio"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "Tu  sei la mia   forza,  altro  io non   ho,  tu sei la mia   pace,   la mia  libertà"
+    },
+    {
+      "t": "l",
+      "v": "Niente    nella  vita ci separerà   so  che  la Tua  mano     forte  non   mi  lascerà"
+    },
+    {
+      "t": "l",
+      "v": "So  che  da  ogni   male   Tu  mi  libererai   e nel  tuo  perdono     vivrò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "Padre   della  vita   noi  crediamo    in  Te       (Padre, in Te credo, Figlio Eterno)"
+    },
+    {
+      "t": "l",
+      "v": "figlio salvatore     noi  speriamo    in Te"
+    },
+    {
+      "t": "l",
+      "v": "Spirito  d'amore      vieni  in mezzo    a  noi     (Spirito d'amore, vieni in mezzo  a noi)"
+    },
+    {
+      "t": "l",
+      "v": "Tu  da  mille  strade   ci raduni   in unità"
+    },
+    {
+      "t": "l",
+      "v": "E per   mille  strade  poi,  dove   tu  vorrai      (E per mille strade poi, dove tu vorrai)"
+    },
+    {
+      "t": "l",
+      "v": "noi  saremo    il seme   di Dio"
+    }
+  ],
+  "id": "symbolum-77-tu-sei-la-mia-vita"
+}

@@ -1,0 +1,118 @@
+{
+  "title": "Se Tu Vedrai",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Se Tu Vedrai  Strofa 1    1.    Se  tu vedrai   il sole brillare:  alleluia,  alleluia.          Se  ascolterai   il ruscello scrosciare:   alleluia,  alleluia.          Se  sentirai  il canto  dei  monti:   alleluia,  alleluia.          Allora   solo  tu proverai    cos'è  la gioia.  Ritornello Vivi  la vita  con  gioia  e con   amor,          vivi  cantando    la tua  felicità!  Strofa 2    2.    Se  tu vedrai   un  cespuglio    fiorito  alleluia, alleluia.          Se  ascolterai   il rumore   del  vento:   alleluia,  alleluia.          Se  sentirai  il profumo    del  bosco:   alleluia,  alleluia.          Allora   solo  tu proverai    cos'è  la gioia.  Strofa 3    3.    Se  tu vedrai   il sorriso  di un  bimbo:    alleluia,  alleluia.          Se  ascolterai   la canzone    del  cuore:   alleluia, alleluia.          Se  sentirai  la dolcezza    di amare:    alleluia, alleluia.          Allora   solo  tu proverai    cos'è  la gioia.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "            RE             SOL        RE               SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "   1.    Se  tu vedrai   il sole brillare:  alleluia,  alleluia."
+    },
+    {
+      "t": "c",
+      "v": "            RE                 SOL          RE                  SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "         Se  ascolterai   il ruscello scrosciare:   alleluia,  alleluia."
+    },
+    {
+      "t": "c",
+      "v": "            RE           SOL            RE                SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "         Se  sentirai  il canto  dei  monti:   alleluia,  alleluia."
+    },
+    {
+      "t": "c",
+      "v": "            RE             SOL    RE             LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "         Allora   solo  tu proverai    cos'è  la gioia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE      SOL          RE7      LA"
+    },
+    {
+      "t": "l",
+      "v": "Vivi  la vita  con  gioia  e con   amor,"
+    },
+    {
+      "t": "c",
+      "v": "         RE7        SOL        RE     LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "         vivi  cantando    la tua  felicità!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   2.    Se  tu vedrai   un  cespuglio    fiorito  alleluia, alleluia."
+    },
+    {
+      "t": "l",
+      "v": "         Se  ascolterai   il rumore   del  vento:   alleluia,  alleluia."
+    },
+    {
+      "t": "l",
+      "v": "         Se  sentirai  il profumo    del  bosco:   alleluia,  alleluia."
+    },
+    {
+      "t": "l",
+      "v": "         Allora   solo  tu proverai    cos'è  la gioia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "   3.    Se  tu vedrai   il sorriso  di un  bimbo:    alleluia,  alleluia."
+    },
+    {
+      "t": "l",
+      "v": "         Se  ascolterai   la canzone    del  cuore:   alleluia, alleluia."
+    },
+    {
+      "t": "l",
+      "v": "         Se  sentirai  la dolcezza    di amare:    alleluia, alleluia."
+    },
+    {
+      "t": "l",
+      "v": "         Allora   solo  tu proverai    cos'è  la gioia."
+    }
+  ],
+  "id": "se-tu-vedrai"
+}

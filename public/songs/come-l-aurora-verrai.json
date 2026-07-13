@@ -1,0 +1,185 @@
+{
+  "title": "Come l'Aurora Verrai",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Come l'Aurora Verrai  Strofa 1      Come    l'aurora   verrai,   le tenebre  in luce  cambierai  Tu  per  noi   Si - gnore.      Come    la pioggia   cadrai,   sui nostri  deserti scenderai  Scorrerà     l'amore.  Ritornello 1 battuta         Tutti i nostri sentieri percorrerai         Tutti i figli dispersi raccoglierai         Chiamerai    da ogni   terra il tuo po  - polo         In eterno  ti avremo    con  noi  Strofa 2      Re  di giustizia  sarai   le spade   in aratri forgerai  Ci darai   la pace      Lupo   ed  agnello   vedrai,    insieme   sui prati dove   mai  Tornerà  la notte.  Strofa 3      Dio   di salvezza  tu sei    e  come   una  stella sorgerai  Su di noi   per  sempre      E  chi non  vede,   vedrà      chi ha chiusi  gli orecchi  sentirà  Canterà      di gioia  Finale             Come    l'aurora   verrai",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE-              LA7           RE-                 LA-             SIb"
+    },
+    {
+      "t": "l",
+      "v": "     Come    l'aurora   verrai,   le tenebre  in luce  cambierai"
+    },
+    {
+      "t": "c",
+      "v": "SIb           FA    SIb"
+    },
+    {
+      "t": "l",
+      "v": " Tu  per  noi   Si - gnore."
+    },
+    {
+      "t": "c",
+      "v": "RE-              LA7            RE-                LA-             SIb"
+    },
+    {
+      "t": "l",
+      "v": "     Come    la pioggia   cadrai,   sui nostri  deserti scenderai"
+    },
+    {
+      "t": "c",
+      "v": "SIb        FA     SIb"
+    },
+    {
+      "t": "l",
+      "v": " Scorrerà     l'amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "l",
+      "v": "1 battuta"
+    },
+    {
+      "t": "c",
+      "v": "     SIb                     DO              [RE-  LA-]   RE-"
+    },
+    {
+      "t": "l",
+      "v": "        Tutti i nostri sentieri percorrerai"
+    },
+    {
+      "t": "c",
+      "v": "     SIb                   DO              RE-   LA-"
+    },
+    {
+      "t": "l",
+      "v": "        Tutti i figli dispersi raccoglierai"
+    },
+    {
+      "t": "c",
+      "v": "     SIb                         DO           LA        SIb"
+    },
+    {
+      "t": "l",
+      "v": "        Chiamerai    da ogni   terra il tuo po  - polo"
+    },
+    {
+      "t": "c",
+      "v": "     SOL-                               DO"
+    },
+    {
+      "t": "l",
+      "v": "        In eterno  ti avremo    con  noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE-              LA7       RE-                 LA-             SIb"
+    },
+    {
+      "t": "l",
+      "v": "     Re  di giustizia  sarai   le spade   in aratri forgerai"
+    },
+    {
+      "t": "c",
+      "v": "SIb       FA     SIb"
+    },
+    {
+      "t": "l",
+      "v": " Ci darai   la pace"
+    },
+    {
+      "t": "c",
+      "v": "RE-               LA7           RE-                 LA-             SIb"
+    },
+    {
+      "t": "l",
+      "v": "     Lupo   ed  agnello   vedrai,    insieme   sui prati dove   mai"
+    },
+    {
+      "t": "c",
+      "v": "SIb      FA    SIb"
+    },
+    {
+      "t": "l",
+      "v": " Tornerà  la notte."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "RE-              LA7           RE-                 LA-            SIb"
+    },
+    {
+      "t": "l",
+      "v": "     Dio   di salvezza  tu sei    e  come   una  stella sorgerai"
+    },
+    {
+      "t": "c",
+      "v": "SIb       FA      SIb"
+    },
+    {
+      "t": "l",
+      "v": " Su di noi   per  sempre"
+    },
+    {
+      "t": "c",
+      "v": "RE-                  LA7        RE-                     LA-            SIb"
+    },
+    {
+      "t": "l",
+      "v": "     E  chi non  vede,   vedrà      chi ha chiusi  gli orecchi  sentirà"
+    },
+    {
+      "t": "c",
+      "v": "SIb       FA        SIb"
+    },
+    {
+      "t": "l",
+      "v": " Canterà      di gioia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "RE-"
+    },
+    {
+      "t": "l",
+      "v": "            Come    l'aurora   verrai"
+    }
+  ],
+  "id": "come-l-aurora-verrai"
+}

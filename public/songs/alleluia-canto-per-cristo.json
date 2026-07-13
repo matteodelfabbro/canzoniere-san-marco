@@ -1,0 +1,134 @@
+{
+  "title": "Alleluia",
+  "sub": "Canto per Cristo",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia Canto per Cristo Ritornello Alleluia,  allelu,  alleluia,       alleluia,  alleluia       Alleluia,   allelu, alleluia,       alleluia,  alleluia!  Strofa 1                  1. Canto    per  Cristo  che  mi  libererà,                     quando    verrà   nella  gloria,                     quando    la vita  con   Lui rinascerà                     alleluia,    alleluia!  Strofa 2                  2. Canto    per  Cristo:  in  Lui rifiorirà                     Ogni   speranza    perduta,                     ogni  creatura   con   Lui risorgerà                     alleluia, alleluia!  Strofa 3                  3. Canto    per  Cristo:  un   giorno   tornerà!                     Festa  per  tutti gli amici,                     festa di  un  mondo     che  più  non   morirà,                     alleluia, alleluia!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       RE    FA#-      SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "Alleluia,  allelu,  alleluia,"
+    },
+    {
+      "t": "c",
+      "v": "       SOL    RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "      alleluia,  alleluia"
+    },
+    {
+      "t": "c",
+      "v": "       RE    FA#-      SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "      Alleluia,   allelu, alleluia,"
+    },
+    {
+      "t": "c",
+      "v": "       SOL    RE      LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "      alleluia,  alleluia!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                    RE             FA#-       SOL          RE"
+    },
+    {
+      "t": "l",
+      "v": "                 1. Canto    per  Cristo  che  mi  libererà,"
+    },
+    {
+      "t": "c",
+      "v": "                     SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "                    quando    verrà   nella  gloria,"
+    },
+    {
+      "t": "c",
+      "v": "                     RE          FA#-        SOL          RE"
+    },
+    {
+      "t": "l",
+      "v": "                    quando    la vita  con   Lui rinascerà"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL     RE       LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "                    alleluia,    alleluia!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "                 2. Canto    per  Cristo:  in  Lui rifiorirà"
+    },
+    {
+      "t": "l",
+      "v": "                    Ogni   speranza    perduta,"
+    },
+    {
+      "t": "l",
+      "v": "                    ogni  creatura   con   Lui risorgerà"
+    },
+    {
+      "t": "l",
+      "v": "                    alleluia, alleluia!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "                 3. Canto    per  Cristo:  un   giorno   tornerà!"
+    },
+    {
+      "t": "l",
+      "v": "                    Festa  per  tutti gli amici,"
+    },
+    {
+      "t": "l",
+      "v": "                    festa di  un  mondo     che  più  non   morirà,"
+    },
+    {
+      "t": "l",
+      "v": "                    alleluia, alleluia!"
+    }
+  ],
+  "id": "alleluia-canto-per-cristo"
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Santo",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Santo  Santo Santo,   Santo,   Santo,   Santo  il Signore   Dio   dell'universo! I cieli e la terra,  sono   pieni  della  Tua   gloria!  Osanna                 Osanna,    Osanna,    Osanna,     Osanna                 Osanna,    Osanna,    nell'alto   dei cieli.  Benedetto Benedetto     colui,  che  viene   nel  nome    del  Signore! Benedetto     colui,  che  viene   nel  nome    del  Signore!  Osanna finale                 Osanna,    Osanna,    Osanna,     Osanna                 Osanna,    Osanna,    nell'alto   dei cieli.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Santo"
+    },
+    {
+      "t": "c",
+      "v": "MI        SI7      MI      SI7          MI     SI7               MI     SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "Santo,   Santo,   Santo,   Santo  il Signore   Dio   dell'universo!"
+    },
+    {
+      "t": "c",
+      "v": "MI   SI7     MI      SI7   MI      SI7         MI        SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "I cieli e la terra,  sono   pieni  della  Tua   gloria!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna"
+    },
+    {
+      "t": "c",
+      "v": "                MI             RE          SOL        MI     LA    MI"
+    },
+    {
+      "t": "l",
+      "v": "                Osanna,    Osanna,    Osanna,     Osanna"
+    },
+    {
+      "t": "c",
+      "v": "                MI             RE           SOL        SI7"
+    },
+    {
+      "t": "l",
+      "v": "                Osanna,    Osanna,    nell'alto   dei cieli."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Benedetto"
+    },
+    {
+      "t": "c",
+      "v": "MI    SI7        MI        SI7          MI      SI7     MI       SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "Benedetto     colui,  che  viene   nel  nome    del  Signore!"
+    },
+    {
+      "t": "c",
+      "v": "MI    SI7        MI        SI7          MI      SI7     MI       SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "Benedetto     colui,  che  viene   nel  nome    del  Signore!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna finale"
+    },
+    {
+      "t": "c",
+      "v": "                MI             RE          SOL        MI     LA    MI"
+    },
+    {
+      "t": "l",
+      "v": "                Osanna,    Osanna,    Osanna,     Osanna"
+    },
+    {
+      "t": "c",
+      "v": "                MI             RE           SOL        SI7"
+    },
+    {
+      "t": "l",
+      "v": "                Osanna,    Osanna,    nell'alto   dei cieli."
+    }
+  ],
+  "id": "santo"
+}

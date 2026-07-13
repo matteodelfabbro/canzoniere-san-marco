@@ -1,0 +1,109 @@
+{
+  "title": "Gloria a Te, Parola Vivente",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Gloria a Te, Parola Vivente  Ritornello    Gloria   a Te,  Parola   vivente    Verbo   di  Dio  gloria  a  Te,    Cristo  mae     -   stro, Cristo  Signo    -   re!  Strofa 1    Tu  solo  hai  parole   di vita  per  noi.    Beato   colui  che  ti ascolta,  Signore,   perché    vivrà.   Rit.  Strofa 2    Tu  solo  hai  proposte    di amore     per  noi.    Beato   colui  che  le accoglie,   Signore,   perché    vivrà.  Rit.  Strofa 3    Tu  solo  sei via  alla vita  per  noi.    Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit.  Strofa 4    Tu  solo  dischiudi   l'eterno   per  noi.    Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   RE                DO         RE"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria   a Te,  Parola   vivente"
+    },
+    {
+      "t": "c",
+      "v": "   SOL      RE                LA"
+    },
+    {
+      "t": "l",
+      "v": "   Verbo   di  Dio  gloria  a  Te,"
+    },
+    {
+      "t": "c",
+      "v": "             SI- SOL   LA                SI-  LA   SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Cristo  mae     -   stro, Cristo  Signo    -   re!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "        SI-          LA         SOL         FA#-"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  solo  hai  parole   di vita  per  noi."
+    },
+    {
+      "t": "c",
+      "v": "     MI-       FA#-          SOL         LA           FA#-    SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Beato   colui  che  ti ascolta,  Signore,   perché    vivrà.   Rit."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  solo  hai  proposte    di amore     per  noi."
+    },
+    {
+      "t": "l",
+      "v": "   Beato   colui  che  le accoglie,   Signore,   perché    vivrà.  Rit."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  solo  sei via  alla vita  per  noi."
+    },
+    {
+      "t": "l",
+      "v": "   Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  solo  dischiudi   l'eterno   per  noi."
+    },
+    {
+      "t": "l",
+      "v": "   Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit."
+    }
+  ],
+  "id": "gloria-a-te-parola-vivente"
+}

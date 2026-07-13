@@ -1,0 +1,71 @@
+{
+  "title": "Alleluia",
+  "sub": "Ed oggi ancora",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia Ed oggi ancora Ritornello Alleluia,         alleluia,       alleluia,       alleluia!                       Alleluia,          alleluia,      alleluia,        alleluia!  Strofa               Ed  oggi  ancora,    o mio   Signore,   ascolterò    la tua  Parola              che  mi  guida   nel  cammino      della  vita.  Ritornello Alleluia,         alleluia,       alleluia,       alleluia!                       Alleluia,          alleluia,      alleluia,        alleluia!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                   RE-7     SOL7-      DO      FA      SIb    SOL-      LA7   RE-"
+    },
+    {
+      "t": "l",
+      "v": "Alleluia,         alleluia,       alleluia,       alleluia!"
+    },
+    {
+      "t": "l",
+      "v": "                      Alleluia,          alleluia,      alleluia,        alleluia!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "             RE-                             SOL-       DO                   FA"
+    },
+    {
+      "t": "l",
+      "v": "              Ed  oggi  ancora,    o mio   Signore,   ascolterò    la tua  Parola"
+    },
+    {
+      "t": "c",
+      "v": "                       SIb              SOL-          LA4"
+    },
+    {
+      "t": "l",
+      "v": "             che  mi  guida   nel  cammino      della  vita."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                   RE-7     SOL7-      DO      FA      SIb    SOL-      LA7   RE-"
+    },
+    {
+      "t": "l",
+      "v": "Alleluia,         alleluia,       alleluia,       alleluia!"
+    },
+    {
+      "t": "l",
+      "v": "                      Alleluia,          alleluia,      alleluia,        alleluia!"
+    }
+  ],
+  "id": "alleluia-ed-oggi-ancora"
+}

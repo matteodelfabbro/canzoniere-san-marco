@@ -1,0 +1,143 @@
+{
+  "title": "Santo",
+  "sub": "Gen - Messa Come fuoco vivo",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Santo Gen - Messa Come fuoco vivo Intro  Santo 1 Santo,      Santo,             Santo   il Signore,   Dio  dell'universo. Santo,      Santo              i cieli e la terra  sono   pieni  della  tua  gloria!  Osanna 1 Osanna     nell'alto  dei cieli. Osanna     nell'alto  dei cieli.  Santo 2 Santo,      Santo,             Santo   il Signore,   Dio  dell'universo. Santo,      Santo              i cieli e la terra  sono   pieni  della  tua  gloria!  Benedetto Benedetto     colui  che  viene   nel  nome    del  Signore.  Osanna 2 Osanna     nell'alto  dei cieli. Osanna     nell'alto  dei cieli.  Finale Santo,             Santo,              Santo!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "FA#-7       SI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Santo 1"
+    },
+    {
+      "t": "c",
+      "v": "LA   MI     DO#-       SI      FA#-7      MI         LA                 SI"
+    },
+    {
+      "t": "l",
+      "v": "Santo,      Santo,             Santo   il Signore,   Dio  dell'universo."
+    },
+    {
+      "t": "c",
+      "v": "LA   MI     DO#-       SI      FA#-7        MI            LA                 FA#-7      MI"
+    },
+    {
+      "t": "l",
+      "v": "Santo,      Santo              i cieli e la terra  sono   pieni  della  tua  gloria!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna 1"
+    },
+    {
+      "t": "c",
+      "v": "   LA          SI         LA    SI"
+    },
+    {
+      "t": "l",
+      "v": "Osanna     nell'alto  dei cieli."
+    },
+    {
+      "t": "c",
+      "v": "   FA#-7                   LA    SI"
+    },
+    {
+      "t": "l",
+      "v": "Osanna     nell'alto  dei cieli."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Santo 2"
+    },
+    {
+      "t": "c",
+      "v": "LA   MI     DO#-       SI      FA#-7      MI         LA                 SI"
+    },
+    {
+      "t": "l",
+      "v": "Santo,      Santo,             Santo   il Signore,   Dio  dell'universo."
+    },
+    {
+      "t": "c",
+      "v": "LA   MI     DO#-       SI      FA#-7        MI            LA                 FA#-7      MI"
+    },
+    {
+      "t": "l",
+      "v": "Santo,      Santo              i cieli e la terra  sono   pieni  della  tua  gloria!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Benedetto"
+    },
+    {
+      "t": "c",
+      "v": "SI              LA                     MI             SI"
+    },
+    {
+      "t": "l",
+      "v": "Benedetto     colui  che  viene   nel  nome    del  Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna 2"
+    },
+    {
+      "t": "c",
+      "v": "   LA          SI         LA    SI"
+    },
+    {
+      "t": "l",
+      "v": "Osanna     nell'alto  dei cieli."
+    },
+    {
+      "t": "c",
+      "v": "   FA#-7                   LA    SI"
+    },
+    {
+      "t": "l",
+      "v": "Osanna     nell'alto  dei cieli."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "LA    MI              DO#-       SI         LA    MI"
+    },
+    {
+      "t": "l",
+      "v": "Santo,             Santo,              Santo!"
+    }
+  ],
+  "id": "santo-gen-messa-come-fuoco-vivo"
+}

@@ -1,0 +1,188 @@
+{
+  "title": "Alleluia",
+  "sub": "Buttazzo",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia Buttazzo Intro  Ritornello    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia  Strofa 1    1. Chi  ascolta  la parola    È come    uno   che    Attinge   acqua   alla sorgente    Che   lo disseterà    RIT.  Strofa 2    2. Chi  accoglie   la parola    È come    uno   che    Ha  costruito   sulla  roccia    E mai   vacillerà   RIT.  Finale     Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia    Alleluia,  Alleluia,        Alleluia!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL     MIm      DO      RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   SOL        MIm       DO     RE"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   SOL        MIm       DO     RE"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   SOL        MIm       DO     RE"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   SOL        MIm       DO       RE        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alle  - lu  - u -  ia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "           SOL            MIm"
+    },
+    {
+      "t": "l",
+      "v": "   1. Chi  ascolta  la parola"
+    },
+    {
+      "t": "c",
+      "v": "     LAm          RE"
+    },
+    {
+      "t": "l",
+      "v": "   È come    uno   che"
+    },
+    {
+      "t": "c",
+      "v": "           SOL            MIm"
+    },
+    {
+      "t": "l",
+      "v": "   Attinge   acqua   alla sorgente"
+    },
+    {
+      "t": "c",
+      "v": "      LAm           RE"
+    },
+    {
+      "t": "l",
+      "v": "   Che   lo disseterà    RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "           SOL              MIm"
+    },
+    {
+      "t": "l",
+      "v": "   2. Chi  accoglie   la parola"
+    },
+    {
+      "t": "c",
+      "v": "      LAm          RE"
+    },
+    {
+      "t": "l",
+      "v": "   È come    uno   che"
+    },
+    {
+      "t": "c",
+      "v": "             SOL          MIm"
+    },
+    {
+      "t": "l",
+      "v": "   Ha  costruito   sulla  roccia"
+    },
+    {
+      "t": "c",
+      "v": "    LAm           RE      MI"
+    },
+    {
+      "t": "l",
+      "v": "   E mai   vacillerà   RIT."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   LA        FA#m        RE    MI"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   LA        FA#m        RE    MI"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   LA        FA#m        RE    MI"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alleluia"
+    },
+    {
+      "t": "c",
+      "v": "   LA        FA#m        RE      MI        LA   MI"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,  Alle  - lu  - u -  ia"
+    },
+    {
+      "t": "c",
+      "v": "   LA        FA#m          RE     MI   LA"
+    },
+    {
+      "t": "l",
+      "v": "   Alleluia,  Alleluia,        Alleluia!"
+    }
+  ],
+  "id": "alleluia-buttazzo"
+}

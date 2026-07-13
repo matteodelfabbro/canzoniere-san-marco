@@ -1,0 +1,142 @@
+{
+  "title": "Resta Qui con Noi",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Resta Qui con Noi  Strofa 1 Le  ombre    si distendono,     scende   ormai    la sera E s'allontanano     dietro   i monti,   i riflessi di un giorno    che  non   finirà Di  un  giorno   che  ora   correrà  sempre perché   sappiamo     che  una   nuova    vita Da   qui è partita   e mai  più  si fermerà  Ritornello        Resta  qui  con   noi  Il sole scende   già        Resta  qui  con   noi  Signore   è sera ormai        Resta  qui  con   noi  Il sole scende   già        Se tu  sei fra noi  La  notte  non   verrà  Strofa 2 S'allarga  verso   il mare   Il tuo cerchio   d'onda Che   il vento   spingerà   fino a  quando     Giungerà   ai  confini  di ogni   cuore Alle  porte   dell'amore    vero   Come    una   fiamma    che  dove    passa  brucia Così  il tuo  amore    tutto  il mondo    invaderà  Strofa 3 Davanti    a noi  l'umanità   Lotta,   soffre  e spera Come     una  terra  che  nell'arsura   Chiede    l'acqua  da  un  cielo  senza   nuvole Ma   che  sempre    le  può  dare  vita  Con   te  saremo    sorgente   d'acqua    pura Con   te  fra noi  il deserto   fiorirà",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE                  RE7+        SOL                   MI-"
+    },
+    {
+      "t": "l",
+      "v": "Le  ombre    si distendono,     scende   ormai    la sera"
+    },
+    {
+      "t": "c",
+      "v": "RE        RE7+                 MI-                         SI-                FA#-"
+    },
+    {
+      "t": "l",
+      "v": "E s'allontanano     dietro   i monti,   i riflessi di un giorno    che  non   finirà"
+    },
+    {
+      "t": "c",
+      "v": "          MI-              SOL                   RE"
+    },
+    {
+      "t": "l",
+      "v": "Di  un  giorno   che  ora   correrà  sempre"
+    },
+    {
+      "t": "c",
+      "v": "               FA#-         SOL           MI-"
+    },
+    {
+      "t": "l",
+      "v": "perché   sappiamo     che  una   nuova    vita"
+    },
+    {
+      "t": "c",
+      "v": "                RE           SOL            LA"
+    },
+    {
+      "t": "l",
+      "v": "Da   qui è partita   e mai  più  si fermerà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       RE                FA#-    SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "       Resta  qui  con   noi  Il sole scende   già"
+    },
+    {
+      "t": "c",
+      "v": "       MI-               LA        SOL     LA         RE"
+    },
+    {
+      "t": "l",
+      "v": "       Resta  qui  con   noi  Signore   è sera ormai"
+    },
+    {
+      "t": "c",
+      "v": "       RE                FA#-    SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "       Resta  qui  con   noi  Il sole scende   già"
+    },
+    {
+      "t": "c",
+      "v": "       MI-             LA       SOL     LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "       Se tu  sei fra noi  La  notte  non   verrà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "S'allarga  verso   il mare   Il tuo cerchio   d'onda"
+    },
+    {
+      "t": "l",
+      "v": "Che   il vento   spingerà   fino a  quando     Giungerà   ai  confini  di ogni   cuore"
+    },
+    {
+      "t": "l",
+      "v": "Alle  porte   dell'amore    vero   Come    una   fiamma    che  dove    passa  brucia"
+    },
+    {
+      "t": "l",
+      "v": "Così  il tuo  amore    tutto  il mondo    invaderà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "Davanti    a noi  l'umanità   Lotta,   soffre  e spera"
+    },
+    {
+      "t": "l",
+      "v": "Come     una  terra  che  nell'arsura   Chiede    l'acqua  da  un  cielo  senza   nuvole"
+    },
+    {
+      "t": "l",
+      "v": "Ma   che  sempre    le  può  dare  vita  Con   te  saremo    sorgente   d'acqua    pura"
+    },
+    {
+      "t": "l",
+      "v": "Con   te  fra noi  il deserto   fiorirà"
+    }
+  ],
+  "id": "resta-qui-con-noi"
+}

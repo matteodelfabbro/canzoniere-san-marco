@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Geist%20Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
   :root{--ink:#1c1b17;--paper:#f3efe4;--paper-deep:#e5ddc9;--navy:#16233d;--navy-deep:#101a2e;--gold:#c6a24d;--gold-bright:#e0bc6a;--wine:#6d1626;--wine-bright:#8a2035;--line:rgba(28,27,23,.10)}
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}

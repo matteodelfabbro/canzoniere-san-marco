@@ -266,13 +266,9 @@ function renderTiles(filter=search.value){
       return {song:songs[i],i};
     }).filter(item=>item.song&&item.i>=0);
   }else{
-    ordered=songs.map((song,i)=>({song,i})).sort((a,b)=>{
-      if(listMode==='all'){
-        const favDiff=Number(isFavorite(b.i))-Number(isFavorite(a.i));
-        if(favDiff)return favDiff;
-      }
-      return a.i-b.i;
-    });
+    // Mantiene sempre l'ordine originale dell'elenco principale.
+    // I preferiti vengono mostrati separatamente solo nel relativo filtro.
+    ordered=songs.map((song,i)=>({song,i}));
   }
 
   ordered.forEach(({song,i})=>{

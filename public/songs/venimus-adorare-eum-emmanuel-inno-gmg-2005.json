@@ -1,0 +1,141 @@
+{
+  "title": "Venimus Adorare Eum, Emmanuel",
+  "sub": "Inno GMG 2005",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Venimus Adorare Eum, Emmanuel Inno GMG 2005 Strofa 1 1.     Chiedi   perché   partire  dal  proprio    regno        solo  per  inseguire   una  stella  e perché        per  un  Bimbo    piegano    quelle   ginocchia   da   Re?        Tu  la risposta  sai  che  è:  Ritornello (x2) Venimus     adorare   eum    Emmanuel      (Dio   con  noi),              Venimus     adorare   eum    Emmanuel,  Strofa 2 2.     Chiedi   perché   lasciare  sui monti    il gregge        solo  per  ascoltare   un  canto   e perché        per  un  Bimbo    piegano    quelle   ginocchia,   perché?        E la risposta   sai che  è:  Strofa 3 3.     Ecco  da  lontano    per  adorarlo        siamo   giunti  anche   noi,  noi,  tutti figli Suoi,        Profeti  e Sacerdoti    ormai.   Nel  pane    e nel  vino        noi  siamo   in Lui  e Lui  è in noi:  e un   canto   qui si alza  già:  Ripetere il ritornello",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       RE                SOL      MI-             LA"
+    },
+    {
+      "t": "l",
+      "v": "1.     Chiedi   perché   partire  dal  proprio    regno"
+    },
+    {
+      "t": "c",
+      "v": "       SI-          SOL      MI-                 LA"
+    },
+    {
+      "t": "l",
+      "v": "       solo  per  inseguire   una  stella  e perché"
+    },
+    {
+      "t": "c",
+      "v": "       SOL               MI7                  RE             SI-"
+    },
+    {
+      "t": "l",
+      "v": "       per  un  Bimbo    piegano    quelle   ginocchia   da   Re?"
+    },
+    {
+      "t": "c",
+      "v": "       MI-              LA"
+    },
+    {
+      "t": "l",
+      "v": "       Tu  la risposta  sai  che  è:"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (x2)"
+    },
+    {
+      "t": "c",
+      "v": "             RE                           DO            SOL         RE"
+    },
+    {
+      "t": "l",
+      "v": "Venimus     adorare   eum    Emmanuel      (Dio   con  noi),"
+    },
+    {
+      "t": "c",
+      "v": "             RE                           DO       SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Venimus     adorare   eum    Emmanuel,"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.     Chiedi   perché   lasciare  sui monti    il gregge"
+    },
+    {
+      "t": "l",
+      "v": "       solo  per  ascoltare   un  canto   e perché"
+    },
+    {
+      "t": "l",
+      "v": "       per  un  Bimbo    piegano    quelle   ginocchia,   perché?"
+    },
+    {
+      "t": "l",
+      "v": "       E la risposta   sai che  è:"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "       RE        SOL        MI-       LA"
+    },
+    {
+      "t": "l",
+      "v": "3.     Ecco  da  lontano    per  adorarlo"
+    },
+    {
+      "t": "c",
+      "v": "       SI-                     SOL           MI-       LA"
+    },
+    {
+      "t": "l",
+      "v": "       siamo   giunti  anche   noi,  noi,  tutti figli Suoi,"
+    },
+    {
+      "t": "c",
+      "v": "       SOL               MI7            RE                  SI-"
+    },
+    {
+      "t": "l",
+      "v": "       Profeti  e Sacerdoti    ormai.   Nel  pane    e nel  vino"
+    },
+    {
+      "t": "c",
+      "v": "           SOL                MI-                    LA"
+    },
+    {
+      "t": "l",
+      "v": "       noi  siamo   in Lui  e Lui  è in noi:  e un   canto   qui si alza  già:"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    }
+  ],
+  "id": "venimus-adorare-eum-emmanuel-inno-gmg-2005"
+}

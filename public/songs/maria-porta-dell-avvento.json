@@ -1,0 +1,78 @@
+{
+  "title": "Maria Porta dell'Avvento",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Maria Porta dell'Avvento  Strofa 1 1.     Maria,   tu porta   dell'Avvento,     Signora    del silenzio,        sei chiara  come    aurora,   in cuore   hai  la parola.  Ritornello Beata,   tu hai  creduto,      beata,   tu hai  creduto.  Strofa 2 2.     Maria,   tu strada   del  Signore,   maestra   nel  pregare,        fanciulla  dell'attesa,   il Verbo   in te riposa.  Strofa 3 3.     Maria,   tu madre    del  Messia,   per  noi  dimora    sua,        sei arca  d'alleanza,   in  te Dio  è  presenza.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "         DO        SOL              LA-          RE-          MI-"
+    },
+    {
+      "t": "l",
+      "v": "1.     Maria,   tu porta   dell'Avvento,     Signora    del silenzio,"
+    },
+    {
+      "t": "c",
+      "v": "           LA-               FA          RE-             SOL"
+    },
+    {
+      "t": "l",
+      "v": "       sei chiara  come    aurora,   in cuore   hai  la parola."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       LA-      SOL    FA    SOL     LA-     SOL      FA    SOL     DO"
+    },
+    {
+      "t": "l",
+      "v": "Beata,   tu hai  creduto,      beata,   tu hai  creduto."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.     Maria,   tu strada   del  Signore,   maestra   nel  pregare,"
+    },
+    {
+      "t": "l",
+      "v": "       fanciulla  dell'attesa,   il Verbo   in te riposa."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.     Maria,   tu madre    del  Messia,   per  noi  dimora    sua,"
+    },
+    {
+      "t": "l",
+      "v": "       sei arca  d'alleanza,   in  te Dio  è  presenza."
+    }
+  ],
+  "id": "maria-porta-dell-avvento"
+}

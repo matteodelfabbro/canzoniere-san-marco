@@ -1,0 +1,174 @@
+{
+  "title": "Il Canto dell'Amore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Il Canto dell'Amore  Strofa 1       Se dovrai  attraversare  il deserto non  temere   io sarò con  te.       Se dovrai  camminare    nel fuoco  la sua  fiamma   non  ti brucerà.       Seguirai la mia  luce nella notte,       sentirai la mia forza  nel cammino,       io sono  il tuo Dio,       il Signore.  Strofa 2       Sono  io che  ti ho fatto e plasmato,   ti ho chiamato   per nome.       Io da  sempre  ti ho conosciuto   e ti ho dato  il mio amore.       Perché  tu sei prezioso  ai miei occhi,       vali più del più  grande  dei tesori,       io sarò con  te,        ovunque   andrai.  Strofa 3       Non   pensare  alle cose di ieri, cose nuove  fioriscono  già;       aprirò  nel deserto  sentieri, darò acqua  nell'aridità.       Perché  tu sei prezioso  ai miei occhi,       vali più del più  grande  dei tesori,       io sarò con  te,        ovunque   andrai.  Finale - poi ripetere la Strofa 3       Io ti sa - rò accanto, sarò con  te;       per tutto    il tuo viaggio sarò  con  te. (2 volte)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "              RE                    SI-           SOL               RE"
+    },
+    {
+      "t": "l",
+      "v": "      Se dovrai  attraversare  il deserto non  temere   io sarò con  te."
+    },
+    {
+      "t": "c",
+      "v": "              RE                    SI-          SOL                   RE"
+    },
+    {
+      "t": "l",
+      "v": "      Se dovrai  camminare    nel fuoco  la sua  fiamma   non  ti brucerà."
+    },
+    {
+      "t": "c",
+      "v": "            LA        SOL          RE      RE"
+    },
+    {
+      "t": "l",
+      "v": "      Seguirai la mia  luce nella notte,"
+    },
+    {
+      "t": "c",
+      "v": "           MI-        LA              SI-     SI-"
+    },
+    {
+      "t": "l",
+      "v": "      sentirai la mia forza  nel cammino,"
+    },
+    {
+      "t": "c",
+      "v": "         DO                SOL           RE    RE"
+    },
+    {
+      "t": "l",
+      "v": "      io sono  il tuo Dio,       il Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "            RE                          SI-             SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "      Sono  io che  ti ho fatto e plasmato,   ti ho chiamato   per nome."
+    },
+    {
+      "t": "c",
+      "v": "             RE                    SI-          SOL              RE"
+    },
+    {
+      "t": "l",
+      "v": "      Io da  sempre  ti ho conosciuto   e ti ho dato  il mio amore."
+    },
+    {
+      "t": "c",
+      "v": "              LA         SOL          RE      RE"
+    },
+    {
+      "t": "l",
+      "v": "      Perché  tu sei prezioso  ai miei occhi,"
+    },
+    {
+      "t": "c",
+      "v": "           MI-           LA            SI-    SI-"
+    },
+    {
+      "t": "l",
+      "v": "      vali più del più  grande  dei tesori,"
+    },
+    {
+      "t": "c",
+      "v": "           DO           SOL                  RE    RE"
+    },
+    {
+      "t": "l",
+      "v": "      io sarò con  te,        ovunque   andrai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "                RE                 SI-        SOL                RE"
+    },
+    {
+      "t": "l",
+      "v": "      Non   pensare  alle cose di ieri, cose nuove  fioriscono  già;"
+    },
+    {
+      "t": "c",
+      "v": "           RE                   SI-      SOL               RE"
+    },
+    {
+      "t": "l",
+      "v": "      aprirò  nel deserto  sentieri, darò acqua  nell'aridità."
+    },
+    {
+      "t": "c",
+      "v": "              LA         SOL          RE      RE"
+    },
+    {
+      "t": "l",
+      "v": "      Perché  tu sei prezioso  ai miei occhi,"
+    },
+    {
+      "t": "c",
+      "v": "           MI-           LA            SI-    SI-"
+    },
+    {
+      "t": "l",
+      "v": "      vali più del più  grande  dei tesori,"
+    },
+    {
+      "t": "c",
+      "v": "           DO           SOL                  RE"
+    },
+    {
+      "t": "l",
+      "v": "      io sarò con  te,        ovunque   andrai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale - poi ripetere la Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "              SI-           SOL        RE"
+    },
+    {
+      "t": "l",
+      "v": "      Io ti sa - rò accanto, sarò con  te;"
+    },
+    {
+      "t": "c",
+      "v": "      RE         SI-              SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "      per tutto    il tuo viaggio sarò  con  te. (2 volte)"
+    }
+  ],
+  "id": "il-canto-dell-amore"
+}

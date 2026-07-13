@@ -1,0 +1,125 @@
+{
+  "title": "Giovane Donna",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Giovane Donna  Strofa 1 1.    Giovane    Donna,     attesa  dell'umanità,       un  desiderio    d'amore    e pura   libertà       Il Dio  lontano    è qui  vicino   a Te,       voce   e silenzio   annuncio    di novità  Ritornello                      A         -      ve           Mari         -     a  Ritornello (ripetere)                      A         -      ve           Mari         -     a  Strofa 2 2.   Dio   t'ha prescelta   qual  madre    piena   di  bellezza       ed  ora  il suo  amore    t'avvolgerà    con  la sua  ombra       Grembo     per  Dio   venuto    sulla terra       Tu  sarai madre    di  un  uomo    nuovo  Strofa 3 3.   Ecco   l'ancella  che  vive  della  sua  parola       libero  il cuore  perché    l'amore   trovi  casa       Ora   l'attesa è densa   di preghiera       e l'uomo    nuovo    è qui  in mezzo    a noi",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "      RE          MI-         SOL                RE"
+    },
+    {
+      "t": "l",
+      "v": "1.    Giovane    Donna,     attesa  dell'umanità,"
+    },
+    {
+      "t": "c",
+      "v": "      RE       MI-         SOL                  RE"
+    },
+    {
+      "t": "l",
+      "v": "      un  desiderio    d'amore    e pura   libertà"
+    },
+    {
+      "t": "c",
+      "v": "      RE         FA#-     SOL             LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "      Il Dio  lontano    è qui  vicino   a Te,"
+    },
+    {
+      "t": "c",
+      "v": "      RE        FA#-        SOL               LA4     LA"
+    },
+    {
+      "t": "l",
+      "v": "      voce   e silenzio   annuncio    di novità"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                      RE    (FA#-)     SI-           SOL    (SOL-6)    RE"
+    },
+    {
+      "t": "l",
+      "v": "                     A         -      ve           Mari         -     a"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    },
+    {
+      "t": "c",
+      "v": "                      RE    (FA#-)     SI-           SOL    (SOL-6)    RE"
+    },
+    {
+      "t": "l",
+      "v": "                     A         -      ve           Mari         -     a"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.   Dio   t'ha prescelta   qual  madre    piena   di  bellezza"
+    },
+    {
+      "t": "l",
+      "v": "      ed  ora  il suo  amore    t'avvolgerà    con  la sua  ombra"
+    },
+    {
+      "t": "l",
+      "v": "      Grembo     per  Dio   venuto    sulla terra"
+    },
+    {
+      "t": "l",
+      "v": "      Tu  sarai madre    di  un  uomo    nuovo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.   Ecco   l'ancella  che  vive  della  sua  parola"
+    },
+    {
+      "t": "l",
+      "v": "      libero  il cuore  perché    l'amore   trovi  casa"
+    },
+    {
+      "t": "l",
+      "v": "      Ora   l'attesa è densa   di preghiera"
+    },
+    {
+      "t": "l",
+      "v": "      e l'uomo    nuovo    è qui  in mezzo    a noi"
+    }
+  ],
+  "id": "giovane-donna"
+}

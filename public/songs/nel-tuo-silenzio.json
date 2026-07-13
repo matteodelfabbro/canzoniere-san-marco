@@ -1,0 +1,124 @@
+{
+  "title": "Nel Tuo Silenzio",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Nel Tuo Silenzio  Solo strumentale Solo flauto 1  Strofa 1      Nel   tuo  silenzio  accolgo    il mistero  venuto    a  vivere  dentro    di me.      Sei  tu che  vieni,  o  forse  è più  vero   che  tu mi  accogli   in te,      Gesù.  Solo flauto 2  Strofa 2      Sorgente    viva  che   nasce  nel  cuore   è questo    dono   che   abita  in me.      La  tua  presenza    è un  fuoco   d'amore     che  avvolge    l'anima   mia,   Gesù.  Solo flauto 3  Strofa 3 - modulazione in FA      Ora   il tuo  Spirito  in me   dice:  \"Padre\",    non   sono   io a parlare,   sei tu.      Nell'infinito    oceano    di pace   tu vivi  in me,   io in te,     Gesù.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Solo strumentale"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE SI-7 MI-7 LA7"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE SI-7 MI-7 SOL"
+    },
+    {
+      "t": "h",
+      "v": "Solo flauto 1"
+    },
+    {
+      "t": "c",
+      "v": "RE MI-7 RE SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "     RE           SOL       LA             RE    SI-7         MI-7     LA7         RE"
+    },
+    {
+      "t": "l",
+      "v": "     Nel   tuo  silenzio  accolgo    il mistero  venuto    a  vivere  dentro    di me."
+    },
+    {
+      "t": "c",
+      "v": "                   SOL       LA             RE    SI-7            MI-7     SOL        RE"
+    },
+    {
+      "t": "l",
+      "v": "     Sei  tu che  vieni,  o  forse  è più  vero   che  tu mi  accogli   in te,      Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Solo flauto 2"
+    },
+    {
+      "t": "c",
+      "v": "FA# SOL DO SOL SI- RE DO SOL LA SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "     RE          SOL          LA           RE    SI-7         MI-7       LA7          RE"
+    },
+    {
+      "t": "l",
+      "v": "     Sorgente    viva  che   nasce  nel  cuore   è questo    dono   che   abita  in me."
+    },
+    {
+      "t": "c",
+      "v": "                   SOL           LA           RE       SI-7           MI-7        SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "     La  tua  presenza    è un  fuoco   d'amore     che  avvolge    l'anima   mia,   Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Solo flauto 3"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA SOL MI-7 SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3 - modulazione in FA"
+    },
+    {
+      "t": "c",
+      "v": "     FA           SIb7          LA-7         SIb7        FA        SIb      DO7       DO-7"
+    },
+    {
+      "t": "l",
+      "v": "     Ora   il tuo  Spirito  in me   dice:  \"Padre\",    non   sono   io a parlare,   sei tu."
+    },
+    {
+      "t": "c",
+      "v": "     FA         SIb7       DO7       FA              SIb7        SIb-      FA"
+    },
+    {
+      "t": "l",
+      "v": "     Nell'infinito    oceano    di pace   tu vivi  in me,   io in te,     Gesù."
+    }
+  ],
+  "id": "nel-tuo-silenzio"
+}

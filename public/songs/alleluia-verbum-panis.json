@@ -1,0 +1,127 @@
+{
+  "title": "Alleluia",
+  "sub": "Verbum Panis",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia Verbum Panis Ritornello           Alle  - lu  -     ia   alle  - lu   - ia           Alle  - lu  -     ia   alle  - lu   -  u  -     ia           Alle  - lu  -     ia   alle  - lu   - ia           Alle  - lu  -     ia   alle  - lu   -  u  -     ia  Ponte                           Alleluia  alleluia  alle - luia                           Alle  - luia   alle -  luia                           Alleluia  al -  lelu - ia alle -  luia                           Alle  - luia   alle -  luia  Ritornello finale           Alle  - lu  -     ia   alle  - lu   - ia           Alle  - lu  -     ia   alle  - lu   -  u  -     ia           Alle  - lu  -     ia   alle  - lu   - ia           Alle  - lu  -     ia   alle  - lu   -  u  -     ia",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE         MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   - ia"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE         MI-    FA#-     SI-"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   -  u  -     ia"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE         MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   - ia"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE        MI-    FA#-     SI-"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   -  u  -     ia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-                            LA"
+    },
+    {
+      "t": "l",
+      "v": "                          Alleluia  alleluia  alle - luia"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-             LA     MI-      FA#-     SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "                          Alle  - luia   alle -  luia"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-                     ( LA   SI- )       LA"
+    },
+    {
+      "t": "l",
+      "v": "                          Alleluia  al -  lelu - ia alle -  luia"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-             LA     MI-      FA#-     SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "                          Alle  - luia   alle -  luia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE         MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   - ia"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE        MI-    FA#-     SI-"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   -  u  -     ia"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE         MI-    LA"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   - ia"
+    },
+    {
+      "t": "c",
+      "v": "          SI-     LA/DO        RE        MI-    FA#-     SOL      [ LA    SI- ]"
+    },
+    {
+      "t": "l",
+      "v": "          Alle  - lu  -     ia   alle  - lu   -  u  -     ia"
+    }
+  ],
+  "id": "alleluia-verbum-panis"
+}

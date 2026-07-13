@@ -1,0 +1,219 @@
+{
+  "title": "Emmanuel",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Emmanuel  Strofa 1 1.     Dall'orizzonte    una   grande    luce  viaggia  nella  storia        e lungo   gli anni  ha  vinto   il buio  facendosi   Memoria,        e illuminando     la nostra   vita  chiaro  ci rivela        che  non   si vive  se non   si cerca  la Verità...  Strofa 2 2.     Un  grande    dono    che  Dio  ci ha  fatto  è Cristo   il suo Figlio,        e l'umanità    è rinnovata, è     in Lui salvata.        È vero   uomo,    è vero   Dio,  è  il Pane  della  Vita,        che  ad  ogni  uomo     ai suoi  fratelli ridonerà.  Ritornello Siamo    qui       sotto  la stessa  luce        sotto  la sua  croce   cantando    ad  una   voce.        È l'Emmanuel      Emmanuel,      Emmanuel.        È l'Emmanuel,      Emmanuel.  Strofa 3 3.     La morte    è uccisa,  la vita  ha  vinto,  è  Pasqua   in  tutto  il mondo,        un  vento   soffia  in ogni  uomo     lo Spirito  fecondo.        Che  porta   avanti   nella  storia  la Chiesa   sua  sposa,        sotto  lo sguardo    di  Maria,   Comunità.  Strofa 4 4.     Dalla  città di  chi ha  versato   il sangue   per  amore        ed  ha  cambiato    il vecchio   mondo     vogliamo     ripartire.        Seguendo     Cristo,  insieme   a  Pietro,  rinasce  in  noi  la fede,        Parola   viva  che  ci rinnova    e cresce  in noi.  Strofa 5 5.     Noi  debitori   del  passato   di  secoli di  storia,        di vite date   per  amore,    di santi  che  han   creduto,        di uomini    che  ad  alta quota    insegnano    a  volare,        di chi la  storia sa  cambiare,    come    Gesù.  Strofa 6 6.     È giunta   un'era   di primavera,     è tempo    di cambiare.        È oggi  il giorno   sempre    nuovo    per  ricominciare,        per  dare  svolte,  parole   nuove    e  convertire    il cuore,        per  dire al  mondo,     ad  ogni  uomo:     Signore   Gesù.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       MI                                     SI"
+    },
+    {
+      "t": "l",
+      "v": "1.     Dall'orizzonte    una   grande    luce  viaggia  nella  storia"
+    },
+    {
+      "t": "c",
+      "v": "         LA                                      SI             SI7"
+    },
+    {
+      "t": "l",
+      "v": "       e lungo   gli anni  ha  vinto   il buio  facendosi   Memoria,"
+    },
+    {
+      "t": "c",
+      "v": "         MI                                 SI"
+    },
+    {
+      "t": "l",
+      "v": "       e illuminando     la nostra   vita  chiaro  ci rivela"
+    },
+    {
+      "t": "c",
+      "v": "                  LA                          FA#7      SI   MI    SI7"
+    },
+    {
+      "t": "l",
+      "v": "       che  non   si vive  se non   si cerca  la Verità..."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "       MI                                               SI"
+    },
+    {
+      "t": "l",
+      "v": "2.     Un  grande    dono    che  Dio  ci ha  fatto  è Cristo   il suo Figlio,"
+    },
+    {
+      "t": "c",
+      "v": "          LA                         SI         SI7"
+    },
+    {
+      "t": "l",
+      "v": "       e l'umanità    è rinnovata, è     in Lui salvata."
+    },
+    {
+      "t": "c",
+      "v": "       MI                                     SI"
+    },
+    {
+      "t": "l",
+      "v": "       È vero   uomo,    è vero   Dio,  è  il Pane  della  Vita,"
+    },
+    {
+      "t": "c",
+      "v": "               LA                 FA#7           SI    SI7"
+    },
+    {
+      "t": "l",
+      "v": "       che  ad  ogni  uomo     ai suoi  fratelli ridonerà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "              DO#-       LA"
+    },
+    {
+      "t": "l",
+      "v": "Siamo    qui       sotto  la stessa  luce"
+    },
+    {
+      "t": "c",
+      "v": "       FA#-                  RE               SI     SI7"
+    },
+    {
+      "t": "l",
+      "v": "       sotto  la sua  croce   cantando    ad  una   voce."
+    },
+    {
+      "t": "c",
+      "v": "       MI                 SI             LA             MI"
+    },
+    {
+      "t": "l",
+      "v": "       È l'Emmanuel      Emmanuel,      Emmanuel."
+    },
+    {
+      "t": "c",
+      "v": "       DO#-           SI            LA"
+    },
+    {
+      "t": "l",
+      "v": "       È l'Emmanuel,      Emmanuel."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.     La morte    è uccisa,  la vita  ha  vinto,  è  Pasqua   in  tutto  il mondo,"
+    },
+    {
+      "t": "l",
+      "v": "       un  vento   soffia  in ogni  uomo     lo Spirito  fecondo."
+    },
+    {
+      "t": "l",
+      "v": "       Che  porta   avanti   nella  storia  la Chiesa   sua  sposa,"
+    },
+    {
+      "t": "l",
+      "v": "       sotto  lo sguardo    di  Maria,   Comunità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "4.     Dalla  città di  chi ha  versato   il sangue   per  amore"
+    },
+    {
+      "t": "l",
+      "v": "       ed  ha  cambiato    il vecchio   mondo     vogliamo     ripartire."
+    },
+    {
+      "t": "l",
+      "v": "       Seguendo     Cristo,  insieme   a  Pietro,  rinasce  in  noi  la fede,"
+    },
+    {
+      "t": "l",
+      "v": "       Parola   viva  che  ci rinnova    e cresce  in noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "l",
+      "v": "5.     Noi  debitori   del  passato   di  secoli di  storia,"
+    },
+    {
+      "t": "l",
+      "v": "       di vite date   per  amore,    di santi  che  han   creduto,"
+    },
+    {
+      "t": "l",
+      "v": "       di uomini    che  ad  alta quota    insegnano    a  volare,"
+    },
+    {
+      "t": "l",
+      "v": "       di chi la  storia sa  cambiare,    come    Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 6"
+    },
+    {
+      "t": "l",
+      "v": "6.     È giunta   un'era   di primavera,     è tempo    di cambiare."
+    },
+    {
+      "t": "l",
+      "v": "       È oggi  il giorno   sempre    nuovo    per  ricominciare,"
+    },
+    {
+      "t": "l",
+      "v": "       per  dare  svolte,  parole   nuove    e  convertire    il cuore,"
+    },
+    {
+      "t": "l",
+      "v": "       per  dire al  mondo,     ad  ogni  uomo:     Signore   Gesù."
+    }
+  ],
+  "id": "emmanuel"
+}

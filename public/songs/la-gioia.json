@@ -1,0 +1,262 @@
+{
+  "title": "La Gioia",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "La Gioia  Strofa 1 Ascolta   il rumore    delle  onde   del  mare   ed  il canto  notturno    dei  mille  pensieri   dell'umanità,   che   riposa   dopo    il traffico di  questo   giorno   e di sera  si incanta    davanti   al tramonto     che  il sole  le dà.    Respira,    e  da  un  soffio  di vento   raccogli il profumo     dei fiori  che  non   hanno    chiesto  che  un   po'  di umiltà.   E se  vuoi  puoi   cantare,     e cantare   che  hai  voglia  di  dare,  e cantare che  ancora    nascosta   può   esistere  la felicità.  Ritornello Perché   la vuoi,   perché   tu  puoi  riconquistare    un   sorriso; e puoi   cantare   e puoi   gridare   che  ti hanno    detto  bugie, se han   raccontato    che  l'hanno    uccisa  che  han   calpestato    la gioia, perché   la gioia,  perché    la gioia,  perché   la gioia  è con   te! E magari    fosse  un  attimo   vivila,  ti prego, e magari    a denti   stretti non  farla  morire, anche   immersa     nel  frastuono    tu falla sentire, hai  bisogno    di gioia  come    me.      La la  la la…  Strofa 2 Ancora,    è già  tardi  ma  rimani   ancora per  gustare   ancora    per  poco    quest'aria   scoperta   stasera;   e domani     ritorna,   fra la  gente  che  corre   e dispera, tu  saprai  che  nascosta   nel  cuore   può   esistere  la felicità.  Ritornello finale Perché   la vuoi,   perché   tu  puoi  riconquistare    un   sorriso; e puoi   cantare   e puoi   gridare   che  ti hanno    detto  bugie, se han   raccontato    che  l'hanno    uccisa  che  han   calpestato    la gioia, perché   la gioia,  perché    la gioia,  perché   la gioia  è con   te! E magari    fosse  un  attimo   vivila,  ti prego, e magari    a denti   stretti non  farla  morire, anche   immersa     nel  frastuono    tu falla sentire, hai  bisogno    di gioia  come    me.      La la  la la…",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO     FA        SOL         DO"
+    },
+    {
+      "t": "l",
+      "v": "Ascolta   il rumore    delle  onde   del  mare"
+    },
+    {
+      "t": "c",
+      "v": "FA     SOL     DO                LA-           RE-        SOL     DO"
+    },
+    {
+      "t": "l",
+      "v": "  ed  il canto  notturno    dei  mille  pensieri   dell'umanità,"
+    },
+    {
+      "t": "c",
+      "v": "SOL     DO     FA          SOL       DO"
+    },
+    {
+      "t": "l",
+      "v": "  che   riposa   dopo    il traffico di  questo   giorno"
+    },
+    {
+      "t": "c",
+      "v": "FA     SOL          DO     LA-          RE                 SOL        DO"
+    },
+    {
+      "t": "l",
+      "v": "  e di sera  si incanta    davanti   al tramonto     che  il sole  le dà."
+    },
+    {
+      "t": "c",
+      "v": "SOL    DO     FA         SOL         DO"
+    },
+    {
+      "t": "l",
+      "v": "   Respira,    e  da  un  soffio  di vento   raccogli"
+    },
+    {
+      "t": "c",
+      "v": "FA     SOL         DO            LA-             RE-             SOL          DO"
+    },
+    {
+      "t": "l",
+      "v": "il profumo     dei fiori  che  non   hanno    chiesto  che  un   po'  di umiltà."
+    },
+    {
+      "t": "c",
+      "v": "FA     SOL              DO      FA      SOL             DO              FA        SOL"
+    },
+    {
+      "t": "l",
+      "v": "  E se  vuoi  puoi   cantare,     e cantare   che  hai  voglia  di  dare,  e cantare"
+    },
+    {
+      "t": "c",
+      "v": "  DO              LA-               RE-           SOL     DO"
+    },
+    {
+      "t": "l",
+      "v": "che  ancora    nascosta   può   esistere  la felicità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "            SOL                  DO         FA                  DO"
+    },
+    {
+      "t": "l",
+      "v": "Perché   la vuoi,   perché   tu  puoi  riconquistare    un   sorriso;"
+    },
+    {
+      "t": "c",
+      "v": "         SOL                 DO               FA               DO"
+    },
+    {
+      "t": "l",
+      "v": "e puoi   cantare   e puoi   gridare   che  ti hanno    detto  bugie,"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL                  DO                        FA         DO"
+    },
+    {
+      "t": "l",
+      "v": "se han   raccontato    che  l'hanno    uccisa  che  han   calpestato    la gioia,"
+    },
+    {
+      "t": "c",
+      "v": "             RE-                 MI-               FA               SOL"
+    },
+    {
+      "t": "l",
+      "v": "perché   la gioia,  perché    la gioia,  perché   la gioia  è con   te!"
+    },
+    {
+      "t": "c",
+      "v": "  FA                    SOL       DO          FA"
+    },
+    {
+      "t": "l",
+      "v": "E magari    fosse  un  attimo   vivila,  ti prego,"
+    },
+    {
+      "t": "c",
+      "v": "                      SOL           DO        FA"
+    },
+    {
+      "t": "l",
+      "v": "e magari    a denti   stretti non  farla  morire,"
+    },
+    {
+      "t": "c",
+      "v": "                             SOL         LA-"
+    },
+    {
+      "t": "l",
+      "v": "anche   immersa     nel  frastuono    tu falla sentire,"
+    },
+    {
+      "t": "c",
+      "v": "      FA            SOL           DO       FA   DO    SOL    DO    FA   DO    SOL    DO"
+    },
+    {
+      "t": "l",
+      "v": "hai  bisogno    di gioia  come    me.      La la  la la…"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO       FA       SOL            DO"
+    },
+    {
+      "t": "l",
+      "v": "Ancora,    è già  tardi  ma  rimani   ancora"
+    },
+    {
+      "t": "c",
+      "v": "FA       SOL      DO          LA-     RE-         SOL            DO"
+    },
+    {
+      "t": "l",
+      "v": "per  gustare   ancora    per  poco    quest'aria   scoperta   stasera;"
+    },
+    {
+      "t": "c",
+      "v": "FA         SOL     DO     FA     SOL          DO"
+    },
+    {
+      "t": "l",
+      "v": "  e domani     ritorna,   fra la  gente  che  corre   e dispera,"
+    },
+    {
+      "t": "c",
+      "v": "FA    SOL             DO          LA-           RE-         SOL     DO"
+    },
+    {
+      "t": "l",
+      "v": "tu  saprai  che  nascosta   nel  cuore   può   esistere  la felicità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "            SOL                  DO         FA                  DO"
+    },
+    {
+      "t": "l",
+      "v": "Perché   la vuoi,   perché   tu  puoi  riconquistare    un   sorriso;"
+    },
+    {
+      "t": "c",
+      "v": "         SOL                 DO               FA               DO"
+    },
+    {
+      "t": "l",
+      "v": "e puoi   cantare   e puoi   gridare   che  ti hanno    detto  bugie,"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL                  DO                        FA         DO"
+    },
+    {
+      "t": "l",
+      "v": "se han   raccontato    che  l'hanno    uccisa  che  han   calpestato    la gioia,"
+    },
+    {
+      "t": "c",
+      "v": "             RE-                 MI-               FA               SOL"
+    },
+    {
+      "t": "l",
+      "v": "perché   la gioia,  perché    la gioia,  perché   la gioia  è con   te!"
+    },
+    {
+      "t": "c",
+      "v": "  FA                    SOL       DO          FA"
+    },
+    {
+      "t": "l",
+      "v": "E magari    fosse  un  attimo   vivila,  ti prego,"
+    },
+    {
+      "t": "c",
+      "v": "                      SOL           DO        FA"
+    },
+    {
+      "t": "l",
+      "v": "e magari    a denti   stretti non  farla  morire,"
+    },
+    {
+      "t": "c",
+      "v": "                             SOL         LA-"
+    },
+    {
+      "t": "l",
+      "v": "anche   immersa     nel  frastuono    tu falla sentire,"
+    },
+    {
+      "t": "c",
+      "v": "      FA            SOL           DO       FA   DO    SOL    DO    FA   DO    SOL    DO"
+    },
+    {
+      "t": "l",
+      "v": "hai  bisogno    di gioia  come    me.      La la  la la…"
+    }
+  ],
+  "id": "la-gioia"
+}

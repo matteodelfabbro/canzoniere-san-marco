@@ -1,0 +1,123 @@
+{
+  "title": "Salve Regina",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Salve Regina  Ritornello (x2)    Salve  Regina,   Madre     di  misericordia.    Vita, dolcezza,    speranza    nostra,   salve!  Salve  Regina!  Strofa                  A  te  ricorriamo,    esuli figli di Eva.                  A  te  sospiriamo,    piangenti,    in  questa   valle  di lacrime.                  Avvocata     nostra,   volgi  a noi  gli occhi   tuoi,                 mostraci   dopo    questo   esilio  il frutto   del  tuo  seno,   Gesù.  Ritornello finale    Salve  Regina,   Madre     di  misericordia.    O  clemente,    o  pia, o  dolce   Vergine   Maria. Coda    Salve  Regina!    Salve  Regina,    salve,                 salve!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello (x2)"
+    },
+    {
+      "t": "c",
+      "v": "   SOL       RE     DO       LA-        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Salve  Regina,   Madre     di  misericordia."
+    },
+    {
+      "t": "c",
+      "v": "              RE                  DO        SOL             RE7"
+    },
+    {
+      "t": "l",
+      "v": "   Vita, dolcezza,    speranza    nostra,   salve!  Salve  Regina!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "                SOL          LA-       RE7            SOL"
+    },
+    {
+      "t": "l",
+      "v": "                 A  te  ricorriamo,    esuli figli di Eva."
+    },
+    {
+      "t": "c",
+      "v": "                SOL           SI-           DO     LA-                     RE7"
+    },
+    {
+      "t": "l",
+      "v": "                 A  te  sospiriamo,    piangenti,    in  questa   valle  di lacrime."
+    },
+    {
+      "t": "c",
+      "v": "                SOL           LA-       RE7                      SOL"
+    },
+    {
+      "t": "l",
+      "v": "                 Avvocata     nostra,   volgi  a noi  gli occhi   tuoi,"
+    },
+    {
+      "t": "c",
+      "v": "                SOL                          SI-      DO     LA-                  RE7"
+    },
+    {
+      "t": "l",
+      "v": "                mostraci   dopo    questo   esilio  il frutto   del  tuo  seno,   Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "   SOL        RE    DO       LA-        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Salve  Regina,   Madre     di  misericordia."
+    },
+    {
+      "t": "c",
+      "v": "                     RE               DO        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   O  clemente,    o  pia, o  dolce   Vergine   Maria."
+    },
+    {
+      "t": "h",
+      "v": "Coda"
+    },
+    {
+      "t": "c",
+      "v": "              RE7"
+    },
+    {
+      "t": "l",
+      "v": "   Salve  Regina!"
+    },
+    {
+      "t": "c",
+      "v": "   SOL        RE"
+    },
+    {
+      "t": "l",
+      "v": "   Salve  Regina,"
+    },
+    {
+      "t": "c",
+      "v": "   DO     LA-    SOL      DO      LA-    SOL"
+    },
+    {
+      "t": "l",
+      "v": "   salve,                 salve!"
+    }
+  ],
+  "id": "salve-regina"
+}

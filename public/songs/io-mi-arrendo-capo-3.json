@@ -1,0 +1,325 @@
+{
+  "title": "Io Mi Arrendo",
+  "sub": "Capo 3",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Io Mi Arrendo Capo 3 Intro  Strofa 1    Eccomi  di nuovo  in ginocchio qui,    sto lasciando tutto, sto lasciando tutto    E mi trovo  qui perché tu Dio mi  attiri    Io cerco Te, ho bisogno  di Te    Io mi arrendo  Strofa 2    Riempimi  di grazia e d'Amore,  sì    Ho  fame  di Te, ho sete di Te    Io so che senti il mio grido a Te    Parlami adesso, parlami  ora  Ritornello    Io mi arrendo,  io mi arrendo    Voglio sentirti di più, voglio scoprirti di più    Io mi arrendo,  io mi arrendo    Voglio sentirti di più    Voglio scoprirti di più  Interludio  Ponte 1    Sei un vento che soffia forte in me    Fa' ciò che vuoi, fa' ciò che vuoi in me    Sei tempesta che si risveglia in me    Fa' ciò che vuoi, fa' ciò che vuoi in me    Sei un vento che respira in me    Fa' ciò che vuoi, fa' ciò che vuoi in me    Sei una tempesta  che si risveglia in me    Fa' ciò che vuoi, fa' ciò che vuoi in me  Interludio  Ponte 2    Sei un vento che soffia forte in me    Fa' ciò che vuoi, fa' ciò che vuoi in me    Sei una tempesta  che si risveglia in me    Fa' ciò che vuoi, fa' ciò che vuoi in me    Fa' ciò che vuoi, fa' ciò che vuoi in me  Finale (x2)    Io mi arrendo, io mi  arrendo    Voglio sentirti di più                (x2)    Voglio scoprirti di più",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SI- RE  LA SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   SI-                    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Eccomi  di nuovo  in ginocchio qui,"
+    },
+    {
+      "t": "c",
+      "v": "               LA                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "   sto lasciando tutto, sto lasciando tutto"
+    },
+    {
+      "t": "c",
+      "v": "        SI-                  RE"
+    },
+    {
+      "t": "l",
+      "v": "   E mi trovo  qui perché tu Dio mi  attiri"
+    },
+    {
+      "t": "c",
+      "v": "            LA              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Io cerco Te, ho bisogno  di Te"
+    },
+    {
+      "t": "c",
+      "v": "           SI-    RE   LA  SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Io mi arrendo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   SI-                      RE"
+    },
+    {
+      "t": "l",
+      "v": "   Riempimi  di grazia e d'Amore,  sì"
+    },
+    {
+      "t": "c",
+      "v": "               LA             SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Ho  fame  di Te, ho sete di Te"
+    },
+    {
+      "t": "c",
+      "v": "   SI-                    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Io so che senti il mio grido a Te"
+    },
+    {
+      "t": "c",
+      "v": "             LA              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Parlami adesso, parlami  ora"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "           SI-            RE"
+    },
+    {
+      "t": "l",
+      "v": "   Io mi arrendo,  io mi arrendo"
+    },
+    {
+      "t": "c",
+      "v": "              MI-                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Voglio sentirti di più, voglio scoprirti di più"
+    },
+    {
+      "t": "c",
+      "v": "           SI-            RE"
+    },
+    {
+      "t": "l",
+      "v": "   Io mi arrendo,  io mi arrendo"
+    },
+    {
+      "t": "c",
+      "v": "              MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Voglio sentirti di più"
+    },
+    {
+      "t": "c",
+      "v": "              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Voglio scoprirti di più"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "   SOL  RE LA     MI-   SI- LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte 1"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei un vento che soffia forte in me"
+    },
+    {
+      "t": "c",
+      "v": "               MI-              SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Fa' ciò che vuoi, fa' ciò che vuoi in me"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei tempesta che si risveglia in me"
+    },
+    {
+      "t": "c",
+      "v": "               MI-              SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Fa' ciò che vuoi, fa' ciò che vuoi in me"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei un vento che respira in me"
+    },
+    {
+      "t": "c",
+      "v": "               MI-              SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Fa' ciò che vuoi, fa' ciò che vuoi in me"
+    },
+    {
+      "t": "c",
+      "v": "               SOL   RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei una tempesta  che si risveglia in me"
+    },
+    {
+      "t": "c",
+      "v": "               MI-              SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Fa' ciò che vuoi, fa' ciò che vuoi in me"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "   SOL  RE LA      MI-   SI-  LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte 2"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei un vento che soffia forte in me"
+    },
+    {
+      "t": "c",
+      "v": "               MI-              SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Fa' ciò che vuoi, fa' ciò che vuoi in me"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE       LA"
+    },
+    {
+      "t": "l",
+      "v": "   Sei una tempesta  che si risveglia in me"
+    },
+    {
+      "t": "c",
+      "v": "               MI-              SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Fa' ciò che vuoi, fa' ciò che vuoi in me"
+    },
+    {
+      "t": "c",
+      "v": "               MI-              SI-     LA"
+    },
+    {
+      "t": "l",
+      "v": "   Fa' ciò che vuoi, fa' ciò che vuoi in me"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale (x2)"
+    },
+    {
+      "t": "c",
+      "v": "           SI-            RE"
+    },
+    {
+      "t": "l",
+      "v": "   Io mi arrendo, io mi  arrendo"
+    },
+    {
+      "t": "c",
+      "v": "              MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Voglio sentirti di più                (x2)"
+    },
+    {
+      "t": "c",
+      "v": "              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Voglio scoprirti di più"
+    }
+  ],
+  "id": "io-mi-arrendo-capo-3"
+}

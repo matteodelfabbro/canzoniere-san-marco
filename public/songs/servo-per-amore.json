@@ -1,0 +1,119 @@
+{
+  "title": "Servo per Amore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Servo per Amore  Strofa 1     Una   notte   di sudore           Sulla barca   in mezzo     al mare     E  mentre   il Cielo  si imbianca    già       Tu guardi   le tue  reti vuote     Ma   la voce   che  ti chiama          Un   altro  mare   ti mostrerà     E  sulle rive  di ogni  cuore          Le tue  reti getterai  Ritornello              Offri  la vita  tua    Come     Maria    ai piedi  della  croce              E  sarai     Servo      di ogni   uomo              Servo   per  amore        Sacerdote    dell'umanità  Strofa 2     Avanzavi     nel silenzio          Fra le lacrime    speravi     Che   il seme   sparso   davanti   a te        Cadesse   sulla  buona    terra     Ora   il cuore  tuo   è in festa       Perché   il grano   biondeggia     ormai     È maturato     sotto  il sole        Puoi   riporlo  nei  granai",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "           SI-                                                       RE"
+    },
+    {
+      "t": "l",
+      "v": "    Una   notte   di sudore           Sulla barca   in mezzo     al mare"
+    },
+    {
+      "t": "c",
+      "v": "                    LA                  FA#-                    SOL           SI-"
+    },
+    {
+      "t": "l",
+      "v": "    E  mentre   il Cielo  si imbianca    già       Tu guardi   le tue  reti vuote"
+    },
+    {
+      "t": "c",
+      "v": "             RE                                        LA             RE"
+    },
+    {
+      "t": "l",
+      "v": "    Ma   la voce   che  ti chiama          Un   altro  mare   ti mostrerà"
+    },
+    {
+      "t": "c",
+      "v": "            SOL                RE                  MI-   SOL    RE      FA#-"
+    },
+    {
+      "t": "l",
+      "v": "    E  sulle rive  di ogni  cuore          Le tue  reti getterai"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "             SI-             RE                   LA       FA#-         SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Offri  la vita  tua    Come     Maria    ai piedi  della  croce"
+    },
+    {
+      "t": "c",
+      "v": "              SI-          RE                   LA"
+    },
+    {
+      "t": "l",
+      "v": "             E  sarai     Servo      di ogni   uomo"
+    },
+    {
+      "t": "c",
+      "v": "             RE               SOL       RE            MI-   SOL    RE"
+    },
+    {
+      "t": "l",
+      "v": "             Servo   per  amore        Sacerdote    dell'umanità"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "           SI-                                               RE"
+    },
+    {
+      "t": "l",
+      "v": "    Avanzavi     nel silenzio          Fra le lacrime    speravi"
+    },
+    {
+      "t": "c",
+      "v": "                     LA                 FA#-                 SOL              SI-"
+    },
+    {
+      "t": "l",
+      "v": "    Che   il seme   sparso   davanti   a te        Cadesse   sulla  buona    terra"
+    },
+    {
+      "t": "c",
+      "v": "             RE                                           LA                        RE"
+    },
+    {
+      "t": "l",
+      "v": "    Ora   il cuore  tuo   è in festa       Perché   il grano   biondeggia     ormai"
+    },
+    {
+      "t": "c",
+      "v": "             SOL             RE                    MI-    SOL    RE       FA#-"
+    },
+    {
+      "t": "l",
+      "v": "    È maturato     sotto  il sole        Puoi   riporlo  nei  granai"
+    }
+  ],
+  "id": "servo-per-amore"
+}

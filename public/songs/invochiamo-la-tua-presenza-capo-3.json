@@ -1,0 +1,303 @@
+{
+  "title": "Invochiamo la Tua Presenza",
+  "sub": "Capo 3",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Invochiamo la Tua Presenza Capo 3 Intro  Strofa 1  Invochiamo  la tua presenza, vieni Signor  Invochiamo  la tua presenza, scendi su di noi  Vieni Consolatore, dona pace ed umiltà  Acqua  viva d'amore Questo cuore apriamo a te  Ritornello 1 Vieni Spirito, vieni Spirito, scendi su di noi Vieni Spirito, vieni Spirito, scendi su di noi Vieni su noi, Maranathà, vieni su noi Spirito Vieni Spirito, vieni Spirito, scendi su di noi Vieni Spirito, vieni Spirito, scendi su di noi Scendi su di noi  Strofa 2  Invochiamo  la tua presenza, vieni Signor  Invochiamo  la tua presenza, scendi su di noi  Vieni luce dei cuori, dona forza e fedeltà   Fuoco eterno d'amore   Questa vita offriamo a te  Ritornello 2 Vieni Spirito, vieni Spirito, scendi su di noi Vieni Spirito, vieni Spirito, scendi su di noi Vieni su noi, Maranathà, vieni su noi Spirito Vieni Spirito, vieni Spirito, scendi su di noi Vieni Spirito, vieni Spirito, scendi su di noi Scendi su di noi  Ripresa Vieni Spirito, vieni Spirito, scendi su di noi Vieni Spirito, vieni Spirito, scendi su di noi  Ritornello finale - modulazione Vieni Spirito, vieni Spirito, scendi su di noi Vieni Spirito, vieni Spirito, scendi su di noi Vieni su noi, Maranathà,  vieni su noi Spirito Vieni Spirito, vieni Spirito, scendi su di noi Vieni Spirito, vieni Spirito, scendi su di noi Scendi su di noi",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SI- SOL  RE  LA (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SI-             SOL           RE   LA"
+    },
+    {
+      "t": "l",
+      "v": " Invochiamo  la tua presenza, vieni Signor"
+    },
+    {
+      "t": "c",
+      "v": "SI-             SOL         RE         LA"
+    },
+    {
+      "t": "l",
+      "v": " Invochiamo  la tua presenza, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "MI-           SI-        SOL          LA"
+    },
+    {
+      "t": "l",
+      "v": " Vieni Consolatore, dona pace ed umiltà"
+    },
+    {
+      "t": "c",
+      "v": "MI-            SI-"
+    },
+    {
+      "t": "l",
+      "v": " Acqua  viva d'amore"
+    },
+    {
+      "t": "c",
+      "v": "      SOL             FA#7"
+    },
+    {
+      "t": "l",
+      "v": "Questo cuore apriamo a te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "SI-         SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SI-         SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SOL    LA   FA#7    SI-  SOL         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni su noi, Maranathà, vieni su noi Spirito"
+    },
+    {
+      "t": "c",
+      "v": "SI-         SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SI-         SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "           SI- SOL RE LA"
+    },
+    {
+      "t": "l",
+      "v": "Scendi su di noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SI-             SOL           RE   LA"
+    },
+    {
+      "t": "l",
+      "v": " Invochiamo  la tua presenza, vieni Signor"
+    },
+    {
+      "t": "c",
+      "v": "SI-             SOL         RE         LA"
+    },
+    {
+      "t": "l",
+      "v": " Invochiamo  la tua presenza, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "MI-              SI-      SOL         LA"
+    },
+    {
+      "t": "l",
+      "v": " Vieni luce dei cuori, dona forza e fedeltà"
+    },
+    {
+      "t": "c",
+      "v": "MI-              SI-"
+    },
+    {
+      "t": "l",
+      "v": "  Fuoco eterno d'amore"
+    },
+    {
+      "t": "c",
+      "v": "         SOL            FA#7"
+    },
+    {
+      "t": "l",
+      "v": "  Questa vita offriamo a te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "SI-          SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SI-          SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SOL     LA   FA#7    SI-  SOL         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni su noi, Maranathà, vieni su noi Spirito"
+    },
+    {
+      "t": "c",
+      "v": "SI-          SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SI-          SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "            SI- SOL RE LA (x2 come  l'intro)"
+    },
+    {
+      "t": "l",
+      "v": "Scendi su di noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripresa"
+    },
+    {
+      "t": "c",
+      "v": "SI-          SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SI-          SOL           RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale - modulazione"
+    },
+    {
+      "t": "c",
+      "v": "RE-          SIb          FA         DO"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "RE-          SIb          FA         DO"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "SIb     DO    LA7    RE-  SIb     DO"
+    },
+    {
+      "t": "l",
+      "v": "Vieni su noi, Maranathà,  vieni su noi Spirito"
+    },
+    {
+      "t": "c",
+      "v": "RE-          SIb          FA         DO"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "RE-          SIb          FA         DO"
+    },
+    {
+      "t": "l",
+      "v": "Vieni Spirito, vieni Spirito, scendi su di noi"
+    },
+    {
+      "t": "c",
+      "v": "            RE- SIb FA"
+    },
+    {
+      "t": "l",
+      "v": "Scendi su di noi"
+    }
+  ],
+  "id": "invochiamo-la-tua-presenza-capo-3"
+}

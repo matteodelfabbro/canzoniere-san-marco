@@ -1,0 +1,150 @@
+{
+  "title": "Ecco Quel Che Abbiamo",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ecco Quel Che Abbiamo  Ritornello Ecco   quel  che  abbiamo     nulla  ci appartiene     ormai       ecco   i frutti della  terra  che  tu moltiplicherai.       Ecco   queste   mani,   puoi   usarle  se lo  vuoi       per  dividere    nel mondo      il pane  che  tu  hai  dato  a  noi  Strofa 1 1.   Solo  una   goccia   hai messo    fra le mani   mie     solo   una  goccia   che  tu  ora  chiedi  a me,   na,  na,  na…    una  goccia   che,  in mano     a Te,  una  pioggia    diventerà   e  la terra  feconderà  Strofa 2 2.   Le  nostre   gocce,   pioggia   fra le mani   tue,     saranno    linfa  di una   nuova    civiltà, na,  na, na…     e la terra  preparerà        la festa  del  pane   che  ogni  uomo     condividerà  Ritornello e finale                           Sulle  strade,  il vento   da  lontano    porterà                           il profumo     del frumento,     che  tutti avvolgerà.                           E sarà  l'amore    che  il raccolto  spartirà                           e il miracolo    del  pane   in terra  si ripeterà",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       LA                 LA7+             RE                LA"
+    },
+    {
+      "t": "l",
+      "v": "Ecco   quel  che  abbiamo     nulla  ci appartiene     ormai"
+    },
+    {
+      "t": "c",
+      "v": "               FA#-          DO#-7           RE            MI"
+    },
+    {
+      "t": "l",
+      "v": "      ecco   i frutti della  terra  che  tu moltiplicherai."
+    },
+    {
+      "t": "c",
+      "v": "       LA              LA7+          RE             LA"
+    },
+    {
+      "t": "l",
+      "v": "      Ecco   queste   mani,   puoi   usarle  se lo  vuoi"
+    },
+    {
+      "t": "c",
+      "v": "              FA#-          DO#-7              RE            MI       LA"
+    },
+    {
+      "t": "l",
+      "v": "      per  dividere    nel mondo      il pane  che  tu  hai  dato  a  noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   FA#-                              DO#-"
+    },
+    {
+      "t": "l",
+      "v": "1.   Solo  una   goccia   hai messo    fra le mani   mie"
+    },
+    {
+      "t": "c",
+      "v": "   DO#-7                          FA#                  SI-7    MI     DO#-7       FA#7"
+    },
+    {
+      "t": "l",
+      "v": "    solo   una  goccia   che  tu  ora  chiedi  a me,   na,  na,  na…"
+    },
+    {
+      "t": "c",
+      "v": "        SI-               DO#-       RE7+       SI-           DO#-        RE7+           LA"
+    },
+    {
+      "t": "l",
+      "v": "   una  goccia   che,  in mano     a Te,  una  pioggia    diventerà   e  la terra  feconderà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "    FA#-                             DO#-"
+    },
+    {
+      "t": "l",
+      "v": "2.   Le  nostre   gocce,   pioggia   fra le mani   tue,"
+    },
+    {
+      "t": "c",
+      "v": "    DO#-7                               FA#      SI-7    MI    DO#-7       FA#7"
+    },
+    {
+      "t": "l",
+      "v": "    saranno    linfa  di una   nuova    civiltà, na,  na, na…"
+    },
+    {
+      "t": "c",
+      "v": "          SI-   DO#-     RE7+       SI-                DO#-        RE7+              LA"
+    },
+    {
+      "t": "l",
+      "v": "    e la terra  preparerà        la festa  del  pane   che  ogni  uomo     condividerà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello e finale"
+    },
+    {
+      "t": "c",
+      "v": "                          LA LA7+ RE LA"
+    },
+    {
+      "t": "l",
+      "v": "                          Sulle  strade,  il vento   da  lontano    porterà"
+    },
+    {
+      "t": "c",
+      "v": "                                FA#-              DO#-7         RE             MI"
+    },
+    {
+      "t": "l",
+      "v": "                          il profumo     del frumento,     che  tutti avvolgerà."
+    },
+    {
+      "t": "c",
+      "v": "                          LA         LA7+            RE             LA"
+    },
+    {
+      "t": "l",
+      "v": "                          E sarà  l'amore    che  il raccolto  spartirà"
+    },
+    {
+      "t": "c",
+      "v": "                                   FA#-         DO#-7          RE    MI   LA"
+    },
+    {
+      "t": "l",
+      "v": "                          e il miracolo    del  pane   in terra  si ripeterà"
+    }
+  ],
+  "id": "ecco-quel-che-abbiamo"
+}

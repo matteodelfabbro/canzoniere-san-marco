@@ -1,0 +1,183 @@
+{
+  "title": "Re dei Re",
+  "sub": "Capo 1",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Re dei Re Capo 1 Intro  Strofa 1    Hai sollevato  i nostri volti dalla polvere     le nostre colpe  hai portato  su di te.     Signore  ti sei fatto uomo  in tutto come   noi,    Per    a  -  mo   -  re  Ritornello    Figlio dell'Altissimo, povero   tra i poveri, vieni a dimorare   tra noi    Dio  dell'impossibile, Re  di tutti i secoli, vieni nella tua maestà.    Re    dei   Re,     i popoli  ti acclamano,  i cieli ti proclamano.    Re    dei   Re,     Luce  degli uomini,   regna col  tuo Amore   tra no-o-o-i.    O-o-o-oh,   O-o-o-oh,   O-o-o-oh.  Strofa 2    Ci hai riscattati dalla stretta delle tenebre    perché  potessimo   glorificare te.    Hai riversato  in noi la vita del tuo Spirito    Per amore.  Ripetere il ritornello  Ponte    Tua   è    la glo - ria per   se   -   mpre    Tua   è    la glo - ria per   se   -   mpre    Gloria,    gloria    Gloria,    gloria  Ripetere il ritornello",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI- DO SOL RE (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   MI-       DO            SOL        RE"
+    },
+    {
+      "t": "l",
+      "v": "   Hai sollevato  i nostri volti dalla polvere"
+    },
+    {
+      "t": "c",
+      "v": "   MI-       DO          SOL           RE"
+    },
+    {
+      "t": "l",
+      "v": "    le nostre colpe  hai portato  su di te."
+    },
+    {
+      "t": "c",
+      "v": "   MI-        DO          SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "    Signore  ti sei fatto uomo  in tutto come   noi,"
+    },
+    {
+      "t": "c",
+      "v": "   MI-    DO    SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "   Per    a  -  mo   -  re"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   MI-                    DO                     SOL                    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Figlio dell'Altissimo, povero   tra i poveri, vieni a dimorare   tra noi"
+    },
+    {
+      "t": "c",
+      "v": "   MI-                    DO                   SOL                 RE"
+    },
+    {
+      "t": "l",
+      "v": "   Dio  dell'impossibile, Re  di tutti i secoli, vieni nella tua maestà."
+    },
+    {
+      "t": "c",
+      "v": "   MI-         DO       SOL                      RE"
+    },
+    {
+      "t": "l",
+      "v": "   Re    dei   Re,     i popoli  ti acclamano,  i cieli ti proclamano."
+    },
+    {
+      "t": "c",
+      "v": "   MI-         DO       SOL                  RE                          MI-  DO"
+    },
+    {
+      "t": "l",
+      "v": "   Re    dei   Re,     Luce  degli uomini,   regna col  tuo Amore   tra no-o-o-i."
+    },
+    {
+      "t": "c",
+      "v": "   SOL  RE    MI-   DO     SOL  RE     MI-"
+    },
+    {
+      "t": "l",
+      "v": "   O-o-o-oh,   O-o-o-oh,   O-o-o-oh."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Ci hai riscattati dalla stretta delle tenebre"
+    },
+    {
+      "t": "l",
+      "v": "   perché  potessimo   glorificare te."
+    },
+    {
+      "t": "l",
+      "v": "   Hai riversato  in noi la vita del tuo Spirito"
+    },
+    {
+      "t": "l",
+      "v": "   Per amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte"
+    },
+    {
+      "t": "c",
+      "v": "   MI-   DO      SOL   RE        MI-  DO    SOL   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Tua   è    la glo - ria per   se   -   mpre"
+    },
+    {
+      "t": "c",
+      "v": "   MI-   DO      SOL   RE        MI-  DO    SOL   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Tua   è    la glo - ria per   se   -   mpre"
+    },
+    {
+      "t": "c",
+      "v": "   MI-  DO     SOL  RE"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria,    gloria"
+    },
+    {
+      "t": "c",
+      "v": "   MI-  DO     SOL  RE"
+    },
+    {
+      "t": "l",
+      "v": "   Gloria,    gloria"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    }
+  ],
+  "id": "re-dei-re-capo-1"
+}

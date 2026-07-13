@@ -1,0 +1,145 @@
+{
+  "title": "Giovanni",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Giovanni  Intro  Strofa 1             1. Voce   di uno   che  grida   nel deserto    :               \"Convertitevi,     il Regno   è  qui.               Preparate    la   via     del   Signore,               raddrizzate     i suoi sentie       -  ri\".  Ritornello Alle  -  luja, allelu  - ja,                   viene   il Signore,  allelu    -  ja.                   preparate    una   strada  nel  deserto,                   per  il Signore   che   vie  -  e  -    ne.  Strofa 2             2. E  venne   un  uomo     e il suo  nome    era  Giovanni,                 lui testimone    della  luce  di Dio;                 come    una  lampada     che  rischiara  il buio,                 egli arde   nell'oscurità.  Strofa 3             3. Ecco   io mando     il mio  messaggero                 dinanzi   a me,   per  prepararmi     la via,                 per  ricondurre    i padri  verso   i figli,                 con  lo  spirito di  Elia.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SI-   MI-    SI-   FA#     RE    LA    MI-     FA#"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "              SI-         MI-        SI-            FA#"
+    },
+    {
+      "t": "l",
+      "v": "            1. Voce   di uno   che  grida   nel deserto    :"
+    },
+    {
+      "t": "c",
+      "v": "              RE         LA        MI-         FA#"
+    },
+    {
+      "t": "l",
+      "v": "              \"Convertitevi,     il Regno   è  qui."
+    },
+    {
+      "t": "c",
+      "v": "              SI-    FA#-       SOL     MI-     FA#"
+    },
+    {
+      "t": "l",
+      "v": "              Preparate    la   via     del   Signore,"
+    },
+    {
+      "t": "c",
+      "v": "              SI-       MI-              FA#-         SI-"
+    },
+    {
+      "t": "l",
+      "v": "              raddrizzate     i suoi sentie       -  ri\"."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL       RE     MI     FA#"
+    },
+    {
+      "t": "l",
+      "v": "Alle  -  luja, allelu  - ja,"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-          FA#-          MI-     FA#"
+    },
+    {
+      "t": "l",
+      "v": "                  viene   il Signore,  allelu    -  ja."
+    },
+    {
+      "t": "c",
+      "v": "                  SI-     RE         MI               FA#"
+    },
+    {
+      "t": "l",
+      "v": "                  preparate    una   strada  nel  deserto,"
+    },
+    {
+      "t": "c",
+      "v": "                  SI-        FA#-         MI-     FA#-     SI-"
+    },
+    {
+      "t": "l",
+      "v": "                  per  il Signore   che   vie  -  e  -    ne."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "            2. E  venne   un  uomo     e il suo  nome    era  Giovanni,"
+    },
+    {
+      "t": "l",
+      "v": "                lui testimone    della  luce  di Dio;"
+    },
+    {
+      "t": "l",
+      "v": "                come    una  lampada     che  rischiara  il buio,"
+    },
+    {
+      "t": "l",
+      "v": "                egli arde   nell'oscurità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "            3. Ecco   io mando     il mio  messaggero"
+    },
+    {
+      "t": "l",
+      "v": "                dinanzi   a me,   per  prepararmi     la via,"
+    },
+    {
+      "t": "l",
+      "v": "                per  ricondurre    i padri  verso   i figli,"
+    },
+    {
+      "t": "l",
+      "v": "                con  lo  spirito di  Elia."
+    }
+  ],
+  "id": "giovanni"
+}

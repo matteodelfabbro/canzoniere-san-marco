@@ -1,0 +1,79 @@
+{
+  "title": "Alleluia",
+  "sub": "Passeranno i cieli",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia Passeranno i cieli Ritornello Alle  - Alleluia,  alleluia,  alleluia,  alleluia, alleluia, alleluia,    alleluia!  Strofa         Passeranno     i cieli e passerà  la  terra: la sua  parola   non   passerà,         alleluia,     alleluia!  Ritornello Alle  - Alleluia,  alleluia,  alleluia,  alleluia, alleluia, alleluia,    alleluia!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE           LA    SI-      FA#-      SOL          RE   MI-   LA7"
+    },
+    {
+      "t": "l",
+      "v": "Alle  - Alleluia,  alleluia,  alleluia,  alleluia, alleluia,"
+    },
+    {
+      "t": "c",
+      "v": "RE   SOL      LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "alleluia,    alleluia!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "        RE               LA      SI-        FA#-     SOL              RE    MI-   LA7"
+    },
+    {
+      "t": "l",
+      "v": "        Passeranno     i cieli e passerà  la  terra: la sua  parola   non   passerà,"
+    },
+    {
+      "t": "c",
+      "v": "        RE   SOL      LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "        alleluia,     alleluia!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE           LA    SI-      FA#-      SOL          RE   MI-   LA7"
+    },
+    {
+      "t": "l",
+      "v": "Alle  - Alleluia,  alleluia,  alleluia,  alleluia, alleluia,"
+    },
+    {
+      "t": "c",
+      "v": "RE   SOL      LA   RE"
+    },
+    {
+      "t": "l",
+      "v": "alleluia,    alleluia!"
+    }
+  ],
+  "id": "alleluia-passeranno-i-cieli"
+}

@@ -1,0 +1,92 @@
+{
+  "title": "Il Signore È la Luce",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Il Signore È la Luce  Strofa 1              Il Signore       è la luce       che  vince  la notte  Ritornello               Gloria           gloria               Cantiamo     al Signore               Gloria           gloria               Cantiamo     al Signore  Strofa 2          2.  Il Signore   è la vita che   vince  la morte  Strofa 3          3.  Il Signore   è la grazia  che  vince   il peccato  Strofa 4          4.  Il Signore   è la gioia  che  vince   l'angoscia  Strofa 5          5.  Il Signore   è la pace   che  vince  la guerra",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       RE7        SOL               RE              DO        SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Il Signore       è la luce       che  vince  la notte"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "               SOL              SI- MI-                   LA-          RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": "              Gloria           gloria               Cantiamo     al Signore"
+    },
+    {
+      "t": "c",
+      "v": "               SOL              SI- MI-                   LA-          RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": "              Gloria           gloria               Cantiamo     al Signore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "         2.  Il Signore   è la vita che   vince  la morte"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "         3.  Il Signore   è la grazia  che  vince   il peccato"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "         4.  Il Signore   è la gioia  che  vince   l'angoscia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "l",
+      "v": "         5.  Il Signore   è la pace   che  vince  la guerra"
+    }
+  ],
+  "id": "il-signore-e-la-luce"
+}

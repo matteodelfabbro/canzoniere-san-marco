@@ -1,0 +1,113 @@
+{
+  "title": "Santo",
+  "sub": "Classico",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Santo Classico Intro  Santo    Santo   Santo   Santo    Il Signore   Dio   dell'universo    I cieli e la terra         Sono   pieni   della  Tua  gloria  Osanna           Osanna       Osanna      Osanna     nell'alto  dei  cieli           Osanna       Osanna      Osanna     nell'alto  dei  cieli  Benedetto    Benedetto     colui  che   viene  nel  nome    del  Signore  Osanna finale           Osanna       Osanna      Osanna     nell'alto  dei  cieli           Osanna       Osanna      Osanna     nell'alto  dei  cieli",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL    MI-    SI-"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Santo"
+    },
+    {
+      "t": "c",
+      "v": "   SOL      MI-     SI-"
+    },
+    {
+      "t": "l",
+      "v": "   Santo   Santo   Santo"
+    },
+    {
+      "t": "c",
+      "v": "          DO                   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Il Signore   Dio   dell'universo"
+    },
+    {
+      "t": "c",
+      "v": "    DO     MI-   DO   MI-              DO    LA7           RE"
+    },
+    {
+      "t": "l",
+      "v": "   I cieli e la terra         Sono   pieni   della  Tua  gloria"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE    SOL    RE    DO             RE       SOL   DO    SOL"
+    },
+    {
+      "t": "l",
+      "v": "          Osanna       Osanna      Osanna     nell'alto  dei  cieli"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE    SOL    RE    DO             RE       SOL   DO    SOL"
+    },
+    {
+      "t": "l",
+      "v": "          Osanna       Osanna      Osanna     nell'alto  dei  cieli"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Benedetto"
+    },
+    {
+      "t": "c",
+      "v": "       SOL           MI-      DO           RE              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Benedetto     colui  che   viene  nel  nome    del  Signore"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Osanna finale"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE    SOL    RE    DO             RE       SOL   DO    SOL"
+    },
+    {
+      "t": "l",
+      "v": "          Osanna       Osanna      Osanna     nell'alto  dei  cieli"
+    },
+    {
+      "t": "c",
+      "v": "          SOL    RE    SOL    RE    DO             RE       SOL   DO    SOL"
+    },
+    {
+      "t": "l",
+      "v": "          Osanna       Osanna      Osanna     nell'alto  dei  cieli"
+    }
+  ],
+  "id": "santo-classico"
+}

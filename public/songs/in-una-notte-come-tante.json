@@ -1,0 +1,348 @@
+{
+  "title": "In una Notte Come Tante",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "In una Notte Come Tante  Intro  Strofa 1    In una  notte_  come  tante,  in una città qualunque,    per una  strada_  un po'  isolata un pastore  torna  a casa,    il pastore_ guarda   avanti e per  il freddo stringe i denti,    già s'immagina   il ristoro dopo  un  giorno_  di lavoro.    Ma  nell'aria c'è qualcosa  che  lo abbraccia_    E ad un  tratto una  voce_  nella testa.    In questa  notte come   tante    Questo   mondo    cambia  rotta,    nasce  Dio, bambino_,    in una grotta.  Interludio senza violoncello  Strofa 2    Ad  un tratto quel  posto  si riempie di persone,    tutti vanno_  a quella  grotta come   fosse_ ad  un  altare    e Giuseppe   non  capisce  cosa accade  nella via,    ma  poi incontra_   la dolcezza  dello sguardo_   di Maria,    che come   sempre   ha capito  già ogni  cosa_    ed assiste alla scena silenziosa.    In questa  notte come   tante    Oggi  il mondo   cambia   rotta,    nasce  Dio, bambino_,    in una grotta.  Ritornello 1    Come   brezza  leggera  che accarezza   l'anima    Vieni bambino    in questa  piccola città,    tra la povera  gente  e anche  tu non  hai niente,    ma  il tuo amore   resterà_ per sempre.  Interludio senza violoncello  Strofa 3    In una  notte come   tante  in una città qualunque    C'è chi adesso_   torna a casa  e chi aspetta in una  chiesa,    c'è qualcuno_   che usa  ancora_  la violenza_    e chi cerca ormai  deluso_   una  speranza.    Ma  tu vieni e prova   ancora    A cambiare   questa  rotta,    nasci qui, bambino_,    in questa grotta.  Ritornello 2    Come   brezza  leggera  che accarezza   l'anima    Vieni indifeso  in questa piccola  città,    tra la povera  gente_  e anche  tu non   hai niente,    ma  il tuo amore   arriverà_  Ritornello finale    Come   brezza  leggera  che accarezza   l'anima    Vieni bambino    in questa  piccola città,    tra la povera  gente  e anche  tu non  hai niente,    ma  il tuo amore   resterà_ per sempre.  Interludio senza violoncello",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO   MI-   LA-  FA   DO   FA   SOL   DO   DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "          DO                        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   In una  notte_  come  tante,  in una città qualunque,"
+    },
+    {
+      "t": "c",
+      "v": "           LA-                        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   per una  strada_  un po'  isolata un pastore  torna  a casa,"
+    },
+    {
+      "t": "c",
+      "v": "       DO                               SOL"
+    },
+    {
+      "t": "l",
+      "v": "   il pastore_ guarda   avanti e per  il freddo stringe i denti,"
+    },
+    {
+      "t": "c",
+      "v": "           LA-                         SOL"
+    },
+    {
+      "t": "l",
+      "v": "   già s'immagina   il ristoro dopo  un  giorno_  di lavoro."
+    },
+    {
+      "t": "c",
+      "v": "          DO                           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Ma  nell'aria c'è qualcosa  che  lo abbraccia_"
+    },
+    {
+      "t": "c",
+      "v": "          LA-                       FA"
+    },
+    {
+      "t": "l",
+      "v": "   E ad un  tratto una  voce_  nella testa."
+    },
+    {
+      "t": "l",
+      "v": "   In questa  notte come   tante"
+    },
+    {
+      "t": "c",
+      "v": "          DO"
+    },
+    {
+      "t": "l",
+      "v": "   Questo   mondo    cambia  rotta,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL4 DO"
+    },
+    {
+      "t": "l",
+      "v": "   nasce  Dio, bambino_,    in una grotta."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio senza violoncello"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA- FA DO FA SOL DO DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Ad  un tratto quel  posto  si riempie di persone,"
+    },
+    {
+      "t": "l",
+      "v": "   tutti vanno_  a quella  grotta come   fosse_ ad  un  altare"
+    },
+    {
+      "t": "l",
+      "v": "   e Giuseppe   non  capisce  cosa accade  nella via,"
+    },
+    {
+      "t": "l",
+      "v": "   ma  poi incontra_   la dolcezza  dello sguardo_   di Maria,"
+    },
+    {
+      "t": "l",
+      "v": "   che come   sempre   ha capito  già ogni  cosa_"
+    },
+    {
+      "t": "l",
+      "v": "   ed assiste alla scena silenziosa."
+    },
+    {
+      "t": "l",
+      "v": "   In questa  notte come   tante"
+    },
+    {
+      "t": "l",
+      "v": "   Oggi  il mondo   cambia   rotta,"
+    },
+    {
+      "t": "l",
+      "v": "   nasce  Dio, bambino_,    in una grotta."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "          DO          SOL           LA-        SOL4   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Come   brezza  leggera  che accarezza   l'anima"
+    },
+    {
+      "t": "c",
+      "v": "    LA-       FA               DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Vieni bambino    in questa  piccola città,"
+    },
+    {
+      "t": "c",
+      "v": "          DO        SOL           LA-          FA"
+    },
+    {
+      "t": "l",
+      "v": "   tra la povera  gente  e anche  tu non  hai niente,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL DO"
+    },
+    {
+      "t": "l",
+      "v": "   ma  il tuo amore   resterà_ per sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio senza violoncello"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA- FA DO FA SOL DO DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "          DO                        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   In una  notte come   tante  in una città qualunque"
+    },
+    {
+      "t": "c",
+      "v": "           LA-                        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   C'è chi adesso_   torna a casa  e chi aspetta in una  chiesa,"
+    },
+    {
+      "t": "c",
+      "v": "       DO                                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "   c'è qualcuno_   che usa  ancora_  la violenza_"
+    },
+    {
+      "t": "c",
+      "v": "         LA-                             FA"
+    },
+    {
+      "t": "l",
+      "v": "   e chi cerca ormai  deluso_   una  speranza."
+    },
+    {
+      "t": "l",
+      "v": "   Ma  tu vieni e prova   ancora"
+    },
+    {
+      "t": "c",
+      "v": "        DO"
+    },
+    {
+      "t": "l",
+      "v": "   A cambiare   questa  rotta,"
+    },
+    {
+      "t": "c",
+      "v": "         FA         SOL4             DO"
+    },
+    {
+      "t": "l",
+      "v": "   nasci qui, bambino_,    in questa grotta."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "          DO          SOL           LA-        SOL4   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Come   brezza  leggera  che accarezza   l'anima"
+    },
+    {
+      "t": "c",
+      "v": "    LA-      FA              DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Vieni indifeso  in questa piccola  città,"
+    },
+    {
+      "t": "c",
+      "v": "          DO        SOL           LA-          FA"
+    },
+    {
+      "t": "l",
+      "v": "   tra la povera  gente_  e anche  tu non   hai niente,"
+    },
+    {
+      "t": "c",
+      "v": "                FA        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   ma  il tuo amore   arriverà_"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "          DO          SOL           LA-        SOL4   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Come   brezza  leggera  che accarezza   l'anima"
+    },
+    {
+      "t": "c",
+      "v": "    LA-       FA               DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Vieni bambino    in questa  piccola città,"
+    },
+    {
+      "t": "c",
+      "v": "          DO        SOL           LA-          FA"
+    },
+    {
+      "t": "l",
+      "v": "   tra la povera  gente  e anche  tu non  hai niente,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL DO"
+    },
+    {
+      "t": "l",
+      "v": "   ma  il tuo amore   resterà_ per sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio senza violoncello"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA- FA DO FA SOL DO DO"
+    }
+  ],
+  "id": "in-una-notte-come-tante"
+}

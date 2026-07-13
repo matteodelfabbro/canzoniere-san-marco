@@ -1,0 +1,134 @@
+{
+  "title": "Pim Pam",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Pim Pam  Strofa 1                     1.       Nella   casa  la sulla  montagna                         Un  camino    grande    grande    sta.                         Nel  camino    grande    grande   grande                         Un  gran   fuoco   fuoco   fuoco   va.  Ritornello Perciò   pim   pam,   le scarpe   pim   pam       Di  notte   fan  sul sentiero   di pietre  grosse       Pim   pam    le scarpe   pim  pam       Di  notte   fan  sul sentiero   così: PIM    PAM!  Strofa 2                     2   Nella  casa  la sulla  montagna                         Un  Signore   grande    grande    sta                         Nella  stanza   viola,  verde,   gialla                         Tante   sedie  rosse  e bianche    ha.  Strofa 3                     3   Nella  casa  la sulla  montagna                         Una   sedia  a tutti tutti dà                         A ciascuno    toglierà  le  scarpe                         Tutti insieme    poi  si danzerà.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                          LA7             RE       SOL           RE"
+    },
+    {
+      "t": "l",
+      "v": "                    1.       Nella   casa  la sulla  montagna"
+    },
+    {
+      "t": "c",
+      "v": "                                              SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "                        Un  camino    grande    grande    sta."
+    },
+    {
+      "t": "c",
+      "v": "                                              SOL           SI-"
+    },
+    {
+      "t": "l",
+      "v": "                        Nel  camino    grande    grande   grande"
+    },
+    {
+      "t": "c",
+      "v": "                                               LA      RE"
+    },
+    {
+      "t": "l",
+      "v": "                        Un  gran   fuoco   fuoco   fuoco   va."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          LA           RE                      SI-"
+    },
+    {
+      "t": "l",
+      "v": "Perciò   pim   pam,   le scarpe   pim   pam"
+    },
+    {
+      "t": "c",
+      "v": "                       MI-                    LA"
+    },
+    {
+      "t": "l",
+      "v": "      Di  notte   fan  sul sentiero   di pietre  grosse"
+    },
+    {
+      "t": "c",
+      "v": "             RE                        SI-"
+    },
+    {
+      "t": "l",
+      "v": "      Pim   pam    le scarpe   pim  pam"
+    },
+    {
+      "t": "c",
+      "v": "                        MI-      LA    RE     LA      RE"
+    },
+    {
+      "t": "l",
+      "v": "      Di  notte   fan  sul sentiero   così: PIM    PAM!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "                    2   Nella  casa  la sulla  montagna"
+    },
+    {
+      "t": "l",
+      "v": "                        Un  Signore   grande    grande    sta"
+    },
+    {
+      "t": "l",
+      "v": "                        Nella  stanza   viola,  verde,   gialla"
+    },
+    {
+      "t": "l",
+      "v": "                        Tante   sedie  rosse  e bianche    ha."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "                    3   Nella  casa  la sulla  montagna"
+    },
+    {
+      "t": "l",
+      "v": "                        Una   sedia  a tutti tutti dà"
+    },
+    {
+      "t": "l",
+      "v": "                        A ciascuno    toglierà  le  scarpe"
+    },
+    {
+      "t": "l",
+      "v": "                        Tutti insieme    poi  si danzerà."
+    }
+  ],
+  "id": "pim-pam"
+}

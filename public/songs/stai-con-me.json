@@ -1,0 +1,118 @@
+{
+  "title": "Stai con Me",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Stai con Me  Strofa 1    Stai con   me,  prote   - ggi - mi,    coprimi   con   le tue  ali, o Dio.  Ritornello Quando      la tempesta    arriverà          Volerò    più  in alto  insieme   a  te,          nelle  avversità   sarai  con  me          ed  io  saprò   che  tu sei il mio  re.  Strofa 2    Il cuore  mio   ripo  - sa  in  te,    io vivrò   in pace   e verità.  Finale Ed  io  saprò  che   tu sei il mio  re,               ed   io saprò   che  tu sei mio   re.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO         LA-      FA    RE    SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Stai con   me,  prote   - ggi - mi,"
+    },
+    {
+      "t": "c",
+      "v": "   DO     FA     RE-7              SOL4    SOL"
+    },
+    {
+      "t": "l",
+      "v": "   coprimi   con   le tue  ali, o Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "         DO                FA        SOL   DO"
+    },
+    {
+      "t": "l",
+      "v": "Quando      la tempesta    arriverà"
+    },
+    {
+      "t": "c",
+      "v": "                          FA       SOL        LA-"
+    },
+    {
+      "t": "l",
+      "v": "         Volerò    più  in alto  insieme   a  te,"
+    },
+    {
+      "t": "c",
+      "v": "                         FA     SOL       DO"
+    },
+    {
+      "t": "l",
+      "v": "         nelle  avversità   sarai  con  me"
+    },
+    {
+      "t": "c",
+      "v": "                     FA           SOL         DO"
+    },
+    {
+      "t": "l",
+      "v": "         ed  io  saprò   che  tu sei il mio  re."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   DO         LA-    FA    RE     SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Il cuore  mio   ripo  - sa  in  te,"
+    },
+    {
+      "t": "c",
+      "v": "   DO     FA      RE-7         SOL4   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   io vivrò   in pace   e verità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "                          FA           SOL         LA-"
+    },
+    {
+      "t": "l",
+      "v": "Ed  io  saprò  che   tu sei il mio  re,"
+    },
+    {
+      "t": "c",
+      "v": "                          FA           SOL         DO"
+    },
+    {
+      "t": "l",
+      "v": "              ed   io saprò   che  tu sei mio   re."
+    }
+  ],
+  "id": "stai-con-me"
+}

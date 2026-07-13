@@ -1,0 +1,177 @@
+{
+  "title": "Segni del Tuo Amore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Segni del Tuo Amore  Intro  Strofa 1    Mille e mille grani  nelle spighe  d'oro    mandano    fragranza  e danno   gioia al cuore    quando,   macinati,  fanno  un  pane  solo:    pane  quotidiano,   dono   tuo, Signore.  Ritornello 1    Ecco  il pane e il vino, segni del tuo amore    Ecco  questa offerta, accoglila  Signore:    tu di mille e mille cuori fai un  cuore  solo, un  corpo  solo  in te    e il Figlio tuo verrà e vivrà  ancora  in mezzo   a noi.  Strofa 2    Mille grappoli  maturi  sotto  il sole    festa della terra, donano   vigore    quando   da  ogni perla  stilla il vino nuovo    vino  della gioia, dono  tuo,  Signore.  Ritornello 2    Ecco  il pane e il vino, segni del tuo amore    Ecco  questa offerta, accoglila  Signore:    tu di mille e mille cuori fai un  cuore  solo, un  corpo  solo  in te    e il Figlio tuo verrà e vivrà  ancora  in mezzo   a noi.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO  RE-  DO   RE- DO   RE- DO   RE-"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO                                RE-    DO    RE-  DO    RE-  DO    RE-"
+    },
+    {
+      "t": "l",
+      "v": "   Mille e mille grani  nelle spighe  d'oro"
+    },
+    {
+      "t": "c",
+      "v": "   DO                                    RE-    DO    RE-  DO    RE-  DO    RE-"
+    },
+    {
+      "t": "l",
+      "v": "   mandano    fragranza  e danno   gioia al cuore"
+    },
+    {
+      "t": "c",
+      "v": "   DO                                  RE-   DO    RE-  DO    RE-  DO   RE-"
+    },
+    {
+      "t": "l",
+      "v": "   quando,   macinati,  fanno  un  pane  solo:"
+    },
+    {
+      "t": "c",
+      "v": "   DO                                  RE-   DO    RE-  DO    RE-  DO    DO"
+    },
+    {
+      "t": "l",
+      "v": "   pane  quotidiano,   dono   tuo, Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                                   FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ecco  il pane e il vino, segni del tuo amore"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                             FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ecco  questa offerta, accoglila  Signore:"
+    },
+    {
+      "t": "c",
+      "v": "   FA                    SOL                DO                        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   tu di mille e mille cuori fai un  cuore  solo, un  corpo  solo  in te"
+    },
+    {
+      "t": "c",
+      "v": "   FA                      SOL                             DO   RE-  DO   RE- DO   RE- DO   RE-"
+    },
+    {
+      "t": "l",
+      "v": "   e il Figlio tuo verrà e vivrà  ancora  in mezzo   a noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   DO                             RE-  DO    RE-  DO    RE-  DO   RE-"
+    },
+    {
+      "t": "l",
+      "v": "   Mille grappoli  maturi  sotto  il sole"
+    },
+    {
+      "t": "c",
+      "v": "   DO                           RE-   DO    RE-  DO    RE-  DO    RE-"
+    },
+    {
+      "t": "l",
+      "v": "   festa della terra, donano   vigore"
+    },
+    {
+      "t": "c",
+      "v": "   DO                                    RE- DO     RE-  DO   RE-   DO   RE-"
+    },
+    {
+      "t": "l",
+      "v": "   quando   da  ogni perla  stilla il vino nuovo"
+    },
+    {
+      "t": "c",
+      "v": "   DO                              RE-  DO    RE-   DO   RE-  DO    DO"
+    },
+    {
+      "t": "l",
+      "v": "   vino  della gioia, dono  tuo,  Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                                   FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ecco  il pane e il vino, segni del tuo amore"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                             FA    DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ecco  questa offerta, accoglila  Signore:"
+    },
+    {
+      "t": "c",
+      "v": "   FA                    SOL                DO                        SOL"
+    },
+    {
+      "t": "l",
+      "v": "   tu di mille e mille cuori fai un  cuore  solo, un  corpo  solo  in te"
+    },
+    {
+      "t": "c",
+      "v": "   FA                      SOL                            DO   RE- DO   RE-  DO  RE-  DO   RE- DO"
+    },
+    {
+      "t": "l",
+      "v": "   e il Figlio tuo verrà e vivrà  ancora  in mezzo   a noi."
+    }
+  ],
+  "id": "segni-del-tuo-amore"
+}

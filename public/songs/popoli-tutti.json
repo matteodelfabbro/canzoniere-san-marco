@@ -1,0 +1,237 @@
+{
+  "title": "Popoli Tutti",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Popoli Tutti  Intro  Strofa 1    Mio   Dio,  Signore,   nulla  è  pari  a Te    ora  e per  sempre,    voglio   lodare il Tuo  grande    amor     per   me.    Mia   Roccia   Tu  sei, pace   e conforto    mi  dai. Con   tutto  il cuore   e le mie   forze,  sempre    io Ti  ado   -  re  -  rò.  Ritornello 1      Popoli   tutti acclamate     al Signore,   gloria  e  potenza    cantiamo    al Re,      Mari   e monti    si prostrino   a Te,  al Tuo   nome,    o     Signore.      Canto    di gioia  per  quello   che  fai, per  sempre    Signore   con   Te  resterò,      Non    c'è promessa,     non   c'è fedeltà   che  in Te!  Strofa 2    Mio   Dio,  Signore,   nulla  è  pari  a Te    ora  e per  sempre,    voglio   lodare il Tuo  grande    amor     per   me.    Mia   Roccia   Tu  sei, pace   e conforto    mi  dai. Con   tutto  il cuore   e le mie   forze,  sempre    io Ti  ado   -  re  -  rò.  Ritornello finale      Popoli   tutti acclamate     al Signore,   gloria  e  potenza    cantiamo    al Re,      Mari   e monti    si prostrino   a Te,  al Tuo   nome,    o     Signore. Modulazione in SI      Canto    di gioia  per  quello   che  fai, per  sempre    Signore   con   Te  resterò,      Non    c'è promessa,     non   c'è fedeltà   che  in Te! Ritornello finale in SI      Popoli   tutti acclamate     al Signore,   gloria  e  potenza    cantiamo    al Re,      Mari   e monti    si prostrino   a Te,  al Tuo   nome,     o         Signore.      Canto    di gioia  per  quello   che  fai, per  sempre    Signore   con   Te  resterò,      Non    c'è promessa,     non   c'è fedeltà   che  in Te! Finale      Non    c'è promessa,     non   c'è fedeltà   che  in Te!      Non    c'è promessa,     non   c'è fedeltà   che  in Te!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "LA    MI    LA    MI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA           MI            FA#-     MI      RE                LA        RE           LA"
+    },
+    {
+      "t": "l",
+      "v": "   Mio   Dio,  Signore,   nulla  è  pari  a Te    ora  e per  sempre,    voglio   lodare"
+    },
+    {
+      "t": "c",
+      "v": "   FA#-            SOL     RE    MI4      MI"
+    },
+    {
+      "t": "l",
+      "v": "il Tuo  grande    amor     per   me."
+    },
+    {
+      "t": "c",
+      "v": "LA              MI         FA#-          MI         RE"
+    },
+    {
+      "t": "l",
+      "v": "   Mia   Roccia   Tu  sei, pace   e conforto    mi  dai."
+    },
+    {
+      "t": "c",
+      "v": "                 LA     RE         LA      FA#-             SOL      RE    MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "Con   tutto  il cuore   e le mie   forze,  sempre    io Ti  ado   -  re  -  rò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "     LA        FA#-        RE           MI       LA            FA#-        RE7+       MI"
+    },
+    {
+      "t": "l",
+      "v": "     Popoli   tutti acclamate     al Signore,   gloria  e  potenza    cantiamo    al Re,"
+    },
+    {
+      "t": "c",
+      "v": "     FA#-                  RE                          MI     FA#-      MI"
+    },
+    {
+      "t": "l",
+      "v": "     Mari   e monti    si prostrino   a Te,  al Tuo   nome,    o     Signore."
+    },
+    {
+      "t": "c",
+      "v": "     LA           FA#-       RE            MI         LA          FA#-        RE7+      MI"
+    },
+    {
+      "t": "l",
+      "v": "     Canto    di gioia  per  quello   che  fai, per  sempre    Signore   con   Te  resterò,"
+    },
+    {
+      "t": "c",
+      "v": "     FA#-                            RE           MI7      LA    MI    LA    MI"
+    },
+    {
+      "t": "l",
+      "v": "     Non    c'è promessa,     non   c'è fedeltà   che  in Te!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "LA           MI            FA#-     MI      RE                LA        RE           LA"
+    },
+    {
+      "t": "l",
+      "v": "   Mio   Dio,  Signore,   nulla  è  pari  a Te    ora  e per  sempre,    voglio   lodare"
+    },
+    {
+      "t": "c",
+      "v": "   FA#-            SOL     RE    MI4      MI"
+    },
+    {
+      "t": "l",
+      "v": "il Tuo  grande    amor     per   me."
+    },
+    {
+      "t": "c",
+      "v": "LA              MI         FA#-          MI         RE"
+    },
+    {
+      "t": "l",
+      "v": "   Mia   Roccia   Tu  sei, pace   e conforto    mi  dai."
+    },
+    {
+      "t": "c",
+      "v": "                 LA     RE         LA      FA#-             SOL      RE    MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "Con   tutto  il cuore   e le mie   forze,  sempre    io Ti  ado   -  re  -  rò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "     LA        FA#-        RE           MI       LA            FA#-        RE7+       MI"
+    },
+    {
+      "t": "l",
+      "v": "     Popoli   tutti acclamate     al Signore,   gloria  e  potenza    cantiamo    al Re,"
+    },
+    {
+      "t": "c",
+      "v": "     FA#-                  RE                          MI     FA#-      MI"
+    },
+    {
+      "t": "l",
+      "v": "     Mari   e monti    si prostrino   a Te,  al Tuo   nome,    o     Signore."
+    },
+    {
+      "t": "h",
+      "v": "Modulazione in SI"
+    },
+    {
+      "t": "c",
+      "v": "     SI           SOL#-       MI           FA#        SI           SOL#-       MI      FA#"
+    },
+    {
+      "t": "l",
+      "v": "     Canto    di gioia  per  quello   che  fai, per  sempre    Signore   con   Te  resterò,"
+    },
+    {
+      "t": "c",
+      "v": "     SOL#-                          MI            FA#       SI"
+    },
+    {
+      "t": "l",
+      "v": "     Non    c'è promessa,     non   c'è fedeltà   che  in Te!"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale in SI"
+    },
+    {
+      "t": "c",
+      "v": "     SI        SOL#-        MI           FA#     SI            SOL#-       MI7        FA#"
+    },
+    {
+      "t": "l",
+      "v": "     Popoli   tutti acclamate     al Signore,   gloria  e  potenza    cantiamo    al Re,"
+    },
+    {
+      "t": "c",
+      "v": "     SOL#-                MI                           FA#     SOL#-         FA#"
+    },
+    {
+      "t": "l",
+      "v": "     Mari   e monti    si prostrino   a Te,  al Tuo   nome,     o         Signore."
+    },
+    {
+      "t": "c",
+      "v": "     SI           SOL#-       MI           FA#        SI           SOL#-      MI       FA#"
+    },
+    {
+      "t": "l",
+      "v": "     Canto    di gioia  per  quello   che  fai, per  sempre    Signore   con   Te  resterò,"
+    },
+    {
+      "t": "c",
+      "v": "     SOL#-                          MI            FA#"
+    },
+    {
+      "t": "l",
+      "v": "     Non    c'è promessa,     non   c'è fedeltà   che  in Te!"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "     SOL#-                          MI            FA#"
+    },
+    {
+      "t": "l",
+      "v": "     Non    c'è promessa,     non   c'è fedeltà   che  in Te!"
+    },
+    {
+      "t": "c",
+      "v": "     SOL#-                          MI            FA#       SI"
+    },
+    {
+      "t": "l",
+      "v": "     Non    c'è promessa,     non   c'è fedeltà   che  in Te!"
+    }
+  ],
+  "id": "popoli-tutti"
+}

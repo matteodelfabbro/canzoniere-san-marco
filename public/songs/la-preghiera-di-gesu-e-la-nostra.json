@@ -1,0 +1,227 @@
+{
+  "title": "La Preghiera di Gesù è la Nostra",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "La Preghiera di Gesù è la Nostra  Strofa 1       Dove   due   o  tre sono   riuniti nel  mio   nome       io sarò  con   loro,      pregherò    con   loro,       amerò    con  loro,  perché   il mondo     venga    a Te o  Padre       conoscere    il tuo  amore    e avere   vita        con  Te  Strofa 2       Voi  che  siete luce  della  terra,  miei  amici       risplendete   sempre        della  vera  luce       perché   il mondo     creda  nell'amore     che  c'è in voi  o  Padre       consacrali   per  sempre    e diano   gloria         a Te.  Cambio di tonalità - RE  Strofa 3       Ogni   beatitudine    vi attende    nel mio   giorno       se sarete  uniti,     se sarete   pace,            se sarete  puri       perché   voi  vedrete   Dio   che  è Padre       in Lui la vostra   vita  gioia  piena       sarà.  Strofa 4       Voi  che  ora  siete miei   discepoli   nel mondo       siate testimoni         di un  amore    immenso               date   prova   di       quella  speranza    che  c'è in  voi, coraggio       vi guiderò   per  sempre     Io rimango        con  voi.  Cambio di tonalità - MI  Strofa 5       Spirito  che  animi   la chiesa  e  la rinnovi       donale   fortezza,      fa che  sia fedele             come    Cristo  che       muore    e risorge   perché   il Regno   del  Padre       si compia   in  mezzo    a noi  e  abbiamo     vita     in (Lui)       si compia   in  mezzo    a noi  e  abbiamo     vita     in Lui.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "      DO             SOL            LA-             FA      SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Dove   due   o  tre sono   riuniti nel  mio   nome"
+    },
+    {
+      "t": "c",
+      "v": "                    DO     FA                     SI-7"
+    },
+    {
+      "t": "l",
+      "v": "      io sarò  con   loro,      pregherò    con   loro,"
+    },
+    {
+      "t": "c",
+      "v": "      MI            LA-                                    FA     SOL"
+    },
+    {
+      "t": "l",
+      "v": "      amerò    con  loro,  perché   il mondo     venga    a Te o  Padre"
+    },
+    {
+      "t": "c",
+      "v": "         DO                  LA-7              FA  SOL        DO      SOL"
+    },
+    {
+      "t": "l",
+      "v": "      conoscere    il tuo  amore    e avere   vita        con  Te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "      DO             SOL           LA-             FA      SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Voi  che  siete luce  della  terra,  miei  amici"
+    },
+    {
+      "t": "c",
+      "v": "                    DO       FA               SI-7"
+    },
+    {
+      "t": "l",
+      "v": "      risplendete   sempre        della  vera  luce"
+    },
+    {
+      "t": "c",
+      "v": "      MI                    LA-                                FA     SOL"
+    },
+    {
+      "t": "l",
+      "v": "      perché   il mondo     creda  nell'amore     che  c'è in voi  o  Padre"
+    },
+    {
+      "t": "c",
+      "v": "         DO            LA-7                  FA    SOL      DO     LA7"
+    },
+    {
+      "t": "l",
+      "v": "      consacrali   per  sempre    e diano   gloria         a Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Cambio di tonalità - RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "      RE           LA             SI-                SOL      LA"
+    },
+    {
+      "t": "l",
+      "v": "      Ogni   beatitudine    vi attende    nel mio   giorno"
+    },
+    {
+      "t": "c",
+      "v": "                   RE  SOL            DO#-7      FA#-7               SI-"
+    },
+    {
+      "t": "l",
+      "v": "      se sarete  uniti,     se sarete   pace,            se sarete  puri"
+    },
+    {
+      "t": "c",
+      "v": "                              SOL          LA"
+    },
+    {
+      "t": "l",
+      "v": "      perché   voi  vedrete   Dio   che  è Padre"
+    },
+    {
+      "t": "c",
+      "v": "         RE              SI-          SOL    LA   RE     LA"
+    },
+    {
+      "t": "l",
+      "v": "      in Lui la vostra   vita  gioia  piena       sarà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "      RE             LA               SI-          SOL       LA"
+    },
+    {
+      "t": "l",
+      "v": "      Voi  che  ora  siete miei   discepoli   nel mondo"
+    },
+    {
+      "t": "c",
+      "v": "                   RE   SOL                       DO#-7     FA#-7                  SI-"
+    },
+    {
+      "t": "l",
+      "v": "      siate testimoni         di un  amore    immenso               date   prova   di"
+    },
+    {
+      "t": "c",
+      "v": "                                      SOL      LA"
+    },
+    {
+      "t": "l",
+      "v": "      quella  speranza    che  c'è in  voi, coraggio"
+    },
+    {
+      "t": "c",
+      "v": "          RE             SI-            SOL     LA         RE     SI7"
+    },
+    {
+      "t": "l",
+      "v": "      vi guiderò   per  sempre     Io rimango        con  voi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Cambio di tonalità - MI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "c",
+      "v": "      MI            SI          DO#-            LA     SI"
+    },
+    {
+      "t": "l",
+      "v": "      Spirito  che  animi   la chiesa  e  la rinnovi"
+    },
+    {
+      "t": "c",
+      "v": "                   MI     LA               RE#-7    SOL#7                    DO#-"
+    },
+    {
+      "t": "l",
+      "v": "      donale   fortezza,      fa che  sia fedele             come    Cristo  che"
+    },
+    {
+      "t": "c",
+      "v": "                                      LA             SI"
+    },
+    {
+      "t": "l",
+      "v": "      muore    e risorge   perché   il Regno   del  Padre"
+    },
+    {
+      "t": "c",
+      "v": "         MI                     DO#-                 LA  SI7"
+    },
+    {
+      "t": "l",
+      "v": "      si compia   in  mezzo    a noi  e  abbiamo     vita     in (Lui)"
+    },
+    {
+      "t": "c",
+      "v": "         MI                     DO#-                 LA  SI7     MI"
+    },
+    {
+      "t": "l",
+      "v": "      si compia   in  mezzo    a noi  e  abbiamo     vita     in Lui."
+    }
+  ],
+  "id": "la-preghiera-di-gesu-e-la-nostra"
+}

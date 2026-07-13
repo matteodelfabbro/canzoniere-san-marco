@@ -1,0 +1,200 @@
+{
+  "title": "Ascolterò la Tua Parola",
+  "sub": "Capo 2",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ascolterò la Tua Parola Capo 2 Intro  Strofa 1 Ascolterò     la tua parola, nel profondo del mio   cuore    io l'ascolterò. E nel buio della notte la Parola come luce      ri - splenderà.  Strofa 2                                  Mediterò          la tua Parola,                                  nel silenzio della mente       la   mediterò.                                  Nel deserto  delle voci                                  la Parola dell'amore       ri - suonerà.  Strofa 3 E seguirò       la tua Parola, sul sentiero della vita io la seguirò. Nel passaggio del dolore la Parola della croce mi   salverà.  Strofa 4 Custodirò la tua Parola, per la sete dei miei giorni la custodirò. Nello scorrere del tempo la parola dell'eterno non passerà.  Strofa 5 Annuncerò      la tua Parola, camminando   in questo  mondo    io l'annuncerò. Le frontiere del tuo regno la Parola come un  vento   spa  - lancherà",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL DO SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "     DO    SOL            LA-"
+    },
+    {
+      "t": "l",
+      "v": "Ascolterò     la tua parola,"
+    },
+    {
+      "t": "c",
+      "v": "      FA            SOL       FA     LA-    SOL"
+    },
+    {
+      "t": "l",
+      "v": "nel profondo del mio   cuore    io l'ascolterò."
+    },
+    {
+      "t": "c",
+      "v": "     LA-           SOL"
+    },
+    {
+      "t": "l",
+      "v": "E nel buio della notte"
+    },
+    {
+      "t": "c",
+      "v": "  RE-           LA-      FA   SOL      DO      SOL"
+    },
+    {
+      "t": "l",
+      "v": "la Parola come luce      ri - splenderà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                                         DO    SOL            LA-"
+    },
+    {
+      "t": "l",
+      "v": "                                 Mediterò          la tua Parola,"
+    },
+    {
+      "t": "c",
+      "v": "                                       FA           SOL         FA      LA-  SOL"
+    },
+    {
+      "t": "l",
+      "v": "                                 nel silenzio della mente       la   mediterò."
+    },
+    {
+      "t": "c",
+      "v": "                                        LA-            SOL"
+    },
+    {
+      "t": "l",
+      "v": "                                 Nel deserto  delle voci"
+    },
+    {
+      "t": "c",
+      "v": "                                     RE-          LA-      FA   SOL     DO     LA"
+    },
+    {
+      "t": "l",
+      "v": "                                 la Parola dell'amore       ri - suonerà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "      RE  LA            SI-"
+    },
+    {
+      "t": "l",
+      "v": "E seguirò       la tua Parola,"
+    },
+    {
+      "t": "c",
+      "v": "    SOL           LA    SOL    SI-  LA"
+    },
+    {
+      "t": "l",
+      "v": "sul sentiero della vita io la seguirò."
+    },
+    {
+      "t": "c",
+      "v": "       SI-         LA"
+    },
+    {
+      "t": "l",
+      "v": "Nel passaggio del dolore"
+    },
+    {
+      "t": "c",
+      "v": "   MI-         SI-    SOL   LA    RE      LA"
+    },
+    {
+      "t": "l",
+      "v": "la Parola della croce mi   salverà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "Custodirò la tua Parola,"
+    },
+    {
+      "t": "l",
+      "v": "per la sete dei miei giorni la custodirò."
+    },
+    {
+      "t": "l",
+      "v": "Nello scorrere del tempo"
+    },
+    {
+      "t": "l",
+      "v": "la parola dell'eterno non passerà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "c",
+      "v": "        RE   LA          SI-"
+    },
+    {
+      "t": "l",
+      "v": "Annuncerò      la tua Parola,"
+    },
+    {
+      "t": "c",
+      "v": "     SOL                LA      SOL     SI-   LA"
+    },
+    {
+      "t": "l",
+      "v": "camminando   in questo  mondo    io l'annuncerò."
+    },
+    {
+      "t": "c",
+      "v": "      SI-         LA"
+    },
+    {
+      "t": "l",
+      "v": "Le frontiere del tuo regno"
+    },
+    {
+      "t": "c",
+      "v": "   MI-           SI-      SOL     LA     RE"
+    },
+    {
+      "t": "l",
+      "v": "la Parola come un  vento   spa  - lancherà"
+    }
+  ],
+  "id": "ascoltero-la-tua-parola-capo-2"
+}

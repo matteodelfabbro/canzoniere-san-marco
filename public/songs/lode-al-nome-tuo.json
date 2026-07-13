@@ -1,0 +1,278 @@
+{
+  "title": "Lode al Nome Tuo",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Lode al Nome Tuo  Intro  Strofa 1    Lode  al nome   tuo dalle  terre più floride    Dove   tutto sembra   vivere   lode al nome   tuo    Lode  al nome   tuo dalle  terre più aride    Dove   tutto sembra   sterile lode  al nome   tuo  Ritornello 1                 Tornerò   a lodarti sempre   per ogni  dono   tuo                 E quando   scenderà   la notte sempre   io dirò                 Benedetto   il nome  del Signor,   lode al nome   tuo                 Benedetto   il nome  del Signor,  il glorioso nome   di Gesù.  Strofa 2    Lode  al nome   tuo quando    il sole splende su di me    Quando    tutto è incantevole,    lode  al nome   tuo    Lode  al nome   tuo quando    io sto davanti  a te    Con  il cuore triste e fragile, lode  al nome   tuo.  Ritornello 2                 Tornerò   a lodarti sempre   per ogni  dono   tuo                 E quando   scenderà   la notte sempre   io dirò                 Benedetto   il nome  del Signor,   lode al nome   tuo                 Benedetto   il nome  del Signor,  il glorioso nome   di Gesù.  Ponte    Tu doni  e porti via, tu doni  e porti via    Ma  sempre   sceglierò   di benedire   te  Ritornello finale                 Tornerò   a lodarti sempre   per ogni  dono   tuo                 E quando   scenderà   la notte sempre   io dirò                 Benedetto   il nome  del Signor,   lode al nome   tuo                 Benedetto   il nome  del Signor,   lode al nome   tuo                 Benedetto   il nome  del Signor,   lode al nome   tuo                 Benedetto   il nome  del Signor,  il glorioso nome   di Gesù.  Finale (x2)    Tu doni  e porti via, tu doni  e porti via    Ma  sempre   sceglierò   di benedire   te  (x2)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL   RE MI-  DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   SOL     RE                  MI-       DO"
+    },
+    {
+      "t": "l",
+      "v": "   Lode  al nome   tuo dalle  terre più floride"
+    },
+    {
+      "t": "c",
+      "v": "          SOL            RE       DO"
+    },
+    {
+      "t": "l",
+      "v": "   Dove   tutto sembra   vivere   lode al nome   tuo"
+    },
+    {
+      "t": "c",
+      "v": "   SOL     RE                  MI-      DO"
+    },
+    {
+      "t": "l",
+      "v": "   Lode  al nome   tuo dalle  terre più aride"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                   RE       DO"
+    },
+    {
+      "t": "l",
+      "v": "   Dove   tutto sembra   sterile lode  al nome   tuo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "                SOL            RE            MI-                  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Tornerò   a lodarti sempre   per ogni  dono   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                SOL                 RE           MI-              DO"
+    },
+    {
+      "t": "l",
+      "v": "                E quando   scenderà   la notte sempre   io dirò"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                    MI-  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,   lode al nome   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                 MI-           DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,  il glorioso nome   di Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   SOL     RE                   MI-               DO"
+    },
+    {
+      "t": "l",
+      "v": "   Lode  al nome   tuo quando    il sole splende su di me"
+    },
+    {
+      "t": "c",
+      "v": "             SOL            RE       DO"
+    },
+    {
+      "t": "l",
+      "v": "   Quando    tutto è incantevole,    lode  al nome   tuo"
+    },
+    {
+      "t": "c",
+      "v": "   SOL     RE                  MI-         DO"
+    },
+    {
+      "t": "l",
+      "v": "   Lode  al nome   tuo quando    io sto davanti  a te"
+    },
+    {
+      "t": "c",
+      "v": "          SOL            RE        DO"
+    },
+    {
+      "t": "l",
+      "v": "   Con  il cuore triste e fragile, lode  al nome   tuo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "                SOL            RE            MI-                  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Tornerò   a lodarti sempre   per ogni  dono   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                SOL                 RE           MI-              DO"
+    },
+    {
+      "t": "l",
+      "v": "                E quando   scenderà   la notte sempre   io dirò"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                    MI-  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,   lode al nome   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                 MI-           DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,  il glorioso nome   di Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ponte"
+    },
+    {
+      "t": "c",
+      "v": "       SOL          RE      MI-          DO"
+    },
+    {
+      "t": "l",
+      "v": "   Tu doni  e porti via, tu doni  e porti via"
+    },
+    {
+      "t": "c",
+      "v": "         SOL            RE      MI-       DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ma  sempre   sceglierò   di benedire   te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                SOL            RE            MI-                  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Tornerò   a lodarti sempre   per ogni  dono   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                SOL                 RE           MI-              DO"
+    },
+    {
+      "t": "l",
+      "v": "                E quando   scenderà   la notte sempre   io dirò"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                    MI-  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,   lode al nome   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                    MI-  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,   lode al nome   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                    MI-  DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,   lode al nome   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                                 SOL            RE                 MI-           DO"
+    },
+    {
+      "t": "l",
+      "v": "                Benedetto   il nome  del Signor,  il glorioso nome   di Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale (x2)"
+    },
+    {
+      "t": "c",
+      "v": "       SOL          RE      MI-          DO"
+    },
+    {
+      "t": "l",
+      "v": "   Tu doni  e porti via, tu doni  e porti via"
+    },
+    {
+      "t": "c",
+      "v": "         SOL            RE      MI-       DO"
+    },
+    {
+      "t": "l",
+      "v": "   Ma  sempre   sceglierò   di benedire   te  (x2)"
+    }
+  ],
+  "id": "lode-al-nome-tuo"
+}

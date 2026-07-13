@@ -1,0 +1,95 @@
+{
+  "title": "Chi Ci Separerà",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Chi Ci Separerà  Strofa 1                         Chi  ci separerà      dal  suo   amore                         la tribolazione,    forse  la spada?                         Né  morte    o vita      ci separerà,                         dall'amore    in Cri  - sto Signore.  Strofa 2                         Chi  ci separerà   dalla  sua  pace                         la persecuzione,     forse  il dolore?                         Nessun   potere    ci separerà                         da  Colui  che  è  morto    per  noi.  Strofa 3                         Chi  ci separerà   dalla  sua  gioia                         chi potrà   strapparci   il suo  perdono?                         Nessuno    al mondo      ci allontanerà                         dalla  vita in Cristo   Signore.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                        RE        LA    SI-   SOL         FA#-"
+    },
+    {
+      "t": "l",
+      "v": "                        Chi  ci separerà      dal  suo   amore"
+    },
+    {
+      "t": "c",
+      "v": "                        MI-        SI-      SOL       LA"
+    },
+    {
+      "t": "l",
+      "v": "                        la tribolazione,    forse  la spada?"
+    },
+    {
+      "t": "c",
+      "v": "                        SI-            FA#-      SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "                        Né  morte    o vita      ci separerà,"
+    },
+    {
+      "t": "c",
+      "v": "                        MI-              SI-   MI-      RE    LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "                        dall'amore    in Cri  - sto Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "                        Chi  ci separerà   dalla  sua  pace"
+    },
+    {
+      "t": "l",
+      "v": "                        la persecuzione,     forse  il dolore?"
+    },
+    {
+      "t": "l",
+      "v": "                        Nessun   potere    ci separerà"
+    },
+    {
+      "t": "l",
+      "v": "                        da  Colui  che  è  morto    per  noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "                        Chi  ci separerà   dalla  sua  gioia"
+    },
+    {
+      "t": "l",
+      "v": "                        chi potrà   strapparci   il suo  perdono?"
+    },
+    {
+      "t": "l",
+      "v": "                        Nessuno    al mondo      ci allontanerà"
+    },
+    {
+      "t": "l",
+      "v": "                        dalla  vita in Cristo   Signore."
+    }
+  ],
+  "id": "chi-ci-separera"
+}

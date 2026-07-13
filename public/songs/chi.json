@@ -1,0 +1,287 @@
+{
+  "title": "Chi?",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Chi?  Intro  Strofa 1                      Filtra un  raggio   di  sole tra  le nubi  del  cielo                      strappa   la terra  al gelo   e nasce  un   fiore.                      E poi  mille  corolle   rivestite  di poesia                      in un  gioco   d'armonia     e di colori.                      Ma   chi  veste  i fiori dei campi?                      Chi  ad  ognuno     dà  colore?  Strofa 2                      Va  col  vento   leggera   una   rondine   in  volo                      il suo  canto   sa solo  di primavera.                      E poi  intreccio   di ali come    giostra  d'allegria                      mille  voli  in fantasia  fra  terre  e mari.                      Ma   chi  nutre  gli uccelli  del cielo?                      Chi  ad  ognuno     da  un  nido?   Chi?  Ritornello Tu  creatore    del mondo.      Tu  che  possiedi   la vita.        Tu  sole  infinito:  Dio  amore.    Tu  degli  uomini    Padre.        Tu  che     abiti il cielo. Tu  immenso      mistero:        Dio  amore,    Dio  amore!  Strumentale  Strofa 3                      Un'immagine       viva  del  Creatore    del mondo                      un  riflesso  profondo     della  Sua  vita.                      L'uomo    centro   del  cosmo    ha  un  cuore   per  amare                      ed  un  mondo     da  plasmare     con  le sue  mani.                      Ma   chi  ha dato   all'uomo    la vita?                      Chi  a lui ha  dato   un  cuore?   Chi?  Ritornello finale Tu  creatore    del mondo.      Tu  che  possiedi   la vita.        Tu  sole  infinito:  Dio  amore.    Tu  degli  uomini    Padre.        Tu  che     abiti il cielo. Tu  immenso      mistero:        Dio  amore,    Dio  amore! Finale       Amore",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL     DO7+       LA-     SOL     RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                     SOL                          DO7+"
+    },
+    {
+      "t": "l",
+      "v": "                     Filtra un  raggio   di  sole tra  le nubi  del  cielo"
+    },
+    {
+      "t": "c",
+      "v": "                     LA-7                         SOL            RE"
+    },
+    {
+      "t": "l",
+      "v": "                     strappa   la terra  al gelo   e nasce  un   fiore."
+    },
+    {
+      "t": "c",
+      "v": "                     SOL                      DO7+                LA-7"
+    },
+    {
+      "t": "l",
+      "v": "                     E poi  mille  corolle   rivestite  di poesia"
+    },
+    {
+      "t": "c",
+      "v": "                                           SOL             RE"
+    },
+    {
+      "t": "l",
+      "v": "                     in un  gioco   d'armonia     e di colori."
+    },
+    {
+      "t": "c",
+      "v": "                     MI-                           SI-"
+    },
+    {
+      "t": "l",
+      "v": "                     Ma   chi  veste  i fiori dei campi?"
+    },
+    {
+      "t": "c",
+      "v": "                                         DO           RE"
+    },
+    {
+      "t": "l",
+      "v": "                     Chi  ad  ognuno     dà  colore?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                     SOL                        DO7+"
+    },
+    {
+      "t": "l",
+      "v": "                     Va  col  vento   leggera   una   rondine   in  volo"
+    },
+    {
+      "t": "c",
+      "v": "                     LA-7                       SOL      RE"
+    },
+    {
+      "t": "l",
+      "v": "                     il suo  canto   sa solo  di primavera."
+    },
+    {
+      "t": "c",
+      "v": "                     SOL                       DO7+                      LA-7"
+    },
+    {
+      "t": "l",
+      "v": "                     E poi  intreccio   di ali come    giostra  d'allegria"
+    },
+    {
+      "t": "c",
+      "v": "                                          SOL                RE"
+    },
+    {
+      "t": "l",
+      "v": "                     mille  voli  in fantasia  fra  terre  e mari."
+    },
+    {
+      "t": "c",
+      "v": "                     MI-                               SI-7"
+    },
+    {
+      "t": "l",
+      "v": "                     Ma   chi  nutre  gli uccelli  del cielo?"
+    },
+    {
+      "t": "c",
+      "v": "                                          DO             LA"
+    },
+    {
+      "t": "l",
+      "v": "                     Chi  ad  ognuno     da  un  nido?   Chi?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       MI                             SOL#-7       DO#-7"
+    },
+    {
+      "t": "l",
+      "v": "Tu  creatore    del mondo.      Tu  che  possiedi   la vita."
+    },
+    {
+      "t": "c",
+      "v": "       LA        SI         MI       SI7    MI"
+    },
+    {
+      "t": "l",
+      "v": "       Tu  sole  infinito:  Dio  amore.    Tu  degli  uomini    Padre."
+    },
+    {
+      "t": "c",
+      "v": "       SOL#-7       DO#-7          LA               SI"
+    },
+    {
+      "t": "l",
+      "v": "       Tu  che     abiti il cielo. Tu  immenso      mistero:"
+    },
+    {
+      "t": "c",
+      "v": "       MI          SI  LA         SI"
+    },
+    {
+      "t": "l",
+      "v": "       Dio  amore,    Dio  amore!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strumentale"
+    },
+    {
+      "t": "c",
+      "v": "DO RE DO RE MI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "                     SOL                          DO7+"
+    },
+    {
+      "t": "l",
+      "v": "                     Un'immagine       viva  del  Creatore    del mondo"
+    },
+    {
+      "t": "c",
+      "v": "                     LA-7                       SOL         RE"
+    },
+    {
+      "t": "l",
+      "v": "                     un  riflesso  profondo     della  Sua  vita."
+    },
+    {
+      "t": "c",
+      "v": "                     SOL                              DO7+                       LA-7"
+    },
+    {
+      "t": "l",
+      "v": "                     L'uomo    centro   del  cosmo    ha  un  cuore   per  amare"
+    },
+    {
+      "t": "c",
+      "v": "                                                 SOL                  RE"
+    },
+    {
+      "t": "l",
+      "v": "                     ed  un  mondo     da  plasmare     con  le sue  mani."
+    },
+    {
+      "t": "c",
+      "v": "                     MI-                                  SI-"
+    },
+    {
+      "t": "l",
+      "v": "                     Ma   chi  ha dato   all'uomo    la vita?"
+    },
+    {
+      "t": "c",
+      "v": "                                    DO                  LA"
+    },
+    {
+      "t": "l",
+      "v": "                     Chi  a lui ha  dato   un  cuore?   Chi?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "       MI                             SOL#-7       DO#-7"
+    },
+    {
+      "t": "l",
+      "v": "Tu  creatore    del mondo.      Tu  che  possiedi   la vita."
+    },
+    {
+      "t": "c",
+      "v": "       LA        SI         MI       SI7    MI"
+    },
+    {
+      "t": "l",
+      "v": "       Tu  sole  infinito:  Dio  amore.    Tu  degli  uomini    Padre."
+    },
+    {
+      "t": "c",
+      "v": "       SOL#-7       DO#-7          LA               SI"
+    },
+    {
+      "t": "l",
+      "v": "       Tu  che     abiti il cielo. Tu  immenso      mistero:"
+    },
+    {
+      "t": "c",
+      "v": "       MI          SI  LA         SI"
+    },
+    {
+      "t": "l",
+      "v": "       Dio  amore,    Dio  amore!"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "       LA    DO#-      SI   LA    MI"
+    },
+    {
+      "t": "l",
+      "v": "      Amore"
+    }
+  ],
+  "id": "chi"
+}

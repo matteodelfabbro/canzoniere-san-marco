@@ -1,0 +1,322 @@
+{
+  "title": "Siamo Venuti per",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Siamo Venuti per  Intro: intera strofa  Strofa 1 Era cosa scritta già da milioni di anni fa Una stella brilla in cielo una luce arriverà come  i magi dell'oriente noi chiediamo  dov'è  il re dei Giudei per raggiungere  la meta  e poi  restare dove   Tu sei.  Strofa 2 Mille strade percorriamo quante sono  le città. E da soli noi pensiamo di trovar felicità. Ma la stella chiama  tutti noi e insieme camminare    ci fa. Per l'incontro con quel  bimbo   che attira l'umanità.  Ritornello 1 Siamo venuti  per  adorarti anche  noi. Siamo venuti  per  adorarti anche  noi. Siamo venuti  per  adorarti anche  noi. Siamo venuti  per  adorarti anche  noi.  Strofa 3  Siamo   qui davanti  a Te  tanti sogni  tanti perché.  Tra  le mani  ti doniamo  tutto  quello che  noi siamo.  Ma   tu riempi  i nostri scrigni e sai  cosa  ci serve Gesù.  Perché   i nostri cuori uniti a Te  possono   molto   di più.  Ritornello 2  Siamo   venuti  per adorarti  anche  noi.  Siamo   venuti  per adorarti  anche  noi.  Siamo   venuti  per adorarti  anche  noi.  Siamo   venuti  per adorarti  anche  noi.  Strofa 4  Quest'incontro    ci ha cambiati  nuove   strade  nuove  realtà.  Ma   crediamo   presto  o tardi  che  ogni  uomo   cambierà.  Quando    il buio del peccato   in noi  nuova   paura  farà.  E se non   sapremo   dove  andar  la stella ci guiderà.  Ritornello 3  Siamo   venuti  per adorarti  anche  noi.  Siamo   venuti  per adorarti  anche  noi.  Siamo   venuti  per adorarti  anche  noi.  Siamo   venuti  per adorarti  anche  noi.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro: intera strofa"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL            DO"
+    },
+    {
+      "t": "l",
+      "v": "Era cosa scritta già"
+    },
+    {
+      "t": "c",
+      "v": "SOL                 RE"
+    },
+    {
+      "t": "l",
+      "v": "da milioni di anni fa"
+    },
+    {
+      "t": "c",
+      "v": "      SOL            DO"
+    },
+    {
+      "t": "l",
+      "v": "Una stella brilla in cielo"
+    },
+    {
+      "t": "c",
+      "v": "    SOL      RE"
+    },
+    {
+      "t": "l",
+      "v": "una luce arriverà"
+    },
+    {
+      "t": "c",
+      "v": "         MI-          DO"
+    },
+    {
+      "t": "l",
+      "v": "come  i magi dell'oriente noi"
+    },
+    {
+      "t": "c",
+      "v": "      SOL                      RE"
+    },
+    {
+      "t": "l",
+      "v": "chiediamo  dov'è  il re dei Giudei"
+    },
+    {
+      "t": "c",
+      "v": "      MI-             DO"
+    },
+    {
+      "t": "l",
+      "v": "per raggiungere  la meta  e poi"
+    },
+    {
+      "t": "c",
+      "v": "SOL               RE"
+    },
+    {
+      "t": "l",
+      "v": " restare dove   Tu sei."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "Mille strade percorriamo"
+    },
+    {
+      "t": "l",
+      "v": "quante sono  le città."
+    },
+    {
+      "t": "l",
+      "v": "E da soli noi pensiamo"
+    },
+    {
+      "t": "l",
+      "v": "di trovar felicità."
+    },
+    {
+      "t": "l",
+      "v": "Ma la stella chiama  tutti noi"
+    },
+    {
+      "t": "l",
+      "v": "e insieme camminare    ci fa."
+    },
+    {
+      "t": "l",
+      "v": "Per l'incontro con quel  bimbo   che"
+    },
+    {
+      "t": "l",
+      "v": "attira l'umanità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "                  DO     RE       MI-"
+    },
+    {
+      "t": "l",
+      "v": "Siamo venuti  per  adorarti anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                   DO   RE         LA- SOL"
+    },
+    {
+      "t": "l",
+      "v": "Siamo venuti  per  adorarti anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                  DO   RE       MI-   LA"
+    },
+    {
+      "t": "l",
+      "v": "Siamo venuti  per  adorarti anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                 DO    RE           DO   RE  SOL"
+    },
+    {
+      "t": "l",
+      "v": "Siamo venuti  per  adorarti anche  noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   qui davanti  a Te"
+    },
+    {
+      "t": "l",
+      "v": " tanti sogni  tanti perché."
+    },
+    {
+      "t": "l",
+      "v": " Tra  le mani  ti doniamo"
+    },
+    {
+      "t": "l",
+      "v": " tutto  quello che  noi siamo."
+    },
+    {
+      "t": "l",
+      "v": " Ma   tu riempi  i nostri scrigni e sai"
+    },
+    {
+      "t": "l",
+      "v": " cosa  ci serve Gesù."
+    },
+    {
+      "t": "l",
+      "v": " Perché   i nostri cuori uniti a Te"
+    },
+    {
+      "t": "l",
+      "v": " possono   molto   di più."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "                    DO     RE       MI-"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                     DO    RE        LA-  SOL"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                    DO    RE       MI-  LA"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                    DO    RE        DO   RE  SOL"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": " Quest'incontro    ci ha cambiati"
+    },
+    {
+      "t": "l",
+      "v": " nuove   strade  nuove  realtà."
+    },
+    {
+      "t": "l",
+      "v": " Ma   crediamo   presto  o tardi"
+    },
+    {
+      "t": "l",
+      "v": " che  ogni  uomo   cambierà."
+    },
+    {
+      "t": "l",
+      "v": " Quando    il buio del peccato   in noi"
+    },
+    {
+      "t": "l",
+      "v": " nuova   paura  farà."
+    },
+    {
+      "t": "l",
+      "v": " E se non   sapremo   dove  andar"
+    },
+    {
+      "t": "l",
+      "v": " la stella ci guiderà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 3"
+    },
+    {
+      "t": "c",
+      "v": "                    DO     RE       MI-"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                     DO    RE        LA-  SOL"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                    DO    RE       MI-  LA"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    },
+    {
+      "t": "c",
+      "v": "                    DO    RE        DO   RE  SOL"
+    },
+    {
+      "t": "l",
+      "v": " Siamo   venuti  per adorarti  anche  noi."
+    }
+  ],
+  "id": "siamo-venuti-per"
+}

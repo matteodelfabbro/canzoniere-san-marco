@@ -1,0 +1,109 @@
+{
+  "title": "Santa Maria del Cammino",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Santa Maria del Cammino  Strofa 1 1.   Mentre    trascorre   la vita         Solo   Tu  non   sei mai      Santa   Maria   del  cammino           Sempre    sarà  con  te  Ritornello           Vieni  o  madre    in mezzo    a  noi  Vieni  Maria   quaggiù           Cammineremo         insieme   a Te  Verso    la libertà  Strofa 2 2.   Quando      qualcuno    ti dice        \"Nulla   mai   cambierà\"      Lotta  per   un  mondo     nuovo        Lotta  per  la verità  Strofa 3 3.   Lungo    la strada   la gente  Chiusa    in sé stessa  va      Offri  per  primo    la mano    A  chi è  vicino  a  te  Strofa 4 4.   Quando      ti senti ormai   stanco   E  sembra    inutile andar      Tu  vai  tracciando    un  cammino      Un   altro  ti seguirà",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "     DO                       FA   DO       SOL       SOL7      DO    DO7"
+    },
+    {
+      "t": "l",
+      "v": "1.   Mentre    trascorre   la vita         Solo   Tu  non   sei mai"
+    },
+    {
+      "t": "c",
+      "v": "     FA         RE-           DO    LA-     RE-       SOL7       DO   DO7"
+    },
+    {
+      "t": "l",
+      "v": "     Santa   Maria   del  cammino           Sempre    sarà  con  te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          FA                     DO               SOL    SOL7           DO   DO7"
+    },
+    {
+      "t": "l",
+      "v": "          Vieni  o  madre    in mezzo    a  noi  Vieni  Maria   quaggiù"
+    },
+    {
+      "t": "c",
+      "v": "          FA                    DO       SOL    LA-      SOL   SOL7   DO"
+    },
+    {
+      "t": "l",
+      "v": "          Cammineremo         insieme   a Te  Verso    la libertà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "     DO                        FA   DO       SOL         SOL7      DO   DO7"
+    },
+    {
+      "t": "l",
+      "v": "2.   Quando      qualcuno    ti dice        \"Nulla   mai   cambierà\""
+    },
+    {
+      "t": "c",
+      "v": "     FA          RE-            DO   LA-     RE-       SOL7       DO   DO7"
+    },
+    {
+      "t": "l",
+      "v": "     Lotta  per   un  mondo     nuovo        Lotta  per  la verità"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.   Lungo    la strada   la gente  Chiusa    in sé stessa  va"
+    },
+    {
+      "t": "l",
+      "v": "     Offri  per  primo    la mano    A  chi è  vicino  a  te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "4.   Quando      ti senti ormai   stanco   E  sembra    inutile andar"
+    },
+    {
+      "t": "l",
+      "v": "     Tu  vai  tracciando    un  cammino      Un   altro  ti seguirà"
+    }
+  ],
+  "id": "santa-maria-del-cammino"
+}

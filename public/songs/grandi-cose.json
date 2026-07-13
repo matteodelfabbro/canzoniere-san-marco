@@ -1,0 +1,111 @@
+{
+  "title": "Grandi Cose",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Grandi Cose  Ritornello                   Grandi    cose  ha  fatto  il Signore   per  noi                   Ha   fatto  germogliare     i fiori fra le rocce                   Grandi    cose  ha  fatto  il Signore   per  noi                   Ci  ha  riportati  liberi alla  nostra  terra                   Ed  ora   possiamo    cantare,   possiamo     gridare                   L'amore    che  Dio   ha  versato   su  noi  Strofa 1        Tu che  sai strappare    dalla  morte,        hai sollevato    il nostro  viso  dalla  polvere        Tu che  hai  sentito  il nostro   pianto        Nel  nostro   cuore   hai  messo   un  seme    di felicità  Ripetere il ritornello",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                   DO       SOL              RE-    LA-             DO"
+    },
+    {
+      "t": "l",
+      "v": "                  Grandi    cose  ha  fatto  il Signore   per  noi"
+    },
+    {
+      "t": "c",
+      "v": "                               FA                DO           SOL4     SOL"
+    },
+    {
+      "t": "l",
+      "v": "                  Ha   fatto  germogliare     i fiori fra le rocce"
+    },
+    {
+      "t": "c",
+      "v": "                   DO       SOL              RE-    LA-             DO"
+    },
+    {
+      "t": "l",
+      "v": "                  Grandi    cose  ha  fatto  il Signore   per  noi"
+    },
+    {
+      "t": "c",
+      "v": "                               FA          DO             SOL4    SOL"
+    },
+    {
+      "t": "l",
+      "v": "                  Ci  ha  riportati  liberi alla  nostra  terra"
+    },
+    {
+      "t": "c",
+      "v": "                     LA-                     RE-7                   MI-7"
+    },
+    {
+      "t": "l",
+      "v": "                  Ed  ora   possiamo    cantare,   possiamo     gridare"
+    },
+    {
+      "t": "c",
+      "v": "                                   FA                    SOL4      SOL"
+    },
+    {
+      "t": "l",
+      "v": "                  L'amore    che  Dio   ha  versato   su  noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       DO      SOL        RE-           LA-      DO"
+    },
+    {
+      "t": "l",
+      "v": "       Tu che  sai strappare    dalla  morte,"
+    },
+    {
+      "t": "c",
+      "v": "                  FA              DO            SOL4     SOL"
+    },
+    {
+      "t": "l",
+      "v": "       hai sollevato    il nostro  viso  dalla  polvere"
+    },
+    {
+      "t": "c",
+      "v": "       DO      SOL     RE-              LA-       DO"
+    },
+    {
+      "t": "l",
+      "v": "       Tu che  hai  sentito  il nostro   pianto"
+    },
+    {
+      "t": "c",
+      "v": "                    FA                        DO        SOL4    SOL"
+    },
+    {
+      "t": "l",
+      "v": "       Nel  nostro   cuore   hai  messo   un  seme    di felicità"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    }
+  ],
+  "id": "grandi-cose"
+}

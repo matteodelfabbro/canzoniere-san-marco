@@ -1,0 +1,138 @@
+{
+  "title": "La Canzone dell'Amicizia",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "La Canzone dell'Amicizia  Intro  Strofa 1          In un  mondo     di  maschere        dove   sembra    impossibile          Riuscire  a sconfiggere              tutto  ciò  che  annienta    l'uomo          Il potere  e  la falsità             l'egoismo    e l'avidità          Sono   mostri   da  abbattere            noi  però   non   siamo   soli  Ritornello            Canta    con  noi     Batti  le mani            Alzale   in alto      Muovile     al ritmo   del  canto            Stringi  la mano      Al  tuo  vicino            E  scoprirai          Che   è  meno    duro   il cammino     così    (2  volte)  Strofa 2          Ci hai  donato    il tuo  spirito      Lo  sentiamo    qui  in mezzo    a  noi          Ed  è proprio    per  questo   che     non   vogliamo     rinunciare          Non   possiamo     più  assistere      impotenti    ed  attoniti          Perché   siam  responsabili            della  vita intorno    a noi",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO     SOL     LA-   MI-     FA   DO      RE7    SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "    DO                         SOL        LA-                            MI-"
+    },
+    {
+      "t": "l",
+      "v": "         In un  mondo     di  maschere        dove   sembra    impossibile"
+    },
+    {
+      "t": "c",
+      "v": "    FA                DO                     RE7                  SOL"
+    },
+    {
+      "t": "l",
+      "v": "         Riuscire  a sconfiggere              tutto  ciò  che  annienta    l'uomo"
+    },
+    {
+      "t": "c",
+      "v": "    DO                   SOL       LA-                          MI-"
+    },
+    {
+      "t": "l",
+      "v": "         Il potere  e  la falsità             l'egoismo    e l'avidità"
+    },
+    {
+      "t": "c",
+      "v": "    FA                          DO                RE7             SOL"
+    },
+    {
+      "t": "l",
+      "v": "         Sono   mostri   da  abbattere            noi  però   non   siamo   soli"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "           DO                     SOL"
+    },
+    {
+      "t": "l",
+      "v": "           Canta    con  noi     Batti  le mani"
+    },
+    {
+      "t": "c",
+      "v": "           LA-        MI-            FA         SOL          DO"
+    },
+    {
+      "t": "l",
+      "v": "           Alzale   in alto      Muovile     al ritmo   del  canto"
+    },
+    {
+      "t": "c",
+      "v": "            DO                    SOL"
+    },
+    {
+      "t": "l",
+      "v": "           Stringi  la mano      Al  tuo  vicino"
+    },
+    {
+      "t": "c",
+      "v": "           LA-                         MI-          FA            SOL   DO"
+    },
+    {
+      "t": "l",
+      "v": "           E  scoprirai          Che   è  meno    duro   il cammino     così    (2  volte)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "    DO                             SOL     LA-                           MI-"
+    },
+    {
+      "t": "l",
+      "v": "         Ci hai  donato    il tuo  spirito      Lo  sentiamo    qui  in mezzo    a  noi"
+    },
+    {
+      "t": "c",
+      "v": "    FA                           DO             RE7               SOL"
+    },
+    {
+      "t": "l",
+      "v": "         Ed  è proprio    per  questo   che     non   vogliamo     rinunciare"
+    },
+    {
+      "t": "c",
+      "v": "    DO                            SOL      LA-                     MI-"
+    },
+    {
+      "t": "l",
+      "v": "         Non   possiamo     più  assistere      impotenti    ed  attoniti"
+    },
+    {
+      "t": "c",
+      "v": "    FA                          DO              RE7           SOL"
+    },
+    {
+      "t": "l",
+      "v": "         Perché   siam  responsabili            della  vita intorno    a noi"
+    }
+  ],
+  "id": "la-canzone-dell-amicizia"
+}

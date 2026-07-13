@@ -1,0 +1,186 @@
+{
+  "title": "Qui con Te",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Qui con Te  Strofa 1 C'è silenzio intorno a noi e in un istante il pensiero vola a Lui che certo sta seduto accanto a me e sta chiedendo se voglio amarlo come Lui mi ha amato già dal giorno in cui sono stato posto qua con quell'idea di pace e libertà che nei suoi occhi brilla.  Ritornello Tu che risplendi se mi trattengo ancora un po' abbracciato a Te e mi chiedi una follia, questa vita mia che mi vien da vivere qui con Te, perché non mi lasci mai mi sostieni quando io cederei e poi canti d'allegria per la malattia che ho di voler vivere qui con Te.  Strofa 2 - modulazione in LA Questo mondo corre e va su larghe strade verso tristi oscurità. ma c'è un sentiero che lassù si inerpica e c'è una vetta chi la scalerà?  Ritornello finale Tu che risplendi se mi trattengo ancora un po' abbracciato a Te e mi chiedi una follia, questa vita mia che mi vien da vivere qui con Te, perché non mi lasci mai mi sostieni quando io cederei e poi canti d'allegria per la malattia che ho di voler vivere qui con Te. Finale (x2) con Te, qui con Te...",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL                    RE             MI-                         SI-"
+    },
+    {
+      "t": "l",
+      "v": "C'è silenzio intorno a noi e in un istante il pensiero vola a Lui"
+    },
+    {
+      "t": "c",
+      "v": "            DO                 SOL        SI-"
+    },
+    {
+      "t": "l",
+      "v": "che certo sta seduto accanto a me e sta chiedendo"
+    },
+    {
+      "t": "c",
+      "v": "    DO     RE       SOL             RE"
+    },
+    {
+      "t": "l",
+      "v": "se voglio amarlo come Lui mi ha amato già"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-                 SI-"
+    },
+    {
+      "t": "l",
+      "v": "dal giorno in cui sono stato posto qua"
+    },
+    {
+      "t": "c",
+      "v": "            DO                 SOL          SI-       DO   MI- RE RE"
+    },
+    {
+      "t": "l",
+      "v": "con quell'idea di pace e libertà che nei suoi occhi brilla."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO      RE      MI-       RE             DO   SI-          MI-"
+    },
+    {
+      "t": "l",
+      "v": "Tu che risplendi se mi trattengo ancora un po' abbracciato a Te"
+    },
+    {
+      "t": "c",
+      "v": "         RE           DO       RE   MI-"
+    },
+    {
+      "t": "l",
+      "v": "e mi chiedi una follia, questa vita mia"
+    },
+    {
+      "t": "c",
+      "v": "         RE           DO SOL      RE  DO       RE MI-"
+    },
+    {
+      "t": "l",
+      "v": "che mi vien da vivere qui con Te, perché non mi lasci mai"
+    },
+    {
+      "t": "c",
+      "v": "        RE        DO SI-   MI-      RE         DO      RE MI-"
+    },
+    {
+      "t": "l",
+      "v": "mi sostieni quando io cederei e poi canti d'allegria per la malattia"
+    },
+    {
+      "t": "c",
+      "v": "       RE      DO SOL       RE  DO SOL RE RE"
+    },
+    {
+      "t": "l",
+      "v": "che ho di voler vivere qui con Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2 - modulazione in LA"
+    },
+    {
+      "t": "c",
+      "v": "LA                         MI          FA#-                     DO#-"
+    },
+    {
+      "t": "l",
+      "v": "Questo mondo corre e va su larghe strade verso tristi oscurità."
+    },
+    {
+      "t": "c",
+      "v": "             RE                  LA           DO#-     RE    FA#- MI"
+    },
+    {
+      "t": "l",
+      "v": "ma c'è un sentiero che lassù si inerpica e c'è una vetta chi la scalerà?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "RE      MI   FA#-    MI                 RE   DO#-          FA#-"
+    },
+    {
+      "t": "l",
+      "v": "Tu che risplendi se mi trattengo ancora un po' abbracciato a Te"
+    },
+    {
+      "t": "c",
+      "v": "         MI           RE       MI   FA#-"
+    },
+    {
+      "t": "l",
+      "v": "e mi chiedi una follia, questa vita mia"
+    },
+    {
+      "t": "c",
+      "v": "         MI           RE LA       MI  RE       MI FA#-"
+    },
+    {
+      "t": "l",
+      "v": "che mi vien da vivere qui con Te, perché non mi lasci mai"
+    },
+    {
+      "t": "c",
+      "v": "        MI        RE DO#-  FA#-      MI        RE      MI FA#-"
+    },
+    {
+      "t": "l",
+      "v": "mi sostieni quando io cederei e poi canti d'allegria per la malattia"
+    },
+    {
+      "t": "c",
+      "v": "       MI      RE LA       MI  RE LA  MI MI"
+    },
+    {
+      "t": "l",
+      "v": "che ho di voler vivere qui con Te."
+    },
+    {
+      "t": "h",
+      "v": "Finale (x2)"
+    },
+    {
+      "t": "c",
+      "v": "RE LA     MI"
+    },
+    {
+      "t": "l",
+      "v": "con Te, qui con Te..."
+    }
+  ],
+  "id": "qui-con-te"
+}

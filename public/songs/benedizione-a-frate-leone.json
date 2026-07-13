@@ -1,0 +1,125 @@
+{
+  "title": "Benedizione a Frate Leone",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Benedizione a Frate Leone  Strofa Benedicat   tibi Dominus       et  custodiat   te Ostendat   faciem    suam   tibi et miseratur    tui Convertat    vultum   suum    ad  te et  det  tibi pa   -   cem Dominus    benedicat,    frater  Leo,  te.  Ritornello      Benedi      - i  - cat,  benedi    -  i -  cat      Benedicat    tibi     Do   - mi   - nus       et custodiat   te  Interludio - Violini 1 battuta  Ritornello (ripetere)      Benedicat    tibi     Do   - mi   - nus       et custodiat   te  Finale    Benedicat,    benedicat,    benedicat,    benedicat Tibi Dominus,     benedicat    tibi Dominus     et custodiat    te",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "RE          SOL             RE                LA"
+    },
+    {
+      "t": "l",
+      "v": "Benedicat   tibi Dominus       et  custodiat   te"
+    },
+    {
+      "t": "c",
+      "v": "  RE                SOL         RE               LA"
+    },
+    {
+      "t": "l",
+      "v": "Ostendat   faciem    suam   tibi et miseratur    tui"
+    },
+    {
+      "t": "c",
+      "v": "   SOL                LA          RE              SOL       LA4    LA"
+    },
+    {
+      "t": "l",
+      "v": "Convertat    vultum   suum    ad  te et  det  tibi pa   -   cem"
+    },
+    {
+      "t": "c",
+      "v": "RE                SOL     LA4    LA    RE"
+    },
+    {
+      "t": "l",
+      "v": "Dominus    benedicat,    frater  Leo,  te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "           SOL    LA    RE         SOL    RE    LA"
+    },
+    {
+      "t": "l",
+      "v": "     Benedi      - i  - cat,  benedi    -  i -  cat"
+    },
+    {
+      "t": "c",
+      "v": "            RE    FA#-      SI-   LA    SOL       LA4     LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "     Benedicat    tibi     Do   - mi   - nus       et custodiat   te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio - Violini"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA | RE | SOL RE | LA"
+    },
+    {
+      "t": "l",
+      "v": "1 battuta"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    },
+    {
+      "t": "c",
+      "v": "            RE    FA#-      SI-   LA    SOL       LA4     LA       RE"
+    },
+    {
+      "t": "l",
+      "v": "     Benedicat    tibi     Do   - mi   - nus       et custodiat   te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "RE           LA           RE            SOL           RE"
+    },
+    {
+      "t": "l",
+      "v": "   Benedicat,    benedicat,    benedicat,    benedicat"
+    },
+    {
+      "t": "c",
+      "v": "            LA            SOL              LA"
+    },
+    {
+      "t": "l",
+      "v": "Tibi Dominus,     benedicat    tibi Dominus     et custodiat    te"
+    }
+  ],
+  "id": "benedizione-a-frate-leone"
+}

@@ -1,0 +1,134 @@
+{
+  "title": "Come Maria",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Come Maria  Strofa 1 Vogliamo     vivere   Signore,   offrendo    a  Te  la nostra  vita Con   questo    pane   e questo   vino,   accetta  quello   che   noi  siamo. Vogliamo     vivere   Signore,   abbandonati      alla Tua   voce staccati  dalle  cose  vane,   fissati nella  vita  vera.  Ritornello Vogliamo     vivere   come    Maria,       l'irraggiungibile    la Madre    amata       che   vince  il mondo     con  l'amore       e  offrire  sempre   la  tua  vita che  viene   dal  cielo.  Strofa 2 Accetta   dalle  nostre   mani,   come    un'offerta   a  Te  gradita i desideri  di  ogni  cuore,   le ansie  della  nostra   vita. Vogliamo     vivere   Signore,   accesi  dalle  Tue   parole per  riportare   in  ogni  uomo     la fiamma    viva  del  Tuo   amore.  Ritornello (ripetere)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA-                   DO             LA-                       MI-"
+    },
+    {
+      "t": "l",
+      "v": "Vogliamo     vivere   Signore,   offrendo    a  Te  la nostra  vita"
+    },
+    {
+      "t": "c",
+      "v": "FA                                RE           LA-                       MI"
+    },
+    {
+      "t": "l",
+      "v": "Con   questo    pane   e questo   vino,   accetta  quello   che   noi  siamo."
+    },
+    {
+      "t": "c",
+      "v": "LA-                     DO      LA-                            MI-"
+    },
+    {
+      "t": "l",
+      "v": "Vogliamo     vivere   Signore,   abbandonati      alla Tua   voce"
+    },
+    {
+      "t": "c",
+      "v": "FA                   RE      LA-                     MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "staccati  dalle  cose  vane,   fissati nella  vita  vera."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          LA         RE     MI       FA#-"
+    },
+    {
+      "t": "l",
+      "v": "Vogliamo     vivere   come    Maria,"
+    },
+    {
+      "t": "c",
+      "v": "       RE       MI     RE                   MI"
+    },
+    {
+      "t": "l",
+      "v": "      l'irraggiungibile    la Madre    amata"
+    },
+    {
+      "t": "c",
+      "v": "       RE             MI               DO#-"
+    },
+    {
+      "t": "l",
+      "v": "      che   vince  il mondo     con  l'amore"
+    },
+    {
+      "t": "c",
+      "v": "       RE         SI-               DO#-            RE         LA"
+    },
+    {
+      "t": "l",
+      "v": "      e  offrire  sempre   la  tua  vita che  viene   dal  cielo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "LA-                       DO      LA-                            MI-"
+    },
+    {
+      "t": "l",
+      "v": "Accetta   dalle  nostre   mani,   come    un'offerta   a  Te  gradita"
+    },
+    {
+      "t": "c",
+      "v": "FA                        RE   LA-                         MI"
+    },
+    {
+      "t": "l",
+      "v": "i desideri  di  ogni  cuore,   le ansie  della  nostra   vita."
+    },
+    {
+      "t": "c",
+      "v": "LA-                     DO      LA-                        MI-"
+    },
+    {
+      "t": "l",
+      "v": "Vogliamo     vivere   Signore,   accesi  dalle  Tue   parole"
+    },
+    {
+      "t": "c",
+      "v": "FA                         RE      LA-                           MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "per  riportare   in  ogni  uomo     la fiamma    viva  del  Tuo   amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    }
+  ],
+  "id": "come-maria"
+}

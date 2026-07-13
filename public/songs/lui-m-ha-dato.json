@@ -1,0 +1,94 @@
+{
+  "title": "Lui M'ha Dato",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Lui M'ha Dato  Strofa 1 Io  non   so proprio    cosa  far, per  ringraziare    il mio  Signor M'ha    dato  i cieli da  guardar,   e  tanta  gioia  dentro    il cuor.  Ritornello Lui  m'ha   dato   i cieli da guardar      Lui  m'ha   dato   la bocca   per  cantar      Lui  m'ha   dato   il mondo    per  amar      E  tanta  gioia  dentro   il cuor,  e tanta   gioia  dentro   il cuor  Strofa 2 E s'è  curvato   su  di me,   ed  è disceso   giù dal  ciel Per  abitare   in mezzo    a  noi, e  per  salvare  tutti noi  Ripetere il ritornello",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE        SI-        LA    RE                SI-      LA         RE"
+    },
+    {
+      "t": "l",
+      "v": "Io  non   so proprio    cosa  far, per  ringraziare    il mio  Signor"
+    },
+    {
+      "t": "c",
+      "v": "                SI-  LA          RE             SI-       LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "M'ha    dato  i cieli da  guardar,   e  tanta  gioia  dentro    il cuor."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                          SI-  LA        RE"
+    },
+    {
+      "t": "l",
+      "v": "Lui  m'ha   dato   i cieli da guardar"
+    },
+    {
+      "t": "c",
+      "v": "                          SI-      LA         RE"
+    },
+    {
+      "t": "l",
+      "v": "     Lui  m'ha   dato   la bocca   per  cantar"
+    },
+    {
+      "t": "c",
+      "v": "                          SI-        LA      RE"
+    },
+    {
+      "t": "l",
+      "v": "     Lui  m'ha   dato   il mondo    per  amar"
+    },
+    {
+      "t": "c",
+      "v": "         RE     SI-     LA        RE                SI-    LA         RE"
+    },
+    {
+      "t": "l",
+      "v": "     E  tanta  gioia  dentro   il cuor,  e tanta   gioia  dentro   il cuor"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "E s'è  curvato   su  di me,   ed  è disceso   giù dal  ciel"
+    },
+    {
+      "t": "l",
+      "v": "Per  abitare   in mezzo    a  noi, e  per  salvare  tutti noi"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    }
+  ],
+  "id": "lui-m-ha-dato"
+}

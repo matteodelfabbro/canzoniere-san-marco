@@ -1,0 +1,141 @@
+{
+  "title": "Camminerò",
+  "sub": "In RE",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Camminerò In RE Ritornello         Camminerò,       camminerò         Per la Tua   strada  Signor         Dammi     la mano       Voglio   restare       Per  sempre    assieme   a Te  Strofa 1 1.  Quando     ero  solo,  solo  e  stanco   del  mondo,     Quando      non   c'era l'amor,     Tante   persone     vive  intorno   a  me     Sentivo    cantare   così  Strofa 2 2.  Io  non   capivo,   ma   rimasi  a sentire     Quando      anch'io   vidi il Signor     Lui  mi  chiamava,     chiamava     anche   me     E  la mia  risposta   si alzò  Strofa 3 3.  Ora   non   m'importa     se  uno  ride  di  me     Lui  certamente     non   sa     Del  gran   tesoro   che  trova   in quel  dì     Che   dice  al Signore   così  Strofa 4 4.  A  volte   sono   stanco   e mi  guardo    intorno     Scopro    il mondo    e  l'amor     Son   questi  i doni  che   Lui fa a  me     E  dice:  ritorna  a cantar",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "        RE               SI-              MI-                        LA"
+    },
+    {
+      "t": "l",
+      "v": "        Camminerò,       camminerò         Per la Tua   strada  Signor"
+    },
+    {
+      "t": "c",
+      "v": "        RE                       SI-                        MI-      LA7          RE"
+    },
+    {
+      "t": "l",
+      "v": "        Dammi     la mano       Voglio   restare       Per  sempre    assieme   a Te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "        RE                           SI-"
+    },
+    {
+      "t": "l",
+      "v": "1.  Quando     ero  solo,  solo  e  stanco   del  mondo,"
+    },
+    {
+      "t": "c",
+      "v": "        MI-                     LA"
+    },
+    {
+      "t": "l",
+      "v": "    Quando      non   c'era l'amor,"
+    },
+    {
+      "t": "c",
+      "v": "    RE                           SI-"
+    },
+    {
+      "t": "l",
+      "v": "    Tante   persone     vive  intorno   a  me"
+    },
+    {
+      "t": "c",
+      "v": "        MI-        LA      RE"
+    },
+    {
+      "t": "l",
+      "v": "    Sentivo    cantare   così"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.  Io  non   capivo,   ma   rimasi  a sentire"
+    },
+    {
+      "t": "l",
+      "v": "    Quando      anch'io   vidi il Signor"
+    },
+    {
+      "t": "l",
+      "v": "    Lui  mi  chiamava,     chiamava     anche   me"
+    },
+    {
+      "t": "l",
+      "v": "    E  la mia  risposta   si alzò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.  Ora   non   m'importa     se  uno  ride  di  me"
+    },
+    {
+      "t": "l",
+      "v": "    Lui  certamente     non   sa"
+    },
+    {
+      "t": "l",
+      "v": "    Del  gran   tesoro   che  trova   in quel  dì"
+    },
+    {
+      "t": "l",
+      "v": "    Che   dice  al Signore   così"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "4.  A  volte   sono   stanco   e mi  guardo    intorno"
+    },
+    {
+      "t": "l",
+      "v": "    Scopro    il mondo    e  l'amor"
+    },
+    {
+      "t": "l",
+      "v": "    Son   questi  i doni  che   Lui fa a  me"
+    },
+    {
+      "t": "l",
+      "v": "    E  dice:  ritorna  a cantar"
+    }
+  ],
+  "id": "camminero-in-re"
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Fammi Conoscere",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Fammi Conoscere  Ritornello Fammi     conoscere     la tua    volontà       parla   ti ascolto  Signore!       La  mia   felicità è fare  il tuo volere:       porterò    con   me  la  tua Parola.  Strofa 1 1.     Lampada     ai miei  passi  è  la tua  Parola   luce sul  mio   cammino.        Ogni   giorno   la mia   volontà    trova  una   guida   in te.  Strofa 2 2.     Porterò   con   me  i tuoi  insegnamenti:     danno     al mio   cuore  gioia!        La tua  Parola   è fonte   di luce:  dona    saggezza   ai  semplici.  Strofa 3 3.     La mia   bocca   impari   la tua  lode   sempre    ti renda  grazie.        Ogni   momento      canti  la tua  lode   la mia  speranza    è  in te.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       MI           FA#-         SOLdim    MI"
+    },
+    {
+      "t": "l",
+      "v": "Fammi     conoscere     la tua    volontà"
+    },
+    {
+      "t": "c",
+      "v": "       LA       MI           FA#7      SI"
+    },
+    {
+      "t": "l",
+      "v": "      parla   ti ascolto  Signore!"
+    },
+    {
+      "t": "c",
+      "v": "       LA         SI       SOL#+            DO#-"
+    },
+    {
+      "t": "l",
+      "v": "      La  mia   felicità è fare  il tuo volere:"
+    },
+    {
+      "t": "c",
+      "v": "       LA              MI              SI7/4   MI"
+    },
+    {
+      "t": "l",
+      "v": "      porterò    con   me  la  tua Parola."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       SOL                  RE     LA-           RE    MI-       DO        SOL     RE"
+    },
+    {
+      "t": "l",
+      "v": "1.     Lampada     ai miei  passi  è  la tua  Parola   luce sul  mio   cammino."
+    },
+    {
+      "t": "c",
+      "v": "       SOL    RE       LA-            RE   MI-          DO         SOL     SI7"
+    },
+    {
+      "t": "l",
+      "v": "       Ogni   giorno   la mia   volontà    trova  una   guida   in te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.     Porterò   con   me  i tuoi  insegnamenti:     danno     al mio   cuore  gioia!"
+    },
+    {
+      "t": "l",
+      "v": "       La tua  Parola   è fonte   di luce:  dona    saggezza   ai  semplici."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.     La mia   bocca   impari   la tua  lode   sempre    ti renda  grazie."
+    },
+    {
+      "t": "l",
+      "v": "       Ogni   momento      canti  la tua  lode   la mia  speranza    è  in te."
+    }
+  ],
+  "id": "fammi-conoscere"
+}

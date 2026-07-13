@@ -1,0 +1,124 @@
+{
+  "title": "Antica, Eterna Danza",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Antica, Eterna Danza  Intro  Strofa 1              Spighe   d'oro   al vento,   antica,   eterna   danza              per  fare  un  solo  pa   -  ne  spezzato    sulla mensa.              Grappoli    dei   colli, profumo     di letizia              per  fare  un  solo   vi  -  no    bevanda     della  grazia.  Interludio  Strofa 2              Con   il pane   e il vino,  Signore   ti doniamo              le nostre   gioie  pure,  le  attese  e le paure.              Frutti  del  lavoro   e fede   nel futuro,              la voglia   di cambiare     e di ricominciare.  Strofa a vuoto  Strofa 3              Dio   della  speranza,   sorgente    d'ogni   dono              accogli   questa   offerta  che  insieme    Ti portiamo.              Dio   dell'universo    raccogli  chi  è disperso              e facci  tutti Chiesa,   una  cosa   in Te.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL     MI-    LA-     MI-    SOL     DO     SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "              SOL       RE        MI-     MI-        RE       DO"
+    },
+    {
+      "t": "l",
+      "v": "             Spighe   d'oro   al vento,   antica,   eterna   danza"
+    },
+    {
+      "t": "c",
+      "v": "                   LA-      RE    MI-     RE      DO     LA7      SI"
+    },
+    {
+      "t": "l",
+      "v": "             per  fare  un  solo  pa   -  ne  spezzato    sulla mensa."
+    },
+    {
+      "t": "c",
+      "v": "                SOL       RE    MI-               RE    DO"
+    },
+    {
+      "t": "l",
+      "v": "             Grappoli    dei   colli, profumo     di letizia"
+    },
+    {
+      "t": "c",
+      "v": "                   LA-      RE    MI-     RE    LA-        SI-      MI-"
+    },
+    {
+      "t": "l",
+      "v": "             per  fare  un  solo   vi  -  no    bevanda     della  grazia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "             SOL     MI-     LA-    MI-    SOL     DO      SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "             Con   il pane   e il vino,  Signore   ti doniamo"
+    },
+    {
+      "t": "l",
+      "v": "             le nostre   gioie  pure,  le  attese  e le paure."
+    },
+    {
+      "t": "l",
+      "v": "             Frutti  del  lavoro   e fede   nel futuro,"
+    },
+    {
+      "t": "l",
+      "v": "             la voglia   di cambiare     e di ricominciare."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa a vuoto"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "             Dio   della  speranza,   sorgente    d'ogni   dono"
+    },
+    {
+      "t": "l",
+      "v": "             accogli   questa   offerta  che  insieme    Ti portiamo."
+    },
+    {
+      "t": "l",
+      "v": "             Dio   dell'universo    raccogli  chi  è disperso"
+    },
+    {
+      "t": "l",
+      "v": "             e facci  tutti Chiesa,   una  cosa   in Te."
+    }
+  ],
+  "id": "antica-eterna-danza"
+}

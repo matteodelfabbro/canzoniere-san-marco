@@ -1,0 +1,328 @@
+{
+  "title": "Il Canto dei 3 Giovani",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Il Canto dei 3 Giovani  Strofa 1 Noi  ti lodiamo    Signor,   a Te  la lode  e la gloria per  sempre noi  lodiamo    il tuo nome,   a Te  la lode  e la gloria  per  sempre.  Ritornello Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre.  Strofa 2 Astri del  cielo lodate   il Signore, a Lui  l'onore  e la gloria  per  sempre. Acque   del  cielo lodate   il Signore, a Lui  l'onore  e la gloria  per  sempre.  Ritornello Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre.  Strofa 3 Sole  e luna  lodate  il Signore,  a Lui l'onore   e la gloria  per sempre. Piogge   e rugiade   lodate  il Signore,  a Lui l'onore   e la gloria per  sempre.  Ritornello Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre.  Cambio di tonalità - 1 battuta  Strofa 4 O  venti  tutti   lodate   il Signore, a Lui  l'onore  e la gloria  per  sempre. Fuoco   e calore   lodate  il Signore,  a Lui l'onore   e la gloria per  sempre.  Ritornello Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre.  Strofa 5 Notte   e giorno   lodate  il Signore,  a Lui l'onore   e la gloria per  sempre. Nuvole    e lampi  lodate   il Signore,  a Lui l'onore  e  la gloria per  sempre.  Ritornello Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre.  Strofa 6 Uomini    tutti   lodate  il Signore,  a Lui  l'onore  e la gloria  per sempre. Tutta  la terra  dia lode  al Signore,  a  Lui l'onore  e  la gloria per  sempre.  Ritornello Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre.  Finale Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre. Noi  loderemo     il Signor!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO        MI-7       FA     DO        MI-7       FA               LA-"
+    },
+    {
+      "t": "l",
+      "v": "Noi  ti lodiamo    Signor,   a Te  la lode  e la gloria per  sempre"
+    },
+    {
+      "t": "c",
+      "v": "RE-    FA              SOL      RE-      FA         SOL        MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "noi  lodiamo    il tuo nome,   a Te  la lode  e la gloria  per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA-        MI-7            FA      DO                 RE-        SOL       MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "LA-        MI-7            FA      DO                 RE-        SOL       LA-7   SOL"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO         MI-7     FA               DO        MI-7        FA               LA-"
+    },
+    {
+      "t": "l",
+      "v": "Astri del  cielo lodate   il Signore, a Lui  l'onore  e la gloria  per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "RE-         FA        SOL               RE-       FA          SOL         MI4    MI"
+    },
+    {
+      "t": "l",
+      "v": "Acque   del  cielo lodate   il Signore, a Lui  l'onore  e la gloria  per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA-        MI-7            FA      DO                 RE-        SOL       MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "LA-        MI-7            FA      DO                 RE-        SOL       LA-7   SOL"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "DO      MI-7     FA               DO        MI-7        FA               LA-"
+    },
+    {
+      "t": "l",
+      "v": "Sole  e luna  lodate  il Signore,  a Lui l'onore   e la gloria  per sempre."
+    },
+    {
+      "t": "c",
+      "v": "RE-          FA        SOL               RE-      FA           SOL         MI4    MI"
+    },
+    {
+      "t": "l",
+      "v": "Piogge   e rugiade   lodate  il Signore,  a Lui l'onore   e la gloria per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA-        MI-7            FA      DO                 RE-        SOL       MI4     MI"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "LA-        MI-7            FA      DO                 RE-        SOL       LA-7   SOL"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Cambio di tonalità - 1 battuta"
+    },
+    {
+      "t": "c",
+      "v": "MI-7 LA4 LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "RE        FA#-7     SOL               RE       FA#-7         SOL              SI-7"
+    },
+    {
+      "t": "l",
+      "v": "O  venti  tutti   lodate   il Signore, a Lui  l'onore  e la gloria  per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "MI-          SOL     LA                MI-      SOL          LA          FA#"
+    },
+    {
+      "t": "l",
+      "v": "Fuoco   e calore   lodate  il Signore,  a Lui l'onore   e la gloria per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 MI-7        RE    LA    FA#"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 RE          LA4       SI-  LA"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "c",
+      "v": "RE        FA#-7      SOL               RE        FA#-7       SOL              SI-7"
+    },
+    {
+      "t": "l",
+      "v": "Notte   e giorno   lodate  il Signore,  a Lui l'onore   e la gloria per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "MI-         SOL       LA                MI-       SOL        LA           FA#"
+    },
+    {
+      "t": "l",
+      "v": "Nuvole    e lampi  lodate   il Signore,  a Lui l'onore  e  la gloria per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 MI-7        RE    LA    FA#"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 RE          LA4       SI-  LA"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 6"
+    },
+    {
+      "t": "c",
+      "v": "RE        FA#-7      SOL               RE        FA#-7       SOL             SI-7"
+    },
+    {
+      "t": "l",
+      "v": "Uomini    tutti   lodate  il Signore,  a Lui  l'onore  e la gloria  per sempre."
+    },
+    {
+      "t": "c",
+      "v": "MI-       SOL        LA                 MI-       SOL        LA           FA#"
+    },
+    {
+      "t": "l",
+      "v": "Tutta  la terra  dia lode  al Signore,  a  Lui l'onore  e  la gloria per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 MI-7        RE    LA    FA#"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 RE          LA4       SI-  LA"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 MI-7        RE    LA    FA#"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "SI-        FA#-7      SOL          RE                 RE          LA4       SOL    LA"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor, canteremo     il suo amor,   che durerà   per  sempre."
+    },
+    {
+      "t": "c",
+      "v": "LA           LA4       RE"
+    },
+    {
+      "t": "l",
+      "v": "Noi  loderemo     il Signor!"
+    }
+  ],
+  "id": "il-canto-dei-3-giovani"
+}

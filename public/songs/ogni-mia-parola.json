@@ -1,0 +1,108 @@
+{
+  "title": "Ogni Mia Parola",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ogni Mia Parola  Intro  Strofa                     Come    la pioggia   e  la neve                     scendono     giù dal  cielo                     e non   vi ritornano    senza   irrigare                     e far germogliare     la terra,                     così ogni   mia  Parola   non   ritornerà   a  me                     senza  operare    quanto    desidero,                     senza  aver   compiuto                     ciò per  cui  l'avevo   mandata.                     Ogni   mia  Parola,                     Ogni   mia  Parola",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO     FA    DO      SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "                    DO            FA     DO    SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    Come    la pioggia   e  la neve"
+    },
+    {
+      "t": "c",
+      "v": "                     DO         FA         SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    scendono     giù dal  cielo"
+    },
+    {
+      "t": "c",
+      "v": "                      LA-           SOL      FA        SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    e non   vi ritornano    senza   irrigare"
+    },
+    {
+      "t": "c",
+      "v": "                      FA           SOL        FA    SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    e far germogliare     la terra,"
+    },
+    {
+      "t": "c",
+      "v": "                    DO                 FA             DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    così ogni   mia  Parola   non   ritornerà   a  me"
+    },
+    {
+      "t": "c",
+      "v": "                    DO                   FA      SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    senza  operare    quanto    desidero,"
+    },
+    {
+      "t": "c",
+      "v": "                    LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    senza  aver   compiuto"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL              FA          DO"
+    },
+    {
+      "t": "l",
+      "v": "                    ciò per  cui  l'avevo   mandata."
+    },
+    {
+      "t": "c",
+      "v": "                    FA             SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    Ogni   mia  Parola,"
+    },
+    {
+      "t": "c",
+      "v": "                    FA             SOL"
+    },
+    {
+      "t": "l",
+      "v": "                    Ogni   mia  Parola"
+    }
+  ],
+  "id": "ogni-mia-parola"
+}

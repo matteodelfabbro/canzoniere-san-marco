@@ -1,0 +1,125 @@
+{
+  "title": "Ave Maria",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ave Maria  Ritornello Ave          Maria,        Ave.       Ave           Maria,        Ave.  Strofa 1              Donna     dell'attesa  e  madre    di speranza    ora  pro   nobis.              Donna     del sorriso   e madre    del  silenzio  ora  pro   nobis.              Donna     di frontiera   e madre    dell'ardore    ora  pro   nobis.              Donna     del riposo   e  madre    del sentiero   ora  pro   nobis.  Ritornello (ripetere)  Strofa 2              Donna     del deserto    e madre    del  respiro  ora   pro  nobis.              Donna     della  sera e  madre    del  ricordo   ora  pro  nobis.              Donna     del presente    e madre    del  ritorno   ora  pro   nobis.              Donna     della  terra  e madre    dell'amore    ora   pro   nobis.  Ritornello (ripetere)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "      RE     LA     SI-   SOL      RE    LA    MI-    SOL"
+    },
+    {
+      "t": "l",
+      "v": "Ave          Maria,        Ave."
+    },
+    {
+      "t": "c",
+      "v": "      RE     LA     SI-   SOL      RE    LA    RE4     RE"
+    },
+    {
+      "t": "l",
+      "v": "      Ave           Maria,        Ave."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "             RE                        SI-                     LA        SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     dell'attesa  e  madre    di speranza    ora  pro   nobis."
+    },
+    {
+      "t": "c",
+      "v": "             RE                        SI-                     LA         SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     del sorriso   e madre    del  silenzio  ora  pro   nobis."
+    },
+    {
+      "t": "c",
+      "v": "             RE                         LA                            SI-   SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     di frontiera   e madre    dell'ardore    ora  pro   nobis."
+    },
+    {
+      "t": "c",
+      "v": "             RE                       LA                           SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     del riposo   e  madre    del sentiero   ora  pro   nobis."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "             RE                         SI-                         LA     SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     del deserto    e madre    del  respiro  ora   pro  nobis."
+    },
+    {
+      "t": "c",
+      "v": "             RE                       SI-                          LA    SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     della  sera e  madre    del  ricordo   ora  pro  nobis."
+    },
+    {
+      "t": "c",
+      "v": "             RE                          LA                            SI-   SOL"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     del presente    e madre    del  ritorno   ora  pro   nobis."
+    },
+    {
+      "t": "c",
+      "v": "             RE                        LA                          SOL    LA"
+    },
+    {
+      "t": "l",
+      "v": "             Donna     della  terra  e madre    dell'amore    ora   pro   nobis."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    }
+  ],
+  "id": "ave-maria"
+}

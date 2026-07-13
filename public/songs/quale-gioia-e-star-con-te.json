@@ -1,0 +1,181 @@
+{
+  "title": "Quale Gioia È Star con Te",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Quale Gioia È Star con Te  Strofa 1 Ogni volta che ti cerco, ogni volta che ti invoco, Sempre mi accogli Signor. Grandi sono i tuoi prodigi, Tu sei buono verso tutti, Santo Tu regni tra noi.  Ritornello Quale gioia è star con Te Gesù vivo e vicino, Bello è dar lode a Te, Tu sei il Signor. Quale dono è aver creduto in Te che non mi abbandoni, Io per sempre abiterò la Tua casa, mio Re.  Strofa 2 Hai guarito il mio dolore, hai cambiato questo cuore, Oggi rinasco, Signor. Grandi sono i tuoi prodigi, Tu sei buono verso tutti, Santo Tu regni tra noi.  Strofa 3 - modulazione in LA Hai salvato la mia vita, hai aperto la mia bocca, Canto per Te, mio Signor. Grandi sono i tuoi prodigi, Tu sei buono verso tutti, Santo Tu regni tra noi.  Ritornello finale Quale gioia è star con Te Gesù vivo e vicino, Bello è dar lode a Te, Tu sei il Signor. Quale dono è aver creduto in Te che non mi abbandoni, Io per sempre abiterò la Tua casa, mio Re. Finale Io per sempre abiterò la Tua casa, mio Re.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL                                LA-"
+    },
+    {
+      "t": "l",
+      "v": "Ogni volta che ti cerco, ogni volta che ti invoco,"
+    },
+    {
+      "t": "c",
+      "v": "SOL               MI-       RE      MI-"
+    },
+    {
+      "t": "l",
+      "v": "Sempre mi accogli Signor. Grandi sono i tuoi prodigi,"
+    },
+    {
+      "t": "c",
+      "v": "DO                                   SOL       DO           RE"
+    },
+    {
+      "t": "l",
+      "v": "Tu sei buono verso tutti, Santo Tu regni tra noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                 SOL                 RE               LA-      MI-"
+    },
+    {
+      "t": "l",
+      "v": "Quale gioia è star con Te Gesù vivo e vicino,"
+    },
+    {
+      "t": "c",
+      "v": "         SOL              RE             DO            RE"
+    },
+    {
+      "t": "l",
+      "v": "Bello è dar lode a Te, Tu sei il Signor."
+    },
+    {
+      "t": "c",
+      "v": "                 SOL                 RE                LA-               MI-"
+    },
+    {
+      "t": "l",
+      "v": "Quale dono è aver creduto in Te che non mi abbandoni,"
+    },
+    {
+      "t": "c",
+      "v": "        SOL                   RE       DO        RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "Io per sempre abiterò la Tua casa, mio Re."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "Hai guarito il mio dolore, hai cambiato questo cuore,"
+    },
+    {
+      "t": "l",
+      "v": "Oggi rinasco, Signor. Grandi sono i tuoi prodigi,"
+    },
+    {
+      "t": "l",
+      "v": "Tu sei buono verso tutti, Santo Tu regni tra noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3 - modulazione in LA"
+    },
+    {
+      "t": "c",
+      "v": "LA                                 SI-"
+    },
+    {
+      "t": "l",
+      "v": "Hai salvato la mia vita, hai aperto la mia bocca,"
+    },
+    {
+      "t": "c",
+      "v": "LA           FA#-           MI      FA#-"
+    },
+    {
+      "t": "l",
+      "v": "Canto per Te, mio Signor. Grandi sono i tuoi prodigi,"
+    },
+    {
+      "t": "c",
+      "v": "RE                                  LA         RE           MI"
+    },
+    {
+      "t": "l",
+      "v": "Tu sei buono verso tutti, Santo Tu regni tra noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                 LA                  MI                  SI-       FA#-"
+    },
+    {
+      "t": "l",
+      "v": "Quale gioia è star con Te Gesù vivo e vicino,"
+    },
+    {
+      "t": "c",
+      "v": "        LA            MI                   RE            MI"
+    },
+    {
+      "t": "l",
+      "v": "Bello è dar lode a Te, Tu sei il Signor."
+    },
+    {
+      "t": "c",
+      "v": "                 LA                   MI                   SI-               FA#-"
+    },
+    {
+      "t": "l",
+      "v": "Quale dono è aver creduto in Te che non mi abbandoni,"
+    },
+    {
+      "t": "c",
+      "v": "         LA                    MI      RE       MI            LA"
+    },
+    {
+      "t": "l",
+      "v": "Io per sempre abiterò la Tua casa, mio Re."
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "         LA                    MI      RE       MI            LA"
+    },
+    {
+      "t": "l",
+      "v": "Io per sempre abiterò la Tua casa, mio Re."
+    }
+  ],
+  "id": "quale-gioia-e-star-con-te"
+}

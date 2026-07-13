@@ -1,0 +1,121 @@
+{
+  "title": "Davanti a Questo Amore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Davanti a Questo Amore  Intro  Strofa Hai   disteso  le tue  braccia   anche   per  me   Gesù, dal  tuo  cuore,   come    fonte,  hai  versato   pace   in me, cerco   ancora   il mio   peccato   ma   non   c'è. Tu  da  sempre    vinci  il mondo     dal  tuo  trono   di dolore.  Ritornello           Dio,   mia  grazia,  mia   speranza,    ricco  e grande    Redentore.           Tu,  Re   umile  e  potente,   risorto   per  amore,    risorgi per  la  vita.            Vero   agnello    senza  macchia,    mite   e forte  Salvatore    sei.           Tu,  Re   povero    e glorioso   risorgi  con  potenza,           davanti    a questo   amore    la  morte   fuggirà.  Finale",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SI-   LA    SI-   LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa"
+    },
+    {
+      "t": "c",
+      "v": "         SI-              LA                 SI-       LA"
+    },
+    {
+      "t": "l",
+      "v": "Hai   disteso  le tue  braccia   anche   per  me   Gesù,"
+    },
+    {
+      "t": "c",
+      "v": "          SOL7+            LA               RE    LA        SI-"
+    },
+    {
+      "t": "l",
+      "v": "dal  tuo  cuore,   come    fonte,  hai  versato   pace   in me,"
+    },
+    {
+      "t": "c",
+      "v": "        MI-7                FA#               SOL7+"
+    },
+    {
+      "t": "l",
+      "v": "cerco   ancora   il mio   peccato   ma   non   c'è."
+    },
+    {
+      "t": "c",
+      "v": "         MI-                  LA                SOL        LA"
+    },
+    {
+      "t": "l",
+      "v": "Tu  da  sempre    vinci  il mondo     dal  tuo  trono   di dolore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "          RE          SOL                 LA       SI-                        LA    FA#"
+    },
+    {
+      "t": "l",
+      "v": "          Dio,   mia  grazia,  mia   speranza,    ricco  e grande    Redentore."
+    },
+    {
+      "t": "c",
+      "v": "          SOL        LA             RE    SOL           RE          SOL             LA"
+    },
+    {
+      "t": "l",
+      "v": "          Tu,  Re   umile  e  potente,   risorto   per  amore,    risorgi per  la  vita."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "          RE         SOL              LA       SI-7                    LA     FA#"
+    },
+    {
+      "t": "l",
+      "v": "          Vero   agnello    senza  macchia,    mite   e forte  Salvatore    sei."
+    },
+    {
+      "t": "c",
+      "v": "          SOL          LA        RE         SOL             RE"
+    },
+    {
+      "t": "l",
+      "v": "          Tu,  Re   povero    e glorioso   risorgi  con  potenza,"
+    },
+    {
+      "t": "c",
+      "v": "          SOL                     LA          FA#          SOL"
+    },
+    {
+      "t": "l",
+      "v": "          davanti    a questo   amore    la  morte   fuggirà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "SI- LA SI- LA"
+    }
+  ],
+  "id": "davanti-a-questo-amore"
+}

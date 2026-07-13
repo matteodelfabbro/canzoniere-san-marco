@@ -1,0 +1,247 @@
+{
+  "title": "Mi Basta la Tua Grazia",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Mi Basta la Tua Grazia  Intro  Strofa 1 Quando      sono   debole,   allora  sono   forte perché,   tu  sei la mia   forza. Quando      sono   triste è in te  che  trovo   gioia perché,   tu  sei la mia   gioia. Gesù   io  confido   in  te,  Gesù,  mi   basta  la tua  grazia.  Ritornello Sei  la mia  forza,  la mia   salvezza,       sei la mia   pace,  sicuro   rifugio.       Nella   tua  grazia  voglio   restare,       Santo   Signore,   sempre    con   te.  Interludio  Strofa 2 Quando      sono   povero,    allora  sono   ricco perché,   sei la  mia  ricchezza. Quando      son  malato    è in te  che  trovo   vita perché,   tu  sei guarigione. Gesù   io  confido   in  te, Gesù,   mi  basta  la tua  grazia.  Ritornello finale (x2) Sei  la mia  forza,  la mia   salvezza,       sei la mia   pace,  sicuro   rifugio.       Nella   tua  grazia  voglio   restare,       Santo   Signore,   sempre    con   te.       Sei la mia   forza,  la mia   salvezza,       sei la mia   pace,  sicuro   rifugio.       Nella   tua  grazia  voglio   restare,       Santo   Signore,   sempre    con   te.  Finale",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL    LA-   DO    SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL                         LA-"
+    },
+    {
+      "t": "l",
+      "v": "Quando      sono   debole,   allora  sono   forte"
+    },
+    {
+      "t": "c",
+      "v": "     DO                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "perché,   tu  sei la mia   forza."
+    },
+    {
+      "t": "c",
+      "v": "SOL                       LA-"
+    },
+    {
+      "t": "l",
+      "v": "Quando      sono   triste è in te  che  trovo   gioia"
+    },
+    {
+      "t": "c",
+      "v": "     DO                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "perché,   tu  sei la mia   gioia."
+    },
+    {
+      "t": "c",
+      "v": "    MI-                  DO      SOL                       RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "Gesù   io  confido   in  te,  Gesù,  mi   basta  la tua  grazia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL                DO"
+    },
+    {
+      "t": "l",
+      "v": "Sei  la mia  forza,  la mia   salvezza,"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-                RE"
+    },
+    {
+      "t": "l",
+      "v": "      sei la mia   pace,  sicuro   rifugio."
+    },
+    {
+      "t": "c",
+      "v": "                   SOL                DO"
+    },
+    {
+      "t": "l",
+      "v": "      Nella   tua  grazia  voglio   restare,"
+    },
+    {
+      "t": "c",
+      "v": "                 MI-                      RE4   RE        DO    RE"
+    },
+    {
+      "t": "l",
+      "v": "      Santo   Signore,   sempre    con   te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "SOL   LA-   DO    SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL                         LA-"
+    },
+    {
+      "t": "l",
+      "v": "Quando      sono   povero,    allora  sono   ricco"
+    },
+    {
+      "t": "c",
+      "v": "     DO               SOL"
+    },
+    {
+      "t": "l",
+      "v": "perché,   sei la  mia  ricchezza."
+    },
+    {
+      "t": "c",
+      "v": "SOL                      LA-"
+    },
+    {
+      "t": "l",
+      "v": "Quando      son  malato    è in te  che  trovo   vita"
+    },
+    {
+      "t": "c",
+      "v": "     DO                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "perché,   tu  sei guarigione."
+    },
+    {
+      "t": "c",
+      "v": "    MI-                  DO      SOL                      RE4   RE"
+    },
+    {
+      "t": "l",
+      "v": "Gesù   io  confido   in  te, Gesù,   mi  basta  la tua  grazia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale (x2)"
+    },
+    {
+      "t": "c",
+      "v": "                    SOL                DO"
+    },
+    {
+      "t": "l",
+      "v": "Sei  la mia  forza,  la mia   salvezza,"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-                RE"
+    },
+    {
+      "t": "l",
+      "v": "      sei la mia   pace,  sicuro   rifugio."
+    },
+    {
+      "t": "c",
+      "v": "                   SOL                DO"
+    },
+    {
+      "t": "l",
+      "v": "      Nella   tua  grazia  voglio   restare,"
+    },
+    {
+      "t": "c",
+      "v": "                 MI-                      RE4   RE     (SOL   LA-   DO    RE)"
+    },
+    {
+      "t": "l",
+      "v": "      Santo   Signore,   sempre    con   te."
+    },
+    {
+      "t": "c",
+      "v": "                    SOL                DO"
+    },
+    {
+      "t": "l",
+      "v": "      Sei la mia   forza,  la mia   salvezza,"
+    },
+    {
+      "t": "c",
+      "v": "                   MI-                RE"
+    },
+    {
+      "t": "l",
+      "v": "      sei la mia   pace,  sicuro   rifugio."
+    },
+    {
+      "t": "c",
+      "v": "                   SOL                DO"
+    },
+    {
+      "t": "l",
+      "v": "      Nella   tua  grazia  voglio   restare,"
+    },
+    {
+      "t": "c",
+      "v": "                 MI-                      RE4   RE"
+    },
+    {
+      "t": "l",
+      "v": "      Santo   Signore,   sempre    con   te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "DO"
+    }
+  ],
+  "id": "mi-basta-la-tua-grazia"
+}

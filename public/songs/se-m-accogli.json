@@ -1,0 +1,111 @@
+{
+  "title": "Se M'Accogli",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Se M'Accogli  Strofa 1          Tra le  mani   non   ho  niente,   spero  che  mi   accoglierai:          chiedo   solo  di  restare  accanto    a Te.          Sono   ricco  solamente     dell'Amore     che  mi  dai:          è per  quelli  che  non   l'hanno   avuto    mai.  Ritornello                Se  m'accogli,   mio   Signore,   altro  non   Ti chiederò                e  per  sempre    la tua  strada,  la mia   strada  resterà.                Nella   gioia,  nel  dolore,   fino  a quando     Tu vorrai,                con   la mano    nella  tua  camminerò!  Strofa 2    Io ti prego   con  il cuore,   so che  Tu  mi  ascolterai:    rendi  forte  la mia   fede  più  che  mai.    Tieni  accesa   la mia  luce  fino  al giorno   che   Tu sai:    con  i miei  fratelli incontro    a Te  verrò.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                 DO                FA              MI-         MI7     LA-"
+    },
+    {
+      "t": "l",
+      "v": "         Tra le  mani   non   ho  niente,   spero  che  mi   accoglierai:"
+    },
+    {
+      "t": "c",
+      "v": "                  DO           FA              SOL4      SOL"
+    },
+    {
+      "t": "l",
+      "v": "         chiedo   solo  di  restare  accanto    a Te."
+    },
+    {
+      "t": "c",
+      "v": "                DO           FA              MI-    MI7      LA-"
+    },
+    {
+      "t": "l",
+      "v": "         Sono   ricco  solamente     dell'Amore     che  mi  dai:"
+    },
+    {
+      "t": "c",
+      "v": "                  DO                 FA              SOL4     SOL"
+    },
+    {
+      "t": "l",
+      "v": "         è per  quelli  che  non   l'hanno   avuto    mai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                         DO               MI7            LA-             DO"
+    },
+    {
+      "t": "l",
+      "v": "               Se  m'accogli,   mio   Signore,   altro  non   Ti chiederò"
+    },
+    {
+      "t": "c",
+      "v": "                      FA                   RE-               MI7          LA-"
+    },
+    {
+      "t": "l",
+      "v": "               e  per  sempre    la tua  strada,  la mia   strada  resterà."
+    },
+    {
+      "t": "c",
+      "v": "                         FA            DO                FA       RE-     MI"
+    },
+    {
+      "t": "l",
+      "v": "               Nella   gioia,  nel  dolore,   fino  a quando     Tu vorrai,"
+    },
+    {
+      "t": "c",
+      "v": "                         LA-             SOL            FA   FA-  DO"
+    },
+    {
+      "t": "l",
+      "v": "               con   la mano    nella  tua  camminerò!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Io ti prego   con  il cuore,   so che  Tu  mi  ascolterai:"
+    },
+    {
+      "t": "l",
+      "v": "   rendi  forte  la mia   fede  più  che  mai."
+    },
+    {
+      "t": "l",
+      "v": "   Tieni  accesa   la mia  luce  fino  al giorno   che   Tu sai:"
+    },
+    {
+      "t": "l",
+      "v": "   con  i miei  fratelli incontro    a Te  verrò."
+    }
+  ],
+  "id": "se-m-accogli"
+}

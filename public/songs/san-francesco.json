@@ -1,0 +1,235 @@
+{
+  "title": "San Francesco",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "San Francesco  Intro Strofa 1 O  Signore    fa' di me   uno  strumento, fa' di me   uno   strumento     della  tua  pace: dov'è   odio,   che  io porti  l'amore, dov'è   offesa  che   io porti  il perdono, dov'è   dubbio    che  io porti   la fede, dov'è   discordia   che  io  porti  l'unione, dov'è   errore   che  io porti  verità, a chi  dispera   che  io porti   la speranza. Dov'è   errore   che  io  porti  verità, a chi  dispera   che  io porti   la speranza.  Ritornello 1 O  maestro    dammi     tu un  cuore   grande           che  sia  goccia  di  rugiada   per  il mondo           che  sia  voce  di  speranza    che  sia un  buon    mattino           per  il giorno   di ogni   uomo         e con   gli ultimi  del mondo           sia il mio   passo  lieto  nella  povertà,    nella  povertà. Ritornello 2           O   maestro    dammi    tu  un  cuore   grande           che  sia  goccia  di  rugiada   per  il mondo           che  sia  voce  di  speranza    che  sia un  buon    mattino           per  il giorno   di ogni   uomo         e con   gli ultimi  del mondo           sia il mio   passo  lieto  nella  povertà,    nella  povertà.  Strofa 2 O  Signore    fa' di me   il tuo canto, fa' di me   il tuo  canto   di pace: a chi  è triste che  io  porti  la gioia a chi  è nel  buio   che  io porti  la luce. È donando      che  si ama   la vita è servendo     che  si vive  con  gioia, perdonando       che  si trova  il perdono, è morendo      che  si vive  in eterno.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE    RE4     RE"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE              RE4             RE5#"
+    },
+    {
+      "t": "l",
+      "v": "O  Signore    fa' di me   uno  strumento,"
+    },
+    {
+      "t": "c",
+      "v": "RE              RE4             SOL SI7"
+    },
+    {
+      "t": "l",
+      "v": "fa' di me   uno   strumento     della  tua  pace:"
+    },
+    {
+      "t": "c",
+      "v": "         MI-            SOL-        LA"
+    },
+    {
+      "t": "l",
+      "v": "dov'è   odio,   che  io porti  l'amore,"
+    },
+    {
+      "t": "c",
+      "v": "           SIb           LA            RE     SOL     LA"
+    },
+    {
+      "t": "l",
+      "v": "dov'è   offesa  che   io porti  il perdono,"
+    },
+    {
+      "t": "c",
+      "v": "RE              RE4             RE5#"
+    },
+    {
+      "t": "l",
+      "v": "dov'è   dubbio    che  io porti   la fede,"
+    },
+    {
+      "t": "c",
+      "v": "RE4             SOL             SI4/7"
+    },
+    {
+      "t": "l",
+      "v": "dov'è   discordia   che  io  porti  l'unione,"
+    },
+    {
+      "t": "c",
+      "v": "          MI-            LA     FA#-      SI7"
+    },
+    {
+      "t": "l",
+      "v": "dov'è   errore   che  io porti  verità,"
+    },
+    {
+      "t": "c",
+      "v": "         MI-             LA             RE"
+    },
+    {
+      "t": "l",
+      "v": "a chi  dispera   che  io porti   la speranza."
+    },
+    {
+      "t": "c",
+      "v": "          MI-            LA     FA#-      SI7"
+    },
+    {
+      "t": "l",
+      "v": "Dov'è   errore   che  io  porti  verità,"
+    },
+    {
+      "t": "c",
+      "v": "         MI-             LA             RE7"
+    },
+    {
+      "t": "l",
+      "v": "a chi  dispera   che  io porti   la speranza."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL              SI             MI-"
+    },
+    {
+      "t": "l",
+      "v": "O  maestro    dammi     tu un  cuore   grande"
+    },
+    {
+      "t": "c",
+      "v": "                    LA-           DO              RE"
+    },
+    {
+      "t": "l",
+      "v": "          che  sia  goccia  di  rugiada   per  il mondo"
+    },
+    {
+      "t": "c",
+      "v": "                   DO      RE             SI-          MI-              DO7+"
+    },
+    {
+      "t": "l",
+      "v": "          che  sia  voce  di  speranza    che  sia un  buon    mattino"
+    },
+    {
+      "t": "c",
+      "v": "                  RE                  SOL7        DO          RE                SI-"
+    },
+    {
+      "t": "l",
+      "v": "          per  il giorno   di ogni   uomo         e con   gli ultimi  del mondo"
+    },
+    {
+      "t": "c",
+      "v": "          MI-                  DO      RE       SOL     LA-           RE7"
+    },
+    {
+      "t": "l",
+      "v": "          sia il mio   passo  lieto  nella  povertà,    nella  povertà."
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL              SI             MI-"
+    },
+    {
+      "t": "l",
+      "v": "          O   maestro    dammi    tu  un  cuore   grande"
+    },
+    {
+      "t": "c",
+      "v": "                    LA-           DO              RE"
+    },
+    {
+      "t": "l",
+      "v": "          che  sia  goccia  di  rugiada   per  il mondo"
+    },
+    {
+      "t": "c",
+      "v": "                   DO      RE             SI-          MI-              DO7+"
+    },
+    {
+      "t": "l",
+      "v": "          che  sia  voce  di  speranza    che  sia un  buon    mattino"
+    },
+    {
+      "t": "c",
+      "v": "                  RE                  SOL7        DO          RE                SI-"
+    },
+    {
+      "t": "l",
+      "v": "          per  il giorno   di ogni   uomo         e con   gli ultimi  del mondo"
+    },
+    {
+      "t": "c",
+      "v": "          MI-                  DO      RE       SOL     LA-    DO-      SOL"
+    },
+    {
+      "t": "l",
+      "v": "          sia il mio   passo  lieto  nella  povertà,    nella  povertà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "O  Signore    fa' di me   il tuo canto,"
+    },
+    {
+      "t": "l",
+      "v": "fa' di me   il tuo  canto   di pace:"
+    },
+    {
+      "t": "l",
+      "v": "a chi  è triste che  io  porti  la gioia"
+    },
+    {
+      "t": "l",
+      "v": "a chi  è nel  buio   che  io porti  la luce."
+    },
+    {
+      "t": "l",
+      "v": "È donando      che  si ama   la vita"
+    },
+    {
+      "t": "l",
+      "v": "è servendo     che  si vive  con  gioia,"
+    },
+    {
+      "t": "l",
+      "v": "perdonando       che  si trova  il perdono,"
+    },
+    {
+      "t": "l",
+      "v": "è morendo      che  si vive  in eterno."
+    }
+  ],
+  "id": "san-francesco"
+}

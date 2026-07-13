@@ -1,0 +1,156 @@
+{
+  "title": "Tu Sei Bambino",
+  "sub": "Capo 2/3/4",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Tu Sei Bambino Capo 2/3/4 Intro (x2)  Strofa 1    Tu sei bambino,   tu sei bambino,     l'infinito, Dio vicino.    Tu sei bambino,   tu sei bambino,     nel Natale  il nostro destino.     Tu  padrone   dei cieli e dei popoli,  tu l'altissimo Dio degli  eserciti,     sei quaggiù  tu minuscolo,   sei quaggiù  indifeso  in mezzo   a noi.  Strofa 2    Tu sei bambino,   tu sei bambino,   solo  paglia il tuo cuscino.    Tu sei bambino,   tu sei bambino,   tu l'immagine   del divino.    Che  dimentica   il cielo e le nuvole per venire  quaggiù  tra le lacrime.    Il tuo amore  è incredibile,  ma  sei sceso giù dal paradiso.  Ritornello Gra - zie,   che  sei venuto  quaggiù   a condividere.    Gra  - zie,  per il tuo amore   che non   ha più limiti.     Tu  bambino    sei qui in questa grotta    e tu resti a tremare, resti a tremare,   a tremare  come   noi.  Interludio (x2) Ripetere la prima strofa Ripetere il ritornello (x2)  Finale (FA lungo) Gra  - zie,  gra       -    zie.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro (x2)"
+    },
+    {
+      "t": "c",
+      "v": "DO   SOL  LA- FA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL            LA-             FA"
+    },
+    {
+      "t": "l",
+      "v": "   Tu sei bambino,   tu sei bambino,     l'infinito, Dio vicino."
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL             LA-             FA"
+    },
+    {
+      "t": "l",
+      "v": "   Tu sei bambino,   tu sei bambino,     nel Natale  il nostro destino."
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL               LA-             FA"
+    },
+    {
+      "t": "l",
+      "v": "    Tu  padrone   dei cieli e dei popoli,  tu l'altissimo Dio degli  eserciti,"
+    },
+    {
+      "t": "c",
+      "v": "   DO                  SOL                LA-             FA"
+    },
+    {
+      "t": "l",
+      "v": "    sei quaggiù  tu minuscolo,   sei quaggiù  indifeso  in mezzo   a noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Tu sei bambino,   tu sei bambino,   solo  paglia il tuo cuscino."
+    },
+    {
+      "t": "l",
+      "v": "   Tu sei bambino,   tu sei bambino,   tu l'immagine   del divino."
+    },
+    {
+      "t": "l",
+      "v": "   Che  dimentica   il cielo e le nuvole per venire  quaggiù  tra le lacrime."
+    },
+    {
+      "t": "l",
+      "v": "   Il tuo amore  è incredibile,  ma  sei sceso giù dal paradiso."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       DO     SOL     LA-                 FA"
+    },
+    {
+      "t": "l",
+      "v": "Gra - zie,   che  sei venuto  quaggiù   a condividere."
+    },
+    {
+      "t": "c",
+      "v": "   DO    SOL    LA-                    FA"
+    },
+    {
+      "t": "l",
+      "v": "   Gra  - zie,  per il tuo amore   che non   ha più limiti."
+    },
+    {
+      "t": "c",
+      "v": "   DO        SOL       LA-           FA"
+    },
+    {
+      "t": "l",
+      "v": "    Tu  bambino    sei qui in questa grotta"
+    },
+    {
+      "t": "c",
+      "v": "        DO                SOL            LA-           FA"
+    },
+    {
+      "t": "l",
+      "v": "   e tu resti a tremare, resti a tremare,   a tremare  come   noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio (x2)"
+    },
+    {
+      "t": "c",
+      "v": "   DO   SOL  LA- FA"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere la prima strofa"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale (FA lungo)"
+    },
+    {
+      "t": "c",
+      "v": "             DO     SOL   FA      DO"
+    },
+    {
+      "t": "l",
+      "v": "Gra  - zie,  gra       -    zie."
+    }
+  ],
+  "id": "tu-sei-bambino-capo-2-3-4"
+}

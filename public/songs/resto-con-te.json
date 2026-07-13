@@ -1,0 +1,282 @@
+{
+  "title": "Resto con Te",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Resto con Te  Intro  Strofa 1    Seme  gettato  nel mondo,    Figlio donato   alla terra,    il tuo silenzio   custodirò    In ciò che vive  e che muore    vedo  il tuo volto  d'amore:    sei il mio Signore    e  sei il mio Dio.  Ritornello 1 Io lo so che Tu  sfidi la mia morte    io lo so che Tu  abiti il mio buio    nell'attesa del giorno  che  verrà    Resto  con  Te.  Strofa 2    Nube   di mandorlo   in fiore    dentro  gli inverni del cuore    è questo  pane       che  Tu  ci dai.    Vena  di cielo profondo     dentro  le notti del mondo    è questo  vino     che  Tu  ci dai.  Ritornello 2 Io lo so che Tu  sfidi la mia morte    io lo so che Tu  abiti il mio buio    nell'attesa del giorno  che verrà    Resto  con Te.  Interludio  Finale    Tu sei Re  di stellate immensità    e sei Tu il futuro che verrà    sei l'amore  che muove    ogni realtà    e Tu sei qui    Resto  con Te",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL  RE4  MI-7  DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   DO       RE          MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Seme  gettato  nel mondo,"
+    },
+    {
+      "t": "c",
+      "v": "   DO        RE         SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Figlio donato   alla terra,"
+    },
+    {
+      "t": "c",
+      "v": "           DO    RE          MI-   RE"
+    },
+    {
+      "t": "l",
+      "v": "   il tuo silenzio   custodirò"
+    },
+    {
+      "t": "c",
+      "v": "   DO         RE             MI-"
+    },
+    {
+      "t": "l",
+      "v": "   In ciò che vive  e che muore"
+    },
+    {
+      "t": "c",
+      "v": "   DO          RE         SOL"
+    },
+    {
+      "t": "l",
+      "v": "   vedo  il tuo volto  d'amore:"
+    },
+    {
+      "t": "c",
+      "v": "                DO   LA-              RE4   RE"
+    },
+    {
+      "t": "l",
+      "v": "   sei il mio Signore    e  sei il mio Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 1"
+    },
+    {
+      "t": "c",
+      "v": "       SOL   RE          MI-          DO"
+    },
+    {
+      "t": "l",
+      "v": "Io lo so che Tu  sfidi la mia morte"
+    },
+    {
+      "t": "c",
+      "v": "   SOL   RE         MI-           DO"
+    },
+    {
+      "t": "l",
+      "v": "   io lo so che Tu  abiti il mio buio"
+    },
+    {
+      "t": "c",
+      "v": "   LA-    SOL      DO             RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "   nell'attesa del giorno  che  verrà"
+    },
+    {
+      "t": "c",
+      "v": "               SOL    RE4   MI-7     DO"
+    },
+    {
+      "t": "l",
+      "v": "   Resto  con  Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   DO        RE            MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Nube   di mandorlo   in fiore"
+    },
+    {
+      "t": "c",
+      "v": "   DO           RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "   dentro  gli inverni del cuore"
+    },
+    {
+      "t": "c",
+      "v": "             DO    RE              MI- RE"
+    },
+    {
+      "t": "l",
+      "v": "   è questo  pane       che  Tu  ci dai."
+    },
+    {
+      "t": "c",
+      "v": "   DO       RE        MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Vena  di cielo profondo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   DO         RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "   dentro  le notti del mondo"
+    },
+    {
+      "t": "c",
+      "v": "             DO   LA-            RE4    RE"
+    },
+    {
+      "t": "l",
+      "v": "   è questo  vino     che  Tu  ci dai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "       SOL   RE          MI-          DO"
+    },
+    {
+      "t": "l",
+      "v": "Io lo so che Tu  sfidi la mia morte"
+    },
+    {
+      "t": "c",
+      "v": "   SOL   RE         MI-           DO"
+    },
+    {
+      "t": "l",
+      "v": "   io lo so che Tu  abiti il mio buio"
+    },
+    {
+      "t": "c",
+      "v": "   LA-   SOL       DO             RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "   nell'attesa del giorno  che verrà"
+    },
+    {
+      "t": "c",
+      "v": "              DO   RE     SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Resto  con Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "   DO  RE      SOL"
+    },
+    {
+      "t": "c",
+      "v": "   LA-   MI-    LA-    RE"
+    },
+    {
+      "t": "c",
+      "v": "   DO  RE      MI-7     DO   RE    SOL"
+    },
+    {
+      "t": "c",
+      "v": "   DO     LA-   RE4    RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "   SOL    RE        MI-            DO"
+    },
+    {
+      "t": "l",
+      "v": "   Tu sei Re  di stellate immensità"
+    },
+    {
+      "t": "c",
+      "v": "   SOL  RE      MI-           DO"
+    },
+    {
+      "t": "l",
+      "v": "   e sei Tu il futuro che verrà"
+    },
+    {
+      "t": "c",
+      "v": "   LA-   SOL        DO              RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "   sei l'amore  che muove    ogni realtà"
+    },
+    {
+      "t": "c",
+      "v": "            SOL   RE  DO/RE     DO"
+    },
+    {
+      "t": "l",
+      "v": "   e Tu sei qui"
+    },
+    {
+      "t": "c",
+      "v": "              SOL   RE  DO/RE     DO   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Resto  con Te"
+    }
+  ],
+  "id": "resto-con-te"
+}

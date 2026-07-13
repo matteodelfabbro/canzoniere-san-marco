@@ -1,0 +1,105 @@
+{
+  "title": "Signore Pietà",
+  "sub": "Buttazzo",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Signore Pietà Buttazzo Intro  Invocazione 1        Signore,    pietà  di     noi.          (x2)  Invocazione 2                                                 Cristo,   pietà  di  noi.                                                 Cristo,   pietà  di  noi.  Invocazione 3        Signore    pietà,  Signore    pietà,        Signore    pietà       di     noi.  Finale        Signore    pietà,  Signore    pietà,        Signore      pietà        di    noi.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE  FA#-7    SOL    LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 1"
+    },
+    {
+      "t": "c",
+      "v": "       RE            FA#-7       MI-7       LA"
+    },
+    {
+      "t": "l",
+      "v": "       Signore,    pietà  di     noi.          (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 2"
+    },
+    {
+      "t": "c",
+      "v": "                                                SOL        MI-7        LA4        LA"
+    },
+    {
+      "t": "l",
+      "v": "                                                Cristo,   pietà  di  noi."
+    },
+    {
+      "t": "c",
+      "v": "                                                MI-            SOL        LA4         LA"
+    },
+    {
+      "t": "l",
+      "v": "                                                Cristo,   pietà  di  noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Invocazione 3"
+    },
+    {
+      "t": "c",
+      "v": "       SI-        SOL       RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "       Signore    pietà,  Signore    pietà,"
+    },
+    {
+      "t": "c",
+      "v": "       RE           SOL      LA4    RE          MI-   FA#"
+    },
+    {
+      "t": "l",
+      "v": "       Signore    pietà       di     noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "       SI-           SOL       RE          SOL"
+    },
+    {
+      "t": "l",
+      "v": "       Signore    pietà,  Signore    pietà,"
+    },
+    {
+      "t": "c",
+      "v": "       RE     SI-    SOL        LA4     RE"
+    },
+    {
+      "t": "l",
+      "v": "       Signore      pietà        di    noi."
+    }
+  ],
+  "id": "signore-pieta-buttazzo"
+}

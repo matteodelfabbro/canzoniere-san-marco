@@ -1,0 +1,318 @@
+{
+  "title": "Il Vascello dell'Amore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Il Vascello dell'Amore  Strofa 1         Tu  che  inventi   per  ognuno    di  noi         un  cammino      che  porta   verso   te,         tu  che  chiami   ognuno     per  il suo nome     tu         oggi  ci chiami   insieme. Strofa 2         Tu  che  hai  in mente    per  ognuno     di noi         una   strada  bellissima   con   te,         tu  stavolta  parli  di un'avventura      che         che  si percorre    insieme.  Ritornello                     Rendi    agile il vascello   dell'amore    nostro,                     docile   al soffio  del  tuo  Spirito,                     e  per  gli inimmaginabili     mari   conducilo,                     quelli  che  tu  sai.                     Rendi    agile il vascello   dell'amore    nostro,                     che   tocchi  i lidi che  tu solo  sai                     e  la scia della  sua  rotta  che  disegni   un'onda                      quella  che  tu  vuoi.  Strofa 3         Dacci   forza  perché    ognuno    di  noi         con   la vita dispieghi   la tua  idea.         Dacci   forza  per  svelare   il pensiero   tuo         su  questa   vita insieme. Strofa 3 (ripetere)         Dacci   forza  perché    ognuno    di  noi         con   la vita dispieghi   la tua  idea.         Dacci   forza  per  svelare   il pensiero   tuo         su  questa   vita insieme.  Ritornello finale                     Rendi    agile il vascello   dell'amore    nostro,                     docile   al soffio  del  tuo  Spirito,                     e  per  gli inimmaginabili     mari   conducilo,                     quelli  che  tu  sai.                     Rendi    agile il vascello   dell'amore    nostro,                     che   tocchi  i lidi che  tu solo  sai                     e  la scia della  sua  rotta  che  disegni   un'onda                      quella  che   tu, quella  che,                      quella  che   tu, quella  che,                      quella   che  tu...   vuoi.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "        MI-"
+    },
+    {
+      "t": "l",
+      "v": "        Tu  che  inventi   per  ognuno    di  noi"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL                        RE"
+    },
+    {
+      "t": "l",
+      "v": "        un  cammino      che  porta   verso   te,"
+    },
+    {
+      "t": "c",
+      "v": "        LA-                         DO                        DO"
+    },
+    {
+      "t": "l",
+      "v": "        tu  che  chiami   ognuno     per  il suo nome     tu"
+    },
+    {
+      "t": "c",
+      "v": "                    RE            MI-"
+    },
+    {
+      "t": "l",
+      "v": "        oggi  ci chiami   insieme."
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "        MI-"
+    },
+    {
+      "t": "l",
+      "v": "        Tu  che  hai  in mente    per  ognuno     di noi"
+    },
+    {
+      "t": "c",
+      "v": "                  SOL                    RE"
+    },
+    {
+      "t": "l",
+      "v": "        una   strada  bellissima   con   te,"
+    },
+    {
+      "t": "c",
+      "v": "        LA-                 DO                         DO"
+    },
+    {
+      "t": "l",
+      "v": "        tu  stavolta  parli  di un'avventura      che"
+    },
+    {
+      "t": "c",
+      "v": "                     RE           MI-"
+    },
+    {
+      "t": "l",
+      "v": "        che  si percorre    insieme."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                            SOL                           RE             LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    Rendi    agile il vascello   dell'amore    nostro,"
+    },
+    {
+      "t": "c",
+      "v": "                                                   MI-"
+    },
+    {
+      "t": "l",
+      "v": "                    docile   al soffio  del  tuo  Spirito,"
+    },
+    {
+      "t": "c",
+      "v": "                               SOL                   RE                  LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    e  per  gli inimmaginabili     mari   conducilo,"
+    },
+    {
+      "t": "c",
+      "v": "                                          DO"
+    },
+    {
+      "t": "l",
+      "v": "                    quelli  che  tu  sai."
+    },
+    {
+      "t": "c",
+      "v": "                            SOL                           RE             LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    Rendi    agile il vascello   dell'amore    nostro,"
+    },
+    {
+      "t": "c",
+      "v": "                                                 MI-"
+    },
+    {
+      "t": "l",
+      "v": "                    che   tocchi  i lidi che  tu solo  sai"
+    },
+    {
+      "t": "c",
+      "v": "                             SOL                          RE                LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    e  la scia della  sua  rotta  che  disegni   un'onda"
+    },
+    {
+      "t": "c",
+      "v": "                                        DO"
+    },
+    {
+      "t": "l",
+      "v": "                     quella  che  tu  vuoi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "        MI-"
+    },
+    {
+      "t": "l",
+      "v": "        Dacci   forza  perché    ognuno    di  noi"
+    },
+    {
+      "t": "c",
+      "v": "                SOL                        RE"
+    },
+    {
+      "t": "l",
+      "v": "        con   la vita dispieghi   la tua  idea."
+    },
+    {
+      "t": "c",
+      "v": "        LA-                     DO                       DO"
+    },
+    {
+      "t": "l",
+      "v": "        Dacci   forza  per  svelare   il pensiero   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                     RE             MI-"
+    },
+    {
+      "t": "l",
+      "v": "        su  questa   vita insieme."
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3 (ripetere)"
+    },
+    {
+      "t": "c",
+      "v": "        MI-"
+    },
+    {
+      "t": "l",
+      "v": "        Dacci   forza  perché    ognuno    di  noi"
+    },
+    {
+      "t": "c",
+      "v": "                SOL                        RE"
+    },
+    {
+      "t": "l",
+      "v": "        con   la vita dispieghi   la tua  idea."
+    },
+    {
+      "t": "c",
+      "v": "        LA-                     DO                       DO"
+    },
+    {
+      "t": "l",
+      "v": "        Dacci   forza  per  svelare   il pensiero   tuo"
+    },
+    {
+      "t": "c",
+      "v": "                     RE             MI-"
+    },
+    {
+      "t": "l",
+      "v": "        su  questa   vita insieme."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "                      SOL                          RE             LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    Rendi    agile il vascello   dell'amore    nostro,"
+    },
+    {
+      "t": "c",
+      "v": "                                                   MI-"
+    },
+    {
+      "t": "l",
+      "v": "                    docile   al soffio  del  tuo  Spirito,"
+    },
+    {
+      "t": "c",
+      "v": "                               SOL                   RE                  LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    e  per  gli inimmaginabili     mari   conducilo,"
+    },
+    {
+      "t": "c",
+      "v": "                                          DO"
+    },
+    {
+      "t": "l",
+      "v": "                    quelli  che  tu  sai."
+    },
+    {
+      "t": "c",
+      "v": "                            SOL                           RE             LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    Rendi    agile il vascello   dell'amore    nostro,"
+    },
+    {
+      "t": "c",
+      "v": "                                                 MI-"
+    },
+    {
+      "t": "l",
+      "v": "                    che   tocchi  i lidi che  tu solo  sai"
+    },
+    {
+      "t": "c",
+      "v": "                             SOL                          RE                LA-"
+    },
+    {
+      "t": "l",
+      "v": "                    e  la scia della  sua  rotta  che  disegni   un'onda"
+    },
+    {
+      "t": "c",
+      "v": "                                        DO"
+    },
+    {
+      "t": "l",
+      "v": "                     quella  che   tu, quella  che,"
+    },
+    {
+      "t": "c",
+      "v": "                     LA-                DO"
+    },
+    {
+      "t": "l",
+      "v": "                     quella  che   tu, quella  che,"
+    },
+    {
+      "t": "c",
+      "v": "                     LA-                    MI-"
+    },
+    {
+      "t": "l",
+      "v": "                     quella   che  tu...   vuoi."
+    }
+  ],
+  "id": "il-vascello-dell-amore"
+}

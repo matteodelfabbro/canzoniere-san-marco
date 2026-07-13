@@ -1,0 +1,113 @@
+{
+  "title": "Scusa Signore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Scusa Signore  Intro  Strofa 1 Scusa   Signore,   se bussiamo     alla porta   del Tuo   cuore,   siamo   noi Scusa   Signore,   se chiediamo     mendicanti     dell'amore,    un  ristoro  da  Te  Ritornello       Così   la foglia  quando     è stanca  cade   giù       Ma    poi  la terra  ha  una  vita  sempre    in più       Così   la gente   quando    è  stanca,  vuole   Te       e  Tu, Signore,   hai  una   vita sempre    in  più, sempre    in  più  Strofa 2 Scusa   Signore   se entriamo     nella  reggia  della  luce  siamo   noi Scusa   Signore   se sediamo     alla mensa    del  tuo  corpo   per  saziarci  di Te  Strofa 3 Scusa   Signore   quando     usciamo    dalla  strada  del  Tuo  amore     siamo   noi Scusa   Signore   se ci vedi  solo  all'ora  del  perdono,     ritornare   da  Te",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO     SOL7      DO     SOL7"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": " DO        SOL7             DO          FA                DO               SOL7  SOL4 SOL7"
+    },
+    {
+      "t": "l",
+      "v": "Scusa   Signore,   se bussiamo     alla porta   del Tuo   cuore,   siamo   noi"
+    },
+    {
+      "t": "c",
+      "v": " DO        SOL7             DO          FA                DO             SOL7      DO     SOL7"
+    },
+    {
+      "t": "l",
+      "v": "Scusa   Signore,   se chiediamo     mendicanti     dell'amore,    un  ristoro  da  Te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       DO       FA                    FA-           DO"
+    },
+    {
+      "t": "l",
+      "v": "      Così   la foglia  quando     è stanca  cade   giù"
+    },
+    {
+      "t": "c",
+      "v": "             LA-    MI-             FA                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "      Ma    poi  la terra  ha  una  vita  sempre    in più"
+    },
+    {
+      "t": "c",
+      "v": "       DO       FA                    FA-             DO"
+    },
+    {
+      "t": "l",
+      "v": "      Così   la gente   quando    è  stanca,  vuole   Te"
+    },
+    {
+      "t": "c",
+      "v": "         LA-      MI-              FA                 SOL                DO"
+    },
+    {
+      "t": "l",
+      "v": "      e  Tu, Signore,   hai  una   vita sempre    in  più, sempre    in  più"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "Scusa   Signore   se entriamo     nella  reggia  della  luce  siamo   noi"
+    },
+    {
+      "t": "l",
+      "v": "Scusa   Signore   se sediamo     alla mensa    del  tuo  corpo   per  saziarci  di Te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "Scusa   Signore   quando     usciamo    dalla  strada  del  Tuo  amore     siamo   noi"
+    },
+    {
+      "t": "l",
+      "v": "Scusa   Signore   se ci vedi  solo  all'ora  del  perdono,     ritornare   da  Te"
+    }
+  ],
+  "id": "scusa-signore"
+}

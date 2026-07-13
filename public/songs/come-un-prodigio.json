@@ -1,0 +1,275 @@
+{
+  "title": "Come un Prodigio",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Come un Prodigio  Intro  Strofa 1    Signore  tu mi scruti e conosci    sai quando   seggo  e quando   mi  alzo    Riesci a vedere  i miei pensieri   sai quando   io cammino    e quando   riposo    Ti sono  note  tutte le mie vie    la mia parola  non  è ancora   sulla lingua    E tu, Signore, già la conosci  tutta  Ritornello    Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre    Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo  ti lodo  Interludio  Strofa 2    Di fronte  e alle spalle tu mi circondi     poni  su me  la tua mano    La tua saggezza,  stupenda   per  me       è troppo   alta e io non  la comprendo    Che  sia in cielo o agli inferi, ci sei non si può mai fuggire dalla tua  presenza    Ovunque    la tua mano   guiderà  la mia  Ritornello    Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre    Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo  ti lodo  Interludio  Strofa 3    E nel segreto  tu mi hai formato   mi  hai intessuto dalla  terra    Neanche   le ossa ti eran nascoste  ancora   informe  mi  hanno   visto i tuoi occhi    I miei giorni erano  fissati quando  ancora   non  ne esisteva  uno    E tutto quanto   era scritto nel tuo libro  Ritornello    Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre    Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo  ti lodo  Interludio  Ritornello finale    Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre    Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo    per questo  ti lodo",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "LAm   FA  DO  MIm     LAm   FA  DO  SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "            LAm                FA                   DO                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Signore  tu mi scruti e conosci    sai quando   seggo  e quando   mi  alzo"
+    },
+    {
+      "t": "c",
+      "v": "                LAm              FA                DO                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Riesci a vedere  i miei pensieri   sai quando   io cammino    e quando   riposo"
+    },
+    {
+      "t": "c",
+      "v": "    SIb                        FA              DO                         DO7"
+    },
+    {
+      "t": "l",
+      "v": "   Ti sono  note  tutte le mie vie    la mia parola  non  è ancora   sulla lingua"
+    },
+    {
+      "t": "c",
+      "v": "     SIb                   |FA    SOL|"
+    },
+    {
+      "t": "l",
+      "v": "   E tu, Signore, già la conosci  tutta"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                   FA                         DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                              FA                  DO                     SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo  ti lodo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "   LAm   FA DO   SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                     LAm             FA                 DO           SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Di fronte  e alle spalle tu mi circondi     poni  su me  la tua mano"
+    },
+    {
+      "t": "c",
+      "v": "              LAm                    FA                  DO             SOL"
+    },
+    {
+      "t": "l",
+      "v": "   La tua saggezza,  stupenda   per  me       è troppo   alta e io non  la comprendo"
+    },
+    {
+      "t": "c",
+      "v": "        SIb                          FA              DO                         DO7"
+    },
+    {
+      "t": "l",
+      "v": "   Che  sia in cielo o agli inferi, ci sei non si può mai fuggire dalla tua  presenza"
+    },
+    {
+      "t": "c",
+      "v": "     SIb                         |FA   SOL|"
+    },
+    {
+      "t": "l",
+      "v": "   Ovunque    la tua mano   guiderà  la mia"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                   FA                         DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                              FA                  DO                     SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo  ti lodo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "   LAm   FA DO   SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "             LAm                FA                  DO         SOL"
+    },
+    {
+      "t": "l",
+      "v": "   E nel segreto  tu mi hai formato   mi  hai intessuto dalla  terra"
+    },
+    {
+      "t": "c",
+      "v": "                LAm              FA               DO                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Neanche   le ossa ti eran nascoste  ancora   informe  mi  hanno   visto i tuoi occhi"
+    },
+    {
+      "t": "c",
+      "v": "    SIb                    FA              DO                     DO7"
+    },
+    {
+      "t": "l",
+      "v": "   I miei giorni erano  fissati quando  ancora   non  ne esisteva  uno"
+    },
+    {
+      "t": "c",
+      "v": "   SIb                        |FA       SOL|"
+    },
+    {
+      "t": "l",
+      "v": "   E tutto quanto   era scritto nel tuo libro"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                   FA                         DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                              FA                  DO                     SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo  ti lodo"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio"
+    },
+    {
+      "t": "c",
+      "v": "   LAm   FA LAm   FA"
+    },
+    {
+      "t": "c",
+      "v": "   LAm   FA LAm   SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                   FA                         DO              SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Sei tu che mi  hai creato  e mi hai tessuto  nel seno  di mia madre"
+    },
+    {
+      "t": "c",
+      "v": "   LAm                              FA                  DO                     SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  mi hai fatto come   un  prodigio  le tue opere  sono  stupende   e per  questo"
+    },
+    {
+      "t": "c",
+      "v": "                 FA       DO"
+    },
+    {
+      "t": "l",
+      "v": "   per questo  ti lodo"
+    }
+  ],
+  "id": "come-un-prodigio"
+}

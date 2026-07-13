@@ -1,0 +1,135 @@
+{
+  "title": "La Mia Anima Canta",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "La Mia Anima Canta  Ritornello La  mia  anima    canta   la grandezza     del Signore,                    il mio   spirito  esulta  nel mio   salvatore.                    Nella   mia   povertà    l'Infinito mi  ha  guardata,                    in  eterno   ogni  creatura    mi  chiamerà    beata.  Strofa 1               1.     La  mia  gioia  è  nel Signore                      che  ha  compiuto     grandi   cose  in  me,                      la mia   lode  al Dio   fedele                      che  ha  soccorso    il suo popolo                      e non   ha  dimenticato                      le sue  promesse     d'amore.  Strofa 2               2.    Ha  disperso    i superbi                     nei pensieri   inconfessabili,                     ha  deposto    i potenti,                     ha  risollevato   gli umili,                     ha  saziato  gli affamati                     e aperto   ai ricchi  le mani.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                    DO       RE      SOL             MI-            LA-7"
+    },
+    {
+      "t": "l",
+      "v": "La  mia  anima    canta   la grandezza     del Signore,"
+    },
+    {
+      "t": "c",
+      "v": "                           SI         DO         RE           SOL"
+    },
+    {
+      "t": "l",
+      "v": "                   il mio   spirito  esulta  nel mio   salvatore."
+    },
+    {
+      "t": "c",
+      "v": "                    DO       RE      SOL          MI-               LA-7"
+    },
+    {
+      "t": "l",
+      "v": "                   Nella   mia   povertà    l'Infinito mi  ha  guardata,"
+    },
+    {
+      "t": "c",
+      "v": "                         SI                DO           RE         SOL"
+    },
+    {
+      "t": "l",
+      "v": "                   in  eterno   ogni  creatura    mi  chiamerà    beata."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                                LA-                 SI-"
+    },
+    {
+      "t": "l",
+      "v": "              1.     La  mia  gioia  è  nel Signore"
+    },
+    {
+      "t": "c",
+      "v": "                              DO                     SI-"
+    },
+    {
+      "t": "l",
+      "v": "                     che  ha  compiuto     grandi   cose  in  me,"
+    },
+    {
+      "t": "c",
+      "v": "                             LA-                SI-"
+    },
+    {
+      "t": "l",
+      "v": "                     la mia   lode  al Dio   fedele"
+    },
+    {
+      "t": "c",
+      "v": "                                   DO            SI-"
+    },
+    {
+      "t": "l",
+      "v": "                     che  ha  soccorso    il suo popolo"
+    },
+    {
+      "t": "c",
+      "v": "                             SOL"
+    },
+    {
+      "t": "l",
+      "v": "                     e non   ha  dimenticato"
+    },
+    {
+      "t": "c",
+      "v": "                        DO-                  SOL"
+    },
+    {
+      "t": "l",
+      "v": "                     le sue  promesse     d'amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "              2.    Ha  disperso    i superbi"
+    },
+    {
+      "t": "l",
+      "v": "                    nei pensieri   inconfessabili,"
+    },
+    {
+      "t": "l",
+      "v": "                    ha  deposto    i potenti,"
+    },
+    {
+      "t": "l",
+      "v": "                    ha  risollevato   gli umili,"
+    },
+    {
+      "t": "l",
+      "v": "                    ha  saziato  gli affamati"
+    },
+    {
+      "t": "l",
+      "v": "                    e aperto   ai ricchi  le mani."
+    }
+  ],
+  "id": "la-mia-anima-canta"
+}

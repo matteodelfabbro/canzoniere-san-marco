@@ -1,0 +1,192 @@
+{
+  "title": "Bisognerebbe",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Bisognerebbe  Intro  Ritornello Bisognerebbe   attraversar  la strada e andare  via  da qui       Senza  chiedersi  più: domani   che  sarà?       E  andare  oltre questo  nostro  cuore,          che  freme  sotto il sole       Stanco   del nostro  pianto.       Finire di cercare  quel  che non  può  accadere,       perché   non  serve correre,  se non  sai più dove  andare.  Strofa 1              1. E tu che hai corso  tanto,  senza arrivare  mai,                 sotto il tuo cielo grigio, dimmi  tu che  farai.                 Tu che  hai già scordato,  cos'è un  sorriso vero                 Se hai già dimenticato   anche  il pianto sincero.  Strofa 2              2. E tu che  non  dividi le pene  che tu hai                 Dentro  il tuo cuore  chiuso  dimmi   che farai…                 Tu che  dici: \"sto meglio  quando   non   c'è nessuno\"                 Se un giorno   volessi parlare con  qualcuno?  Strofa 3              3. Non   certo attendo   che si vive di più                 Tantomeno     fingendo  come   adesso  fai tu.                 La strada è meno    lunga quando    incontri qualcuno                 E varrebbe  la pena  di prendersi  per  mano.  Finale Bisognerebbe    attraversar  la strada e andare  via da  qui         Senza  chiedersi più: domani    che sarà?         E andare  oltre questo  nostro  cuore  che  freme  sotto il sole         Stanco  del nostro  pianto.         Finire di cercare quel  che non   accadrà         ieri è soltanto ieri, domani  si vedrà!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "LA7"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "               RE           SOL        RE   SOL           RE"
+    },
+    {
+      "t": "l",
+      "v": "Bisognerebbe   attraversar  la strada e andare  via  da qui"
+    },
+    {
+      "t": "c",
+      "v": "                              LA            RE"
+    },
+    {
+      "t": "l",
+      "v": "      Senza  chiedersi  più: domani   che  sarà?"
+    },
+    {
+      "t": "c",
+      "v": "                 RE7                     SOL   SOL-                        RE"
+    },
+    {
+      "t": "l",
+      "v": "      E  andare  oltre questo  nostro  cuore,          che  freme  sotto il sole"
+    },
+    {
+      "t": "c",
+      "v": "         LA"
+    },
+    {
+      "t": "l",
+      "v": "      Stanco   del nostro  pianto."
+    },
+    {
+      "t": "c",
+      "v": "            RE      SOL             RE"
+    },
+    {
+      "t": "l",
+      "v": "      Finire di cercare  quel  che non  può  accadere,"
+    },
+    {
+      "t": "c",
+      "v": "                     SOL           RE       LA             RE"
+    },
+    {
+      "t": "l",
+      "v": "      perché   non  serve correre,  se non  sai più dove  andare."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                 RE                         LA"
+    },
+    {
+      "t": "l",
+      "v": "             1. E tu che hai corso  tanto,  senza arrivare  mai,"
+    },
+    {
+      "t": "c",
+      "v": "                                          RE"
+    },
+    {
+      "t": "l",
+      "v": "                sotto il tuo cielo grigio, dimmi  tu che  farai."
+    },
+    {
+      "t": "c",
+      "v": "                SOL                          RE"
+    },
+    {
+      "t": "l",
+      "v": "                Tu che  hai già scordato,  cos'è un  sorriso vero"
+    },
+    {
+      "t": "c",
+      "v": "                      LA                                      LA7"
+    },
+    {
+      "t": "l",
+      "v": "                Se hai già dimenticato   anche  il pianto sincero."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "             2. E tu che  non  dividi le pene  che tu hai"
+    },
+    {
+      "t": "l",
+      "v": "                Dentro  il tuo cuore  chiuso  dimmi   che farai…"
+    },
+    {
+      "t": "l",
+      "v": "                Tu che  dici: \"sto meglio  quando   non   c'è nessuno\""
+    },
+    {
+      "t": "l",
+      "v": "                Se un giorno   volessi parlare con  qualcuno?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "             3. Non   certo attendo   che si vive di più"
+    },
+    {
+      "t": "l",
+      "v": "                Tantomeno     fingendo  come   adesso  fai tu."
+    },
+    {
+      "t": "l",
+      "v": "                La strada è meno    lunga quando    incontri qualcuno"
+    },
+    {
+      "t": "l",
+      "v": "                E varrebbe  la pena  di prendersi  per  mano."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "l",
+      "v": "Bisognerebbe    attraversar  la strada e andare  via da  qui"
+    },
+    {
+      "t": "l",
+      "v": "        Senza  chiedersi più: domani    che sarà?"
+    },
+    {
+      "t": "l",
+      "v": "        E andare  oltre questo  nostro  cuore  che  freme  sotto il sole"
+    },
+    {
+      "t": "l",
+      "v": "        Stanco  del nostro  pianto."
+    },
+    {
+      "t": "l",
+      "v": "        Finire di cercare quel  che non   accadrà"
+    },
+    {
+      "t": "l",
+      "v": "        ieri è soltanto ieri, domani  si vedrà!"
+    }
+  ],
+  "id": "bisognerebbe"
+}

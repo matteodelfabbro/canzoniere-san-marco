@@ -1,0 +1,130 @@
+{
+  "title": "Te, al Centro del Mio Cuore",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Te, al Centro del Mio Cuore  Strofa 1           Ho   bisogno    d'incontrarti    nel mio   cuore,           di  trovare   Te,  di stare  insieme   a  Te:           unico   riferimento     del mio   andare,           unica   ragione    Tu,  unico  sostegno    Tu.           Al  centro   del  mio   cuore   ci sei solo  Tu.  Strofa 2           Anche    il cielo gira  intorno    e non   ha  pace,           ma   c'è un   punto   fermo,   è  quella  stella  là.           La  stella polare    è fissa ed  è la sola,           la  stella polare   Tu,  la stella sicura  Tu.  Ritornello                 Tutto  ruota   attorno    a Te,  in funzione    di Te                 e poi  non   importa    il «come»,   il «dove»,   il «se».  Strofa 3          Che   Tu  splenda    sempre    al centro   del  mio   cuore,          il significato  allora  sarai  Tu,          quello   che  farò  sarà  soltanto   amore.          Unico    sostegno    Tu,  la stella polare   Tu.          Al  centro   del  mio  cuore   ci sei solo  tu.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "          MI-                                          SOL"
+    },
+    {
+      "t": "l",
+      "v": "          Ho   bisogno    d'incontrarti    nel mio   cuore,"
+    },
+    {
+      "t": "c",
+      "v": "          SI-                                       DO"
+    },
+    {
+      "t": "l",
+      "v": "          di  trovare   Te,  di stare  insieme   a  Te:"
+    },
+    {
+      "t": "c",
+      "v": "          LA-                                 MI-"
+    },
+    {
+      "t": "l",
+      "v": "          unico   riferimento     del mio   andare,"
+    },
+    {
+      "t": "c",
+      "v": "          DO                RE     SI-               MI-"
+    },
+    {
+      "t": "l",
+      "v": "          unica   ragione    Tu,  unico  sostegno    Tu."
+    },
+    {
+      "t": "c",
+      "v": "              DO                         RE           SOL"
+    },
+    {
+      "t": "l",
+      "v": "          Al  centro   del  mio   cuore   ci sei solo  Tu."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "          Anche    il cielo gira  intorno    e non   ha  pace,"
+    },
+    {
+      "t": "l",
+      "v": "          ma   c'è un   punto   fermo,   è  quella  stella  là."
+    },
+    {
+      "t": "l",
+      "v": "          La  stella polare    è fissa ed  è la sola,"
+    },
+    {
+      "t": "l",
+      "v": "          la  stella polare   Tu,  la stella sicura  Tu."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "         SOL            SI-                DO                       SI-"
+    },
+    {
+      "t": "l",
+      "v": "                Tutto  ruota   attorno    a Te,  in funzione    di Te"
+    },
+    {
+      "t": "c",
+      "v": "         MI-            SI-                   DO                     RE"
+    },
+    {
+      "t": "l",
+      "v": "                e poi  non   importa    il «come»,   il «dove»,   il «se»."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "         Che   Tu  splenda    sempre    al centro   del  mio   cuore,"
+    },
+    {
+      "t": "l",
+      "v": "         il significato  allora  sarai  Tu,"
+    },
+    {
+      "t": "l",
+      "v": "         quello   che  farò  sarà  soltanto   amore."
+    },
+    {
+      "t": "l",
+      "v": "         Unico    sostegno    Tu,  la stella polare   Tu."
+    },
+    {
+      "t": "l",
+      "v": "         Al  centro   del  mio  cuore   ci sei solo  tu."
+    }
+  ],
+  "id": "te-al-centro-del-mio-cuore"
+}

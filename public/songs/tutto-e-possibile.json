@@ -1,0 +1,199 @@
+{
+  "title": "Tutto È Possibile",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Tutto È Possibile  Intro  Strofa 1    Questo  è il luogo che Dio ha scelto per te,    questo è il tempo  pensato per  te    Quella che  vedi è la strada che lui traccerà    quello che senti l'Amore  che mai finirà  Ritornello E andremo  e annunceremo    che in Lui tutto è possibile    E andremo   e annunceremo    che nulla ci può vincere    Perché abbiamo   udito le Sue parole    Perché abbiam   veduto  vite cambiare    Perché abbiamo   visto l'Amore  vincere    Sì abbiamo  visto l'Amore  vincere  Interludio (x2)  Strofa 2    Questo  è il momento   che Dio ha  atteso per te,    questo è il sogno che ha fatto su te    quella che vedi, è la strada tracciata per te    quello che senti, l'amore che ti accompagnerà  Ripetere il ritornello (x2)  Strofa 3    Questo  è il tempo che  Dio ha scelto per te,    questo è il sogno che aveva  su te",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO  SOL  LA-   FA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "                DO                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Questo  è il luogo che Dio ha scelto per te,"
+    },
+    {
+      "t": "c",
+      "v": "               LA-                FA"
+    },
+    {
+      "t": "l",
+      "v": "   questo è il tempo  pensato per  te"
+    },
+    {
+      "t": "c",
+      "v": "               DO                  SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Quella che  vedi è la strada che lui traccerà"
+    },
+    {
+      "t": "c",
+      "v": "               LA-               FA"
+    },
+    {
+      "t": "l",
+      "v": "   quello che senti l'Amore  che mai finirà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "             DO              SOL           LA-            FA"
+    },
+    {
+      "t": "l",
+      "v": "E andremo  e annunceremo    che in Lui tutto è possibile"
+    },
+    {
+      "t": "c",
+      "v": "         DO              SOL        LA-          FA"
+    },
+    {
+      "t": "l",
+      "v": "   E andremo   e annunceremo    che nulla ci può vincere"
+    },
+    {
+      "t": "c",
+      "v": "   DO                SOL          LA-    FA"
+    },
+    {
+      "t": "l",
+      "v": "   Perché abbiamo   udito le Sue parole"
+    },
+    {
+      "t": "c",
+      "v": "   DO                SOL            LA-    FA"
+    },
+    {
+      "t": "l",
+      "v": "   Perché abbiam   veduto  vite cambiare"
+    },
+    {
+      "t": "c",
+      "v": "   DO              SOL             LA-   FA"
+    },
+    {
+      "t": "l",
+      "v": "   Perché abbiamo   visto l'Amore  vincere"
+    },
+    {
+      "t": "c",
+      "v": "   DO          SOL           LA-   FA"
+    },
+    {
+      "t": "l",
+      "v": "   Sì abbiamo  visto l'Amore  vincere"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio (x2)"
+    },
+    {
+      "t": "c",
+      "v": "   DO  SOL  LA-   FA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "                  DO                  SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Questo  è il momento   che Dio ha  atteso per te,"
+    },
+    {
+      "t": "c",
+      "v": "               LA-                   FA"
+    },
+    {
+      "t": "l",
+      "v": "   questo è il sogno che ha fatto su te"
+    },
+    {
+      "t": "c",
+      "v": "              DO                 SOL"
+    },
+    {
+      "t": "l",
+      "v": "   quella che vedi, è la strada tracciata per te"
+    },
+    {
+      "t": "c",
+      "v": "               LA-                    FA"
+    },
+    {
+      "t": "l",
+      "v": "   quello che senti, l'amore che ti accompagnerà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello (x2)"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL LA- FA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "              DO                   SOL"
+    },
+    {
+      "t": "l",
+      "v": "   Questo  è il tempo che  Dio ha scelto per te,"
+    },
+    {
+      "t": "c",
+      "v": "              LA-                  FA"
+    },
+    {
+      "t": "l",
+      "v": "   questo è il sogno che aveva  su te"
+    }
+  ],
+  "id": "tutto-e-possibile"
+}

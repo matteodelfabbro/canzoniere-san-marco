@@ -1,0 +1,33 @@
+{
+  "title": "Alleluia",
+  "sub": "Taizé",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Alleluia Taizé Ritornello                           Alleluia,  alleluia,  allelu    - u  -  ia!                           Alleluia,  alleluia,  allelu  -  u  -  ia!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "                               RE-        FA         SIb   DO    FA"
+    },
+    {
+      "t": "l",
+      "v": "                          Alleluia,  alleluia,  allelu    - u  -  ia!"
+    },
+    {
+      "t": "c",
+      "v": "                               RE-       FA         SIb    LA-   RE-"
+    },
+    {
+      "t": "l",
+      "v": "                          Alleluia,  alleluia,  allelu  -  u  -  ia!"
+    }
+  ],
+  "id": "alleluia-taize"
+}

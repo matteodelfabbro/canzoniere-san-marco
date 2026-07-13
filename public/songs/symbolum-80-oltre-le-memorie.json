@@ -1,0 +1,150 @@
+{
+  "title": "Symbolum '80",
+  "sub": "Oltre le Memorie",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Symbolum '80 Oltre le Memorie Strofa 1 1.     Oltre la memoria    del  tempo   che ho  vissuto,        oltre la speranza  che serve  al mio  domani,        oltre il desiderio di vivere il presente        anch'io confesso  ho  chiesto  che cosa  è verità.        E    tu come   un desiderio    che  non  ha memorie,       Padre    buono,        come  una  speranza   che non   ha confini,   come  un  tempo   eterno   sei per me.  Ritornello Io  so quanto  amore   chiede  questa  lunga   attesa     del tuo  giorno  o Dio;       luce  in ogni cosa  io non  vedo  ancora,   ma  la tua parola        mi rischiarerà.  Strofa 2 2.     Quando    le parole non  bastano   all'amore,        quando   il mio fratello domanda    più  del pane,        quando   l'illusione promette  un  mondo    nuovo,        anch'io rimango   incerto  nel mezzo   del cammino.        E tu figlio tanto amato,  verità  dell'uomo,  mio  Signore,        come  la promessa   di un  perdono   eterno,   libertà infinita sei per me.  Strofa 3 3.     Chiedo  alla mia  mente   coraggio  di cercare,        chiedo  alle mie mani   la forza di donare,        chiedo  al cuore  incerto passione  per  la vita        e chiedo  a te fratello di credere con  me.        E tu forza della vita,  Spirito d'amore,  dolce  Iddio,        grembo   d'ogni  cosa, tenerezza  immensa,    verità del mondo    sei per me.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       MI-        MI-7         LA-     LA-4    MI-"
+    },
+    {
+      "t": "l",
+      "v": "1.     Oltre la memoria    del  tempo   che ho  vissuto,"
+    },
+    {
+      "t": "c",
+      "v": "                  MI-9     LA-6             SI7"
+    },
+    {
+      "t": "l",
+      "v": "       oltre la speranza  che serve  al mio  domani,"
+    },
+    {
+      "t": "c",
+      "v": "       MI-        MI-7       LA-4         MI-"
+    },
+    {
+      "t": "l",
+      "v": "       oltre il desiderio di vivere il presente"
+    },
+    {
+      "t": "c",
+      "v": "            MI-9             LA-6                 SI7"
+    },
+    {
+      "t": "l",
+      "v": "       anch'io confesso  ho  chiesto  che cosa  è verità."
+    },
+    {
+      "t": "c",
+      "v": "       MI   SI DO#-          SOL#-    LA        SI       DO#-     FA#-7     SI"
+    },
+    {
+      "t": "l",
+      "v": "       E    tu come   un desiderio    che  non  ha memorie,       Padre    buono,"
+    },
+    {
+      "t": "c",
+      "v": "       MI             SI     LA           SOL#-7    LA          SI      DO#-    FA#7    SI"
+    },
+    {
+      "t": "l",
+      "v": "       come  una  speranza   che non   ha confini,   come  un  tempo   eterno   sei per me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "       SOL    RE     MI-      SI-     LA-     RE7     SOL   MI-7     LA                 RE"
+    },
+    {
+      "t": "l",
+      "v": "Io  so quanto  amore   chiede  questa  lunga   attesa     del tuo  giorno  o Dio;"
+    },
+    {
+      "t": "c",
+      "v": "       SOL          RE    MI-7           SI-      LA-    RE7    SOL    MI-7     LA          SI"
+    },
+    {
+      "t": "l",
+      "v": "      luce  in ogni cosa  io non  vedo  ancora,   ma  la tua parola        mi rischiarerà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "2.     Quando    le parole non  bastano   all'amore,"
+    },
+    {
+      "t": "l",
+      "v": "       quando   il mio fratello domanda    più  del pane,"
+    },
+    {
+      "t": "l",
+      "v": "       quando   l'illusione promette  un  mondo    nuovo,"
+    },
+    {
+      "t": "l",
+      "v": "       anch'io rimango   incerto  nel mezzo   del cammino."
+    },
+    {
+      "t": "l",
+      "v": "       E tu figlio tanto amato,  verità  dell'uomo,  mio  Signore,"
+    },
+    {
+      "t": "l",
+      "v": "       come  la promessa   di un  perdono   eterno,   libertà infinita sei per me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "3.     Chiedo  alla mia  mente   coraggio  di cercare,"
+    },
+    {
+      "t": "l",
+      "v": "       chiedo  alle mie mani   la forza di donare,"
+    },
+    {
+      "t": "l",
+      "v": "       chiedo  al cuore  incerto passione  per  la vita"
+    },
+    {
+      "t": "l",
+      "v": "       e chiedo  a te fratello di credere con  me."
+    },
+    {
+      "t": "l",
+      "v": "       E tu forza della vita,  Spirito d'amore,  dolce  Iddio,"
+    },
+    {
+      "t": "l",
+      "v": "       grembo   d'ogni  cosa, tenerezza  immensa,    verità del mondo    sei per me."
+    }
+  ],
+  "id": "symbolum-80-oltre-le-memorie"
+}

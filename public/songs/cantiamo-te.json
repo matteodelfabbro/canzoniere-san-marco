@@ -1,0 +1,154 @@
+{
+  "title": "Cantiamo Te",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Cantiamo Te  Intro  Strofa 1    Cantiamo     Te,  Signore   della  vita:    il nome   tuo   è grande    sulla terra    tutto  parla  di  te e    canta  la tua  gloria.    Grande    Tu  sei e   compi    meraviglie:    tu sei Dio.  Strofa 2    Cantiamo     Te,  Signore   Gesù   Cristo:    Figlio  di Dio   venuto   sulla  terra,    fatto  uomo    per  noi  nel  grembo     di Maria.    Dolce   Gesù     risorto  dalla  morte    sei con  noi.  Strofa 3    Cantiamo     Te,  amore    senza   fine:    Tu  che  sei Dio    lo  Spirito  del  Padre    vivi dentro    di noi  e  guida   i nostri  passi.    Accendi    in noi  il fuoco  dell'eterna    carità",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE  SIm   SOL   LA7"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "   RE           FA#-    MIm          LA7"
+    },
+    {
+      "t": "l",
+      "v": "   Cantiamo     Te,  Signore   della  vita:"
+    },
+    {
+      "t": "c",
+      "v": "   RE        FA#-      MIm         LA7"
+    },
+    {
+      "t": "l",
+      "v": "   il nome   tuo   è grande    sulla terra"
+    },
+    {
+      "t": "c",
+      "v": "           RE       FA#-     MIm         LA"
+    },
+    {
+      "t": "l",
+      "v": "   tutto  parla  di  te e    canta  la tua  gloria."
+    },
+    {
+      "t": "c",
+      "v": "     RE          FA#-      MIm        LA7"
+    },
+    {
+      "t": "l",
+      "v": "   Grande    Tu  sei e   compi    meraviglie:"
+    },
+    {
+      "t": "c",
+      "v": "           RE        SIm   SOL    LA7"
+    },
+    {
+      "t": "l",
+      "v": "   tu sei Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "   RE           FA#-     MIm          LA7"
+    },
+    {
+      "t": "l",
+      "v": "   Cantiamo     Te,  Signore   Gesù   Cristo:"
+    },
+    {
+      "t": "c",
+      "v": "   RE          FA#-    MIm         LA7"
+    },
+    {
+      "t": "l",
+      "v": "   Figlio  di Dio   venuto   sulla  terra,"
+    },
+    {
+      "t": "c",
+      "v": "          RE           FA#-        MIm        LA"
+    },
+    {
+      "t": "l",
+      "v": "   fatto  uomo    per  noi  nel  grembo     di Maria."
+    },
+    {
+      "t": "c",
+      "v": "     RE       FA#-     MIm          LA7"
+    },
+    {
+      "t": "l",
+      "v": "   Dolce   Gesù     risorto  dalla  morte"
+    },
+    {
+      "t": "c",
+      "v": "             RE        SIm   SOL    LA7"
+    },
+    {
+      "t": "l",
+      "v": "   sei con  noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "   RE           FA#-    MIm          LA7"
+    },
+    {
+      "t": "l",
+      "v": "   Cantiamo     Te,  amore    senza   fine:"
+    },
+    {
+      "t": "c",
+      "v": "   RE            FA#-       MIm         LA7"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  che  sei Dio    lo  Spirito  del  Padre"
+    },
+    {
+      "t": "c",
+      "v": "         RE           FA#-    MIm           LA"
+    },
+    {
+      "t": "l",
+      "v": "   vivi dentro    di noi  e  guida   i nostri  passi."
+    },
+    {
+      "t": "c",
+      "v": "   RE           FA#-      MIm        LA7          RE       SIm   SOL    LA7    RE"
+    },
+    {
+      "t": "l",
+      "v": "   Accendi    in noi  il fuoco  dell'eterna    carità"
+    }
+  ],
+  "id": "cantiamo-te"
+}

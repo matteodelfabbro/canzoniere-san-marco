@@ -1,0 +1,145 @@
+{
+  "title": "Pellegrini di Speranza",
+  "sub": "Capo 3",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Pellegrini di Speranza Capo 3 Intro  Ritornello      Fiamma    vi --- va  della mia  speranza      questo   canto           giunga  fino  a Te!      Grembo     ete - rno d'infinita   vi -- ta      nel  cammino       io    confido  in Te.  Strofa 1    1. Ogni      lingua, popolo   e nazione    trova luce  nella tua Parola.    Figli e figlie fragili e dispersi    sono  accolti  nel  tuo Figlio amato.  Strofa 2    2. Dio  ci guarda, tenero  e paziente:    nasce  l'alba di un futuro nuovo.    Nuovi   Cieli, Terra fatta nuova:    passa i muri  Spirito di vita.  Strofa 3    3. Alza gli occhi, muoviti  col vento,    serra il passo: viene Dio,  nel tempo.    Guarda   il Figlio che s'è fatto Uomo:    mille e mille trovano   la via.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "|  RE4  LA | SI-"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "            | RE4    RE   LA/DO#    |    SI-  RE"
+    },
+    {
+      "t": "l",
+      "v": "     Fiamma    vi --- va  della mia  speranza"
+    },
+    {
+      "t": "c",
+      "v": "           | SOL   (RE/FA#)   MI-    |       LA/DO#    LA"
+    },
+    {
+      "t": "l",
+      "v": "     questo   canto           giunga  fino  a Te!"
+    },
+    {
+      "t": "c",
+      "v": "     LA/SOL   |  RE/FA#     FA#7   !  SI-  RE  SOL"
+    },
+    {
+      "t": "l",
+      "v": "     Grembo     ete - rno d'infinita   vi -- ta"
+    },
+    {
+      "t": "c",
+      "v": "           |RE/FA#     MI-       LA11  |  RE4  REadd9   RE|"
+    },
+    {
+      "t": "l",
+      "v": "     nel  cammino       io    confido  in Te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "     LA/DO#     SI-     LA            SI-  SI-/LA"
+    },
+    {
+      "t": "l",
+      "v": "   1. Ogni      lingua, popolo   e nazione"
+    },
+    {
+      "t": "c",
+      "v": "         SOL   LA           RE   SI-"
+    },
+    {
+      "t": "l",
+      "v": "   trova luce  nella tua Parola."
+    },
+    {
+      "t": "c",
+      "v": "          MI-      FA#7        SOL    MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Figli e figlie fragili e dispersi"
+    },
+    {
+      "t": "c",
+      "v": "           SOL    DO               LA  LA4   LA7"
+    },
+    {
+      "t": "l",
+      "v": "   sono  accolti  nel  tuo Figlio amato."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   2. Dio  ci guarda, tenero  e paziente:"
+    },
+    {
+      "t": "l",
+      "v": "   nasce  l'alba di un futuro nuovo."
+    },
+    {
+      "t": "l",
+      "v": "   Nuovi   Cieli, Terra fatta nuova:"
+    },
+    {
+      "t": "l",
+      "v": "   passa i muri  Spirito di vita."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "   3. Alza gli occhi, muoviti  col vento,"
+    },
+    {
+      "t": "l",
+      "v": "   serra il passo: viene Dio,  nel tempo."
+    },
+    {
+      "t": "l",
+      "v": "   Guarda   il Figlio che s'è fatto Uomo:"
+    },
+    {
+      "t": "l",
+      "v": "   mille e mille trovano   la via."
+    }
+  ],
+  "id": "pellegrini-di-speranza-capo-3"
+}

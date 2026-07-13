@@ -1,0 +1,155 @@
+{
+  "title": "Vieni Santo Spirito di Dio",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Vieni Santo Spirito di Dio  Intro  Ritornello    Vieni,  Santo   Spirito  di Dio,    come   vento    soffia sulla  Chiesa!    Vieni,  come    fuoco,   ardi in  noi    e con  te  saremo    veri testimoni    di Gesù.  Strofa 1    Sei vento:   spazza   il cielo  dalle  nubi  del  timore;    sei fuoco:   sciogli il gelo  e accendi    il nostro  ardore.    Spirito  creatore,   scendi   su di noi!  Strofa 2    Tu  bruci  tutti i semi  di  morte   e  di peccato;    tu scuoti  le  certezze   che  ingannano     la vita.    Fonte   di sapienza,    scendi  su  di noi!  Strofa 3    Tu  sei coraggio    e forza   nelle lotte  della  vita;    tu sei l'amore    vero,   sostegno   nella  prova.    Spirito  d'amore,    scendi   su di  noi!  Strofa 4    Tu,  fonte  di  unità, rinnova  la tua  Chiesa,    illumina   le menti,   dai  pace  al  nostro   mondo.    O  Consolatore,     scendi   su di  noi!  Ripetere il ritornello",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL     LA-   SI-      DO    RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "   SOL             LA-       SI-    DO   RE"
+    },
+    {
+      "t": "l",
+      "v": "   Vieni,  Santo   Spirito  di Dio,"
+    },
+    {
+      "t": "c",
+      "v": "   SOL             LA-          SI4  SI7"
+    },
+    {
+      "t": "l",
+      "v": "   come   vento    soffia sulla  Chiesa!"
+    },
+    {
+      "t": "c",
+      "v": "   DO               RE       SI-7   MI-"
+    },
+    {
+      "t": "l",
+      "v": "   Vieni,  come    fuoco,   ardi in  noi"
+    },
+    {
+      "t": "c",
+      "v": "   DO           SOL      LA-      RE       SOL       LA-  RE"
+    },
+    {
+      "t": "l",
+      "v": "   e con  te  saremo    veri testimoni    di Gesù."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "       SOL                 MI-              LA-         RE"
+    },
+    {
+      "t": "l",
+      "v": "   Sei vento:   spazza   il cielo  dalle  nubi  del  timore;"
+    },
+    {
+      "t": "c",
+      "v": "        SOL                 MI-       LA-                  RE"
+    },
+    {
+      "t": "l",
+      "v": "   sei fuoco:   sciogli il gelo  e accendi    il nostro  ardore."
+    },
+    {
+      "t": "c",
+      "v": "   SI7         MI-      DO        LA     RE"
+    },
+    {
+      "t": "l",
+      "v": "   Spirito  creatore,   scendi   su di noi!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  bruci  tutti i semi  di  morte   e  di peccato;"
+    },
+    {
+      "t": "l",
+      "v": "   tu scuoti  le  certezze   che  ingannano     la vita."
+    },
+    {
+      "t": "l",
+      "v": "   Fonte   di sapienza,    scendi  su  di noi!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "l",
+      "v": "   Tu  sei coraggio    e forza   nelle lotte  della  vita;"
+    },
+    {
+      "t": "l",
+      "v": "   tu sei l'amore    vero,   sostegno   nella  prova."
+    },
+    {
+      "t": "l",
+      "v": "   Spirito  d'amore,    scendi   su di  noi!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "l",
+      "v": "   Tu,  fonte  di  unità, rinnova  la tua  Chiesa,"
+    },
+    {
+      "t": "l",
+      "v": "   illumina   le menti,   dai  pace  al  nostro   mondo."
+    },
+    {
+      "t": "l",
+      "v": "   O  Consolatore,     scendi   su di  noi!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
+    }
+  ],
+  "id": "vieni-santo-spirito-di-dio"
+}

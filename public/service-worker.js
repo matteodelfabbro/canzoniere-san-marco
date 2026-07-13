@@ -192,12 +192,14 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
 
-  const isData = event.request.url.endsWith('.json');
+  // Rete-prima per tutto ciò che modifichiamo spesso durante lo sviluppo
+  // (dati dei canti, stile, logica): chi è online vede sempre l'ultima
+  // versione pubblicata. Cache-first resta solo per icone e manifest,
+  // che di fatto non cambiano quasi mai.
+  const url = event.request.url;
+  const isFrequentlyUpdated = url.endsWith('.json') || url.endsWith('.css') || url.endsWith('.js') || url.endsWith('.html') || url.endsWith('/');
 
-  if (isData) {
-    // Rete prima, cache come fallback: i dati dei canti sono quelli che
-    // correggiamo più spesso, quindi chi è online deve vedere sempre
-    // l'ultima versione pubblicata. Offline, si torna all'ultima nota.
+  if (isFrequentlyUpdated) {
     event.respondWith(
       fetch(event.request)
         .then(response => {
@@ -208,8 +210,8 @@ self.addEventListener('fetch', event => {
         .catch(() => caches.match(event.request))
     );
   } else {
-    // Cache prima per gli asset statici (CSS/JS/icone): cambiano raramente
-    // e non serve rifare fetch ad ogni apertura del sito.
+    // Cache prima solo per icone e manifest: non cambiano quasi mai,
+    // niente da guadagnare a ricontrollarli ad ogni apertura del sito.
     event.respondWith(
       caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
         const copy = response.clone();

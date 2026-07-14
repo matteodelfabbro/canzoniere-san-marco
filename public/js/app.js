@@ -67,11 +67,26 @@ function normalizeSearch(value){
     .replace(/[^a-z0-9]+/g,' ')
     .trim();
 }
+function searchTokens(value){
+  return normalizeSearch(value).split(/\s+/).filter(Boolean);
+}
+function fuzzyTokenMatch(token,text){
+  if(text.includes(token)) return true;
+  if(token.length<4) return false;
+  let best=99;
+  for(let i=0;i<=text.length-token.length;i++){
+    const part=text.slice(i,i+token.length);
+    let diff=0;
+    for(let j=0;j<token.length;j++) if(part[j]!==token[j]) diff++;
+    best=Math.min(best,diff);
+  }
+  return best<=1 || (token.length>=7 && best<=2);
+}
 function songMatches(song,query){
-  const words=normalizeSearch(query).split(/\s+/).filter(Boolean);
+  const words=searchTokens(query);
   if(!words.length)return true;
   const haystack=normalizeSearch([song.title,song.sub,song.search].filter(Boolean).join(' '));
-  return words.every(word=>haystack.includes(word));
+  return words.every(word=>fuzzyTokenMatch(word,haystack));
 }
 function saveFavorites(){
   localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));

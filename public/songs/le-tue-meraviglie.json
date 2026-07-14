@@ -37,7 +37,33 @@
     },
     {
       "t": "c",
-      "v": "                     RE-      DO         SIb    SOL"
+      "v": "                    RE-    DO SIb  SOL",
+      "anchors": [
+        {
+          "chord": "RE-",
+          "word": 2,
+          "offset": 0.0,
+          "align": "left"
+        },
+        {
+          "chord": "DO",
+          "word": 4,
+          "offset": 1.0,
+          "align": "right"
+        },
+        {
+          "chord": "SIb",
+          "word": 5,
+          "offset": 0.58,
+          "align": "center"
+        },
+        {
+          "chord": "SOL",
+          "word": 5,
+          "offset": 1.0,
+          "align": "right"
+        }
+      ]
     },
     {
       "t": "l",
@@ -133,7 +159,33 @@
     },
     {
       "t": "c",
-      "v": "                     RE-      DO         SIb    SOL"
+      "v": "                    RE-    DO SIb  SOL",
+      "anchors": [
+        {
+          "chord": "RE-",
+          "word": 2,
+          "offset": 0.0,
+          "align": "left"
+        },
+        {
+          "chord": "DO",
+          "word": 4,
+          "offset": 1.0,
+          "align": "right"
+        },
+        {
+          "chord": "SIb",
+          "word": 5,
+          "offset": 0.58,
+          "align": "center"
+        },
+        {
+          "chord": "SOL",
+          "word": 5,
+          "offset": 1.0,
+          "align": "right"
+        }
+      ]
     },
     {
       "t": "l",
@@ -160,7 +212,33 @@
     },
     {
       "t": "c",
-      "v": "                      FA      SOL         MI-    LA-"
+      "v": "                      FA      SOL         MI-    LA-",
+      "anchors": [
+        {
+          "chord": "FA",
+          "word": 2,
+          "offset": 0.0,
+          "align": "left"
+        },
+        {
+          "chord": "SOL",
+          "word": 4,
+          "offset": 1.0,
+          "align": "right"
+        },
+        {
+          "chord": "MI-",
+          "word": 5,
+          "offset": 0.58,
+          "align": "center"
+        },
+        {
+          "chord": "LA-",
+          "word": 5,
+          "offset": 1.0,
+          "align": "right"
+        }
+      ]
     },
     {
       "t": "l",

@@ -67,11 +67,42 @@ function normalizeSearch(value){
     .replace(/[^a-z0-9]+/g,' ')
     .trim();
 }
+function levenshtein(a,b){
+  const row=Array.from({length:b.length+1},(_,i)=>i);
+  for(let i=1;i<=a.length;i++){
+    let prev=row[0]; row[0]=i;
+    for(let j=1;j<=b.length;j++){
+      const old=row[j];
+      row[j]=Math.min(row[j]+1,row[j-1]+1,prev+(a[i-1]===b[j-1]?0:1));
+      prev=old;
+    }
+  }
+  return row[b.length];
+}
+function songScore(song,query){
+  const q=normalizeSearch(query);
+  if(!q)return 0;
+  const words=q.split(/\s+/).filter(Boolean);
+  const title=normalizeSearch([song.title,song.sub].filter(Boolean).join(' '));
+  const body=normalizeSearch(song.search||'');
+  let score=0;
+  if(title===q) score+=10000;
+  if(title.includes(q)) score+=5000;
+  if(body.includes(q)) score+=1000;
+  const titleWords=title.split(/\s+/);
+  const bodyWords=body.split(/\s+/);
+  let matched=0;
+  words.forEach(w=>{
+    if(titleWords.includes(w)){score+=1000; matched++;}
+    else if(title.includes(w)){score+=300; matched++;}
+    if(body.includes(w)){score+=30; matched++;}
+    if(w.length>4 && bodyWords.some(x=>levenshtein(w,x)<=1)) score+=5;
+  });
+  if(matched===words.length) score+=500;
+  return score;
+}
 function songMatches(song,query){
-  const words=normalizeSearch(query).split(/\s+/).filter(Boolean);
-  if(!words.length)return true;
-  const haystack=normalizeSearch([song.title,song.sub,song.search].filter(Boolean).join(' '));
-  return words.every(word=>haystack.includes(word));
+  return !normalizeSearch(query) || songScore(song,query)>=300;
 }
 function saveFavorites(){
   localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
@@ -283,11 +314,27 @@ function showSong(i,updateHistory=true){
 }
 function showList(){document.body.classList.remove('song-open');renderTiles();requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}))}
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
+
+// Theme suggestions integration
+const themeSuggestionsEnabled = true;
+/* THEME_RENDER_HOOK */
 function renderTiles(filter=search.value){
   updateSetlistHeader();
   tileList.innerHTML='';
   let any=false;
   const query=typeof filter==='string'?filter:search.value;
+
+  // Suggerimenti tematici
+  if(query && tileList){
+    getVisibleThemeSuggestions(query).then(html=>{
+      if(html){
+        const box=document.createElement('div');
+        box.className='theme-suggestions-box';
+        box.innerHTML=html;
+        tileList.prepend(box);
+      }
+    });
+  }
 
   let ordered;
   if(listMode==='setlist'){
@@ -299,6 +346,10 @@ function renderTiles(filter=search.value){
     // Mantiene sempre l'ordine originale dell'elenco principale.
     // I preferiti vengono mostrati separatamente solo nel relativo filtro.
     ordered=songs.map((song,i)=>({song,i}));
+  }
+
+  if(query && listMode!=='setlist'){
+    ordered.sort((a,b)=>songScore(b.song,query)-songScore(a.song,query));
   }
 
   ordered.forEach(({song,i})=>{
@@ -421,30 +472,118 @@ function splitLongSegment(chordPart,lyricPart,maxChars=28){
   return chunks;
 }
 
-function renderChordLyricPair(chordText,lyricText,shift){
-  const chord=transposeLine((chordText||'').trimStart(),shift);
-  const lyric=(lyricText||'').trimStart();
-  const matches=[...chord.matchAll(/\S+/g)];
+function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null){
+  const rawChord=chordText||'';
+  const rawLyric=lyricText||'';
 
-  if(!matches.length){
+  // Rimuove soltanto il rientro comune alle due righe.
+  // In questo modo resta intatto lo scarto relativo: se il primo accordo
+  // deve iniziare sopra una parola interna, non viene spostato a inizio riga.
+  const chordIndent=(rawChord.match(/^\s*/)||[''])[0].length;
+  const lyricIndent=(rawLyric.match(/^\s*/)||[''])[0].length;
+  const commonIndent=Math.min(chordIndent,lyricIndent);
+
+  const chord=transposeLine(rawChord.slice(commonIndent),shift);
+  const lyric=rawLyric.slice(commonIndent);
+  const chordMatches=[...chord.matchAll(/\S+/g)];
+  const lyricWords=[...lyric.matchAll(/\S+/g)];
+
+  if(Array.isArray(explicitAnchors) && explicitAnchors.length){
+    const words=[...lyric.matchAll(/\S+/g)].map(match=>match[0]);
+    const anchorsByWord=new Map();
+
+    explicitAnchors.forEach(anchor=>{
+      const wordIndex=Number(anchor.word);
+      if(!Number.isInteger(wordIndex) || wordIndex<0 || wordIndex>=words.length)return;
+
+      const entry={
+        chord:transposeLine(String(anchor.chord||''),shift),
+        offset:Math.max(0,Math.min(1,Number(anchor.offset)||0))
+      };
+
+      if(!anchorsByWord.has(wordIndex))anchorsByWord.set(wordIndex,[]);
+      anchorsByWord.get(wordIndex).push(entry);
+    });
+
+    const renderedWords=words.map((word,index)=>{
+      const anchors=anchorsByWord.get(index)||[];
+      const chordHtml=anchors.map(anchor=>{
+        const pct=anchor.offset*100;
+        const align=anchor.align||(
+          anchor.offset===0?'left':
+          anchor.offset===1?'right':
+          'center'
+        );
+        const translate=align==='center'?-50:(align==='right'?-100:0);
+        return `<span class="explicit-chord explicit-chord-${align}" style="left:${pct}%;transform:translateX(${translate}%);">${esc(anchor.chord)}</span>`;
+      }).join('');
+
+      return `<span class="explicit-word">${chordHtml}<span class="explicit-lyric">${esc(word)}</span></span>`;
+    }).join(' ');
+
+    return `<div class="explicit-music-row">${renderedWords}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
+  }
+
+  if(!chordMatches.length){
     return `<div class="lyricline">${esc(lyric)}</div>`;
   }
 
-  const boundaries=[];
-  if(matches[0].index>0)boundaries.push(0);
-  matches.forEach(match=>boundaries.push(match.index));
-
-  const pieces=[];
-  for(let j=0;j<boundaries.length;j++){
-    const start=boundaries[j];
-    const end=j+1<boundaries.length?boundaries[j+1]:Math.max(chord.length,lyric.length);
-    const chordPart=chord.slice(start,end).replace(/\s+$/,'');
-    const lyricPart=lyric.slice(start,end).replace(/\s+$/,'');
-    pieces.push(...splitLongSegment(chordPart,lyricPart));
+  if(!lyricWords.length){
+    return `<div class="chordline">${esc(chord)}</div>`;
   }
 
-  return `<div class="music-row">${pieces.map(piece=>
-    `<div class="music-segment" style="--cols:${piece.cols}"><div class="segment-chord">${esc(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
+  // Aggancia ogni accordo all'inizio della parola più vicina.
+  // In questo modo un font proporzionale non spezza più parole come
+  // "tuoi", "eternità", "anima" o "nostro".
+  const anchors=[];
+  chordMatches.forEach(match=>{
+    let nearestWord=0;
+    let bestDistance=Infinity;
+
+    lyricWords.forEach((word,index)=>{
+      const distance=Math.abs(word.index-match.index);
+      if(distance<bestDistance){
+        bestDistance=distance;
+        nearestWord=index;
+      }
+    });
+
+    const existing=anchors.find(anchor=>anchor.wordIndex===nearestWord);
+    if(existing){
+      existing.chord+=` ${match[0]}`;
+    }else{
+      anchors.push({
+        wordIndex:nearestWord,
+        chord:match[0]
+      });
+    }
+  });
+
+  anchors.sort((a,b)=>a.wordIndex-b.wordIndex);
+
+  // Se il primo accordo non cade sulla prima parola, crea comunque
+  // un segmento iniziale senza accordo.
+  if(anchors[0].wordIndex>0){
+    anchors.unshift({wordIndex:0,chord:''});
+  }
+
+  const pieces=anchors.map((anchor,index)=>{
+    const nextWordIndex=index+1<anchors.length
+      ?anchors[index+1].wordIndex
+      :lyricWords.length;
+
+    const words=lyricWords
+      .slice(anchor.wordIndex,nextWordIndex)
+      .map(word=>word[0]);
+
+    return {
+      chord:anchor.chord,
+      lyric:words.join(' ')
+    };
+  }).filter(piece=>piece.lyric||piece.chord);
+
+  return `<div class="music-row word-anchored">${pieces.map(piece=>
+    `<div class="music-segment"><div class="segment-chord">${esc(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
   ).join('')}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
 }
 
@@ -491,7 +630,7 @@ function renderSong(i){
     const next=song.lines[lineIndex+1];
 
     if(line.t==='c' && next && next.t==='l'){
-      html+=renderChordLyricPair(line.v,next.v,shift);
+      html+=renderChordLyricPair(line.v,next.v,shift,line.anchors||null);
       lineIndex++;
       continue;
     }
@@ -594,3 +733,171 @@ init().catch(error => {
   const main = document.getElementById('main');
   if (main) main.innerHTML = `<p role="alert">Errore nel caricamento del canzoniere. Ricarica la pagina.</p>`;
 });
+
+
+const COMMON_SEARCH_WORDS = new Set([
+  "canto","amore","luce","vita","dio","signore",
+  "cuore","gesu","maria","padre","spirito"
+]);
+
+function filterRelevantResults(results, query){
+  const words = normalizeSearchText(query).split(" ").filter(Boolean);
+  return results.filter(song=>{
+    const score = scoreSong(song, query);
+    if(score >= 100) return true;
+    // evita risultati generati solo da parole molto comuni
+    const meaningful = words.filter(w=>w.length>3 && !COMMON_SEARCH_WORDS.has(w));
+    if(meaningful.length && meaningful.some(w =>
+      normalizeSearchText((song.title||"")+" "+(song.search||"")+" "+(song.text||"")).includes(w)
+    )) return score >= 40;
+    return false;
+  }).slice(0,10);
+}
+
+
+let songsTagsCache = null;
+
+async function getSongTags(){
+  if(songsTagsCache) return songsTagsCache;
+  try{
+    const response = await fetch("./data/songs-tags.json");
+    songsTagsCache = await response.json();
+  }catch(e){
+    songsTagsCache = {};
+  }
+  return songsTagsCache;
+}
+
+function tagScore(song, query, tagsData){
+  const data = tagsData?.[song.id];
+  if(!data || !data.tags) return 0;
+  const q = normalizeSearchText(query);
+  let score = 0;
+  data.tags.forEach(tag=>{
+    const n = normalizeSearchText(tag);
+    if(n === q) score += 300;
+    else if(n.includes(q) || q.includes(n)) score += 100;
+  });
+  return score;
+}
+
+
+function renderTagSuggestions(suggestions){
+  if(!suggestions || !suggestions.length) return "";
+  return `
+    <section class="tag-suggestions">
+      <h3>💡 Suggerimenti</h3>
+      ${suggestions.map(s=>`
+        <div class="tag-group">
+          <h4>${s.icon||""} ${s.title}</h4>
+          ${s.songs.map(song=>`
+            <button class="search-song-result" data-song-id="${song.id}">
+              ${song.title}
+            </button>
+          `).join("")}
+        </div>
+      `).join("")}
+    </section>`;
+}
+
+
+let searchSuggestionsCache = null;
+
+async function loadSearchSuggestions(){
+  if(searchSuggestionsCache) return searchSuggestionsCache;
+  try{
+    const r = await fetch("./data/search-suggestions.json");
+    searchSuggestionsCache = await r.json();
+  }catch(e){
+    searchSuggestionsCache = {};
+  }
+  return searchSuggestionsCache;
+}
+
+async function getThemeSuggestions(query, songs){
+  const q = normalizeSearchText(query);
+  if(!q) return [];
+
+  const config = await loadSearchSuggestions();
+  const found = [];
+
+  Object.entries(config).forEach(([title, item])=>{
+    const tag = normalizeSearchText(item.tag);
+    if(tag.includes(q) || q.includes(tag)){
+      found.push({
+        title,
+        description: item.description,
+        songs: songs.filter(s =>
+          normalizeSearchText(JSON.stringify(s)).includes(tag)
+        ).slice(0,5)
+      });
+    }
+  });
+
+  return found.filter(x=>x.songs.length);
+}
+
+
+let themeSuggestionsCache = null;
+
+async function getVisibleThemeSuggestions(query){
+  const q = normalizeSearchText(query || "");
+  if(!q) return "";
+
+  try{
+    if(!themeSuggestionsCache){
+      const r = await fetch("./data/search-suggestions.json");
+      themeSuggestionsCache = await r.json();
+    }
+
+    const themes = Object.entries(themeSuggestionsCache)
+      .filter(([title,item])=>{
+        const tag = normalizeSearchText(item.tag);
+        return tag.includes(q) || q.includes(tag);
+      });
+
+    if(!themes.length) return "";
+
+    return themes.map(([title])=>`
+      <div class="theme-suggestion">
+        <h3>${esc(title)}</h3>
+      </div>
+    `).join("");
+  }catch(e){
+    return "";
+  }
+}
+
+async function buildThemeSuggestionSongs(query, allSongs){
+  const q = normalizeSearchText(query || "");
+  if(!q) return "";
+
+  try{
+    const r = await fetch("./data/search-suggestions.json");
+    const config = await r.json();
+
+    const themes = Object.entries(config).filter(([_, item])=>{
+      const tag = normalizeSearchText(item.tag);
+      return tag === q || tag.includes(q) || q.includes(tag);
+    });
+
+    if(!themes.length) return "";
+
+    return themes.map(([title,item])=>{
+      const songs = allSongs.filter(s=>{
+        const text = normalizeSearchText(JSON.stringify(s));
+        const tag = normalizeSearchText(item.tag);
+        return text.includes(tag);
+      }).slice(0,5);
+
+      if(!songs.length) return "";
+
+      return `<section class="theme-suggestions-box">
+        <h3>${title}</h3>
+        ${songs.map(s=>`<div class="theme-song" data-song-id="${s.id}">${s.title}</div>`).join("")}
+      </section>`;
+    }).join("");
+  }catch(e){
+    return "";
+  }
+}

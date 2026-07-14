@@ -5,13 +5,13 @@
   html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   button,input,textarea,select{font:inherit}
   body{background:var(--paper);color:var(--ink);font-family:Manrope,sans-serif;min-height:100vh}
-  header{background:var(--navy);color:var(--paper);padding:2.4rem 1.5rem 2rem;text-align:center;border-bottom:1px solid rgba(198,162,77,.5)}
+  header{background:var(--navy);color:var(--paper);padding:calc(2.4rem + env(safe-area-inset-top)) 1.5rem 2rem;text-align:center;border-bottom:1px solid rgba(198,162,77,.5)}
   h1{font-family:'Manrope',sans-serif;font-weight:600;font-size:clamp(1.9rem,4.4vw,2.7rem);margin:0 0 .4rem;letter-spacing:-0.01em}
   header p.tag{color:rgba(233,226,205,.6);font-size:.92rem;margin:0}
   .app{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:minmax(340px,28vw) minmax(0,1fr);gap:0;min-height:calc(100vh - 190px)}
   .board{background:var(--navy-deep);padding:1.6rem 1.2rem 2.5rem}
   .board-label{font-family:Manrope,sans-serif;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-bright);margin:0 0 .9rem .1rem}
-  #search{width:100%;padding:.6rem .75rem;border-radius:4px;border:1px solid rgba(198,162,77,.3);background:rgba(233,226,205,.05);color:var(--paper);font-family:Manrope,sans-serif;font-size:.92rem;outline:none;margin-bottom:1.1rem;transition:border-color .15s,background .15s}
+  #search{width:100%;padding:.6rem .75rem;border-radius:4px;border:1px solid rgba(198,162,77,.3);background:rgba(233,226,205,.05);color:var(--paper);font-family:Manrope,sans-serif;font-size:16px;outline:none;margin-bottom:1.1rem;transition:border-color .15s,background .15s}
   #search::placeholder{color:rgba(233,226,205,.38)}
   #search:focus{border-color:var(--gold-bright);background:rgba(233,226,205,.08)}
   .list-filters{display:flex;gap:.45rem;margin:0 0 .85rem}
@@ -120,7 +120,7 @@
   .feedback-field{display:block;margin:.85rem 0}
   .feedback-field>span{display:block;margin-bottom:.35rem;font-size:.8rem;font-weight:600}
   .feedback-field small{font-weight:400;color:rgba(28,27,23,.45)}
-  .feedback-field input,.feedback-field select,.feedback-field textarea{width:100%;border:1px solid rgba(28,27,23,.15);border-radius:5px;background:#fffdf7;color:var(--ink);padding:.68rem .75rem;font-family:Manrope,sans-serif;font-size:.95rem;outline:none}
+  .feedback-field input,.feedback-field select,.feedback-field textarea{width:100%;border:1px solid rgba(28,27,23,.15);border-radius:5px;background:#fffdf7;color:var(--ink);padding:.68rem .75rem;font-family:Manrope,sans-serif;font-size:16px;outline:none}
   .feedback-field input:focus,.feedback-field select:focus,.feedback-field textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(198,162,77,.12)}
   .feedback-field textarea{resize:vertical;min-height:7rem}
   .feedback-actions{display:flex;justify-content:flex-end;gap:.55rem;margin-top:1rem}
@@ -229,10 +229,9 @@
 /* Navigazione compatta */
 .list-filters{gap:.25rem!important;margin:0 0 .45rem!important}
 .filter-btn{font-size:.62rem!important;padding:.32rem .3rem!important;letter-spacing:.02em!important}
-#search{padding:.48rem .65rem!important;margin-bottom:.65rem!important;font-size:16px!important}
 .board{padding-top:1rem!important}
 @media(max-width:600px){
-  header{padding:1.25rem 1rem 1.05rem}
+  header{padding:calc(1.25rem + env(safe-area-inset-top)) 1rem 1.05rem}
 }
 
 
@@ -341,11 +340,3 @@
 .theme-suggestions-box{padding:12px;margin-bottom:12px;border-radius:12px;background:#f3f3f3}.theme-suggestions-box h3{margin:0;font-size:1rem}
 
 
-/* Fix iOS PWA: notch e zoom ricerca */
-header{
-  padding-top: calc(1rem + env(safe-area-inset-top));
-}
-
-#search{
-  font-size:16px!important;
-}

@@ -416,15 +416,35 @@ function renderCategorySuggestions(query){
   return true;
 }
 
+const EASTER_EGG_SEARCHES=new Set([
+  'il canto piu bello',
+  'chiara braidotti',
+  'don christian'
+].map(normalizeSearch));
+
+function easterEggSongId(query){
+  return EASTER_EGG_SEARCHES.has(normalizeSearch(query))
+    ? 'verbum-panis'
+    : null;
+}
+
 function renderTiles(filter=search.value){
   updateSetlistHeader();
   tileList.innerHTML='';
   let any=false;
   const query=typeof filter==='string'?filter:search.value;
-  const hasCategorySuggestions=renderCategorySuggestions(query);
+  const easterSongId=easterEggSongId(query);
+  const easterEggActive=Boolean(easterSongId);
+  const hasCategorySuggestions=easterEggActive
+    ? false
+    : renderCategorySuggestions(query);
 
   let ordered;
-  if(listMode==='setlist'){
+  if(easterEggActive){
+    ordered=songs
+      .map((song,i)=>({song,i}))
+      .filter(({song})=>song.id===easterSongId);
+  }else if(listMode==='setlist'){
     ordered=personalSetlist.map(id=>{
       const i=songIndexFromId(id);
       return {song:songs[i],i};
@@ -435,13 +455,13 @@ function renderTiles(filter=search.value){
     ordered=songs.map((song,i)=>({song,i}));
   }
 
-  if(query && listMode!=='setlist'){
+  if(query && listMode!=='setlist' && !easterEggActive){
     ordered.sort((a,b)=>songScore(b.song,query)-songScore(a.song,query));
   }
 
   ordered.forEach(({song,i})=>{
-    if(listMode==='favorites'&&!isFavorite(i))return;
-    if(!songMatches(song,query))return;
+    if(!easterEggActive && listMode==='favorites'&&!isFavorite(i))return;
+    if(!easterEggActive && !songMatches(song,query))return;
     any=true;
 
     const li=document.createElement('li');

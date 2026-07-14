@@ -54,8 +54,8 @@
         {
           "chord": "SIb",
           "word": 5,
-          "offset": 0.0,
-          "align": "left"
+          "offset": 0.58,
+          "align": "center"
         },
         {
           "chord": "SOL",
@@ -176,8 +176,8 @@
         {
           "chord": "SIb",
           "word": 5,
-          "offset": 0.0,
-          "align": "left"
+          "offset": 0.58,
+          "align": "center"
         },
         {
           "chord": "SOL",
@@ -229,8 +229,8 @@
         {
           "chord": "MI-",
           "word": 5,
-          "offset": 0.0,
-          "align": "left"
+          "offset": 0.58,
+          "align": "center"
         },
         {
           "chord": "LA-",

@@ -717,3 +717,23 @@ init().catch(error => {
   const main = document.getElementById('main');
   if (main) main.innerHTML = `<p role="alert">Errore nel caricamento del canzoniere. Ricarica la pagina.</p>`;
 });
+
+
+const COMMON_SEARCH_WORDS = new Set([
+  "canto","amore","luce","vita","dio","signore",
+  "cuore","gesu","maria","padre","spirito"
+]);
+
+function filterRelevantResults(results, query){
+  const words = normalizeSearchText(query).split(" ").filter(Boolean);
+  return results.filter(song=>{
+    const score = scoreSong(song, query);
+    if(score >= 100) return true;
+    // evita risultati generati solo da parole molto comuni
+    const meaningful = words.filter(w=>w.length>3 && !COMMON_SEARCH_WORDS.has(w));
+    if(meaningful.length && meaningful.some(w =>
+      normalizeSearchText((song.title||"")+" "+(song.search||"")+" "+(song.text||"")).includes(w)
+    )) return score >= 40;
+    return false;
+  }).slice(0,10);
+}

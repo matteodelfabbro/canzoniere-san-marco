@@ -314,27 +314,11 @@ function showSong(i,updateHistory=true){
 }
 function showList(){document.body.classList.remove('song-open');renderTiles();requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}))}
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
-
-// Theme suggestions integration
-const themeSuggestionsEnabled = true;
-/* THEME_RENDER_HOOK */
 function renderTiles(filter=search.value){
   updateSetlistHeader();
   tileList.innerHTML='';
   let any=false;
   const query=typeof filter==='string'?filter:search.value;
-
-  // Suggerimenti tematici
-  if(query && tileList){
-    getVisibleThemeSuggestions(query).then(html=>{
-      if(html){
-        const box=document.createElement('div');
-        box.className='theme-suggestions-box';
-        box.innerHTML=html;
-        tileList.prepend(box);
-      }
-    });
-  }
 
   let ordered;
   if(listMode==='setlist'){
@@ -835,69 +819,4 @@ async function getThemeSuggestions(query, songs){
   });
 
   return found.filter(x=>x.songs.length);
-}
-
-
-let themeSuggestionsCache = null;
-
-async function getVisibleThemeSuggestions(query){
-  const q = normalizeSearchText(query || "");
-  if(!q) return "";
-
-  try{
-    if(!themeSuggestionsCache){
-      const r = await fetch("./data/search-suggestions.json");
-      themeSuggestionsCache = await r.json();
-    }
-
-    const themes = Object.entries(themeSuggestionsCache)
-      .filter(([title,item])=>{
-        const tag = normalizeSearchText(item.tag);
-        return tag.includes(q) || q.includes(tag);
-      });
-
-    if(!themes.length) return "";
-
-    return themes.map(([title])=>`
-      <div class="theme-suggestion">
-        <h3>${esc(title)}</h3>
-      </div>
-    `).join("");
-  }catch(e){
-    return "";
-  }
-}
-
-async function buildThemeSuggestionSongs(query, allSongs){
-  const q = normalizeSearchText(query || "");
-  if(!q) return "";
-
-  try{
-    const r = await fetch("./data/search-suggestions.json");
-    const config = await r.json();
-
-    const themes = Object.entries(config).filter(([_, item])=>{
-      const tag = normalizeSearchText(item.tag);
-      return tag === q || tag.includes(q) || q.includes(tag);
-    });
-
-    if(!themes.length) return "";
-
-    return themes.map(([title,item])=>{
-      const songs = allSongs.filter(s=>{
-        const text = normalizeSearchText(JSON.stringify(s));
-        const tag = normalizeSearchText(item.tag);
-        return text.includes(tag);
-      }).slice(0,5);
-
-      if(!songs.length) return "";
-
-      return `<section class="theme-suggestions-box">
-        <h3>${title}</h3>
-        ${songs.map(s=>`<div class="theme-song" data-song-id="${s.id}">${s.title}</div>`).join("")}
-      </section>`;
-    }).join("");
-  }catch(e){
-    return "";
-  }
 }

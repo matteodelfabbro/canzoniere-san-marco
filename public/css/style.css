@@ -339,3 +339,16 @@
 }
 
 .theme-suggestions-box{padding:12px;margin-bottom:12px;border-radius:12px;background:#f3f3f3}.theme-suggestions-box h3{margin:0;font-size:1rem}
+
+
+/* iOS PWA safe area */
+header {
+  padding-top: calc(1.25rem + env(safe-area-inset-top));
+}
+
+/* Evita zoom automatico Safari iOS nei campi input */
+input,
+.feedback-field select,
+.feedback-field textarea {
+  font-size: 16px;
+}

@@ -691,9 +691,9 @@ function renderSong(i){
       <div class="transpose-controls">
         <span class="transpose-label">Tonalità</span>
         <button class="transpose-btn" id="tDown" type="button" aria-label="Abbassa tonalità">−</button>
-        <span class="transpose-value">${shift===0?'Originale':(shift>0?'+':'')+shift+' semitoni'}</span>
+        <span class="transpose-value" aria-label="${shift===0?'Tonalità originale':`${shift>0?'Alzata':'Abbassata'} di ${Math.abs(shift)} semitoni`}">${shift===0?'Originale':(shift>0?'+':'')+shift}</span>
         <button class="transpose-btn" id="tUp" type="button" aria-label="Alza tonalità">+</button>
-        ${shift!==0?'<button class="transpose-reset" id="tReset" type="button">reset</button>':'<span></span>'}
+        ${shift!==0?'<button class="transpose-reset" id="tReset" type="button" aria-label="Ripristina tonalità originale">↺</button>':''}
       </div>
       <span class="command-separator" aria-hidden="true"></span>
       <div class="text-controls">

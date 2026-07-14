@@ -323,6 +323,18 @@ function renderTiles(filter=search.value){
   let any=false;
   const query=typeof filter==='string'?filter:search.value;
 
+  // Suggerimenti tematici
+  if(query && tileList){
+    getVisibleThemeSuggestions(query).then(html=>{
+      if(html){
+        const box=document.createElement('div');
+        box.className='theme-suggestions-box';
+        box.innerHTML=html;
+        tileList.prepend(box);
+      }
+    });
+  }
+
   let ordered;
   if(listMode==='setlist'){
     ordered=personalSetlist.map(id=>{
@@ -822,4 +834,35 @@ async function getThemeSuggestions(query, songs){
   });
 
   return found.filter(x=>x.songs.length);
+}
+
+
+let themeSuggestionsCache = null;
+
+async function getVisibleThemeSuggestions(query){
+  const q = normalizeSearchText(query || "");
+  if(!q) return "";
+
+  try{
+    if(!themeSuggestionsCache){
+      const r = await fetch("./search-suggestions.json");
+      themeSuggestionsCache = await r.json();
+    }
+
+    const themes = Object.entries(themeSuggestionsCache)
+      .filter(([title,item])=>{
+        const tag = normalizeSearchText(item.tag);
+        return tag.includes(q) || q.includes(tag);
+      });
+
+    if(!themes.length) return "";
+
+    return themes.map(([title])=>`
+      <div class="theme-suggestion">
+        <h3>${esc(title)}</h3>
+      </div>
+    `).join("");
+  }catch(e){
+    return "";
+  }
 }

@@ -314,6 +314,9 @@ function showSong(i,updateHistory=true){
 }
 function showList(){document.body.classList.remove('song-open');renderTiles();requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}))}
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
+
+// Theme suggestions integration
+const themeSuggestionsEnabled = true;
 function renderTiles(filter=search.value){
   updateSetlistHeader();
   tileList.innerHTML='';
@@ -819,21 +822,4 @@ async function getThemeSuggestions(query, songs){
   });
 
   return found.filter(x=>x.songs.length);
-}
-
-
-// Blocco suggerimenti tematici ricerca
-function renderThemeSuggestionsBlock(groups){
-  if(!groups || !groups.length) return "";
-  return `
-    <div class="theme-suggestions">
-      <h3>💡 Suggerimenti</h3>
-      ${groups.map(g=>`
-        <div class="theme-group">
-          <h4>${g.title}</h4>
-          ${g.songs.map(s=>`<div class="theme-song" data-song-id="${s.id}">${s.title}</div>`).join("")}
-        </div>
-      `).join("")}
-    </div>
-  `;
 }

@@ -421,7 +421,7 @@ function splitLongSegment(chordPart,lyricPart,maxChars=28){
   return chunks;
 }
 
-function renderChordLyricPair(chordText,lyricText,shift){
+function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null){
   const rawChord=chordText||'';
   const rawLyric=lyricText||'';
 
@@ -436,6 +436,37 @@ function renderChordLyricPair(chordText,lyricText,shift){
   const lyric=rawLyric.slice(commonIndent);
   const chordMatches=[...chord.matchAll(/\S+/g)];
   const lyricWords=[...lyric.matchAll(/\S+/g)];
+
+  if(Array.isArray(explicitAnchors) && explicitAnchors.length){
+    const words=[...lyric.matchAll(/\S+/g)].map(match=>match[0]);
+    const anchorsByWord=new Map();
+
+    explicitAnchors.forEach(anchor=>{
+      const wordIndex=Number(anchor.word);
+      if(!Number.isInteger(wordIndex) || wordIndex<0 || wordIndex>=words.length)return;
+
+      const entry={
+        chord:transposeLine(String(anchor.chord||''),shift),
+        offset:Math.max(0,Math.min(1,Number(anchor.offset)||0))
+      };
+
+      if(!anchorsByWord.has(wordIndex))anchorsByWord.set(wordIndex,[]);
+      anchorsByWord.get(wordIndex).push(entry);
+    });
+
+    const renderedWords=words.map((word,index)=>{
+      const anchors=anchorsByWord.get(index)||[];
+      const chordHtml=anchors.map(anchor=>{
+        const pct=anchor.offset*100;
+        const translate=anchor.offset===0?0:(anchor.offset===1?-100:-50);
+        return `<span class="explicit-chord" style="left:${pct}%;transform:translateX(${translate}%);">${esc(anchor.chord)}</span>`;
+      }).join('');
+
+      return `<span class="explicit-word">${chordHtml}<span class="explicit-lyric">${esc(word)}</span></span>`;
+    }).join(' ');
+
+    return `<div class="explicit-music-row">${renderedWords}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
+  }
 
   if(!chordMatches.length){
     return `<div class="lyricline">${esc(lyric)}</div>`;
@@ -543,7 +574,7 @@ function renderSong(i){
     const next=song.lines[lineIndex+1];
 
     if(line.t==='c' && next && next.t==='l'){
-      html+=renderChordLyricPair(line.v,next.v,shift);
+      html+=renderChordLyricPair(line.v,next.v,shift,line.anchors||null);
       lineIndex++;
       continue;
     }

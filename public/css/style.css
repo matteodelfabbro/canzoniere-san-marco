@@ -272,3 +272,29 @@
   line-height:1.52;
   letter-spacing:-.005em;
 }
+
+
+/* Ancoraggi accordi espliciti: consentono accordi anche al centro o alla fine di una parola. */
+.explicit-music-row {
+  display: block;
+  line-height: 1.35;
+  padding-top: 1.35em;
+  white-space: normal;
+}
+.explicit-word {
+  position: relative;
+  display: inline-block;
+}
+.explicit-lyric {
+  font-weight: 400;
+}
+.explicit-chord {
+  position: absolute;
+  top: -1.25em;
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: 1;
+}
+.sheet.lyrics-only .explicit-music-row {
+  display: none;
+}

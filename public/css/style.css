@@ -371,25 +371,28 @@
   width:100%;
   display:flex;
   align-items:center;
-  gap:.55rem;
-  padding:.62rem .05rem;
+  gap:.6rem;
+  padding:.68rem .45rem;
   border:0;
-  border-bottom:1px solid rgba(22,35,61,.12);
-  border-radius:0;
-  background:transparent;
+  border-bottom:1px solid rgba(22,35,61,.16);
+  border-radius:8px;
+  background:rgba(22,35,61,.035);
   color:var(--navy,#16233d);
   font:inherit;
+  font-size:.93rem;
+  font-weight:650;
+  line-height:1.35;
   text-align:left;
   cursor:pointer;
 }
 .category-suggestion-song:active{
-  background:rgba(22,35,61,.045);
+  background:rgba(22,35,61,.08);
   transform:none;
 }
 .category-suggestion-number{
   min-width:2rem;
-  color:rgba(22,35,61,.5);
-  font-size:.74rem;
-  font-weight:700;
+  color:rgba(22,35,61,.68);
+  font-size:.76rem;
+  font-weight:750;
 }
 

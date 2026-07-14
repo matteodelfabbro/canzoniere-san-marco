@@ -229,7 +229,7 @@
 /* Navigazione compatta */
 .list-filters{gap:.25rem!important;margin:0 0 .45rem!important}
 .filter-btn{font-size:.62rem!important;padding:.32rem .3rem!important;letter-spacing:.02em!important}
-#search{padding:.48rem .65rem!important;margin-bottom:.65rem!important;font-size:.86rem!important}
+#search{padding:.48rem .65rem!important;margin-bottom:.65rem!important;font-size:16px!important}
 .board{padding-top:1rem!important}
 @media(max-width:600px){
   header{padding:1.25rem 1rem 1.05rem}
@@ -341,18 +341,11 @@
 .theme-suggestions-box{padding:12px;margin-bottom:12px;border-radius:12px;background:#f3f3f3}.theme-suggestions-box h3{margin:0;font-size:1rem}
 
 
-/* iOS fixes: notch e zoom input */
-@supports (padding: env(safe-area-inset-top)) {
-  .header,
-  .top-bar,
-  .app-header,
-  nav {
-    padding-top: calc(env(safe-area-inset-top) + 8px);
-  }
+/* Fix iOS PWA: notch e zoom ricerca */
+header{
+  padding-top: calc(1rem + env(safe-area-inset-top));
 }
 
-/* Safari iOS evita zoom automatico sugli input */
-input[type="search"],
-input[type="text"] {
-  font-size: 16px !important;
+#search{
+  font-size:16px!important;
 }

@@ -1,0 +1,30 @@
+{
+  "🎄 Canti per il Tempo di Natale": {
+    "tag": "Natale",
+    "description": "Canti adatti al periodo natalizio"
+  },
+  "🕯 Canti per l'Avvento": {
+    "tag": "Avvento",
+    "description": "Canti di attesa e preparazione al Natale"
+  },
+  "🌿 Canti per la Quaresima": {
+    "tag": "Quaresima",
+    "description": "Canti per il cammino quaresimale"
+  },
+  "✝️ Canti per la Pasqua": {
+    "tag": "Pasqua",
+    "description": "Canti della risurrezione"
+  },
+  "🔥 Canti dello Spirito Santo": {
+    "tag": "Spirito Santo",
+    "description": "Invocazioni allo Spirito Santo"
+  },
+  "🌹 Canti mariani": {
+    "tag": "Maria",
+    "description": "Canti dedicati a Maria"
+  },
+  "🍞 Canti di Comunione": {
+    "tag": "Comunione",
+    "description": "Canti per il momento eucaristico"
+  }
+}

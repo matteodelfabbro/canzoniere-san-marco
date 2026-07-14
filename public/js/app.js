@@ -737,3 +737,49 @@ function filterRelevantResults(results, query){
     return false;
   }).slice(0,10);
 }
+
+
+let songsTagsCache = null;
+
+async function getSongTags(){
+  if(songsTagsCache) return songsTagsCache;
+  try{
+    const response = await fetch("./data/songs-tags.json");
+    songsTagsCache = await response.json();
+  }catch(e){
+    songsTagsCache = {};
+  }
+  return songsTagsCache;
+}
+
+function tagScore(song, query, tagsData){
+  const data = tagsData?.[song.id];
+  if(!data || !data.tags) return 0;
+  const q = normalizeSearchText(query);
+  let score = 0;
+  data.tags.forEach(tag=>{
+    const n = normalizeSearchText(tag);
+    if(n === q) score += 300;
+    else if(n.includes(q) || q.includes(n)) score += 100;
+  });
+  return score;
+}
+
+
+function renderTagSuggestions(suggestions){
+  if(!suggestions || !suggestions.length) return "";
+  return `
+    <section class="tag-suggestions">
+      <h3>💡 Suggerimenti</h3>
+      ${suggestions.map(s=>`
+        <div class="tag-group">
+          <h4>${s.icon||""} ${s.title}</h4>
+          ${s.songs.map(song=>`
+            <button class="search-song-result" data-song-id="${song.id}">
+              ${song.title}
+            </button>
+          `).join("")}
+        </div>
+      `).join("")}
+    </section>`;
+}

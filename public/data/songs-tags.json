@@ -1,675 +1,905 @@
 {
   "abbracciami": {
     "title": "Abbracciami",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "accogli-i-nostri-doni": {
     "title": "Accogli i Nostri Doni",
     "tags": [
       "Offertorio"
+    ],
+    "groups": [
+      "Canti per la Messa"
     ]
   },
   "acqua-siamo-noi": {
     "title": "Acqua Siamo Noi",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "adesso-e-la-pienezza": {
     "title": "Adesso È la Pienezza",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "adeste-fideles": {
     "title": "Adeste Fideles",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "adoro-te": {
     "title": "Adoro Te",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "agnello-di-dio": {
     "title": "Agnello di Dio",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "agnello-di-dio-versione-2-capo-3": {
     "title": "Agnello di Dio",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "agnello-di-dio-buttazzo-capo-3": {
     "title": "Agnello di Dio",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-buttazzo": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-canto-per-cristo": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-ed-oggi-ancora": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-la-nostra-festa": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-passeranno-i-cieli": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-taize": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-cristo-e-risorto-veramente-capo-2-4": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [
+      "Pasqua"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "alleluia-verbum-panis": {
     "title": "Alleluia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "alleluia-e-poi": {
     "title": "Alleluia e Poi",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "andate-per-le-strade": {
     "title": "Andate per le Strade",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "antica-eterna-danza": {
     "title": "Antica, Eterna Danza",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ascoltero-la-tua-parola-capo-2": {
     "title": "Ascolterò la Tua Parola",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ave-maria": {
     "title": "Ave Maria",
     "tags": [
       "Maria"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "beati-i-misericordiosi-inno-gmg-2016-capo-2": {
     "title": "Beati i Misericordiosi",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "benedici-o-signore": {
     "title": "Benedici, o Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "benedizione-a-frate-leone": {
     "title": "Benedizione a Frate Leone",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "bisognerebbe": {
     "title": "Bisognerebbe",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "camminero-in-re": {
     "title": "Camminerò",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "camminiamo-incontro-al-signore": {
     "title": "Camminiamo Incontro al Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "cantate-al-signore-ricci": {
     "title": "Cantate al Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "cantate-al-signore-un-canto-nuovo-fallormi": {
     "title": "Cantate al Signore un Canto Nuovo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "cantiamo-te": {
     "title": "Cantiamo Te",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "chi": {
     "title": "Chi?",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "chi-ci-separera": {
     "title": "Chi Ci Separerà",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "chi-dara-da-bere-a-me": {
     "title": "Chi Darà da Bere a Me",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "chiamati-per-nome": {
     "title": "Chiamati per Nome",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "come-fuoco-vivo": {
     "title": "Come Fuoco Vivo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "come-l-aurora-verrai": {
     "title": "Come l'Aurora Verrai",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "come-maria": {
     "title": "Come Maria",
     "tags": [
       "Maria"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "come-tu-mi-vuoi": {
     "title": "Come Tu Mi Vuoi",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "come-un-prodigio": {
     "title": "Come un Prodigio",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "con-voce-di-giubilo": {
     "title": "Con Voce di Giubilo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "cristo-e-risorto-veramente": {
     "title": "Cristo è Risorto Veramente",
-    "tags": []
+    "tags": [
+      "Pasqua"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "dall-aurora-al-tramonto": {
     "title": "Dall'Aurora al Tramonto",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "davanti-a-questo-amore": {
     "title": "Davanti a Questo Amore",
-    "tags": [
-      "Matrimonio"
-    ]
+    "tags": [],
+    "groups": []
   },
   "del-tuo-spirito-signore": {
     "title": "Del Tuo Spirito, Signore",
-    "tags": []
+    "tags": [
+      "Spirito Santo"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "devo-dire-che": {
     "title": "Devo Dire Che",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "dolce-sentire": {
     "title": "Dolce Sentire",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "dove-troveremo-tutto-il-pane": {
     "title": "Dove Troveremo Tutto il Pane",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "e-bello-lodarti": {
     "title": "È Bello Lodarti",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "e-sono-solo-un-uomo-symbolum-79": {
     "title": "E Sono Solo un Uomo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ecco-il-nostro-si": {
     "title": "Ecco il Nostro Sì",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ecco-quel-che-abbiamo": {
     "title": "Ecco Quel Che Abbiamo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "eccomi-salmo-39": {
     "title": "Eccomi",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "emmanuel": {
     "title": "Emmanuel",
-    "tags": []
+    "tags": [
+      "Natale"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "fammi-conoscere": {
     "title": "Fammi Conoscere",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "frutto-della-nostra-terra": {
     "title": "Frutto della Nostra Terra",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "giovane-donna": {
     "title": "Giovane Donna",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "giovanni": {
     "title": "Giovanni",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "signore-pieta-buttazzo": {
     "title": "Signore Pietà",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "signore-pieta-versione-2": {
     "title": "Signore Pietà",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "gloria-buttazzo": {
     "title": "Gloria",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "gloria-gen-verde": {
     "title": "Gloria",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "gloria-a-te-parola-vivente": {
     "title": "Gloria a Te, Parola Vivente",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "grandi-cose": {
     "title": "Grandi Cose",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ho-abbandonato": {
     "title": "Ho Abbandonato",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "il-canto-dei-3-giovani": {
     "title": "Il Canto dei 3 Giovani",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "il-canto-dell-amore": {
     "title": "Il Canto dell'Amore",
-    "tags": [
-      "Matrimonio"
-    ]
+    "tags": [],
+    "groups": []
   },
   "il-canto-del-mare": {
     "title": "Il Canto del Mare",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "il-disegno": {
     "title": "Il Disegno",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "il-giovane-ricco": {
     "title": "Il Giovane Ricco",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "il-pane-che-ci-hai-dato": {
     "title": "Il Pane Che Ci Hai Dato",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "il-signore-e-la-luce": {
     "title": "Il Signore È la Luce",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "il-vascello-dell-amore": {
     "title": "Il Vascello dell'Amore",
-    "tags": [
-      "Matrimonio"
-    ]
+    "tags": [],
+    "groups": []
   },
   "in-una-notte-come-tante": {
     "title": "In una Notte Come Tante",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "invochiamo-la-tua-presenza-capo-3": {
     "title": "Invochiamo la Tua Presenza",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "io-mi-arrendo-capo-3": {
     "title": "Io Mi Arrendo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "jesus-christ-you-are-my-life": {
     "title": "Jesus Christ, You Are My Life",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "la-canzone-dell-amicizia": {
     "title": "La Canzone dell'Amicizia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "la-gioia": {
     "title": "La Gioia",
     "tags": [
-      "Lode"
+      "Lode",
+      "Lode e gioia"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "la-mia-anima-canta": {
     "title": "La Mia Anima Canta",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "la-preghiera-di-gesu-e-la-nostra": {
     "title": "La Preghiera di Gesù è la Nostra",
     "tags": [
       "Meditazione"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "laudato-sii-o-mi-signore": {
     "title": "Laudato Sii, o Mi Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "laudato-sii-signore-mio": {
     "title": "Laudato Sii, Signore Mio",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "le-tue-mani": {
     "title": "Le Tue Mani",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "le-tue-meraviglie": {
     "title": "Le Tue Meraviglie",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "lode-a-te-o-cristo": {
     "title": "Lode a Te, o Cristo",
     "tags": [
-      "Lode"
+      "Lode",
+      "Lode e gioia"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "lode-al-nome-tuo": {
     "title": "Lode al Nome Tuo",
     "tags": [
-      "Lode"
+      "Lode",
+      "Lode e gioia"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "luce-di-verita": {
     "title": "Luce di Verità",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "lui-m-ha-dato": {
     "title": "Lui M'ha Dato",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "mani": {
     "title": "Mani",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "maranatha-soffio-di-dio": {
     "title": "Maranathà",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "maria-porta-dell-avvento": {
     "title": "Maria Porta dell'Avvento",
     "tags": [
       "Avvento",
       "Maria"
+    ],
+    "groups": [
+      "Tempi liturgici",
+      "Temi"
     ]
   },
   "mi-arrendo-al-tuo-amore": {
     "title": "Mi Arrendo al Tuo Amore",
-    "tags": [
-      "Matrimonio"
-    ]
+    "tags": [],
+    "groups": []
   },
   "mi-basta-la-tua-grazia": {
     "title": "Mi Basta la Tua Grazia",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "nel-tuo-silenzio": {
     "title": "Nel Tuo Silenzio",
-    "tags": []
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
   },
   "non-avere-paura": {
     "title": "Non Avere Paura",
-    "tags": []
+    "tags": [
+      "Maria"
+    ],
+    "groups": [
+      "Temi"
+    ]
   },
   "non-vivere-di-corsa": {
     "title": "Non Vivere di Corsa",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "oggi-e-un-giorno-di-festa": {
     "title": "Oggi È un Giorno di Festa",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ogni-mia-parola": {
     "title": "Ogni Mia Parola",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "osanna-al-figlio-di-david": {
     "title": "Osanna",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "padre-nostro-s-andrea": {
     "title": "Padre Nostro",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "padre-nostro-s-marco": {
     "title": "Padre Nostro",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "pane-del-cielo": {
     "title": "Pane del Cielo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "pane-di-vita-nuova-capo-1": {
     "title": "Pane di Vita Nuova",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "pane-vivo-sei": {
     "title": "Pane Vivo Sei",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "pellegrini-di-speranza-capo-3": {
     "title": "Pellegrini di Speranza",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "pietro-vai": {
     "title": "Pietro Vai",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "pim-pam": {
     "title": "Pim Pam",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "popoli-tutti": {
     "title": "Popoli Tutti",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "potente-sei-mio-signor-volendo-capo-2": {
     "title": "Potente Sei Mio Signor",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "quale-gioia-salmo-121": {
     "title": "Quale Gioia",
     "tags": [
-      "Lode"
+      "Lode",
+      "Lode e gioia"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "quale-gioia-e-star-con-te": {
     "title": "Quale Gioia È Star con Te",
     "tags": [
-      "Lode"
+      "Lode",
+      "Lode e gioia"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "qui-con-te": {
     "title": "Qui con Te",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "re-dei-re-capo-1": {
     "title": "Re dei Re",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "regno-nuovo": {
     "title": "Regno Nuovo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "resta-accanto-a-me": {
     "title": "Resta Accanto a Me",
-    "tags": []
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
   },
   "resta-qui-con-noi": {
     "title": "Resta Qui con Noi",
-    "tags": []
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
   },
   "resto-con-te": {
     "title": "Resto con Te",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "resurrezione": {
     "title": "Resurrezione",
-    "tags": []
+    "tags": [
+      "Pasqua"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "salve-regina": {
     "title": "Salve Regina",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "san-francesco": {
     "title": "San Francesco",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "santa-maria-del-cammino": {
     "title": "Santa Maria del Cammino",
     "tags": [
       "Maria"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "santo": {
     "title": "Santo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "santo-classico": {
     "title": "Santo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "santo-gen-verde": {
     "title": "Santo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "santo-gen-messa-come-fuoco-vivo": {
     "title": "Santo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "santo-zairese": {
     "title": "Santo",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "santo-e-il-signore-la-tua-dimora": {
     "title": "Santo È il Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "scusa-signore": {
     "title": "Scusa Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "se-m-accogli": {
     "title": "Se M'Accogli",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "se-tu-vedrai": {
     "title": "Se Tu Vedrai",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "segni-nuovi": {
     "title": "Segni Nuovi",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "segni-del-tuo-amore": {
     "title": "Segni del Tuo Amore",
-    "tags": [
-      "Matrimonio"
-    ]
+    "tags": [],
+    "groups": []
   },
   "servire-e-regnare": {
     "title": "Servire È Regnare",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "servo-per-amore": {
     "title": "Servo per Amore",
-    "tags": [
-      "Matrimonio"
-    ]
+    "tags": [],
+    "groups": []
   },
   "siamo-venuti-per": {
     "title": "Siamo Venuti per",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "sono-qui-a-lodarti": {
     "title": "Sono Qui a Lodarti",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "spirito-di-dio": {
     "title": "Spirito di Dio",
-    "tags": []
+    "tags": [
+      "Spirito Santo"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "stai-con-me": {
     "title": "Stai con Me",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "su-ali-d-aquila": {
     "title": "Su Ali d'Aquila",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "symbolum-77-tu-sei-la-mia-vita": {
     "title": "Symbolum 77",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "symbolum-80-oltre-le-memorie": {
     "title": "Symbolum '80",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "te-al-centro-del-mio-cuore": {
     "title": "Te, al Centro del Mio Cuore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "testimoni-della-tua-parola-capo-2": {
     "title": "Testimoni della Tua Parola",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ti-lodero-ti-adorero-ti-cantero": {
     "title": "Ti Loderò, Ti Adorerò, Ti Canterò",
     "tags": [
-      "Lode"
+      "Lode",
+      "Lode e gioia"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "ti-ringrazio-mio-signore": {
     "title": "Ti Ringrazio Mio Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "ti-seguiro": {
     "title": "Ti Seguirò",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "tu-sei-sorgente-viva": {
     "title": "Tu Sei Sorgente Viva",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "tu-sei": {
     "title": "Tu Sei",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "tu-sei-bambino-capo-2-3-4": {
     "title": "Tu Sei Bambino",
-    "tags": []
+    "tags": [
+      "Natale"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "tutto-e-possibile": {
     "title": "Tutto È Possibile",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "venimus-adorare-eum-emmanuel-inno-gmg-2005": {
     "title": "Venimus Adorare Eum, Emmanuel",
-    "tags": []
+    "tags": [
+      "Natale"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "venite-applaudiamo-al-signore": {
     "title": "Venite Applaudiamo al Signore",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "verbum-panis": {
     "title": "Verbum Panis",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "vieni-e-seguimi": {
     "title": "Vieni e Seguimi",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "vieni-santo-spirito-di-dio": {
     "title": "Vieni Santo Spirito di Dio",
-    "tags": []
+    "tags": [
+      "Spirito Santo"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "vivere-la-vita": {
     "title": "Vivere la Vita",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "vocazione": {
     "title": "Vocazione",
-    "tags": []
+    "tags": [],
+    "groups": []
   },
   "voi-siete-di-dio": {
     "title": "Voi Siete di Dio",
-    "tags": []
+    "tags": [],
+    "groups": []
   }
 }

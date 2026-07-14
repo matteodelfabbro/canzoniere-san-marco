@@ -323,3 +323,17 @@
 .explicit-chord-right {
   margin-left: 0.9em;
 }
+
+
+.tag-suggestions {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(0,0,0,.04);
+}
+.tag-suggestions h3 {
+  margin-top: 0;
+}
+.tag-group h4 {
+  margin-bottom: .4rem;
+}

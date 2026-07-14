@@ -805,7 +805,7 @@ let searchSuggestionsCache = null;
 async function loadSearchSuggestions(){
   if(searchSuggestionsCache) return searchSuggestionsCache;
   try{
-    const r = await fetch("./search-suggestions.json");
+    const r = await fetch("./data/search-suggestions.json");
     searchSuggestionsCache = await r.json();
   }catch(e){
     searchSuggestionsCache = {};
@@ -845,7 +845,7 @@ async function getVisibleThemeSuggestions(query){
 
   try{
     if(!themeSuggestionsCache){
-      const r = await fetch("./search-suggestions.json");
+      const r = await fetch("./data/search-suggestions.json");
       themeSuggestionsCache = await r.json();
     }
 

@@ -1053,3 +1053,218 @@
 .song-title-actions .song-setlist.active .setlist-icon{
   stroke-width:2;
 }
+
+
+/* Barra canto v4 — Setlist, Solo testo diretto e tonalità equilibrata */
+.song-more,
+.song-more-menu{
+  display:none!important;
+}
+
+.song-nav-main{
+  min-height:2.2rem;
+}
+
+.song-view-toggle{
+  flex:0 0 auto;
+  min-height:2.1rem;
+  display:inline-flex;
+  align-items:center;
+  gap:.38rem;
+  padding:.34rem .55rem;
+  border:0;
+  border-radius:9px;
+  background:rgba(22,35,61,.045);
+  color:rgba(22,35,61,.72);
+  font-size:.8rem;
+  font-weight:500;
+  line-height:1;
+}
+
+.song-view-toggle:hover,
+.song-view-toggle:active,
+.song-view-toggle.active{
+  background:rgba(22,35,61,.09);
+  color:var(--navy,#16233d);
+}
+
+.song-view-icon{
+  width:1rem;
+  height:1rem;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.toolbar-controls{
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:nowrap;
+  gap:.55rem;
+  width:100%;
+  min-width:0;
+}
+
+.text-controls,
+.transpose-controls{
+  flex:0 0 auto!important;
+  box-sizing:border-box;
+  width:max-content!important;
+  margin:0!important;
+  padding:.16rem;
+  border:1px solid rgba(22,35,61,.08);
+  border-radius:10px;
+  background:rgba(22,35,61,.04);
+}
+
+.text-controls{
+  display:grid!important;
+  grid-template-columns:1.95rem 2.7rem 1.95rem!important;
+  gap:.12rem!important;
+}
+
+.transpose-controls{
+  display:grid!important;
+  grid-template-columns:1.95rem 4.35rem 1.95rem!important;
+  gap:.12rem!important;
+}
+
+.transpose-value{
+  width:4.35rem!important;
+  min-width:4.35rem!important;
+  max-width:4.35rem!important;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  white-space:nowrap;
+  color:var(--wine-bright,#8a2035);
+  font-size:.82rem;
+  font-weight:600;
+  text-align:center;
+}
+
+.transpose-value:not(.is-original){
+  color:var(--navy,#16233d);
+  font-weight:550;
+}
+
+.transpose-btn,
+.command-btn{
+  width:1.95rem!important;
+  height:1.95rem!important;
+  border:0!important;
+  border-radius:8px!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+.transpose-btn:hover,
+.transpose-btn:active,
+.command-btn:hover,
+.command-btn:active{
+  background:rgba(22,35,61,.08)!important;
+}
+
+@media (max-width:390px){
+  .song-view-toggle{
+    padding:.32rem .46rem;
+    font-size:.76rem;
+  }
+
+  .toolbar-controls{
+    gap:.3rem;
+  }
+
+  .text-controls{
+    grid-template-columns:1.82rem 2.42rem 1.82rem!important;
+  }
+
+  .transpose-controls{
+    grid-template-columns:1.82rem 3.9rem 1.82rem!important;
+  }
+
+  .text-size-value{
+    width:2.42rem!important;
+    min-width:2.42rem!important;
+    max-width:2.42rem!important;
+    font-size:.75rem;
+  }
+
+  .transpose-value{
+    width:3.9rem!important;
+    min-width:3.9rem!important;
+    max-width:3.9rem!important;
+    font-size:.75rem;
+  }
+
+  .transpose-btn,
+  .command-btn{
+    width:1.82rem!important;
+    height:1.82rem!important;
+  }
+}
+
+
+/* Elenco canti — righe leggere per collegare titolo e azioni */
+.tile-list{
+  gap:0;
+}
+
+.tile-row{
+  position:relative;
+  border-bottom:1px solid rgba(233,226,205,.11);
+}
+
+.tile-row:last-child{
+  border-bottom:0;
+}
+
+.tile-actions{
+  align-self:stretch;
+  padding:0 .12rem;
+}
+
+.setlist-add .setlist-icon{
+  width:1.08rem;
+  height:1.08rem;
+  display:block;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.85;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.setlist-add.active .setlist-icon{
+  stroke-width:2;
+}
+
+/* Le due righe della barra seguono la stessa logica:
+   sinistra = canto, destra = visualizzazione. */
+.toolbar-controls .transpose-controls{
+  order:1;
+}
+
+.toolbar-controls .text-controls{
+  order:2;
+}
+
+@media (min-width:821px) and (max-width:1180px){
+  .tile-row{
+    border-bottom-color:rgba(233,226,205,.14);
+  }
+
+  .tile{
+    padding-top:.72rem;
+    padding-bottom:.72rem;
+  }
+
+  .tile-actions{
+    padding-left:.2rem;
+    padding-right:.2rem;
+  }
+}

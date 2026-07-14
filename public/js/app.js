@@ -67,7 +67,11 @@ function migrateStoredSongRefs(raw){
 }
 let favorites=new Set(migrateStoredSongRefs(JSON.parse(localStorage.getItem('favoriteSongs')||'[]')));
 let personalSetlist=migrateStoredSongRefs(JSON.parse(localStorage.getItem('personalSetlist')||'[]'));
-let personalSetlistName=localStorage.getItem('personalSetlistName')||'La mia scaletta';
+let personalSetlistName=localStorage.getItem('personalSetlistName')||'La mia Setlist';
+if(personalSetlistName==='La mia scaletta'){
+  personalSetlistName='La mia Setlist';
+  localStorage.setItem('personalSetlistName',personalSetlistName);
+}
 localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
 localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
 let listScrollY=0;
@@ -163,13 +167,13 @@ function buildSetlistShareUrl(){
 }
 async function shareCurrentSetlist(){
   if(!personalSetlist.length){
-    alert('La scaletta è vuota.');
+    alert('La Setlist è vuota.');
     return;
   }
   const url=buildSetlistShareUrl();
   const shareData={
     title:personalSetlistName,
-    text:`Scaletta: ${personalSetlistName}`,
+    text:`Setlist: ${personalSetlistName}`,
     url
   };
   if(navigator.share){
@@ -182,7 +186,7 @@ async function shareCurrentSetlist(){
   }
   try{
     await navigator.clipboard.writeText(url);
-    alert('Link della scaletta copiato.');
+    alert('Link della Setlist copiato.');
   }catch{
     prompt('Copia questo link:',url);
   }
@@ -197,11 +201,11 @@ function importSetlistFromUrl(){
   const unique=[...new Set(imported)];
   if(!unique.length)return;
 
-  const importedName=(params.get('nome')||'Scaletta condivisa').trim().slice(0,40);
-  const accept=confirm(`Importare la scaletta "${importedName}" con ${unique.length} canti?`);
+  const importedName=(params.get('nome')||'Setlist condivisa').trim().slice(0,40);
+  const accept=confirm(`Importare la Setlist "${importedName}" con ${unique.length} canti?`);
   if(accept){
     personalSetlist=unique;
-    personalSetlistName=importedName||'Scaletta condivisa';
+    personalSetlistName=importedName||'Setlist condivisa';
     saveSetlist();
     localStorage.setItem('personalSetlistName',personalSetlistName);
     setListMode('setlist');
@@ -479,8 +483,12 @@ function renderTiles(filter=search.value){
       const remove=document.createElement('button');
       remove.type='button';
       remove.className='setlist-add active';
-      remove.textContent='×';
-      remove.title='Rimuovi dalla scaletta';
+      remove.innerHTML=`<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 6h10M4 12h7M4 18h8"></path>
+        <path d="m15 15 2 2 4-5"></path>
+      </svg>`;
+      remove.title='Rimuovi dalla Setlist';
+      remove.setAttribute('aria-label',remove.title);
       remove.addEventListener('click',event=>{
         event.stopPropagation();
         toggleSetlist(i);
@@ -491,8 +499,18 @@ function renderTiles(filter=search.value){
       const add=document.createElement('button');
       add.type='button';
       add.className='setlist-add'+(isInSetlist(i)?' active':'');
-      add.textContent=isInSetlist(i)?'✓':'+';
-      add.title=isInSetlist(i)?'Rimuovi dalla scaletta':'Aggiungi alla scaletta';
+      add.innerHTML=isInSetlist(i)
+        ? `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+             <path d="M4 6h10M4 12h7M4 18h8"></path>
+             <path d="m15 15 2 2 4-5"></path>
+           </svg>`
+        : `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+             <path d="M4 6h10M4 12h7M4 18h8"></path>
+             <path d="M18 8v6M15 11h6"></path>
+           </svg>`;
+      add.title=isInSetlist(i)?'Rimuovi dalla Setlist':'Aggiungi alla Setlist';
+      add.setAttribute('aria-label',add.title);
+      add.setAttribute('aria-pressed',String(isInSetlist(i)));
       add.addEventListener('click',event=>{
         event.stopPropagation();
         toggleSetlist(i);
@@ -680,24 +698,21 @@ function renderSong(i){
   let html=`<div class="song-nav">
     <div class="song-nav-main">
       <button class="back-list" id="backList" type="button"><span class="back-arrow" aria-hidden="true">←</span>Elenco</button>
-      <details class="song-more">
-        <summary aria-label="Altre azioni sul canto">•••</summary>
-        <div class="song-more-menu">
-          <button class="lyrics-only-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">${lyricsOnly?'Mostra accordi':'Solo testo'}</button>
-        </div>
-      </details>
+      <button class="lyrics-only-toggle song-view-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">
+        <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 5h12M6 10h12M6 15h8M6 20h8"></path>
+          ${lyricsOnly?'<path d="m16 17 2 2 3-4"></path>':''}
+        </svg>
+        <span>${lyricsOnly?'Accordi':'Solo testo'}</span>
+      </button>
     </div>
     <div class="toolbar-controls" aria-label="Comandi canto">
-      <div class="transpose-controls">
-        <span class="transpose-label">Tonalità</span>
+      <div class="transpose-controls" aria-label="Tonalità">
         <button class="transpose-btn" id="tDown" type="button" aria-label="Abbassa tonalità">−</button>
-        <span class="transpose-value" aria-label="${shift===0?'Tonalità originale':`${shift>0?'Alzata':'Abbassata'} di ${Math.abs(shift)} semitoni`}">${shift===0?'Originale':(shift>0?'+':'')+shift}</span>
+        <span class="transpose-value${shift===0?' is-original':''}" aria-label="${shift===0?'Tonalità originale':`${shift>0?'Alzata':'Abbassata'} di ${Math.abs(shift)} semitoni`}">${shift===0?'Tonalità':(shift>0?'+':'')+shift}</span>
         <button class="transpose-btn" id="tUp" type="button" aria-label="Alza tonalità">+</button>
-        ${shift!==0?'<button class="transpose-reset" id="tReset" type="button" aria-label="Ripristina tonalità originale">↺</button>':''}
       </div>
-      <span class="command-separator" aria-hidden="true"></span>
-      <div class="text-controls">
-        <span class="text-size-label">Testo</span>
+      <div class="text-controls" aria-label="Dimensione del testo">
         <button class="command-btn font-control-btn" id="fontDown" type="button" aria-label="Riduci testo"><span class="font-control-a">A</span><span class="font-control-sign">−</span></button>
         <span class="text-size-value" id="fontValue">${songFontSize}px</span>
         <button class="command-btn font-control-btn" id="fontUp" type="button" aria-label="Ingrandisci testo"><span class="font-control-a">A</span><span class="font-control-sign">+</span></button>
@@ -712,7 +727,7 @@ function renderSong(i){
     </div>
     <div class="song-title-actions" aria-label="Azioni sul canto">
       <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>
-      <button class="song-setlist${isInSetlist(i)?' active':''}" id="songSetlist" type="button" aria-label="${isInSetlist(i)?'Rimuovi dalla scaletta':'Aggiungi alla scaletta'}">
+      <button class="song-setlist${isInSetlist(i)?' active':''}" id="songSetlist" type="button" aria-label="${isInSetlist(i)?'Rimuovi dalla Setlist':'Aggiungi alla Setlist'}">
         ${isInSetlist(i)
           ? `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
                <path d="M4 6h10M4 12h7M4 18h8"></path>
@@ -769,8 +784,6 @@ function renderSong(i){
   if(nextBtn)nextBtn.addEventListener('click',()=>showSong(songIndexFromId(personalSetlist[setlistPosition(i)+1])));
   document.getElementById('tUp').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)+1;renderSong(i)});
   document.getElementById('tDown').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)-1;renderSong(i)});
-  const reset=document.getElementById('tReset');
-  if(reset)reset.addEventListener('click',()=>{shiftState[i]=0;renderSong(i)});
 
   const changeFontSize=delta=>{
     songFontSize=Math.min(22,Math.max(12,songFontSize+delta));
@@ -790,7 +803,7 @@ filterFavorites.addEventListener('click',()=>setListMode('favorites'));
 filterSetlist.addEventListener('click',()=>setListMode('setlist'));
 shareSetlist.addEventListener('click',shareCurrentSetlist);
 renameSetlist.addEventListener('click',()=>{
-  const newName=prompt('Nome della scaletta:',personalSetlistName);
+  const newName=prompt('Nome della Setlist:',personalSetlistName);
   if(newName===null)return;
   const cleanName=newName.trim().replace(/\s+/g,' ');
   if(!cleanName)return;
@@ -800,7 +813,7 @@ renameSetlist.addEventListener('click',()=>{
 });
 clearSetlist.addEventListener('click',()=>{
   if(!personalSetlist.length)return;
-  if(confirm('Vuoi svuotare la scaletta personale?')){
+  if(confirm('Vuoi svuotare la Setlist personale?')){
     personalSetlist=[];
     saveSetlist();
     renderTiles();

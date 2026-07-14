@@ -317,6 +317,7 @@ function backToList(){if(history.state&&history.state.view==='song')history.back
 
 // Theme suggestions integration
 const themeSuggestionsEnabled = true;
+/* THEME_RENDER_HOOK */
 function renderTiles(filter=search.value){
   updateSetlistHeader();
   tileList.innerHTML='';
@@ -862,6 +863,40 @@ async function getVisibleThemeSuggestions(query){
         <h3>${esc(title)}</h3>
       </div>
     `).join("");
+  }catch(e){
+    return "";
+  }
+}
+
+async function buildThemeSuggestionSongs(query, allSongs){
+  const q = normalizeSearchText(query || "");
+  if(!q) return "";
+
+  try{
+    const r = await fetch("./data/search-suggestions.json");
+    const config = await r.json();
+
+    const themes = Object.entries(config).filter(([_, item])=>{
+      const tag = normalizeSearchText(item.tag);
+      return tag === q || tag.includes(q) || q.includes(tag);
+    });
+
+    if(!themes.length) return "";
+
+    return themes.map(([title,item])=>{
+      const songs = allSongs.filter(s=>{
+        const text = normalizeSearchText(JSON.stringify(s));
+        const tag = normalizeSearchText(item.tag);
+        return text.includes(tag);
+      }).slice(0,5);
+
+      if(!songs.length) return "";
+
+      return `<section class="theme-suggestions-box">
+        <h3>${title}</h3>
+        ${songs.map(s=>`<div class="theme-song" data-song-id="${s.id}">${s.title}</div>`).join("")}
+      </section>`;
+    }).join("");
   }catch(e){
     return "";
   }

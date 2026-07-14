@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Roboto%20Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
   :root{--ink:#1c1b17;--paper:#f3efe4;--paper-deep:#e5ddc9;--navy:#16233d;--navy-deep:#101a2e;--gold:#c6a24d;--gold-bright:#e0bc6a;--wine:#6d1626;--wine-bright:#8a2035;--line:rgba(28,27,23,.10)}
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
@@ -84,7 +84,7 @@
   .song-setlist.active{color:var(--wine);border-color:rgba(109,22,38,.3);background:rgba(109,22,38,.06)}
   .lyrics-only-toggle{height:2rem;display:flex;align-items:center;justify-content:center;gap:.3rem;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.55);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;padding:0 .58rem;cursor:pointer;white-space:nowrap}
   .lyrics-only-toggle.active{color:var(--wine);border-color:rgba(109,22,38,.3);background:rgba(109,22,38,.06)}
-  .lyrics-only-line{display:none;font-family:'Roboto Mono',monospace;font-size:var(--song-font-size);font-weight:500;line-height:1.65;white-space:pre-wrap;overflow-wrap:normal;word-break:normal}
+  .lyrics-only-line{display:none;font-family:Manrope,sans-serif;font-size:var(--song-font-size);font-weight:500;line-height:1.65;white-space:pre-wrap;overflow-wrap:normal;word-break:normal}
   .sheet.lyrics-only .chordline,
   .sheet.lyrics-only .music-row{display:none}
   .sheet.lyrics-only .lyrics-only-line{display:block}
@@ -95,18 +95,18 @@
   .sheet{--song-font-size:16px;background:transparent;border:0;border-radius:0;padding:0 0 .35rem;box-shadow:none;overflow-x:auto}
   .block{margin-bottom:1rem}
   .block:last-child{margin-bottom:0}
-  .chordline,.lyricline{font-family:'Roboto Mono',monospace;font-size:var(--song-font-size);letter-spacing:-0.015em;white-space:pre;width:max-content;min-width:100%}
-  .chordline{font-weight:700;color:#9c1a34;line-height:1.6}
-  .lyricline{font-weight:500;line-height:1.65}
-  .music-row{display:flex;flex-wrap:nowrap;align-items:flex-start;width:max-content;min-width:100%;font-family:'Roboto Mono',monospace;font-size:var(--song-font-size);margin-bottom:.08rem}
-  .music-segment{flex:0 0 calc(var(--cols) * 1ch);width:calc(var(--cols) * 1ch);min-width:0}
+  .chordline,.lyricline{font-family:Manrope,sans-serif;font-size:var(--song-font-size);letter-spacing:-0.015em;white-space:pre;width:max-content;min-width:100%}
+  .chordline{font-weight:700;color:#9c1a34;line-height:1.45;font-size:.88em;letter-spacing:.01em}
+  .lyricline{font-weight:500;line-height:1.58;letter-spacing:0}
+  .music-row{display:flex;flex-wrap:nowrap;align-items:flex-start;width:max-content;min-width:100%;font-family:Manrope,sans-serif;font-size:var(--song-font-size);margin-bottom:.08rem}
+  .music-segment{flex:0 0 auto;width:auto;min-width:calc(var(--cols) * .56em);padding-right:.18em}
   .segment-chord,.segment-lyric{white-space:pre;overflow:visible}
-  .segment-chord{font-weight:700;color:#9c1a34;line-height:1.6;min-height:1.6em}
-  .segment-lyric{font-weight:500;line-height:1.65}
-  .headline{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:rgba(198,162,77,.10);display:inline-block;padding:.17rem .48rem;border-radius:2px;margin:.85rem 0 .18rem}
+  .segment-chord{font-weight:700;color:#9c1a34;line-height:1.45;min-height:1.45em;font-size:.88em;letter-spacing:.01em}
+  .segment-lyric{font-weight:500;line-height:1.58;letter-spacing:0}
+  .headline{font-family:Manrope,sans-serif;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:rgba(198,162,77,.10);display:inline-block;padding:.17rem .48rem;border-radius:2px;margin:.85rem 0 .18rem}
   .sheet>.headline:first-child{margin-top:0}
   .spacer{height:.5rem}
-  footer{text-align:center;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.04em;color:rgba(28,27,23,.45);padding:1.4rem 1rem 2rem}
+  footer{text-align:center;font-family:Manrope,sans-serif;font-size:.72rem;letter-spacing:.04em;color:rgba(28,27,23,.45);padding:1.4rem 1rem 2rem}
   .beta-feedback-link{margin-top:.55rem;border:0;background:transparent;color:var(--wine);font:inherit;text-decoration:underline;cursor:pointer}
   .feedback-trigger{height:2rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.52);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;padding:0 .48rem;cursor:pointer;white-space:nowrap}
   .feedback-trigger:hover{color:var(--wine);border-color:rgba(109,22,38,.3);background:rgba(109,22,38,.05)}

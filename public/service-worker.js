@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-compact-menu-v1-menu-font-normal-crisp-v2-review-001-010-v1-word-anchors-v1-review-011-020-v1-review-001-030-v1-review-001-040-v1-review-001-050-v1-review-001-060-v1-review-001-070-v1-review-001-080-v1-review-001-090-v1-review-001-100-v1-review-001-110-v1-alignment-relative-v2-le-tue-meraviglie-completo-v4-explicit-chords-spacing-v5-explicit-chords-color-v6';
+const CACHE_NAME = 'canzoniere-san-marco-compact-menu-v1-menu-font-normal-crisp-v2-review-001-010-v1-word-anchors-v1-review-011-020-v1-review-001-030-v1-review-001-040-v1-review-001-050-v1-review-001-060-v1-review-001-070-v1-review-001-080-v1-review-001-090-v1-review-001-100-v1-review-001-110-v1-alignment-relative-v2-le-tue-meraviglie-completo-v4-explicit-chords-spacing-v5-explicit-chords-color-v6-explicit-chords-shift-v7-review-001-120-v1-review-001-130-v1-review-001-140-v1-review-001-150-v1-review-complete-001-159-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",

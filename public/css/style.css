@@ -313,3 +313,9 @@
 .explicit-chord {
   color: var(--chord-color, #8f1735);
 }
+
+
+/* Accordi collocati subito dopo la fine di una parola: piccolo distacco per evitare sovrapposizioni. */
+.explicit-chord-after {
+  margin-left: 0.65em;
+}

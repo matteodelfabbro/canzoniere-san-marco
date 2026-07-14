@@ -59,7 +59,7 @@
           "chord": "SOL",
           "word": 5,
           "offset": 1.0,
-          "align": "left"
+          "align": "after"
         }
       ]
     },
@@ -179,7 +179,7 @@
           "chord": "SOL",
           "word": 5,
           "offset": 1.0,
-          "align": "left"
+          "align": "after"
         }
       ]
     },
@@ -230,7 +230,7 @@
           "chord": "LA-",
           "word": 5,
           "offset": 1.0,
-          "align": "left"
+          "align": "after"
         }
       ]
     },

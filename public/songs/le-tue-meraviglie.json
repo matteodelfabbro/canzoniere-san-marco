@@ -52,12 +52,14 @@
         {
           "chord": "SIb",
           "word": 5,
-          "offset": 0.5
+          "offset": 0.55,
+          "align": "center"
         },
         {
           "chord": "SOL",
           "word": 5,
-          "offset": 1.0
+          "offset": 1.0,
+          "align": "left"
         }
       ]
     },
@@ -170,12 +172,14 @@
         {
           "chord": "SIb",
           "word": 5,
-          "offset": 0.5
+          "offset": 0.55,
+          "align": "center"
         },
         {
           "chord": "SOL",
           "word": 5,
-          "offset": 1.0
+          "offset": 1.0,
+          "align": "left"
         }
       ]
     },
@@ -219,12 +223,14 @@
         {
           "chord": "MI-",
           "word": 5,
-          "offset": 0.5
+          "offset": 0.55,
+          "align": "center"
         },
         {
           "chord": "LA-",
           "word": 5,
-          "offset": 1.0
+          "offset": 1.0,
+          "align": "left"
         }
       ]
     },

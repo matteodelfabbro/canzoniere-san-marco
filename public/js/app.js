@@ -458,8 +458,13 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null){
       const anchors=anchorsByWord.get(index)||[];
       const chordHtml=anchors.map(anchor=>{
         const pct=anchor.offset*100;
-        const translate=anchor.offset===0?0:(anchor.offset===1?-100:-50);
-        return `<span class="explicit-chord" style="left:${pct}%;transform:translateX(${translate}%);">${esc(anchor.chord)}</span>`;
+        const align=anchor.align||(
+          anchor.offset===0?'left':
+          anchor.offset===1?'right':
+          'center'
+        );
+        const translate=align==='center'?-50:(align==='right'?-100:0);
+        return `<span class="explicit-chord explicit-chord-${align}" style="left:${pct}%;transform:translateX(${translate}%);">${esc(anchor.chord)}</span>`;
       }).join('');
 
       return `<span class="explicit-word">${chordHtml}<span class="explicit-lyric">${esc(word)}</span></span>`;

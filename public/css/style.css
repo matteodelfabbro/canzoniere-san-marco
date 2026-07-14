@@ -298,3 +298,18 @@
 .sheet.lyrics-only .explicit-music-row {
   display: none;
 }
+
+
+/* Evita sovrapposizioni tra più accordi ancorati alla stessa parola. */
+.explicit-chord-left {
+  margin-left: 0.18em;
+}
+.explicit-chord-center {
+  margin-left: -0.08em;
+}
+
+
+/* Colore coerente per gli accordi con ancoraggio esplicito. */
+.explicit-chord {
+  color: var(--chord-color, #8f1735);
+}

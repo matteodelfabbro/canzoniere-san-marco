@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-toolbar-v2';
+const CACHE_NAME = 'canzoniere-san-marco-setlist-icon-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",

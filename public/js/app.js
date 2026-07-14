@@ -678,14 +678,14 @@ function renderSong(i){
   const song=songs[i];
   const shift=shiftState[i]||0;
   let html=`<div class="song-nav">
-    <div class="command-group">
+    <div class="song-nav-main">
       <button class="back-list" id="backList" type="button"><span class="back-arrow" aria-hidden="true">←</span>Elenco</button>
-      <div class="primary-actions">
-        <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>
-        <button class="song-setlist${isInSetlist(i)?' active':''}" id="songSetlist" type="button">${isInSetlist(i)?'✓ Scaletta':'+ Scaletta'}</button>
-        <button class="lyrics-only-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">${lyricsOnly?'Solo testo':'Accordi'}</button>
-        <button class="feedback-trigger" id="songFeedback" type="button">Segnala</button>
-      </div>
+      <details class="song-more">
+        <summary aria-label="Altre azioni sul canto">•••</summary>
+        <div class="song-more-menu">
+          <button class="lyrics-only-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">${lyricsOnly?'Mostra accordi':'Solo testo'}</button>
+        </div>
+      </details>
     </div>
     <div class="toolbar-controls" aria-label="Comandi canto">
       <div class="transpose-controls">
@@ -704,7 +704,27 @@ function renderSong(i){
       </div>
     </div>
   </div>
-  <div class="song-head"><span class="num">${pad(i)}</span><div><h2 class="song-title">${esc(song.title)}</h2>${song.sub?`<div class="song-sub">${esc(song.sub)}</div>`:''}</div></div>
+  <div class="song-head">
+    <span class="num">${pad(i)}</span>
+    <div class="song-heading-text">
+      <h2 class="song-title">${esc(song.title)}</h2>
+      ${song.sub?`<div class="song-sub">${esc(song.sub)}</div>`:''}
+    </div>
+    <div class="song-title-actions" aria-label="Azioni sul canto">
+      <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>
+      <button class="song-setlist${isInSetlist(i)?' active':''}" id="songSetlist" type="button" aria-label="${isInSetlist(i)?'Rimuovi dalla scaletta':'Aggiungi alla scaletta'}">
+        ${isInSetlist(i)
+          ? `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+               <path d="M4 6h10M4 12h7M4 18h8"></path>
+               <path d="m15 15 2 2 4-5"></path>
+             </svg>`
+          : `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+               <path d="M4 6h10M4 12h7M4 18h8"></path>
+               <path d="M18 8v6M15 11h6"></path>
+             </svg>`}
+      </button>
+    </div>
+  </div>
   ${isInSetlist(i)?`<div class="setlist-nav">
     <button id="setlistPrev" type="button" ${setlistPosition(i)<=0?'disabled':''}>← Precedente</button>
     <span class="setlist-position">${setlistPosition(i)+1} di ${personalSetlist.length}</span>
@@ -729,7 +749,10 @@ function renderSong(i){
     else html+='<div class="spacer"></div>';
   }
 
-  main.innerHTML=html+'</div>';
+  main.innerHTML=html+`</div>
+  <div class="song-feedback-footer">
+    <button class="feedback-trigger" id="songFeedback" type="button">Segnala un errore</button>
+  </div>`;
 
   document.getElementById('backList').addEventListener('click',backToList);
   document.getElementById('songFavorite').addEventListener('click',()=>toggleFavorite(i));

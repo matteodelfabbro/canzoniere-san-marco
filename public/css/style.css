@@ -96,13 +96,13 @@
   .block{margin-bottom:1rem}
   .block:last-child{margin-bottom:0}
   .chordline,.lyricline{font-family:Manrope,sans-serif;font-size:var(--song-font-size);letter-spacing:-0.015em;white-space:pre;width:max-content;min-width:100%}
-  .chordline{font-weight:700;color:#9c1a34;line-height:1.45;font-size:.88em;letter-spacing:.01em}
-  .lyricline{font-weight:500;line-height:1.58;letter-spacing:0}
+  .chordline{font-weight:800;color:#8f1530;line-height:1.38;font-size:.9em;letter-spacing:.01em}
+  .lyricline{font-weight:400;line-height:1.52;letter-spacing:-.005em;color:#222}
   .music-row{display:flex;flex-wrap:nowrap;align-items:flex-start;width:max-content;min-width:100%;font-family:Manrope,sans-serif;font-size:var(--song-font-size);margin-bottom:.08rem}
-  .music-segment{flex:0 0 auto;width:auto;min-width:calc(var(--cols) * .56em);padding-right:.18em}
+  .music-segment{flex:0 0 auto;width:auto;min-width:calc(var(--cols) * .48em);padding-right:.06em}
   .segment-chord,.segment-lyric{white-space:pre;overflow:visible}
-  .segment-chord{font-weight:700;color:#9c1a34;line-height:1.45;min-height:1.45em;font-size:.88em;letter-spacing:.01em}
-  .segment-lyric{font-weight:500;line-height:1.58;letter-spacing:0}
+  .segment-chord{font-weight:800;color:#8f1530;line-height:1.38;min-height:1.38em;font-size:.9em;letter-spacing:.01em}
+  .segment-lyric{font-weight:400;line-height:1.52;letter-spacing:-.005em;color:#222}
   .headline{font-family:Manrope,sans-serif;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:rgba(198,162,77,.10);display:inline-block;padding:.17rem .48rem;border-radius:2px;margin:.85rem 0 .18rem}
   .sheet>.headline:first-child{margin-top:0}
   .spacer{height:.5rem}
@@ -223,4 +223,10 @@
     }
   }
 
-  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  
+.segment-chord,
+.chordline{
+  text-shadow:0 .01em 0 currentColor;
+}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}

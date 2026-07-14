@@ -67,25 +67,10 @@ function normalizeSearch(value){
     .replace(/[^a-z0-9]+/g,' ')
     .trim();
 }
-
-function normalizeSearchText(value){
-  return (value||"")
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g,"")
-    .replace(/[’']/g," ")
-    .replace(/[^a-z0-9\s]/g," ")
-    .replace(/\s+/g," ")
-    .trim();
-}
-
-function searchDistance(a,b){
-  if(a===b) return 0;
-  if(Math.abs(a.length-b.length)>3) return 99;
+function levenshtein(a,b){
   const row=Array.from({length:b.length+1},(_,i)=>i);
   for(let i=1;i<=a.length;i++){
-    let prev=row[0];
-    row[0]=i;
+    let prev=row[0]; row[0]=i;
     for(let j=1;j<=b.length;j++){
       const old=row[j];
       row[j]=Math.min(row[j]+1,row[j-1]+1,prev+(a[i-1]===b[j-1]?0:1));
@@ -94,44 +79,31 @@ function searchDistance(a,b){
   }
   return row[b.length];
 }
-
-function scoreSong(song,query){
-  const q=normalizeSearchText(query);
-  if(!q) return 0;
-
-  const title=normalizeSearchText(song.title||"");
-  const body=normalizeSearchText((song.search||"")+" "+(song.text||"")+" "+(song.content||""));
-  const words=q.split(" ").filter(Boolean);
+function songScore(song,query){
+  const q=normalizeSearch(query);
+  if(!q)return 0;
+  const words=q.split(/\s+/).filter(Boolean);
+  const title=normalizeSearch([song.title,song.sub].filter(Boolean).join(' '));
+  const body=normalizeSearch(song.search||'');
   let score=0;
-
-  if(title===q) score+=1000;
-  if(title.startsWith(q)) score+=500;
-  if(title.includes(q)) score+=300;
-  if(body.includes(q)) score+=200;
-
+  if(title===q) score+=10000;
+  if(title.includes(q)) score+=5000;
+  if(body.includes(q)) score+=1000;
+  const titleWords=title.split(/\s+/);
+  const bodyWords=body.split(/\s+/);
+  let matched=0;
   words.forEach(w=>{
-    if(title.split(" ").includes(w)) score+=120;
-    else if(title.includes(w)) score+=60;
-    if(body.includes(w)) score+=15;
-    if(w.length>=5 && body.split(" ").some(b=>searchDistance(w,b)<=1)) score+=8;
+    if(titleWords.includes(w)){score+=1000; matched++;}
+    else if(title.includes(w)){score+=300; matched++;}
+    if(body.includes(w)){score+=30; matched++;}
+    if(w.length>4 && bodyWords.some(x=>levenshtein(w,x)<=1)) score+=5;
   });
-
-  if(words.length>1){
-    const positions=words.map(w=>body.indexOf(w)).filter(x=>x>=0);
-    if(positions.length===words.length){
-      const span=Math.max(...positions)-Math.min(...positions);
-      if(span<80) score+=80;
-      else if(span<200) score+=30;
-    }
-  }
-
+  if(matched===words.length) score+=500;
   return score;
 }
-
 function songMatches(song,query){
-  return scoreSong(song,query)>0;
+  return !normalizeSearch(query) || songScore(song,query)>=300;
 }
-
 function saveFavorites(){
   localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
 }
@@ -358,6 +330,10 @@ function renderTiles(filter=search.value){
     // Mantiene sempre l'ordine originale dell'elenco principale.
     // I preferiti vengono mostrati separatamente solo nel relativo filtro.
     ordered=songs.map((song,i)=>({song,i}));
+  }
+
+  if(query && listMode!=='setlist'){
+    ordered.sort((a,b)=>songScore(b.song,query)-songScore(a.song,query));
   }
 
   ordered.forEach(({song,i})=>{

@@ -4,11 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#16233d">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Canzoniere">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon-192.png">
 <title>Canzoniere San Marco</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,12 +22,12 @@
     <div class="list-filters" role="group" aria-label="Filtro canti">
       <button class="filter-btn active" id="filterAll" type="button">Tutti</button>
       <button class="filter-btn" id="filterFavorites" type="button">★ Preferiti</button>
-      <button class="filter-btn" id="filterSetlist" type="button">Scaletta</button>
+      <button class="filter-btn" id="filterSetlist" type="button">Setlist</button>
     </div>
     <div class="setlist-tools" id="setlistTools" hidden>
       <div class="setlist-title-row">
         <div>
-          <strong id="setlistTitle">La mia scaletta</strong>
+          <strong id="setlistTitle">La mia Setlist</strong>
           <span class="setlist-count" id="setlistCount">0 canti</span>
         </div>
         <div class="setlist-title-actions">
@@ -37,6 +39,7 @@
       <p class="setlist-help">Usa le frecce per cambiare l’ordine.</p>
     </div>
     <input id="search" type="search" placeholder="Cerca titolo o parole..." autocomplete="off" enterkeyhint="search">
+    <div id="tagSuggestions"></div>
     <ul class="tile-list" id="tileList"></ul>
   </nav>
   <main id="main"></main>

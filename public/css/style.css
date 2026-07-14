@@ -5,13 +5,13 @@
   html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   button,input,textarea,select{font:inherit}
   body{background:var(--paper);color:var(--ink);font-family:Manrope,sans-serif;min-height:100vh}
-  header{background:var(--navy);color:var(--paper);padding:2.4rem 1.5rem 2rem;text-align:center;border-bottom:1px solid rgba(198,162,77,.5)}
+  header{background:var(--navy);color:var(--paper);padding:calc(2.4rem + env(safe-area-inset-top)) 1.5rem 2rem;text-align:center;border-bottom:1px solid rgba(198,162,77,.5)}
   h1{font-family:'Manrope',sans-serif;font-weight:600;font-size:clamp(1.9rem,4.4vw,2.7rem);margin:0 0 .4rem;letter-spacing:-0.01em}
   header p.tag{color:rgba(233,226,205,.6);font-size:.92rem;margin:0}
   .app{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:minmax(340px,28vw) minmax(0,1fr);gap:0;min-height:calc(100vh - 190px)}
   .board{background:var(--navy-deep);padding:1.6rem 1.2rem 2.5rem}
   .board-label{font-family:Manrope,sans-serif;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-bright);margin:0 0 .9rem .1rem}
-  #search{width:100%;padding:.6rem .75rem;border-radius:4px;border:1px solid rgba(198,162,77,.3);background:rgba(233,226,205,.05);color:var(--paper);font-family:Manrope,sans-serif;font-size:.92rem;outline:none;margin-bottom:1.1rem;transition:border-color .15s,background .15s}
+  #search{width:100%;padding:.6rem .75rem;border-radius:4px;border:1px solid rgba(198,162,77,.3);background:rgba(233,226,205,.05);color:var(--paper);font-family:Manrope,sans-serif;font-size:16px;outline:none;margin-bottom:1.1rem;transition:border-color .15s,background .15s}
   #search::placeholder{color:rgba(233,226,205,.38)}
   #search:focus{border-color:var(--gold-bright);background:rgba(233,226,205,.08)}
   .list-filters{display:flex;gap:.45rem;margin:0 0 .85rem}
@@ -120,7 +120,7 @@
   .feedback-field{display:block;margin:.85rem 0}
   .feedback-field>span{display:block;margin-bottom:.35rem;font-size:.8rem;font-weight:600}
   .feedback-field small{font-weight:400;color:rgba(28,27,23,.45)}
-  .feedback-field input,.feedback-field select,.feedback-field textarea{width:100%;border:1px solid rgba(28,27,23,.15);border-radius:5px;background:#fffdf7;color:var(--ink);padding:.68rem .75rem;font-family:Manrope,sans-serif;font-size:.95rem;outline:none}
+  .feedback-field input,.feedback-field select,.feedback-field textarea{width:100%;border:1px solid rgba(28,27,23,.15);border-radius:5px;background:#fffdf7;color:var(--ink);padding:.68rem .75rem;font-family:Manrope,sans-serif;font-size:16px;outline:none}
   .feedback-field input:focus,.feedback-field select:focus,.feedback-field textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(198,162,77,.12)}
   .feedback-field textarea{resize:vertical;min-height:7rem}
   .feedback-actions{display:flex;justify-content:flex-end;gap:.55rem;margin-top:1rem}
@@ -229,10 +229,9 @@
 /* Navigazione compatta */
 .list-filters{gap:.25rem!important;margin:0 0 .45rem!important}
 .filter-btn{font-size:.62rem!important;padding:.32rem .3rem!important;letter-spacing:.02em!important}
-#search{padding:.48rem .65rem!important;margin-bottom:.65rem!important;font-size:.86rem!important}
 .board{padding-top:1rem!important}
 @media(max-width:600px){
-  header{padding:1.25rem 1rem 1.05rem}
+  header{padding:calc(1.25rem + env(safe-area-inset-top)) 1rem 1.05rem}
 }
 
 
@@ -339,3 +338,959 @@
 }
 
 .theme-suggestions-box{padding:12px;margin-bottom:12px;border-radius:12px;background:#f3f3f3}.theme-suggestions-box h3{margin:0;font-size:1rem}
+
+
+
+
+
+
+
+/* Suggerimenti tematici — moderno, minimale, blu pieno */
+.category-suggestions{
+  margin:0 0 1rem;
+  padding:.85rem .85rem .35rem;
+  border:0;
+  border-radius:14px;
+  background:var(--navy,#16233d);
+  overflow:hidden;
+}
+.category-suggestions-title{
+  margin:0;
+  padding:0 0 .45rem;
+  background:transparent;
+  color:rgba(233,226,205,.8);
+  font-size:1rem;
+  line-height:1.3;
+  font-weight:600;
+}
+.category-suggestions-description{
+  display:none;
+}
+.category-suggestions-list{
+  display:block;
+  background:transparent;
+}
+.category-suggestion-song{
+  width:100%;
+  display:flex;
+  align-items:center;
+  gap:.65rem;
+  padding:.72rem 0;
+  border:0;
+  border-bottom:1px solid rgba(233,226,205,.22);
+  border-radius:0;
+  background:transparent;
+  color:rgba(233,226,205,.8);
+  font:inherit;
+  font-size:.96rem;
+  font-weight:400;
+  line-height:1.35;
+  text-align:left;
+  cursor:pointer;
+}
+.category-suggestion-song:last-child{
+  border-bottom:0;
+}
+.category-suggestion-song:active{
+  background:rgba(255,255,255,.10);
+  transform:none;
+}
+.category-suggestion-number{
+  min-width:2rem;
+  color:rgba(233,226,205,.58);
+  font-size:.76rem;
+  font-weight:500;
+}
+
+
+
+/* Barra superiore del canto — più leggibile, omogenea e compatta */
+.song-nav{
+  gap:.6rem;
+  padding:.58rem 0;
+}
+
+.back-list{
+  font-size:.9rem;
+  font-weight:600;
+}
+
+.song-setlist,
+.lyrics-only-toggle,
+.feedback-trigger{
+  height:2.15rem;
+  padding:0 .58rem;
+  font-size:.8rem;
+  font-weight:500;
+}
+
+.song-favorite{
+  width:2.15rem;
+  height:2.15rem;
+  font-size:1.08rem;
+}
+
+.transpose-label,
+.text-size-label{
+  font-size:.82rem;
+  font-weight:500;
+}
+
+.transpose-value,
+.text-size-value{
+  font-size:.86rem;
+  font-weight:500;
+}
+
+.transpose-btn,
+.command-btn{
+  width:2.05rem;
+  height:2.05rem;
+  font-size:1rem;
+  font-weight:600;
+}
+
+.transpose-reset{
+  width:2.05rem;
+  height:2.05rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid var(--line);
+  border-radius:4px;
+  text-decoration:none;
+  font-size:1rem;
+  line-height:1;
+}
+
+@media (max-width:820px){
+  .song-nav{
+    gap:.5rem;
+    padding:.5rem 0;
+  }
+
+  .song-nav>.command-group:first-child{
+    grid-template-columns:auto minmax(0,1fr);
+    gap:.55rem;
+  }
+
+  .primary-actions{
+    justify-content:flex-end;
+    gap:.3rem;
+  }
+
+  .back-list{
+    font-size:.86rem;
+    padding:.42rem 0;
+  }
+
+  .song-setlist,
+  .lyrics-only-toggle,
+  .feedback-trigger{
+    height:2.1rem;
+    padding:0 .48rem;
+    font-size:.76rem;
+  }
+
+  .song-favorite{
+    width:2.1rem;
+    height:2.1rem;
+    font-size:1.04rem;
+  }
+
+  /* Testo a sinistra, tonalità raccolta a destra. */
+  .toolbar-controls{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    gap:.75rem;
+  }
+
+  .text-controls{
+    order:1;
+    width:auto;
+    grid-template-columns:2.05rem auto 2.05rem;
+    gap:.34rem;
+  }
+
+  .transpose-controls{
+    order:2;
+    width:auto;
+    margin-left:auto;
+    grid-template-columns:2.05rem auto 2.05rem auto;
+    gap:.34rem;
+  }
+
+  .transpose-value{
+    min-width:4.35rem;
+    padding:0 .12rem;
+    text-align:center;
+    font-size:.84rem;
+  }
+
+  .text-size-value{
+    min-width:2.85rem;
+    font-size:.84rem;
+  }
+
+  .transpose-btn,
+  .command-btn,
+  .transpose-reset{
+    width:2.05rem;
+    height:2.05rem;
+  }
+
+  .text-size-label,
+  .transpose-label,
+  .command-separator{
+    display:none;
+  }
+}
+
+@media (max-width:390px){
+  .primary-actions{
+    gap:.22rem;
+  }
+
+  .song-setlist,
+  .lyrics-only-toggle,
+  .feedback-trigger{
+    padding:0 .4rem;
+    font-size:.73rem;
+  }
+
+  .toolbar-controls{
+    gap:.45rem;
+  }
+
+  .transpose-controls,
+  .text-controls{
+    gap:.25rem;
+  }
+
+  .transpose-value{
+    min-width:4rem;
+  }
+}
+
+
+/* Navigazione elenco — più leggibile e contemporanea */
+.list-filters{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:.25rem!important;
+  margin:0 0 .8rem!important;
+  padding:.25rem;
+  border-radius:11px;
+  background:rgba(233,226,205,.07);
+}
+.filter-btn{
+  min-height:2.45rem;
+  padding:.56rem .5rem!important;
+  border:0!important;
+  border-radius:8px!important;
+  background:transparent;
+  color:rgba(233,226,205,.76);
+  font-size:.82rem!important;
+  font-weight:500;
+  letter-spacing:0!important;
+  text-transform:none!important;
+  line-height:1.15;
+}
+.filter-btn:hover{
+  background:rgba(233,226,205,.07);
+}
+.filter-btn.active{
+  background:var(--gold-bright);
+  color:var(--navy-deep);
+  box-shadow:0 1px 2px rgba(0,0,0,.12);
+}
+
+/* Barra del canto — gruppi compatti, meno “a bottoni separati” */
+.song-nav{
+  gap:.55rem;
+  padding:.58rem 0;
+}
+
+.toolbar-controls{
+  gap:.55rem;
+}
+
+.text-controls,
+.transpose-controls{
+  align-items:center;
+  padding:.18rem;
+  border:1px solid rgba(22,35,61,.08);
+  border-radius:10px;
+  background:rgba(22,35,61,.045);
+}
+
+.transpose-btn,
+.command-btn,
+.transpose-reset{
+  width:1.95rem;
+  height:1.95rem;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:var(--navy,#16233d);
+  box-shadow:none;
+}
+
+.transpose-btn:hover,
+.command-btn:hover,
+.transpose-reset:hover{
+  border:0;
+  background:rgba(22,35,61,.08);
+}
+
+.transpose-value,
+.text-size-value{
+  color:var(--navy,#16233d);
+  font-size:.82rem;
+  font-weight:500;
+}
+
+.font-control-btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:.02rem;
+  padding:0;
+  font-family:Manrope,sans-serif;
+  letter-spacing:-.04em;
+}
+.font-control-a{
+  font-size:.72rem;
+  font-weight:600;
+  line-height:1;
+}
+.font-control-sign{
+  font-size:.88rem;
+  font-weight:500;
+  line-height:1;
+}
+
+.song-setlist,
+.lyrics-only-toggle,
+.feedback-trigger,
+.song-favorite{
+  border-color:rgba(22,35,61,.10);
+  border-radius:9px;
+  background:rgba(22,35,61,.035);
+  color:rgba(22,35,61,.70);
+  font-weight:500;
+}
+.song-setlist:hover,
+.lyrics-only-toggle:hover,
+.feedback-trigger:hover,
+.song-favorite:hover{
+  background:rgba(22,35,61,.075);
+}
+
+@media (max-width:820px){
+  .song-nav{
+    gap:.42rem;
+  }
+
+  .toolbar-controls{
+    gap:.48rem;
+  }
+
+  .text-controls{
+    grid-template-columns:1.95rem auto 1.95rem;
+    gap:.12rem;
+  }
+
+  .transpose-controls{
+    grid-template-columns:1.95rem auto 1.95rem auto;
+    gap:.12rem;
+  }
+
+  .transpose-btn,
+  .command-btn,
+  .transpose-reset{
+    width:1.95rem;
+    height:1.95rem;
+  }
+
+  .transpose-value{
+    min-width:3.95rem;
+    padding:0 .08rem;
+  }
+
+  .text-size-value{
+    min-width:2.7rem;
+  }
+
+  .filter-btn{
+    font-size:.84rem!important;
+  }
+}
+
+@media (max-width:390px){
+  .list-filters{
+    gap:.18rem!important;
+    padding:.2rem;
+  }
+
+  .filter-btn{
+    min-height:2.35rem;
+    padding:.5rem .28rem!important;
+    font-size:.78rem!important;
+  }
+
+  .toolbar-controls{
+    gap:.35rem;
+  }
+
+  .text-controls,
+  .transpose-controls{
+    padding:.14rem;
+  }
+
+  .transpose-value{
+    min-width:3.7rem;
+    font-size:.78rem;
+  }
+
+  .text-size-value{
+    min-width:2.5rem;
+    font-size:.78rem;
+  }
+}
+
+
+/* Barra del canto v3 — essenziale e stabile */
+.song-nav{
+  display:grid;
+  gap:.55rem;
+  padding:.5rem 0 .65rem;
+}
+
+.song-nav-main{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:.6rem;
+  min-width:0;
+}
+
+.back-list{
+  min-height:2.15rem;
+  padding:.38rem .15rem;
+  border:0;
+  background:transparent;
+  color:var(--navy,#16233d);
+  font-size:.9rem;
+  font-weight:550;
+}
+
+.song-more{
+  position:relative;
+  flex:0 0 auto;
+}
+
+.song-more summary{
+  width:2.15rem;
+  height:2.15rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:9px;
+  background:rgba(22,35,61,.045);
+  color:var(--navy,#16233d);
+  font-size:.92rem;
+  font-weight:700;
+  letter-spacing:.04em;
+  cursor:pointer;
+  list-style:none;
+}
+
+.song-more summary::-webkit-details-marker{
+  display:none;
+}
+
+.song-more[open] summary{
+  background:rgba(22,35,61,.10);
+}
+
+.song-more-menu{
+  position:absolute;
+  top:calc(100% + .35rem);
+  right:0;
+  z-index:30;
+  min-width:10.5rem;
+  padding:.3rem;
+  border:1px solid rgba(22,35,61,.10);
+  border-radius:11px;
+  background:#fff;
+  box-shadow:0 10px 28px rgba(22,35,61,.16);
+}
+
+.song-more-menu button{
+  width:100%;
+  min-height:2.35rem;
+  display:block;
+  padding:.52rem .65rem;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:var(--navy,#16233d);
+  font-size:.84rem;
+  font-weight:450;
+  text-align:left;
+}
+
+.song-more-menu button:active,
+.song-more-menu button:hover{
+  background:rgba(22,35,61,.06);
+}
+
+/* I due gruppi restano compatti: la tonalità non può più allargarsi. */
+.toolbar-controls{
+  width:100%;
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:nowrap;
+  gap:.55rem;
+  min-width:0;
+}
+
+.text-controls,
+.transpose-controls{
+  box-sizing:border-box;
+  flex:0 0 auto!important;
+  width:max-content!important;
+  min-width:0!important;
+  margin:0!important;
+  padding:.16rem;
+  border:1px solid rgba(22,35,61,.08);
+  border-radius:10px;
+  background:rgba(22,35,61,.04);
+}
+
+.text-controls{
+  display:grid!important;
+  grid-template-columns:1.95rem 2.7rem 1.95rem!important;
+  gap:.12rem!important;
+}
+
+.transpose-controls{
+  display:grid!important;
+  grid-template-columns:1.95rem 4.1rem 1.95rem 1.95rem!important;
+  gap:.12rem!important;
+  justify-content:start!important;
+}
+
+.transpose-value{
+  width:4.1rem!important;
+  min-width:4.1rem!important;
+  max-width:4.1rem!important;
+  overflow:hidden;
+  white-space:nowrap;
+  text-align:center;
+}
+
+.text-size-value{
+  width:2.7rem!important;
+  min-width:2.7rem!important;
+  max-width:2.7rem!important;
+  text-align:center;
+}
+
+.transpose-label,
+.text-size-label,
+.command-separator{
+  display:none!important;
+}
+
+/* Titolo con preferito e scaletta nel punto più naturale. */
+.song-head{
+  display:grid!important;
+  grid-template-columns:auto minmax(0,1fr) auto;
+  align-items:start;
+  gap:.55rem;
+}
+
+.song-heading-text{
+  min-width:0;
+}
+
+.song-title-actions{
+  display:flex;
+  align-items:center;
+  gap:.22rem;
+  padding-top:.02rem;
+}
+
+.song-title-actions .song-favorite,
+.song-title-actions .song-setlist{
+  width:2.2rem;
+  height:2.2rem;
+  min-width:2.2rem;
+  padding:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:0;
+  border-radius:50%;
+  background:transparent;
+  color:rgba(22,35,61,.62);
+  font-size:1.08rem;
+  font-weight:500;
+  line-height:1;
+  box-shadow:none;
+}
+
+.song-title-actions .song-setlist{
+  font-size:1.25rem;
+}
+
+.song-title-actions .song-favorite:hover,
+.song-title-actions .song-setlist:hover,
+.song-title-actions .song-favorite:active,
+.song-title-actions .song-setlist:active{
+  background:rgba(22,35,61,.06);
+}
+
+.song-title-actions .song-favorite.active,
+.song-title-actions .song-setlist.active{
+  color:var(--navy,#16233d);
+  background:rgba(22,35,61,.08);
+}
+
+@media (max-width:390px){
+  .toolbar-controls{
+    gap:.28rem;
+  }
+
+  .text-controls{
+    grid-template-columns:1.82rem 2.45rem 1.82rem!important;
+  }
+
+  .transpose-controls{
+    grid-template-columns:1.82rem 3.72rem 1.82rem 1.82rem!important;
+  }
+
+  .transpose-value{
+    width:3.72rem!important;
+    min-width:3.72rem!important;
+    max-width:3.72rem!important;
+    font-size:.76rem;
+  }
+
+  .text-size-value{
+    width:2.45rem!important;
+    min-width:2.45rem!important;
+    max-width:2.45rem!important;
+    font-size:.76rem;
+  }
+
+  .transpose-btn,
+  .command-btn,
+  .transpose-reset{
+    width:1.82rem!important;
+    height:1.82rem!important;
+  }
+
+  .song-title-actions .song-favorite,
+  .song-title-actions .song-setlist{
+    width:2.05rem;
+    height:2.05rem;
+    min-width:2.05rem;
+  }
+}
+
+
+/* Segnalazione in fondo al canto */
+.song-feedback-footer{
+  display:flex;
+  justify-content:center;
+  padding:1.2rem 0 .45rem;
+}
+
+.song-feedback-footer .feedback-trigger{
+  min-height:auto;
+  padding:.35rem .2rem;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  color:rgba(22,35,61,.62);
+  font-size:.82rem;
+  font-weight:450;
+  line-height:1.25;
+  text-decoration:none;
+}
+
+.song-feedback-footer .feedback-trigger:hover,
+.song-feedback-footer .feedback-trigger:active{
+  background:transparent;
+  color:var(--navy,#16233d);
+  text-decoration:underline;
+  text-underline-offset:.2em;
+}
+
+
+/* Icona scaletta distinta dai controlli + della barra */
+.song-title-actions .song-setlist{
+  font-size:0;
+}
+
+.song-title-actions .song-setlist .setlist-icon{
+  width:1.15rem;
+  height:1.15rem;
+  display:block;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.9;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.song-title-actions .song-setlist.active .setlist-icon{
+  stroke-width:2;
+}
+
+
+/* Barra canto v4 — Setlist, Solo testo diretto e tonalità equilibrata */
+.song-more,
+.song-more-menu{
+  display:none!important;
+}
+
+.song-nav-main{
+  min-height:2.2rem;
+}
+
+.song-view-toggle{
+  flex:0 0 auto;
+  min-height:2.1rem;
+  display:inline-flex;
+  align-items:center;
+  gap:.38rem;
+  padding:.34rem .55rem;
+  border:0;
+  border-radius:9px;
+  background:rgba(22,35,61,.045);
+  color:rgba(22,35,61,.72);
+  font-size:.8rem;
+  font-weight:500;
+  line-height:1;
+}
+
+.song-view-toggle:hover,
+.song-view-toggle:active,
+.song-view-toggle.active{
+  background:rgba(22,35,61,.09);
+  color:var(--navy,#16233d);
+}
+
+.song-view-icon{
+  width:1rem;
+  height:1rem;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.toolbar-controls{
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:nowrap;
+  gap:.55rem;
+  width:100%;
+  min-width:0;
+}
+
+.text-controls,
+.transpose-controls{
+  flex:0 0 auto!important;
+  box-sizing:border-box;
+  width:max-content!important;
+  margin:0!important;
+  padding:.16rem;
+  border:1px solid rgba(22,35,61,.08);
+  border-radius:10px;
+  background:rgba(22,35,61,.04);
+}
+
+.text-controls{
+  display:grid!important;
+  grid-template-columns:1.95rem 2.7rem 1.95rem!important;
+  gap:.12rem!important;
+}
+
+.transpose-controls{
+  display:grid!important;
+  grid-template-columns:1.95rem 4.35rem 1.95rem!important;
+  gap:.12rem!important;
+}
+
+.transpose-value{
+  width:4.35rem!important;
+  min-width:4.35rem!important;
+  max-width:4.35rem!important;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  white-space:nowrap;
+  color:var(--wine-bright,#8a2035);
+  font-size:.82rem;
+  font-weight:600;
+  text-align:center;
+}
+
+.transpose-value:not(.is-original){
+  color:var(--navy,#16233d);
+  font-weight:550;
+}
+
+.transpose-btn,
+.command-btn{
+  width:1.95rem!important;
+  height:1.95rem!important;
+  border:0!important;
+  border-radius:8px!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+.transpose-btn:hover,
+.transpose-btn:active,
+.command-btn:hover,
+.command-btn:active{
+  background:rgba(22,35,61,.08)!important;
+}
+
+@media (max-width:390px){
+  .song-view-toggle{
+    padding:.32rem .46rem;
+    font-size:.76rem;
+  }
+
+  .toolbar-controls{
+    gap:.3rem;
+  }
+
+  .text-controls{
+    grid-template-columns:1.82rem 2.42rem 1.82rem!important;
+  }
+
+  .transpose-controls{
+    grid-template-columns:1.82rem 3.9rem 1.82rem!important;
+  }
+
+  .text-size-value{
+    width:2.42rem!important;
+    min-width:2.42rem!important;
+    max-width:2.42rem!important;
+    font-size:.75rem;
+  }
+
+  .transpose-value{
+    width:3.9rem!important;
+    min-width:3.9rem!important;
+    max-width:3.9rem!important;
+    font-size:.75rem;
+  }
+
+  .transpose-btn,
+  .command-btn{
+    width:1.82rem!important;
+    height:1.82rem!important;
+  }
+}
+
+
+/* Elenco canti — righe leggere per collegare titolo e azioni */
+.tile-list{
+  gap:0;
+}
+
+.tile-row{
+  position:relative;
+  border-bottom:1px solid rgba(233,226,205,.11);
+}
+
+.tile-row:last-child{
+  border-bottom:0;
+}
+
+.tile-actions{
+  align-self:stretch;
+  padding:0 .12rem;
+}
+
+.setlist-add .setlist-icon{
+  width:1.08rem;
+  height:1.08rem;
+  display:block;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.85;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.setlist-add.active .setlist-icon{
+  stroke-width:2;
+}
+
+/* Le due righe della barra seguono la stessa logica:
+   sinistra = canto, destra = visualizzazione. */
+.toolbar-controls .transpose-controls{
+  order:1;
+}
+
+.toolbar-controls .text-controls{
+  order:2;
+}
+
+@media (min-width:821px) and (max-width:1180px){
+  .tile-row{
+    border-bottom-color:rgba(233,226,205,.14);
+  }
+
+  .tile{
+    padding-top:.72rem;
+    padding-bottom:.72rem;
+  }
+
+  .tile-actions{
+    padding-left:.2rem;
+    padding-right:.2rem;
+  }
+}
+
+
+/* Testi introduttivi — dimensioni coordinate con la nuova interfaccia */
+header p.tag{
+  font-size:clamp(.96rem,1.5vw,1.05rem);
+  line-height:1.4;
+  color:rgba(233,226,205,.68);
+}
+
+.board-label{
+  margin:0 0 .85rem .1rem;
+  font-size:clamp(.82rem,1.2vw,.9rem);
+  line-height:1.25;
+  letter-spacing:.09em;
+  font-weight:600;
+}
+
+@media (max-width:600px){
+  header p.tag{
+    font-size:.96rem;
+  }
+
+  .board-label{
+    font-size:.82rem;
+  }
+}

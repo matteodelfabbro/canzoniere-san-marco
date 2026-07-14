@@ -1,6 +1,4 @@
 let songs = [];
-let songsTags = {};
-let searchSuggestionConfig = {};
 
 async function loadSongs() {
   const response = await fetch('./data/songs-index.json');
@@ -11,19 +9,6 @@ async function loadSongs() {
     if (!songResponse.ok) throw new Error(`Impossibile caricare il canto: ${item.title}`);
     return songResponse.json();
   }));
-
-  try{
-    const [tagsResponse,suggestionsResponse]=await Promise.all([
-      fetch('./data/songs-tags.json'),
-      fetch('./data/search-suggestions.json')
-    ]);
-    if(tagsResponse.ok)songsTags=await tagsResponse.json();
-    if(suggestionsResponse.ok)searchSuggestionConfig=await suggestionsResponse.json();
-  }catch(error){
-    console.warn('Suggerimenti tematici non disponibili.',error);
-    songsTags={};
-    searchSuggestionConfig={};
-  }
 }
 
 async function init() {
@@ -31,7 +16,6 @@ async function init() {
 const tileList=document.getElementById('tileList');
 const main=document.getElementById('main');
 const search=document.getElementById('search');
-const tagSuggestions=document.getElementById('tagSuggestions');
 const filterAll=document.getElementById('filterAll');
 const filterFavorites=document.getElementById('filterFavorites');
 const filterSetlist=document.getElementById('filterSetlist');
@@ -67,11 +51,7 @@ function migrateStoredSongRefs(raw){
 }
 let favorites=new Set(migrateStoredSongRefs(JSON.parse(localStorage.getItem('favoriteSongs')||'[]')));
 let personalSetlist=migrateStoredSongRefs(JSON.parse(localStorage.getItem('personalSetlist')||'[]'));
-let personalSetlistName=localStorage.getItem('personalSetlistName')||'La mia Setlist';
-if(personalSetlistName==='La mia scaletta'){
-  personalSetlistName='La mia Setlist';
-  localStorage.setItem('personalSetlistName',personalSetlistName);
-}
+let personalSetlistName=localStorage.getItem('personalSetlistName')||'La mia scaletta';
 localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
 localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
 let listScrollY=0;
@@ -167,13 +147,13 @@ function buildSetlistShareUrl(){
 }
 async function shareCurrentSetlist(){
   if(!personalSetlist.length){
-    alert('La Setlist è vuota.');
+    alert('La scaletta è vuota.');
     return;
   }
   const url=buildSetlistShareUrl();
   const shareData={
     title:personalSetlistName,
-    text:`Setlist: ${personalSetlistName}`,
+    text:`Scaletta: ${personalSetlistName}`,
     url
   };
   if(navigator.share){
@@ -186,7 +166,7 @@ async function shareCurrentSetlist(){
   }
   try{
     await navigator.clipboard.writeText(url);
-    alert('Link della Setlist copiato.');
+    alert('Link della scaletta copiato.');
   }catch{
     prompt('Copia questo link:',url);
   }
@@ -201,11 +181,11 @@ function importSetlistFromUrl(){
   const unique=[...new Set(imported)];
   if(!unique.length)return;
 
-  const importedName=(params.get('nome')||'Setlist condivisa').trim().slice(0,40);
-  const accept=confirm(`Importare la Setlist "${importedName}" con ${unique.length} canti?`);
+  const importedName=(params.get('nome')||'Scaletta condivisa').trim().slice(0,40);
+  const accept=confirm(`Importare la scaletta "${importedName}" con ${unique.length} canti?`);
   if(accept){
     personalSetlist=unique;
-    personalSetlistName=importedName||'Setlist condivisa';
+    personalSetlistName=importedName||'Scaletta condivisa';
     saveSetlist();
     localStorage.setItem('personalSetlistName',personalSetlistName);
     setListMode('setlist');
@@ -334,117 +314,14 @@ function showSong(i,updateHistory=true){
 }
 function showList(){document.body.classList.remove('song-open');renderTiles();requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}))}
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
-
-const CATEGORY_ALIASES={
-  'Natale':['natale','natalizio','periodo natalizio','tempo di natale'],
-  'Avvento':['avvento','tempo di avvento'],
-  'Quaresima':['quaresima','quaresimale','tempo di quaresima'],
-  'Pasqua':['pasqua','pasquale','tempo di pasqua','risurrezione'],
-  'Spirito Santo':['spirito santo','spirito','pentecoste'],
-  'Maria':['maria','mariano','mariani','canti mariani'],
-  'Comunione':['comunione','eucaristia','eucaristico','eucaristici']
-};
-
-function categoryTagFromQuery(query){
-  const normalized=normalizeSearch(query);
-  if(!normalized)return null;
-
-  const simplified=normalized
-    .split(/\s+/)
-    .filter(word=>!['canto','canti','per','il','lo','la','i','gli','le','di','del','della','tempo','periodo'].includes(word))
-    .join(' ')
-    .trim();
-
-  for(const [tag,aliases] of Object.entries(CATEGORY_ALIASES)){
-    if(aliases.some(alias=>normalizeSearch(alias)===simplified))return tag;
-  }
-  return null;
-}
-
-function renderCategorySuggestions(query){
-  tagSuggestions.replaceChildren();
-
-  if(listMode!=='all')return false;
-
-  const tag=categoryTagFromQuery(query);
-  if(!tag)return false;
-
-  const configEntry=Object.entries(searchSuggestionConfig)
-    .find(([,item])=>normalizeSearch(item.tag)===normalizeSearch(tag));
-
-  const title=configEntry?.[0]||`Canti per ${tag}`;
-  const description=configEntry?.[1]?.description||'Suggerimenti dal canzoniere';
-
-  const taggedIds=new Set(
-    Object.entries(songsTags)
-      .filter(([,entry])=>(entry.tags||[]).some(value=>normalizeSearch(value)===normalizeSearch(tag)))
-      .map(([id])=>id)
-  );
-
-  const matches=songs
-    .map((song,index)=>({song,index}))
-    .filter(({song})=>taggedIds.has(song.id));
-
-  if(!matches.length)return false;
-
-  const section=document.createElement('section');
-  section.className='category-suggestions';
-  section.setAttribute('aria-label',title);
-
-  const heading=document.createElement('h2');
-  heading.className='category-suggestions-title';
-  heading.textContent=title;
-
-  const note=document.createElement('p');
-  note.className='category-suggestions-description';
-  note.textContent=description;
-
-  const list=document.createElement('div');
-  list.className='category-suggestions-list';
-
-  matches.forEach(({song,index})=>{
-    const button=document.createElement('button');
-    button.type='button';
-    button.className='category-suggestion-song';
-    button.innerHTML=`<span class="category-suggestion-number">${pad(index)}</span><span>${esc(song.title)}</span>`;
-    button.addEventListener('click',()=>showSong(index));
-    list.appendChild(button);
-  });
-
-  section.append(heading,note,list);
-  tagSuggestions.appendChild(section);
-  return true;
-}
-
-const EASTER_EGG_SEARCHES=new Set([
-  'il canto piu bello',
-  'chiara braidotti',
-  'don christian'
-].map(normalizeSearch));
-
-function easterEggSongId(query){
-  return EASTER_EGG_SEARCHES.has(normalizeSearch(query))
-    ? 'verbum-panis'
-    : null;
-}
-
 function renderTiles(filter=search.value){
   updateSetlistHeader();
   tileList.innerHTML='';
   let any=false;
   const query=typeof filter==='string'?filter:search.value;
-  const easterSongId=easterEggSongId(query);
-  const easterEggActive=Boolean(easterSongId);
-  const hasCategorySuggestions=easterEggActive
-    ? false
-    : renderCategorySuggestions(query);
 
   let ordered;
-  if(easterEggActive){
-    ordered=songs
-      .map((song,i)=>({song,i}))
-      .filter(({song})=>song.id===easterSongId);
-  }else if(listMode==='setlist'){
+  if(listMode==='setlist'){
     ordered=personalSetlist.map(id=>{
       const i=songIndexFromId(id);
       return {song:songs[i],i};
@@ -455,13 +332,13 @@ function renderTiles(filter=search.value){
     ordered=songs.map((song,i)=>({song,i}));
   }
 
-  if(query && listMode!=='setlist' && !easterEggActive){
+  if(query && listMode!=='setlist'){
     ordered.sort((a,b)=>songScore(b.song,query)-songScore(a.song,query));
   }
 
   ordered.forEach(({song,i})=>{
-    if(!easterEggActive && listMode==='favorites'&&!isFavorite(i))return;
-    if(!easterEggActive && !songMatches(song,query))return;
+    if(listMode==='favorites'&&!isFavorite(i))return;
+    if(!songMatches(song,query))return;
     any=true;
 
     const li=document.createElement('li');
@@ -503,12 +380,8 @@ function renderTiles(filter=search.value){
       const remove=document.createElement('button');
       remove.type='button';
       remove.className='setlist-add active';
-      remove.innerHTML=`<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M4 6h10M4 12h7M4 18h8"></path>
-        <path d="m15 15 2 2 4-5"></path>
-      </svg>`;
-      remove.title='Rimuovi dalla Setlist';
-      remove.setAttribute('aria-label',remove.title);
+      remove.textContent='×';
+      remove.title='Rimuovi dalla scaletta';
       remove.addEventListener('click',event=>{
         event.stopPropagation();
         toggleSetlist(i);
@@ -519,18 +392,8 @@ function renderTiles(filter=search.value){
       const add=document.createElement('button');
       add.type='button';
       add.className='setlist-add'+(isInSetlist(i)?' active':'');
-      add.innerHTML=isInSetlist(i)
-        ? `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
-             <path d="M4 6h10M4 12h7M4 18h8"></path>
-             <path d="m15 15 2 2 4-5"></path>
-           </svg>`
-        : `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
-             <path d="M4 6h10M4 12h7M4 18h8"></path>
-             <path d="M18 8v6M15 11h6"></path>
-           </svg>`;
-      add.title=isInSetlist(i)?'Rimuovi dalla Setlist':'Aggiungi alla Setlist';
-      add.setAttribute('aria-label',add.title);
-      add.setAttribute('aria-pressed',String(isInSetlist(i)));
+      add.textContent=isInSetlist(i)?'✓':'+';
+      add.title=isInSetlist(i)?'Rimuovi dalla scaletta':'Aggiungi alla scaletta';
       add.addEventListener('click',event=>{
         event.stopPropagation();
         toggleSetlist(i);
@@ -555,10 +418,6 @@ function renderTiles(filter=search.value){
   });
 
   if(!any){
-    if(hasCategorySuggestions && listMode==='all'){
-      tileList.innerHTML='';
-      return;
-    }
     const message=listMode==='favorites'
       ?'Nessun canto preferito.'
       :listMode==='setlist'
@@ -566,6 +425,8 @@ function renderTiles(filter=search.value){
         :'Nessun canto trovato.';
     tileList.innerHTML=`<p class="empty-note">${message}</p>`;
   }
+
+  updateTagSuggestions(query);
 }
 
 function splitLongSegment(chordPart,lyricPart,maxChars=28){
@@ -716,50 +577,33 @@ function renderSong(i){
   const song=songs[i];
   const shift=shiftState[i]||0;
   let html=`<div class="song-nav">
-    <div class="song-nav-main">
+    <div class="command-group">
       <button class="back-list" id="backList" type="button"><span class="back-arrow" aria-hidden="true">←</span>Elenco</button>
-      <button class="lyrics-only-toggle song-view-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">
-        <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M6 5h12M6 10h12M6 15h8M6 20h8"></path>
-          ${lyricsOnly?'<path d="m16 17 2 2 3-4"></path>':''}
-        </svg>
-        <span>${lyricsOnly?'Accordi':'Solo testo'}</span>
-      </button>
+      <div class="primary-actions">
+        <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>
+        <button class="song-setlist${isInSetlist(i)?' active':''}" id="songSetlist" type="button">${isInSetlist(i)?'✓ Scaletta':'+ Scaletta'}</button>
+        <button class="lyrics-only-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">${lyricsOnly?'Solo testo':'Accordi'}</button>
+        <button class="feedback-trigger" id="songFeedback" type="button">Segnala</button>
+      </div>
     </div>
     <div class="toolbar-controls" aria-label="Comandi canto">
-      <div class="transpose-controls" aria-label="Tonalità">
+      <div class="transpose-controls">
+        <span class="transpose-label">Tonalità</span>
         <button class="transpose-btn" id="tDown" type="button" aria-label="Abbassa tonalità">−</button>
-        <span class="transpose-value${shift===0?' is-original':''}" aria-label="${shift===0?'Tonalità originale':`${shift>0?'Alzata':'Abbassata'} di ${Math.abs(shift)} semitoni`}">${shift===0?'Tonalità':(shift>0?'+':'')+shift}</span>
+        <span class="transpose-value">${shift===0?'Originale':(shift>0?'+':'')+shift+' semitoni'}</span>
         <button class="transpose-btn" id="tUp" type="button" aria-label="Alza tonalità">+</button>
+        ${shift!==0?'<button class="transpose-reset" id="tReset" type="button">reset</button>':'<span></span>'}
       </div>
-      <div class="text-controls" aria-label="Dimensione del testo">
-        <button class="command-btn font-control-btn" id="fontDown" type="button" aria-label="Riduci testo"><span class="font-control-a">A</span><span class="font-control-sign">−</span></button>
+      <span class="command-separator" aria-hidden="true"></span>
+      <div class="text-controls">
+        <span class="text-size-label">Testo</span>
+        <button class="command-btn" id="fontDown" type="button" aria-label="Riduci testo">A−</button>
         <span class="text-size-value" id="fontValue">${songFontSize}px</span>
-        <button class="command-btn font-control-btn" id="fontUp" type="button" aria-label="Ingrandisci testo"><span class="font-control-a">A</span><span class="font-control-sign">+</span></button>
+        <button class="command-btn" id="fontUp" type="button" aria-label="Ingrandisci testo">A+</button>
       </div>
     </div>
   </div>
-  <div class="song-head">
-    <span class="num">${pad(i)}</span>
-    <div class="song-heading-text">
-      <h2 class="song-title">${esc(song.title)}</h2>
-      ${song.sub?`<div class="song-sub">${esc(song.sub)}</div>`:''}
-    </div>
-    <div class="song-title-actions" aria-label="Azioni sul canto">
-      <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>
-      <button class="song-setlist${isInSetlist(i)?' active':''}" id="songSetlist" type="button" aria-label="${isInSetlist(i)?'Rimuovi dalla Setlist':'Aggiungi alla Setlist'}">
-        ${isInSetlist(i)
-          ? `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
-               <path d="M4 6h10M4 12h7M4 18h8"></path>
-               <path d="m15 15 2 2 4-5"></path>
-             </svg>`
-          : `<svg class="setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
-               <path d="M4 6h10M4 12h7M4 18h8"></path>
-               <path d="M18 8v6M15 11h6"></path>
-             </svg>`}
-      </button>
-    </div>
-  </div>
+  <div class="song-head"><span class="num">${pad(i)}</span><div><h2 class="song-title">${esc(song.title)}</h2>${song.sub?`<div class="song-sub">${esc(song.sub)}</div>`:''}</div></div>
   ${isInSetlist(i)?`<div class="setlist-nav">
     <button id="setlistPrev" type="button" ${setlistPosition(i)<=0?'disabled':''}>← Precedente</button>
     <span class="setlist-position">${setlistPosition(i)+1} di ${personalSetlist.length}</span>
@@ -784,10 +628,7 @@ function renderSong(i){
     else html+='<div class="spacer"></div>';
   }
 
-  main.innerHTML=html+`</div>
-  <div class="song-feedback-footer">
-    <button class="feedback-trigger" id="songFeedback" type="button">Segnala un errore</button>
-  </div>`;
+  main.innerHTML=html+'</div>';
 
   document.getElementById('backList').addEventListener('click',backToList);
   document.getElementById('songFavorite').addEventListener('click',()=>toggleFavorite(i));
@@ -804,6 +645,8 @@ function renderSong(i){
   if(nextBtn)nextBtn.addEventListener('click',()=>showSong(songIndexFromId(personalSetlist[setlistPosition(i)+1])));
   document.getElementById('tUp').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)+1;renderSong(i)});
   document.getElementById('tDown').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)-1;renderSong(i)});
+  const reset=document.getElementById('tReset');
+  if(reset)reset.addEventListener('click',()=>{shiftState[i]=0;renderSong(i)});
 
   const changeFontSize=delta=>{
     songFontSize=Math.min(22,Math.max(12,songFontSize+delta));
@@ -823,7 +666,7 @@ filterFavorites.addEventListener('click',()=>setListMode('favorites'));
 filterSetlist.addEventListener('click',()=>setListMode('setlist'));
 shareSetlist.addEventListener('click',shareCurrentSetlist);
 renameSetlist.addEventListener('click',()=>{
-  const newName=prompt('Nome della Setlist:',personalSetlistName);
+  const newName=prompt('Nome della scaletta:',personalSetlistName);
   if(newName===null)return;
   const cleanName=newName.trim().replace(/\s+/g,' ');
   if(!cleanName)return;
@@ -833,7 +676,7 @@ renameSetlist.addEventListener('click',()=>{
 });
 clearSetlist.addEventListener('click',()=>{
   if(!personalSetlist.length)return;
-  if(confirm('Vuoi svuotare la Setlist personale?')){
+  if(confirm('Vuoi svuotare la scaletta personale?')){
     personalSetlist=[];
     saveSetlist();
     renderTiles();
@@ -962,20 +805,46 @@ async function getThemeSuggestions(query, songs){
   if(!q) return [];
 
   const config = await loadSearchSuggestions();
+  const tagsData = await getSongTags();
   const found = [];
 
   Object.entries(config).forEach(([title, item])=>{
     const tag = normalizeSearchText(item.tag);
     if(tag.includes(q) || q.includes(tag)){
-      found.push({
-        title,
-        description: item.description,
-        songs: songs.filter(s =>
-          normalizeSearchText(JSON.stringify(s)).includes(tag)
-        ).slice(0,5)
-      });
+      const matchingSongs = songs.filter(s=>{
+        const data = tagsData[s.id];
+        if(!data || !data.tags) return false;
+        return data.tags.some(t => normalizeSearchText(t) === tag);
+      }).slice(0,5);
+
+      if(matchingSongs.length){
+        const [icon, ...rest] = title.split(' ');
+        found.push({
+          icon,
+          title: rest.join(' ') || title,
+          description: item.description,
+          songs: matchingSongs
+        });
+      }
     }
   });
 
-  return found.filter(x=>x.songs.length);
+  return found;
+}
+
+async function updateTagSuggestions(query){
+  const box = document.getElementById('tagSuggestions');
+  if(!box) return;
+  if(!query){
+    box.innerHTML = '';
+    return;
+  }
+  const suggestions = await getThemeSuggestions(query, songs);
+  box.innerHTML = renderTagSuggestions(suggestions);
+  box.querySelectorAll('.search-song-result').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const i = songIndexFromId(btn.dataset.songId);
+      if(i>=0) showSong(i);
+    });
+  });
 }

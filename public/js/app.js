@@ -67,27 +67,71 @@ function normalizeSearch(value){
     .replace(/[^a-z0-9]+/g,' ')
     .trim();
 }
-function searchTokens(value){
-  return normalizeSearch(value).split(/\s+/).filter(Boolean);
+
+function normalizeSearchText(value){
+  return (value||"")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .replace(/[’']/g," ")
+    .replace(/[^a-z0-9\s]/g," ")
+    .replace(/\s+/g," ")
+    .trim();
 }
-function fuzzyTokenMatch(token,text){
-  if(text.includes(token)) return true;
-  if(token.length<4) return false;
-  let best=99;
-  for(let i=0;i<=text.length-token.length;i++){
-    const part=text.slice(i,i+token.length);
-    let diff=0;
-    for(let j=0;j<token.length;j++) if(part[j]!==token[j]) diff++;
-    best=Math.min(best,diff);
+
+function searchDistance(a,b){
+  if(a===b) return 0;
+  if(Math.abs(a.length-b.length)>3) return 99;
+  const row=Array.from({length:b.length+1},(_,i)=>i);
+  for(let i=1;i<=a.length;i++){
+    let prev=row[0];
+    row[0]=i;
+    for(let j=1;j<=b.length;j++){
+      const old=row[j];
+      row[j]=Math.min(row[j]+1,row[j-1]+1,prev+(a[i-1]===b[j-1]?0:1));
+      prev=old;
+    }
   }
-  return best<=1 || (token.length>=7 && best<=2);
+  return row[b.length];
 }
+
+function scoreSong(song,query){
+  const q=normalizeSearchText(query);
+  if(!q) return 0;
+
+  const title=normalizeSearchText(song.title||"");
+  const body=normalizeSearchText((song.search||"")+" "+(song.text||"")+" "+(song.content||""));
+  const words=q.split(" ").filter(Boolean);
+  let score=0;
+
+  if(title===q) score+=1000;
+  if(title.startsWith(q)) score+=500;
+  if(title.includes(q)) score+=300;
+  if(body.includes(q)) score+=200;
+
+  words.forEach(w=>{
+    if(title.split(" ").includes(w)) score+=120;
+    else if(title.includes(w)) score+=60;
+    if(body.includes(w)) score+=15;
+    if(w.length>=5 && body.split(" ").some(b=>searchDistance(w,b)<=1)) score+=8;
+  });
+
+  if(words.length>1){
+    const positions=words.map(w=>body.indexOf(w)).filter(x=>x>=0);
+    if(positions.length===words.length){
+      const span=Math.max(...positions)-Math.min(...positions);
+      if(span<80) score+=80;
+      else if(span<200) score+=30;
+    }
+  }
+
+  return score;
+}
+
 function songMatches(song,query){
-  const words=searchTokens(query);
-  if(!words.length)return true;
-  const haystack=normalizeSearch([song.title,song.sub,song.search].filter(Boolean).join(' '));
-  return words.every(word=>fuzzyTokenMatch(word,haystack));
+  return scoreSong(song,query)>0;
 }
+
 function saveFavorites(){
   localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
 }

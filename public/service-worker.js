@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-refactor-v1-font-v2-controls-v3-jetbrains-v4-toolbar-balance-v1-toolbar-responsive-v2-normal-font-v1-compact-font-v2-chords-bold-v3-chords-crisp-v4';
+const CACHE_NAME = 'canzoniere-san-marco-compact-menu-v1-menu-compact-crisp-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Roboto%20Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
   :root{--ink:#1c1b17;--paper:#f3efe4;--paper-deep:#e5ddc9;--navy:#16233d;--navy-deep:#101a2e;--gold:#c6a24d;--gold-bright:#e0bc6a;--wine:#6d1626;--wine-bright:#8a2035;--line:rgba(28,27,23,.10)}
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
@@ -80,35 +80,35 @@
   .command-btn:focus-visible{outline:2px solid var(--wine);outline-offset:2px}
   .song-favorite{width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.38);font-family:Manrope,sans-serif;font-weight:600;font-size:1rem;line-height:1;cursor:pointer}
   .song-favorite.active{color:var(--gold);border-color:rgba(198,162,77,.55);background:rgba(198,162,77,.10)}
-  .song-setlist{height:2rem;display:flex;align-items:center;justify-content:center;gap:.3rem;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.55);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;padding:0 .58rem;cursor:pointer;white-space:nowrap}
+  .song-setlist{height:2rem;display:flex;align-items:center;justify-content:center;gap:.3rem;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.55);font-family:Manrope,sans-serif;font-size:.72rem;font-weight:600;padding:0 .58rem;cursor:pointer;white-space:nowrap}
   .song-setlist.active{color:var(--wine);border-color:rgba(109,22,38,.3);background:rgba(109,22,38,.06)}
-  .lyrics-only-toggle{height:2rem;display:flex;align-items:center;justify-content:center;gap:.3rem;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.55);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;padding:0 .58rem;cursor:pointer;white-space:nowrap}
+  .lyrics-only-toggle{height:2rem;display:flex;align-items:center;justify-content:center;gap:.3rem;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.55);font-family:Manrope,sans-serif;font-size:.72rem;font-weight:600;padding:0 .58rem;cursor:pointer;white-space:nowrap}
   .lyrics-only-toggle.active{color:var(--wine);border-color:rgba(109,22,38,.3);background:rgba(109,22,38,.06)}
-  .lyrics-only-line{display:none;font-family:Manrope,sans-serif;font-size:var(--song-font-size);font-weight:500;line-height:1.65;white-space:pre-wrap;overflow-wrap:normal;word-break:normal}
+  .lyrics-only-line{display:none;font-family:'Roboto Mono',monospace;font-size:var(--song-font-size);font-weight:500;line-height:1.65;white-space:pre-wrap;overflow-wrap:normal;word-break:normal}
   .sheet.lyrics-only .chordline,
   .sheet.lyrics-only .music-row{display:none}
   .sheet.lyrics-only .lyrics-only-line{display:block}
   .setlist-nav{display:flex;align-items:center;gap:.4rem}
-  .setlist-nav button{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:4px;font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;padding:.38rem .5rem;cursor:pointer}
+  .setlist-nav button{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:4px;font-family:Manrope,sans-serif;font-size:.74rem;font-weight:600;padding:.38rem .5rem;cursor:pointer}
   .setlist-nav button:disabled{opacity:.3;cursor:default}
-  .setlist-position{font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;color:rgba(28,27,23,.5)}
+  .setlist-position{font-family:Manrope,sans-serif;font-size:.74rem;font-weight:600;color:rgba(28,27,23,.5)}
   .sheet{--song-font-size:16px;background:transparent;border:0;border-radius:0;padding:0 0 .35rem;box-shadow:none;overflow-x:auto}
   .block{margin-bottom:1rem}
   .block:last-child{margin-bottom:0}
-  .chordline,.lyricline{font-family:Manrope,sans-serif;font-size:var(--song-font-size);letter-spacing:-0.015em;white-space:pre;width:max-content;min-width:100%}
-  .chordline{font-weight:700;color:#8f1530;line-height:1.38;font-size:.9em;letter-spacing:0}
-  .lyricline{font-weight:400;line-height:1.52;letter-spacing:-.005em;color:#222}
-  .music-row{display:flex;flex-wrap:nowrap;align-items:flex-start;width:max-content;min-width:100%;font-family:Manrope,sans-serif;font-size:var(--song-font-size);margin-bottom:.08rem}
-  .music-segment{flex:0 0 auto;width:auto;min-width:calc(var(--cols) * .48em);padding-right:.06em}
+  .chordline,.lyricline{font-family:'Roboto Mono',monospace;font-size:var(--song-font-size);letter-spacing:-0.015em;white-space:pre;width:max-content;min-width:100%}
+  .chordline{font-weight:700;color:#9c1a34;line-height:1.6}
+  .lyricline{font-weight:500;line-height:1.65}
+  .music-row{display:flex;flex-wrap:nowrap;align-items:flex-start;width:max-content;min-width:100%;font-family:'Roboto Mono',monospace;font-size:var(--song-font-size);margin-bottom:.08rem}
+  .music-segment{flex:0 0 calc(var(--cols) * 1ch);width:calc(var(--cols) * 1ch);min-width:0}
   .segment-chord,.segment-lyric{white-space:pre;overflow:visible}
-  .segment-chord{font-weight:700;color:#8f1530;line-height:1.38;min-height:1.38em;font-size:.9em;letter-spacing:0}
-  .segment-lyric{font-weight:400;line-height:1.52;letter-spacing:-.005em;color:#222}
-  .headline{font-family:Manrope,sans-serif;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:rgba(198,162,77,.10);display:inline-block;padding:.17rem .48rem;border-radius:2px;margin:.85rem 0 .18rem}
+  .segment-chord{font-weight:700;color:#9c1a34;line-height:1.6;min-height:1.6em}
+  .segment-lyric{font-weight:500;line-height:1.65}
+  .headline{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:rgba(198,162,77,.10);display:inline-block;padding:.17rem .48rem;border-radius:2px;margin:.85rem 0 .18rem}
   .sheet>.headline:first-child{margin-top:0}
   .spacer{height:.5rem}
-  footer{text-align:center;font-family:Manrope,sans-serif;font-size:.72rem;letter-spacing:.04em;color:rgba(28,27,23,.45);padding:1.4rem 1rem 2rem}
+  footer{text-align:center;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.04em;color:rgba(28,27,23,.45);padding:1.4rem 1rem 2rem}
   .beta-feedback-link{margin-top:.55rem;border:0;background:transparent;color:var(--wine);font:inherit;text-decoration:underline;cursor:pointer}
-  .feedback-trigger{height:2rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.52);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;padding:0 .48rem;cursor:pointer;white-space:nowrap}
+  .feedback-trigger{height:2rem;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--line);background:transparent;color:rgba(28,27,23,.52);font-family:Manrope,sans-serif;font-size:.72rem;font-weight:600;padding:0 .48rem;cursor:pointer;white-space:nowrap}
   .feedback-trigger:hover{color:var(--wine);border-color:rgba(109,22,38,.3);background:rgba(109,22,38,.05)}
   .feedback-modal[hidden]{display:none}
   .feedback-modal{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:1rem}
@@ -166,7 +166,7 @@
     .song-head{gap:.75rem;padding-bottom:.85rem;margin-bottom:1rem}
     .setlist-nav{justify-content:space-between;margin:.1rem 0 .85rem}
     .music-row{flex-wrap:wrap;width:100%;min-width:0;column-gap:0;row-gap:.22rem;margin-bottom:.35rem}
-    .music-segment{flex:0 0 auto;width:auto;max-width:100%}
+    .music-segment{max-width:100%}
     .chordline,.lyricline{width:100%;min-width:0;white-space:pre-wrap;overflow-wrap:anywhere}
   }
 
@@ -223,5 +223,14 @@
     }
   }
 
-  
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+
+/* Navigazione compatta */
+.list-filters{gap:.25rem!important;margin:0 0 .45rem!important}
+.filter-btn{font-size:.62rem!important;padding:.32rem .3rem!important;letter-spacing:.02em!important}
+#search{padding:.48rem .65rem!important;margin-bottom:.65rem!important;font-size:.86rem!important}
+.board{padding-top:1rem!important}
+@media(max-width:600px){
+  header{padding:1.25rem 1rem 1.05rem}
+}

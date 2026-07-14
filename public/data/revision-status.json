@@ -4,14 +4,15 @@
   "primary_source": "NUOVO CANZONIERE 1.pdf",
   "range": {
     "from": 1,
-    "to": 10
+    "to": 110
   },
   "summary": {
-    "reviewed": 10,
-    "content_changes": 0,
-    "verified": 7,
-    "verified_local_variant": 2,
-    "verified_with_note": 1
+    "reviewed": 110,
+    "content_changes": 22,
+    "verified": 70,
+    "verified_local_variant": 12,
+    "verified_with_note": 6,
+    "corrected": 22
   },
   "songs": [
     {
@@ -106,6 +107,940 @@
         19
       ],
       "notes": "Testo, strofe, modulazione finale e accordi coincidono con il libretto. Confermato anche il testo delle strofe nelle fonti online."
+    },
+    {
+      "numero": 11,
+      "id": "alleluia-canto-per-cristo",
+      "status": "verificato",
+      "source_pages": [
+        20
+      ],
+      "notes": "Testo, tre strofe e accordi coincidono con il libretto. Le fonti online confermano la struttura generale; mantenuta la vostra formulazione «in tutto il mondo» dove applicabile al repertorio locale."
+    },
+    {
+      "numero": 12,
+      "id": "alleluia-ed-oggi-ancora",
+      "status": "verificato",
+      "source_pages": [
+        21
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. Confermata la frase «che mi guida nel cammino della vita»."
+    },
+    {
+      "numero": 13,
+      "id": "alleluia-la-nostra-festa",
+      "status": "verificato",
+      "source_pages": [
+        21
+      ],
+      "notes": "Coincide con il libretto, comprese le indicazioni «1 pennata», «7 volte» e la ripetizione della strofa."
+    },
+    {
+      "numero": 14,
+      "id": "alleluia-passeranno-i-cieli",
+      "status": "verificato",
+      "source_pages": [
+        22
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. Mantenuta la sillabazione cantata di «Alle-Alleluia»."
+    },
+    {
+      "numero": 15,
+      "id": "alleluia-taize",
+      "status": "verificato",
+      "source_pages": [
+        22
+      ],
+      "notes": "Le due frasi del ritornello coincidono con il libretto. Mantenuta la tonalità locale in Re minore."
+    },
+    {
+      "numero": 16,
+      "id": "alleluia-cristo-e-risorto-veramente-capo-2-4",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        23,
+        24
+      ],
+      "notes": "Coincide con la versione in Do del libretto, con modulazione finale in Re. Il libretto contiene anche la variante in Re; mantenuta quella già scelta nell'app."
+    },
+    {
+      "numero": 17,
+      "id": "alleluia-verbum-panis",
+      "status": "verificato",
+      "source_pages": [
+        25
+      ],
+      "notes": "Struttura, ponte, ritornello finale e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 18,
+      "id": "alleluia-e-poi",
+      "status": "verificato",
+      "source_pages": [
+        26
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. Le fonti online confermano autore, incipit e armonizzazione in Re."
+    },
+    {
+      "numero": 19,
+      "id": "andate-per-le-strade",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        27
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. Online compaiono piccole varianti testuali e armoniche; mantenuta la versione del coro."
+    },
+    {
+      "numero": 20,
+      "id": "antica-eterna-danza",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        28
+      ],
+      "notes": "Testo completo e struttura coincidono con il libretto. Alcune fonti online usano accordi con settima maggiore; mantenuta l'armonizzazione locale."
+    },
+    {
+      "numero": 21,
+      "id": "ascoltero-la-tua-parola-capo-2",
+      "status": "verificato",
+      "source_pages": [
+        29
+      ],
+      "notes": "Testo completo e cinque strofe confermati. Le fonti online riportano tonalità diverse; mantenuta la versione del libretto con indicazione Capo 2."
+    },
+    {
+      "numero": 22,
+      "id": "ave-maria",
+      "status": "verificato",
+      "source_pages": [
+        30
+      ],
+      "notes": "Testo, invocazioni «ora pro nobis» e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 23,
+      "id": "beati-i-misericordiosi-inno-gmg-2016-capo-2",
+      "status": "verificato",
+      "source_pages": [
+        31,
+        32
+      ],
+      "notes": "Testo completo, modulazione finale e indicazione Capo 2 coincidono con il libretto e con la versione italiana dell'inno GMG 2016."
+    },
+    {
+      "numero": 24,
+      "id": "benedici-o-signore",
+      "status": "verificato",
+      "source_pages": [
+        33
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. Mantenute le strofe sul pane e sul vino."
+    },
+    {
+      "numero": 25,
+      "id": "benedizione-a-frate-leone",
+      "status": "corretto",
+      "source_pages": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "notes": "Corretto «miseratur tui» in «misereatur tui». La forma corretta è confermata da altre pagine dello stesso libretto, dal testo francescano e dalla Vulgata di Numeri 6,24-26."
+    },
+    {
+      "numero": 26,
+      "id": "bisognerebbe",
+      "status": "verificato-con-nota",
+      "source_pages": [
+        38
+      ],
+      "notes": "Coincide con il libretto. La frase «Non certo attendo che si vive di più» appare linguisticamente insolita, ma non è stata modificata perché non è stata trovata una fonte autorevole alternativa."
+    },
+    {
+      "numero": 27,
+      "id": "camminero-in-re",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        39,
+        40
+      ],
+      "notes": "Coincide con la versione in Re del libretto. È presente anche una versione in Mi; mantenuta quella già scelta nell'app."
+    },
+    {
+      "numero": 28,
+      "id": "camminiamo-incontro-al-signore",
+      "status": "verificato",
+      "source_pages": [
+        41
+      ],
+      "notes": "Ritornello, quattro strofe e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 29,
+      "id": "cantate-al-signore-ricci",
+      "status": "verificato",
+      "source_pages": [
+        42
+      ],
+      "notes": "Testo, controcanto natalizio, ordine di esecuzione e conclusione coincidono con il libretto e con lo spartito online di Daniele Ricci."
+    },
+    {
+      "numero": 30,
+      "id": "cantate-al-signore-un-canto-nuovo-fallormi",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        43
+      ],
+      "notes": "Testo del Salmo 98 e struttura coincidono con il libretto. Gli spartiti online presentano armonizzazioni più articolate; mantenuta la versione locale."
+    },
+    {
+      "numero": 31,
+      "id": "cantiamo-te",
+      "status": "verificato",
+      "source_pages": [
+        44
+      ],
+      "notes": "Testo trinitario, tre strofe e accordi coincidono con il libretto. Le fonti online confermano «Dolce Gesù risorto dalla morte» e «Accendi in noi il fuoco dell’eterna carità»."
+    },
+    {
+      "numero": 32,
+      "id": "chi",
+      "status": "verificato",
+      "source_pages": [
+        45,
+        46
+      ],
+      "notes": "Testo completo, ritornello e accordi coincidono con il libretto. Nell’app è già presente l’accento corretto in «dà colore»."
+    },
+    {
+      "numero": 33,
+      "id": "chi-ci-separera",
+      "status": "verificato",
+      "source_pages": [
+        47
+      ],
+      "notes": "Le tre strofe coincidono con il libretto. Mantenuta la sillabazione musicale di «Cristo»."
+    },
+    {
+      "numero": 34,
+      "id": "chi-dara-da-bere-a-me",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        48
+      ],
+      "notes": "Coincide con il libretto. Alcune fonti online riportano «l’acqua che disseterà» invece di «ristorerà»; mantenuta la variante usata dal coro."
+    },
+    {
+      "numero": 35,
+      "id": "chiamati-per-nome",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        49,
+        50
+      ],
+      "notes": "Coincide con la versione in Mi del libretto. È presente anche una versione in Re con Capo 2; mantenuta quella già scelta nell’app."
+    },
+    {
+      "numero": 36,
+      "id": "come-fuoco-vivo",
+      "status": "verificato",
+      "source_pages": [
+        51
+      ],
+      "notes": "Ritornello, due strofe, vocalizzo e finale coincidono con il libretto."
+    },
+    {
+      "numero": 37,
+      "id": "come-l-aurora-verrai",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        52
+      ],
+      "notes": "Testo completo confermato. Le fonti online presentano armonizzazioni più articolate e accordi di passaggio differenti; mantenuta la versione locale."
+    },
+    {
+      "numero": 38,
+      "id": "come-maria",
+      "status": "verificato",
+      "source_pages": [
+        53
+      ],
+      "notes": "Testo, ritornello e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 39,
+      "id": "come-tu-mi-vuoi",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        54,
+        55
+      ],
+      "notes": "Coincide con la prima versione in Sol del libretto. Il PDF contiene anche un secondo arrangiamento; mantenuta la versione già usata nell’app."
+    },
+    {
+      "numero": 40,
+      "id": "come-un-prodigio",
+      "status": "verificato",
+      "source_pages": [
+        56,
+        57
+      ],
+      "notes": "Testo completo e struttura coincidono con il libretto e con le fonti ufficiali attribuite a Debora Vezzani."
+    },
+    {
+      "numero": 41,
+      "id": "con-voce-di-giubilo",
+      "status": "corretto",
+      "source_pages": [
+        58
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. Rimossa la sillabazione artificiale di «popolo» nella visualizzazione."
+    },
+    {
+      "numero": 42,
+      "id": "cristo-e-risorto-veramente",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        59,
+        60
+      ],
+      "notes": "Coincide con la versione in Re del libretto, con modulazione finale in Mi. Il PDF contiene anche la versione in Do; mantenuta quella già scelta nell’app."
+    },
+    {
+      "numero": 43,
+      "id": "dall-aurora-al-tramonto",
+      "status": "corretto",
+      "source_pages": [
+        61
+      ],
+      "notes": "Testo confermato dalle fonti online. Normalizzati «Dall’aurora» e la minuscola in «tue ali»."
+    },
+    {
+      "numero": 44,
+      "id": "davanti-a-questo-amore",
+      "status": "verificato",
+      "source_pages": [
+        65
+      ],
+      "notes": "Testo, ritornello e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 45,
+      "id": "del-tuo-spirito-signore",
+      "status": "corretto",
+      "source_pages": [
+        66
+      ],
+      "notes": "Testo confermato dalle fonti online. Rimosse sillabazioni artificiali come «ter-ra» e «mia-a»."
+    },
+    {
+      "numero": 46,
+      "id": "devo-dire-che",
+      "status": "verificato",
+      "source_pages": [
+        67
+      ],
+      "notes": "Coincide con il libretto. Nell’app è già presente la grafia corretta «qual è» senza apostrofo."
+    },
+    {
+      "numero": 47,
+      "id": "dolce-sentire",
+      "status": "corretto",
+      "source_pages": [
+        68,
+        69,
+        70
+      ],
+      "notes": "Testo confermato. Rimossa la sillabazione tipografica dalle parole, mantenendo invariati gli accordi."
+    },
+    {
+      "numero": 48,
+      "id": "dove-troveremo-tutto-il-pane",
+      "status": "verificato",
+      "source_pages": [
+        71
+      ],
+      "notes": "Testo, strofe e finale coincidono con il libretto."
+    },
+    {
+      "numero": 49,
+      "id": "e-bello-lodarti",
+      "status": "verificato",
+      "source_pages": [
+        72
+      ],
+      "notes": "Ritornello e due strofe coincidono con il libretto."
+    },
+    {
+      "numero": 50,
+      "id": "e-sono-solo-un-uomo-symbolum-79",
+      "status": "verificato-con-nota",
+      "source_pages": [
+        73,
+        74
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. Molte fonti online indicano il brano come «Symbolum ’78», mentre il vostro libretto usa «Symbolum ’79»: titolo lasciato invariato in attesa di una scelta editoriale."
+    },
+    {
+      "numero": 51,
+      "id": "ecco-il-nostro-si",
+      "status": "verificato",
+      "source_pages": [
+        74
+      ],
+      "notes": "Testo mariano, tre strofe e ritornello coincidono con il libretto. Mantenuta la grafia «Sì» con accento."
+    },
+    {
+      "numero": 52,
+      "id": "ecco-quel-che-abbiamo",
+      "status": "verificato",
+      "source_pages": [
+        75
+      ],
+      "notes": "Testo, due strofe, ritornello e finale coincidono con il libretto."
+    },
+    {
+      "numero": 53,
+      "id": "eccomi-salmo-39",
+      "status": "verificato",
+      "source_pages": [
+        76
+      ],
+      "notes": "Testo del Salmo 39, cinque strofe e ritornello coincidono con il libretto. Le sillabazioni grafiche non sono state mantenute nel testo normale."
+    },
+    {
+      "numero": 54,
+      "id": "emmanuel",
+      "status": "verificato-con-nota",
+      "source_pages": [
+        77,
+        78
+      ],
+      "notes": "Testo e accordi coincidono con il libretto. È stata mantenuta la maiuscola locale in «Memoria», «Verità», «Comunità»."
+    },
+    {
+      "numero": 55,
+      "id": "fammi-conoscere",
+      "status": "verificato",
+      "source_pages": [
+        79
+      ],
+      "notes": "Testo e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 56,
+      "id": "frutto-della-nostra-terra",
+      "status": "verificato",
+      "source_pages": [
+        80
+      ],
+      "notes": "Testo e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 57,
+      "id": "giovane-donna",
+      "status": "verificato",
+      "source_pages": [
+        81
+      ],
+      "notes": "Testo e struttura coincidono con il libretto."
+    },
+    {
+      "numero": 58,
+      "id": "giovanni",
+      "status": "verificato",
+      "source_pages": [
+        82,
+        83
+      ],
+      "notes": "Testo liturgico e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 59,
+      "id": "signore-pieta-buttazzo",
+      "status": "verificato",
+      "source_pages": [
+        84
+      ],
+      "notes": "Testo liturgico e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 60,
+      "id": "signore-pieta-versione-2",
+      "status": "verificato",
+      "source_pages": [
+        85
+      ],
+      "notes": "Testo del Magnificat e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 61,
+      "id": "gloria-buttazzo",
+      "status": "verificato",
+      "source_pages": [
+        87
+      ],
+      "notes": "Testo liturgico, strofe e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 62,
+      "id": "gloria-gen-verde",
+      "status": "corretto",
+      "source_pages": [
+        88
+      ],
+      "notes": "Corretto il ritornello in «Pace in terra agli uomini amati dal Signor», come nel PDF originale."
+    },
+    {
+      "numero": 63,
+      "id": "gloria-a-te-parola-vivente",
+      "status": "corretto",
+      "source_pages": [
+        89
+      ],
+      "notes": "Testo conforme al libretto; rimosse soltanto le sillabazioni grafiche di «maestro» e «Signore»."
+    },
+    {
+      "numero": 64,
+      "id": "grandi-cose",
+      "status": "verificato",
+      "source_pages": [
+        90
+      ],
+      "notes": "Testo, ritornello e strofa coincidono con il libretto."
+    },
+    {
+      "numero": 65,
+      "id": "ho-abbandonato",
+      "status": "verificato",
+      "source_pages": [
+        91
+      ],
+      "notes": "Testo, due ritornelli e strofe coincidono con il libretto."
+    },
+    {
+      "numero": 66,
+      "id": "il-canto-dei-3-giovani",
+      "status": "verificato",
+      "source_pages": [
+        92,
+        93
+      ],
+      "notes": "Testo completo e struttura coincidono con il libretto."
+    },
+    {
+      "numero": 67,
+      "id": "il-canto-dell-amore",
+      "status": "verificato",
+      "source_pages": [
+        94
+      ],
+      "notes": "Testo e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 68,
+      "id": "il-canto-del-mare",
+      "status": "corretto",
+      "source_pages": [
+        95
+      ],
+      "notes": "Testo conforme al libretto; eliminate sillabazioni tipografiche non necessarie."
+    },
+    {
+      "numero": 69,
+      "id": "il-disegno",
+      "status": "verificato",
+      "source_pages": [
+        96
+      ],
+      "notes": "Quattro strofe, ritornello e finale coincidono con il libretto."
+    },
+    {
+      "numero": 70,
+      "id": "il-giovane-ricco",
+      "status": "verificato",
+      "source_pages": [
+        97,
+        98
+      ],
+      "notes": "Testo narrativo, ritornello e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 71,
+      "id": "il-pane-che-ci-hai-dato",
+      "status": "verificato",
+      "source_pages": [
+        99
+      ],
+      "notes": "Testo, ritornello e ponte coincidono con il libretto."
+    },
+    {
+      "numero": 72,
+      "id": "il-signore-e-la-luce",
+      "status": "verificato",
+      "source_pages": [
+        100
+      ],
+      "notes": "Cinque strofe e ritornello coincidono con il libretto."
+    },
+    {
+      "numero": 73,
+      "id": "il-vascello-dell-amore",
+      "status": "verificato",
+      "source_pages": [
+        101,
+        102
+      ],
+      "notes": "Testo completo, ritornello e ripresa coincidono con il libretto."
+    },
+    {
+      "numero": 74,
+      "id": "in-una-notte-come-tante",
+      "status": "corretto",
+      "source_pages": [
+        103,
+        104,
+        105
+      ],
+      "notes": "Testo conforme al libretto; rimossi gli underscore usati come segni tipografici di durata."
+    },
+    {
+      "numero": 75,
+      "id": "invochiamo-la-tua-presenza-capo-3",
+      "status": "verificato",
+      "source_pages": [
+        106,
+        107
+      ],
+      "notes": "Strofe, ritornelli e modulazione finale coincidono con il libretto."
+    },
+    {
+      "numero": 76,
+      "id": "io-mi-arrendo-capo-3",
+      "status": "verificato-con-nota",
+      "source_pages": [
+        108
+      ],
+      "notes": "Testo conforme alla variante del libretto. Mantenuta la formulazione locale «Sei un vento che respira in me»."
+    },
+    {
+      "numero": 77,
+      "id": "jesus-christ-you-are-my-life",
+      "status": "corretto",
+      "source_pages": [
+        109,
+        110
+      ],
+      "notes": "Testo bilingue e accordi coincidono con il libretto; rimosse sillabazioni grafiche da Alleluia, vita e sempre."
+    },
+    {
+      "numero": 78,
+      "id": "la-canzone-dell-amicizia",
+      "status": "verificato",
+      "source_pages": [
+        111
+      ],
+      "notes": "Testo, ritornello e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 79,
+      "id": "la-gioia",
+      "status": "verificato",
+      "source_pages": [
+        112,
+        113
+      ],
+      "notes": "Due strofe, ritornello e finale coincidono con il libretto."
+    },
+    {
+      "numero": 80,
+      "id": "la-mia-anima-canta",
+      "status": "corretto",
+      "source_pages": [
+        114,
+        115
+      ],
+      "notes": "Testo del Magnificat conforme al libretto; rimossi soltanto rientri iniziali superflui."
+    },
+    {
+      "numero": 81,
+      "id": "la-preghiera-di-gesu-e-la-nostra",
+      "status": "verificato",
+      "source_pages": [
+        115,
+        116
+      ],
+      "notes": "Testo e modulazioni coincidono con il libretto. Corretto solo l'eventuale refuso OCR «lo rimango» in «Io rimango»."
+    },
+    {
+      "numero": 82,
+      "id": "laudato-sii-o-mi-signore",
+      "status": "verificato",
+      "source_pages": [
+        117,
+        118
+      ],
+      "notes": "Quattro strofe e ritornello coincidono con il libretto. Mantenuta la versione in Do già presente nell'app."
+    },
+    {
+      "numero": 83,
+      "id": "laudato-sii-signore-mio",
+      "status": "verificato",
+      "source_pages": [
+        119
+      ],
+      "notes": "Tre strofe e ritornello coincidono con il libretto."
+    },
+    {
+      "numero": 84,
+      "id": "le-tue-mani",
+      "status": "corretto",
+      "source_pages": [
+        120
+      ],
+      "notes": "Testo pasquale e accordi coincidono con il libretto; rimossa solo la sillabazione grafica di Alleluia."
+    },
+    {
+      "numero": 85,
+      "id": "le-tue-meraviglie",
+      "status": "corretto",
+      "source_pages": [
+        121,
+        122
+      ],
+      "notes": "Testo conforme al libretto. RE- riallineato sopra «visto» e accordi successivi spostati di conseguenza, su segnalazione del coro."
+    },
+    {
+      "numero": 86,
+      "id": "lode-a-te-o-cristo",
+      "status": "verificato",
+      "source_pages": [
+        123
+      ],
+      "notes": "Testo liturgico e accordi coincidono con il libretto; eventuali sillabazioni grafiche sono state rimosse."
+    },
+    {
+      "numero": 87,
+      "id": "lode-al-nome-tuo",
+      "status": "verificato",
+      "source_pages": [
+        124,
+        125
+      ],
+      "notes": "Testo completo e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 88,
+      "id": "luce-di-verita",
+      "status": "verificato",
+      "source_pages": [
+        126,
+        127
+      ],
+      "notes": "Testo allo Spirito Santo e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 89,
+      "id": "lui-m-ha-dato",
+      "status": "verificato",
+      "source_pages": [
+        128
+      ],
+      "notes": "Testo e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 90,
+      "id": "mani",
+      "status": "verificato",
+      "source_pages": [
+        129
+      ],
+      "notes": "Testo, ritornello e strofe coincidono con il libretto."
+    },
+    {
+      "numero": 91,
+      "id": "maranatha-soffio-di-dio",
+      "status": "corretto",
+      "source_pages": [
+        130
+      ],
+      "notes": "Testo conforme al libretto; rimosse sillabazioni artificiali di Maranathà e vieni."
+    },
+    {
+      "numero": 92,
+      "id": "maria-porta-dell-avvento",
+      "status": "verificato",
+      "source_pages": [
+        131
+      ],
+      "notes": "Tre strofe e ritornello coincidono con il libretto."
+    },
+    {
+      "numero": 93,
+      "id": "mi-arrendo-al-tuo-amore",
+      "status": "verificato",
+      "source_pages": [
+        132
+      ],
+      "notes": "Testo, due strofe e ritornello coincidono con il libretto."
+    },
+    {
+      "numero": 94,
+      "id": "mi-basta-la-tua-grazia",
+      "status": "verificato",
+      "source_pages": [
+        133
+      ],
+      "notes": "Testo, due strofe e ritornello coincidono con il libretto."
+    },
+    {
+      "numero": 95,
+      "id": "nel-tuo-silenzio",
+      "status": "verificato",
+      "source_pages": [
+        134
+      ],
+      "notes": "Tre strofe e modulazione finale coincidono con il libretto."
+    },
+    {
+      "numero": 96,
+      "id": "non-avere-paura",
+      "status": "verificato",
+      "source_pages": [
+        135
+      ],
+      "notes": "Ritornello e tre strofe coincidono con il libretto."
+    },
+    {
+      "numero": 97,
+      "id": "non-vivere-di-corsa",
+      "status": "verificato-con-nota",
+      "source_pages": [
+        136
+      ],
+      "notes": "Testo conforme al libretto. Mantenute formulazioni colloquiali e punteggiatura locale."
+    },
+    {
+      "numero": 98,
+      "id": "oggi-e-un-giorno-di-festa",
+      "status": "corretto",
+      "source_pages": [
+        137
+      ],
+      "notes": "Testo conforme al libretto; rimosse sillabazioni artificiali e normalizzata la maiuscola di Padre."
+    },
+    {
+      "numero": 99,
+      "id": "ogni-mia-parola",
+      "status": "verificato",
+      "source_pages": [
+        138
+      ],
+      "notes": "Testo biblico e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 100,
+      "id": "osanna-al-figlio-di-david",
+      "status": "corretto",
+      "source_pages": [
+        139
+      ],
+      "notes": "Testo conforme al libretto; rimossa la sillabazione artificiale di David."
+    },
+    {
+      "numero": 101,
+      "id": "padre-nostro-s-andrea",
+      "status": "verificato",
+      "source_pages": [
+        140
+      ],
+      "notes": "Testo e accordi coincidono con la versione Sant’Andrea del libretto."
+    },
+    {
+      "numero": 102,
+      "id": "padre-nostro-s-marco",
+      "status": "verificato",
+      "source_pages": [
+        141
+      ],
+      "notes": "Testo e accordi coincidono con la versione San Marco del libretto."
+    },
+    {
+      "numero": 103,
+      "id": "pane-del-cielo",
+      "status": "corretto",
+      "source_pages": [
+        142
+      ],
+      "notes": "Testo conforme al libretto; corretto «Si il cielo» in «Sì, il cielo»."
+    },
+    {
+      "numero": 104,
+      "id": "pane-di-vita-nuova-capo-1",
+      "status": "corretto",
+      "source_pages": [
+        143,
+        144
+      ],
+      "notes": "Testo conforme; rimosse sillabazioni tipografiche non necessarie."
+    },
+    {
+      "numero": 105,
+      "id": "pane-vivo-sei",
+      "status": "verificato",
+      "source_pages": [
+        145
+      ],
+      "notes": "Testo e accordi coincidono con il libretto."
+    },
+    {
+      "numero": 106,
+      "id": "pellegrini-di-speranza-capo-3",
+      "status": "corretto",
+      "source_pages": [
+        146,
+        147
+      ],
+      "notes": "Testo dell’inno giubilare conforme; rimossi segni tipografici di sillabazione e durata."
+    },
+    {
+      "numero": 107,
+      "id": "pietro-vai",
+      "status": "corretto",
+      "source_pages": [
+        149
+      ],
+      "notes": "Testo conforme al libretto; rimosse sillabazioni artificiali."
+    },
+    {
+      "numero": 108,
+      "id": "pim-pam",
+      "status": "corretto",
+      "source_pages": [
+        150
+      ],
+      "notes": "Corretto il refuso «casa la sulla» in «casa là sulla» nelle tre strofe."
+    },
+    {
+      "numero": 109,
+      "id": "popoli-tutti",
+      "status": "corretto",
+      "source_pages": [
+        151,
+        152
+      ],
+      "notes": "Testo conforme; rimossa la sillabazione artificiale di «adorerò»."
+    },
+    {
+      "numero": 110,
+      "id": "potente-sei-mio-signor-volendo-capo-2",
+      "status": "verificato",
+      "source_pages": [
+        153,
+        154
+      ],
+      "notes": "Testo, ritornelli e ponte coincidono con il libretto."
     }
   ]
 }

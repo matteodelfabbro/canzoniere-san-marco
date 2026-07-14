@@ -422,8 +422,18 @@ function splitLongSegment(chordPart,lyricPart,maxChars=28){
 }
 
 function renderChordLyricPair(chordText,lyricText,shift){
-  const chord=transposeLine((chordText||'').trimStart(),shift);
-  const lyric=(lyricText||'').trimStart();
+  const rawChord=chordText||'';
+  const rawLyric=lyricText||'';
+
+  // Rimuove soltanto il rientro comune alle due righe.
+  // In questo modo resta intatto lo scarto relativo: se il primo accordo
+  // deve iniziare sopra una parola interna, non viene spostato a inizio riga.
+  const chordIndent=(rawChord.match(/^\s*/)||[''])[0].length;
+  const lyricIndent=(rawLyric.match(/^\s*/)||[''])[0].length;
+  const commonIndent=Math.min(chordIndent,lyricIndent);
+
+  const chord=transposeLine(rawChord.slice(commonIndent),shift);
+  const lyric=rawLyric.slice(commonIndent);
   const chordMatches=[...chord.matchAll(/\S+/g)];
   const lyricWords=[...lyric.matchAll(/\S+/g)];
 

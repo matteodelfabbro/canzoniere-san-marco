@@ -1,4 +1,6 @@
 let songs = [];
+let songsTags = {};
+let searchSuggestionConfig = {};
 
 async function loadSongs() {
   const response = await fetch('./data/songs-index.json');
@@ -9,6 +11,19 @@ async function loadSongs() {
     if (!songResponse.ok) throw new Error(`Impossibile caricare il canto: ${item.title}`);
     return songResponse.json();
   }));
+
+  try{
+    const [tagsResponse,suggestionsResponse]=await Promise.all([
+      fetch('./data/songs-tags.json'),
+      fetch('./data/search-suggestions.json')
+    ]);
+    if(tagsResponse.ok)songsTags=await tagsResponse.json();
+    if(suggestionsResponse.ok)searchSuggestionConfig=await suggestionsResponse.json();
+  }catch(error){
+    console.warn('Suggerimenti tematici non disponibili.',error);
+    songsTags={};
+    searchSuggestionConfig={};
+  }
 }
 
 async function init() {
@@ -16,6 +31,7 @@ async function init() {
 const tileList=document.getElementById('tileList');
 const main=document.getElementById('main');
 const search=document.getElementById('search');
+const tagSuggestions=document.getElementById('tagSuggestions');
 const filterAll=document.getElementById('filterAll');
 const filterFavorites=document.getElementById('filterFavorites');
 const filterSetlist=document.getElementById('filterSetlist');
@@ -314,11 +330,94 @@ function showSong(i,updateHistory=true){
 }
 function showList(){document.body.classList.remove('song-open');renderTiles();requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}))}
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
+
+const CATEGORY_ALIASES={
+  'Natale':['natale','natalizio','periodo natalizio','tempo di natale'],
+  'Avvento':['avvento','tempo di avvento'],
+  'Quaresima':['quaresima','quaresimale','tempo di quaresima'],
+  'Pasqua':['pasqua','pasquale','tempo di pasqua','risurrezione'],
+  'Spirito Santo':['spirito santo','spirito','pentecoste'],
+  'Maria':['maria','mariano','mariani','canti mariani'],
+  'Comunione':['comunione','eucaristia','eucaristico','eucaristici']
+};
+
+function categoryTagFromQuery(query){
+  const normalized=normalizeSearch(query);
+  if(!normalized)return null;
+
+  const simplified=normalized
+    .split(/\s+/)
+    .filter(word=>!['canto','canti','per','il','lo','la','i','gli','le','di','del','della','tempo','periodo'].includes(word))
+    .join(' ')
+    .trim();
+
+  for(const [tag,aliases] of Object.entries(CATEGORY_ALIASES)){
+    if(aliases.some(alias=>normalizeSearch(alias)===simplified))return tag;
+  }
+  return null;
+}
+
+function renderCategorySuggestions(query){
+  tagSuggestions.replaceChildren();
+
+  if(listMode!=='all')return false;
+
+  const tag=categoryTagFromQuery(query);
+  if(!tag)return false;
+
+  const configEntry=Object.entries(searchSuggestionConfig)
+    .find(([,item])=>normalizeSearch(item.tag)===normalizeSearch(tag));
+
+  const title=configEntry?.[0]||`Canti per ${tag}`;
+  const description=configEntry?.[1]?.description||'Suggerimenti dal canzoniere';
+
+  const taggedIds=new Set(
+    Object.entries(songsTags)
+      .filter(([,entry])=>(entry.tags||[]).some(value=>normalizeSearch(value)===normalizeSearch(tag)))
+      .map(([id])=>id)
+  );
+
+  const matches=songs
+    .map((song,index)=>({song,index}))
+    .filter(({song})=>taggedIds.has(song.id));
+
+  if(!matches.length)return false;
+
+  const section=document.createElement('section');
+  section.className='category-suggestions';
+  section.setAttribute('aria-label',title);
+
+  const heading=document.createElement('h2');
+  heading.className='category-suggestions-title';
+  heading.textContent=title;
+
+  const note=document.createElement('p');
+  note.className='category-suggestions-description';
+  note.textContent=description;
+
+  const list=document.createElement('div');
+  list.className='category-suggestions-list';
+
+  matches.forEach(({song,index})=>{
+    const button=document.createElement('button');
+    button.type='button';
+    button.className='category-suggestion-song';
+    button.innerHTML=`<span class="category-suggestion-number">${pad(index)}</span><span>${esc(song.title)}</span>`;
+    button.addEventListener('click',()=>showSong(index));
+    list.appendChild(button);
+  });
+
+  section.append(heading,note,list);
+  tagSuggestions.appendChild(section);
+  return true;
+}
+
 function renderTiles(filter=search.value){
   updateSetlistHeader();
   tileList.innerHTML='';
   let any=false;
   const query=typeof filter==='string'?filter:search.value;
+  const hasCategorySuggestions=renderCategorySuggestions(query);
 
   let ordered;
   if(listMode==='setlist'){
@@ -418,6 +517,10 @@ function renderTiles(filter=search.value){
   });
 
   if(!any){
+    if(hasCategorySuggestions && listMode==='all'){
+      tileList.innerHTML='';
+      return;
+    }
     const message=listMode==='favorites'
       ?'Nessun canto preferito.'
       :listMode==='setlist'

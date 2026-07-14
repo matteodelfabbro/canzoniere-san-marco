@@ -424,27 +424,69 @@ function splitLongSegment(chordPart,lyricPart,maxChars=28){
 function renderChordLyricPair(chordText,lyricText,shift){
   const chord=transposeLine((chordText||'').trimStart(),shift);
   const lyric=(lyricText||'').trimStart();
-  const matches=[...chord.matchAll(/\S+/g)];
+  const chordMatches=[...chord.matchAll(/\S+/g)];
+  const lyricWords=[...lyric.matchAll(/\S+/g)];
 
-  if(!matches.length){
+  if(!chordMatches.length){
     return `<div class="lyricline">${esc(lyric)}</div>`;
   }
 
-  const boundaries=[];
-  if(matches[0].index>0)boundaries.push(0);
-  matches.forEach(match=>boundaries.push(match.index));
-
-  const pieces=[];
-  for(let j=0;j<boundaries.length;j++){
-    const start=boundaries[j];
-    const end=j+1<boundaries.length?boundaries[j+1]:Math.max(chord.length,lyric.length);
-    const chordPart=chord.slice(start,end).replace(/\s+$/,'');
-    const lyricPart=lyric.slice(start,end).replace(/\s+$/,'');
-    pieces.push(...splitLongSegment(chordPart,lyricPart));
+  if(!lyricWords.length){
+    return `<div class="chordline">${esc(chord)}</div>`;
   }
 
-  return `<div class="music-row">${pieces.map(piece=>
-    `<div class="music-segment" style="--cols:${piece.cols}"><div class="segment-chord">${esc(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
+  // Aggancia ogni accordo all'inizio della parola più vicina.
+  // In questo modo un font proporzionale non spezza più parole come
+  // "tuoi", "eternità", "anima" o "nostro".
+  const anchors=[];
+  chordMatches.forEach(match=>{
+    let nearestWord=0;
+    let bestDistance=Infinity;
+
+    lyricWords.forEach((word,index)=>{
+      const distance=Math.abs(word.index-match.index);
+      if(distance<bestDistance){
+        bestDistance=distance;
+        nearestWord=index;
+      }
+    });
+
+    const existing=anchors.find(anchor=>anchor.wordIndex===nearestWord);
+    if(existing){
+      existing.chord+=` ${match[0]}`;
+    }else{
+      anchors.push({
+        wordIndex:nearestWord,
+        chord:match[0]
+      });
+    }
+  });
+
+  anchors.sort((a,b)=>a.wordIndex-b.wordIndex);
+
+  // Se il primo accordo non cade sulla prima parola, crea comunque
+  // un segmento iniziale senza accordo.
+  if(anchors[0].wordIndex>0){
+    anchors.unshift({wordIndex:0,chord:''});
+  }
+
+  const pieces=anchors.map((anchor,index)=>{
+    const nextWordIndex=index+1<anchors.length
+      ?anchors[index+1].wordIndex
+      :lyricWords.length;
+
+    const words=lyricWords
+      .slice(anchor.wordIndex,nextWordIndex)
+      .map(word=>word[0]);
+
+    return {
+      chord:anchor.chord,
+      lyric:words.join(' ')
+    };
+  }).filter(piece=>piece.lyric||piece.chord);
+
+  return `<div class="music-row word-anchored">${pieces.map(piece=>
+    `<div class="music-segment"><div class="segment-chord">${esc(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
   ).join('')}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
 }
 

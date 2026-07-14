@@ -698,9 +698,9 @@ function renderSong(i){
       <span class="command-separator" aria-hidden="true"></span>
       <div class="text-controls">
         <span class="text-size-label">Testo</span>
-        <button class="command-btn" id="fontDown" type="button" aria-label="Riduci testo">A−</button>
+        <button class="command-btn font-control-btn" id="fontDown" type="button" aria-label="Riduci testo"><span class="font-control-a">A</span><span class="font-control-sign">−</span></button>
         <span class="text-size-value" id="fontValue">${songFontSize}px</span>
-        <button class="command-btn" id="fontUp" type="button" aria-label="Ingrandisci testo">A+</button>
+        <button class="command-btn font-control-btn" id="fontUp" type="button" aria-label="Ingrandisci testo"><span class="font-control-a">A</span><span class="font-control-sign">+</span></button>
       </div>
     </div>
   </div>

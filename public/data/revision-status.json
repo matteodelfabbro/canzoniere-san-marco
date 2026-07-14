@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-07-14",
+  "primary_source": "NUOVO CANZONIERE 1.pdf",
+  "range": {
+    "from": 1,
+    "to": 10
+  },
+  "summary": {
+    "reviewed": 10,
+    "content_changes": 0,
+    "verified": 7,
+    "verified_local_variant": 2,
+    "verified_with_note": 1
+  },
+  "songs": [
+    {
+      "numero": 1,
+      "id": "abbracciami",
+      "status": "verificato",
+      "source_pages": [
+        7,
+        8
+      ],
+      "notes": "Testo e struttura coincidono con il libretto. Le fonti online confermano «grazia che opera» e «Vieni nella tua potenza». Mantenuta la versione in MI presente nell'app."
+    },
+    {
+      "numero": 2,
+      "id": "accogli-i-nostri-doni",
+      "status": "verificato",
+      "source_pages": [
+        9
+      ],
+      "notes": "Coincide con la versione del libretto. Non confondere con l'omonimo canto di Francesco Buttazzo, che ha testo diverso."
+    },
+    {
+      "numero": 3,
+      "id": "acqua-siamo-noi",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        10
+      ],
+      "notes": "Coincide con il libretto. Online circolano strofe e armonizzazioni differenti; mantenuta la variante effettivamente usata nel canzoniere."
+    },
+    {
+      "numero": 4,
+      "id": "adesso-e-la-pienezza",
+      "status": "verificato",
+      "source_pages": [
+        11,
+        12
+      ],
+      "notes": "Testo, sezioni e accordi coincidono con il libretto; gli artefatti tipografici del PDF risultano già normalizzati nell'app."
+    },
+    {
+      "numero": 5,
+      "id": "adeste-fideles",
+      "status": "verificato-con-nota",
+      "source_pages": [
+        13
+      ],
+      "notes": "Coincide con il libretto. La grafia latina «adproperant/approperant» varia tra le fonti: mantenuta «adproperant» perché è la forma del vostro libretto."
+    },
+    {
+      "numero": 6,
+      "id": "adoro-te",
+      "status": "verificato",
+      "source_pages": [
+        14
+      ],
+      "notes": "Testo e struttura coincidono; confermati «Trinità infinita» e «alla presenza Tua mi prostrerò»."
+    },
+    {
+      "numero": 7,
+      "id": "agnello-di-dio",
+      "status": "verificato",
+      "source_pages": [
+        15
+      ],
+      "notes": "Coincide con il libretto, comprese introduzione e tre invocazioni."
+    },
+    {
+      "numero": 8,
+      "id": "agnello-di-dio-versione-2-capo-3",
+      "status": "verificato",
+      "source_pages": [
+        16
+      ],
+      "notes": "Coincide con la versione «Capo 3» del libretto. Mantenuta la notazione degli accordi originale."
+    },
+    {
+      "numero": 9,
+      "id": "agnello-di-dio-buttazzo-capo-3",
+      "status": "verificato-variante-locale",
+      "source_pages": [
+        17
+      ],
+      "notes": "Coincide con il libretto. Esistono online arrangiamenti Buttazzo differenti; mantenuta questa versione locale."
+    },
+    {
+      "numero": 10,
+      "id": "alleluia-buttazzo",
+      "status": "verificato",
+      "source_pages": [
+        18,
+        19
+      ],
+      "notes": "Testo, strofe, modulazione finale e accordi coincidono con il libretto. Confermato anche il testo delle strofe nelle fonti online."
+    }
+  ]
+}

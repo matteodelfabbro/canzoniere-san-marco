@@ -820,3 +820,20 @@ async function getThemeSuggestions(query, songs){
 
   return found.filter(x=>x.songs.length);
 }
+
+
+// Blocco suggerimenti tematici ricerca
+function renderThemeSuggestionsBlock(groups){
+  if(!groups || !groups.length) return "";
+  return `
+    <div class="theme-suggestions">
+      <h3>💡 Suggerimenti</h3>
+      ${groups.map(g=>`
+        <div class="theme-group">
+          <h4>${g.title}</h4>
+          ${g.songs.map(s=>`<div class="theme-song" data-song-id="${s.id}">${s.title}</div>`).join("")}
+        </div>
+      `).join("")}
+    </div>
+  `;
+}

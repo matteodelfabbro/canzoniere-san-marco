@@ -337,3 +337,12 @@
 .tag-group h4 {
   margin-bottom: .4rem;
 }
+
+.theme-suggestions{
+ margin-top:16px;
+ padding:12px;
+ border-radius:12px;
+}
+.theme-group{
+ margin-top:10px;
+}

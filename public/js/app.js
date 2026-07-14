@@ -783,3 +783,40 @@ function renderTagSuggestions(suggestions){
       `).join("")}
     </section>`;
 }
+
+
+let searchSuggestionsCache = null;
+
+async function loadSearchSuggestions(){
+  if(searchSuggestionsCache) return searchSuggestionsCache;
+  try{
+    const r = await fetch("./search-suggestions.json");
+    searchSuggestionsCache = await r.json();
+  }catch(e){
+    searchSuggestionsCache = {};
+  }
+  return searchSuggestionsCache;
+}
+
+async function getThemeSuggestions(query, songs){
+  const q = normalizeSearchText(query);
+  if(!q) return [];
+
+  const config = await loadSearchSuggestions();
+  const found = [];
+
+  Object.entries(config).forEach(([title, item])=>{
+    const tag = normalizeSearchText(item.tag);
+    if(tag.includes(q) || q.includes(tag)){
+      found.push({
+        title,
+        description: item.description,
+        songs: songs.filter(s =>
+          normalizeSearchText(JSON.stringify(s)).includes(tag)
+        ).slice(0,5)
+      });
+    }
+  });
+
+  return found.filter(x=>x.songs.length);
+}

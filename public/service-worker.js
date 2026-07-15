@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-ipad-columns-v2';
+const CACHE_NAME = 'canzoniere-san-marco-firestore-feedback-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -193,6 +193,9 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
+
+  // Non intercettare gli URL riservati di Firebase Hosting (/__/firebase/...).
+  if (new URL(event.request.url).pathname.startsWith('/__')) return;
 
   // Rete-prima per tutto ciò che modifichiamo spesso durante lo sviluppo
   // (dati dei canti, stile, logica): chi è online vede sempre l'ultima

@@ -271,24 +271,40 @@ function closeFeedback(){
   feedbackModal.hidden=true;
   document.body.style.overflow='';
 }
-function encodeFormData(form){
-  return new URLSearchParams(new FormData(form)).toString();
-}
 async function submitFeedback(event){
   event.preventDefault();
   const submitButton=feedbackForm.querySelector('[type="submit"]');
   submitButton.disabled=true;
   feedbackStatus.textContent='Invio in corso…';
+
   try{
-    const response=await fetch('/',{
-      method:'POST',
-      headers:{'Content-Type':'application/x-www-form-urlencoded'},
-      body:encodeFormData(feedbackForm)
-    });
-    if(!response.ok)throw new Error('Invio non riuscito');
+    if(typeof firebase==='undefined'||!firebase.firestore){
+      throw new Error('Firebase non disponibile');
+    }
+
+    const formData=new FormData(feedbackForm);
+    const payload={
+      tipo:String(formData.get('tipo')||'').trim(),
+      descrizione:String(formData.get('descrizione')||'').trim(),
+      canto:String(formData.get('canto')||'').trim(),
+      canto_id:String(formData.get('canto_id')||'').trim(),
+      pagina:String(formData.get('pagina')||'').slice(0,500),
+      dispositivo:String(formData.get('dispositivo')||'').slice(0,500),
+      contatto:String(formData.get('contatto')||'').trim(),
+      stato:'nuova',
+      createdAt:firebase.firestore.FieldValue.serverTimestamp()
+    };
+
+    if(!payload.tipo||!payload.descrizione){
+      throw new Error('Campi obbligatori mancanti');
+    }
+
+    await firebase.firestore().collection('segnalazioni').add(payload);
     feedbackStatus.textContent='Grazie! La segnalazione è stata inviata.';
+    feedbackForm.reset();
     setTimeout(closeFeedback,1200);
   }catch(error){
+    console.error('Errore invio segnalazione:',error);
     feedbackStatus.textContent='Non sono riuscita a inviare. Controlla la connessione e riprova.';
   }finally{
     submitButton.disabled=false;

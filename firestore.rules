@@ -1,0 +1,47 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /segnalazioni/{segnalazioneId} {
+      allow create: if
+        request.resource.data.keys().hasAll([
+          'tipo', 'descrizione', 'canto', 'canto_id', 'pagina',
+          'dispositivo', 'contatto', 'stato', 'createdAt'
+        ]) &&
+        request.resource.data.keys().hasOnly([
+          'tipo', 'descrizione', 'canto', 'canto_id', 'pagina',
+          'dispositivo', 'contatto', 'stato', 'createdAt'
+        ]) &&
+        request.resource.data.tipo is string &&
+        request.resource.data.tipo in [
+          'Testo errato',
+          'Accordo errato',
+          'Impaginazione',
+          'Funzione non funzionante',
+          'Suggerimento',
+          'Altro'
+        ] &&
+        request.resource.data.descrizione is string &&
+        request.resource.data.descrizione.size() >= 3 &&
+        request.resource.data.descrizione.size() <= 2000 &&
+        request.resource.data.canto is string &&
+        request.resource.data.canto.size() <= 250 &&
+        request.resource.data.canto_id is string &&
+        request.resource.data.canto_id.size() <= 150 &&
+        request.resource.data.pagina is string &&
+        request.resource.data.pagina.size() <= 500 &&
+        request.resource.data.dispositivo is string &&
+        request.resource.data.dispositivo.size() <= 500 &&
+        request.resource.data.contatto is string &&
+        request.resource.data.contatto.size() <= 250 &&
+        request.resource.data.stato == 'nuova' &&
+        request.resource.data.createdAt == request.time;
+
+      allow read, update, delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

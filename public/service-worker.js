@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-ipad-columns-v2';
+const CACHE_NAME = 'canzoniere-san-marco-ipad-portrait-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",

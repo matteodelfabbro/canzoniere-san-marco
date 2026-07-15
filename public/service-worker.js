@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-firestore-feedback-v1';
+const CACHE_NAME = 'canzoniere-san-marco-cache-fix-v2';
 const APP_ASSETS = [
   "./",
   "./index.html",

@@ -1294,3 +1294,170 @@ header p.tag{
     font-size:.82rem;
   }
 }
+
+
+/* =========================================================
+   iPad verticale — vista canto a tutto schermo
+   ========================================================= */
+@media (orientation:portrait) and (min-width:700px) and (max-width:1100px){
+  .app{
+    max-width:none;
+    grid-template-columns:1fr;
+    min-height:calc(100dvh - 170px);
+  }
+
+  /* Nell’elenco il pannello usa tutta la larghezza. */
+  body:not(.song-open) main{
+    display:none;
+  }
+
+  body:not(.song-open) .board{
+    width:100%;
+    padding-left:clamp(1.5rem,6vw,4.5rem);
+    padding-right:clamp(1.5rem,6vw,4.5rem);
+  }
+
+  /* Quando si apre un canto, spariscono intestazione ed elenco:
+     lo spartito usa davvero tutto lo schermo. */
+  body.song-open > header,
+  body.song-open > footer,
+  body.song-open .board{
+    display:none;
+  }
+
+  body.song-open .app{
+    display:block;
+    min-height:100dvh;
+  }
+
+  body.song-open main{
+    display:block;
+    width:100%;
+    max-width:none;
+    min-height:100dvh;
+    padding:
+      calc(.35rem + env(safe-area-inset-top))
+      clamp(1.35rem,4vw,2.5rem)
+      calc(2.2rem + env(safe-area-inset-bottom));
+  }
+
+  /* Barra sempre raggiungibile, ma più compatta. */
+  body.song-open .song-nav{
+    top:env(safe-area-inset-top);
+    margin:0 0 .8rem;
+    padding:.38rem 0 .5rem;
+  }
+
+  /* Titolo più presente, senza sprecare altezza. */
+  body.song-open .song-head{
+    gap:.75rem;
+    padding-bottom:.8rem;
+    margin-bottom:1rem;
+  }
+
+  body.song-open .song-title{
+    font-size:clamp(1.75rem,4.2vw,2.2rem);
+    line-height:1.1;
+  }
+
+  body.song-open .song-sub{
+    margin-top:.22rem;
+    font-size:.92rem;
+  }
+
+  /* Più testo visibile: carattere maggiore ma interlinea più raccolta. */
+  body.song-open .sheet{
+    overflow-x:visible;
+    padding-bottom:.2rem;
+  }
+
+  body.song-open .block{
+    margin-bottom:.78rem;
+  }
+
+  body.song-open .headline{
+    margin:.62rem 0 .14rem;
+  }
+
+  body.song-open .chordline,
+  body.song-open .segment-chord{
+    line-height:1.28;
+  }
+
+  body.song-open .lyricline,
+  body.song-open .segment-lyric{
+    line-height:1.52;
+  }
+
+  body.song-open .music-row{
+    margin-bottom:.03rem;
+  }
+
+  body.song-open .spacer{
+    height:.36rem;
+  }
+
+  body.song-open .song-feedback-footer{
+    padding-top:1rem;
+  }
+}
+
+
+/* =========================================================
+   iPad verticale — due colonne adattive per i canti lunghi
+   ========================================================= */
+.sheet{
+  font-size:var(--song-font-size);
+}
+
+/* Le righe di soli accordi, come l'Intro di Abbracciami,
+   ora seguono davvero la dimensione scelta con A− / A+. */
+.chordline.standalone-chord{
+  font-size:1em;
+  line-height:1.4;
+}
+
+/* Anche le etichette Intro, Strofa, Ritornello crescono insieme al canto,
+   mantenendo però il loro ruolo secondario. */
+.headline{
+  font-size:.7em;
+}
+
+.song-section{
+  width:100%;
+}
+
+@media (orientation:portrait) and (min-width:760px) and (max-width:1100px){
+  body.song-open .sheet.tablet-two-columns{
+    column-count:2;
+    column-gap:clamp(1.4rem,4vw,2.35rem);
+    column-rule:1px solid rgba(22,35,61,.12);
+    column-fill:balance;
+  }
+
+  body.song-open .sheet.tablet-two-columns .song-section{
+    break-inside:avoid-column;
+    -webkit-column-break-inside:avoid;
+    page-break-inside:avoid;
+    margin:0 0 .7rem;
+  }
+
+  body.song-open .sheet.tablet-two-columns .song-section:first-child .headline{
+    margin-top:0;
+  }
+
+  body.song-open .sheet.tablet-two-columns .music-row.word-anchored{
+    row-gap:.2rem;
+    margin-bottom:.22rem;
+  }
+
+  body.song-open .sheet.tablet-two-columns .lyricline,
+  body.song-open .sheet.tablet-two-columns .segment-lyric{
+    line-height:1.46;
+  }
+
+  body.song-open .sheet.tablet-two-columns .chordline,
+  body.song-open .sheet.tablet-two-columns .segment-chord{
+    line-height:1.3;
+  }
+}

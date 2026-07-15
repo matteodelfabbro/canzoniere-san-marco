@@ -76,7 +76,16 @@ localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
 localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
 let listScrollY=0;
 const shiftState={};
-let songFontSize=Math.min(22,Math.max(12,Number(localStorage.getItem('songFontSize'))||16));
+const ipadPortraitView=window.matchMedia('(orientation:portrait) and (min-width:700px) and (max-width:1100px)');
+const savedSongFontSize=Number(localStorage.getItem('songFontSize'))||0;
+const upgradeIpadFont=ipadPortraitView.matches
+  && savedSongFontSize===16
+  && localStorage.getItem('ipadPortraitFontV1')!=='done';
+let songFontSize=Math.min(24,Math.max(12,upgradeIpadFont?18:(savedSongFontSize||(ipadPortraitView.matches?18:16))));
+if(upgradeIpadFont){
+  localStorage.setItem('songFontSize',String(songFontSize));
+  localStorage.setItem('ipadPortraitFontV1','done');
+}
 let lyricsOnly=localStorage.getItem('lyricsOnlyMode')==='true';
 function pad(n){return String(n+1).padStart(2,'0')}
 function normalizeSearch(value){
@@ -262,24 +271,40 @@ function closeFeedback(){
   feedbackModal.hidden=true;
   document.body.style.overflow='';
 }
-function encodeFormData(form){
-  return new URLSearchParams(new FormData(form)).toString();
-}
 async function submitFeedback(event){
   event.preventDefault();
   const submitButton=feedbackForm.querySelector('[type="submit"]');
   submitButton.disabled=true;
   feedbackStatus.textContent='Invio in corso…';
+
   try{
-    const response=await fetch('/',{
-      method:'POST',
-      headers:{'Content-Type':'application/x-www-form-urlencoded'},
-      body:encodeFormData(feedbackForm)
-    });
-    if(!response.ok)throw new Error('Invio non riuscito');
+    if(typeof firebase==='undefined'||!firebase.firestore){
+      throw new Error('Firebase non disponibile');
+    }
+
+    const formData=new FormData(feedbackForm);
+    const payload={
+      tipo:String(formData.get('tipo')||'').trim(),
+      descrizione:String(formData.get('descrizione')||'').trim(),
+      canto:String(formData.get('canto')||'').trim(),
+      canto_id:String(formData.get('canto_id')||'').trim(),
+      pagina:String(formData.get('pagina')||'').slice(0,500),
+      dispositivo:String(formData.get('dispositivo')||'').slice(0,500),
+      contatto:String(formData.get('contatto')||'').trim(),
+      stato:'nuova',
+      createdAt:firebase.firestore.FieldValue.serverTimestamp()
+    };
+
+    if(!payload.tipo||!payload.descrizione){
+      throw new Error('Campi obbligatori mancanti');
+    }
+
+    await firebase.firestore().collection('segnalazioni').add(payload);
     feedbackStatus.textContent='Grazie! La segnalazione è stata inviata.';
+    feedbackForm.reset();
     setTimeout(closeFeedback,1200);
   }catch(error){
+    console.error('Errore invio segnalazione:',error);
     feedbackStatus.textContent='Non sono riuscita a inviare. Controlla la connessione e riprova.';
   }finally{
     submitButton.disabled=false;
@@ -712,6 +737,35 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null){
   ).join('')}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
 }
 
+
+function applyTabletSongColumns(){
+  const sheet=main.querySelector('.sheet');
+  if(!sheet)return;
+
+  sheet.classList.remove('tablet-two-columns');
+
+  const tabletPortrait=window.matchMedia(
+    '(orientation:portrait) and (min-width:760px) and (max-width:1100px)'
+  ).matches;
+
+  if(!tabletPortrait)return;
+
+  requestAnimationFrame(()=>{
+    sheet.classList.remove('tablet-two-columns');
+
+    const availableHeight=Math.max(
+      520,
+      window.innerHeight-sheet.getBoundingClientRect().top-28
+    );
+    const contentHeight=sheet.scrollHeight;
+    const sectionCount=sheet.querySelectorAll('.song-section').length;
+
+    if(sectionCount>=5 && contentHeight>availableHeight*1.08){
+      sheet.classList.add('tablet-two-columns');
+    }
+  });
+}
+
 function renderSong(i){
   const song=songs[i];
   const shift=shiftState[i]||0;
@@ -767,9 +821,29 @@ function renderSong(i){
   </div>`:''}
   <div class="sheet${lyricsOnly?' lyrics-only':''}" style="--song-font-size:${songFontSize}px">`;
 
+  let songSectionOpen=false;
+
+  const openSongSection=()=>{
+    if(songSectionOpen)html+='</section>';
+    html+='<section class="song-section">';
+    songSectionOpen=true;
+  };
+
   for(let lineIndex=0;lineIndex<song.lines.length;lineIndex++){
     const line=song.lines[lineIndex];
     const next=song.lines[lineIndex+1];
+
+    if(line.t==='h'){
+      openSongSection();
+      const cleanText=(line.v||'').trimStart();
+      html+=`<div class="headline">${esc(cleanText)}</div>`;
+      continue;
+    }
+
+    if(!songSectionOpen){
+      html+='<section class="song-section">';
+      songSectionOpen=true;
+    }
 
     if(line.t==='c' && next && next.t==='l'){
       html+=renderChordLyricPair(line.v,next.v,shift,line.anchors||null);
@@ -778,11 +852,12 @@ function renderSong(i){
     }
 
     const cleanText=(line.v||'').trimStart();
-    if(line.t==='c')html+=`<div class="chordline">${esc(transposeLine(cleanText,shift))}</div>`;
+    if(line.t==='c')html+=`<div class="chordline standalone-chord">${esc(transposeLine(cleanText,shift))}</div>`;
     else if(line.t==='l')html+=`<div class="lyricline lyrics-only-plain">${esc(cleanText)}</div>`;
-    else if(line.t==='h')html+=`<div class="headline">${esc(cleanText)}</div>`;
     else html+='<div class="spacer"></div>';
   }
+
+  if(songSectionOpen)html+='</section>';
 
   main.innerHTML=html+`</div>
   <div class="song-feedback-footer">
@@ -792,6 +867,7 @@ function renderSong(i){
   document.getElementById('backList').addEventListener('click',backToList);
   document.getElementById('songFavorite').addEventListener('click',()=>toggleFavorite(i));
   document.getElementById('songSetlist').addEventListener('click',()=>toggleSetlist(i));
+  applyTabletSongColumns();
   document.getElementById('songFeedback').addEventListener('click',()=>openFeedback(i));
   document.getElementById('lyricsOnlyToggle').addEventListener('click',()=>{
     lyricsOnly=!lyricsOnly;
@@ -806,16 +882,18 @@ function renderSong(i){
   document.getElementById('tDown').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)-1;renderSong(i)});
 
   const changeFontSize=delta=>{
-    songFontSize=Math.min(22,Math.max(12,songFontSize+delta));
+    songFontSize=Math.min(24,Math.max(12,songFontSize+delta));
     localStorage.setItem('songFontSize',songFontSize);
     const sheet=main.querySelector('.sheet');
     if(sheet)sheet.style.setProperty('--song-font-size',songFontSize+'px');
     const value=document.getElementById('fontValue');
     if(value)value.textContent=songFontSize+'px';
+    applyTabletSongColumns();
   };
   document.getElementById('fontDown').addEventListener('click',()=>changeFontSize(-1));
   document.getElementById('fontUp').addEventListener('click',()=>changeFontSize(1));
 }
+window.addEventListener('resize',applyTabletSongColumns);
 search.addEventListener('input',()=>renderTiles());
 search.addEventListener('search',()=>renderTiles());
 filterAll.addEventListener('click',()=>setListMode('all'));

@@ -56,9 +56,7 @@
     <h2 id="feedbackTitle">Invia una segnalazione</h2>
     <p class="feedback-intro" id="feedbackIntro">Aiutaci a migliorare il Canzoniere.</p>
 
-    <form name="segnalazioni-canzoniere" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="feedbackForm">
-      <input type="hidden" name="form-name" value="segnalazioni-canzoniere">
-      <p class="feedback-honeypot"><label>Non compilare: <input name="bot-field"></label></p>
+    <form id="feedbackForm">
 
       <input type="hidden" name="canto" id="feedbackSong">
       <input type="hidden" name="canto_id" id="feedbackSongId">
@@ -97,6 +95,10 @@
   </section>
 </div>
 
+<!-- Firebase Hosting carica automaticamente configurazione e SDK del progetto -->
+<script src="/__/firebase/8.10.1/firebase-app.js"></script>
+<script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
+<script src="/__/firebase/init.js"></script>
 <script src="js/app.js" defer></script>
 </body>
 </html>

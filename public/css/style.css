@@ -1461,3 +1461,52 @@ header p.tag{
     line-height:1.3;
   }
 }
+
+/* FIX allineamento stabile barra canto da tablet a desktop.
+   Evita lo “scatto” oltre 1280 px mantenendo:
+   - stellina, Setlist e Solo testo a destra;
+   - Tonalità a sinistra;
+   - Dimensione testo a destra. */
+@media (min-width:821px){
+  .song-nav{
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) !important;
+    align-items:stretch !important;
+    width:100% !important;
+  }
+
+  .song-nav > .command-group:first-child{
+    display:grid !important;
+    grid-template-columns:auto minmax(0,1fr) !important;
+    align-items:center !important;
+    width:100% !important;
+  }
+
+  .primary-actions{
+    justify-self:end !important;
+  }
+
+  .toolbar-controls{
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) auto !important;
+    align-items:center !important;
+    width:100% !important;
+    margin:0 !important;
+  }
+
+  .toolbar-controls .transpose-controls{
+    justify-self:start !important;
+    width:max-content !important;
+    margin:0 !important;
+  }
+
+  .toolbar-controls .text-controls{
+    justify-self:end !important;
+    width:max-content !important;
+    margin:0 !important;
+  }
+
+  .toolbar-controls .command-separator{
+    display:none !important;
+  }
+}

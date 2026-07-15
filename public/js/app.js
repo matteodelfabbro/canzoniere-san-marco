@@ -76,7 +76,16 @@ localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
 localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
 let listScrollY=0;
 const shiftState={};
-let songFontSize=Math.min(22,Math.max(12,Number(localStorage.getItem('songFontSize'))||16));
+const ipadPortraitView=window.matchMedia('(orientation:portrait) and (min-width:700px) and (max-width:1100px)');
+const savedSongFontSize=Number(localStorage.getItem('songFontSize'))||0;
+const upgradeIpadFont=ipadPortraitView.matches
+  && savedSongFontSize===16
+  && localStorage.getItem('ipadPortraitFontV1')!=='done';
+let songFontSize=Math.min(24,Math.max(12,upgradeIpadFont?18:(savedSongFontSize||(ipadPortraitView.matches?18:16))));
+if(upgradeIpadFont){
+  localStorage.setItem('songFontSize',String(songFontSize));
+  localStorage.setItem('ipadPortraitFontV1','done');
+}
 let lyricsOnly=localStorage.getItem('lyricsOnlyMode')==='true';
 function pad(n){return String(n+1).padStart(2,'0')}
 function normalizeSearch(value){
@@ -806,7 +815,7 @@ function renderSong(i){
   document.getElementById('tDown').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)-1;renderSong(i)});
 
   const changeFontSize=delta=>{
-    songFontSize=Math.min(22,Math.max(12,songFontSize+delta));
+    songFontSize=Math.min(24,Math.max(12,songFontSize+delta));
     localStorage.setItem('songFontSize',songFontSize);
     const sheet=main.querySelector('.sheet');
     if(sheet)sheet.style.setProperty('--song-font-size',songFontSize+'px');

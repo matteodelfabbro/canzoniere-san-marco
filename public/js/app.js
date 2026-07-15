@@ -455,6 +455,7 @@ function easterEggSongId(query){
 
 function renderTiles(filter=search.value){
   updateSetlistHeader();
+  tileList.hidden=false;
   tileList.innerHTML='';
   let any=false;
   const query=typeof filter==='string'?filter:search.value;
@@ -463,6 +464,11 @@ function renderTiles(filter=search.value){
   const hasCategorySuggestions=easterEggActive
     ? false
     : renderCategorySuggestions(query);
+
+  // Quando la ricerca corrisponde esattamente a un tema, mostra soltanto
+  // il riquadro tematico e non ripete sotto l'elenco generale dei canti.
+  tileList.hidden=hasCategorySuggestions;
+  if(hasCategorySuggestions)return;
 
   let ordered;
   if(easterEggActive){

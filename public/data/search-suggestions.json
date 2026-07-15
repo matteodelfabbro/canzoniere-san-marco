@@ -1,30 +1,86 @@
 {
-  "🎄 Canti per il Tempo di Natale": {
-    "tag": "Natale",
-    "description": "Canti adatti al periodo natalizio"
+  "Canti d’ingresso": {
+    "tag": "Ingresso",
+    "description": "Canti per l’inizio della celebrazione"
   },
-  "🕯 Canti per l'Avvento": {
+  "Atto penitenziale": {
+    "tag": "Atto penitenziale",
+    "description": "Canti per l’atto penitenziale"
+  },
+  "Gloria": {
+    "tag": "Gloria",
+    "description": "Canti del Gloria"
+  },
+  "Canti al Vangelo": {
+    "tag": "Vangelo",
+    "description": "Acclamazioni e canti al Vangelo"
+  },
+  "Offertorio": {
+    "tag": "Offertorio",
+    "description": "Canti per la presentazione dei doni"
+  },
+  "Santo": {
+    "tag": "Santo",
+    "description": "Canti del Santo"
+  },
+  "Padre nostro": {
+    "tag": "Padre nostro",
+    "description": "Canti del Padre nostro"
+  },
+  "Agnello di Dio": {
+    "tag": "Agnello di Dio",
+    "description": "Canti dell’Agnello di Dio"
+  },
+  "Canti di Comunione": {
+    "tag": "Comunione",
+    "description": "Canti per il momento eucaristico"
+  },
+  "Canti finali": {
+    "tag": "Finale",
+    "description": "Canti per la conclusione della celebrazione"
+  },
+  "Canti per l’Avvento": {
     "tag": "Avvento",
     "description": "Canti di attesa e preparazione al Natale"
   },
-  "🌿 Canti per la Quaresima": {
+  "Canti per il Natale": {
+    "tag": "Natale",
+    "description": "Canti adatti al tempo natalizio"
+  },
+  "Canti per la Quaresima": {
     "tag": "Quaresima",
     "description": "Canti per il cammino quaresimale"
   },
-  "✝️ Canti per la Pasqua": {
+  "Canti per la Pasqua": {
     "tag": "Pasqua",
     "description": "Canti della risurrezione"
   },
-  "🔥 Canti dello Spirito Santo": {
+  "Canti dello Spirito Santo": {
     "tag": "Spirito Santo",
-    "description": "Invocazioni allo Spirito Santo"
+    "description": "Invocazioni e canti allo Spirito Santo"
   },
-  "🌹 Canti mariani": {
+  "Canti per la Cresima": {
+    "tag": "Cresima",
+    "description": "Canti adatti alla celebrazione della Cresima"
+  },
+  "Canti mariani": {
     "tag": "Maria",
     "description": "Canti dedicati a Maria"
   },
-  "🍞 Canti di Comunione": {
-    "tag": "Comunione",
-    "description": "Canti per il momento eucaristico"
+  "Canti di lode": {
+    "tag": "Lode",
+    "description": "Canti di lode e ringraziamento"
+  },
+  "Canti di meditazione": {
+    "tag": "Meditazione",
+    "description": "Canti per la preghiera e la meditazione"
+  },
+  "Canti per il Battesimo": {
+    "tag": "Battesimo",
+    "description": "Canti adatti alla celebrazione del Battesimo"
+  },
+  "Altri canti": {
+    "tag": "Altri canti",
+    "description": "Altri canti del repertorio"
   }
 }

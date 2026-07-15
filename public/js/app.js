@@ -108,30 +108,66 @@ function levenshtein(a,b){
   }
   return row[b.length];
 }
+function textTokens(value){
+  return normalizeSearch(value).split(/\s+/).filter(Boolean);
+}
+
+function tokenMatches(queryToken,targetToken){
+  if(!queryToken||!targetToken)return false;
+  if(targetToken.startsWith(queryToken))return true;
+  return queryToken.length>=4 && targetToken.includes(queryToken);
+}
+
+function allQueryTokensMatch(query,text){
+  const queryTokens=textTokens(query);
+  if(!queryTokens.length)return true;
+  const targetTokens=textTokens(text);
+  return queryTokens.every(queryToken=>
+    targetTokens.some(targetToken=>tokenMatches(queryToken,targetToken))
+  );
+}
+
 function songScore(song,query){
   const q=normalizeSearch(query);
   if(!q)return 0;
-  const words=q.split(/\s+/).filter(Boolean);
-  const title=normalizeSearch([song.title,song.sub].filter(Boolean).join(' '));
-  const body=normalizeSearch(song.search||'');
+
+  const title=normalizeSearch(song.title||'');
+  const subtitle=normalizeSearch(song.sub||'');
+  const titleTokens=textTokens(title);
+  const subtitleTokens=textTokens(subtitle);
+  const queryTokens=textTokens(q);
   let score=0;
-  if(title===q) score+=10000;
-  if(title.includes(q)) score+=5000;
-  if(body.includes(q)) score+=1000;
-  const titleWords=title.split(/\s+/);
-  const bodyWords=body.split(/\s+/);
-  let matched=0;
-  words.forEach(w=>{
-    if(titleWords.includes(w)){score+=1000; matched++;}
-    else if(title.includes(w)){score+=300; matched++;}
-    if(body.includes(w)){score+=30; matched++;}
-    if(w.length>4 && bodyWords.some(x=>levenshtein(w,x)<=1)) score+=5;
+
+  if(title===q)score+=20000;
+  if(title.startsWith(q))score+=12000;
+  if(title.includes(q))score+=7000;
+  if(subtitle.startsWith(q))score+=3500;
+  if(subtitle.includes(q))score+=2200;
+
+  queryTokens.forEach(token=>{
+    if(titleTokens.includes(token))score+=2500;
+    else if(titleTokens.some(word=>word.startsWith(token)))score+=1800;
+    else if(token.length>=4&&titleTokens.some(word=>word.includes(token)))score+=900;
+
+    if(subtitleTokens.includes(token))score+=700;
+    else if(subtitleTokens.some(word=>word.startsWith(token)))score+=450;
+    else if(token.length>=4&&subtitleTokens.some(word=>word.includes(token)))score+=200;
   });
-  if(matched===words.length) score+=500;
+
+  if(allQueryTokensMatch(q,title))score+=3000;
+  else if(allQueryTokensMatch(q,[title,subtitle].filter(Boolean).join(' ')))score+=1200;
+
   return score;
 }
+
 function songMatches(song,query){
-  return !normalizeSearch(query) || songScore(song,query)>=300;
+  const q=normalizeSearch(query);
+  if(!q)return true;
+  return allQueryTokensMatch(q,[song.title,song.sub].filter(Boolean).join(' '));
+}
+
+function songTitleMatches(song,query){
+  return songMatches(song,query);
 }
 function saveFavorites(){
   localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
@@ -361,13 +397,27 @@ function showList(){document.body.classList.remove('song-open');renderTiles();re
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
 
 const CATEGORY_ALIASES={
-  'Natale':['natale','natalizio','periodo natalizio','tempo di natale'],
+  'Ingresso':['ingresso','canto d ingresso','canti d ingresso'],
+  'Atto penitenziale':['atto penitenziale','penitenziale'],
+  'Gloria':['gloria'],
+  'Vangelo':['vangelo','canto al vangelo','canti al vangelo','alleluia'],
+  'Offertorio':['offertorio','offerta','presentazione dei doni'],
+  'Santo':['santo'],
+  'Padre nostro':['padre nostro'],
+  'Agnello di Dio':['agnello di dio'],
+  'Comunione':['comunione','eucaristia','eucaristico','eucaristici'],
+  'Finale':['finale','canto finale','canti finali'],
   'Avvento':['avvento','tempo di avvento'],
+  'Natale':['natale','natalizio','periodo natalizio','tempo di natale'],
   'Quaresima':['quaresima','quaresimale','tempo di quaresima'],
   'Pasqua':['pasqua','pasquale','tempo di pasqua','risurrezione'],
   'Spirito Santo':['spirito santo','spirito','pentecoste'],
+  'Cresima':['cresima','cresime'],
   'Maria':['maria','mariano','mariani','canti mariani'],
-  'Comunione':['comunione','eucaristia','eucaristico','eucaristici']
+  'Lode':['lode','canti di lode'],
+  'Meditazione':['meditazione','meditativo','meditativi','canti di meditazione'],
+  'Battesimo':['battesimo','battesimi'],
+  'Altri canti':['altri canti']
 };
 
 function categoryTagFromQuery(query){
@@ -380,10 +430,30 @@ function categoryTagFromQuery(query){
     .join(' ')
     .trim();
 
+  if(simplified.length<3)return null;
+
+  const matches=[];
+
   for(const [tag,aliases] of Object.entries(CATEGORY_ALIASES)){
-    if(aliases.some(alias=>normalizeSearch(alias)===simplified))return tag;
+    const normalizedAliases=aliases.map(normalizeSearch);
+    const exact=normalizedAliases.some(alias=>alias===simplified);
+    const prefix=normalizedAliases.some(alias=>
+      alias.startsWith(simplified) ||
+      alias.split(/\s+/).some(word=>word.startsWith(simplified))
+    );
+
+    if(exact)matches.push({tag,score:10000});
+    else if(prefix)matches.push({
+      tag,
+      score:Math.max(...normalizedAliases.map(alias=>
+        alias.startsWith(simplified)?5000-simplified.length:
+        alias.split(/\s+/).some(word=>word.startsWith(simplified))?3000-simplified.length:0
+      ))
+    });
   }
-  return null;
+
+  matches.sort((a,b)=>b.score-a.score||a.tag.localeCompare(b.tag,'it'));
+  return matches[0]?.tag||null;
 }
 
 function renderCategorySuggestions(query){
@@ -431,7 +501,15 @@ function renderCategorySuggestions(query){
     const button=document.createElement('button');
     button.type='button';
     button.className='category-suggestion-song';
-    button.innerHTML=`<span class="category-suggestion-number">${pad(index)}</span><span>${esc(song.title)}</span>`;
+
+    button.innerHTML=`
+  <span class="category-suggestion-number">${pad(index)}</span>
+  <span class="tile-title">
+    ${esc(song.title)}
+    ${song.sub ? `<small>${esc(song.sub)}</small>` : ''}
+  </span>
+`;
+
     button.addEventListener('click',()=>showSong(index));
     list.appendChild(button);
   });
@@ -465,11 +543,6 @@ function renderTiles(filter=search.value){
     ? false
     : renderCategorySuggestions(query);
 
-  // Quando la ricerca corrisponde esattamente a un tema, mostra soltanto
-  // il riquadro tematico e non ripete sotto l'elenco generale dei canti.
-  tileList.hidden=hasCategorySuggestions;
-  if(hasCategorySuggestions)return;
-
   let ordered;
   if(easterEggActive){
     ordered=songs
@@ -492,7 +565,7 @@ function renderTiles(filter=search.value){
 
   ordered.forEach(({song,i})=>{
     if(!easterEggActive && listMode==='favorites'&&!isFavorite(i))return;
-    if(!easterEggActive && !songMatches(song,query))return;
+    if(!easterEggActive && !songTitleMatches(song,query))return;
     any=true;
 
     const li=document.createElement('li');
@@ -932,10 +1005,17 @@ document.addEventListener('keydown',event=>{
   if(event.key==='Escape'&&!feedbackModal.hidden)closeFeedback();
 });
 
-if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
-  });
+if ('serviceWorker' in navigator) {
+  if (
+    location.hostname === 'localhost' ||
+    location.hostname === '127.0.0.1'
+  ) {
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      registrations.forEach(registration => registration.unregister());
+    });
+  } else {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
 }
 
 window.addEventListener('popstate',()=>{const index=songIndexFromHash();if(index===null)showList();else showSong(index,false)});

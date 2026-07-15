@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-cache-fix-v2';
+const CACHE_NAME = 'canzoniere-san-marco-tutti-tag-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",

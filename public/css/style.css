@@ -29,7 +29,7 @@
   .setlist-help{margin:.35rem 0 0;color:rgba(233,226,205,.42);font-size:.72rem}
   .tile-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.2rem}
   .tile-row{display:grid;grid-template-columns:1fr auto;align-items:center}
-  .tile{display:flex;align-items:center;gap:.7rem;width:100%;min-width:0;text-align:left;background:transparent;border:0;border-left:2px solid transparent;border-radius:0;padding:.6rem .45rem .6rem .6rem;cursor:pointer;color:rgba(233,226,205,.8);font-family:Manrope,sans-serif;font-size:1rem;transition:background .15s,border-color .15s}
+  .tile{display:flex;align-items:center;gap:.7rem;width:100%;min-width:0;text-align:left;background:transparent;border:0;border-left:2px solid transparent;border-radius:12px;padding:.6rem .45rem .6rem .6rem;cursor:pointer;color:rgba(233,226,205,.8);font-family:Manrope,sans-serif;font-size:1rem;transition:background .15s,border-color .15s,border-radius .15s}
   .favorite-btn{width:2.15rem;height:2.15rem;display:flex;align-items:center;justify-content:center;border:0;background:transparent;color:rgba(233,226,205,.38);font-size:1.12rem;cursor:pointer;border-radius:4px}
   .favorite-btn:hover{background:rgba(198,162,77,.08);color:var(--gold-bright)}
   .favorite-btn.active{color:var(--gold-bright)}
@@ -41,7 +41,8 @@
   .setlist-order:disabled{opacity:.2;cursor:default}
   .tile:hover{background:rgba(198,162,77,.07)}
   .tile:focus-visible{outline:2px solid var(--gold-bright);outline-offset:-2px}
-  .tile.active{background:rgba(198,162,77,.1);border-left-color:var(--gold-bright);color:var(--paper)}
+  .tile.active{position:relative;background:rgba(198,162,77,.1);border-left-color:transparent;color:var(--paper)}
+  .tile.active::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--gold-bright);border-radius:0}
   .num{flex:0 0 auto;width:1.62rem;height:1.62rem;display:flex;align-items:center;justify-content:center;background:transparent;color:rgba(224,188,106,.78);font-family:Manrope,sans-serif;font-weight:600;font-size:.69rem;border:1px solid rgba(198,162,77,.26);border-radius:3px}
   .tile.active .num{background:var(--gold-bright);color:var(--navy-deep);border-color:var(--gold-bright)}
   .tile-title{line-height:1.3;min-width:0;overflow-wrap:anywhere}
@@ -386,13 +387,35 @@
   line-height:1.35;
   text-align:left;
   cursor:pointer;
+  text-decoration:none;
+  box-sizing:border-box;
 }
 .category-suggestion-song:last-child{
   border-bottom:0;
 }
+.category-suggestion-song:hover{
+  background:rgba(198,162,77,.07);
+  border-radius:12px;
+}
 .category-suggestion-song:active{
   background:rgba(255,255,255,.10);
   transform:none;
+}
+.category-suggestion-song.active{
+  position:relative;
+  background:rgba(198,162,77,.10);
+  border-radius:12px;
+  color:var(--paper);
+}
+.category-suggestion-song.active::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:2px;
+  background:var(--gold-bright);
+  border-radius:0;
 }
 .category-suggestion-number{
   min-width:2rem;
@@ -1610,4 +1633,144 @@ header p.tag{
 }
 @media (min-width:1101px), (pointer:fine) and (hover:hover){
   .install-banner{display:none!important}
+}
+
+
+/* Test menu sezioni compatto */
+.section-switcher{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  min-height:2.8rem;
+  margin:0 0 .8rem;
+  padding:.2rem .25rem .2rem .85rem;
+  border:1px solid rgba(198,162,77,.25);
+  border-radius:11px;
+  background:rgba(233,226,205,.07);
+}
+.section-current{
+  display:flex;
+  align-items:center;
+  gap:.42rem;
+  color:var(--gold-bright);
+  font-family:Manrope,sans-serif;
+  font-size:.88rem;
+  font-weight:700;
+  letter-spacing:.01em;
+}
+.section-menu-toggle{
+  display:grid;
+  place-items:center;
+  width:2.35rem;
+  height:2.35rem;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:rgba(233,226,205,.9);
+  font-size:1.25rem;
+  line-height:1;
+  cursor:pointer;
+}
+.section-menu-toggle:hover,
+.section-menu-toggle[aria-expanded="true"]{background:rgba(233,226,205,.1)}
+.section-menu{
+  position:absolute;
+  z-index:80;
+  top:calc(100% + .35rem);
+  right:0;
+  width:min(17rem,calc(100vw - 2rem));
+  padding:.4rem;
+  border:1px solid rgba(198,162,77,.28);
+  border-radius:12px;
+  background:#1b2945;
+  box-shadow:0 14px 30px rgba(4,10,23,.32);
+}
+.section-menu[hidden]{display:none!important}
+.section-menu-item{
+  display:block;
+  width:100%;
+  min-height:2.55rem;
+  padding:.62rem .72rem;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:rgba(243,239,228,.9);
+  font:600 .84rem/1.2 Manrope,sans-serif;
+  text-align:left;
+  cursor:pointer;
+}
+.section-menu-item:hover,
+.section-menu-item:focus-visible{background:rgba(233,226,205,.09);outline:none}
+.section-menu-item.active{
+  background:var(--gold-bright);
+  color:var(--navy-deep);
+}
+.section-menu-divider{
+  height:1px;
+  margin:.35rem .45rem;
+  background:rgba(233,226,205,.13);
+}
+.section-menu-secondary{
+  color:rgba(243,239,228,.72);
+  font-weight:500;
+}
+
+/* Menu sezioni test 3 — etichette principali e icona Setlist coerente */
+.section-menu-item{display:flex;align-items:center;gap:.42rem}
+.section-menu-setlist-icon{width:1rem;height:1rem;flex:0 0 auto}
+
+.section-menu-future{
+  opacity:.48;
+  cursor:default;
+}
+.section-menu-future:hover,
+.section-menu-future:focus-visible{
+  background:transparent;
+}
+
+/* Menu sezioni test 8 — link PayPal coerente con il menu */
+.section-menu-coffee{
+  text-decoration:none;
+}
+@media (hover:hover) and (pointer:fine){
+  .section-menu-coffee:hover{
+    text-decoration:underline;
+    text-underline-offset:.16em;
+  }
+}
+
+/* Menu sezioni test 9 — icone anche nel titolo della sezione */
+.section-current{display:inline-flex;align-items:center;gap:.42rem}
+.section-current .section-menu-setlist-icon{
+  display:block;
+  width:1rem;
+  height:1rem;
+  flex:0 0 auto;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.9;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.section-menu-item .section-menu-setlist-icon{
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.9;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+/* Menu sezioni test 11 — lieve aumento leggibilità senza cambiare peso */
+.section-current{
+  font-size:1rem;
+}
+.section-menu-item{
+  font-size:.9rem;
+}
+
+/* Vista categorie v15 — rientro del testo rispetto alla linea di selezione */
+.category-suggestion-song{
+  padding-left:.72rem;
+  padding-right:.45rem;
 }

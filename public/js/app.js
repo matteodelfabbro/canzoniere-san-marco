@@ -180,6 +180,12 @@ const tagSuggestions=document.getElementById('tagSuggestions');
 const filterAll=document.getElementById('filterAll');
 const filterFavorites=document.getElementById('filterFavorites');
 const filterSetlist=document.getElementById('filterSetlist');
+const sectionCurrent=document.getElementById('sectionCurrent');
+const sectionMenuToggle=document.getElementById('sectionMenuToggle');
+const sectionMenu=document.getElementById('sectionMenu');
+const sectionSwitcher=document.getElementById('sectionSwitcher');
+const menuInstall=document.getElementById('menuInstall');
+const menuFeedback=document.getElementById('menuFeedback');
 const setlistTools=document.getElementById('setlistTools');
 const setlistTitle=document.getElementById('setlistTitle');
 const setlistCount=document.getElementById('setlistCount');
@@ -337,12 +343,34 @@ function toggleFavorite(index){
   renderTiles();
   if(document.body.classList.contains('song-open')&&activeIndex===index)renderSong(index);
 }
+function closeSectionMenu(){
+  sectionMenu.hidden=true;
+  sectionMenuToggle.setAttribute('aria-expanded','false');
+}
+function toggleSectionMenu(){
+  const willOpen=sectionMenu.hidden;
+  sectionMenu.hidden=!willOpen;
+  sectionMenuToggle.setAttribute('aria-expanded',String(willOpen));
+  if(willOpen){
+    const activeItem=sectionMenu.querySelector('.section-menu-item.active');
+    if(activeItem)activeItem.focus();
+  }
+}
 function setListMode(mode){
   listMode=mode;
   filterAll.classList.toggle('active',mode==='all');
   filterFavorites.classList.toggle('active',mode==='favorites');
   filterSetlist.classList.toggle('active',mode==='setlist');
+  sectionCurrent.innerHTML=mode==='favorites'
+    ? 'PREFERITI ★'
+    : mode==='setlist'
+      ? `SETLIST <svg class="section-menu-setlist-icon setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6h10M4 12h7M4 18h8"></path>
+          <path d="M18 8v6M15 11h6"></path>
+        </svg>`
+      : 'TUTTI I CANTI';
   setlistTools.hidden=mode!=='setlist';
+  closeSectionMenu();
   renderTiles();
 }
 function saveSetlist(){
@@ -651,6 +679,7 @@ function renderCategorySuggestions(query){
     const button=document.createElement('button');
     button.type='button';
     button.className='category-suggestion-song';
+    if(index===activeIndex)button.classList.add('active');
 
     button.innerHTML=`
   <span class="tile-title">
@@ -1126,6 +1155,30 @@ search.addEventListener('search',()=>renderTiles());
 filterAll.addEventListener('click',()=>setListMode('all'));
 filterFavorites.addEventListener('click',()=>setListMode('favorites'));
 filterSetlist.addEventListener('click',()=>setListMode('setlist'));
+sectionMenuToggle.addEventListener('click',toggleSectionMenu);
+sectionMenu.addEventListener('keydown',event=>{
+  if(event.key==='Escape'){
+    closeSectionMenu();
+    sectionMenuToggle.focus();
+  }
+});
+document.addEventListener('click',event=>{
+  if(!sectionSwitcher.contains(event.target))closeSectionMenu();
+});
+menuFeedback.addEventListener('click',()=>{
+  closeSectionMenu();
+  generalFeedback.click();
+});
+menuInstall.addEventListener('click',()=>{
+  closeSectionMenu();
+  if(installBannerAction && !installBannerAction.hidden){
+    installBannerAction.click();
+  }else if(installBanner && !installBanner.hidden){
+    installBanner.scrollIntoView({behavior:'smooth',block:'nearest'});
+  }else{
+    alert('Il Canzoniere è già installato oppure l’installazione non è disponibile da questo dispositivo.');
+  }
+});
 shareSetlist.addEventListener('click',shareCurrentSetlist);
 renameSetlist.addEventListener('click',()=>{
   const newName=prompt('Nome della Setlist:',personalSetlistName);

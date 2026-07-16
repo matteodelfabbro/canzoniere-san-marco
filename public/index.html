@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="icon" href="icon-192.png">
 <title>Canzoniere San Marco</title>
-<link rel="stylesheet" href="/css/style.css?v=20260716-install-banner-1">
+<link rel="stylesheet" href="/css/style.css?v=20260716-section-menu-test-15">
 </head>
 <body>
 <header><h1>Canzoniere San Marco</h1><p class="tag">canti e accordi per la messa</p></header>
@@ -29,11 +29,24 @@
         In Safari premi <strong>Condividi</strong> e poi <strong>Aggiungi alla schermata Home</strong>.
       </div>
     </aside>
-    <div class="board-label">Bacheca dei canti</div>
-    <div class="list-filters" role="group" aria-label="Filtro canti">
-      <button class="filter-btn active" id="filterAll" type="button">Tutti</button>
-      <button class="filter-btn" id="filterFavorites" type="button">★ Preferiti</button>
-      <button class="filter-btn" id="filterSetlist" type="button">Setlist</button>
+    <div class="section-switcher" id="sectionSwitcher">
+      <span class="section-current" id="sectionCurrent">TUTTI I CANTI</span>
+      <button class="section-menu-toggle" id="sectionMenuToggle" type="button" aria-label="Apri menu sezioni" aria-haspopup="menu" aria-expanded="false" aria-controls="sectionMenu">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <div class="section-menu" id="sectionMenu" role="menu" hidden>
+        <button class="section-menu-item active" id="filterAll" type="button" role="menuitem">TUTTI I CANTI</button>
+        <button class="section-menu-item" id="filterFavorites" type="button" role="menuitem">PREFERITI ★</button>
+        <button class="section-menu-item" id="filterSetlist" type="button" role="menuitem">SETLIST <svg class="section-menu-setlist-icon setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6h10M4 12h7M4 18h8"></path>
+          <path d="M18 8v6M15 11h6"></path>
+        </svg></button>
+        <div class="section-menu-divider" role="separator"></div>
+        <button class="section-menu-item section-menu-secondary" id="menuInstall" type="button" role="menuitem">Installa il Canzoniere</button>
+        <button class="section-menu-item section-menu-secondary" id="menuFeedback" type="button" role="menuitem">Segnala un errore</button>
+        <a class="section-menu-item section-menu-secondary section-menu-coffee" href="https://paypal.me/MatteoDelFabbro?locale.x=it_IT&amp;country.x=IT" target="_blank" rel="noopener noreferrer" role="menuitem">Offrimi un caffè</a>
+        <button class="section-menu-item section-menu-secondary section-menu-future" type="button" role="menuitem" disabled aria-disabled="true">login</button>
+      </div>
     </div>
     <div class="setlist-tools" id="setlistTools" hidden>
       <div class="setlist-title-row">
@@ -110,6 +123,6 @@
 <script src="/__/firebase/8.10.1/firebase-app.js"></script>
 <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
 <script src="/__/firebase/init.js"></script>
-<script src="/js/app.js?v=20260716-install-banner-1" defer></script>
+<script src="/js/app.js?v=20260716-section-menu-test-15" defer></script>
 </body>
 </html>

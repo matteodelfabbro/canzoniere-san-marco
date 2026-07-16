@@ -40,6 +40,38 @@ service cloud.firestore {
       allow read, update, delete: if false;
     }
 
+    match /setlists/{setlistId} {
+      function signedIn() {
+        return request.auth != null;
+      }
+
+      function validSetlist(data) {
+        return data.keys().hasAll([
+          'ownerUid', 'ownerName', 'name', 'songs', 'visibility', 'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerUid', 'ownerName', 'name', 'songs', 'visibility', 'createdAt', 'updatedAt'
+        ]) &&
+        data.ownerUid is string &&
+        data.ownerName is string && data.ownerName.size() <= 100 &&
+        data.name is string && data.name.size() >= 1 && data.name.size() <= 40 &&
+        data.songs is list && data.songs.size() <= 250 &&
+        data.visibility == 'link';
+      }
+
+      allow get: if resource.data.visibility == 'link' ||
+        (signedIn() && resource.data.ownerUid == request.auth.uid);
+      allow list: if signedIn() && resource.data.ownerUid == request.auth.uid;
+      allow create: if signedIn() &&
+        request.resource.data.ownerUid == request.auth.uid &&
+        validSetlist(request.resource.data);
+      allow update: if signedIn() &&
+        resource.data.ownerUid == request.auth.uid &&
+        request.resource.data.ownerUid == resource.data.ownerUid &&
+        validSetlist(request.resource.data);
+      allow delete: if signedIn() && resource.data.ownerUid == request.auth.uid;
+    }
+
     match /{document=**} {
       allow read, write: if false;
     }

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-google-login-1';
+const CACHE_NAME = 'canzoniere-unified-setlists-real-1';
 const APP_ASSETS = [
   "./",
   "./index.html",

@@ -61,8 +61,7 @@
   .back-list:focus-visible{outline:2px solid var(--wine);outline-offset:3px}
   .back-arrow{font-size:1.2rem;line-height:1}
   .song-head{display:flex;align-items:flex-start;gap:1rem;border-bottom:1px solid var(--line);padding-bottom:1.1rem;margin-bottom:1.6rem}
-  .song-head .num{width:1.95rem;height:1.95rem;font-size:.76rem;color:rgba(109,22,38,.76);border-color:rgba(109,22,38,.22)}
-  .song-title{font-family:'Manrope',sans-serif;font-weight:600;font-size:clamp(1.5rem,3vw,2.1rem);margin:0;line-height:1.15;letter-spacing:-0.01em}
+    .song-title{font-family:'Manrope',sans-serif;font-weight:600;font-size:clamp(1.5rem,3vw,2.1rem);margin:0;line-height:1.15;letter-spacing:-0.01em}
   .song-sub{color:rgba(28,27,23,.5);font-size:.9rem;margin-top:.3rem}
   .badges{display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap}
   .badge{font-family:Manrope,sans-serif;font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;background:transparent;color:var(--wine);border:1px solid rgba(109,22,38,.25)}
@@ -910,7 +909,7 @@
 /* Titolo con preferito e scaletta nel punto più naturale. */
 .song-head{
   display:grid!important;
-  grid-template-columns:auto minmax(0,1fr) auto;
+  grid-template-columns:minmax(0,1fr) auto;
   align-items:start;
   gap:.55rem;
 }
@@ -1524,4 +1523,21 @@ header p.tag{
 
 .tile.active .num::after{
   color:var(--navy-deep);
+}
+
+/* Riferimento al vecchio libretto */
+.song-legacy{
+  margin-top:.42rem;
+  color:rgba(28,27,23,.48);
+  font-size:.85rem;
+  font-weight:500;
+  letter-spacing:.015em;
+}
+
+/* Nessun numero nei risultati delle categorie */
+.category-suggestion-song{
+  gap:0;
+}
+.category-suggestion-number{
+  display:none;
 }

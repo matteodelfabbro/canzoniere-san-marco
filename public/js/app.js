@@ -2,6 +2,114 @@ let songs = [];
 let songsTags = {};
 let searchSuggestionConfig = {};
 
+const LEGACY_BOOK_NUMBERS=Object.freeze({
+  'accogli-i-nostri-doni':1,
+  'acqua-siamo-noi':2,
+  'adesso-e-la-pienezza':3,
+  'agnello-di-dio':6,
+  'adoro-te':7,
+  'alleluia-canto-per-cristo':8,
+  'alleluia-ed-oggi-ancora':9,
+  'alleluia-la-nostra-festa':13,
+  'alleluia-passeranno-i-cieli':15,
+  'alleluia-taize':20,
+  'andate-per-le-strade':25,
+  'alleluia-verbum-panis':26,
+  'antica-eterna-danza':27,
+  'ave-maria':28,
+  'benedici-o-signore':29,
+  'benedizione-a-frate-leone':33,
+  'camminero-in-re':36,
+  'bisognerebbe':37,
+  'camminiamo-incontro-al-signore':43,
+  'cantate-al-signore-ricci':44,
+  'cantate-al-signore-un-canto-nuovo-fallormi':46,
+  'cantiamo-te':51,
+  'chi':53,
+  'chi-ci-separera':54,
+  'chi-dara-da-bere-a-me':55,
+  'come-fuoco-vivo':57,
+  'come-l-aurora-verrai':59,
+  'come-maria':60,
+  'davanti-a-questo-amore':64,
+  'dall-aurora-al-tramonto':65,
+  'del-tuo-spirito-signore':67,
+  'con-voce-di-giubilo':68,
+  'devo-dire-che':69,
+  'dolce-sentire':71,
+  'dove-troveremo-tutto-il-pane':72,
+  'e-sono-solo-un-uomo-symbolum-79':73,
+  'e-bello-lodarti':74,
+  'ecco-il-nostro-si':76,
+  'ho-abbandonato':80,
+  'il-canto-dei-3-giovani':81,
+  'il-canto-dell-amore':82,
+  'il-disegno':84,
+  'il-giovane-ricco':85,
+  'il-pane-che-ci-hai-dato':86,
+  'il-signore-e-la-luce':89,
+  'il-vascello-dell-amore':92,
+  'jesus-christ-you-are-my-life':102,
+  'la-canzone-dell-amicizia':103,
+  'la-gioia':104,
+  'la-mia-anima-canta':106,
+  'la-preghiera-di-gesu-e-la-nostra':108,
+  'laudato-sii-o-mi-signore':109,
+  'laudato-sii-signore-mio':110,
+  'le-tue-meraviglie':113,
+  'lode-a-te-o-cristo':118,
+  'luce-di-verita':120,
+  'lui-m-ha-dato':121,
+  'mani':122,
+  'maria-porta-dell-avvento':124,
+  'nel-tuo-silenzio':131,
+  'non-avere-paura':136,
+  'non-vivere-di-corsa':137,
+  'oggi-e-un-giorno-di-festa':140,
+  'ogni-mia-parola':141,
+  'padre-nostro-s-andrea':147,
+  'pane-del-cielo':149,
+  'pietro-vai':154,
+  'popoli-tutti':156,
+  'quale-gioia-salmo-121':161,
+  'qui-con-te':165,
+  'regno-nuovo':167,
+  'resta-accanto-a-me':168,
+  'resta-qui-con-noi':170,
+  'resurrezione':171,
+  'salve-regina':174,
+  'san-francesco':176,
+  'santa-maria-del-cammino':177,
+  'santo-classico':178,
+  'santo':179,
+  'santo-gen-messa-come-fuoco-vivo':180,
+  'santo-gen-verde':181,
+  'santo-zairese':183,
+  'se-tu-vedrai':185,
+  'scusa-signore':186,
+  'segni-nuovi':187,
+  'se-m-accogli':188,
+  'servo-per-amore':190,
+  'spirito-di-dio':195,
+  'symbolum-77-tu-sei-la-mia-vita':198,
+  'symbolum-80-oltre-le-memorie':200,
+  'te-al-centro-del-mio-cuore':204,
+  'ti-ringrazio-mio-signore':208,
+  'su-ali-d-aquila':212,
+  'ti-seguiro':218,
+  'tu-sei-sorgente-viva':220,
+  'venimus-adorare-eum-emmanuel-inno-gmg-2005':221,
+  'venite-applaudiamo-al-signore':224,
+  'verbum-panis':228,
+  'vieni-e-seguimi':229,
+  'vivere-la-vita':230,
+});
+
+function legacyBookNumber(song){
+  return song&&LEGACY_BOOK_NUMBERS[song.id]||null;
+}
+
+
 async function loadSongs() {
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
@@ -503,7 +611,6 @@ function renderCategorySuggestions(query){
     button.className='category-suggestion-song';
 
     button.innerHTML=`
-  <span class="category-suggestion-number">${pad(index)}</span>
   <span class="tile-title">
     ${esc(song.title)}
     ${song.sub ? `<small>${esc(song.sub)}</small>` : ''}
@@ -573,7 +680,7 @@ function renderTiles(filter=search.value){
 
     const btn=document.createElement('button');
     btn.className='tile'+(i===activeIndex?' active':'');
-    btn.innerHTML=`<span class="num">${pad(i)}</span><span class="tile-title">${esc(song.title)}${song.sub?`<small>${esc(song.sub)}</small>`:''}</span>`;
+    btn.innerHTML=`<span class="num" aria-hidden="true"></span><span class="tile-title">${esc(song.title)}${song.sub?`<small>${esc(song.sub)}</small>`:''}</span>`;
     btn.addEventListener('click',()=>showSong(i));
 
     const actions=document.createElement('div');
@@ -873,10 +980,10 @@ function renderSong(i){
     </div>
   </div>
   <div class="song-head">
-    <span class="num">${pad(i)}</span>
     <div class="song-heading-text">
       <h2 class="song-title">${esc(song.title)}</h2>
       ${song.sub?`<div class="song-sub">${esc(song.sub)}</div>`:''}
+      ${legacyBookNumber(song)?`<div class="song-legacy">Vecchio libretto · ${legacyBookNumber(song)}</div>`:''}
     </div>
     <div class="song-title-actions" aria-label="Azioni sul canto">
       <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>

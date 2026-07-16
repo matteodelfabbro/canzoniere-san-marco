@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Resta Qui con Noi  Strofa 1 Le  ombre    si distendono,     scende   ormai    la sera E s'allontanano     dietro   i monti,   i riflessi di un giorno    che  non   finirà Di  un  giorno   che  ora   correrà  sempre perché   sappiamo     che  una   nuova    vita Da   qui è partita   e mai  più  si fermerà  Ritornello        Resta  qui  con   noi  Il sole scende   già        Resta  qui  con   noi  Signore   è sera ormai        Resta  qui  con   noi  Il sole scende   già        Se tu  sei fra noi  La  notte  non   verrà  Strofa 2 S'allarga  verso   il mare   Il tuo cerchio   d'onda Che   il vento   spingerà   fino a  quando     Giungerà   ai  confini  di ogni   cuore Alle  porte   dell'amore    vero   Come    una   fiamma    che  dove    passa  brucia Così  il tuo  amore    tutto  il mondo    invaderà  Strofa 3 Davanti    a noi  l'umanità   Lotta,   soffre  e spera Come     una  terra  che  nell'arsura   Chiede    l'acqua  da  un  cielo  senza   nuvole Ma   che  sempre    le  può  dare  vita  Con   te  saremo    sorgente   d'acqua    pura Con   te  fra noi  il deserto   fiorirà",
+  "search": "Strofa 1 Le ombre si distendono, scende ormai la sera E s'allontanano dietro i monti, i riflessi di un giorno che non finirà Di un giorno che ora correrà sempre perché sappiamo che una nuova vita Da qui è partita e mai più si fermerà Ritornello Resta qui con noi il sole scende già Resta qui con noi Signore è sera ormai Resta qui con noi il sole scende già Se tu sei fra noi la notte non verrà Strofa 2 S'allarga verso il mare il tuo cerchio d'onda Che il vento spingerà fino a quando giungerà ai confini di ogni cuore Alle porte dell'amore vero Come una fiamma che dove passa brucia Così il tuo amore tutto il mondo invaderà Strofa 3 Davanti a noi l'umanità lotta, soffre e spera Come una terra che nell'arsura chiede l'acqua da un cielo senza nuvole Ma che sempre le può dare vita Con te saremo sorgente d'acqua pura Con te fra noi il deserto fiorirà",
   "lines": [
     {
       "t": "h",
@@ -14,43 +14,161 @@
     },
     {
       "t": "c",
-      "v": "RE                  RE7+        SOL                   MI-"
+      "v": "RE RE7+ SOL MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 2,
+          "chord": "RE7+",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Le  ombre    si distendono,     scende   ormai    la sera"
+      "v": "Le ombre si distendono, scende ormai la sera"
     },
     {
       "t": "c",
-      "v": "RE        RE7+                 MI-                         SI-                FA#-"
+      "v": "RE RE7+ MI- SI- FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 2,
+          "chord": "RE7+",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 8,
+          "chord": "SI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 11,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "E s'allontanano     dietro   i monti,   i riflessi di un giorno    che  non   finirà"
+      "v": "E s'allontanano dietro i monti, i riflessi di un giorno che non finirà"
     },
     {
       "t": "c",
-      "v": "          MI-              SOL                   RE"
+      "v": "MI SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Di  un  giorno   che  ora   correrà  sempre"
+      "v": "Di un giorno che ora correrà sempre"
     },
     {
       "t": "c",
-      "v": "               FA#-         SOL           MI-"
+      "v": "FA#- SOL MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "perché   sappiamo     che  una   nuova    vita"
+      "v": "perché sappiamo che una nuova vita"
     },
     {
       "t": "c",
-      "v": "                RE           SOL            LA"
+      "v": "RE SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Da   qui è partita   e mai  più  si fermerà"
+      "v": "Da qui è partita e mai più si fermerà"
     },
     {
       "t": "s"
@@ -61,35 +179,151 @@
     },
     {
       "t": "c",
-      "v": "       RE                FA#-    SOL            RE"
+      "v": "RE FA#- SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 1,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "       Resta  qui  con   noi  Il sole scende   già"
+      "v": "Resta qui con noi il sole scende già"
     },
     {
       "t": "c",
-      "v": "       MI-               LA        SOL     LA         RE"
+      "v": "MI- LA SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "LA",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "       Resta  qui  con   noi  Signore   è sera ormai"
+      "v": "Resta qui con noi Signore è sera ormai"
     },
     {
       "t": "c",
-      "v": "       RE                FA#-    SOL            RE"
+      "v": "RE FA#- SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 1,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "       Resta  qui  con   noi  Il sole scende   già"
+      "v": "Resta qui con noi il sole scende già"
     },
     {
       "t": "c",
-      "v": "       MI-             LA       SOL     LA    RE"
+      "v": "MI- LA SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "LA",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 8,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "       Se tu  sei fra noi  La  notte  non   verrà"
+      "v": "Se tu sei fra noi la notte non verrà"
     },
     {
       "t": "s"
@@ -99,20 +333,162 @@
       "v": "Strofa 2"
     },
     {
-      "t": "l",
-      "v": "S'allarga  verso   il mare   Il tuo cerchio   d'onda"
+      "t": "c",
+      "v": "RE RE7+ SOL MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 2,
+          "chord": "RE7+",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Che   il vento   spingerà   fino a  quando     Giungerà   ai  confini  di ogni   cuore"
+      "v": "S'allarga verso il mare il tuo cerchio d'onda"
+    },
+    {
+      "t": "c",
+      "v": "RE RE7+ MI- SI- FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "RE7+",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 9,
+          "chord": "SI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 11,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Alle  porte   dell'amore    vero   Come    una   fiamma    che  dove    passa  brucia"
+      "v": "Che il vento spingerà fino a quando giungerà ai confini di ogni cuore"
+    },
+    {
+      "t": "c",
+      "v": "MI SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 2,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Così  il tuo  amore    tutto  il mondo    invaderà"
+      "v": "Alle porte dell'amore vero"
+    },
+    {
+      "t": "c",
+      "v": "FA#- SOL MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Come una fiamma che dove passa brucia"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Così il tuo amore tutto il mondo invaderà"
     },
     {
       "t": "s"
@@ -122,20 +498,162 @@
       "v": "Strofa 3"
     },
     {
-      "t": "l",
-      "v": "Davanti    a noi  l'umanità   Lotta,   soffre  e spera"
+      "t": "c",
+      "v": "RE RE7+ SOL MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "RE7+",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Come     una  terra  che  nell'arsura   Chiede    l'acqua  da  un  cielo  senza   nuvole"
+      "v": "Davanti a noi l'umanità lotta, soffre e spera"
+    },
+    {
+      "t": "c",
+      "v": "RE RE7+ MI- SI- FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "RE7+",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 9,
+          "chord": "SI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 11,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Ma   che  sempre    le  può  dare  vita  Con   te  saremo    sorgente   d'acqua    pura"
+      "v": "Come una terra che nell'arsura chiede l'acqua da un cielo senza nuvole"
+    },
+    {
+      "t": "c",
+      "v": "MI SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
-      "v": "Con   te  fra noi  il deserto   fiorirà"
+      "v": "Ma che sempre le può dare vita"
+    },
+    {
+      "t": "c",
+      "v": "FA#- SOL MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Con te saremo sorgente d'acqua pura"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Con te fra noi il deserto fiorirà"
     }
   ],
   "id": "resta-qui-con-noi"

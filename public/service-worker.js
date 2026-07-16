@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-tutti-tag-v1';
+const CACHE_NAME = 'canzoniere-san-marco-vita-abbondanza-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -166,6 +166,7 @@ const APP_ASSETS = [
   "./songs/verbum-panis.json",
   "./songs/vieni-e-seguimi.json",
   "./songs/vieni-santo-spirito-di-dio.json",
+  "./songs/vita-in-abbondanza.json",
   "./songs/vivere-la-vita.json",
   "./songs/vocazione.json",
   "./songs/voi-siete-di-dio.json"

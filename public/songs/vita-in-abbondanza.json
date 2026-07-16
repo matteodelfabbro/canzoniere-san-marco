@@ -1,0 +1,181 @@
+{
+  "title": "Vita in Abbondanza",
+  "sub": "",
+  "capo": null,
+  "key": {
+    "note": "MI",
+    "mode": "minore"
+  },
+  "search": "Vita in Abbondanza Intro Strofa 1 I gigli del campo e gli uccelli del cielo non temono nulla, perché ho cura di loro. Abbiate fede in me, perché io sarò con voi. Amate la vita in ogni momento: io sono con voi, tra le gioie e i dolori, fino alla fine del tempo: farò nuove tutte le cose. Ritornello Io vengo a donar la Vita, Vita in abbondanza, in abbondanza. Io sono la Via, la Verità e la Vita, Vita in abbondanza, in abbondanza. Strofa 2 Non ho fatto l’uomo perché fosse da solo, ma vi ho comandato: siate come fratelli, con ogni bontà e pazienza, nell’amore, nell’unità. A voi ho promesso la Vita del Cielo e inizia con me, adesso in Terra. È questa la vostra gioia: il mio Regno è in mezzo a voi. Ritornello x2",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI-  DO  SOL  RE"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL                 DO                    RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "I gigli del campo e gli uccelli del cielo"
+    },
+    {
+      "t": "c",
+      "v": "SOL                  DO                     RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "non temono nulla, perché ho cura di loro."
+    },
+    {
+      "t": "c",
+      "v": "MI-                DO                   SOL          RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "Abbiate fede in me, perché io sarò con voi."
+    },
+    {
+      "t": "c",
+      "v": "SOL                 DO                  RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "Amate la vita in ogni momento:"
+    },
+    {
+      "t": "c",
+      "v": "SOL                 DO                    RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "io sono con voi, tra le gioie e i dolori,"
+    },
+    {
+      "t": "c",
+      "v": "MI-                     DO                         SOL                 RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "fino alla fine del tempo: farò nuove tutte le cose."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI-             DO             SOL       RE"
+    },
+    {
+      "t": "l",
+      "v": "Io vengo a donar la Vita,"
+    },
+    {
+      "t": "c",
+      "v": "MI-                  DO                   RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "Vita in abbondanza, in abbondanza."
+    },
+    {
+      "t": "c",
+      "v": "MI-              DO               SOL                 RE"
+    },
+    {
+      "t": "l",
+      "v": "Io sono la Via, la Verità e la Vita,"
+    },
+    {
+      "t": "c",
+      "v": "MI-                  DO                   RE4  SI-"
+    },
+    {
+      "t": "l",
+      "v": "Vita in abbondanza, in abbondanza."
+    },
+    {
+      "t": "c",
+      "v": "MI-  DO  SOL  RE   MI-  DO  RE  RE4"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL                    DO                   RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "Non ho fatto l’uomo perché fosse da solo,"
+    },
+    {
+      "t": "c",
+      "v": "SOL                    DO                   RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "ma vi ho comandato: siate come fratelli,"
+    },
+    {
+      "t": "c",
+      "v": "MI-                  DO                       SOL              RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "con ogni bontà e pazienza, nell’amore, nell’unità."
+    },
+    {
+      "t": "c",
+      "v": "SOL                    DO                    RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "A voi ho promesso la Vita del Cielo"
+    },
+    {
+      "t": "c",
+      "v": "SOL                    DO                    RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "e inizia con me, adesso in Terra."
+    },
+    {
+      "t": "c",
+      "v": "MI-                    DO                         SOL                    RE4  RE"
+    },
+    {
+      "t": "l",
+      "v": "È questa la vostra gioia: il mio Regno è in mezzo a voi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello x2"
+    }
+  ],
+  "id": "vita-in-abbondanza"
+}

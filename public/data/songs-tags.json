@@ -66,7 +66,7 @@
       "Canti per la Messa"
     ]
   },
-  "agnello-di-dio-versione-2-capo-3": {
+  "agnello-di-dio-buttazzo-capo-3": {
     "title": "Agnello di Dio",
     "tags": [
       "Agnello di Dio"
@@ -75,7 +75,7 @@
       "Canti per la Messa"
     ]
   },
-  "agnello-di-dio-buttazzo-capo-3": {
+  "agnello-di-dio-versione-2-capo-3": {
     "title": "Agnello di Dio",
     "tags": [
       "Agnello di Dio"
@@ -95,6 +95,24 @@
   },
   "alleluia-canto-per-cristo": {
     "title": "Alleluia",
+    "tags": [
+      "Vangelo"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "alleluia-cristo-e-risorto-veramente-capo-2-4": {
+    "title": "Alleluia",
+    "tags": [
+      "Vangelo"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "alleluia-e-poi": {
+    "title": "Alleluia e Poi",
     "tags": [
       "Vangelo"
     ],
@@ -138,26 +156,8 @@
       "Canti per la Messa"
     ]
   },
-  "alleluia-cristo-e-risorto-veramente-capo-2-4": {
-    "title": "Alleluia",
-    "tags": [
-      "Vangelo"
-    ],
-    "groups": [
-      "Canti per la Messa"
-    ]
-  },
   "alleluia-verbum-panis": {
     "title": "Alleluia",
-    "tags": [
-      "Vangelo"
-    ],
-    "groups": [
-      "Canti per la Messa"
-    ]
-  },
-  "alleluia-e-poi": {
-    "title": "Alleluia e Poi",
     "tags": [
       "Vangelo"
     ],
@@ -541,19 +541,10 @@
       "Tempi liturgici"
     ]
   },
-  "signore-pieta-buttazzo": {
-    "title": "Signore Pietà",
+  "gloria-a-te-parola-vivente": {
+    "title": "Gloria a Te, Parola Vivente",
     "tags": [
-      "Atto penitenziale"
-    ],
-    "groups": [
-      "Canti per la Messa"
-    ]
-  },
-  "signore-pieta-versione-2": {
-    "title": "Signore Pietà",
-    "tags": [
-      "Atto penitenziale"
+      "Vangelo"
     ],
     "groups": [
       "Canti per la Messa"
@@ -572,15 +563,6 @@
     "title": "Gloria",
     "tags": [
       "Gloria"
-    ],
-    "groups": [
-      "Canti per la Messa"
-    ]
-  },
-  "gloria-a-te-parola-vivente": {
-    "title": "Gloria a Te, Parola Vivente",
-    "tags": [
-      "Vangelo"
     ],
     "groups": [
       "Canti per la Messa"
@@ -617,15 +599,6 @@
       "Temi"
     ]
   },
-  "il-canto-dell-amore": {
-    "title": "Il Canto dell'Amore",
-    "tags": [
-      "Finale"
-    ],
-    "groups": [
-      "Canti per la Messa"
-    ]
-  },
   "il-canto-del-mare": {
     "title": "Il Canto del Mare",
     "tags": [
@@ -633,6 +606,15 @@
     ],
     "groups": [
       "Tempi liturgici"
+    ]
+  },
+  "il-canto-dell-amore": {
+    "title": "Il Canto dell'Amore",
+    "tags": [
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
     ]
   },
   "il-disegno": {
@@ -1031,6 +1013,17 @@
       "Temi"
     ]
   },
+  "quale-gioia-e-star-con-te": {
+    "title": "Quale Gioia È Star con Te",
+    "tags": [
+      "Finale",
+      "Lode"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
+  },
   "quale-gioia-salmo-121": {
     "title": "Quale Gioia",
     "tags": [
@@ -1042,17 +1035,6 @@
       "Canti per la Messa",
       "Tempi liturgici",
       "Altri"
-    ]
-  },
-  "quale-gioia-e-star-con-te": {
-    "title": "Quale Gioia È Star con Te",
-    "tags": [
-      "Finale",
-      "Lode"
-    ],
-    "groups": [
-      "Canti per la Messa",
-      "Temi"
     ]
   },
   "qui-con-te": {
@@ -1172,8 +1154,8 @@
       "Canti per la Messa"
     ]
   },
-  "santo-gen-verde": {
-    "title": "Santo",
+  "santo-e-il-signore-la-tua-dimora": {
+    "title": "Santo È il Signore",
     "tags": [
       "Santo"
     ],
@@ -1190,7 +1172,7 @@
       "Canti per la Messa"
     ]
   },
-  "santo-zairese": {
+  "santo-gen-verde": {
     "title": "Santo",
     "tags": [
       "Santo"
@@ -1199,8 +1181,8 @@
       "Canti per la Messa"
     ]
   },
-  "santo-e-il-signore-la-tua-dimora": {
-    "title": "Santo È il Signore",
+  "santo-zairese": {
+    "title": "Santo",
     "tags": [
       "Santo"
     ],
@@ -1235,19 +1217,19 @@
       "Altri"
     ]
   },
-  "segni-nuovi": {
-    "title": "Segni Nuovi",
+  "segni-del-tuo-amore": {
+    "title": "Segni del Tuo Amore",
     "tags": [
-      "Finale"
+      "Offertorio"
     ],
     "groups": [
       "Canti per la Messa"
     ]
   },
-  "segni-del-tuo-amore": {
-    "title": "Segni del Tuo Amore",
+  "segni-nuovi": {
+    "title": "Segni Nuovi",
     "tags": [
-      "Offertorio"
+      "Finale"
     ],
     "groups": [
       "Canti per la Messa"
@@ -1278,6 +1260,24 @@
     ],
     "groups": [
       "Tempi liturgici"
+    ]
+  },
+  "signore-pieta-buttazzo": {
+    "title": "Signore Pietà",
+    "tags": [
+      "Atto penitenziale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "signore-pieta-versione-2": {
+    "title": "Signore Pietà",
+    "tags": [
+      "Atto penitenziale"
+    ],
+    "groups": [
+      "Canti per la Messa"
     ]
   },
   "sono-qui-a-lodarti": {
@@ -1388,15 +1388,6 @@
       "Temi"
     ]
   },
-  "tu-sei-sorgente-viva": {
-    "title": "Tu Sei Sorgente Viva",
-    "tags": [
-      "Spirito Santo"
-    ],
-    "groups": [
-      "Temi"
-    ]
-  },
   "tu-sei": {
     "title": "Tu Sei",
     "tags": [
@@ -1413,6 +1404,15 @@
     ],
     "groups": [
       "Tempi liturgici"
+    ]
+  },
+  "tu-sei-sorgente-viva": {
+    "title": "Tu Sei Sorgente Viva",
+    "tags": [
+      "Spirito Santo"
+    ],
+    "groups": [
+      "Temi"
     ]
   },
   "tutto-e-possibile": {
@@ -1473,6 +1473,15 @@
     "groups": [
       "Sacramenti e celebrazioni",
       "Temi"
+    ]
+  },
+  "vita-in-abbondanza": {
+    "title": "Vita in Abbondanza",
+    "tags": [
+      "Comunione"
+    ],
+    "groups": [
+      "Canti per la Messa"
     ]
   },
   "vivere-la-vita": {

@@ -982,8 +982,7 @@ function renderSong(i){
   <div class="song-head">
     <div class="song-heading-text">
       <h2 class="song-title">${esc(song.title)}</h2>
-      ${song.sub?`<div class="song-sub">${esc(song.sub)}</div>`:''}
-      ${legacyBookNumber(song)?`<div class="song-legacy">Vecchio libretto · ${legacyBookNumber(song)}</div>`:''}
+      ${(song.sub||legacyBookNumber(song))?`<div class="song-sub">${song.sub?esc(song.sub):''}${song.sub&&legacyBookNumber(song)?' · ':''}${legacyBookNumber(song)?`n. ${legacyBookNumber(song)}`:''}</div>`:''}
     </div>
     <div class="song-title-actions" aria-label="Azioni sul canto">
       <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>

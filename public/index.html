@@ -12,12 +12,23 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="icon" href="icon-192.png">
 <title>Canzoniere San Marco</title>
-<link rel="stylesheet" href="/css/style.css?v=20260716-legacy-inline-1">
+<link rel="stylesheet" href="/css/style.css?v=20260716-install-banner-1">
 </head>
 <body>
 <header><h1>Canzoniere San Marco</h1><p class="tag">canti e accordi per la messa</p></header>
 <div class="app">
   <nav class="board" aria-label="Elenco canti">
+    <aside class="install-banner" id="installBanner" hidden aria-labelledby="installBannerTitle">
+      <button class="install-banner-close" id="installBannerClose" type="button" aria-label="Chiudi il suggerimento di installazione">×</button>
+      <div class="install-banner-copy">
+        <strong id="installBannerTitle">Installa il Canzoniere</strong>
+        <span id="installBannerText">Aggiungilo alla schermata Home e usalo anche offline.</span>
+      </div>
+      <button class="install-banner-action" id="installBannerAction" type="button">Installa</button>
+      <div class="install-banner-ios" id="installBannerIos" hidden>
+        In Safari premi <strong>Condividi</strong> e poi <strong>Aggiungi alla schermata Home</strong>.
+      </div>
+    </aside>
     <div class="board-label">Bacheca dei canti</div>
     <div class="list-filters" role="group" aria-label="Filtro canti">
       <button class="filter-btn active" id="filterAll" type="button">Tutti</button>
@@ -99,6 +110,6 @@
 <script src="/__/firebase/8.10.1/firebase-app.js"></script>
 <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
 <script src="/__/firebase/init.js"></script>
-<script src="/js/app.js?v=20260716-legacy-inline-1" defer></script>
+<script src="/js/app.js?v=20260716-install-banner-1" defer></script>
 </body>
 </html>

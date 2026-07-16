@@ -196,6 +196,11 @@ const feedbackPage=document.getElementById('feedbackPage');
 const feedbackDevice=document.getElementById('feedbackDevice');
 const feedbackStatus=document.getElementById('feedbackStatus');
 const generalFeedback=document.getElementById('generalFeedback');
+const installBanner=document.getElementById('installBanner');
+const installBannerAction=document.getElementById('installBannerAction');
+const installBannerClose=document.getElementById('installBannerClose');
+const installBannerIos=document.getElementById('installBannerIos');
+let deferredInstallPrompt=null;
 let activeIndex=0;
 let listMode='all';
 function migrateStoredSongRefs(raw){
@@ -1139,6 +1144,59 @@ clearSetlist.addEventListener('click',()=>{
     renderTiles();
   }
 });
+
+function isStandaloneApp(){
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone===true;
+}
+function isMobileOrTablet(){
+  return window.matchMedia('(max-width: 1100px)').matches && window.matchMedia('(pointer: coarse)').matches;
+}
+function isIosDevice(){
+  return /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+}
+function installBannerDismissedRecently(){
+  const dismissedAt=Number(localStorage.getItem('installBannerDismissedAt')||0);
+  return dismissedAt && Date.now()-dismissedAt < 7*24*60*60*1000;
+}
+function canShowInstallBanner(){
+  return isMobileOrTablet() && !isStandaloneApp() && !installBannerDismissedRecently();
+}
+function showInstallBanner(){
+  if(canShowInstallBanner()) installBanner.hidden=false;
+}
+function hideInstallBanner(){
+  installBanner.hidden=true;
+}
+
+window.addEventListener('beforeinstallprompt',event=>{
+  event.preventDefault();
+  deferredInstallPrompt=event;
+  showInstallBanner();
+});
+window.addEventListener('appinstalled',()=>{
+  deferredInstallPrompt=null;
+  localStorage.removeItem('installBannerDismissedAt');
+  hideInstallBanner();
+});
+
+installBannerClose.addEventListener('click',()=>{
+  localStorage.setItem('installBannerDismissedAt',String(Date.now()));
+  hideInstallBanner();
+});
+installBannerAction.addEventListener('click',async()=>{
+  if(deferredInstallPrompt){
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice;
+    deferredInstallPrompt=null;
+    return;
+  }
+  if(isIosDevice()){
+    installBannerIos.hidden=false;
+    installBannerAction.hidden=true;
+  }
+});
+
+if(isIosDevice()) showInstallBanner();
 
 generalFeedback.addEventListener('click',()=>openFeedback());
 feedbackClose.addEventListener('click',closeFeedback);

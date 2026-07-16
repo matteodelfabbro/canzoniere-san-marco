@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-vita-abbondanza-v1';
+const CACHE_NAME = 'canzoniere-san-marco-install-banner-v1';
 const APP_ASSETS = [
   "./",
   "./index.html",

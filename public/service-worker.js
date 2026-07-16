@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-san-marco-install-banner-v1';
+const CACHE_NAME = 'canzoniere-section-menu-test-15';
 const APP_ASSETS = [
   "./",
   "./index.html",

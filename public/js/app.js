@@ -186,6 +186,10 @@ const sectionMenu=document.getElementById('sectionMenu');
 const sectionSwitcher=document.getElementById('sectionSwitcher');
 const menuInstall=document.getElementById('menuInstall');
 const menuFeedback=document.getElementById('menuFeedback');
+const menuLogin=document.getElementById('menuLogin');
+const menuLogout=document.getElementById('menuLogout');
+const menuGreeting=document.getElementById('menuGreeting');
+const menuMySetlists=document.getElementById('menuMySetlists');
 const setlistTools=document.getElementById('setlistTools');
 const setlistTitle=document.getElementById('setlistTitle');
 const setlistCount=document.getElementById('setlistCount');
@@ -209,6 +213,76 @@ const installBannerIos=document.getElementById('installBannerIos');
 let deferredInstallPrompt=null;
 let activeIndex=0;
 let listMode='all';
+let currentUser=null;
+let auth=null;
+let googleProvider=null;
+
+function firstNameFromUser(user){
+  const fullName=String(user?.displayName||'').trim();
+  if(fullName)return fullName.split(/\s+/)[0];
+  const emailName=String(user?.email||'').split('@')[0].trim();
+  return emailName||'utente';
+}
+
+function renderAuthMenu(user){
+  currentUser=user||null;
+  const loggedIn=Boolean(currentUser);
+  menuGreeting.hidden=!loggedIn;
+  menuMySetlists.hidden=!loggedIn;
+  menuLogout.hidden=!loggedIn;
+  menuLogin.hidden=loggedIn;
+  if(loggedIn)menuGreeting.textContent=`Ciao ${firstNameFromUser(currentUser)}!`;
+}
+
+function initFirebaseAuth(){
+  if(!window.firebase?.auth){
+    console.warn('Firebase Authentication non disponibile in questo ambiente.');
+    renderAuthMenu(null);
+    return;
+  }
+  auth=firebase.auth();
+  googleProvider=new firebase.auth.GoogleAuthProvider();
+  auth.languageCode='it';
+  auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL).catch(error=>{
+    console.warn('Persistenza login non impostata.',error);
+  });
+  auth.onAuthStateChanged(user=>renderAuthMenu(user));
+  auth.getRedirectResult().catch(error=>{
+    console.error('Errore nel rientro dal login Google.',error);
+    if(error?.code!=='auth/no-auth-event')alert('Non è stato possibile completare l’accesso con Google.');
+  });
+}
+
+async function loginWithGoogle(){
+  if(!auth||!googleProvider){
+    alert('Il login Google è disponibile nella versione pubblicata su Firebase Hosting.');
+    return;
+  }
+  try{
+    await auth.signInWithPopup(googleProvider);
+  }catch(error){
+    if(error?.code==='auth/popup-blocked'){
+      await auth.signInWithRedirect(googleProvider);
+      return;
+    }
+    if(error?.code==='auth/popup-closed-by-user'||error?.code==='auth/cancelled-popup-request')return;
+    console.error('Errore durante il login Google.',error);
+    alert('Non è stato possibile accedere con Google. Riprova.');
+  }
+}
+
+async function logoutFromGoogle(){
+  if(!auth)return;
+  try{
+    await auth.signOut();
+  }catch(error){
+    console.error('Errore durante la disconnessione.',error);
+    alert('Non è stato possibile uscire dall’account. Riprova.');
+  }
+}
+
+renderAuthMenu(null);
+initFirebaseAuth();
 function migrateStoredSongRefs(raw){
   const refs=Array.isArray(raw)?raw:[];
   const ids=[];
@@ -1168,6 +1242,18 @@ document.addEventListener('click',event=>{
 menuFeedback.addEventListener('click',()=>{
   closeSectionMenu();
   generalFeedback.click();
+});
+menuLogin.addEventListener('click',async()=>{
+  closeSectionMenu();
+  await loginWithGoogle();
+});
+menuLogout.addEventListener('click',async()=>{
+  closeSectionMenu();
+  await logoutFromGoogle();
+});
+menuMySetlists.addEventListener('click',()=>{
+  closeSectionMenu();
+  alert('Le setlist online saranno aggiunte nel prossimo passaggio.');
 });
 menuInstall.addEventListener('click',()=>{
   closeSectionMenu();

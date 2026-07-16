@@ -1774,3 +1774,14 @@ header p.tag{
   padding-left:.72rem;
   padding-right:.45rem;
 }
+
+
+/* Bozza login Google — solo simulazione grafica */
+.section-menu-greeting{
+  padding:.7rem .72rem .5rem;
+  color:var(--gold-bright);
+  font:600 1rem/1.2 Manrope,sans-serif;
+  letter-spacing:.01em;
+}
+.section-menu-greeting[hidden],
+.section-menu-item[hidden]{display:none!important}

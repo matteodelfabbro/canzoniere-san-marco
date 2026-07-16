@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="icon" href="icon-192.png">
 <title>Canzoniere San Marco</title>
-<link rel="stylesheet" href="/css/style.css?v=20260716-section-menu-test-15">
+<link rel="stylesheet" href="/css/style.css?v=20260716-google-login-1">
 </head>
 <body>
 <header><h1>Canzoniere San Marco</h1><p class="tag">canti e accordi per la messa</p></header>
@@ -42,10 +42,13 @@
           <path d="M18 8v6M15 11h6"></path>
         </svg></button>
         <div class="section-menu-divider" role="separator"></div>
+        <div class="section-menu-greeting" id="menuGreeting" hidden>Ciao Matteo!</div>
+        <button class="section-menu-item section-menu-secondary" id="menuMySetlists" type="button" role="menuitem" hidden>Le mie setlist</button>
         <button class="section-menu-item section-menu-secondary" id="menuInstall" type="button" role="menuitem">Installa il Canzoniere</button>
         <button class="section-menu-item section-menu-secondary" id="menuFeedback" type="button" role="menuitem">Segnala un errore</button>
-        <a class="section-menu-item section-menu-secondary section-menu-coffee" href="https://paypal.me/MatteoDelFabbro?locale.x=it_IT&amp;country.x=IT" target="_blank" rel="noopener noreferrer" role="menuitem">Offrimi un caffè</a>
-        <button class="section-menu-item section-menu-secondary section-menu-future" type="button" role="menuitem" disabled aria-disabled="true">login</button>
+        <a class="section-menu-item section-menu-secondary section-menu-coffee" href="https://paypal.me/MatteoDelFabbro?locale.x=it_IT&amp;country.x=IT" target="_blank" rel="noopener noreferrer" role="menuitem">Offrimi un caffè!</a>
+        <button class="section-menu-item section-menu-secondary" id="menuLogin" type="button" role="menuitem">Login</button>
+        <button class="section-menu-item section-menu-secondary" id="menuLogout" type="button" role="menuitem" hidden>Esci</button>
       </div>
     </div>
     <div class="setlist-tools" id="setlistTools" hidden>
@@ -121,8 +124,9 @@
 
 <!-- Firebase Hosting carica automaticamente configurazione e SDK del progetto -->
 <script src="/__/firebase/8.10.1/firebase-app.js"></script>
+<script src="/__/firebase/8.10.1/firebase-auth.js"></script>
 <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
 <script src="/__/firebase/init.js"></script>
-<script src="/js/app.js?v=20260716-section-menu-test-15" defer></script>
+<script src="/js/app.js?v=20260716-google-login-1" defer></script>
 </body>
 </html>

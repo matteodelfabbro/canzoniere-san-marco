@@ -1,0 +1,46 @@
+# Aggiornamento autori e sottotitoli
+
+Aggiornati 42 canti.
+
+- **Acqua Siamo Noi** (`acqua-siamo-noi`): `` → `Cento`
+- **Adesso È la Pienezza** (`adesso-e-la-pienezza`): `` → `Ricci`
+- **Agnello di Dio** (`agnello-di-dio-buttazzo-capo-3`): `Buttazzo - Capo 3` → `Buttazzo · Capo 3`
+- **Cantiamo Te** (`cantiamo-te`): `` → `Gragnani`
+- **Chi?** (`chi`): `` → `Gen Rosso`
+- **Chi Ci Separerà** (`chi-ci-separera`): `` → `Frisina`
+- **Come Fuoco Vivo** (`come-fuoco-vivo`): `` → `Gen · Messa Come fuoco vivo`
+- **Come l'Aurora Verrai** (`come-l-aurora-verrai`): `` → `Gen Verde`
+- **Come Maria** (`come-maria`): `` → `Gen Rosso`
+- **Come Tu Mi Vuoi** (`come-tu-mi-vuoi`): `` → `Branca`
+- **Con Voce di Giubilo** (`con-voce-di-giubilo`): `` → `Cento`
+- **Dall'Aurora al Tramonto** (`dall-aurora-al-tramonto`): `` → `Casucci · Balduzzi`
+- **Davanti a Questo Amore** (`davanti-a-questo-amore`): `` → `De Luca · Marranzino · Conte`
+- **Del Tuo Spirito, Signore** (`del-tuo-spirito-signore`): `` → `Gen · Messa Come fuoco vivo`
+- **È Bello Lodarti** (`e-bello-lodarti`): `` → `Gen Verde`
+- **E Sono Solo un Uomo** (`e-sono-solo-un-uomo-symbolum-79`): `Symbolum '79` → `Sequeri · Symbolum '79`
+- **Ecco Quel Che Abbiamo** (`ecco-quel-che-abbiamo`): `` → `Gen Verde`
+- **Eccomi** (`eccomi-salmo-39`): `Salmo 39` → `Frisina · Salmo 39`
+- **Fammi Conoscere** (`fammi-conoscere`): `` → `Ruaro`
+- **Frutto della Nostra Terra** (`frutto-della-nostra-terra`): `` → `Buttazzo`
+- **Giovane Donna** (`giovane-donna`): `` → `Scaglianti`
+- **Grandi Cose** (`grandi-cose`): `` → `Gen Rosso`
+- **Il Canto dei 3 Giovani** (`il-canto-dei-3-giovani`): `` → `Marranzino · De Luca`
+- **Il Canto dell'Amore** (`il-canto-dell-amore`): `` → `Federico Russo`
+- **Il Disegno** (`il-disegno`): `` → `Marani`
+- **La Canzone dell'Amicizia** (`la-canzone-dell-amicizia`): `` → `Fontana`
+- **La Mia Anima Canta** (`la-mia-anima-canta`): `` → `Gen Verde`
+- **La Preghiera di Gesù è la Nostra** (`la-preghiera-di-gesu-e-la-nostra`): `` → `Castiglia · Varnavà`
+- **Nel Tuo Silenzio** (`nel-tuo-silenzio`): `` → `Gen · Messa Come fuoco vivo`
+- **Ogni Mia Parola** (`ogni-mia-parola`): `` → `Gen Verde`
+- **Pane del Cielo** (`pane-del-cielo`): `` → `Gen Rosso`
+- **Resta Qui con Noi** (`resta-qui-con-noi`): `` → `Gen Rosso`
+- **Resurrezione** (`resurrezione`): `` → `Gen Rosso`
+- **Santo** (`santo-gen-messa-come-fuoco-vivo`): `Gen - Messa Come fuoco vivo` → `Gen · Messa Come fuoco vivo`
+- **Segni del Tuo Amore** (`segni-del-tuo-amore`): `` → `Gen · Messa Come fuoco vivo`
+- **Servo per Amore** (`servo-per-amore`): `` → `Gen Rosso`
+- **Su Ali d'Aquila** (`su-ali-d-aquila`): `` → `Joncas`
+- **Te, al Centro del Mio Cuore** (`te-al-centro-del-mio-cuore`): `` → `Gen Verde`
+- **Verbum Panis** (`verbum-panis`): `` → `Casucci · Balduzzi`
+- **Vieni e Seguimi** (`vieni-e-seguimi`): `` → `Gen Rosso`
+- **Vivere la Vita** (`vivere-la-vita`): `` → `Gen Verde`
+- **Vocazione** (`vocazione`): `` → `Sequeri`

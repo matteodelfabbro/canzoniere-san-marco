@@ -1510,3 +1510,18 @@ header p.tag{
     display:none !important;
   }
 }
+/* TEST: indicatore grafico al posto del numero nell’elenco */
+.tile .num{
+  font-size:0;
+}
+
+.tile .num::after{
+  content:"•";
+  font-size:.9rem;
+  line-height:1;
+  color:rgba(224,188,106,.78);
+}
+
+.tile.active .num::after{
+  color:var(--navy-deep);
+}

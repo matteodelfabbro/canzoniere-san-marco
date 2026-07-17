@@ -1822,9 +1822,9 @@ header p.tag{
 .setlist-library-status{min-height:0;margin:.15rem .1rem .55rem;color:rgba(233,226,205,.5);font-size:.7rem}
 .setlist-library-status:empty{display:none}
 .setlist-library-grid{display:grid;gap:.48rem}
-.setlist-library-card{position:relative;display:flex;align-items:center;justify-content:space-between;gap:.7rem;min-width:0;padding:.72rem .72rem .72rem .78rem;border:1px solid rgba(198,162,77,.18);border-radius:12px;background:rgba(255,255,255,.035);cursor:pointer;transition:background .15s ease,border-color .15s ease,transform .15s ease}
+.setlist-song-list{grid-column:1/-1;margin:-.12rem 0 .5rem;padding-top:.38rem;border-top:1px solid rgba(198,162,77,.18)}
+.setlist-library-card{position:relative;display:flex;align-items:center;justify-content:space-between;gap:.7rem;min-width:0;padding:.72rem .72rem .72rem .78rem;border:1px solid rgba(198,162,77,.18);border-radius:12px;background:rgba(255,255,255,.035);cursor:pointer;transition:background .15s ease,border-color .15s ease}
 .setlist-library-card:hover,.setlist-library-card:focus-visible{background:rgba(198,162,77,.075);border-color:rgba(198,162,77,.34);outline:none}
-.setlist-library-card:active{transform:scale(.995)}
 .setlist-library-info{display:grid;gap:.13rem;min-width:0}
 .setlist-library-info strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:Manrope,sans-serif;font-size:.83rem;font-weight:600;color:rgba(233,226,205,.92)}
 .setlist-library-info span{font-family:Manrope,sans-serif;font-size:.65rem;color:rgba(233,226,205,.42)}
@@ -1948,7 +1948,7 @@ header p.tag{
 
 /* Setlist unificate demo v2 — nuovo comando in alto e card coerenti */
 .setlist-library-heading{display:block;margin:0 0 .58rem;padding:0}
-.setlist-new-button{display:block;width:100%;min-height:2.65rem;border:1px solid rgba(198,162,77,.34);border-radius:12px;background:rgba(198,162,77,.09);color:var(--gold-bright);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;cursor:pointer}
+.setlist-new-button{position:relative;z-index:40;display:block;width:100%;min-height:2.65rem;border:1px solid rgba(198,162,77,.34);border-radius:12px;background:rgba(198,162,77,.09);color:var(--gold-bright);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:600;cursor:pointer;pointer-events:auto;touch-action:manipulation}
 .setlist-new-button:hover{background:rgba(198,162,77,.15)}
 .setlist-current-card.setlist-library-card{display:block;margin:0 0 .48rem;padding:.72rem .72rem .72rem .78rem;border:1px solid rgba(198,162,77,.18);border-radius:12px;background:rgba(255,255,255,.035);box-shadow:none}
 .setlist-current-card.setlist-library-card:hover{background:rgba(198,162,77,.075);border-color:rgba(198,162,77,.34)}
@@ -2008,7 +2008,7 @@ header p.tag{
   background:transparent;
   color:rgba(233,226,205,.62);
   cursor:pointer;
-  transition:background .15s ease,color .15s ease,transform .15s ease;
+  transition:background .15s ease,color .15s ease;
 }
 .setlist-card-icon-button svg{
   width:1.05rem;
@@ -2026,7 +2026,6 @@ header p.tag{
   color:var(--gold-bright);
   outline:none;
 }
-.setlist-card-icon-button:active{transform:scale(.94)}
 .setlist-card-icon-button.danger:hover,
 .setlist-card-icon-button.danger:focus-visible{
   background:rgba(181,70,83,.13);
@@ -2044,4 +2043,3 @@ header p.tag{
   box-shadow:0 7px 18px rgba(0,0,0,.11);
   overflow:hidden;
 }
-

@@ -174,6 +174,7 @@ async function loadSongs() {
 async function init() {
   await loadSongs();
 const tileList=document.getElementById('tileList');
+const tileListHome=document.getElementById('tileListHome');
 const main=document.getElementById('main');
 const search=document.getElementById('search');
 const tagSuggestions=document.getElementById('tagSuggestions');
@@ -225,8 +226,10 @@ let db=null;
 let activeCloudSetlistId=null;
 let activeLocalSetlistId=localStorage.getItem('activeLocalSetlistId')||null;
 let cloudSyncTimer=null;
+let newSetlistBusy=false;
 const LOCAL_SETLIST_DEMO=false;
 const LOCAL_SETLISTS_KEY='localSetlistsV1';
+const LOCAL_SETLISTS_BACKUP_KEY='localSetlistsBeforeSingleSetlistV1';
 
 function firstNameFromUser(user){
   const fullName=String(user?.displayName||'').trim();
@@ -320,12 +323,19 @@ function makeLocalSetlistId(){return `local-${Date.now().toString(36)}-${Math.ra
 function readLocalSetlists(){
   try{
     const parsed=JSON.parse(localStorage.getItem(LOCAL_SETLISTS_KEY)||'[]');
-    if(Array.isArray(parsed)&&parsed.length)return parsed.map(item=>({
-      id:String(item.id||makeLocalSetlistId()),
-      name:String(item.name||'La mia Setlist').slice(0,40),
-      songs:migrateStoredSongRefs(item.songs||[]),
-      updatedAt:Number(item.updatedAt)||Date.now()
-    }));
+    if(Array.isArray(parsed)&&parsed.length){
+      if(parsed.length>1&&!localStorage.getItem(LOCAL_SETLISTS_BACKUP_KEY)){
+        localStorage.setItem(LOCAL_SETLISTS_BACKUP_KEY,JSON.stringify(parsed));
+      }
+      const activeId=localStorage.getItem('activeLocalSetlistId');
+      const item=parsed.find(entry=>entry.id===activeId)||parsed[0];
+      return [{
+        id:String(item.id||makeLocalSetlistId()),
+        name:String(item.name||'La mia Setlist').slice(0,40),
+        songs:migrateStoredSongRefs(item.songs||[]),
+        updatedAt:Number(item.updatedAt)||Date.now()
+      }];
+    }
   }catch(error){console.warn('Setlist locali non leggibili.',error);}
   const legacySongs=migrateStoredSongRefs(JSON.parse(localStorage.getItem('personalSetlist')||'[]'));
   const legacyName=(localStorage.getItem('personalSetlistName')||'La mia Setlist').replace('La mia scaletta','La mia Setlist');
@@ -350,6 +360,23 @@ localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
 localStorage.setItem('personalSetlistName',personalSetlistName);
 renderAuthMenu(null).catch(console.error);
 initFirebaseAuth();
+
+function showCreatedCloudSetlist(item){
+  if(!item?.id)return;
+  activeCloudSetlistId=item.id;
+  if(currentUser)localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,item.id);
+  personalSetlistName=(item.name||'Nuova setlist').slice(0,40);
+  personalSetlist=[];
+  localStorage.setItem('personalSetlistName',personalSetlistName);
+  localStorage.setItem('personalSetlist','[]');
+  renderCloudSetlistRow({id:item.id,name:personalSetlistName,songs:[],local:false});
+  openCloudSetlist({id:item.id,name:personalSetlistName,songs:[],local:false},{rerender:false});
+}
+window.addEventListener('cloud-setlist-created',event=>showCreatedCloudSetlist(event.detail));
+if(window.__pendingCloudSetlist){
+  showCreatedCloudSetlist(window.__pendingCloudSetlist);
+  delete window.__pendingCloudSetlist;
+}
 let listScrollY=0;
 const shiftState={};
 const ipadPortraitView=window.matchMedia('(orientation:portrait) and (min-width:700px) and (max-width:1100px)');
@@ -493,12 +520,21 @@ function setListMode(mode){
   else if(mode==='setlist')updateSetlistSectionTitle();
   else sectionCurrent.innerHTML='TUTTI I CANTI';
   const isSetlistMode=mode==='setlist';
+  if(!isSetlistMode)placeTileListInDefaultPosition();
   search.hidden=isSetlistMode;
   tagSuggestions.hidden=isSetlistMode;
   setlistTools.hidden=true;
   updateSetlistLibraryVisibility();
   closeSectionMenu();
   renderTiles();
+}
+function placeTileListInDefaultPosition(){
+  if(tileListHome)tileListHome.after(tileList);
+  tileList.classList.remove('setlist-song-list');
+}
+function placeTileListUnderSetlist(card){
+  card.after(tileList);
+  tileList.classList.add('setlist-song-list');
 }
 function saveSetlist(){
   localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
@@ -588,6 +624,10 @@ function updateSetlistLibraryVisibility(){
   if(!setlistLibrary)return;
   const show=listMode==='setlist';
   setlistLibrary.hidden=!show;
+  if(!show)placeTileListInDefaultPosition();
+  const hasCloudSetlists=Boolean(currentUser&&db);
+  newSetlistButton.hidden=!hasCloudSetlists;
+  setlistLibraryTitle.textContent=hasCloudSetlists?'Le mie setlist':'La mia setlist';
   if(show)loadCloudSetlists();
 }
 function setCloudStatus(message){cloudSetlistsStatus.textContent=message||'';}
@@ -596,7 +636,7 @@ async function loadCloudSetlists(){
   setCloudStatus('');
   if(!currentUser||!db){
     ensureActiveLocalSetlist();
-    [...localSetlists].sort((a,b)=>b.updatedAt-a.updatedAt).forEach(item=>renderCloudSetlistRow({...item,local:true}));
+    renderCloudSetlistRow({...localSetlists[0],local:true});
     return;
   }
   setCloudStatus('Caricamento…');
@@ -650,6 +690,8 @@ async function maybeMigrateLocalSetlists(){
 function renderCloudSetlistRow(item){
   const card=document.createElement('article');
   card.className='setlist-library-card';
+  card.dataset.setlistId=item.id;
+  card._setlistItem=item;
   if((item.local&&activeLocalSetlistId===item.id)||(!item.local&&activeCloudSetlistId===item.id))card.classList.add('active');
   card.tabIndex=0;
   card.setAttribute('role','button');
@@ -688,10 +730,14 @@ function renderCloudSetlistRow(item){
   };
   actions.append(
     makeIconButton('Condividi','share',()=>item.local?shareLocalSetlist(item):shareUrl(item.name||'Setlist',buildCloudSetlistShareUrl(item.id))),
-    makeIconButton('Rinomina','rename',()=>item.local?renameLocalSetlist(item):renameCloudSetlist(item)),
-    makeIconButton('Duplica','duplicate',()=>item.local?duplicateLocalSetlist(item):duplicateCloudSetlist(item)),
-    makeIconButton('Elimina','delete',()=>item.local?deleteLocalSetlist(item):deleteCloudSetlist(item),'danger')
+    makeIconButton('Rinomina','rename',()=>item.local?renameLocalSetlist(item):renameCloudSetlist(item))
   );
+  if(!item.local){
+    actions.append(
+      makeIconButton('Duplica','duplicate',()=>duplicateCloudSetlist(item)),
+      makeIconButton('Elimina','delete',()=>deleteCloudSetlist(item),'danger')
+    );
+  }
   actions.addEventListener('click',event=>event.stopPropagation());
 
   const open=()=>openCloudSetlist(item);
@@ -701,6 +747,20 @@ function renderCloudSetlistRow(item){
   });
   card.append(info,actions);
   cloudSetlistsList.append(card);
+  if(card.classList.contains('active'))placeTileListUnderSetlist(card);
+}
+function showActiveSetlistCard(id){
+  const cards=[...cloudSetlistsList.querySelectorAll('.setlist-library-card')];
+  const activeCard=cards.find(card=>card.dataset.setlistId===id);
+  cards.forEach(card=>card.classList.toggle('active',card===activeCard));
+  if(activeCard)placeTileListUnderSetlist(activeCard);
+}
+function updateSetlistCardName(id,name){
+  const card=cloudSetlistsList.querySelector(`.setlist-library-card[data-setlist-id="${id}"]`);
+  if(!card)return;
+  const title=card.querySelector('.setlist-library-info strong');
+  if(title)title.textContent=name;
+  card.setAttribute('aria-label',`Apri ${name}`);
 }
 function openCloudSetlist(item,{rerender=true}={}){
   const ids=migrateStoredSongRefs(item.songs||[]);
@@ -716,8 +776,11 @@ function openCloudSetlist(item,{rerender=true}={}){
   localStorage.setItem('personalSetlistName',personalSetlistName);
   localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
   updateSetlistHeader();
+  showActiveSetlistCard(item.id);
   renderTiles();
-  if(rerender)loadCloudSetlists();
+  // Le setlist sono gia' sullo schermo: non ricreare l'elenco ad ogni tocco.
+  // Evita il breve vuoto visibile mentre Firestore risponde.
+  if(rerender&&listMode!=='setlist')loadCloudSetlists();
 }
 function renameLocalSetlist(item){
   const name=prompt('Nuovo nome:',item.name||'');
@@ -754,7 +817,7 @@ async function renameCloudSetlist(item){
   try{
     await db.collection('setlists').doc(item.id).update({name:clean,updatedAt:firebase.firestore.FieldValue.serverTimestamp()});
     if(activeCloudSetlistId===item.id){personalSetlistName=clean;localStorage.setItem('personalSetlistName',clean);updateSetlistHeader();}
-    loadCloudSetlists();
+    updateSetlistCardName(item.id,clean);
   }catch(error){console.error(error);alert('Rinomina non riuscita.');}
 }
 async function duplicateCloudSetlist(item){
@@ -773,10 +836,29 @@ async function duplicateCloudSetlist(item){
 }
 async function deleteCloudSetlist(item){
   if(!confirm(`Eliminare “${item.name||'questa setlist'}”?`))return;
+  const cards=[...cloudSetlistsList.querySelectorAll('.setlist-library-card')];
+  const card=cards.find(entry=>entry.dataset.setlistId===item.id);
+  const index=cards.indexOf(card);
+  const nextCard=cards[index+1]||cards[index-1]||null;
+  const nextItem=nextCard?nextCard._setlistItem:null;
   try{
     await db.collection('setlists').doc(item.id).delete();
-    if(activeCloudSetlistId===item.id){activeCloudSetlistId=null;if(currentUser)localStorage.removeItem(`activeCloudSetlistId:${currentUser.uid}`);}
-    loadCloudSetlists();
+    if(card)card.remove();
+    if(activeCloudSetlistId!==item.id)return;
+    if(nextItem){
+      openCloudSetlist(nextItem,{rerender:false});
+      return;
+    }
+    activeCloudSetlistId=null;
+    if(currentUser)localStorage.removeItem(`activeCloudSetlistId:${currentUser.uid}`);
+    personalSetlist=[];
+    personalSetlistName='La mia Setlist';
+    localStorage.setItem('personalSetlist','[]');
+    localStorage.setItem('personalSetlistName',personalSetlistName);
+    updateSetlistHeader();
+    placeTileListInDefaultPosition();
+    renderTiles();
+    setCloudStatus('Non hai ancora setlist.');
   }catch(error){console.error(error);alert('Eliminazione non riuscita.');}
 }
 async function importCloudSetlistFromUrl(){
@@ -1821,30 +1903,4 @@ async function getThemeSuggestions(query, songs){
   });
 
   return found.filter(x=>x.songs.length);
-}
-
-if(newSetlistButton){
-  newSetlistButton.addEventListener('click',async()=>{
-    const proposed=prompt('Nome della nuova setlist:','Nuova setlist');
-    if(proposed===null)return;
-    const clean=proposed.trim().replace(/\s+/g,' ').slice(0,40)||'Nuova setlist';
-    personalSetlistName=clean;
-    personalSetlist=[];
-    if(currentUser&&db){
-      try{
-        const ref=await db.collection('setlists').add({
-          ownerUid:currentUser.uid,ownerName:firstNameFromUser(currentUser),name:clean,songs:[],visibility:'link',
-          createdAt:firebase.firestore.FieldValue.serverTimestamp(),updatedAt:firebase.firestore.FieldValue.serverTimestamp()
-        });
-        activeCloudSetlistId=ref.id;
-        localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,ref.id);
-      }catch(error){console.error(error);alert('Creazione della setlist non riuscita.');return;}
-    }else{
-      const item={id:makeLocalSetlistId(),name:clean,songs:[],updatedAt:Date.now()};
-      localSetlists.unshift(item);activeLocalSetlistId=item.id;localStorage.setItem('activeLocalSetlistId',item.id);writeLocalSetlists();
-    }
-    localStorage.setItem('personalSetlistName',clean);
-    localStorage.setItem('personalSetlist','[]');
-    updateSetlistHeader();renderTiles();loadCloudSetlists();
-  });
 }

@@ -174,6 +174,7 @@ async function loadSongs() {
 async function init() {
   await loadSongs();
 const tileList=document.getElementById('tileList');
+const tileListHome=document.getElementById('tileListHome');
 const main=document.getElementById('main');
 const search=document.getElementById('search');
 const tagSuggestions=document.getElementById('tagSuggestions');
@@ -186,6 +187,15 @@ const sectionMenu=document.getElementById('sectionMenu');
 const sectionSwitcher=document.getElementById('sectionSwitcher');
 const menuInstall=document.getElementById('menuInstall');
 const menuFeedback=document.getElementById('menuFeedback');
+const menuLogin=document.getElementById('menuLogin');
+const menuLogout=document.getElementById('menuLogout');
+const menuGreeting=document.getElementById('menuGreeting');
+const setlistLibrary=document.getElementById('setlistLibrary');
+const setlistLibraryTitle=document.getElementById('setlistLibraryTitle');
+const cloudSetlistsList=document.getElementById('cloudSetlistsList');
+const cloudSetlistsStatus=document.getElementById('cloudSetlistsStatus');
+const newSetlistButton=document.getElementById('newSetlistButton');
+const saveCurrentCloudSetlist=document.getElementById('saveCurrentCloudSetlist');
 const setlistTools=document.getElementById('setlistTools');
 const setlistTitle=document.getElementById('setlistTitle');
 const setlistCount=document.getElementById('setlistCount');
@@ -209,6 +219,93 @@ const installBannerIos=document.getElementById('installBannerIos');
 let deferredInstallPrompt=null;
 let activeIndex=0;
 let listMode='all';
+let currentUser=null;
+let auth=null;
+let googleProvider=null;
+let db=null;
+let activeCloudSetlistId=null;
+let activeLocalSetlistId=localStorage.getItem('activeLocalSetlistId')||null;
+let cloudSyncTimer=null;
+let newSetlistBusy=false;
+const LOCAL_SETLIST_DEMO=false;
+const LOCAL_SETLISTS_KEY='localSetlistsV1';
+const LOCAL_SETLISTS_BACKUP_KEY='localSetlistsBeforeSingleSetlistV1';
+
+function firstNameFromUser(user){
+  const fullName=String(user?.displayName||'').trim();
+  if(fullName)return fullName.split(/\s+/)[0];
+  const emailName=String(user?.email||'').split('@')[0].trim();
+  return emailName||'utente';
+}
+
+async function renderAuthMenu(user){
+  currentUser=user||null;
+  const loggedIn=Boolean(currentUser);
+  menuGreeting.hidden=!loggedIn;
+  menuLogout.hidden=!loggedIn;
+  menuLogin.hidden=loggedIn;
+  if(loggedIn){
+    const firstName=firstNameFromUser(currentUser);
+    menuGreeting.textContent=`Ciao ${firstName}!`;
+    activeCloudSetlistId=localStorage.getItem(`activeCloudSetlistId:${currentUser.uid}`)||null;
+    await maybeMigrateLocalSetlists();
+  }else{
+    activeCloudSetlistId=null;
+    ensureActiveLocalSetlist();
+  }
+  if(listMode==='setlist')updateSetlistSectionTitle();
+  updateSetlistLibraryVisibility();
+  setlistTools.hidden=true;
+}
+
+function initFirebaseAuth(){
+  if(!window.firebase?.auth){
+    console.warn('Firebase Authentication non disponibile in questo ambiente.');
+    renderAuthMenu(null);
+    return;
+  }
+  auth=firebase.auth();
+  if(window.firebase?.firestore)db=firebase.firestore();
+  googleProvider=new firebase.auth.GoogleAuthProvider();
+  auth.languageCode='it';
+  auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL).catch(error=>{
+    console.warn('Persistenza login non impostata.',error);
+  });
+  auth.onAuthStateChanged(user=>{renderAuthMenu(user).catch(error=>console.error('Aggiornamento account non riuscito.',error));});
+  auth.getRedirectResult().catch(error=>{
+    console.error('Errore nel rientro dal login Google.',error);
+    if(error?.code!=='auth/no-auth-event')alert('Non è stato possibile completare l’accesso con Google.');
+  });
+}
+
+async function loginWithGoogle(){
+  if(!auth||!googleProvider){
+    alert('Il login Google è disponibile nella versione pubblicata su Firebase Hosting.');
+    return;
+  }
+  try{
+    await auth.signInWithPopup(googleProvider);
+  }catch(error){
+    if(error?.code==='auth/popup-blocked'){
+      await auth.signInWithRedirect(googleProvider);
+      return;
+    }
+    if(error?.code==='auth/popup-closed-by-user'||error?.code==='auth/cancelled-popup-request')return;
+    console.error('Errore durante il login Google.',error);
+    alert('Non è stato possibile accedere con Google. Riprova.');
+  }
+}
+
+async function logoutFromGoogle(){
+  if(!auth)return;
+  try{
+    await auth.signOut();
+  }catch(error){
+    console.error('Errore durante la disconnessione.',error);
+    alert('Non è stato possibile uscire dall’account. Riprova.');
+  }
+}
+
 function migrateStoredSongRefs(raw){
   const refs=Array.isArray(raw)?raw:[];
   const ids=[];
@@ -222,14 +319,64 @@ function migrateStoredSongRefs(raw){
   return [...new Set(ids)];
 }
 let favorites=new Set(migrateStoredSongRefs(JSON.parse(localStorage.getItem('favoriteSongs')||'[]')));
-let personalSetlist=migrateStoredSongRefs(JSON.parse(localStorage.getItem('personalSetlist')||'[]'));
-let personalSetlistName=localStorage.getItem('personalSetlistName')||'La mia Setlist';
-if(personalSetlistName==='La mia scaletta'){
-  personalSetlistName='La mia Setlist';
-  localStorage.setItem('personalSetlistName',personalSetlistName);
+function makeLocalSetlistId(){return `local-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,8)}`;}
+function readLocalSetlists(){
+  try{
+    const parsed=JSON.parse(localStorage.getItem(LOCAL_SETLISTS_KEY)||'[]');
+    if(Array.isArray(parsed)&&parsed.length){
+      if(parsed.length>1&&!localStorage.getItem(LOCAL_SETLISTS_BACKUP_KEY)){
+        localStorage.setItem(LOCAL_SETLISTS_BACKUP_KEY,JSON.stringify(parsed));
+      }
+      const activeId=localStorage.getItem('activeLocalSetlistId');
+      const item=parsed.find(entry=>entry.id===activeId)||parsed[0];
+      return [{
+        id:String(item.id||makeLocalSetlistId()),
+        name:String(item.name||'La mia Setlist').slice(0,40),
+        songs:migrateStoredSongRefs(item.songs||[]),
+        updatedAt:Number(item.updatedAt)||Date.now()
+      }];
+    }
+  }catch(error){console.warn('Setlist locali non leggibili.',error);}
+  const legacySongs=migrateStoredSongRefs(JSON.parse(localStorage.getItem('personalSetlist')||'[]'));
+  const legacyName=(localStorage.getItem('personalSetlistName')||'La mia Setlist').replace('La mia scaletta','La mia Setlist');
+  return [{id:makeLocalSetlistId(),name:legacyName.slice(0,40),songs:legacySongs,updatedAt:Date.now()}];
 }
+let localSetlists=readLocalSetlists();
+function writeLocalSetlists(){localStorage.setItem(LOCAL_SETLISTS_KEY,JSON.stringify(localSetlists));}
+function ensureActiveLocalSetlist(){
+  if(!localSetlists.length)localSetlists=[{id:makeLocalSetlistId(),name:'La mia Setlist',songs:[],updatedAt:Date.now()}];
+  let active=localSetlists.find(item=>item.id===activeLocalSetlistId)||localSetlists[0];
+  activeLocalSetlistId=active.id;
+  localStorage.setItem('activeLocalSetlistId',activeLocalSetlistId);
+  personalSetlist=active.songs.slice();
+  personalSetlistName=active.name;
+  writeLocalSetlists();
+}
+let personalSetlist=[];
+let personalSetlistName='La mia Setlist';
+ensureActiveLocalSetlist();
 localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
 localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
+localStorage.setItem('personalSetlistName',personalSetlistName);
+renderAuthMenu(null).catch(console.error);
+initFirebaseAuth();
+
+function showCreatedCloudSetlist(item){
+  if(!item?.id)return;
+  activeCloudSetlistId=item.id;
+  if(currentUser)localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,item.id);
+  personalSetlistName=(item.name||'Nuova setlist').slice(0,40);
+  personalSetlist=[];
+  localStorage.setItem('personalSetlistName',personalSetlistName);
+  localStorage.setItem('personalSetlist','[]');
+  renderCloudSetlistRow({id:item.id,name:personalSetlistName,songs:[],local:false});
+  openCloudSetlist({id:item.id,name:personalSetlistName,songs:[],local:false},{rerender:false});
+}
+window.addEventListener('cloud-setlist-created',event=>showCreatedCloudSetlist(event.detail));
+if(window.__pendingCloudSetlist){
+  showCreatedCloudSetlist(window.__pendingCloudSetlist);
+  delete window.__pendingCloudSetlist;
+}
 let listScrollY=0;
 const shiftState={};
 const ipadPortraitView=window.matchMedia('(orientation:portrait) and (min-width:700px) and (max-width:1100px)');
@@ -356,29 +503,388 @@ function toggleSectionMenu(){
     if(activeItem)activeItem.focus();
   }
 }
+function updateSetlistSectionTitle(){
+  const loggedName=currentUser?firstNameFromUser(currentUser):(LOCAL_SETLIST_DEMO?'Matteo':'');
+  const label=loggedName?`SETLIST DI ${loggedName.toUpperCase()}`:'SETLIST';
+  sectionCurrent.innerHTML=`${label} <svg class="section-menu-setlist-icon setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M4 6h10M4 12h7M4 18h8"></path>
+    <path d="M18 8v6M15 11h6"></path>
+  </svg>`;
+}
 function setListMode(mode){
   listMode=mode;
   filterAll.classList.toggle('active',mode==='all');
   filterFavorites.classList.toggle('active',mode==='favorites');
   filterSetlist.classList.toggle('active',mode==='setlist');
-  sectionCurrent.innerHTML=mode==='favorites'
-    ? 'PREFERITI ★'
-    : mode==='setlist'
-      ? `SETLIST <svg class="section-menu-setlist-icon setlist-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M4 6h10M4 12h7M4 18h8"></path>
-          <path d="M18 8v6M15 11h6"></path>
-        </svg>`
-      : 'TUTTI I CANTI';
-  setlistTools.hidden=mode!=='setlist';
+  if(mode==='favorites')sectionCurrent.innerHTML='PREFERITI ★';
+  else if(mode==='setlist')updateSetlistSectionTitle();
+  else sectionCurrent.innerHTML='TUTTI I CANTI';
+  const isSetlistMode=mode==='setlist';
+  if(!isSetlistMode)placeTileListInDefaultPosition();
+  search.hidden=isSetlistMode;
+  tagSuggestions.hidden=isSetlistMode;
+  setlistTools.hidden=true;
+  updateSetlistLibraryVisibility();
   closeSectionMenu();
   renderTiles();
 }
+function placeTileListInDefaultPosition(){
+  if(tileListHome)tileListHome.after(tileList);
+  tileList.classList.remove('setlist-song-list');
+}
+function placeTileListUnderSetlist(card){
+  card.after(tileList);
+  tileList.classList.add('setlist-song-list');
+}
 function saveSetlist(){
   localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
+  localStorage.setItem('personalSetlistName',personalSetlistName);
+  if(currentUser){
+    scheduleCloudSetlistSync();
+  }else{
+    const index=localSetlists.findIndex(item=>item.id===activeLocalSetlistId);
+    const record={id:activeLocalSetlistId||makeLocalSetlistId(),name:personalSetlistName.slice(0,40),songs:personalSetlist.slice(0,250),updatedAt:Date.now()};
+    if(index>=0)localSetlists[index]=record;else localSetlists.unshift(record);
+    activeLocalSetlistId=record.id;
+    localStorage.setItem('activeLocalSetlistId',record.id);
+    writeLocalSetlists();
+    if(listMode==='setlist')loadCloudSetlists();
+  }
 }
 function updateSetlistHeader(){
   setlistTitle.textContent=personalSetlistName;
   setlistCount.textContent=personalSetlist.length===1?'1 canto':`${personalSetlist.length} canti`;
+}
+function cloudSetlistPayload(){
+  return {
+    ownerUid:currentUser.uid,
+    ownerName:firstNameFromUser(currentUser),
+    name:personalSetlistName.slice(0,40),
+    songs:personalSetlist.slice(0,250),
+    visibility:'link',
+    updatedAt:firebase.firestore.FieldValue.serverTimestamp()
+  };
+}
+function scheduleCloudSetlistSync(){
+  if(!activeCloudSetlistId||!currentUser||!db)return;
+  clearTimeout(cloudSyncTimer);
+  cloudSyncTimer=setTimeout(async()=>{
+    try{
+      await db.collection('setlists').doc(activeCloudSetlistId).update(cloudSetlistPayload());
+    }catch(error){
+      console.warn('Sincronizzazione setlist non riuscita.',error);
+    }
+  },500);
+}
+async function saveCurrentSetlistToCloud({forceNew=false}={}){
+  if(!currentUser||!db){
+    alert('Accedi con Google per salvare le setlist online.');
+    return null;
+  }
+  if(!personalSetlist.length){
+    alert('La Setlist è vuota.');
+    return null;
+  }
+  try{
+    let ref;
+    if(activeCloudSetlistId && !forceNew){
+      ref=db.collection('setlists').doc(activeCloudSetlistId);
+      await ref.set(cloudSetlistPayload(),{merge:true});
+    }else{
+      ref=await db.collection('setlists').add({
+        ...cloudSetlistPayload(),
+        createdAt:firebase.firestore.FieldValue.serverTimestamp()
+      });
+      activeCloudSetlistId=ref.id;
+      localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,activeCloudSetlistId);
+    }
+    return ref.id;
+  }catch(error){
+    console.error('Salvataggio setlist online non riuscito.',error);
+    alert('Non è stato possibile salvare la setlist online. Controlla le regole Firestore.');
+    return null;
+  }
+}
+function buildCloudSetlistShareUrl(id){
+  const url=new URL(window.location.href);
+  url.search='';
+  url.hash='';
+  url.searchParams.set('setlist',id);
+  return url.toString();
+}
+async function shareUrl(title,url){
+  const data={title,text:`Setlist: ${title}`,url};
+  if(navigator.share){
+    try{await navigator.share(data);return;}catch(error){if(error?.name==='AbortError')return;}
+  }
+  try{await navigator.clipboard.writeText(url);alert('Link della Setlist copiato.');}
+  catch{prompt('Copia questo link:',url);}
+}
+function updateSetlistLibraryVisibility(){
+  if(!setlistLibrary)return;
+  const show=listMode==='setlist';
+  setlistLibrary.hidden=!show;
+  if(!show)placeTileListInDefaultPosition();
+  const hasCloudSetlists=Boolean(currentUser&&db);
+  newSetlistButton.hidden=!hasCloudSetlists;
+  setlistLibraryTitle.textContent=hasCloudSetlists?'Le mie setlist':'La mia setlist';
+  if(show)loadCloudSetlists();
+}
+function setCloudStatus(message){cloudSetlistsStatus.textContent=message||'';}
+async function loadCloudSetlists(){
+  cloudSetlistsList.innerHTML='';
+  setCloudStatus('');
+  if(!currentUser||!db){
+    ensureActiveLocalSetlist();
+    renderCloudSetlistRow({...localSetlists[0],local:true});
+    return;
+  }
+  setCloudStatus('Caricamento…');
+  try{
+    const snapshot=await db.collection('setlists').where('ownerUid','==',currentUser.uid).get();
+    const docs=snapshot.docs.map(doc=>({id:doc.id,...doc.data(),local:false}));
+    docs.sort((a,b)=>{
+      const at=a.updatedAt?.toMillis?.()||0, bt=b.updatedAt?.toMillis?.()||0;
+      return bt-at;
+    });
+    if(!activeCloudSetlistId&&docs.length){
+      activeCloudSetlistId=docs[0].id;
+      localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,activeCloudSetlistId);
+      openCloudSetlist(docs[0],{rerender:false});
+    }
+    setCloudStatus(docs.length?'':'Non hai ancora setlist.');
+    docs.forEach(item=>renderCloudSetlistRow(item));
+  }catch(error){
+    console.error('Lettura setlist online non riuscita.',error);
+    setCloudStatus('Non è stato possibile caricare le setlist.');
+  }
+}
+async function maybeMigrateLocalSetlists(){
+  if(!currentUser||!db||!localSetlists.length)return;
+  const key=`setlistsMigrated:${currentUser.uid}`;
+  if(localStorage.getItem(key)==='done')return;
+  const count=localSetlists.length;
+  const accepted=confirm(`Ho trovato ${count} ${count===1?'setlist salvata':'setlist salvate'} su questo dispositivo. Vuoi aggiunger${count===1?'la':'le'} alle Setlist di ${firstNameFromUser(currentUser)}?`);
+  if(!accepted)return;
+  try{
+    for(const item of localSetlists){
+      const safeId=`import-${currentUser.uid}-${item.id}`.replace(/[^a-zA-Z0-9_-]/g,'_').slice(0,1400);
+      await db.collection('setlists').doc(safeId).set({
+        ownerUid:currentUser.uid,
+        ownerName:firstNameFromUser(currentUser),
+        name:item.name.slice(0,40),
+        songs:item.songs.slice(0,250),
+        visibility:'link',
+        createdAt:firebase.firestore.FieldValue.serverTimestamp(),
+        updatedAt:firebase.firestore.FieldValue.serverTimestamp()
+      },{merge:true});
+    }
+    localStorage.setItem(key,'done');
+    activeCloudSetlistId=`import-${currentUser.uid}-${localSetlists[0].id}`.replace(/[^a-zA-Z0-9_-]/g,'_').slice(0,1400);
+    localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,activeCloudSetlistId);
+  }catch(error){
+    console.error('Importazione setlist locali non riuscita.',error);
+    alert('Non è stato possibile importare le setlist locali. Riprova più tardi.');
+  }
+}
+function renderCloudSetlistRow(item){
+  const card=document.createElement('article');
+  card.className='setlist-library-card';
+  card.dataset.setlistId=item.id;
+  card._setlistItem=item;
+  if((item.local&&activeLocalSetlistId===item.id)||(!item.local&&activeCloudSetlistId===item.id))card.classList.add('active');
+  card.tabIndex=0;
+  card.setAttribute('role','button');
+  card.setAttribute('aria-label',`Apri ${item.name||'Setlist senza nome'}`);
+
+  const info=document.createElement('div');
+  info.className='setlist-library-info';
+  const title=document.createElement('strong');
+  title.textContent=item.name||'Setlist senza nome';
+  const count=document.createElement('span');
+  const n=Array.isArray(item.songs)?item.songs.length:0;
+  count.textContent=n===1?'1 canto':`${n} canti`;
+  info.append(title,count);
+
+  const actions=document.createElement('div');
+  actions.className='setlist-card-icon-actions';
+  const icons={
+    share:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0-4 4m4-4 4 4"/><path d="M5 12v7h14v-7"/></svg>',
+    rename:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4l11-11-4-4L4 16v4Z"/><path d="m13.5 6.5 4 4"/></svg>',
+    duplicate:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>',
+    delete:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="m6 7 1 13h10l1-13"/><path d="M10 11v5M14 11v5"/></svg>'
+  };
+  const makeIconButton=(label,icon,handler,kind='')=>{
+    const button=document.createElement('button');
+    button.type='button';
+    button.className='setlist-card-icon-button';
+    if(kind)button.classList.add(kind);
+    button.setAttribute('aria-label',label);
+    button.title=label;
+    button.innerHTML=icons[icon];
+    button.addEventListener('click',event=>{
+      event.stopPropagation();
+      handler();
+    });
+    return button;
+  };
+  actions.append(
+    makeIconButton('Condividi','share',()=>item.local?shareLocalSetlist(item):shareUrl(item.name||'Setlist',buildCloudSetlistShareUrl(item.id))),
+    makeIconButton('Rinomina','rename',()=>item.local?renameLocalSetlist(item):renameCloudSetlist(item))
+  );
+  if(!item.local){
+    actions.append(
+      makeIconButton('Duplica','duplicate',()=>duplicateCloudSetlist(item)),
+      makeIconButton('Elimina','delete',()=>deleteCloudSetlist(item),'danger')
+    );
+  }
+  actions.addEventListener('click',event=>event.stopPropagation());
+
+  const open=()=>openCloudSetlist(item);
+  card.addEventListener('click',open);
+  card.addEventListener('keydown',event=>{
+    if(event.key==='Enter'||event.key===' '){event.preventDefault();open();}
+  });
+  card.append(info,actions);
+  cloudSetlistsList.append(card);
+  if(card.classList.contains('active'))placeTileListUnderSetlist(card);
+}
+function showActiveSetlistCard(id){
+  const cards=[...cloudSetlistsList.querySelectorAll('.setlist-library-card')];
+  const activeCard=cards.find(card=>card.dataset.setlistId===id);
+  cards.forEach(card=>card.classList.toggle('active',card===activeCard));
+  if(activeCard)placeTileListUnderSetlist(activeCard);
+}
+function updateSetlistCardName(id,name){
+  const card=cloudSetlistsList.querySelector(`.setlist-library-card[data-setlist-id="${id}"]`);
+  if(!card)return;
+  const title=card.querySelector('.setlist-library-info strong');
+  if(title)title.textContent=name;
+  card.setAttribute('aria-label',`Apri ${name}`);
+}
+function openCloudSetlist(item,{rerender=true}={}){
+  const ids=migrateStoredSongRefs(item.songs||[]);
+  personalSetlist=ids;
+  personalSetlistName=(item.name||'Setlist').slice(0,40);
+  if(item.local){
+    activeLocalSetlistId=item.id;
+    localStorage.setItem('activeLocalSetlistId',activeLocalSetlistId);
+  }else{
+    activeCloudSetlistId=item.id;
+    if(currentUser)localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,activeCloudSetlistId);
+  }
+  localStorage.setItem('personalSetlistName',personalSetlistName);
+  localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
+  updateSetlistHeader();
+  showActiveSetlistCard(item.id);
+  renderTiles();
+  // Le setlist sono gia' sullo schermo: non ricreare l'elenco ad ogni tocco.
+  // Evita il breve vuoto visibile mentre Firestore risponde.
+  if(rerender&&listMode!=='setlist')loadCloudSetlists();
+}
+function renameLocalSetlist(item){
+  const name=prompt('Nuovo nome:',item.name||'');
+  if(name===null)return;
+  const clean=name.trim().replace(/\s+/g,' ').slice(0,40);
+  if(!clean)return;
+  const target=localSetlists.find(entry=>entry.id===item.id);if(!target)return;
+  target.name=clean;target.updatedAt=Date.now();
+  if(activeLocalSetlistId===item.id){personalSetlistName=clean;localStorage.setItem('personalSetlistName',clean);}
+  writeLocalSetlists();loadCloudSetlists();
+}
+function duplicateLocalSetlist(item){
+  const copy={id:makeLocalSetlistId(),name:`Copia di ${item.name||'Setlist'}`.slice(0,40),songs:migrateStoredSongRefs(item.songs||[]),updatedAt:Date.now()};
+  localSetlists.unshift(copy);writeLocalSetlists();loadCloudSetlists();
+}
+function deleteLocalSetlist(item){
+  if(!confirm(`Eliminare “${item.name||'questa setlist'}”?`))return;
+  localSetlists=localSetlists.filter(entry=>entry.id!==item.id);
+  if(!localSetlists.length)localSetlists=[{id:makeLocalSetlistId(),name:'La mia Setlist',songs:[],updatedAt:Date.now()}];
+  if(activeLocalSetlistId===item.id){activeLocalSetlistId=localSetlists[0].id;ensureActiveLocalSetlist();renderTiles();}
+  writeLocalSetlists();loadCloudSetlists();
+}
+async function shareLocalSetlist(item){
+  const url=new URL(window.location.href);url.search='';url.hash='';
+  url.searchParams.set('scaletta',migrateStoredSongRefs(item.songs||[]).join(','));
+  url.searchParams.set('nome',item.name||'Setlist');
+  await shareUrl(item.name||'Setlist',url.toString());
+}
+async function renameCloudSetlist(item){
+  const name=prompt('Nuovo nome:',item.name||'');
+  if(name===null)return;
+  const clean=name.trim().replace(/\s+/g,' ').slice(0,40);
+  if(!clean)return;
+  try{
+    await db.collection('setlists').doc(item.id).update({name:clean,updatedAt:firebase.firestore.FieldValue.serverTimestamp()});
+    if(activeCloudSetlistId===item.id){personalSetlistName=clean;localStorage.setItem('personalSetlistName',clean);updateSetlistHeader();}
+    updateSetlistCardName(item.id,clean);
+  }catch(error){console.error(error);alert('Rinomina non riuscita.');}
+}
+async function duplicateCloudSetlist(item){
+  try{
+    await db.collection('setlists').add({
+      ownerUid:currentUser.uid,
+      ownerName:firstNameFromUser(currentUser),
+      name:`Copia di ${item.name||'Setlist'}`.slice(0,40),
+      songs:migrateStoredSongRefs(item.songs||[]).slice(0,250),
+      visibility:'link',
+      createdAt:firebase.firestore.FieldValue.serverTimestamp(),
+      updatedAt:firebase.firestore.FieldValue.serverTimestamp()
+    });
+    loadCloudSetlists();
+  }catch(error){console.error(error);alert('Duplicazione non riuscita.');}
+}
+async function deleteCloudSetlist(item){
+  if(!confirm(`Eliminare “${item.name||'questa setlist'}”?`))return;
+  const cards=[...cloudSetlistsList.querySelectorAll('.setlist-library-card')];
+  const card=cards.find(entry=>entry.dataset.setlistId===item.id);
+  const index=cards.indexOf(card);
+  const nextCard=cards[index+1]||cards[index-1]||null;
+  const nextItem=nextCard?nextCard._setlistItem:null;
+  try{
+    await db.collection('setlists').doc(item.id).delete();
+    if(card)card.remove();
+    if(activeCloudSetlistId!==item.id)return;
+    if(nextItem){
+      openCloudSetlist(nextItem,{rerender:false});
+      return;
+    }
+    activeCloudSetlistId=null;
+    if(currentUser)localStorage.removeItem(`activeCloudSetlistId:${currentUser.uid}`);
+    personalSetlist=[];
+    personalSetlistName='La mia Setlist';
+    localStorage.setItem('personalSetlist','[]');
+    localStorage.setItem('personalSetlistName',personalSetlistName);
+    updateSetlistHeader();
+    placeTileListInDefaultPosition();
+    renderTiles();
+    setCloudStatus('Non hai ancora setlist.');
+  }catch(error){console.error(error);alert('Eliminazione non riuscita.');}
+}
+async function importCloudSetlistFromUrl(){
+  const params=new URLSearchParams(window.location.search);
+  const id=params.get('setlist');
+  if(!id||!db)return;
+  try{
+    const doc=await db.collection('setlists').doc(id).get();
+    if(!doc.exists){alert('La setlist condivisa non esiste più.');return;}
+    const item={id:doc.id,...doc.data()};
+    const ids=migrateStoredSongRefs(item.songs||[]);
+    if(!ids.length)return;
+    if(confirm(`Aprire la Setlist “${item.name||'condivisa'}” con ${ids.length} canti?`)){
+      personalSetlist=ids;
+      personalSetlistName=(item.name||'Setlist condivisa').slice(0,40);
+      localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
+      localStorage.setItem('personalSetlistName',personalSetlistName);
+      if(currentUser?.uid===item.ownerUid){activeCloudSetlistId=id;localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,id);}
+      else{activeCloudSetlistId=null;}
+      setListMode('setlist');
+    }
+  }catch(error){console.error('Apertura setlist condivisa non riuscita.',error);alert('Non è stato possibile aprire la setlist condivisa.');}
+  finally{
+    const clean=new URL(window.location.href);clean.searchParams.delete('setlist');
+    history.replaceState({},'',clean.pathname+clean.search+clean.hash);
+  }
 }
 function buildSetlistShareUrl(){
   const url=new URL(window.location.href);
@@ -389,30 +895,12 @@ function buildSetlistShareUrl(){
   return url.toString();
 }
 async function shareCurrentSetlist(){
-  if(!personalSetlist.length){
-    alert('La Setlist è vuota.');
-    return;
+  if(!personalSetlist.length){alert('La Setlist è vuota.');return;}
+  if(currentUser&&db){
+    const id=await saveCurrentSetlistToCloud();
+    if(id){await shareUrl(personalSetlistName,buildCloudSetlistShareUrl(id));return;}
   }
-  const url=buildSetlistShareUrl();
-  const shareData={
-    title:personalSetlistName,
-    text:`Setlist: ${personalSetlistName}`,
-    url
-  };
-  if(navigator.share){
-    try{
-      await navigator.share(shareData);
-      return;
-    }catch(error){
-      if(error && error.name==='AbortError')return;
-    }
-  }
-  try{
-    await navigator.clipboard.writeText(url);
-    alert('Link della Setlist copiato.');
-  }catch{
-    prompt('Copia questo link:',url);
-  }
+  await shareUrl(personalSetlistName,buildSetlistShareUrl());
 }
 function importSetlistFromUrl(){
   const params=new URLSearchParams(window.location.search);
@@ -714,7 +1202,7 @@ function renderTiles(filter=search.value){
   tileList.hidden=false;
   tileList.innerHTML='';
   let any=false;
-  const query=typeof filter==='string'?filter:search.value;
+  const query=listMode==='setlist'?'':(typeof filter==='string'?filter:search.value);
   const easterSongId=easterEggSongId(query);
   const easterEggActive=Boolean(easterSongId);
   const hasCategorySuggestions=easterEggActive
@@ -1169,6 +1657,14 @@ menuFeedback.addEventListener('click',()=>{
   closeSectionMenu();
   generalFeedback.click();
 });
+menuLogin.addEventListener('click',async()=>{
+  closeSectionMenu();
+  await loginWithGoogle();
+});
+menuLogout.addEventListener('click',async()=>{
+  closeSectionMenu();
+  await logoutFromGoogle();
+});
 menuInstall.addEventListener('click',()=>{
   closeSectionMenu();
   if(installBannerAction && !installBannerAction.hidden){
@@ -1188,6 +1684,7 @@ renameSetlist.addEventListener('click',()=>{
   personalSetlistName=cleanName.slice(0,40);
   localStorage.setItem('personalSetlistName',personalSetlistName);
   updateSetlistHeader();
+  scheduleCloudSetlistSync();
 });
 clearSetlist.addEventListener('click',()=>{
   if(!personalSetlist.length)return;
@@ -1196,6 +1693,15 @@ clearSetlist.addEventListener('click',()=>{
     saveSetlist();
     renderTiles();
   }
+});
+
+saveCurrentCloudSetlist.addEventListener('click',async()=>{
+  if(LOCAL_SETLIST_DEMO && !currentUser){
+    alert('Anteprima grafica locale: il salvataggio reale funziona nella preview Firebase dopo il login.');
+    return;
+  }
+  const id=await saveCurrentSetlistToCloud({forceNew:true});
+  if(id){setCloudStatus('Setlist salvata online.');loadCloudSetlists();}
 });
 
 function isStandaloneApp(){
@@ -1287,6 +1793,7 @@ if(initialSong===null){
   }
 }
 importSetlistFromUrl();
+setTimeout(importCloudSetlistFromUrl,0);
 }
 
 init().catch(error => {

@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="icon" href="icon-192.png">
 <title>Canzoniere San Marco</title>
-<link rel="stylesheet" href="/css/style.css?v=20260716-section-menu-test-15">
+<link rel="stylesheet" href="/css/style.css?v=20260717-setlist-fix-11">
 </head>
 <body>
 <header><h1>Canzoniere San Marco</h1><p class="tag">canti e accordi per la messa</p></header>
@@ -42,28 +42,39 @@
           <path d="M18 8v6M15 11h6"></path>
         </svg></button>
         <div class="section-menu-divider" role="separator"></div>
+        <div class="section-menu-greeting" id="menuGreeting" hidden>Ciao Matteo!</div>
         <button class="section-menu-item section-menu-secondary" id="menuInstall" type="button" role="menuitem">Installa il Canzoniere</button>
         <button class="section-menu-item section-menu-secondary" id="menuFeedback" type="button" role="menuitem">Segnala un errore</button>
-        <a class="section-menu-item section-menu-secondary section-menu-coffee" href="https://paypal.me/MatteoDelFabbro?locale.x=it_IT&amp;country.x=IT" target="_blank" rel="noopener noreferrer" role="menuitem">Offrimi un caffè</a>
-        <button class="section-menu-item section-menu-secondary section-menu-future" type="button" role="menuitem" disabled aria-disabled="true">login</button>
+        <a class="section-menu-item section-menu-secondary section-menu-coffee" href="https://paypal.me/MatteoDelFabbro?locale.x=it_IT&amp;country.x=IT" target="_blank" rel="noopener noreferrer" role="menuitem">Offrimi un caffè!</a>
+        <button class="section-menu-item section-menu-secondary" id="menuLogin" type="button" role="menuitem">Login</button>
+        <button class="section-menu-item section-menu-secondary" id="menuLogout" type="button" role="menuitem" hidden>Esci</button>
       </div>
     </div>
-    <div class="setlist-tools" id="setlistTools" hidden>
-      <div class="setlist-title-row">
-        <div>
-          <strong id="setlistTitle">La mia Setlist</strong>
-          <span class="setlist-count" id="setlistCount">0 canti</span>
-        </div>
-        <div class="setlist-title-actions">
-          <button class="setlist-share" id="shareSetlist" type="button">Condividi</button>
-          <button class="setlist-rename" id="renameSetlist" type="button">Rinomina</button>
-          <button class="setlist-clear" id="clearSetlist" type="button">Svuota</button>
+    <section class="setlist-library" id="setlistLibrary" hidden aria-labelledby="setlistLibraryTitle">
+      <div class="setlist-library-heading">
+        <button class="setlist-new-button" id="newSetlistButton" type="button">+ Nuova setlist</button>
+        <h2 id="setlistLibraryTitle" class="sr-only">Setlist personali</h2>
+      </div>
+      <div class="setlist-tools setlist-current-card setlist-library-card" id="setlistTools" hidden>
+        <div class="setlist-current-main">
+          <div class="setlist-current-copy setlist-library-info">
+            <strong id="setlistTitle">La mia Setlist</strong>
+            <span class="setlist-count" id="setlistCount">0 canti</span>
+          </div>
+          <div class="setlist-title-actions">
+            <button class="setlist-share" id="shareSetlist" type="button">Condividi</button>
+            <button class="setlist-rename" id="renameSetlist" type="button">Rinomina</button>
+            <button class="setlist-library-save" id="saveCurrentCloudSetlist" type="button" hidden>Salva online</button>
+            <button class="setlist-clear" id="clearSetlist" type="button">Svuota</button>
+          </div>
         </div>
       </div>
-      <p class="setlist-help">Usa le frecce per cambiare l’ordine.</p>
-    </div>
+      <p class="setlist-library-status" id="cloudSetlistsStatus" role="status" aria-live="polite"></p>
+      <div class="setlist-library-grid" id="cloudSetlistsList"></div>
+    </section>
     <input id="search" type="search" placeholder="Cerca titolo o parole..." autocomplete="off" enterkeyhint="search">
     <div id="tagSuggestions"></div>
+    <span id="tileListHome" hidden></span>
     <ul class="tile-list" id="tileList"></ul>
   </nav>
   <main id="main"></main>
@@ -121,8 +132,10 @@
 
 <!-- Firebase Hosting carica automaticamente configurazione e SDK del progetto -->
 <script src="/__/firebase/8.10.1/firebase-app.js"></script>
+<script src="/__/firebase/8.10.1/firebase-auth.js"></script>
 <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
 <script src="/__/firebase/init.js"></script>
-<script src="/js/app.js?v=20260716-section-menu-test-15" defer></script>
+<script src="/js/app.js?v=20260717-setlist-fix-11" defer></script>
+<script src="/js/new-setlist.js?v=20260717-setlist-fix-11" defer></script>
 </body>
 </html>

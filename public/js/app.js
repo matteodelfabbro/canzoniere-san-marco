@@ -226,10 +226,12 @@ let db=null;
 let activeCloudSetlistId=null;
 let activeLocalSetlistId=localStorage.getItem('activeLocalSetlistId')||null;
 let cloudSyncTimer=null;
+let favoriteSyncTimer=null;
 let newSetlistBusy=false;
 const LOCAL_SETLIST_DEMO=false;
 const LOCAL_SETLISTS_KEY='localSetlistsV1';
 const LOCAL_SETLISTS_BACKUP_KEY='localSetlistsBeforeSingleSetlistV1';
+const GUEST_FAVORITES_KEY='favoriteSongs';
 
 function firstNameFromUser(user){
   const fullName=String(user?.displayName||'').trim();
@@ -248,9 +250,11 @@ async function renderAuthMenu(user){
     const firstName=firstNameFromUser(currentUser);
     menuGreeting.textContent=`Ciao ${firstName}!`;
     activeCloudSetlistId=localStorage.getItem(`activeCloudSetlistId:${currentUser.uid}`)||null;
+    await loadCloudFavorites();
     await maybeMigrateLocalSetlists();
   }else{
     activeCloudSetlistId=null;
+    favorites=new Set(readStoredFavorites(GUEST_FAVORITES_KEY));
     ensureActiveLocalSetlist();
   }
   if(listMode==='setlist')updateSetlistSectionTitle();
@@ -318,7 +322,14 @@ function migrateStoredSongRefs(raw){
   });
   return [...new Set(ids)];
 }
-let favorites=new Set(migrateStoredSongRefs(JSON.parse(localStorage.getItem('favoriteSongs')||'[]')));
+function readStoredFavorites(key){
+  try{return migrateStoredSongRefs(JSON.parse(localStorage.getItem(key)||'[]'));}
+  catch(error){return [];}
+}
+function currentFavoritesStorageKey(){
+  return currentUser?`favoriteSongs:${currentUser.uid}`:GUEST_FAVORITES_KEY;
+}
+let favorites=new Set(readStoredFavorites(GUEST_FAVORITES_KEY));
 function makeLocalSetlistId(){return `local-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,8)}`;}
 function readLocalSetlists(){
   try{
@@ -355,7 +366,7 @@ function ensureActiveLocalSetlist(){
 let personalSetlist=[];
 let personalSetlistName='La mia Setlist';
 ensureActiveLocalSetlist();
-localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
+localStorage.setItem(GUEST_FAVORITES_KEY,JSON.stringify([...favorites]));
 localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
 localStorage.setItem('personalSetlistName',personalSetlistName);
 renderAuthMenu(null).catch(console.error);
@@ -473,7 +484,45 @@ function songTitleMatches(song,query){
   return songMatches(song,query);
 }
 function saveFavorites(){
-  localStorage.setItem('favoriteSongs',JSON.stringify([...favorites]));
+  localStorage.setItem(currentFavoritesStorageKey(),JSON.stringify([...favorites]));
+  scheduleCloudFavoritesSync();
+}
+function favoriteIds(){return [...favorites].slice(0,500);}
+function scheduleCloudFavoritesSync(){
+  if(!currentUser||!db)return;
+  clearTimeout(favoriteSyncTimer);
+  favoriteSyncTimer=setTimeout(async()=>{
+    try{
+      await db.collection('userPreferences').doc(currentUser.uid).set({
+        favoriteSongIds:favoriteIds(),
+        updatedAt:firebase.firestore.FieldValue.serverTimestamp()
+      },{merge:true});
+    }catch(error){
+      console.warn('Sincronizzazione preferiti non riuscita.',error);
+    }
+  },300);
+}
+async function loadCloudFavorites(){
+  if(!currentUser||!db)return;
+  const localIds=[...favorites];
+  const cachedIds=readStoredFavorites(`favoriteSongs:${currentUser.uid}`);
+  try{
+    const ref=db.collection('userPreferences').doc(currentUser.uid);
+    const snapshot=await ref.get();
+    const cloudIds=snapshot.exists?migrateStoredSongRefs(snapshot.data()?.favoriteSongIds||[]):[];
+    favorites=new Set([...cloudIds,...cachedIds,...localIds]);
+    localStorage.setItem(currentFavoritesStorageKey(),JSON.stringify(favoriteIds()));
+    if(!snapshot.exists||cloudIds.length!==favorites.size){
+      await ref.set({
+        favoriteSongIds:favoriteIds(),
+        updatedAt:firebase.firestore.FieldValue.serverTimestamp()
+      },{merge:true});
+    }
+    renderTiles();
+    if(document.body.classList.contains('song-open'))renderSong(activeIndex);
+  }catch(error){
+    console.warn('Caricamento preferiti online non riuscito.',error);
+  }
 }
 function songId(index){
   return songs[index]?.id;
@@ -661,13 +710,29 @@ async function loadCloudSetlists(){
 }
 async function maybeMigrateLocalSetlists(){
   if(!currentUser||!db||!localSetlists.length)return;
-  const key=`setlistsMigrated:${currentUser.uid}`;
-  if(localStorage.getItem(key)==='done')return;
-  const count=localSetlists.length;
+  const importable=localSetlists.filter(item=>migrateStoredSongRefs(item.songs||[]).length);
+  if(!importable.length)return;
+  const legacyKey=`setlistsMigrated:${currentUser.uid}`;
+  const markerKey=`setlistsMigrationHandled:${currentUser.uid}`;
+  const signature=JSON.stringify(importable.map(item=>({
+    id:item.id,
+    name:item.name,
+    songs:migrateStoredSongRefs(item.songs||[]),
+    updatedAt:item.updatedAt
+  })));
+  if(localStorage.getItem(markerKey)===signature)return;
+  if(localStorage.getItem(legacyKey)==='done'){
+    localStorage.setItem(markerKey,signature);
+    return;
+  }
+  const count=importable.length;
   const accepted=confirm(`Ho trovato ${count} ${count===1?'setlist salvata':'setlist salvate'} su questo dispositivo. Vuoi aggiunger${count===1?'la':'le'} alle Setlist di ${firstNameFromUser(currentUser)}?`);
-  if(!accepted)return;
+  if(!accepted){
+    localStorage.setItem(markerKey,signature);
+    return;
+  }
   try{
-    for(const item of localSetlists){
+    for(const item of importable){
       const safeId=`import-${currentUser.uid}-${item.id}`.replace(/[^a-zA-Z0-9_-]/g,'_').slice(0,1400);
       await db.collection('setlists').doc(safeId).set({
         ownerUid:currentUser.uid,
@@ -679,8 +744,9 @@ async function maybeMigrateLocalSetlists(){
         updatedAt:firebase.firestore.FieldValue.serverTimestamp()
       },{merge:true});
     }
-    localStorage.setItem(key,'done');
-    activeCloudSetlistId=`import-${currentUser.uid}-${localSetlists[0].id}`.replace(/[^a-zA-Z0-9_-]/g,'_').slice(0,1400);
+    localStorage.setItem(legacyKey,'done');
+    localStorage.setItem(markerKey,signature);
+    activeCloudSetlistId=`import-${currentUser.uid}-${importable[0].id}`.replace(/[^a-zA-Z0-9_-]/g,'_').slice(0,1400);
     localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,activeCloudSetlistId);
   }catch(error){
     console.error('Importazione setlist locali non riuscita.',error);

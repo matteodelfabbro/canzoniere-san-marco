@@ -72,6 +72,24 @@ service cloud.firestore {
       allow delete: if signedIn() && resource.data.ownerUid == request.auth.uid;
     }
 
+    match /userPreferences/{userId} {
+      function signedIn() {
+        return request.auth != null;
+      }
+
+      function validPreferences(data) {
+        return data.keys().hasAll(['favoriteSongIds', 'updatedAt']) &&
+          data.keys().hasOnly(['favoriteSongIds', 'updatedAt']) &&
+          data.favoriteSongIds is list && data.favoriteSongIds.size() <= 500 &&
+          data.updatedAt is timestamp;
+      }
+
+      allow get: if signedIn() && userId == request.auth.uid;
+      allow create, update: if signedIn() && userId == request.auth.uid &&
+        validPreferences(request.resource.data);
+      allow delete: if signedIn() && userId == request.auth.uid;
+    }
+
     match /{document=**} {
       allow read, write: if false;
     }

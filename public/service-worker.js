@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-strofe-accordi-18';
+const CACHE_NAME = 'canzoniere-alleluia-e-poi-19';
 const APP_ASSETS = [
   "./",
   "./index.html",

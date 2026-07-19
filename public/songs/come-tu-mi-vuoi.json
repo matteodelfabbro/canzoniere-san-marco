@@ -3,7 +3,7 @@
   "sub": "Branca",
   "capo": null,
   "key": {
-    "note": "DO",
+    "note": "SOL",
     "mode": "maggiore"
   },
   "search": "Come Tu Mi Vuoi  Intro  Strofa 1    Eccomi  Signor,  vengo   a Te mio  Re,  che si compia  in me  la tua volontà.    Eccomi  Signor,  vengo   a Te mio  Dio,  plasma  il cuore mio  e di Te  vivrò.    Se Tu  lo vuoi, Signore  manda   me      e il Tuo nome   annuncerò  Ritornello    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Questa  vita io voglio  donarla  a Te  per dar  gloria al Tuo  nome   mio  Re    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Se mi  guida il Tuo  Amore   paura  non  ho,    per sempre   io sarò                   come   Tu mi  vuoi.  Strofa 2    Eccomi  Signor,  vengo   a Te mio  Re,  che si compia  in me  la tua volontà.    Eccomi  Signor,  vengo   a Te mio  Dio,  plasma  il cuore mio  e di Te  vivrò.    Tra le tue mani   mai più  vacillerò e strumento   Tuo  sarò  Ritornello    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Questa  vita io voglio  donarla  a Te  per dar  gloria al Tuo  nome   mio  Re    Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,    Se mi  guida il Tuo  Amore   paura  non  ho,    per sempre   io sarò  Finale    Come   Tu  mi  vuoi  (Io sarò)    Come   Tu  mi  vuoi  (Io sarò)    Come   Tu  mi  vuoi  (Io sarò)     Come   Tu  mi  vuoi",
@@ -14,7 +14,11 @@
     },
     {
       "t": "c",
-      "v": "SOL   DO   MI-  RE"
+      "v": "| SOL | DO | RE7/SOL | SOL |"
+    },
+    {
+      "t": "c",
+      "v": "| MI- | LA-7 | RE4/7 | SOL | % |"
     },
     {
       "t": "s"
@@ -25,7 +29,7 @@
     },
     {
       "t": "c",
-      "v": "   SOL              DO                     MI-                           RE"
+      "v": "   SOL              LA-                    MI-                       SOL RE"
     },
     {
       "t": "l",
@@ -33,7 +37,7 @@
     },
     {
       "t": "c",
-      "v": "   SOL              DO                     MI-                     SI-"
+      "v": "   SOL              LA-                    MI-                     SI-"
     },
     {
       "t": "l",
@@ -41,7 +45,7 @@
     },
     {
       "t": "c",
-      "v": "   DO             RE                MI-    LA-                SI-    LA-"
+      "v": "   DO             RE                DO     LA-                SI-    RE4"
     },
     {
       "t": "l",
@@ -56,7 +60,7 @@
     },
     {
       "t": "c",
-      "v": "   RE7            SOL       RE                MI-          SI-"
+      "v": "   RE             SOL       RE                MI-          SI-"
     },
     {
       "t": "l",
@@ -72,7 +76,7 @@
     },
     {
       "t": "c",
-      "v": "   RE             MI-        RE   SI           MI-         SI-"
+      "v": "   RE             DO         RE   SI7          MI-         SI-"
     },
     {
       "t": "l",
@@ -80,15 +84,15 @@
     },
     {
       "t": "c",
-      "v": "         DO               RE       SI        MI-"
+      "v": "         DO               RE       SI7       MI-"
     },
     {
       "t": "l",
-      "v": "   Se mi  guida il Tuo  Amore   paura  non  ho,"
+      "v": "   Se mi  guida il Tuo  amore   paura  non  ho,"
     },
     {
       "t": "c",
-      "v": "           LA-       RE                                 SOL"
+      "v": "           LA-       DO    RE4 RE                      SOL  LA- RE SOL"
     },
     {
       "t": "l",
@@ -122,7 +126,7 @@
     },
     {
       "t": "c",
-      "v": "   RE7            SOL       RE                MI-          SI-"
+      "v": "   RE             SOL       RE                MI-          SI-"
     },
     {
       "t": "l",
@@ -138,7 +142,7 @@
     },
     {
       "t": "c",
-      "v": "   RE             MI-        RE   SI           MI-         SI-"
+      "v": "   RE             DO         RE   SI7          MI-         SI-"
     },
     {
       "t": "l",
@@ -146,19 +150,19 @@
     },
     {
       "t": "c",
-      "v": "         DO               RE       SI        MI-"
+      "v": "         DO               RE       SI7       MI-"
     },
     {
       "t": "l",
-      "v": "   Se mi  guida il Tuo  Amore   paura  non  ho,"
+      "v": "   Se mi  guida il Tuo  amore   paura  non  ho,"
     },
     {
       "t": "c",
-      "v": "           LA-       RE"
+      "v": "           LA-       DO    RE4 RE                      DO  RE              DO  RE"
     },
     {
       "t": "l",
-      "v": "   per sempre   io sarò"
+      "v": "   per sempre   io sarò                   come   Tu mi  vuoi.      come Tu mi vuoi"
     },
     {
       "t": "s"

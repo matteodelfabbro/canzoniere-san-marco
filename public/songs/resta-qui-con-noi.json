@@ -2,6 +2,7 @@
   "title": "Resta Qui con Noi",
   "sub": "",
   "capo": null,
+  "compactRepeats": true,
   "key": {
     "note": "RE",
     "mode": "maggiore"

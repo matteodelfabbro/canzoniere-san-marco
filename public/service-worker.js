@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-resta-qui-con-noi-47';
+const CACHE_NAME = 'canzoniere-resta-compact-repeats-48';
 const APP_ASSETS = [
   "./",
   "./index.html",

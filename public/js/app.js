@@ -1737,12 +1737,12 @@ function compactRepeatedSongSections(song){
     toggle.className='repeat-section-toggle';
     toggle.type='button';
     toggle.setAttribute('aria-expanded','false');
-    toggle.innerHTML=`<span>${esc(heading)} <small>· come sopra</small></span><span class="repeat-section-action">＋ Mostra</span>`;
+    toggle.innerHTML=`<span class="repeat-section-title">${esc(heading)}</span><span class="repeat-section-action">— Mostra</span>`;
     toggle.addEventListener('click',()=>{
       const expanded=toggle.getAttribute('aria-expanded')==='true';
       toggle.setAttribute('aria-expanded',String(!expanded));
       content.hidden=expanded;
-      toggle.querySelector('.repeat-section-action').textContent=expanded?'＋ Mostra':'− Nascondi';
+      toggle.querySelector('.repeat-section-action').textContent=expanded?'— Mostra':'— Nascondi';
       applyTabletSongColumns();
     });
 

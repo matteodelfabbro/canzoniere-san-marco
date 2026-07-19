@@ -110,7 +110,7 @@
   .segment-chord,.segment-lyric{font-weight:400;line-height:1.52;letter-spacing:-.005em;color:#222}
   .segment-chord{font-weight:700;color:#8f1530;line-height:1.38;min-height:1.38em;font-size:.9em;letter-spacing:0}
   .segment-lyric{font-weight:500;line-height:1.65}
-  .headline{position:relative;font-family:Manrope,sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--navy);background:none;display:inline-block;padding:.08rem .14rem .08rem 0;border:0;border-radius:0;margin:.85rem 0 .18rem}
+  .headline{position:relative;font-family:Manrope,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--navy);background:none;display:inline-block;padding:.08rem .14rem .08rem 0;border:0;border-radius:0;margin:.85rem 0 .18rem}
   .headline::before{content:"";position:absolute;top:.16em;bottom:.16em;left:-.55rem;width:3px;border-radius:999px;background:var(--gold-bright)}
   .sheet>.headline:first-child{margin-top:0}
   .spacer{height:.5rem}
@@ -1563,7 +1563,7 @@ header p.tag{
 /* Anche le etichette Intro, Strofa, Ritornello crescono insieme al canto,
    mantenendo però il loro ruolo secondario. */
 .headline{
-  font-size:.7em;
+  font-size:.78em;
 }
 
 .song-section{
@@ -1588,7 +1588,7 @@ header p.tag{
   color:var(--navy);
   box-shadow:none;
   font-family:Manrope,sans-serif;
-  font-size:.72em;
+  font-size:.78em;
   font-weight:650;
   letter-spacing:.1em;
   text-align:left;

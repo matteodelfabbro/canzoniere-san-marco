@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-setlist-fix-13';
+const CACHE_NAME = 'canzoniere-search-clear-14';
 const APP_ASSETS = [
   "./",
   "./index.html",

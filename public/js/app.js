@@ -177,6 +177,7 @@ const tileList=document.getElementById('tileList');
 const tileListHome=document.getElementById('tileListHome');
 const main=document.getElementById('main');
 const search=document.getElementById('search');
+const searchClear=document.getElementById('searchClear');
 const tagSuggestions=document.getElementById('tagSuggestions');
 const filterAll=document.getElementById('filterAll');
 const filterFavorites=document.getElementById('filterFavorites');
@@ -1704,8 +1705,16 @@ function renderSong(i){
   document.getElementById('fontUp').addEventListener('click',()=>changeFontSize(1));
 }
 window.addEventListener('resize',applyTabletSongColumns);
-search.addEventListener('input',()=>renderTiles());
-search.addEventListener('search',()=>renderTiles());
+function updateSearchClear(){searchClear.hidden=!search.value}
+search.addEventListener('input',()=>{updateSearchClear();renderTiles()});
+search.addEventListener('search',()=>{updateSearchClear();renderTiles()});
+searchClear.addEventListener('click',()=>{
+  search.value='';
+  updateSearchClear();
+  renderTiles();
+  search.focus();
+});
+updateSearchClear();
 filterAll.addEventListener('click',()=>setListMode('all'));
 filterFavorites.addEventListener('click',()=>setListMode('favorites'));
 filterSetlist.addEventListener('click',()=>setListMode('setlist'));

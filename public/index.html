@@ -72,7 +72,10 @@
       <p class="setlist-library-status" id="cloudSetlistsStatus" role="status" aria-live="polite"></p>
       <div class="setlist-library-grid" id="cloudSetlistsList"></div>
     </section>
-    <input id="search" type="search" placeholder="Cerca titolo o parole..." autocomplete="off" enterkeyhint="search">
+    <div class="search-field">
+      <input id="search" type="search" placeholder="Cerca titolo o parole..." autocomplete="off" enterkeyhint="search">
+      <button class="search-clear" id="searchClear" type="button" aria-label="Cancella ricerca" hidden>×</button>
+    </div>
     <div id="tagSuggestions"></div>
     <span id="tileListHome" hidden></span>
     <ul class="tile-list" id="tileList"></ul>
@@ -135,7 +138,7 @@
 <script src="/__/firebase/8.10.1/firebase-auth.js"></script>
 <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
 <script src="/__/firebase/init.js"></script>
-<script src="/js/app.js?v=20260717-setlist-fix-13" defer></script>
-<script src="/js/new-setlist.js?v=20260717-setlist-fix-13" defer></script>
+<script src="/js/app.js?v=20260719-search-clear-14" defer></script>
+<script src="/js/new-setlist.js?v=20260719-search-clear-14" defer></script>
 </body>
 </html>

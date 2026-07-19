@@ -1861,7 +1861,9 @@ function renderSong(i){
   });
   const sheet=main.querySelector('.sheet');
   if(sheet)sheet.addEventListener('click',()=>{
-    if(lecternMode)setLecternControlsVisible(true);
+    if(lecternMode){
+      setLecternControlsVisible(!document.body.classList.contains('lectern-controls-visible'));
+    }
   });
   const prevBtn=document.getElementById('setlistPrev');
   const nextBtn=document.getElementById('setlistNext');

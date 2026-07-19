@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-lectern-fast-25';
+const CACHE_NAME = 'canzoniere-lectern-toggle-26';
 const APP_ASSETS = [
   "./",
   "./index.html",

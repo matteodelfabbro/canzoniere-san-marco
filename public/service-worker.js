@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-seamless-song-menu-45';
+const CACHE_NAME = 'canzoniere-icon-song-menu-46';
 const APP_ASSETS = [
   "./",
   "./index.html",

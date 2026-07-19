@@ -1209,7 +1209,13 @@ function setLecternMode(enabled){
   if(button){
     button.classList.toggle('active',lecternMode);
     button.setAttribute('aria-pressed',String(lecternMode));
-    button.querySelector('span').textContent=lecternMode?'Esci da Leggio':'Leggio';
+    const label=lecternMode?'Esci da Leggio':'Leggio';
+    button.setAttribute('aria-label',label);
+    button.setAttribute('title',label);
+    const iconPath=button.querySelector('path');
+    if(iconPath)iconPath.setAttribute('d',lecternMode
+      ?'M4 8h4V4M20 8h-4V4M20 16h-4v4M4 16h4v4'
+      :'M8 4H4v4M16 4h4v4M20 16v4h-4M4 16v4h4');
   }
 }
 async function trackSongOpen(id){
@@ -1756,12 +1762,15 @@ function renderSong(i){
   const shift=shiftState[i]||0;
   let html=`<div class="song-nav">
     <div class="song-nav-main">
-      <button class="back-list" id="backList" type="button"><span class="back-arrow" aria-hidden="true">←</span>Elenco</button>
-      <button class="lectern-toggle song-view-toggle${lecternMode?' active':''}" id="lecternToggle" type="button" aria-pressed="${lecternMode}">
+      <button class="back-list icon-only" id="backList" type="button" aria-label="Torna all'elenco dei canti" title="Elenco canti">
         <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M8 4H4v4M16 4h4v4M20 16v4h-4M4 16v4h4"></path>
+          <path d="M19 12H5M11 6l-6 6 6 6"></path>
         </svg>
-        <span>${lecternMode?'Esci da Leggio':'Leggio'}</span>
+      </button>
+      <button class="lectern-toggle song-view-toggle icon-only${lecternMode?' active':''}" id="lecternToggle" type="button" aria-pressed="${lecternMode}" aria-label="${lecternMode?'Esci da Leggio':'Leggio'}" title="${lecternMode?'Esci da Leggio':'Leggio'}">
+        <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="${lecternMode?'M4 8h4V4M20 8h-4V4M20 16h-4v4M4 16h4v4':'M8 4H4v4M16 4h4v4M20 16v4h-4M4 16v4h4'}"></path>
+        </svg>
       </button>
       <button class="lyrics-only-toggle song-view-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">
         <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">

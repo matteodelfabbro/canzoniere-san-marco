@@ -1608,6 +1608,15 @@ header p.tag{
   width:100%;
 }
 
+/* Il ritornello emerge durante il canto senza appesantire gli accordi. */
+.refrain-section .lyricline,
+.refrain-section .segment-lyric,
+.refrain-section .explicit-lyric,
+.refrain-section .lyrics-only-line,
+.refrain-section .lyrics-only-plain{
+  font-weight:600;
+}
+
 .repeat-section-collapsible{
   break-inside:avoid;
   -webkit-column-break-inside:avoid;

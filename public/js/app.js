@@ -1833,9 +1833,10 @@ function renderSong(i){
 
   let songSectionOpen=false;
 
-  const openSongSection=()=>{
+  const openSongSection=(heading='')=>{
     if(songSectionOpen)html+='</section>';
-    html+='<section class="song-section">';
+    const isRefrain=/(ritornello|refrain)/i.test(heading);
+    html+=`<section class="song-section${isRefrain?' refrain-section':''}">`;
     songSectionOpen=true;
   };
 
@@ -1844,8 +1845,8 @@ function renderSong(i){
     const next=song.lines[lineIndex+1];
 
     if(line.t==='h'){
-      openSongSection();
       const cleanText=(line.v||'').trimStart();
+      openSongSection(cleanText);
       html+=`<div class="headline">${esc(cleanText)}</div>`;
       continue;
     }

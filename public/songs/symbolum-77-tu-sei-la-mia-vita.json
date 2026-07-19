@@ -60,24 +60,48 @@
       "v": "Strofa 2"
     },
     {
+      "t": "c",
+      "v": "MI-              DO      RE             SOL"
+    },
+    {
       "t": "l",
       "v": "Credo    in te Signore,   nato   da  Maria          (Credo  in Te, figlio eterno e Santo)"
+    },
+    {
+      "t": "c",
+      "v": "MI-                DO         RE            SI7"
     },
     {
       "t": "l",
       "v": "figlio eterno    e santo,  uomo     come    noi"
     },
     {
+      "t": "c",
+      "v": "LA-          RE7       SOL             MI-"
+    },
+    {
       "t": "l",
       "v": "Morto    per  amore,    vivo   in mezzo    a  noi   (Morto   per amore,  vivo in mezzo  a noi)"
+    },
+    {
+      "t": "c",
+      "v": "DO              RE                       SOL              SI7"
     },
     {
       "t": "l",
       "v": "una   cosa  sola   con  il Padre   e con  i tuoi"
     },
     {
+      "t": "c",
+      "v": "LA-             RE7           SOL              MI-"
+    },
+    {
       "t": "l",
       "v": "Fino   a  quando    io  lo so,  Tu ritornerai      (Fino  a quando  io lo so, tu ritornerai)"
+    },
+    {
+      "t": "c",
+      "v": "DO              RE            MI-"
     },
     {
       "t": "l",
@@ -91,12 +115,24 @@
       "v": "Strofa 3"
     },
     {
+      "t": "c",
+      "v": "MI-       DO RE SOL     MI-             DO      RE       SI7"
+    },
+    {
       "t": "l",
       "v": "Tu  sei la mia   forza,  altro  io non   ho,  tu sei la mia   pace,   la mia  libertà"
     },
     {
+      "t": "c",
+      "v": "LA-       RE7 SOL MI-   DO              RE       SOL      SI7"
+    },
+    {
       "t": "l",
       "v": "Niente    nella  vita ci separerà   so  che  la Tua  mano     forte  non   mi  lascerà"
+    },
+    {
+      "t": "c",
+      "v": "LA-       RE7 SOL MI-   DO              RE       MI-"
     },
     {
       "t": "l",
@@ -110,24 +146,48 @@
       "v": "Strofa 4"
     },
     {
+      "t": "c",
+      "v": "MI-              DO      RE             SOL"
+    },
+    {
       "t": "l",
       "v": "Padre   della  vita   noi  crediamo    in  Te       (Padre, in Te credo, Figlio Eterno)"
+    },
+    {
+      "t": "c",
+      "v": "MI-                DO         RE            SI7"
     },
     {
       "t": "l",
       "v": "figlio salvatore     noi  speriamo    in Te"
     },
     {
+      "t": "c",
+      "v": "LA-          RE7       SOL             MI-"
+    },
+    {
       "t": "l",
       "v": "Spirito  d'amore      vieni  in mezzo    a  noi     (Spirito d'amore, vieni in mezzo  a noi)"
+    },
+    {
+      "t": "c",
+      "v": "DO              RE                       SOL              SI7"
     },
     {
       "t": "l",
       "v": "Tu  da  mille  strade   ci raduni   in unità"
     },
     {
+      "t": "c",
+      "v": "LA-             RE7           SOL              MI-"
+    },
+    {
       "t": "l",
       "v": "E per   mille  strade  poi,  dove   tu  vorrai      (E per mille strade poi, dove tu vorrai)"
+    },
+    {
+      "t": "c",
+      "v": "DO              RE            MI-"
     },
     {
       "t": "l",

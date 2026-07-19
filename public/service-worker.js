@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-come-tu-mi-vuoi-17';
+const CACHE_NAME = 'canzoniere-strofe-accordi-18';
 const APP_ASSETS = [
   "./",
   "./index.html",

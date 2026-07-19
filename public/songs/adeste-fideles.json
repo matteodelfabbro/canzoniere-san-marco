@@ -76,6 +76,10 @@
       "v": "Strofa 2"
     },
     {
+      "t": "c",
+      "v": "       RE               LA         RE    LA         RE     SOL       RE      LA"
+    },
+    {
       "t": "l",
       "v": "   En  grege   relicto humiles    ad  cunas"
     },
@@ -83,11 +87,19 @@
       "t": "s"
     },
     {
+      "t": "c",
+      "v": "        SI-   LA    MI7     LA     RE  LA         RE     LA    MI     LA"
+    },
+    {
       "t": "l",
       "v": "   Vocati   pastores   adproperant"
     },
     {
       "t": "s"
+    },
+    {
+      "t": "c",
+      "v": "   RE      SOL    RE     LA7     RE      LA      RE      SI-   MI      LA   MI7   LA"
     },
     {
       "t": "l",

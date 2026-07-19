@@ -2283,3 +2283,9 @@ header p.tag{
 .song-nav .text-size-value{
   color:var(--navy)!important;
 }
+
+/* Sul fondo bianco la barra resta leggibile senza sembrare un riquadro. */
+body:not(.lectern-mode) .song-nav{
+  background:rgba(255,255,255,.97);
+  border-bottom:0;
+}

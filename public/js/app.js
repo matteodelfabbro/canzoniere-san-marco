@@ -1663,7 +1663,13 @@ function renderSong(i){
     }
 
     const cleanText=(line.v||'').trimStart();
-    if(line.t==='c')html+=`<div class="chordline standalone-chord">${esc(transposeLine(cleanText,shift))}</div>`;
+    if(line.t==='c'){
+      const chordText=esc(transposeLine(cleanText,shift));
+      const chordHtml=line.accent==='gold-bars'
+        ?chordText.replace(/\|/g,'<span class="measure-bar">|</span>')
+        :chordText;
+      html+=`<div class="chordline standalone-chord">${chordHtml}</div>`;
+    }
     else if(line.t==='l')html+=`<div class="lyricline lyrics-only-plain">${esc(cleanText)}</div>`;
     else html+='<div class="spacer"></div>';
   }

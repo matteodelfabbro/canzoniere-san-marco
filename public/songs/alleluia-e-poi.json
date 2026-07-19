@@ -14,7 +14,8 @@
     },
     {
       "t": "c",
-      "v": "| SOL | RE | MI7 | LA4 |"
+      "v": "| SOL RE | MI7 LA4 |",
+      "accent": "gold-bars"
     },
     {
       "t": "s"

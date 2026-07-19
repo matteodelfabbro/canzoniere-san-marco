@@ -103,6 +103,7 @@
   .block:last-child{margin-bottom:0}
   .chordline,.lyricline{font-family:Manrope,sans-serif;font-weight:400;line-height:1.52;letter-spacing:-.005em;color:#222}
   .chordline{font-family:Manrope,sans-serif;font-weight:700;color:#8f1530;line-height:1.38;font-size:.9em;letter-spacing:0}
+  .measure-bar{color:#a06c00}
   .lyricline{font-weight:500;line-height:1.65}
   .music-row{display:flex;flex-wrap:nowrap;align-items:flex-start;width:max-content;min-width:100%;font-family:Manrope,sans-serif;font-size:var(--song-font-size);margin-bottom:.08rem}
   .music-segment{flex:0 0 auto;width:auto;min-width:calc(var(--cols) * .48em);padding-right:.06em}

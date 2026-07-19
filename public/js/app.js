@@ -1714,6 +1714,43 @@ function applyTabletSongColumns(){
   });
 }
 
+function compactRepeatedSongSections(song){
+  if(!song?.compactRepeats)return;
+  const sections=[...main.querySelectorAll('.song-section')];
+  const firstByContent=new Map();
+
+  sections.forEach(section=>{
+    const signature=section.textContent.replace(/\s+/g,' ').trim().toLowerCase();
+    const heading=section.querySelector('.headline')?.textContent.trim();
+    if(!signature||!heading)return;
+    if(!firstByContent.has(signature)){
+      firstByContent.set(signature,section);
+      return;
+    }
+
+    const content=document.createElement('div');
+    content.className='repeat-section-content';
+    content.hidden=true;
+    while(section.firstChild)content.appendChild(section.firstChild);
+
+    const toggle=document.createElement('button');
+    toggle.className='repeat-section-toggle';
+    toggle.type='button';
+    toggle.setAttribute('aria-expanded','false');
+    toggle.innerHTML=`<span>${esc(heading)} <small>· come sopra</small></span><span class="repeat-section-action">Mostra</span>`;
+    toggle.addEventListener('click',()=>{
+      const expanded=toggle.getAttribute('aria-expanded')==='true';
+      toggle.setAttribute('aria-expanded',String(!expanded));
+      content.hidden=expanded;
+      toggle.querySelector('.repeat-section-action').textContent=expanded?'Mostra':'Nascondi';
+      applyTabletSongColumns();
+    });
+
+    section.classList.add('repeat-section-collapsible');
+    section.append(toggle,content);
+  });
+}
+
 function renderSong(i){
   const song=songs[i];
   const shift=shiftState[i]||0;
@@ -1827,6 +1864,7 @@ function renderSong(i){
   document.getElementById('backList').addEventListener('click',backToList);
   document.getElementById('songFavorite').addEventListener('click',()=>toggleFavorite(i));
   document.getElementById('songSetlist').addEventListener('click',()=>toggleSetlist(i));
+  compactRepeatedSongSections(song);
   applyTabletSongColumns();
   document.getElementById('songFeedback').addEventListener('click',()=>openFeedback(i));
   document.getElementById('lyricsOnlyToggle').addEventListener('click',()=>{

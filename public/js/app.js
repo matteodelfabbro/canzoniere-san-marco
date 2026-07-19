@@ -227,7 +227,7 @@ let db=null;
 let activeCloudSetlistId=null;
 let activeLocalSetlistId=localStorage.getItem('activeLocalSetlistId')||null;
 let cloudSyncTimer=null;
-let favoriteSyncTimer=null;
+let favoriteCloudUnsubscribe=null;
 let newSetlistBusy=false;
 const LOCAL_SETLIST_DEMO=false;
 const LOCAL_SETLISTS_KEY='localSetlistsV1';
@@ -242,6 +242,10 @@ function firstNameFromUser(user){
 }
 
 async function renderAuthMenu(user){
+  if(favoriteCloudUnsubscribe){
+    favoriteCloudUnsubscribe();
+    favoriteCloudUnsubscribe=null;
+  }
   currentUser=user||null;
   const loggedIn=Boolean(currentUser);
   menuGreeting.hidden=!loggedIn;
@@ -484,41 +488,69 @@ function songMatches(song,query){
 function songTitleMatches(song,query){
   return songMatches(song,query);
 }
-function saveFavorites(){
+function saveFavoritesLocally(){
   localStorage.setItem(currentFavoritesStorageKey(),JSON.stringify([...favorites]));
-  scheduleCloudFavoritesSync();
 }
 function favoriteIds(){return [...favorites].slice(0,500);}
-function scheduleCloudFavoritesSync(){
+async function syncCloudFavorite(id,enabled){
   if(!currentUser||!db)return;
-  clearTimeout(favoriteSyncTimer);
-  favoriteSyncTimer=setTimeout(async()=>{
-    try{
-      await db.collection('userPreferences').doc(currentUser.uid).set({
-        favoriteSongIds:favoriteIds(),
-        updatedAt:firebase.firestore.FieldValue.serverTimestamp()
-      },{merge:true});
-    }catch(error){
-      console.warn('Sincronizzazione preferiti non riuscita.',error);
-    }
-  },300);
+  try{
+    const operation=enabled
+      ?firebase.firestore.FieldValue.arrayUnion(id)
+      :firebase.firestore.FieldValue.arrayRemove(id);
+    await db.collection('userPreferences').doc(currentUser.uid).set({
+      favoriteSongIds:operation,
+      updatedAt:firebase.firestore.FieldValue.serverTimestamp()
+    },{merge:true});
+  }catch(error){
+    console.warn('Sincronizzazione preferito non riuscita.',error);
+  }
+}
+function startCloudFavoritesListener(userId){
+  if(!db||!userId)return;
+  favoriteCloudUnsubscribe=db.collection('userPreferences').doc(userId).onSnapshot(snapshot=>{
+    if(currentUser?.uid!==userId||!snapshot.exists)return;
+    favorites=new Set(migrateStoredSongRefs(snapshot.data()?.favoriteSongIds||[]));
+    saveFavoritesLocally();
+    renderTiles();
+    if(document.body.classList.contains('song-open'))renderSong(activeIndex);
+  },error=>{
+    console.warn('Aggiornamento preferiti in tempo reale non riuscito.',error);
+  });
 }
 async function loadCloudFavorites(){
   if(!currentUser||!db)return;
-  const localIds=[...favorites];
+  const userId=currentUser.uid;
+  const guestIds=readStoredFavorites(GUEST_FAVORITES_KEY);
   const cachedIds=readStoredFavorites(`favoriteSongs:${currentUser.uid}`);
+  const migrationIds=guestIds;
   try{
-    const ref=db.collection('userPreferences').doc(currentUser.uid);
+    const ref=db.collection('userPreferences').doc(userId);
     const snapshot=await ref.get();
     const cloudIds=snapshot.exists?migrateStoredSongRefs(snapshot.data()?.favoriteSongIds||[]):[];
-    favorites=new Set([...cloudIds,...cachedIds,...localIds]);
-    localStorage.setItem(currentFavoritesStorageKey(),JSON.stringify(favoriteIds()));
-    if(!snapshot.exists||cloudIds.length!==favorites.size){
+    const guestIdsToMerge=migrationIds
+      .filter(id=>!cloudIds.includes(id))
+      .slice(0,Math.max(0,500-cloudIds.length));
+    const initialIds=snapshot.exists
+      ?[...cloudIds,...guestIdsToMerge]
+      :[...new Set([...cachedIds,...migrationIds])].slice(0,500);
+    favorites=new Set(initialIds);
+    saveFavoritesLocally();
+    if(!snapshot.exists){
       await ref.set({
-        favoriteSongIds:favoriteIds(),
+        favoriteSongIds:favoriteIds().length
+          ?firebase.firestore.FieldValue.arrayUnion(...favoriteIds())
+          :[],
+        updatedAt:firebase.firestore.FieldValue.serverTimestamp()
+      },{merge:true});
+    }else if(guestIdsToMerge.length){
+      await ref.set({
+        favoriteSongIds:firebase.firestore.FieldValue.arrayUnion(...guestIdsToMerge),
         updatedAt:firebase.firestore.FieldValue.serverTimestamp()
       },{merge:true});
     }
+    localStorage.setItem(GUEST_FAVORITES_KEY,'[]');
+    startCloudFavoritesListener(userId);
     renderTiles();
     if(document.body.classList.contains('song-open'))renderSong(activeIndex);
   }catch(error){
@@ -534,9 +566,15 @@ function isFavorite(index){
 function toggleFavorite(index){
   const id=songId(index);
   if(!id)return;
-  if(favorites.has(id))favorites.delete(id);
-  else favorites.add(id);
-  saveFavorites();
+  const enabled=!favorites.has(id);
+  if(enabled&&favorites.size>=500){
+    alert('Hai raggiunto il limite massimo di 500 preferiti.');
+    return;
+  }
+  if(enabled)favorites.add(id);
+  else favorites.delete(id);
+  saveFavoritesLocally();
+  void syncCloudFavorite(id,enabled);
   renderTiles();
   if(document.body.classList.contains('song-open')&&activeIndex===index)renderSong(index);
 }

@@ -1726,9 +1726,18 @@ function compactRepeatedSongSections(song){
   const firstByContent=new Map();
 
   sections.forEach(section=>{
-    const signature=section.textContent.replace(/\s+/g,' ').trim().toLowerCase();
     const heading=section.querySelector('.headline')?.textContent.trim();
-    if(!signature||!heading)return;
+    if(!heading||!/(ritornello|refrain)/i.test(heading))return;
+
+    const signature=[...section.children]
+      .filter(element=>!element.classList.contains('headline'))
+      .map(element=>element.textContent)
+      .join(' ')
+      .replace(/\s+/g,' ')
+      .trim()
+      .toLowerCase();
+
+    if(!signature)return;
     if(!firstByContent.has(signature)){
       firstByContent.set(signature,section);
       return;

@@ -2,6 +2,7 @@
   "title": "Gloria",
   "sub": "Gen Verde",
   "capo": null,
+  "compactRepeats": true,
   "key": {
     "note": "DO",
     "mode": "maggiore"

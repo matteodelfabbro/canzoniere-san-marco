@@ -2,6 +2,7 @@
   "title": "Beati i Misericordiosi",
   "sub": "Inno GMG 2016 - Capo 2",
   "capo": null,
+  "compactRepeats": true,
   "key": {
     "note": "DO",
     "mode": "maggiore"

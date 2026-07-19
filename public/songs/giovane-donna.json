@@ -2,6 +2,7 @@
   "title": "Giovane Donna",
   "sub": "Scaglianti",
   "capo": null,
+  "compactRepeats": true,
   "key": {
     "note": "DO",
     "mode": "maggiore"

@@ -2,6 +2,7 @@
   "title": "Il Canto dei 3 Giovani",
   "sub": "Marranzino · De Luca",
   "capo": null,
+  "compactRepeats": true,
   "key": {
     "note": "DO",
     "mode": "maggiore"

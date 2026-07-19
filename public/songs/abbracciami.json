@@ -2,6 +2,7 @@
   "title": "Abbracciami",
   "sub": "",
   "capo": null,
+  "compactRepeats": true,
   "key": {
     "note": "DO",
     "mode": "maggiore"

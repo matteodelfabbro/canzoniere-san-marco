@@ -2,6 +2,7 @@
   "title": "Osanna",
   "sub": "Al Figlio di David",
   "capo": null,
+  "compactRepeats": true,
   "key": {
     "note": "DO",
     "mode": "maggiore"

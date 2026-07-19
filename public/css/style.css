@@ -1251,6 +1251,30 @@ body.lectern-mode .sheet{
   min-width:0;
 }
 
+/* Comandi senza capsule: più leggeri, ma sempre visibili. */
+.song-nav .song-view-toggle,
+.song-nav .text-controls,
+.song-nav .transpose-controls{
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+.song-nav .song-view-toggle{
+  padding-inline:.28rem;
+}
+
+.song-nav .song-view-toggle:hover,
+.song-nav .song-view-toggle:active{
+  background:rgba(22,35,61,.045)!important;
+}
+
+.song-nav .song-view-toggle.active{
+  background:transparent!important;
+  color:var(--wine);
+  box-shadow:inset 0 -2px 0 rgba(109,22,38,.5)!important;
+}
+
 .text-controls,
 .transpose-controls{
   flex:0 0 auto!important;

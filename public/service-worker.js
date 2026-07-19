@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-lectern-23';
+const CACHE_NAME = 'canzoniere-light-paper-24';
 const APP_ASSETS = [
   "./",
   "./index.html",

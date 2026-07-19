@@ -2266,3 +2266,20 @@ header p.tag{
   box-shadow:0 7px 18px rgba(0,0,0,.11);
   overflow:hidden;
 }
+
+/* Tipografia coerente per tutte le etichette della barra del canto. */
+.song-nav .back-list,
+.song-nav .song-view-toggle,
+.song-nav .transpose-value,
+.song-nav .text-size-value{
+  font-family:Manrope,sans-serif!important;
+  font-size:.8rem!important;
+  font-weight:600!important;
+  line-height:1!important;
+  letter-spacing:0!important;
+}
+
+.song-nav .transpose-value,
+.song-nav .text-size-value{
+  color:var(--navy)!important;
+}

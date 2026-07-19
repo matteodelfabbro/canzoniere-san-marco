@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-section-markers-40';
+const CACHE_NAME = 'canzoniere-unified-menu-type-41';
 const APP_ASSETS = [
   "./",
   "./index.html",

@@ -228,6 +228,10 @@ let activeCloudSetlistId=null;
 let activeLocalSetlistId=localStorage.getItem('activeLocalSetlistId')||null;
 let cloudSyncTimer=null;
 let favoriteCloudUnsubscribe=null;
+let screenWakeLock=null;
+let screenWakeLockRequestPending=false;
+let lecternMode=false;
+let lecternControlsTimer=null;
 let newSetlistBusy=false;
 const LOCAL_SETLIST_DEMO=false;
 const LOCAL_SETLISTS_KEY='localSetlistsV1';
@@ -1150,6 +1154,76 @@ function songIndexFromHash(){
   const legacyIndex=Number(legacyMatch[1])-1;
   return legacyIndex>=0&&legacyIndex<songs.length?legacyIndex:null;
 }
+function updateWakeLockIndicator(){
+  const indicator=document.getElementById('screenAwakeIndicator');
+  if(!indicator)return;
+  const active=Boolean(screenWakeLock&&!screenWakeLock.released);
+  indicator.hidden=!active;
+  indicator.textContent=active?'● Schermo attivo':'';
+}
+async function requestScreenWakeLock(){
+  if(!document.body.classList.contains('song-open')||document.visibilityState!=='visible')return;
+  if(!navigator.wakeLock?.request)return;
+  if(screenWakeLockRequestPending)return;
+  if(screenWakeLock&&!screenWakeLock.released){
+    updateWakeLockIndicator();
+    return;
+  }
+  screenWakeLockRequestPending=true;
+  try{
+    const lock=await navigator.wakeLock.request('screen');
+    if(!document.body.classList.contains('song-open')||document.visibilityState!=='visible'){
+      await lock.release();
+      return;
+    }
+    screenWakeLock=lock;
+    lock.addEventListener('release',()=>{
+      if(screenWakeLock===lock)screenWakeLock=null;
+      updateWakeLockIndicator();
+    });
+    updateWakeLockIndicator();
+  }catch(error){
+    screenWakeLock=null;
+    updateWakeLockIndicator();
+    console.warn('Schermo sempre acceso non disponibile.',error);
+  }finally{
+    screenWakeLockRequestPending=false;
+  }
+}
+async function releaseScreenWakeLock(){
+  const lock=screenWakeLock;
+  screenWakeLock=null;
+  updateWakeLockIndicator();
+  if(lock&&!lock.released){
+    try{await lock.release();}
+    catch(error){console.warn('Rilascio blocco schermo non riuscito.',error);}
+  }
+}
+function setLecternControlsVisible(visible,{autoHide=true}={}){
+  clearTimeout(lecternControlsTimer);
+  document.body.classList.toggle('lectern-controls-visible',lecternMode&&visible);
+  if(lecternMode&&visible&&autoHide){
+    lecternControlsTimer=setTimeout(()=>{
+      document.body.classList.remove('lectern-controls-visible');
+    },4000);
+  }
+}
+function setLecternMode(enabled){
+  lecternMode=Boolean(enabled);
+  document.body.classList.toggle('lectern-mode',lecternMode);
+  if(lecternMode){
+    setLecternControlsVisible(true);
+    window.scrollTo({top:0,behavior:'auto'});
+  }else{
+    setLecternControlsVisible(false,{autoHide:false});
+  }
+  const button=document.getElementById('lecternToggle');
+  if(button){
+    button.classList.toggle('active',lecternMode);
+    button.setAttribute('aria-pressed',String(lecternMode));
+    button.querySelector('span').textContent=lecternMode?'Esci da Leggio':'Leggio';
+  }
+}
 async function trackSongOpen(id){
   if(!db||!id||!window.firebase?.firestore)return;
   const ref=db.collection('songStats').doc(id);
@@ -1186,6 +1260,7 @@ function showSong(i,updateHistory=true){
   renderTiles();
   renderSong(i);
   document.body.classList.add('song-open');
+  void requestScreenWakeLock();
   if(!wasOpen||previousSongId!==openedSongId)void trackSongOpen(openedSongId);
   if(updateHistory){
     const method=wasOpen?'replaceState':'pushState';
@@ -1193,7 +1268,13 @@ function showSong(i,updateHistory=true){
   }
   window.scrollTo({top:0,behavior:'auto'});
 }
-function showList(){document.body.classList.remove('song-open');renderTiles();requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}))}
+function showList(){
+  setLecternMode(false);
+  document.body.classList.remove('song-open');
+  void releaseScreenWakeLock();
+  renderTiles();
+  requestAnimationFrame(()=>window.scrollTo({top:listScrollY,behavior:'auto'}));
+}
 function backToList(){if(history.state&&history.state.view==='song')history.back();else{history.replaceState({view:'list'},'',location.pathname+location.search);showList()}}
 
 const CATEGORY_ALIASES={
@@ -1658,6 +1739,13 @@ function renderSong(i){
         </svg>
         <span>${lyricsOnly?'Accordi':'Solo testo'}</span>
       </button>
+      <button class="lectern-toggle song-view-toggle${lecternMode?' active':''}" id="lecternToggle" type="button" aria-pressed="${lecternMode}">
+        <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 4H4v4M16 4h4v4M20 16v4h-4M4 16v4h4"></path>
+        </svg>
+        <span>${lecternMode?'Esci da Leggio':'Leggio'}</span>
+      </button>
+      <span class="screen-awake-indicator" id="screenAwakeIndicator" hidden aria-live="polite"></span>
     </div>
     <div class="toolbar-controls" aria-label="Comandi canto">
       <div class="transpose-controls" aria-label="Tonalità">
@@ -1672,6 +1760,7 @@ function renderSong(i){
       </div>
     </div>
   </div>
+  <button class="lectern-controls-handle" id="lecternControlsToggle" type="button" aria-label="Mostra i comandi del canto">•••</button>
   <div class="song-head">
     <div class="song-heading-text">
       <h2 class="song-title">${esc(song.title)}</h2>
@@ -1758,6 +1847,22 @@ function renderSong(i){
     localStorage.setItem('lyricsOnlyMode',String(lyricsOnly));
     renderSong(i);
   });
+  document.getElementById('lecternToggle').addEventListener('click',event=>{
+    event.stopPropagation();
+    setLecternMode(!lecternMode);
+  });
+  document.getElementById('lecternControlsToggle').addEventListener('click',event=>{
+    event.stopPropagation();
+    setLecternControlsVisible(!document.body.classList.contains('lectern-controls-visible'));
+  });
+  const songNav=main.querySelector('.song-nav');
+  if(songNav)songNav.addEventListener('pointerdown',()=>{
+    if(lecternMode)setLecternControlsVisible(true);
+  });
+  const sheet=main.querySelector('.sheet');
+  if(sheet)sheet.addEventListener('click',()=>{
+    if(lecternMode)setLecternControlsVisible(true);
+  });
   const prevBtn=document.getElementById('setlistPrev');
   const nextBtn=document.getElementById('setlistNext');
   if(prevBtn)prevBtn.addEventListener('click',()=>showSong(songIndexFromId(personalSetlist[setlistPosition(i)-1])));
@@ -1776,8 +1881,22 @@ function renderSong(i){
   };
   document.getElementById('fontDown').addEventListener('click',()=>changeFontSize(-1));
   document.getElementById('fontUp').addEventListener('click',()=>changeFontSize(1));
+  updateWakeLockIndicator();
 }
 window.addEventListener('resize',applyTabletSongColumns);
+document.addEventListener('visibilitychange',()=>{
+  if(document.visibilityState==='visible'&&document.body.classList.contains('song-open')){
+    void requestScreenWakeLock();
+  }
+});
+document.addEventListener('pointerdown',()=>{
+  if(document.body.classList.contains('song-open')&&(!screenWakeLock||screenWakeLock.released)){
+    void requestScreenWakeLock();
+  }
+},{passive:true});
+document.addEventListener('keydown',event=>{
+  if(event.key==='Escape'&&lecternMode)setLecternMode(false);
+});
 function updateSearchClear(){searchClear.hidden=!search.value}
 search.addEventListener('input',()=>{updateSearchClear();renderTiles()});
 search.addEventListener('search',()=>{updateSearchClear();renderTiles()});

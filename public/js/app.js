@@ -1205,7 +1205,7 @@ function setLecternControlsVisible(visible,{autoHide=true}={}){
   if(lecternMode&&visible&&autoHide){
     lecternControlsTimer=setTimeout(()=>{
       document.body.classList.remove('lectern-controls-visible');
-    },4000);
+    },1500);
   }
 }
 function setLecternMode(enabled){

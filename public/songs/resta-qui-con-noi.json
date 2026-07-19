@@ -3,11 +3,22 @@
   "sub": "",
   "capo": null,
   "key": {
-    "note": "DO",
+    "note": "RE",
     "mode": "maggiore"
   },
   "search": "Strofa 1 Le ombre si distendono, scende ormai la sera E s'allontanano dietro i monti, i riflessi di un giorno che non finirà Di un giorno che ora correrà sempre perché sappiamo che una nuova vita Da qui è partita e mai più si fermerà Ritornello Resta qui con noi il sole scende già Resta qui con noi Signore è sera ormai Resta qui con noi il sole scende già Se tu sei fra noi la notte non verrà Strofa 2 S'allarga verso il mare il tuo cerchio d'onda Che il vento spingerà fino a quando giungerà ai confini di ogni cuore Alle porte dell'amore vero Come una fiamma che dove passa brucia Così il tuo amore tutto il mondo invaderà Strofa 3 Davanti a noi l'umanità lotta, soffre e spera Come una terra che nell'arsura chiede l'acqua da un cielo senza nuvole Ma che sempre le può dare vita Con te saremo sorgente d'acqua pura Con te fra noi il deserto fiorirà",
   "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE RE7+ SOL RE SIb LA RE"
+    },
+    {
+      "t": "s"
+    },
     {
       "t": "h",
       "v": "Strofa 1"
@@ -495,6 +506,71 @@
     },
     {
       "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE FA#- SOL RE",
+      "anchors": [
+        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
+        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
+        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Resta qui con noi il sole scende già"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA SOL LA RE",
+      "anchors": [
+        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
+        { "word": 4, "chord": "SOL", "offset": 0, "align": "left" },
+        { "word": 6, "chord": "LA", "offset": 0, "align": "left" },
+        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Resta qui con noi Signore è sera ormai"
+    },
+    {
+      "t": "c",
+      "v": "RE FA#- SOL RE",
+      "anchors": [
+        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
+        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
+        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Resta qui con noi il sole scende già"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA SOL LA RE",
+      "anchors": [
+        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
+        { "word": 5, "chord": "SOL", "offset": 0, "align": "left" },
+        { "word": 7, "chord": "LA", "offset": 0, "align": "left" },
+        { "word": 8, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Se tu sei fra noi la notte non verrà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
       "v": "Strofa 3"
     },
     {
@@ -654,6 +730,71 @@
     {
       "t": "l",
       "v": "Con te fra noi il deserto fiorirà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE FA#- SOL RE",
+      "anchors": [
+        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
+        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
+        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Resta qui con noi il sole scende già"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA SOL LA RE",
+      "anchors": [
+        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
+        { "word": 4, "chord": "SOL", "offset": 0, "align": "left" },
+        { "word": 6, "chord": "LA", "offset": 0, "align": "left" },
+        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Resta qui con noi Signore è sera ormai"
+    },
+    {
+      "t": "c",
+      "v": "RE FA#- SOL RE",
+      "anchors": [
+        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
+        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
+        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Resta qui con noi il sole scende già"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA SOL LA RE",
+      "anchors": [
+        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
+        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
+        { "word": 5, "chord": "SOL", "offset": 0, "align": "left" },
+        { "word": 7, "chord": "LA", "offset": 0, "align": "left" },
+        { "word": 8, "chord": "RE", "offset": 0, "align": "left" }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Se tu sei fra noi la notte non verrà"
     }
   ],
   "id": "resta-qui-con-noi"

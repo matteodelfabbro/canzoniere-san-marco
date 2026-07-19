@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
-  :root{--ink:#1c1b17;--paper:#fffdf7;--paper-deep:#f4efe1;--navy:#16233d;--navy-deep:#101a2e;--gold:#c6a24d;--gold-bright:#e0bc6a;--wine:#6d1626;--wine-bright:#8a2035;--line:rgba(28,27,23,.10)}
+  :root{--ink:#1c1b17;--paper:#f5f4f0;--paper-deep:#e9e6df;--navy:#16233d;--navy-deep:#101a2e;--gold:#c6a24d;--gold-bright:#e0bc6a;--wine:#6d1626;--wine-bright:#8a2035;--line:rgba(28,27,23,.10)}
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
   html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
@@ -55,7 +55,7 @@
   .tile-title small{display:block;font-family:Manrope,sans-serif;font-size:.72rem;letter-spacing:.04em;color:rgba(233,226,205,.45);margin-top:.15rem}
   .empty-note{color:rgba(233,226,205,.4);font-size:.85rem;padding:.5rem}
   main{padding:2.2rem clamp(1.2rem,4vw,3rem) 4rem;min-width:0}
-  .song-nav{display:flex;position:sticky;top:0;z-index:20;align-items:center;justify-content:space-between;gap:.7rem;flex-wrap:wrap;background:rgba(255,253,247,.97);border-bottom:1px solid var(--line);margin:0 0 1.1rem;padding:.5rem 0;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+  .song-nav{display:flex;position:sticky;top:0;z-index:20;align-items:center;justify-content:space-between;gap:.7rem;flex-wrap:wrap;background:rgba(245,244,240,.97);border-bottom:1px solid var(--line);margin:0 0 1.1rem;padding:.5rem 0;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
   .command-group{display:flex;align-items:center;gap:.45rem;flex-wrap:nowrap;min-width:0}
   .toolbar-controls{display:flex;align-items:center;gap:.65rem;flex-wrap:nowrap;min-width:0}
   .primary-actions{display:flex;align-items:center;gap:.38rem;min-width:0}

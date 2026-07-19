@@ -1271,8 +1271,8 @@ body.lectern-mode .sheet{
 
 .song-nav .song-view-toggle.active{
   background:transparent!important;
-  color:var(--wine);
-  box-shadow:inset 0 -2px 0 rgba(109,22,38,.5)!important;
+  color:var(--navy);
+  box-shadow:none!important;
 }
 
 .song-nav .toolbar-controls{

@@ -1154,19 +1154,11 @@ function songIndexFromHash(){
   const legacyIndex=Number(legacyMatch[1])-1;
   return legacyIndex>=0&&legacyIndex<songs.length?legacyIndex:null;
 }
-function updateWakeLockIndicator(){
-  const indicator=document.getElementById('screenAwakeIndicator');
-  if(!indicator)return;
-  const active=Boolean(screenWakeLock&&!screenWakeLock.released);
-  indicator.hidden=!active;
-  indicator.textContent=active?'● Schermo attivo':'';
-}
 async function requestScreenWakeLock(){
   if(!document.body.classList.contains('song-open')||document.visibilityState!=='visible')return;
   if(!navigator.wakeLock?.request)return;
   if(screenWakeLockRequestPending)return;
   if(screenWakeLock&&!screenWakeLock.released){
-    updateWakeLockIndicator();
     return;
   }
   screenWakeLockRequestPending=true;
@@ -1179,12 +1171,9 @@ async function requestScreenWakeLock(){
     screenWakeLock=lock;
     lock.addEventListener('release',()=>{
       if(screenWakeLock===lock)screenWakeLock=null;
-      updateWakeLockIndicator();
     });
-    updateWakeLockIndicator();
   }catch(error){
     screenWakeLock=null;
-    updateWakeLockIndicator();
     console.warn('Schermo sempre acceso non disponibile.',error);
   }finally{
     screenWakeLockRequestPending=false;
@@ -1193,7 +1182,6 @@ async function requestScreenWakeLock(){
 async function releaseScreenWakeLock(){
   const lock=screenWakeLock;
   screenWakeLock=null;
-  updateWakeLockIndicator();
   if(lock&&!lock.released){
     try{await lock.release();}
     catch(error){console.warn('Rilascio blocco schermo non riuscito.',error);}
@@ -1732,6 +1720,12 @@ function renderSong(i){
   let html=`<div class="song-nav">
     <div class="song-nav-main">
       <button class="back-list" id="backList" type="button"><span class="back-arrow" aria-hidden="true">←</span>Elenco</button>
+      <button class="lectern-toggle song-view-toggle${lecternMode?' active':''}" id="lecternToggle" type="button" aria-pressed="${lecternMode}">
+        <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 4H4v4M16 4h4v4M20 16v4h-4M4 16v4h4"></path>
+        </svg>
+        <span>${lecternMode?'Esci da Leggio':'Leggio'}</span>
+      </button>
       <button class="lyrics-only-toggle song-view-toggle${lyricsOnly?' active':''}" id="lyricsOnlyToggle" type="button" aria-pressed="${lyricsOnly}">
         <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M6 5h12M6 10h12M6 15h8M6 20h8"></path>
@@ -1739,13 +1733,6 @@ function renderSong(i){
         </svg>
         <span>${lyricsOnly?'Accordi':'Solo testo'}</span>
       </button>
-      <button class="lectern-toggle song-view-toggle${lecternMode?' active':''}" id="lecternToggle" type="button" aria-pressed="${lecternMode}">
-        <svg class="song-view-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M8 4H4v4M16 4h4v4M20 16v4h-4M4 16v4h4"></path>
-        </svg>
-        <span>${lecternMode?'Esci da Leggio':'Leggio'}</span>
-      </button>
-      <span class="screen-awake-indicator" id="screenAwakeIndicator" hidden aria-live="polite"></span>
     </div>
     <div class="toolbar-controls" aria-label="Comandi canto">
       <div class="transpose-controls" aria-label="Tonalità">
@@ -1883,7 +1870,6 @@ function renderSong(i){
   };
   document.getElementById('fontDown').addEventListener('click',()=>changeFontSize(-1));
   document.getElementById('fontUp').addEventListener('click',()=>changeFontSize(1));
-  updateWakeLockIndicator();
 }
 window.addEventListener('resize',applyTabletSongColumns);
 document.addEventListener('visibilitychange',()=>{

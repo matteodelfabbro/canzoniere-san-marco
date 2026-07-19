@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-lectern-spacing-27';
+const CACHE_NAME = 'canzoniere-lectern-layout-28';
 const APP_ASSETS = [
   "./",
   "./index.html",

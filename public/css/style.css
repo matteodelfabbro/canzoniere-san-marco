@@ -1127,13 +1127,6 @@
   stroke-linejoin:round;
 }
 
-.screen-awake-indicator{
-  color:#397348;
-  font-size:.72rem;
-  font-weight:650;
-  white-space:nowrap;
-}
-
 .lectern-controls-handle{
   display:none;
 }
@@ -1245,9 +1238,6 @@ body.lectern-mode .sheet{
     padding-right:.8rem;
   }
 
-  .screen-awake-indicator{
-    display:none;
-  }
 }
 
 .toolbar-controls{

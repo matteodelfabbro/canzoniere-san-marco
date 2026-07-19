@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-clean-mode-state-42';
+const CACHE_NAME = 'canzoniere-white-paper-43';
 const APP_ASSETS = [
   "./",
   "./index.html",

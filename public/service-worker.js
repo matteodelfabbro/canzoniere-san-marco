@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-all-compact-refrains-49';
+const CACHE_NAME = 'canzoniere-all-compact-refrains-50';
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -202,8 +202,9 @@ self.addEventListener('fetch', event => {
   // (dati dei canti, stile, logica): chi è online vede sempre l'ultima
   // versione pubblicata. Cache-first resta solo per icone e manifest,
   // che di fatto non cambiano quasi mai.
-  const url = event.request.url;
-  const isFrequentlyUpdated = url.endsWith('.json') || url.endsWith('.css') || url.endsWith('.js') || url.endsWith('.html') || url.endsWith('/');
+  const url = new URL(event.request.url);
+  const pathname = url.pathname;
+  const isFrequentlyUpdated = pathname.endsWith('.json') || pathname.endsWith('.css') || pathname.endsWith('.js') || pathname.endsWith('.html') || pathname.endsWith('/');
 
   if (isFrequentlyUpdated) {
     event.respondWith(

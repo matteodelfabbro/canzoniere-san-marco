@@ -111,12 +111,13 @@ function legacyBookNumber(song){
 
 
 async function loadSongs() {
+  const songDataVersion='20260720-all-compact-refrains-50';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
   const songResults = await Promise.allSettled(
     songIndex.map(async item => {
-      const songResponse = await fetch(`./${item.file}`);
+      const songResponse = await fetch(`./${item.file}?v=${songDataVersion}`);
 
       if (!songResponse.ok) {
         throw new Error(

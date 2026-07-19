@@ -90,6 +90,34 @@ service cloud.firestore {
       allow delete: if signedIn() && userId == request.auth.uid;
     }
 
+    match /songStats/{songId} {
+      function validSongId() {
+        return songId.size() >= 1 && songId.size() <= 150;
+      }
+
+      allow read: if true;
+      allow create: if validSongId() &&
+        request.resource.data.keys().hasAll([
+          'songId', 'openCount', 'createdAt', 'lastOpenedAt'
+        ]) &&
+        request.resource.data.keys().hasOnly([
+          'songId', 'openCount', 'createdAt', 'lastOpenedAt'
+        ]) &&
+        request.resource.data.songId == songId &&
+        request.resource.data.openCount == 1 &&
+        request.resource.data.createdAt == request.time &&
+        request.resource.data.lastOpenedAt == request.time;
+      allow update: if validSongId() &&
+        request.resource.data.keys().hasOnly([
+          'songId', 'openCount', 'createdAt', 'lastOpenedAt'
+        ]) &&
+        request.resource.data.songId == resource.data.songId &&
+        request.resource.data.openCount == resource.data.openCount + 1 &&
+        request.resource.data.createdAt == resource.data.createdAt &&
+        request.resource.data.lastOpenedAt == request.time;
+      allow delete: if false;
+    }
+
     match /{document=**} {
       allow read, write: if false;
     }

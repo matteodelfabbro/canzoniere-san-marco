@@ -1112,14 +1112,43 @@ function songIndexFromHash(){
   const legacyIndex=Number(legacyMatch[1])-1;
   return legacyIndex>=0&&legacyIndex<songs.length?legacyIndex:null;
 }
+async function trackSongOpen(id){
+  if(!db||!id||!window.firebase?.firestore)return;
+  const ref=db.collection('songStats').doc(id);
+  try{
+    await db.runTransaction(async transaction=>{
+      const snapshot=await transaction.get(ref);
+      const timestamp=firebase.firestore.FieldValue.serverTimestamp();
+      if(snapshot.exists){
+        const currentCount=Number(snapshot.data()?.openCount)||0;
+        transaction.update(ref,{
+          openCount:currentCount+1,
+          lastOpenedAt:timestamp
+        });
+      }else{
+        transaction.set(ref,{
+          songId:id,
+          openCount:1,
+          createdAt:timestamp,
+          lastOpenedAt:timestamp
+        });
+      }
+    });
+  }catch(error){
+    console.warn('Conteggio apertura canto non riuscito.',error);
+  }
+}
 function showSong(i,updateHistory=true){
   if(!songs[i])return;
   const wasOpen=document.body.classList.contains('song-open');
+  const previousSongId=wasOpen?songId(activeIndex):null;
+  const openedSongId=songId(i);
   if(!wasOpen)listScrollY=window.scrollY;
   activeIndex=i;
   renderTiles();
   renderSong(i);
   document.body.classList.add('song-open');
+  if(!wasOpen||previousSongId!==openedSongId)void trackSongOpen(openedSongId);
   if(updateHistory){
     const method=wasOpen?'replaceState':'pushState';
     history[method]({view:'song',songId:songId(i)},'',songHash(i));

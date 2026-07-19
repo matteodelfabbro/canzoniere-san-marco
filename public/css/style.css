@@ -110,7 +110,7 @@
   .segment-chord,.segment-lyric{font-weight:400;line-height:1.52;letter-spacing:-.005em;color:#222}
   .segment-chord{font-weight:700;color:#8f1530;line-height:1.38;min-height:1.38em;font-size:.9em;letter-spacing:0}
   .segment-lyric{font-weight:500;line-height:1.65}
-  .headline{font-family:Manrope,sans-serif;font-size:.7rem;font-weight:650;letter-spacing:.12em;text-transform:uppercase;color:#80601c;background:rgba(198,162,77,.13);display:inline-block;padding:.19rem .5rem;border:1px solid rgba(198,162,77,.18);border-radius:3px;margin:.85rem 0 .18rem}
+  .headline{font-family:Manrope,sans-serif;font-size:.7rem;font-weight:650;letter-spacing:.12em;text-transform:uppercase;color:#80601c;background:linear-gradient(to top,rgba(224,188,106,.24) 0 46%,transparent 46%);display:inline-block;padding:.08rem .14rem .08rem 0;border:0;border-radius:0;margin:.85rem 0 .18rem}
   .sheet>.headline:first-child{margin-top:0}
   .spacer{height:.5rem}
   footer{text-align:center;font-family:Manrope,sans-serif;font-size:.72rem;letter-spacing:.04em;color:rgba(28,27,23,.45);padding:1.4rem 1rem 2rem}

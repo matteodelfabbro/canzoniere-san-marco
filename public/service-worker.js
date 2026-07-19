@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-organized-controls-38';
+const CACHE_NAME = 'canzoniere-split-controls-39';
 const APP_ASSETS = [
   "./",
   "./index.html",

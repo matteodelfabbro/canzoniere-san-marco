@@ -1276,21 +1276,17 @@ body.lectern-mode .sheet{
 }
 
 .song-nav .toolbar-controls{
-  justify-content:center!important;
-  justify-self:center;
-  width:auto!important;
-  min-width:min(100%,22rem);
-  gap:clamp(1.4rem,5vw,3rem)!important;
-  padding-top:.35rem;
-  border-top:1px solid rgba(22,35,61,.075);
+  justify-content:space-between!important;
+  justify-self:stretch;
+  width:100%!important;
+  min-width:0;
+  gap:.8rem!important;
+  padding-top:0;
+  border-top:0;
 }
 
-@media (max-width:600px){
-  .song-nav .toolbar-controls{
-    width:100%!important;
-    min-width:0;
-    gap:.8rem!important;
-  }
+.song-nav .transpose-value{
+  color:var(--navy)!important;
 }
 
 .text-controls,

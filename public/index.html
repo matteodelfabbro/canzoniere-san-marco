@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="icon" href="icon-192.png">
 <title>Canzoniere San Marco</title>
-<link rel="stylesheet" href="/css/style.css?v=20260720-bold-refrains-52">
+<link rel="stylesheet" href="/css/style.css?v=20260722-single-local-setlist-54">
 </head>
 <body>
 <header><h1>Canzoniere San Marco</h1><p class="tag">canti e accordi per la messa</p></header>
@@ -52,22 +52,8 @@
     </div>
     <section class="setlist-library" id="setlistLibrary" hidden aria-labelledby="setlistLibraryTitle">
       <div class="setlist-library-heading">
-        <button class="setlist-new-button" id="newSetlistButton" type="button">+ Nuova setlist</button>
+        <button class="setlist-new-button" id="newSetlistButton" type="button" hidden>+ Nuova setlist</button>
         <h2 id="setlistLibraryTitle" class="sr-only">Setlist personali</h2>
-      </div>
-      <div class="setlist-tools setlist-current-card setlist-library-card" id="setlistTools" hidden>
-        <div class="setlist-current-main">
-          <div class="setlist-current-copy setlist-library-info">
-            <strong id="setlistTitle">La mia Setlist</strong>
-            <span class="setlist-count" id="setlistCount">0 canti</span>
-          </div>
-          <div class="setlist-title-actions">
-            <button class="setlist-share" id="shareSetlist" type="button">Condividi</button>
-            <button class="setlist-rename" id="renameSetlist" type="button">Rinomina</button>
-            <button class="setlist-library-save" id="saveCurrentCloudSetlist" type="button" hidden>Salva online</button>
-            <button class="setlist-clear" id="clearSetlist" type="button">Svuota</button>
-          </div>
-        </div>
       </div>
       <p class="setlist-library-status" id="cloudSetlistsStatus" role="status" aria-live="polite"></p>
       <div class="setlist-library-grid" id="cloudSetlistsList"></div>
@@ -138,7 +124,6 @@
 <script src="/__/firebase/8.10.1/firebase-auth.js"></script>
 <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
 <script src="/__/firebase/init.js"></script>
-<script src="/js/app.js?v=20260720-bold-refrains-52" defer></script>
-<script src="/js/new-setlist.js?v=20260719-search-clear-14" defer></script>
+<script src="/js/app.js?v=20260722-single-local-setlist-54" defer></script>
 </body>
 </html>

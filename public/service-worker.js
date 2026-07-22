@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-bold-refrains-52';
+const CACHE_NAME = 'canzoniere-single-local-setlist-54';
 const APP_ASSETS = [
   "./",
   "./index.html",

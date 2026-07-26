@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-dallaurora-63';
+const CACHE_NAME = 'canzoniere-iphone-safearea-1';
 const APP_ASSETS = [
   "./",
   "./index.html",

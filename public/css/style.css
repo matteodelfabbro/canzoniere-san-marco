@@ -42,7 +42,7 @@
   .tile-title small{display:block;font-family:Manrope,sans-serif;font-size:.72rem;letter-spacing:.04em;color:rgba(233,226,205,.45);margin-top:.15rem}
   .empty-note{color:rgba(233,226,205,.4);font-size:.85rem;padding:.5rem}
   main{padding:2.2rem clamp(1.2rem,4vw,3rem) 4rem;min-width:0}
-  .song-nav{display:flex;position:sticky;top:0;z-index:20;align-items:center;justify-content:space-between;gap:.7rem;flex-wrap:wrap;background:rgba(245,244,240,.97);border-bottom:1px solid var(--line);margin:0 0 1.1rem;padding:.5rem 0;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+  .song-nav{display:flex;position:sticky;top:env(safe-area-inset-top);z-index:20;align-items:center;justify-content:space-between;gap:.7rem;flex-wrap:wrap;background:rgba(245,244,240,.97);border-bottom:1px solid var(--line);margin:0 0 1.1rem;padding:.5rem 0;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
   .command-group{display:flex;align-items:center;gap:.45rem;flex-wrap:nowrap;min-width:0}
   .toolbar-controls{display:flex;align-items:center;gap:.65rem;flex-wrap:nowrap;min-width:0}
   .primary-actions{display:flex;align-items:center;gap:.38rem;min-width:0}

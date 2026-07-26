@@ -3,30 +3,61 @@
   "sub": "Casucci · Balduzzi",
   "capo": null,
   "key": {
-    "note": "DO",
-    "mode": "maggiore"
+    "note": "DO#",
+    "mode": "minore"
   },
-  "search": "Dall'Aurora al Tramonto  Ritornello Dall'  aurora   io  cerco   te fino  al tramonto     ti chiamo       ha  sete  solo  di   te, l'anima    mia   come    terra  deserta  Strofa 1 1. Non    mi  fermerò    un  solo  istante,  sempre    canterò   la  tua  lode    perché   sei il mio  Dio,   il mio  riparo,    mi  proteggerai      all'ombra    delle  Tue   ali  Strofa 2 2.  Non   mi  fermerò    un  solo   istante, io  racconterò    le tue  opere     perché   sei il mio   Dio,  unico   bene     nulla  mai   potrà,  la notte   contro   di  me     Dall'aurora    io  cerco  te fino  al tramonto     ti chiamo  Ritornello finale Dall'  aurora   io cerco    te fino  al tramonto     ti chiamo                   ha  sete  solo  di   te, l'anima   mia    come    terra  deserta                   ha  sete  solo  di te,  l'anima    mia  come    terra  deserta",
+  "search": "Dall'Aurora al Tramonto  Intro  Ritornello Dall'aurora io cerco te fino al tramonto ti chiamo ha sete solo di te l'anima mia come terra deserta  Strofa 1 Non mi fermerò un solo istante sempre canterò la tua lode perché sei il mio Dio il mio riparo mi proteggerai all'ombra delle tue ali  Ritornello Dall'aurora io cerco te fino al tramonto ti chiamo ha sete solo di te l'anima mia come terra deserta  Strofa 2 Non mi fermerò un solo istante io racconterò le tue opere perché sei il mio Dio unico bene nulla mai potrà la notte contro di me  Ritornello finale Dall'aurora io cerco te fino al tramonto ti chiamo ha sete solo di te l'anima mia come terra deserta ha sete solo di te l'anima mia come terra deserta  Finale",
   "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO#-  MI/SI  LA  SI    DO#-  MI/SI  FA#-7/9  SOL#-7"
+    },
+    {
+      "t": "c",
+      "v": "DO#-  MI/SI  FA#-7  SOL#-7    DO#-  MI6  FA#-9  SI6"
+    },
+    {
+      "t": "s"
+    },
     {
       "t": "h",
       "v": "Ritornello"
     },
     {
       "t": "c",
-      "v": "       DO#-      MI        FA#-    SI   DO#-       MI        FA#-     SI"
+      "v": "DO#-       MI       FA#-7  SI"
     },
     {
       "t": "l",
-      "v": "Dall’aurora   io  cerco   te fino  al tramonto     ti chiamo"
+      "v": "Dall’aurora io cerco te,"
     },
     {
       "t": "c",
-      "v": "       DO#-       SOL#-     LA    SI     DO#-      SOL#-        LA   SI"
+      "v": "DO#-          MI        FA#-7  SI"
     },
     {
       "t": "l",
-      "v": "      ha  sete  solo  di   te, l'anima    mia   come    terra  deserta"
+      "v": "fino al tramonto ti chiamo."
+    },
+    {
+      "t": "c",
+      "v": "DO#-          SI6      LAadd9"
+    },
+    {
+      "t": "l",
+      "v": "Ha sete solo di te"
+    },
+    {
+      "t": "c",
+      "v": "SI        DO#-       SOL#-7  LA  SI"
+    },
+    {
+      "t": "l",
+      "v": "l’anima mia, come terra deserta."
     },
     {
       "t": "s"
@@ -37,27 +68,74 @@
     },
     {
       "t": "c",
-      "v": "   DO#-          MI         FA#-        SI   DO#-          MI       FA#-     SI"
+      "v": "DO#-          MI         FA#-7       SI  SOL#-7"
     },
     {
       "t": "l",
-      "v": "1. Non    mi  fermerò    un  solo  istante,  sempre    canterò   la  tua  lode"
+      "v": "Non mi fermerò un solo istante,"
     },
     {
       "t": "c",
-      "v": "   DO#-             SOL#-      LA        SI"
+      "v": "DO#-          MI       FA#-7  SI"
     },
     {
       "t": "l",
-      "v": "   perché   sei il mio  Dio,   il mio  riparo,"
+      "v": "sempre canterò la tua lode,"
     },
     {
       "t": "c",
-      "v": "   DO#-      SOL#-      LA                      SI4  SI"
+      "v": "DO#-             SI6       LA  SI"
     },
     {
       "t": "l",
-      "v": "   mi  proteggerai      all'ombra    delle tue ali"
+      "v": "perché sei il mio Dio, il mio riparo;"
+    },
+    {
+      "t": "c",
+      "v": "DO#-          SOL#-7       LA             SI4  SI"
+    },
+    {
+      "t": "l",
+      "v": "mi proteggerai all’ombra delle tue ali."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO#-       MI       FA#-7  SI"
+    },
+    {
+      "t": "l",
+      "v": "Dall’aurora io cerco te,"
+    },
+    {
+      "t": "c",
+      "v": "DO#-          MI        FA#-7  SI"
+    },
+    {
+      "t": "l",
+      "v": "fino al tramonto ti chiamo."
+    },
+    {
+      "t": "c",
+      "v": "DO#-          SI6      LAadd9"
+    },
+    {
+      "t": "l",
+      "v": "Ha sete solo di te"
+    },
+    {
+      "t": "c",
+      "v": "SI        DO#-       SOL#-7  LA  SI"
+    },
+    {
+      "t": "l",
+      "v": "l’anima mia, come terra deserta."
     },
     {
       "t": "s"
@@ -68,35 +146,35 @@
     },
     {
       "t": "c",
-      "v": "   DO#-          MI         FA#-        SI   DO#-          MI       FA#-     SI"
+      "v": "DO#-          MI         FA#-7     SI  SOL#-7"
     },
     {
       "t": "l",
-      "v": "2.  Non   mi  fermerò    un  solo   istante, io  racconterò    le tue  opere"
+      "v": "Non mi fermerò un solo istante,"
     },
     {
       "t": "c",
-      "v": "   DO#-             SOL#-      LA        SI"
+      "v": "DO#-        MI        FA#-7  SI"
     },
     {
       "t": "l",
-      "v": "    perché   sei il mio   Dio,  unico   bene"
+      "v": "io racconterò le tue opere,"
     },
     {
       "t": "c",
-      "v": "   DO#-      SOL#-      LA                      SI4  SI"
+      "v": "DO#-             SI6     LA  SI"
     },
     {
       "t": "l",
-      "v": "    nulla  mai   potrà,  la notte   contro   di  me"
+      "v": "perché sei il mio Dio, unico bene;"
     },
     {
       "t": "c",
-      "v": "       DO#-      MI        FA#-    SI   DO#-       MI        FA#-     SI"
+      "v": "DO#-      SOL#-7       LA              SI4  SI"
     },
     {
       "t": "l",
-      "v": "    Dall'aurora    io  cerco  te fino  al tramonto     ti chiamo"
+      "v": "nulla mai potrà la notte contro di me."
     },
     {
       "t": "s"
@@ -107,27 +185,62 @@
     },
     {
       "t": "c",
-      "v": "                  DO#-       MI       FA#-    SI   DO#-        MI       FA#-      SI"
+      "v": "DO#-       MI       FA#-7  SI"
     },
     {
       "t": "l",
-      "v": "Dall’aurora   io cerco    te fino  al tramonto     ti chiamo"
+      "v": "Dall’aurora io cerco te,"
     },
     {
       "t": "c",
-      "v": "                  DO#-        SOL#-     LA    SI     DO#-      SOL#-       LA   SI"
+      "v": "DO#-          MI        FA#-7  SI"
     },
     {
       "t": "l",
-      "v": "                  ha  sete  solo  di   te, l'anima   mia    come    terra  deserta"
+      "v": "fino al tramonto ti chiamo."
     },
     {
       "t": "c",
-      "v": "                  DO#-       SOL#-     LA  SI    MI           LA      SI4  MI"
+      "v": "DO#-          SI6      LAadd9"
     },
     {
       "t": "l",
-      "v": "                  ha  sete  solo  di te,  l'anima    mia  come    terra  deserta"
+      "v": "Ha sete solo di te"
+    },
+    {
+      "t": "c",
+      "v": "SI        DO#-       SOL#-7  LA  SI"
+    },
+    {
+      "t": "l",
+      "v": "l’anima mia, come terra deserta."
+    },
+    {
+      "t": "c",
+      "v": "DO#-          SI6      LAadd9"
+    },
+    {
+      "t": "l",
+      "v": "Ha sete solo di te"
+    },
+    {
+      "t": "c",
+      "v": "SI        MI         LA  SI4  SI  MI"
+    },
+    {
+      "t": "l",
+      "v": "l’anima mia, come terra deserta."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "DO#-  MI6  FA#-7  SI    DO#-  MI6  FA#-7  SI  DO#-"
     }
   ],
   "id": "dall-aurora-al-tramonto"

@@ -275,6 +275,17 @@
   max-width:100%;
 }
 
+/* Le sillabe della stessa parola restano unite, ma possono avere accordi distinti. */
+.music-row.word-anchored.syllable-aware .music-segment-group{
+  display:flex;
+  flex:0 0 auto;
+  align-items:flex-start;
+  min-width:max-content;
+}
+.music-row.word-anchored.syllable-aware .music-segment-group .music-segment{
+  padding:0;
+}
+
 
 /* Ancoraggi accordi espliciti: consentono accordi anche al centro o alla fine di una parola. */
 .explicit-music-row {

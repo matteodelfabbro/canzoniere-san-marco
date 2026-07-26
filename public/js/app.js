@@ -111,7 +111,7 @@ function legacyBookNumber(song){
 
 
 async function loadSongs() {
-  const songDataVersion='20260726-dallaurora-59';
+  const songDataVersion='20260726-dallaurora-60';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
@@ -1555,7 +1555,7 @@ function splitLongSegment(chordPart,lyricPart,maxChars=28){
   return chunks;
 }
 
-function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anchorLayout='precise'){
+function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anchorLayout='precise',flowSegments=null){
   const rawChord=chordText||'';
   const rawLyric=lyricText||'';
 
@@ -1570,6 +1570,20 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
   const lyric=rawLyric.slice(commonIndent);
   const chordMatches=[...chord.matchAll(/\S+/g)];
   const lyricWords=[...lyric.matchAll(/\S+/g)];
+
+  if(Array.isArray(flowSegments) && flowSegments.length){
+    const renderSegment=segment=>
+      `<div class="music-segment"><div class="segment-chord">${esc(transposeLine(String(segment.chord||''),shift))}</div><div class="segment-lyric">${esc(String(segment.lyric||''))}</div></div>`;
+
+    const renderedSegments=flowSegments.map(segment=>{
+      if(Array.isArray(segment.parts) && segment.parts.length){
+        return `<div class="music-segment-group">${segment.parts.map(renderSegment).join('')}</div>`;
+      }
+      return renderSegment(segment);
+    }).join('');
+
+    return `<div class="music-row word-anchored collision-safe syllable-aware">${renderedSegments}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
+  }
 
   if(Array.isArray(explicitAnchors) && explicitAnchors.length){
     const words=[...lyric.matchAll(/\S+/g)].map(match=>match[0]);
@@ -1862,7 +1876,8 @@ function renderSong(i){
         next.v,
         shift,
         line.anchors||null,
-        line.anchorLayout||song.anchorLayout||'precise'
+        line.anchorLayout||song.anchorLayout||'precise',
+        line.flowSegments||null
       );
       lineIndex++;
       continue;

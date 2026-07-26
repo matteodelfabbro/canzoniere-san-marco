@@ -111,7 +111,7 @@ function legacyBookNumber(song){
 
 
 async function loadSongs() {
-  const songDataVersion='20260726-bozza-2';
+  const songDataVersion='20260726-repeat-heading-1';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
@@ -1741,7 +1741,8 @@ function compactRepeatedSongSections(song){
   const firstByContent=new Map();
 
   sections.forEach(section=>{
-    const heading=section.querySelector('.headline')?.textContent.trim();
+    const headingElement=section.querySelector('.headline');
+    const heading=headingElement?.textContent.trim();
     if(!heading||!/(ritornello|refrain)/i.test(heading))return;
 
     const signature=[...section.children]
@@ -1761,6 +1762,7 @@ function compactRepeatedSongSections(song){
     const content=document.createElement('div');
     content.className='repeat-section-content';
     content.hidden=true;
+    headingElement.remove();
     while(section.firstChild)content.appendChild(section.firstChild);
 
     const toggle=document.createElement('button');

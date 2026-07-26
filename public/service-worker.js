@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-bozza-2';
+const CACHE_NAME = 'canzoniere-repeat-heading-1';
 const APP_ASSETS = [
   "./",
   "./index.html",

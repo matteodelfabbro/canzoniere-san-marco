@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-dallaurora-57';
+const CACHE_NAME = 'canzoniere-dallaurora-58';
 const APP_ASSETS = [
   "./",
   "./index.html",

@@ -1597,11 +1597,11 @@ header p.tag{
   font-size:var(--song-font-size);
 }
 
-/* Le righe di soli accordi, come l'Intro di Abbracciami,
-   ora seguono davvero la dimensione scelta con A− / A+. */
+/* Le righe di soli accordi seguono A− / A+ e hanno la stessa
+   dimensione degli accordi collocati sopra il testo. */
 .chordline.standalone-chord{
-  font-size:1em;
-  line-height:1.4;
+  font-size:.9em;
+  line-height:1.28;
 }
 
 /* Anche le etichette Intro, Strofa, Ritornello crescono insieme al canto,

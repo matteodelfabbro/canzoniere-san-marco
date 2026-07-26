@@ -267,6 +267,14 @@
   letter-spacing:-.005em;
 }
 
+/* Le righe sensibili usano segmenti non comprimibili:
+   se manca spazio, il segmento va a capo invece di sovrapporre gli accordi. */
+.music-row.word-anchored.collision-safe .music-segment{
+  flex:0 0 auto;
+  min-width:max-content;
+  max-width:100%;
+}
+
 
 /* Ancoraggi accordi espliciti: consentono accordi anche al centro o alla fine di una parola. */
 .explicit-music-row {

@@ -2,6 +2,7 @@
   "title": "Dall'Aurora al Tramonto",
   "sub": "Casucci · Balduzzi",
   "capo": null,
+  "anchorLayout": "flow",
   "key": {
     "note": "DO#",
     "mode": "minore"

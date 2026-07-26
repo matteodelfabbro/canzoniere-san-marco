@@ -111,7 +111,7 @@ function legacyBookNumber(song){
 
 
 async function loadSongs() {
-  const songDataVersion='20260726-dallaurora-58';
+  const songDataVersion='20260726-dallaurora-59';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
@@ -1555,7 +1555,7 @@ function splitLongSegment(chordPart,lyricPart,maxChars=28){
   return chunks;
 }
 
-function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null){
+function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anchorLayout='precise'){
   const rawChord=chordText||'';
   const rawLyric=lyricText||'';
 
@@ -1587,6 +1587,28 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null){
       if(!anchorsByWord.has(wordIndex))anchorsByWord.set(wordIndex,[]);
       anchorsByWord.get(wordIndex).push(entry);
     });
+
+    if(anchorLayout==='flow'){
+      const anchorIndexes=[...anchorsByWord.keys()].sort((a,b)=>a-b);
+      if(!anchorIndexes.length)return `<div class="lyricline">${esc(lyric)}</div>`;
+      if(anchorIndexes[0]>0)anchorIndexes.unshift(0);
+
+      const pieces=anchorIndexes.map((wordIndex,index)=>{
+        const nextWordIndex=index+1<anchorIndexes.length
+          ?anchorIndexes[index+1]
+          :words.length;
+        const entries=anchorsByWord.get(wordIndex)||[];
+
+        return {
+          chord:entries.map(entry=>entry.chord).join(' '),
+          lyric:words.slice(wordIndex,nextWordIndex).join(' ')
+        };
+      }).filter(piece=>piece.lyric||piece.chord);
+
+      return `<div class="music-row word-anchored collision-safe">${pieces.map(piece=>
+        `<div class="music-segment"><div class="segment-chord">${esc(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
+      ).join('')}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
+    }
 
     const renderedWords=words.map((word,index)=>{
       const anchors=anchorsByWord.get(index)||[];
@@ -1835,7 +1857,13 @@ function renderSong(i){
     }
 
     if(line.t==='c' && next && next.t==='l'){
-      html+=renderChordLyricPair(line.v,next.v,shift,line.anchors||null);
+      html+=renderChordLyricPair(
+        line.v,
+        next.v,
+        shift,
+        line.anchors||null,
+        line.anchorLayout||song.anchorLayout||'precise'
+      );
       lineIndex++;
       continue;
     }

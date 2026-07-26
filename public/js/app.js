@@ -111,7 +111,7 @@ function legacyBookNumber(song){
 
 
 async function loadSongs() {
-  const songDataVersion='20260726-repeat-heading-1';
+  const songDataVersion='20260726-iphone-scroll-toolbar-1';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
@@ -174,6 +174,10 @@ async function loadSongs() {
 
 async function init() {
   await loadSongs();
+document.documentElement.classList.toggle(
+  'iphone-standalone-app',
+  isIphoneDevice() && isStandaloneApp()
+);
 const tileList=document.getElementById('tileList');
 const tileListHome=document.getElementById('tileListHome');
 const main=document.getElementById('main');
@@ -2020,6 +2024,9 @@ function isMobileOrTablet(){
 }
 function isIosDevice(){
   return /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+}
+function isIphoneDevice(){
+  return /iphone|ipod/i.test(navigator.userAgent);
 }
 function installBannerDismissedRecently(){
   const dismissedAt=Number(localStorage.getItem('installBannerDismissedAt')||0);

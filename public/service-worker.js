@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-repeat-heading-1';
+const CACHE_NAME = 'canzoniere-iphone-scroll-toolbar-1';
 const APP_ASSETS = [
   "./",
   "./index.html",

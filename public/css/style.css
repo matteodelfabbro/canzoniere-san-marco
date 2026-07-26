@@ -2206,3 +2206,22 @@ body:not(.lectern-mode) .song-nav{
   width:1.08rem;
   height:1.08rem;
 }
+
+/* App installata su iPhone: i comandi scorrono via con il canto.
+   La sola barra di stato conserva uno sfondo pieno e leggibile. */
+html.iphone-standalone-app body::before{
+  content:"";
+  position:fixed;
+  z-index:100;
+  top:0;
+  right:0;
+  left:0;
+  height:env(safe-area-inset-top);
+  background:var(--navy);
+  pointer-events:none;
+}
+
+html.iphone-standalone-app body.song-open .song-nav{
+  position:static;
+  top:auto;
+}

@@ -2221,7 +2221,11 @@ html.iphone-standalone-app body::before{
   pointer-events:none;
 }
 
-html.iphone-standalone-app body.song-open .song-nav{
-  position:static;
-  top:auto;
+/* Sugli smartphone la barra non sottrae spazio al canto:
+   resta visibile all'inizio e scorre via insieme alla pagina. */
+@media (max-width:600px) and (pointer:coarse){
+  body.song-open .song-nav{
+    position:static;
+    top:auto;
+  }
 }

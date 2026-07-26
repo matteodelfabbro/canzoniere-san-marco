@@ -14,11 +14,11 @@
     },
     {
       "t": "c",
-      "v": "DO#-  MI/SI  LA  SI    DO#-  MI/SI  FA#-7/9  SOL#-7"
+      "v": "DO#-  MI  FA#-  SI    DO#-  MI  FA#-  SI"
     },
     {
       "t": "c",
-      "v": "DO#-  MI/SI  FA#-7  SOL#-7    DO#-  MI6  FA#-9  SI6"
+      "v": "DO#-  SI  LA  SI    DO#-  SOL#-  LA  SI"
     },
     {
       "t": "s"
@@ -29,35 +29,27 @@
     },
     {
       "t": "c",
-      "v": "DO#-       MI       FA#-7  SI"
+      "v": "DO#-       MI       FA#-  SI"
     },
     {
       "t": "l",
-      "v": "Dall’aurora io cerco te,"
+      "v": "Dall’aurora io cerco te"
     },
     {
       "t": "c",
-      "v": "DO#-          MI        FA#-7  SI"
+      "v": "DO#-          MI        FA#-  SI"
     },
     {
       "t": "l",
-      "v": "fino al tramonto ti chiamo."
+      "v": "fino al tramonto ti chiamo"
     },
     {
       "t": "c",
-      "v": "DO#-          SI6      LAadd9"
+      "v": "DO#-       SI      LA  SI       DO#-          SOL#-  LA  SI"
     },
     {
       "t": "l",
-      "v": "Ha sete solo di te"
-    },
-    {
-      "t": "c",
-      "v": "SI        DO#-       SOL#-7  LA  SI"
-    },
-    {
-      "t": "l",
-      "v": "l’anima mia, come terra deserta."
+      "v": "ha sete solo di te l’anima mia come terra deserta"
     },
     {
       "t": "s"
@@ -68,31 +60,31 @@
     },
     {
       "t": "c",
-      "v": "DO#-          MI         FA#-7       SI  SOL#-7"
+      "v": "DO#-          MI         FA#-       SI"
     },
     {
       "t": "l",
-      "v": "Non mi fermerò un solo istante,"
+      "v": "Non mi fermerò un solo istante"
     },
     {
       "t": "c",
-      "v": "DO#-          MI       FA#-7  SI"
+      "v": "DO#-          MI  FA#-       SI"
     },
     {
       "t": "l",
-      "v": "sempre canterò la tua lode,"
+      "v": "sempre canterò la tua lode"
     },
     {
       "t": "c",
-      "v": "DO#-             SI6       LA  SI"
+      "v": "DO#-             SI   LA        SI"
     },
     {
       "t": "l",
-      "v": "perché sei il mio Dio, il mio riparo;"
+      "v": "perché sei il mio Dio, il mio riparo"
     },
     {
       "t": "c",
-      "v": "DO#-          SOL#-7       LA             SI4  SI"
+      "v": "DO#-          SOL#-  LA                 SI"
     },
     {
       "t": "l",
@@ -107,35 +99,27 @@
     },
     {
       "t": "c",
-      "v": "DO#-       MI       FA#-7  SI"
+      "v": "DO#-       MI       FA#-  SI"
     },
     {
       "t": "l",
-      "v": "Dall’aurora io cerco te,"
+      "v": "Dall’aurora io cerco te"
     },
     {
       "t": "c",
-      "v": "DO#-          MI        FA#-7  SI"
+      "v": "DO#-          MI        FA#-  SI"
     },
     {
       "t": "l",
-      "v": "fino al tramonto ti chiamo."
+      "v": "fino al tramonto ti chiamo"
     },
     {
       "t": "c",
-      "v": "DO#-          SI6      LAadd9"
+      "v": "DO#-       SI      LA  SI       DO#-          SOL#-  LA  SI"
     },
     {
       "t": "l",
-      "v": "Ha sete solo di te"
-    },
-    {
-      "t": "c",
-      "v": "SI        DO#-       SOL#-7  LA  SI"
-    },
-    {
-      "t": "l",
-      "v": "l’anima mia, come terra deserta."
+      "v": "ha sete solo di te l’anima mia come terra deserta"
     },
     {
       "t": "s"
@@ -146,31 +130,31 @@
     },
     {
       "t": "c",
-      "v": "DO#-          MI         FA#-7     SI  SOL#-7"
+      "v": "DO#-          MI         FA#-       SI"
     },
     {
       "t": "l",
-      "v": "Non mi fermerò un solo istante,"
+      "v": "Non mi fermerò un solo istante"
     },
     {
       "t": "c",
-      "v": "DO#-        MI        FA#-7  SI"
+      "v": "DO#-        MI  FA#-     SI"
     },
     {
       "t": "l",
-      "v": "io racconterò le tue opere,"
+      "v": "io racconterò le tue opere"
     },
     {
       "t": "c",
-      "v": "DO#-             SI6     LA  SI"
+      "v": "DO#-             SI    LA       SI"
     },
     {
       "t": "l",
-      "v": "perché sei il mio Dio, unico bene;"
+      "v": "perché sei il mio Dio, unico bene"
     },
     {
       "t": "c",
-      "v": "DO#-      SOL#-7       LA              SI4  SI"
+      "v": "DO#-      SOL#-  LA                 SI"
     },
     {
       "t": "l",
@@ -185,51 +169,35 @@
     },
     {
       "t": "c",
-      "v": "DO#-       MI       FA#-7  SI"
+      "v": "DO#-       MI       FA#-  SI"
     },
     {
       "t": "l",
-      "v": "Dall’aurora io cerco te,"
+      "v": "Dall’aurora io cerco te"
     },
     {
       "t": "c",
-      "v": "DO#-          MI        FA#-7  SI"
+      "v": "DO#-          MI        FA#-  SI"
     },
     {
       "t": "l",
-      "v": "fino al tramonto ti chiamo."
+      "v": "fino al tramonto ti chiamo"
     },
     {
       "t": "c",
-      "v": "DO#-          SI6      LAadd9"
+      "v": "DO#-       SI      LA  SI       DO#-          SOL#-  LA  SI"
     },
     {
       "t": "l",
-      "v": "Ha sete solo di te"
+      "v": "ha sete solo di te l’anima mia come terra deserta"
     },
     {
       "t": "c",
-      "v": "SI        DO#-       SOL#-7  LA  SI"
+      "v": "DO#-       SI      LA  SI       MI           LA  SI  MI"
     },
     {
       "t": "l",
-      "v": "l’anima mia, come terra deserta."
-    },
-    {
-      "t": "c",
-      "v": "DO#-          SI6      LAadd9"
-    },
-    {
-      "t": "l",
-      "v": "Ha sete solo di te"
-    },
-    {
-      "t": "c",
-      "v": "SI        MI         LA  SI4  SI  MI"
-    },
-    {
-      "t": "l",
-      "v": "l’anima mia, come terra deserta."
+      "v": "ha sete solo di te l’anima mia come terra deserta"
     },
     {
       "t": "s"
@@ -240,7 +208,11 @@
     },
     {
       "t": "c",
-      "v": "DO#-  MI6  FA#-7  SI    DO#-  MI6  FA#-7  SI  DO#-"
+      "v": "DO#-  MI  FA#-  SI    DO#-  MI  FA#-  SI"
+    },
+    {
+      "t": "c",
+      "v": "DO#-  SI  LA  SI    DO#-  SOL#-  LA  SI"
     }
   ],
   "id": "dall-aurora-al-tramonto"

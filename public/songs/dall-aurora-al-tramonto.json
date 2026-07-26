@@ -11,6 +11,18 @@
   "lines": [
     {
       "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| DO#- MI | LA SI | DO#- MI | FA#- SI | ×2",
+      "accent": "gold-bars"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
       "v": "Ritornello"
     },
     {
@@ -45,14 +57,27 @@
     {
       "t": "c",
       "v": "DO#- SOL#- LA SI DO#- SOL#- LA SI",
+      "flowSegments": [
+        {"chord": "DO#-", "lyric": "ha sete"},
+        {"chord": "SOL#-", "lyric": "solo di"},
+        {"chord": "LA", "lyric": "te,"},
+        {"chord": "SI", "lyric": "l’anima"},
+        {"chord": "DO#-", "lyric": "mia come"},
+        {"chord": "SOL#-", "lyric": "terra"},
+        {"parts": [
+          {"chord": "", "lyric": "de"},
+          {"chord": "LA", "lyric": "sert"},
+          {"chord": "SI", "lyric": "a"}
+        ]}
+      ],
       "anchors": [
         {"word": 0, "chord": "DO#-", "offset": 0},
         {"word": 2, "chord": "SOL#-", "offset": 0},
         {"word": 4, "chord": "LA", "offset": 0},
         {"word": 5, "chord": "SI", "offset": 0},
         {"word": 6, "chord": "DO#-", "offset": 0},
-        {"word": 7, "chord": "SOL#-", "offset": 0},
-        {"word": 9, "chord": "LA", "offset": 0},
+        {"word": 8, "chord": "SOL#-", "offset": 0},
+        {"word": 9, "chord": "LA", "offset": 0.28},
         {"word": 9, "chord": "SI", "offset": 1}
       ]
     },
@@ -153,14 +178,27 @@
     {
       "t": "c",
       "v": "DO#- SOL#- LA SI DO#- SOL#- LA SI",
+      "flowSegments": [
+        {"chord": "DO#-", "lyric": "ha sete"},
+        {"chord": "SOL#-", "lyric": "solo di"},
+        {"chord": "LA", "lyric": "te,"},
+        {"chord": "SI", "lyric": "l’anima"},
+        {"chord": "DO#-", "lyric": "mia come"},
+        {"chord": "SOL#-", "lyric": "terra"},
+        {"parts": [
+          {"chord": "", "lyric": "de"},
+          {"chord": "LA", "lyric": "sert"},
+          {"chord": "SI", "lyric": "a"}
+        ]}
+      ],
       "anchors": [
         {"word": 0, "chord": "DO#-", "offset": 0},
         {"word": 2, "chord": "SOL#-", "offset": 0},
         {"word": 4, "chord": "LA", "offset": 0},
         {"word": 5, "chord": "SI", "offset": 0},
         {"word": 6, "chord": "DO#-", "offset": 0},
-        {"word": 7, "chord": "SOL#-", "offset": 0},
-        {"word": 9, "chord": "LA", "offset": 0},
+        {"word": 8, "chord": "SOL#-", "offset": 0},
+        {"word": 9, "chord": "LA", "offset": 0.28},
         {"word": 9, "chord": "SI", "offset": 1}
       ]
     },
@@ -261,14 +299,27 @@
     {
       "t": "c",
       "v": "DO#- SOL#- LA SI DO#- SOL#- LA SI",
+      "flowSegments": [
+        {"chord": "DO#-", "lyric": "ha sete"},
+        {"chord": "SOL#-", "lyric": "solo di"},
+        {"chord": "LA", "lyric": "te,"},
+        {"chord": "SI", "lyric": "l’anima"},
+        {"chord": "DO#-", "lyric": "mia come"},
+        {"chord": "SOL#-", "lyric": "terra"},
+        {"parts": [
+          {"chord": "", "lyric": "de"},
+          {"chord": "LA", "lyric": "sert"},
+          {"chord": "SI", "lyric": "a"}
+        ]}
+      ],
       "anchors": [
         {"word": 0, "chord": "DO#-", "offset": 0},
         {"word": 2, "chord": "SOL#-", "offset": 0},
         {"word": 4, "chord": "LA", "offset": 0},
         {"word": 5, "chord": "SI", "offset": 0},
         {"word": 6, "chord": "DO#-", "offset": 0},
-        {"word": 7, "chord": "SOL#-", "offset": 0},
-        {"word": 9, "chord": "LA", "offset": 0},
+        {"word": 8, "chord": "SOL#-", "offset": 0},
+        {"word": 9, "chord": "LA", "offset": 0.28},
         {"word": 9, "chord": "SI", "offset": 1}
       ]
     },

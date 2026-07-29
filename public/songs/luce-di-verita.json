@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Luce di Verità  Ritornello Luce   di verità,  fiamma    di  carità, (fiamma     di carità)       vincolo    di unità,   Spirito  Santo   Amore.       Dona    la libertà,  dona    la santità,       fa'  dell'umanità    il tuo  canto   di lode.  Strofa 1              1.   Cammini     accanto    a noi  lungo   la stra  - da,                    si realizzi in noi  la tua  missione.                    Attingeremo      forza  dal  tuo  cuo  - re,                    si realizzi in noi  la tua  missione.    Spirito,  vieni.  Strofa 2              2.   Tu  nella  brezza   parli  al nostro   cuo   - re:                  ascolteremo,      Dio,  la tua  parola;                  ci chiami   a  condividere     il tuo amo    - re:                  ascolteremo,      Dio,  la tua  parola.   Spirito,  vieni.  Strofa 3              3.   Vergine    del  silenzio  e della  fe -  de                  l'Eterno   ha  posto   in  te la sua  dimora.                  Il tuo  \"sì\"  risuonerà   per  sem   - pre:                  l'Eterno   ha  posto   in  te la sua  dimora.    Spirito,  vieni.  Strofa 4              4.   Come     sigillo posto   sul tuo  cuo   - re,                  ci custodisci,   Dio,  nel  tuo  amore.                  Hai   dato   la tua  vita per  salvar  -  ci,                  ci custodisci,   Dio,  nel  tuo  amore.    Spirito,  vieni.  Strofa 5              5.   Dissiperai   le tenebre    del ma   - le,                  esulterà   in te  la creazione.                  Vivremo     al tuo   cospetto   in  eter - no,                  esulterà   in te  la creazione.    Spirito, vieni.  Strofa 6              6.   Tu  nella  Santa   Casa   accogli  il do  - no,                    sei tu la porta   che  ci apre   il Cielo                    Con   te la Chiesa   canta   la sua  lo  -  de,                    sei tu la porta   che  ci apre   il Cielo. Spirito,  vieni.  Strofa 7              7.    Ci  poni  come    luce  sopra   un  mon    - te:                   in noi  l'umanità    vedrà   il tuo  volto                   Ti  testimonieremo      fra  le gen  - ti:                   in noi  l'umanità    vedrà   il tuo  volto.  Spirito,  vieni.  Finale del ritornello lo - de",
+  "search": "Luce di Verità  Ritornello Luce   di verità,  fiamma    di  carità, (fiamma     di carità)       vincolo    di unità,   Spirito  Santo   Amore.       Dona    la libertà,  dona    la santità,       fa'  dell'umanità    il tuo  canto   di lode.  Strofa 1              Cammini     accanto    a noi  lungo   la stra  - da,                    si realizzi in noi  la tua  missione.                    Attingeremo      forza  dal  tuo  cuo  - re,                    si realizzi in noi  la tua  missione.    Spirito,  vieni.  Strofa 2              Tu  nella  brezza   parli  al nostro   cuo   - re:                  ascolteremo,      Dio,  la tua  parola;                  ci chiami   a  condividere     il tuo amo    - re:                  ascolteremo,      Dio,  la tua  parola.   Spirito,  vieni.  Strofa 3              Vergine    del  silenzio  e della  fe -  de                  l'Eterno   ha  posto   in  te la sua  dimora.                  Il tuo  \"sì\"  risuonerà   per  sem   - pre:                  l'Eterno   ha  posto   in  te la sua  dimora.    Spirito,  vieni.  Strofa 4              Come     sigillo posto   sul tuo  cuo   - re,                  ci custodisci,   Dio,  nel  tuo  amore.                  Hai   dato   la tua  vita per  salvar  -  ci,                  ci custodisci,   Dio,  nel  tuo  amore.    Spirito,  vieni.  Strofa 5              Dissiperai   le tenebre    del ma   - le,                  esulterà   in te  la creazione.                  Vivremo     al tuo   cospetto   in  eter - no,                  esulterà   in te  la creazione.    Spirito, vieni.  Strofa 6              Tu  nella  Santa   Casa   accogli  il do  - no,                    sei tu la porta   che  ci apre   il Cielo                    Con   te la Chiesa   canta   la sua  lo  -  de,                    sei tu la porta   che  ci apre   il Cielo. Spirito,  vieni.  Strofa 7              Ci  poni  come    luce  sopra   un  mon    - te:                   in noi  l'umanità    vedrà   il tuo  volto                   Ti  testimonieremo      fra  le gen  - ti:                   in noi  l'umanità    vedrà   il tuo  volto.  Spirito,  vieni.  Finale del ritornello lo - de",
   "lines": [
     {
       "t": "h",
@@ -53,11 +53,11 @@
     },
     {
       "t": "c",
-      "v": "               DO#-                         SI              MI      LA"
+      "v": "DO#-                         SI              MI      LA"
     },
     {
       "t": "l",
-      "v": "             1.   Cammini     accanto    a noi  lungo   la stra  - da,"
+      "v": "Cammini     accanto    a noi  lungo   la stra  - da,"
     },
     {
       "t": "c",
@@ -92,11 +92,11 @@
     },
     {
       "t": "c",
-      "v": "               DO#-                    SI                 MI     LA"
+      "v": "DO#-                    SI                 MI     LA"
     },
     {
       "t": "l",
-      "v": "             2.   Tu  nella  brezza   parli  al nostro   cuo   - re:"
+      "v": "Tu  nella  brezza   parli  al nostro   cuo   - re:"
     },
     {
       "t": "c",
@@ -131,11 +131,11 @@
     },
     {
       "t": "c",
-      "v": "               DO#-               SI                  MI    LA"
+      "v": "DO#-               SI                  MI    LA"
     },
     {
       "t": "l",
-      "v": "             3.   Vergine    del  silenzio  e della  fe -  de"
+      "v": "Vergine    del  silenzio  e della  fe -  de"
     },
     {
       "t": "c",
@@ -170,11 +170,11 @@
     },
     {
       "t": "c",
-      "v": "               DO#-                 SI               MI    LA"
+      "v": "DO#-                 SI               MI    LA"
     },
     {
       "t": "l",
-      "v": "             4.   Come     sigillo posto   sul tuo  cuo   - re,"
+      "v": "Come     sigillo posto   sul tuo  cuo   - re,"
     },
     {
       "t": "c",
@@ -209,11 +209,11 @@
     },
     {
       "t": "c",
-      "v": "               DO#-               SI              MI     LA"
+      "v": "DO#-               SI              MI     LA"
     },
     {
       "t": "l",
-      "v": "             5.   Dissiperai   le tenebre    del ma   - le,"
+      "v": "Dissiperai   le tenebre    del ma   - le,"
     },
     {
       "t": "c",
@@ -248,11 +248,11 @@
     },
     {
       "t": "c",
-      "v": "               DO#-                 SI                  MI    LA"
+      "v": "DO#-                 SI                  MI    LA"
     },
     {
       "t": "l",
-      "v": "             6.   Tu  nella  Santa   Casa   accogli  il do  - no,"
+      "v": "Tu  nella  Santa   Casa   accogli  il do  - no,"
     },
     {
       "t": "c",
@@ -287,11 +287,11 @@
     },
     {
       "t": "c",
-      "v": "                DO#-                 SI                MI     LA"
+      "v": "DO#-                 SI                MI     LA"
     },
     {
       "t": "l",
-      "v": "             7.    Ci  poni  come    luce  sopra   un  mon    - te:"
+      "v": "Ci  poni  come    luce  sopra   un  mon    - te:"
     },
     {
       "t": "c",

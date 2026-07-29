@@ -7,7 +7,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Giovane Donna  Strofa 1 1.    Giovane    Donna,     attesa  dell'umanità,       un  desiderio    d'amore    e pura   libertà       Il Dio  lontano    è qui  vicino   a Te,       voce   e silenzio   annuncio    di novità  Ritornello                      A         -      ve           Mari         -     a  Ritornello (ripetere)                      A         -      ve           Mari         -     a  Strofa 2 2.   Dio   t'ha prescelta   qual  madre    piena   di  bellezza       ed  ora  il suo  amore    t'avvolgerà    con  la sua  ombra       Grembo     per  Dio   venuto    sulla terra       Tu  sarai madre    di  un  uomo    nuovo  Strofa 3 3.   Ecco   l'ancella  che  vive  della  sua  parola       libero  il cuore  perché    l'amore   trovi  casa       Ora   l'attesa è densa   di preghiera       e l'uomo    nuovo    è qui  in mezzo    a noi",
+  "search": "Giovane Donna  Strofa 1 Giovane    Donna,     attesa  dell'umanità,       un  desiderio    d'amore    e pura   libertà       Il Dio  lontano    è qui  vicino   a Te,       voce   e silenzio   annuncio    di novità  Ritornello                      A         -      ve           Mari         -     a  Ritornello (ripetere)                      A         -      ve           Mari         -     a  Strofa 2 Dio   t'ha prescelta   qual  madre    piena   di  bellezza       ed  ora  il suo  amore    t'avvolgerà    con  la sua  ombra       Grembo     per  Dio   venuto    sulla terra       Tu  sarai madre    di  un  uomo    nuovo  Strofa 3 Ecco   l'ancella  che  vive  della  sua  parola       libero  il cuore  perché    l'amore   trovi  casa       Ora   l'attesa è densa   di preghiera       e l'uomo    nuovo    è qui  in mezzo    a noi",
   "lines": [
     {
       "t": "h",
@@ -15,11 +15,11 @@
     },
     {
       "t": "c",
-      "v": "      RE          MI-         SOL                RE"
+      "v": "RE          MI-         SOL                RE"
     },
     {
       "t": "l",
-      "v": "1.    Giovane    Donna,     attesa  dell'umanità,"
+      "v": "Giovane    Donna,     attesa  dell'umanità,"
     },
     {
       "t": "c",
@@ -84,11 +84,11 @@
     },
     {
       "t": "c",
-      "v": "      RE          MI-         SOL                RE"
+      "v": " RE          MI-         SOL                RE"
     },
     {
       "t": "l",
-      "v": "2.   Dio   t'ha prescelta   qual  madre    piena   di  bellezza"
+      "v": "Dio   t'ha prescelta   qual  madre    piena   di  bellezza"
     },
     {
       "t": "c",
@@ -123,11 +123,11 @@
     },
     {
       "t": "c",
-      "v": "      RE          MI-         SOL                RE"
+      "v": " RE          MI-         SOL                RE"
     },
     {
       "t": "l",
-      "v": "3.   Ecco   l'ancella  che  vive  della  sua  parola"
+      "v": "Ecco   l'ancella  che  vive  della  sua  parola"
     },
     {
       "t": "c",

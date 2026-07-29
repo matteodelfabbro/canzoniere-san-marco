@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Eccomi Salmo 39 Intro  Ritornello Eccomi,      ecco  - mi!    Si  -   gnore   io  ve   -  ngo.       Eccomi,         ecco  - mi!     si compia    in me   la tua   vo   -   lontà.  Strofa 1 1.     Nel  mio   Signore   ho  sperato,   e  su di  me  s'è  chinato,        ha  dato  ascolto   al mio   gri  -  do,       m'ha   liberato   dalla  mo    -  rte.  Strofa 2 2.     I miei  piedi  ha  reso  saldi, sicuri  ha reso   i miei  passi.        Ha  messo    sulla mia   bocca   un  nuovo    canto   di  lode.  Strofa 3 3.     Il sacrificio non   gradisci,  ma   m'hai   aperto   l'orecchio,        non   hai voluto    olocausti,   allora  ho  detto:   io vengo!  Strofa 4 4.     Sul tuo  libro  di me   è  scritto: si compia    il tuo  volere.        Questo    mio   Dio,  desidero,   la  tua  legge  è nel  mio   cuore.  Strofa 5 5.     La tua  giustizia  ho  proclamato,      non   tengo   chiuse  le labbra.        Non   rifiutarmi,   Signore,   la tua  misericordia.",
+  "search": "Eccomi Salmo 39 Intro  Ritornello Eccomi,      ecco  - mi!    Si  -   gnore   io  ve   -  ngo.       Eccomi,         ecco  - mi!     si compia    in me   la tua   vo   -   lontà.  Strofa 1 Nel  mio   Signore   ho  sperato,   e  su di  me  s'è  chinato,        ha  dato  ascolto   al mio   gri  -  do,       m'ha   liberato   dalla  mo    -  rte.  Strofa 2 I miei  piedi  ha  reso  saldi, sicuri  ha reso   i miei  passi.        Ha  messo    sulla mia   bocca   un  nuovo    canto   di  lode.  Strofa 3 Il sacrificio non   gradisci,  ma   m'hai   aperto   l'orecchio,        non   hai voluto    olocausti,   allora  ho  detto:   io vengo!  Strofa 4 Sul tuo  libro  di me   è  scritto: si compia    il tuo  volere.        Questo    mio   Dio,  desidero,   la  tua  legge  è nel  mio   cuore.  Strofa 5 La tua  giustizia  ho  proclamato,      non   tengo   chiuse  le labbra.        Non   rifiutarmi,   Signore,   la tua  misericordia.",
   "lines": [
     {
       "t": "h",
@@ -48,11 +48,11 @@
     },
     {
       "t": "c",
-      "v": "      RE           SOL              RE     SI-     SOL           LA"
+      "v": "RE           SOL              RE     SI-     SOL           LA"
     },
     {
       "t": "l",
-      "v": "1.     Nel  mio   Signore   ho  sperato,   e  su di  me  s'è  chinato,"
+      "v": "Nel  mio   Signore   ho  sperato,   e  su di  me  s'è  chinato,"
     },
     {
       "t": "c",
@@ -71,11 +71,11 @@
     },
     {
       "t": "c",
-      "v": "      RE           SOL              RE     SI-     SOL           LA"
+      "v": "RE           SOL              RE     SI-     SOL           LA"
     },
     {
       "t": "l",
-      "v": "2.     I miei  piedi  ha  reso  saldi, sicuri  ha reso   i miei  passi."
+      "v": "I miei  piedi  ha  reso  saldi, sicuri  ha reso   i miei  passi."
     },
     {
       "t": "c",
@@ -94,11 +94,11 @@
     },
     {
       "t": "c",
-      "v": "      RE           SOL              RE     SI-     SOL           LA"
+      "v": "RE           SOL              RE     SI-     SOL           LA"
     },
     {
       "t": "l",
-      "v": "3.     Il sacrificio non   gradisci,  ma   m'hai   aperto   l'orecchio,"
+      "v": "Il sacrificio non   gradisci,  ma   m'hai   aperto   l'orecchio,"
     },
     {
       "t": "c",
@@ -117,11 +117,11 @@
     },
     {
       "t": "c",
-      "v": "      RE           SOL              RE     SI-     SOL           LA"
+      "v": "RE           SOL              RE     SI-     SOL           LA"
     },
     {
       "t": "l",
-      "v": "4.     Sul tuo  libro  di me   è  scritto: si compia    il tuo  volere."
+      "v": "Sul tuo  libro  di me   è  scritto: si compia    il tuo  volere."
     },
     {
       "t": "c",
@@ -140,11 +140,11 @@
     },
     {
       "t": "c",
-      "v": "      RE           SOL              RE     SI-     SOL           LA"
+      "v": "RE           SOL              RE     SI-     SOL           LA"
     },
     {
       "t": "l",
-      "v": "5.     La tua  giustizia  ho  proclamato,      non   tengo   chiuse  le labbra."
+      "v": "La tua  giustizia  ho  proclamato,      non   tengo   chiuse  le labbra."
     },
     {
       "t": "c",

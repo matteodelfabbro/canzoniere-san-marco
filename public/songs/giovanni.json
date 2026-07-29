@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Giovanni  Intro  Strofa 1             1. Voce   di uno   che  grida   nel deserto    :               \"Convertitevi,     il Regno   è  qui.               Preparate    la   via     del   Signore,               raddrizzate     i suoi sentie       -  ri\".  Ritornello Alle  -  luja, allelu  - ja,                   viene   il Signore,  allelu    -  ja.                   preparate    una   strada  nel  deserto,                   per  il Signore   che   vie  -  e  -    ne.  Strofa 2             2. E  venne   un  uomo     e il suo  nome    era  Giovanni,                 lui testimone    della  luce  di Dio;                 come    una  lampada     che  rischiara  il buio,                 egli arde   nell'oscurità.  Strofa 3             3. Ecco   io mando     il mio  messaggero                 dinanzi   a me,   per  prepararmi     la via,                 per  ricondurre    i padri  verso   i figli,                 con  lo  spirito di  Elia.",
+  "search": "Giovanni  Intro  Strofa 1             Voce   di uno   che  grida   nel deserto    :               \"Convertitevi,     il Regno   è  qui.               Preparate    la   via     del   Signore,               raddrizzate     i suoi sentie       -  ri\".  Ritornello Alle  -  luja, allelu  - ja,                   viene   il Signore,  allelu    -  ja.                   preparate    una   strada  nel  deserto,                   per  il Signore   che   vie  -  e  -    ne.  Strofa 2             E  venne   un  uomo     e il suo  nome    era  Giovanni,                 lui testimone    della  luce  di Dio;                 come    una  lampada     che  rischiara  il buio,                 egli arde   nell'oscurità.  Strofa 3             Ecco   io mando     il mio  messaggero                 dinanzi   a me,   per  prepararmi     la via,                 per  ricondurre    i padri  verso   i figli,                 con  lo  spirito di  Elia.",
   "lines": [
     {
       "t": "h",
@@ -25,11 +25,11 @@
     },
     {
       "t": "c",
-      "v": "              SI-         MI-        SI-            FA#"
+      "v": "SI-         MI-        SI-            FA#"
     },
     {
       "t": "l",
-      "v": "            1. Voce   di uno   che  grida   nel deserto    :"
+      "v": "Voce   di uno   che  grida   nel deserto    :"
     },
     {
       "t": "c",
@@ -103,11 +103,11 @@
     },
     {
       "t": "c",
-      "v": "              SI-         MI-        SI-            FA#"
+      "v": "SI-         MI-        SI-            FA#"
     },
     {
       "t": "l",
-      "v": "            2. E  venne   un  uomo     e il suo  nome    era  Giovanni,"
+      "v": "E  venne   un  uomo     e il suo  nome    era  Giovanni,"
     },
     {
       "t": "c",
@@ -142,11 +142,11 @@
     },
     {
       "t": "c",
-      "v": "              SI-         MI-        SI-            FA#"
+      "v": "SI-         MI-        SI-            FA#"
     },
     {
       "t": "l",
-      "v": "            3. Ecco   io mando     il mio  messaggero"
+      "v": "Ecco   io mando     il mio  messaggero"
     },
     {
       "t": "c",

@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Maria Porta dell'Avvento  Strofa 1 1.     Maria,   tu porta   dell'Avvento,     Signora    del silenzio,        sei chiara  come    aurora,   in cuore   hai  la parola.  Ritornello Beata,   tu hai  creduto,      beata,   tu hai  creduto.  Strofa 2 2.     Maria,   tu strada   del  Signore,   maestra   nel  pregare,        fanciulla  dell'attesa,   il Verbo   in te riposa.  Strofa 3 3.     Maria,   tu madre    del  Messia,   per  noi  dimora    sua,        sei arca  d'alleanza,   in  te Dio  è  presenza.",
+  "search": "Maria Porta dell'Avvento  Strofa 1 Maria,   tu porta   dell'Avvento,     Signora    del silenzio,        sei chiara  come    aurora,   in cuore   hai  la parola.  Ritornello Beata,   tu hai  creduto,      beata,   tu hai  creduto.  Strofa 2 Maria,   tu strada   del  Signore,   maestra   nel  pregare,        fanciulla  dell'attesa,   il Verbo   in te riposa.  Strofa 3 Maria,   tu madre    del  Messia,   per  noi  dimora    sua,        sei arca  d'alleanza,   in  te Dio  è  presenza.",
   "lines": [
     {
       "t": "h",
@@ -14,11 +14,11 @@
     },
     {
       "t": "c",
-      "v": "         DO        SOL              LA-          RE-          MI-"
+      "v": "  DO        SOL              LA-          RE-          MI-"
     },
     {
       "t": "l",
-      "v": "1.     Maria,   tu porta   dell'Avvento,     Signora    del silenzio,"
+      "v": "Maria,   tu porta   dell'Avvento,     Signora    del silenzio,"
     },
     {
       "t": "c",
@@ -52,11 +52,11 @@
     },
     {
       "t": "c",
-      "v": "         DO        SOL              LA-          RE-          MI-"
+      "v": "  DO        SOL              LA-          RE-          MI-"
     },
     {
       "t": "l",
-      "v": "2.     Maria,   tu strada   del  Signore,   maestra   nel  pregare,"
+      "v": "Maria,   tu strada   del  Signore,   maestra   nel  pregare,"
     },
     {
       "t": "c",
@@ -75,11 +75,11 @@
     },
     {
       "t": "c",
-      "v": "         DO        SOL              LA-          RE-          MI-"
+      "v": "  DO        SOL              LA-          RE-          MI-"
     },
     {
       "t": "l",
-      "v": "3.     Maria,   tu madre    del  Messia,   per  noi  dimora    sua,"
+      "v": "Maria,   tu madre    del  Messia,   per  noi  dimora    sua,"
     },
     {
       "t": "c",

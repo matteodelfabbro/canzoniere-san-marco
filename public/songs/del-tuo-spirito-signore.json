@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Del Tuo Spirito, Signore  Ritornello Del   tuo  Spirito,     Signore,      È      piena   la    ter   -   ra,      è  piena  la  ter -  ra.   ( 2  v . )  Strofa 1 1. Benedici    il Signore,  anima     mia  - a    Signore,   Dio,       Tu   sei grande!    Sono   immense,     splendenti    tutte  le tue opere        e tutte  le creature.  Strofa 2 2.  Se togli  il tuo soffio  muore    ogni   cosa     e si dissolve   nella  terra.     Il tuo  spirito  scende:     tutto  si ricrea  e tutto  si rinnova.  Strofa 3 3.  La tua  gloria,  Signore,   resti per  sempre.     Gioisci,  Dio,  del  creato.     Questo    semplice    canto     salga  a te,  Signore:   sei tu la nostra   gioia.",
+  "search": "Del Tuo Spirito, Signore  Ritornello Del   tuo  Spirito,     Signore,      È      piena   la    ter   -   ra,      è  piena  la  ter -  ra.   ( 2  v . )  Strofa 1 Benedici    il Signore,  anima     mia  - a    Signore,   Dio,       Tu   sei grande!    Sono   immense,     splendenti    tutte  le tue opere        e tutte  le creature.  Strofa 2 Se togli  il tuo soffio  muore    ogni   cosa     e si dissolve   nella  terra.     Il tuo  spirito  scende:     tutto  si ricrea  e tutto  si rinnova.  Strofa 3 La tua  gloria,  Signore,   resti per  sempre.     Gioisci,  Dio,  del  creato.     Questo    semplice    canto     salga  a te,  Signore:   sei tu la nostra   gioia.",
   "lines": [
     {
       "t": "h",
@@ -45,11 +45,11 @@
     },
     {
       "t": "c",
-      "v": "   DO              SIb      RE-      LA-    SIb"
+      "v": "DO              SIb      RE-      LA-    SIb"
     },
     {
       "t": "l",
-      "v": "1. Benedici    il Signore,  anima     mia"
+      "v": "Benedici    il Signore,  anima     mia"
     },
     {
       "t": "c",
@@ -84,11 +84,11 @@
     },
     {
       "t": "c",
-      "v": "   DO              SIb      RE-      LA-    SIb"
+      "v": "DO              SIb      RE-      LA-    SIb"
     },
     {
       "t": "l",
-      "v": "2.  Se togli  il tuo soffio  muore    ogni   cosa"
+      "v": "Se togli  il tuo soffio  muore    ogni   cosa"
     },
     {
       "t": "c",
@@ -123,11 +123,11 @@
     },
     {
       "t": "c",
-      "v": "   DO              SIb      RE-      LA-    SIb"
+      "v": "DO              SIb      RE-      LA-    SIb"
     },
     {
       "t": "l",
-      "v": "3.  La tua  gloria,  Signore,   resti per  sempre."
+      "v": "La tua  gloria,  Signore,   resti per  sempre."
     },
     {
       "t": "c",

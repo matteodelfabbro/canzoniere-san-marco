@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Segni Nuovi  Ritornello E segni   nuovi   oggi  nascono    già                    e  c'è più  sole  nelle  nostre  città.                    Il mondo     unito   splende   qui  fra  di noi                    è  un ideale   che  la storia  farà,                    un   ideale  che  storia  si fa.  Strofa 1               1.    Vedo   cambiare     le cose  che  stanno    attorno                     crollare  muri   e barriere   fin dal  profondo.                     Vedo   gente   che  vive   la vita                     vedo   in alto  un  cielo  chiaro...  Strofa 2               2.    Ormai    non   è così  strano  sentir  parlare                     di una   casa  comune     dove   abitare                     e l'amore   fra  noi  lo farà,                     invadendo     il mondo     intero.",
+  "search": "Segni Nuovi  Ritornello E segni   nuovi   oggi  nascono    già                    e  c'è più  sole  nelle  nostre  città.                    Il mondo     unito   splende   qui  fra  di noi                    è  un ideale   che  la storia  farà,                    un   ideale  che  storia  si fa.  Strofa 1               Vedo   cambiare     le cose  che  stanno    attorno                     crollare  muri   e barriere   fin dal  profondo.                     Vedo   gente   che  vive   la vita                     vedo   in alto  un  cielo  chiaro...  Strofa 2               Ormai    non   è così  strano  sentir  parlare                     di una   casa  comune     dove   abitare                     e l'amore   fra  noi  lo farà,                     invadendo     il mondo     intero.",
   "lines": [
     {
       "t": "h",
@@ -61,11 +61,11 @@
     },
     {
       "t": "c",
-      "v": "                    SI-                                              SOL"
+      "v": "SI-                                              SOL"
     },
     {
       "t": "l",
-      "v": "              1.    Vedo   cambiare     le cose  che  stanno    attorno"
+      "v": "Vedo   cambiare     le cose  che  stanno    attorno"
     },
     {
       "t": "c",
@@ -100,11 +100,11 @@
     },
     {
       "t": "c",
-      "v": "                    SI-                                              SOL"
+      "v": "SI-                                              SOL"
     },
     {
       "t": "l",
-      "v": "              2.    Ormai    non   è così  strano  sentir  parlare"
+      "v": "Ormai    non   è così  strano  sentir  parlare"
     },
     {
       "t": "c",

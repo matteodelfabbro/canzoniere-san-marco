@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Quale Gioia Salmo 121 Ritornello Quale   gioia  mi  dissero,                              andremo     alla  casa  del  Si -  gno   - re.                              Ora   i piedi,  o Gerusa    - lemme                              si fermano    davanti    a te.  Strofa 1                   1. Ora   Gerusalemme       è    ricostruita                      come    città salda  forte  e  unita.  Strofa 2                   2. Salgono    insieme   le tribù  di  Jahvè                      per  lodare   il nome    del Dio   d'Israele.  Strofa 3                   3. Là  sono   posti  i seggi della  sua  giustizia                      i seggi  della  casa  di Davide.  Strofa 4                   4. Domandate       pace   per  Gerusalemme                      sia pace   a chi  ti ama,  pace   alle tue  mura.  Strofa 5                   5. Su  di te sia la pace,   chiederò    il tuo bene                      per  la casa  di Dio   chiederò    la gioia.  Strofa 6                   6. Noi   siamo   il suo  popolo,    Egli è il nostro   Dio                      possa   rinnovarci    la felicità.",
+  "search": "Quale Gioia Salmo 121 Ritornello Quale   gioia  mi  dissero,                              andremo     alla  casa  del  Si -  gno   - re.                              Ora   i piedi,  o Gerusa    - lemme                              si fermano    davanti    a te.  Strofa 1                   Ora   Gerusalemme       è    ricostruita                      come    città salda  forte  e  unita.  Strofa 2                   Salgono    insieme   le tribù  di  Jahvè                      per  lodare   il nome    del Dio   d'Israele.  Strofa 3                   Là  sono   posti  i seggi della  sua  giustizia                      i seggi  della  casa  di Davide.  Strofa 4                   Domandate       pace   per  Gerusalemme                      sia pace   a chi  ti ama,  pace   alle tue  mura.  Strofa 5                   Su  di te sia la pace,   chiederò    il tuo bene                      per  la casa  di Dio   chiederò    la gioia.  Strofa 6                   Noi   siamo   il suo  popolo,    Egli è il nostro   Dio                      possa   rinnovarci    la felicità.",
   "lines": [
     {
       "t": "h",
@@ -53,11 +53,11 @@
     },
     {
       "t": "c",
-      "v": "                     RE             LA      MI-     SOL     LA"
+      "v": "RE             LA      MI-     SOL     LA"
     },
     {
       "t": "l",
-      "v": "                  1. Ora   Gerusalemme       è    ricostruita"
+      "v": "Ora   Gerusalemme       è    ricostruita"
     },
     {
       "t": "c",
@@ -76,11 +76,11 @@
     },
     {
       "t": "c",
-      "v": "                     RE             LA      MI-     SOL     LA"
+      "v": "RE             LA      MI-     SOL     LA"
     },
     {
       "t": "l",
-      "v": "                  2. Salgono    insieme   le tribù  di  Jahvè"
+      "v": "Salgono    insieme   le tribù  di  Jahvè"
     },
     {
       "t": "c",
@@ -99,11 +99,11 @@
     },
     {
       "t": "c",
-      "v": "                     RE             LA      MI-     SOL     LA"
+      "v": "RE             LA      MI-     SOL     LA"
     },
     {
       "t": "l",
-      "v": "                  3. Là  sono   posti  i seggi della  sua  giustizia"
+      "v": "Là  sono   posti  i seggi della  sua  giustizia"
     },
     {
       "t": "c",
@@ -122,11 +122,11 @@
     },
     {
       "t": "c",
-      "v": "                     RE             LA      MI-     SOL     LA"
+      "v": "RE             LA      MI-     SOL     LA"
     },
     {
       "t": "l",
-      "v": "                  4. Domandate       pace   per  Gerusalemme"
+      "v": "Domandate       pace   per  Gerusalemme"
     },
     {
       "t": "c",
@@ -145,11 +145,11 @@
     },
     {
       "t": "c",
-      "v": "                     RE             LA      MI-     SOL     LA"
+      "v": "RE             LA      MI-     SOL     LA"
     },
     {
       "t": "l",
-      "v": "                  5. Su  di te sia la pace,   chiederò    il tuo bene"
+      "v": "Su  di te sia la pace,   chiederò    il tuo bene"
     },
     {
       "t": "c",
@@ -168,11 +168,11 @@
     },
     {
       "t": "c",
-      "v": "                     RE             LA      MI-     SOL     LA"
+      "v": "RE             LA      MI-     SOL     LA"
     },
     {
       "t": "l",
-      "v": "                  6. Noi   siamo   il suo  popolo,    Egli è il nostro   Dio"
+      "v": "Noi   siamo   il suo  popolo,    Egli è il nostro   Dio"
     },
     {
       "t": "c",

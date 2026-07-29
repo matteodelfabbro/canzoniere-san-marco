@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Laudato Sii, Signore Mio  Ritornello         Laudato    sii, Signore   mio          Laudato    sii, Signore    mio         Laudato    sii, Signore   mio          Laudato    sii, Signore    mio  Strofa 1 1.   Per  il sole d'ogni   giorno           Che   riscalda  e dona    vita      Ed  illumina   il cammino              Di  chi cerca   te Signore      Per  la luna  e  per  le stelle        Io  le sento  mie   sorelle      Le  hai  formate    su nel  cielo      E le doni   a chi  è nel  buio  Strofa 2 2.   Per  la nostra   madre    terra        Che   ci dona   fiori ed  erba      Su  di lei noi  fatichiamo             Per  il pane  d'ogni   giorno      Per  chi  soffre con   coraggio        E  perdona    nel  tuo  amore      Tu  gli dai  la pace  tua              Alla  sera  della  vita  Strofa 3 3.   Per  la morte    che  è di tutti        Io la sento   in ogni   istante      Ma   se  vivo  nel  tuo  amore         Dona    un  senso   alla mia   vita      Per  l'amore    che  è nel  mondo      Tra  una  donna    e  l'uomo    suo      Per  la vita  dei bambini              Che   il mio  mondo      fanno   nuovo",
+  "search": "Laudato Sii, Signore Mio  Ritornello         Laudato    sii, Signore   mio          Laudato    sii, Signore    mio         Laudato    sii, Signore   mio          Laudato    sii, Signore    mio  Strofa 1 Per  il sole d'ogni   giorno           Che   riscalda  e dona    vita      Ed  illumina   il cammino              Di  chi cerca   te Signore      Per  la luna  e  per  le stelle        Io  le sento  mie   sorelle      Le  hai  formate    su nel  cielo      E le doni   a chi  è nel  buio  Strofa 2 Per  la nostra   madre    terra        Che   ci dona   fiori ed  erba      Su  di lei noi  fatichiamo             Per  il pane  d'ogni   giorno      Per  chi  soffre con   coraggio        E  perdona    nel  tuo  amore      Tu  gli dai  la pace  tua              Alla  sera  della  vita  Strofa 3 Per  la morte    che  è di tutti        Io la sento   in ogni   istante      Ma   se  vivo  nel  tuo  amore         Dona    un  senso   alla mia   vita      Per  l'amore    che  è nel  mondo      Tra  una  donna    e  l'uomo    suo      Per  la vita  dei bambini              Che   il mio  mondo      fanno   nuovo",
   "lines": [
     {
       "t": "h",
@@ -41,7 +41,7 @@
     },
     {
       "t": "l",
-      "v": "1.   Per  il sole d'ogni   giorno           Che   riscalda  e dona    vita"
+      "v": "Per  il sole d'ogni   giorno           Che   riscalda  e dona    vita"
     },
     {
       "t": "c",
@@ -80,7 +80,7 @@
     },
     {
       "t": "l",
-      "v": "2.   Per  la nostra   madre    terra        Che   ci dona   fiori ed  erba"
+      "v": "Per  la nostra   madre    terra        Che   ci dona   fiori ed  erba"
     },
     {
       "t": "c",
@@ -119,7 +119,7 @@
     },
     {
       "t": "l",
-      "v": "3.   Per  la morte    che  è di tutti        Io la sento   in ogni   istante"
+      "v": "Per  la morte    che  è di tutti        Io la sento   in ogni   istante"
     },
     {
       "t": "c",

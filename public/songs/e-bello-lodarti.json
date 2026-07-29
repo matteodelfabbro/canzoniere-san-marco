@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "È Bello Lodarti  Ritornello È bello   cantare   il tuo amore,       è  bello  lodare   il tuo  nome.       È bello   cantare    il tuo amore,       è  bello  lodarti,  Signore,       è  bello  cantare   a Te!  Strofa 1 1. Tu  che  sei l'amore    infinito  che  neppure    il cielo può   contenere,    ti sei fatto uomo,     Tu  sei venuto    qui  ad  abitare  in  mezzo    a noi,  allora...  Strofa 2 2. Tu  che  conti  tutte  le stelle e  le chiami   una   ad  una  per  nome,    da  mille  sentieri  ci hai radunati    qui, ci hai  chiamati    figli tuoi, allora...",
+  "search": "È Bello Lodarti  Ritornello È bello   cantare   il tuo amore,       è  bello  lodare   il tuo  nome.       È bello   cantare    il tuo amore,       è  bello  lodarti,  Signore,       è  bello  cantare   a Te!  Strofa 1 Tu  che  sei l'amore    infinito  che  neppure    il cielo può   contenere,    ti sei fatto uomo,     Tu  sei venuto    qui  ad  abitare  in  mezzo    a noi,  allora...  Strofa 2 Tu  che  conti  tutte  le stelle e  le chiami   una   ad  una  per  nome,    da  mille  sentieri  ci hai radunati    qui, ci hai  chiamati    figli tuoi, allora...",
   "lines": [
     {
       "t": "h",
@@ -61,11 +61,11 @@
     },
     {
       "t": "c",
-      "v": "   MI-                    SI-             DO"
+      "v": "MI-                    SI-             DO"
     },
     {
       "t": "l",
-      "v": "1. Tu  che  sei l'amore    infinito  che  neppure    il cielo può   contenere,"
+      "v": "Tu  che  sei l'amore    infinito  che  neppure    il cielo può   contenere,"
     },
     {
       "t": "c",
@@ -84,11 +84,11 @@
     },
     {
       "t": "c",
-      "v": "   MI-                    SI-             DO"
+      "v": "MI-                    SI-             DO"
     },
     {
       "t": "l",
-      "v": "2. Tu  che  conti  tutte  le stelle e  le chiami   una   ad  una  per  nome,"
+      "v": "Tu  che  conti  tutte  le stelle e  le chiami   una   ad  una  per  nome,"
     },
     {
       "t": "c",

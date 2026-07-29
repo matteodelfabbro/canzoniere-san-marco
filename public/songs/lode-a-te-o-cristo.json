@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Lode a Te, o Cristo  Ritornello (x2) Lode a te o Cristo, re di eterna gloria.  Strofa 1              1. Signore,   tu  sei veramente                 Il salvatore   del mondo:                 dammi    dell'acqua    viva                 perché   non   abbia   più  sete.  Strofa 2              2. Chi   beve   di quest'acqua                 avrà  di nuovo     sete,                 ma   chi beve   dell'acqua    che  io gli darò                 non   avrà  mai   più  sete.",
+  "search": "Lode a Te, o Cristo  Ritornello (x2) Lode a te o Cristo, re di eterna gloria.  Strofa 1              Signore,   tu  sei veramente                 Il salvatore   del mondo:                 dammi    dell'acqua    viva                 perché   non   abbia   più  sete.  Strofa 2              Chi   beve   di quest'acqua                 avrà  di nuovo     sete,                 ma   chi beve   dell'acqua    che  io gli darò                 non   avrà  mai   più  sete.",
   "lines": [
     {
       "t": "h",
@@ -37,11 +37,11 @@
     },
     {
       "t": "c",
-      "v": "                  MI-          RE       DO     MI-"
+      "v": "  MI-          RE       DO     MI-"
     },
     {
       "t": "l",
-      "v": "             1. Signore,   tu  sei veramente"
+      "v": "Signore,   tu  sei veramente"
     },
     {
       "t": "c",
@@ -76,11 +76,11 @@
     },
     {
       "t": "c",
-      "v": "                  MI-          RE       DO     MI-"
+      "v": "  MI-          RE       DO     MI-"
     },
     {
       "t": "l",
-      "v": "             2. Chi   beve   di quest'acqua"
+      "v": "Chi   beve   di quest'acqua"
     },
     {
       "t": "c",

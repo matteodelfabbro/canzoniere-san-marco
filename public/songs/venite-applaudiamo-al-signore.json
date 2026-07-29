@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Venite Applaudiamo al Signore  Ritornello Ve    - nite  applaudiamo       al Signore   alle - luia, alleluia.       Roccia    della  nostra  salvezza,   amen,    alle  - lu - ia.  Strofa 1 1.     Accostiamoci      a Lui  per  rendergli   gra     - a -  zie,        a Lui  cantiamo    con   inni di  lode  al grande    Re  della  ter - ra.  Strofa 2 2.     Sopra   tutti gli dei è  grande   il Signore,        in mano    sua  son  tutti gli abissi,  sue son   le vette  dei  monti.  Strofa 3 3.     Ecco,  suo  è  il mare,  Egli  l'ha fatto,        le sue  mani   lo hanno    formato,    hanno    plasmato     la terra.  Strofa 4 4.     Su, venite,   prostrati  adoriamo,        inginocchiati   davanti    al Signore,   il Dio  che  ci ha  creati.  Strofa 5 5.     Egli è il nostro   Dio,  noi  il suo  popolo,        il popolo   che  ai  suoi  pascoli  guida,   il gregge  ch'  Egli conduce.  Strofa 6 6.     Oggi,  ascoltate   la  sua voce,        non   indurite  più  il vostro   cuore   come   nei  giorni  antichi.",
+  "search": "Venite Applaudiamo al Signore  Ritornello Ve    - nite  applaudiamo       al Signore   alle - luia, alleluia.       Roccia    della  nostra  salvezza,   amen,    alle  - lu - ia.  Strofa 1 Accostiamoci      a Lui  per  rendergli   gra     - a -  zie,        a Lui  cantiamo    con   inni di  lode  al grande    Re  della  ter - ra.  Strofa 2 Sopra   tutti gli dei è  grande   il Signore,        in mano    sua  son  tutti gli abissi,  sue son   le vette  dei  monti.  Strofa 3 Ecco,  suo  è  il mare,  Egli  l'ha fatto,        le sue  mani   lo hanno    formato,    hanno    plasmato     la terra.  Strofa 4 Su, venite,   prostrati  adoriamo,        inginocchiati   davanti    al Signore,   il Dio  che  ci ha  creati.  Strofa 5 Egli è il nostro   Dio,  noi  il suo  popolo,        il popolo   che  ai  suoi  pascoli  guida,   il gregge  ch'  Egli conduce.  Strofa 6 Oggi,  ascoltate   la  sua voce,        non   indurite  più  il vostro   cuore   come   nei  giorni  antichi.",
   "lines": [
     {
       "t": "h",
@@ -37,11 +37,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL      RE         SI-       MI-          DO     LA-    RE"
+      "v": "SOL      RE         SI-       MI-          DO     LA-    RE"
     },
     {
       "t": "l",
-      "v": "1.     Accostiamoci      a Lui  per  rendergli   grazie,"
+      "v": "Accostiamoci      a Lui  per  rendergli   grazie,"
     },
     {
       "t": "c",
@@ -60,11 +60,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL      RE         SI-       MI-          DO     LA-    RE"
+      "v": "SOL      RE         SI-       MI-          DO     LA-    RE"
     },
     {
       "t": "l",
-      "v": "2.     Sopra   tutti gli dei è  grande   il Signore,"
+      "v": "Sopra   tutti gli dei è  grande   il Signore,"
     },
     {
       "t": "c",
@@ -83,11 +83,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL      RE         SI-       MI-          DO     LA-    RE"
+      "v": "SOL      RE         SI-       MI-          DO     LA-    RE"
     },
     {
       "t": "l",
-      "v": "3.     Ecco,  suo  è  il mare,  Egli  l'ha fatto,"
+      "v": "Ecco,  suo  è  il mare,  Egli  l'ha fatto,"
     },
     {
       "t": "c",
@@ -106,11 +106,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL      RE         SI-       MI-          DO     LA-    RE"
+      "v": "SOL      RE         SI-       MI-          DO     LA-    RE"
     },
     {
       "t": "l",
-      "v": "4.     Su, venite,   prostrati  adoriamo,"
+      "v": "Su, venite,   prostrati  adoriamo,"
     },
     {
       "t": "c",
@@ -129,11 +129,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL      RE         SI-       MI-          DO     LA-    RE"
+      "v": "SOL      RE         SI-       MI-          DO     LA-    RE"
     },
     {
       "t": "l",
-      "v": "5.     Egli è il nostro   Dio,  noi  il suo  popolo,"
+      "v": "Egli è il nostro   Dio,  noi  il suo  popolo,"
     },
     {
       "t": "c",
@@ -152,11 +152,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL      RE         SI-       MI-          DO     LA-    RE"
+      "v": "SOL      RE         SI-       MI-          DO     LA-    RE"
     },
     {
       "t": "l",
-      "v": "6.     Oggi,  ascoltate   la  sua voce,"
+      "v": "Oggi,  ascoltate   la  sua voce,"
     },
     {
       "t": "c",

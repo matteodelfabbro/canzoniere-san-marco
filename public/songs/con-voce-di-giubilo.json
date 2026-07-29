@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Con Voce di Giubilo  Ritornello Con   voce   di  giubilo  date   il grande   annuncio,                    fatelo   giungere   ai confini   del  mondo.                    Con    voce   di giubilo  date   il grande   annuncio,                    il Signore   ha  liberato   il suo po    - po  - lo.  Strofa 1 1. Lodate    il Signore  egli è  buono     Egli ha  fatto  meraviglie,    Alleluia  Strofa 2  2. Eterna   è  la sua  misericordia     nel  suo  nome     siamo   salvi, alleluia  Strofa 3  3. La  sua  gloria  riempie    i cieli e la terra     è il Signore  della   Vita, alleluia.",
+  "search": "Con Voce di Giubilo  Ritornello Con   voce   di  giubilo  date   il grande   annuncio,                    fatelo   giungere   ai confini   del  mondo.                    Con    voce   di giubilo  date   il grande   annuncio,                    il Signore   ha  liberato   il suo po    - po  - lo.  Strofa 1 Lodate    il Signore  egli è  buono     Egli ha  fatto  meraviglie,    Alleluia  Strofa 2  Eterna   è  la sua  misericordia     nel  suo  nome     siamo   salvi, alleluia  Strofa 3  La  sua  gloria  riempie    i cieli e la terra     è il Signore  della   Vita, alleluia.",
   "lines": [
     {
       "t": "h",
@@ -53,11 +53,11 @@
     },
     {
       "t": "c",
-      "v": "   RE        LA     RE              MI-"
+      "v": "RE        LA     RE              MI-"
     },
     {
       "t": "l",
-      "v": "1. Lodate    il Signore  egli è  buono"
+      "v": "Lodate    il Signore  egli è  buono"
     },
     {
       "t": "c",
@@ -76,11 +76,11 @@
     },
     {
       "t": "c",
-      "v": "   RE        LA     RE              MI-"
+      "v": "RE        LA     RE              MI-"
     },
     {
       "t": "l",
-      "v": " 2. Eterna   è  la sua  misericordia"
+      "v": "Eterna   è  la sua  misericordia"
     },
     {
       "t": "c",
@@ -99,11 +99,11 @@
     },
     {
       "t": "c",
-      "v": "   RE        LA     RE              MI-"
+      "v": "RE        LA     RE              MI-"
     },
     {
       "t": "l",
-      "v": " 3. La  sua  gloria  riempie    i cieli e la terra"
+      "v": "La  sua  gloria  riempie    i cieli e la terra"
     },
     {
       "t": "c",

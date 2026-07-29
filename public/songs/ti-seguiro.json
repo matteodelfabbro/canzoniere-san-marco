@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Ti Seguirò  Ritornello Ti  seguirò,  ti seguirò   o  Signore,   e    nella  tua    strada   camminerò.  Strofa 1 1. Ti seguirò   nella  via dell'amore     e donerò    al mondo      la vita.  Strofa 2 2. Ti  seguirò   nella  via del  dolore    e la tua  croce  ci salverà.  Strofa 3 3. Ti  seguirò   nella  via della  gioia   e la tua  luce  ci guiderà.",
+  "search": "Ti Seguirò  Ritornello Ti  seguirò,  ti seguirò   o  Signore,   e    nella  tua    strada   camminerò.  Strofa 1 Ti seguirò   nella  via dell'amore     e donerò    al mondo      la vita.  Strofa 2 Ti  seguirò   nella  via del  dolore    e la tua  croce  ci salverà.  Strofa 3 Ti  seguirò   nella  via della  gioia   e la tua  luce  ci guiderà.",
   "lines": [
     {
       "t": "h",
@@ -29,11 +29,11 @@
     },
     {
       "t": "c",
-      "v": "       DO    SOL    LA-         FA    DO     SOL    MI   LA-    FA     DO"
+      "v": "    DO    SOL    LA-         FA    DO     SOL    MI   LA-    FA     DO"
     },
     {
       "t": "l",
-      "v": "1. Ti seguirò   nella  via dell'amore     e donerò    al mondo      la vita."
+      "v": "Ti seguirò   nella  via dell'amore     e donerò    al mondo      la vita."
     },
     {
       "t": "s"
@@ -44,11 +44,11 @@
     },
     {
       "t": "c",
-      "v": "       DO    SOL    LA-         FA    DO     SOL    MI   LA-    FA     DO"
+      "v": "    DO    SOL    LA-         FA    DO     SOL    MI   LA-    FA     DO"
     },
     {
       "t": "l",
-      "v": "2. Ti  seguirò   nella  via del  dolore    e la tua  croce  ci salverà."
+      "v": "Ti  seguirò   nella  via del  dolore    e la tua  croce  ci salverà."
     },
     {
       "t": "s"
@@ -59,11 +59,11 @@
     },
     {
       "t": "c",
-      "v": "       DO    SOL    LA-         FA    DO     SOL    MI   LA-    FA     DO"
+      "v": "    DO    SOL    LA-         FA    DO     SOL    MI   LA-    FA     DO"
     },
     {
       "t": "l",
-      "v": "3. Ti  seguirò   nella  via della  gioia   e la tua  luce  ci guiderà."
+      "v": "Ti  seguirò   nella  via della  gioia   e la tua  luce  ci guiderà."
     }
   ],
   "id": "ti-seguiro"

@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Venimus Adorare Eum, Emmanuel Inno GMG 2005 Strofa 1 1.     Chiedi   perché   partire  dal  proprio    regno        solo  per  inseguire   una  stella  e perché        per  un  Bimbo    piegano    quelle   ginocchia   da   Re?        Tu  la risposta  sai  che  è:  Ritornello (x2) Venimus     adorare   eum    Emmanuel      (Dio   con  noi),              Venimus     adorare   eum    Emmanuel,  Strofa 2 2.     Chiedi   perché   lasciare  sui monti    il gregge        solo  per  ascoltare   un  canto   e perché        per  un  Bimbo    piegano    quelle   ginocchia,   perché?        E la risposta   sai che  è:  Strofa 3 3.     Ecco  da  lontano    per  adorarlo        siamo   giunti  anche   noi,  noi,  tutti figli Suoi,        Profeti  e Sacerdoti    ormai.   Nel  pane    e nel  vino        noi  siamo   in Lui  e Lui  è in noi:  e un   canto   qui si alza  già:  Ripetere il ritornello",
+  "search": "Venimus Adorare Eum, Emmanuel Inno GMG 2005 Strofa 1 Chiedi   perché   partire  dal  proprio    regno        solo  per  inseguire   una  stella  e perché        per  un  Bimbo    piegano    quelle   ginocchia   da   Re?        Tu  la risposta  sai  che  è:  Ritornello (x2) Venimus     adorare   eum    Emmanuel      (Dio   con  noi),              Venimus     adorare   eum    Emmanuel,  Strofa 2 Chiedi   perché   lasciare  sui monti    il gregge        solo  per  ascoltare   un  canto   e perché        per  un  Bimbo    piegano    quelle   ginocchia,   perché?        E la risposta   sai che  è:  Strofa 3 Ecco  da  lontano    per  adorarlo        siamo   giunti  anche   noi,  noi,  tutti figli Suoi,        Profeti  e Sacerdoti    ormai.   Nel  pane    e nel  vino        noi  siamo   in Lui  e Lui  è in noi:  e un   canto   qui si alza  già:  Ripetere il ritornello",
   "lines": [
     {
       "t": "h",
@@ -14,11 +14,11 @@
     },
     {
       "t": "c",
-      "v": "       RE                SOL      MI-             LA"
+      "v": "RE                SOL      MI-             LA"
     },
     {
       "t": "l",
-      "v": "1.     Chiedi   perché   partire  dal  proprio    regno"
+      "v": "Chiedi   perché   partire  dal  proprio    regno"
     },
     {
       "t": "c",
@@ -76,11 +76,11 @@
     },
     {
       "t": "c",
-      "v": "       RE                SOL      MI-             LA"
+      "v": "RE                SOL      MI-             LA"
     },
     {
       "t": "l",
-      "v": "2.     Chiedi   perché   lasciare  sui monti    il gregge"
+      "v": "Chiedi   perché   lasciare  sui monti    il gregge"
     },
     {
       "t": "c",
@@ -115,11 +115,11 @@
     },
     {
       "t": "c",
-      "v": "       RE        SOL        MI-       LA"
+      "v": "RE        SOL        MI-       LA"
     },
     {
       "t": "l",
-      "v": "3.     Ecco  da  lontano    per  adorarlo"
+      "v": "Ecco  da  lontano    per  adorarlo"
     },
     {
       "t": "c",

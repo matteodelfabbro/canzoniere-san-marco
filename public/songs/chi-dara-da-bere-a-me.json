@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Chi Darà da Bere a Me  Ritornello Chi  darà   da  bere  a  me   acqua   pura,  acqua    pura,       Chi   ha  l'acqua  di  felici -  tà,       L'acqua    che  ristorerà       L'acqua    che  ristorerà.  Strofa 1                     1. Il mondo    è  già un  deserto,   la terra  inaridì,                       Milioni   di  assetati  si sentono   morir.  Strofa 2                     2. Il mio  fratello  ha  sete,  ma   l'acqua   lui non  ha,                        Se  gli indichi  la strada  la fonte   troverà.  Strofa 3                     3. Orgoglio    e  presunzione     ci tolgono    il respir                        Chiunque     che  vi  beve,  vi  beve  l'ansietà.",
+  "search": "Chi Darà da Bere a Me  Ritornello Chi  darà   da  bere  a  me   acqua   pura,  acqua    pura,       Chi   ha  l'acqua  di  felici -  tà,       L'acqua    che  ristorerà       L'acqua    che  ristorerà.  Strofa 1                     Il mondo    è  già un  deserto,   la terra  inaridì,                       Milioni   di  assetati  si sentono   morir.  Strofa 2                     Il mio  fratello  ha  sete,  ma   l'acqua   lui non  ha,                        Se  gli indichi  la strada  la fonte   troverà.  Strofa 3                     Orgoglio    e  presunzione     ci tolgono    il respir                        Chiunque     che  vi  beve,  vi  beve  l'ansietà.",
   "lines": [
     {
       "t": "h",
@@ -53,11 +53,11 @@
     },
     {
       "t": "c",
-      "v": "                      SOL                                    RE     RE7"
+      "v": "SOL                                    RE     RE7"
     },
     {
       "t": "l",
-      "v": "                    1. Il mondo    è  già un  deserto,   la terra  inaridì,"
+      "v": "Il mondo    è  già un  deserto,   la terra  inaridì,"
     },
     {
       "t": "c",
@@ -76,11 +76,11 @@
     },
     {
       "t": "c",
-      "v": "                      SOL                                    RE     RE7"
+      "v": "SOL                                    RE     RE7"
     },
     {
       "t": "l",
-      "v": "                    2. Il mio  fratello  ha  sete,  ma   l'acqua   lui non  ha,"
+      "v": "Il mio  fratello  ha  sete,  ma   l'acqua   lui non  ha,"
     },
     {
       "t": "c",
@@ -99,11 +99,11 @@
     },
     {
       "t": "c",
-      "v": "                      SOL                                    RE     RE7"
+      "v": "SOL                                    RE     RE7"
     },
     {
       "t": "l",
-      "v": "                    3. Orgoglio    e  presunzione     ci tolgono    il respir"
+      "v": "Orgoglio    e  presunzione     ci tolgono    il respir"
     },
     {
       "t": "c",

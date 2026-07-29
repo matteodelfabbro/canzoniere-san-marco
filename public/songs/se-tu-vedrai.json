@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Se Tu Vedrai  Strofa 1    1.    Se  tu vedrai   il sole brillare:  alleluia,  alleluia.          Se  ascolterai   il ruscello scrosciare:   alleluia,  alleluia.          Se  sentirai  il canto  dei  monti:   alleluia,  alleluia.          Allora   solo  tu proverai    cos'è  la gioia.  Ritornello Vivi  la vita  con  gioia  e con   amor,          vivi  cantando    la tua  felicità!  Strofa 2    2.    Se  tu vedrai   un  cespuglio    fiorito  alleluia, alleluia.          Se  ascolterai   il rumore   del  vento:   alleluia,  alleluia.          Se  sentirai  il profumo    del  bosco:   alleluia,  alleluia.          Allora   solo  tu proverai    cos'è  la gioia.  Strofa 3    3.    Se  tu vedrai   il sorriso  di un  bimbo:    alleluia,  alleluia.          Se  ascolterai   la canzone    del  cuore:   alleluia, alleluia.          Se  sentirai  la dolcezza    di amare:    alleluia, alleluia.          Allora   solo  tu proverai    cos'è  la gioia.",
+  "search": "Se Tu Vedrai  Strofa 1    Se  tu vedrai   il sole brillare:  alleluia,  alleluia.          Se  ascolterai   il ruscello scrosciare:   alleluia,  alleluia.          Se  sentirai  il canto  dei  monti:   alleluia,  alleluia.          Allora   solo  tu proverai    cos'è  la gioia.  Ritornello Vivi  la vita  con  gioia  e con   amor,          vivi  cantando    la tua  felicità!  Strofa 2    Se  tu vedrai   un  cespuglio    fiorito  alleluia, alleluia.          Se  ascolterai   il rumore   del  vento:   alleluia,  alleluia.          Se  sentirai  il profumo    del  bosco:   alleluia,  alleluia.          Allora   solo  tu proverai    cos'è  la gioia.  Strofa 3    Se  tu vedrai   il sorriso  di un  bimbo:    alleluia,  alleluia.          Se  ascolterai   la canzone    del  cuore:   alleluia, alleluia.          Se  sentirai  la dolcezza    di amare:    alleluia, alleluia.          Allora   solo  tu proverai    cos'è  la gioia.",
   "lines": [
     {
       "t": "h",
@@ -14,11 +14,11 @@
     },
     {
       "t": "c",
-      "v": "            RE             SOL        RE               SOL     RE"
+      "v": "   RE             SOL        RE               SOL     RE"
     },
     {
       "t": "l",
-      "v": "   1.    Se  tu vedrai   il sole brillare:  alleluia,  alleluia."
+      "v": "Se  tu vedrai   il sole brillare:  alleluia,  alleluia."
     },
     {
       "t": "c",
@@ -76,11 +76,11 @@
     },
     {
       "t": "c",
-      "v": "            RE             SOL        RE               SOL     RE"
+      "v": "   RE             SOL        RE               SOL     RE"
     },
     {
       "t": "l",
-      "v": "   2.    Se  tu vedrai   un  cespuglio    fiorito  alleluia, alleluia."
+      "v": "Se  tu vedrai   un  cespuglio    fiorito  alleluia, alleluia."
     },
     {
       "t": "c",
@@ -115,11 +115,11 @@
     },
     {
       "t": "c",
-      "v": "            RE             SOL        RE               SOL     RE"
+      "v": "   RE             SOL        RE               SOL     RE"
     },
     {
       "t": "l",
-      "v": "   3.    Se  tu vedrai   il sorriso  di un  bimbo:    alleluia,  alleluia."
+      "v": "Se  tu vedrai   il sorriso  di un  bimbo:    alleluia,  alleluia."
     },
     {
       "t": "c",

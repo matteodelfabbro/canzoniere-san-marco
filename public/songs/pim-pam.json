@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Pim Pam  Strofa 1                     1.       Nella   casa  la sulla  montagna                         Un  camino    grande    grande    sta.                         Nel  camino    grande    grande   grande                         Un  gran   fuoco   fuoco   fuoco   va.  Ritornello Perciò   pim   pam,   le scarpe   pim   pam       Di  notte   fan  sul sentiero   di pietre  grosse       Pim   pam    le scarpe   pim  pam       Di  notte   fan  sul sentiero   così: PIM    PAM!  Strofa 2                     2   Nella  casa  la sulla  montagna                         Un  Signore   grande    grande    sta                         Nella  stanza   viola,  verde,   gialla                         Tante   sedie  rosse  e bianche    ha.  Strofa 3                     3   Nella  casa  la sulla  montagna                         Una   sedia  a tutti tutti dà                         A ciascuno    toglierà  le  scarpe                         Tutti insieme    poi  si danzerà.",
+  "search": "Pim Pam  Strofa 1                     Nella   casa  la sulla  montagna                         Un  camino    grande    grande    sta.                         Nel  camino    grande    grande   grande                         Un  gran   fuoco   fuoco   fuoco   va.  Ritornello Perciò   pim   pam,   le scarpe   pim   pam       Di  notte   fan  sul sentiero   di pietre  grosse       Pim   pam    le scarpe   pim  pam       Di  notte   fan  sul sentiero   così: PIM    PAM!  Strofa 2                     Nella  casa  la sulla  montagna                         Un  Signore   grande    grande    sta                         Nella  stanza   viola,  verde,   gialla                         Tante   sedie  rosse  e bianche    ha.  Strofa 3                     Nella  casa  la sulla  montagna                         Una   sedia  a tutti tutti dà                         A ciascuno    toglierà  le  scarpe                         Tutti insieme    poi  si danzerà.",
   "lines": [
     {
       "t": "h",
@@ -14,11 +14,11 @@
     },
     {
       "t": "c",
-      "v": "                          LA7             RE       SOL           RE"
+      "v": "LA7             RE       SOL           RE"
     },
     {
       "t": "l",
-      "v": "                    1.       Nella   casa là sulla  montagna"
+      "v": "Nella   casa là sulla  montagna"
     },
     {
       "t": "c",
@@ -92,11 +92,11 @@
     },
     {
       "t": "c",
-      "v": "                          LA7             RE       SOL           RE"
+      "v": "  LA7             RE       SOL           RE"
     },
     {
       "t": "l",
-      "v": "                    2   Nella  casa là sulla  montagna"
+      "v": "Nella  casa là sulla  montagna"
     },
     {
       "t": "c",
@@ -131,11 +131,11 @@
     },
     {
       "t": "c",
-      "v": "                          LA7             RE       SOL           RE"
+      "v": "  LA7             RE       SOL           RE"
     },
     {
       "t": "l",
-      "v": "                    3   Nella  casa là sulla  montagna"
+      "v": "Nella  casa là sulla  montagna"
     },
     {
       "t": "c",

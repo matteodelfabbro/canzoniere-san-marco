@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Emmanuel  Strofa 1 1.     Dall'orizzonte    una   grande    luce  viaggia  nella  storia        e lungo   gli anni  ha  vinto   il buio  facendosi   Memoria,        e illuminando     la nostra   vita  chiaro  ci rivela        che  non   si vive  se non   si cerca  la Verità...  Strofa 2 2.     Un  grande    dono    che  Dio  ci ha  fatto  è Cristo   il suo Figlio,        e l'umanità    è rinnovata, è     in Lui salvata.        È vero   uomo,    è vero   Dio,  è  il Pane  della  Vita,        che  ad  ogni  uomo     ai suoi  fratelli ridonerà.  Ritornello Siamo    qui       sotto  la stessa  luce        sotto  la sua  croce   cantando    ad  una   voce.        È l'Emmanuel      Emmanuel,      Emmanuel.        È l'Emmanuel,      Emmanuel.  Strofa 3 3.     La morte    è uccisa,  la vita  ha  vinto,  è  Pasqua   in  tutto  il mondo,        un  vento   soffia  in ogni  uomo     lo Spirito  fecondo.        Che  porta   avanti   nella  storia  la Chiesa   sua  sposa,        sotto  lo sguardo    di  Maria,   Comunità.  Strofa 4 4.     Dalla  città di  chi ha  versato   il sangue   per  amore        ed  ha  cambiato    il vecchio   mondo     vogliamo     ripartire.        Seguendo     Cristo,  insieme   a  Pietro,  rinasce  in  noi  la fede,        Parola   viva  che  ci rinnova    e cresce  in noi.  Strofa 5 5.     Noi  debitori   del  passato   di  secoli di  storia,        di vite date   per  amore,    di santi  che  han   creduto,        di uomini    che  ad  alta quota    insegnano    a  volare,        di chi la  storia sa  cambiare,    come    Gesù.  Strofa 6 6.     È giunta   un'era   di primavera,     è tempo    di cambiare.        È oggi  il giorno   sempre    nuovo    per  ricominciare,        per  dare  svolte,  parole   nuove    e  convertire    il cuore,        per  dire al  mondo,     ad  ogni  uomo:     Signore   Gesù.",
+  "search": "Emmanuel  Strofa 1 Dall'orizzonte    una   grande    luce  viaggia  nella  storia        e lungo   gli anni  ha  vinto   il buio  facendosi   Memoria,        e illuminando     la nostra   vita  chiaro  ci rivela        che  non   si vive  se non   si cerca  la Verità...  Strofa 2 Un  grande    dono    che  Dio  ci ha  fatto  è Cristo   il suo Figlio,        e l'umanità    è rinnovata, è     in Lui salvata.        È vero   uomo,    è vero   Dio,  è  il Pane  della  Vita,        che  ad  ogni  uomo     ai suoi  fratelli ridonerà.  Ritornello Siamo    qui       sotto  la stessa  luce        sotto  la sua  croce   cantando    ad  una   voce.        È l'Emmanuel      Emmanuel,      Emmanuel.        È l'Emmanuel,      Emmanuel.  Strofa 3 La morte    è uccisa,  la vita  ha  vinto,  è  Pasqua   in  tutto  il mondo,        un  vento   soffia  in ogni  uomo     lo Spirito  fecondo.        Che  porta   avanti   nella  storia  la Chiesa   sua  sposa,        sotto  lo sguardo    di  Maria,   Comunità.  Strofa 4 Dalla  città di  chi ha  versato   il sangue   per  amore        ed  ha  cambiato    il vecchio   mondo     vogliamo     ripartire.        Seguendo     Cristo,  insieme   a  Pietro,  rinasce  in  noi  la fede,        Parola   viva  che  ci rinnova    e cresce  in noi.  Strofa 5 Noi  debitori   del  passato   di  secoli di  storia,        di vite date   per  amore,    di santi  che  han   creduto,        di uomini    che  ad  alta quota    insegnano    a  volare,        di chi la  storia sa  cambiare,    come    Gesù.  Strofa 6 È giunta   un'era   di primavera,     è tempo    di cambiare.        È oggi  il giorno   sempre    nuovo    per  ricominciare,        per  dare  svolte,  parole   nuove    e  convertire    il cuore,        per  dire al  mondo,     ad  ogni  uomo:     Signore   Gesù.",
   "lines": [
     {
       "t": "h",
@@ -14,11 +14,11 @@
     },
     {
       "t": "c",
-      "v": "       MI                                     SI"
+      "v": "MI                                     SI"
     },
     {
       "t": "l",
-      "v": "1.     Dall'orizzonte    una   grande    luce  viaggia  nella  storia"
+      "v": "Dall'orizzonte    una   grande    luce  viaggia  nella  storia"
     },
     {
       "t": "c",
@@ -53,11 +53,11 @@
     },
     {
       "t": "c",
-      "v": "       MI                                               SI"
+      "v": "MI                                               SI"
     },
     {
       "t": "l",
-      "v": "2.     Un  grande    dono    che  Dio  ci ha  fatto  è Cristo   il suo Figlio,"
+      "v": "Un  grande    dono    che  Dio  ci ha  fatto  è Cristo   il suo Figlio,"
     },
     {
       "t": "c",
@@ -131,11 +131,11 @@
     },
     {
       "t": "c",
-      "v": "       MI                                               SI"
+      "v": "MI                                               SI"
     },
     {
       "t": "l",
-      "v": "3.     La morte    è uccisa,  la vita  ha  vinto,  è  Pasqua   in  tutto  il mondo,"
+      "v": "La morte    è uccisa,  la vita  ha  vinto,  è  Pasqua   in  tutto  il mondo,"
     },
     {
       "t": "c",
@@ -170,11 +170,11 @@
     },
     {
       "t": "c",
-      "v": "       MI                                               SI"
+      "v": "MI                                               SI"
     },
     {
       "t": "l",
-      "v": "4.     Dalla  città di  chi ha  versato   il sangue   per  amore"
+      "v": "Dalla  città di  chi ha  versato   il sangue   per  amore"
     },
     {
       "t": "c",
@@ -209,11 +209,11 @@
     },
     {
       "t": "c",
-      "v": "       MI                                               SI"
+      "v": "MI                                               SI"
     },
     {
       "t": "l",
-      "v": "5.     Noi  debitori   del  passato   di  secoli di  storia,"
+      "v": "Noi  debitori   del  passato   di  secoli di  storia,"
     },
     {
       "t": "c",
@@ -248,11 +248,11 @@
     },
     {
       "t": "c",
-      "v": "       MI                                               SI"
+      "v": "MI                                               SI"
     },
     {
       "t": "l",
-      "v": "6.     È giunta   un'era   di primavera,     è tempo    di cambiare."
+      "v": "È giunta   un'era   di primavera,     è tempo    di cambiare."
     },
     {
       "t": "c",

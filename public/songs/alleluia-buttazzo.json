@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Alleluia Buttazzo Intro  Ritornello    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia  Strofa 1    1. Chi  ascolta  la parola    È come    uno   che    Attinge   acqua   alla sorgente    Che   lo disseterà    RIT.  Strofa 2    2. Chi  accoglie   la parola    È come    uno   che    Ha  costruito   sulla  roccia    E mai   vacillerà   RIT.  Finale     Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia    Alleluia,  Alleluia,        Alleluia!",
+  "search": "Alleluia Buttazzo Intro  Ritornello    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia  Strofa 1    Chi  ascolta  la parola    È come    uno   che    Attinge   acqua   alla sorgente    Che   lo disseterà    RIT.  Strofa 2    Chi  accoglie   la parola    È come    uno   che    Ha  costruito   sulla  roccia    E mai   vacillerà   RIT.  Finale     Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia    Alleluia,  Alleluia,        Alleluia!",
   "lines": [
     {
       "t": "h",
@@ -64,11 +64,11 @@
     },
     {
       "t": "c",
-      "v": "           SOL            MIm"
+      "v": "     SOL            MIm"
     },
     {
       "t": "l",
-      "v": "   1. Chi  ascolta  la parola"
+      "v": "Chi  ascolta  la parola"
     },
     {
       "t": "c",
@@ -103,11 +103,11 @@
     },
     {
       "t": "c",
-      "v": "           SOL              MIm"
+      "v": "     SOL              MIm"
     },
     {
       "t": "l",
-      "v": "   2. Chi  accoglie   la parola"
+      "v": "Chi  accoglie   la parola"
     },
     {
       "t": "c",

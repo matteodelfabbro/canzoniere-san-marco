@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Chiamati per Nome  Intro  Ritornello Veniamo    da te, chiamati  per nome          Che  festa Signore  tu cammini   con  noi          Ci parli di te, per noi spezzi  il pane,          ti riconosciamo   il cuore arde  sei tu          E noi  tuo po - polo   siamo  qui!  Strofa 1    1. Siamo  come   terra ed argilla    E la tua parola  ci plasmerà    Brace  pronta  per la scintilla    E il tuo Spirito soffierà, ci infiammerà!  Strofa 2    2. Siamo  come   semi  nel solco,    come   vigna che  il suo frutto darà;    Grano   del signore  Risorto,    la Tua messe   che fiorirà, d'eternità!  Ritornello finale Veniamo    da te, chiamati  per nome                    Che   festa Signore tu cammini    con noi                    Ci  parli di te, per noi spezzi il pane,                    ti riconosciamo   il cuore arde  sei tu                    E  noi tuo po - polo   siamo  qui!                     E noi tuo  po - polo  siamo   qui!          Siamo  qui!",
+  "search": "Chiamati per Nome  Intro  Ritornello Veniamo    da te, chiamati  per nome          Che  festa Signore  tu cammini   con  noi          Ci parli di te, per noi spezzi  il pane,          ti riconosciamo   il cuore arde  sei tu          E noi  tuo po - polo   siamo  qui!  Strofa 1    Siamo  come   terra ed argilla    E la tua parola  ci plasmerà    Brace  pronta  per la scintilla    E il tuo Spirito soffierà, ci infiammerà!  Strofa 2    Siamo  come   semi  nel solco,    come   vigna che  il suo frutto darà;    Grano   del signore  Risorto,    la Tua messe   che fiorirà, d'eternità!  Ritornello finale Veniamo    da te, chiamati  per nome                    Che   festa Signore tu cammini    con noi                    Ci  parli di te, per noi spezzi il pane,                    ti riconosciamo   il cuore arde  sei tu                    E  noi tuo po - polo   siamo  qui!                     E noi tuo  po - polo  siamo   qui!          Siamo  qui!",
   "lines": [
     {
       "t": "h",
@@ -72,11 +72,11 @@
     },
     {
       "t": "c",
-      "v": "      LA                       DO#-"
+      "v": "LA                       DO#-"
     },
     {
       "t": "l",
-      "v": "   1. Siamo  come   terra ed argilla"
+      "v": "Siamo  come   terra ed argilla"
     },
     {
       "t": "c",
@@ -111,11 +111,11 @@
     },
     {
       "t": "c",
-      "v": "      LA                       DO#-"
+      "v": "LA                       DO#-"
     },
     {
       "t": "l",
-      "v": "   2. Siamo  come   semi  nel solco,"
+      "v": "Siamo  come   semi  nel solco,"
     },
     {
       "t": "c",

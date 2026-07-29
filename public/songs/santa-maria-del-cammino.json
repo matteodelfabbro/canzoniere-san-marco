@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Santa Maria del Cammino  Strofa 1 1.   Mentre    trascorre   la vita         Solo   Tu  non   sei mai      Santa   Maria   del  cammino           Sempre    sarà  con  te  Ritornello           Vieni  o  madre    in mezzo    a  noi  Vieni  Maria   quaggiù           Cammineremo         insieme   a Te  Verso    la libertà  Strofa 2 2.   Quando      qualcuno    ti dice        \"Nulla   mai   cambierà\"      Lotta  per   un  mondo     nuovo        Lotta  per  la verità  Strofa 3 3.   Lungo    la strada   la gente  Chiusa    in sé stessa  va      Offri  per  primo    la mano    A  chi è  vicino  a  te  Strofa 4 4.   Quando      ti senti ormai   stanco   E  sembra    inutile andar      Tu  vai  tracciando    un  cammino      Un   altro  ti seguirà",
+  "search": "Santa Maria del Cammino  Strofa 1 Mentre    trascorre   la vita         Solo   Tu  non   sei mai      Santa   Maria   del  cammino           Sempre    sarà  con  te  Ritornello           Vieni  o  madre    in mezzo    a  noi  Vieni  Maria   quaggiù           Cammineremo         insieme   a Te  Verso    la libertà  Strofa 2 Quando      qualcuno    ti dice        \"Nulla   mai   cambierà\"      Lotta  per   un  mondo     nuovo        Lotta  per  la verità  Strofa 3 Lungo    la strada   la gente  Chiusa    in sé stessa  va      Offri  per  primo    la mano    A  chi è  vicino  a  te  Strofa 4 Quando      ti senti ormai   stanco   E  sembra    inutile andar      Tu  vai  tracciando    un  cammino      Un   altro  ti seguirà",
   "lines": [
     {
       "t": "h",
@@ -14,11 +14,11 @@
     },
     {
       "t": "c",
-      "v": "     DO                       FA   DO       SOL       SOL7      DO    DO7"
+      "v": "DO                       FA   DO       SOL       SOL7      DO    DO7"
     },
     {
       "t": "l",
-      "v": "1.   Mentre    trascorre   la vita         Solo   Tu  non   sei mai"
+      "v": "Mentre    trascorre   la vita         Solo   Tu  non   sei mai"
     },
     {
       "t": "c",
@@ -60,11 +60,11 @@
     },
     {
       "t": "c",
-      "v": "     DO                        FA   DO       SOL         SOL7      DO   DO7"
+      "v": "DO                        FA   DO       SOL         SOL7      DO   DO7"
     },
     {
       "t": "l",
-      "v": "2.   Quando      qualcuno    ti dice        \"Nulla   mai   cambierà\""
+      "v": "Quando      qualcuno    ti dice        \"Nulla   mai   cambierà\""
     },
     {
       "t": "c",
@@ -83,11 +83,11 @@
     },
     {
       "t": "c",
-      "v": "     DO                        FA   DO       SOL         SOL7      DO   DO7"
+      "v": "DO                        FA   DO       SOL         SOL7      DO   DO7"
     },
     {
       "t": "l",
-      "v": "3.   Lungo    la strada   la gente  Chiusa    in sé stessa  va"
+      "v": "Lungo    la strada   la gente  Chiusa    in sé stessa  va"
     },
     {
       "t": "c",
@@ -106,11 +106,11 @@
     },
     {
       "t": "c",
-      "v": "     DO                        FA   DO       SOL         SOL7      DO   DO7"
+      "v": "DO                        FA   DO       SOL         SOL7      DO   DO7"
     },
     {
       "t": "l",
-      "v": "4.   Quando      ti senti ormai   stanco   E  sembra    inutile andar"
+      "v": "Quando      ti senti ormai   stanco   E  sembra    inutile andar"
     },
     {
       "t": "c",

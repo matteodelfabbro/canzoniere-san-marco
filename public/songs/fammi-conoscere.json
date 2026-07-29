@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Fammi Conoscere  Ritornello Fammi     conoscere     la tua    volontà       parla   ti ascolto  Signore!       La  mia   felicità è fare  il tuo volere:       porterò    con   me  la  tua Parola.  Strofa 1 1.     Lampada     ai miei  passi  è  la tua  Parola   luce sul  mio   cammino.        Ogni   giorno   la mia   volontà    trova  una   guida   in te.  Strofa 2 2.     Porterò   con   me  i tuoi  insegnamenti:     danno     al mio   cuore  gioia!        La tua  Parola   è fonte   di luce:  dona    saggezza   ai  semplici.  Strofa 3 3.     La mia   bocca   impari   la tua  lode   sempre    ti renda  grazie.        Ogni   momento      canti  la tua  lode   la mia  speranza    è  in te.",
+  "search": "Fammi Conoscere  Ritornello Fammi     conoscere     la tua    volontà       parla   ti ascolto  Signore!       La  mia   felicità è fare  il tuo volere:       porterò    con   me  la  tua Parola.  Strofa 1 Lampada     ai miei  passi  è  la tua  Parola   luce sul  mio   cammino.        Ogni   giorno   la mia   volontà    trova  una   guida   in te.  Strofa 2 Porterò   con   me  i tuoi  insegnamenti:     danno     al mio   cuore  gioia!        La tua  Parola   è fonte   di luce:  dona    saggezza   ai  semplici.  Strofa 3 La mia   bocca   impari   la tua  lode   sempre    ti renda  grazie.        Ogni   momento      canti  la tua  lode   la mia  speranza    è  in te.",
   "lines": [
     {
       "t": "h",
@@ -53,11 +53,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL                  RE     LA-           RE    MI-       DO        SOL     RE"
+      "v": "SOL                  RE     LA-           RE    MI-       DO        SOL     RE"
     },
     {
       "t": "l",
-      "v": "1.     Lampada     ai miei  passi  è  la tua  Parola   luce sul  mio   cammino."
+      "v": "Lampada     ai miei  passi  è  la tua  Parola   luce sul  mio   cammino."
     },
     {
       "t": "c",
@@ -76,11 +76,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL                  RE     LA-           RE    MI-       DO        SOL     RE"
+      "v": "SOL                  RE     LA-           RE    MI-       DO        SOL     RE"
     },
     {
       "t": "l",
-      "v": "2.     Porterò   con   me  i tuoi  insegnamenti:     danno     al mio   cuore  gioia!"
+      "v": "Porterò   con   me  i tuoi  insegnamenti:     danno     al mio   cuore  gioia!"
     },
     {
       "t": "c",
@@ -99,11 +99,11 @@
     },
     {
       "t": "c",
-      "v": "       SOL                  RE     LA-           RE    MI-       DO        SOL     RE"
+      "v": "SOL                  RE     LA-           RE    MI-       DO        SOL     RE"
     },
     {
       "t": "l",
-      "v": "3.     La mia   bocca   impari   la tua  lode   sempre    ti renda  grazie."
+      "v": "La mia   bocca   impari   la tua  lode   sempre    ti renda  grazie."
     },
     {
       "t": "c",

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-phone-scroll-toolbar-2';
+const CACHE_NAME = 'canzoniere-strofe-clean-1';
 const APP_ASSETS = [
   "./",
   "./index.html",

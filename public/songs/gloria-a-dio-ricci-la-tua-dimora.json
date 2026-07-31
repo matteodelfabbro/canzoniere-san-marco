@@ -3,51 +3,544 @@
   "sub": "Daniele Ricci · La tua dimora",
   "capo": null,
   "compactRepeats": true,
-  "key": { "note": "DO", "mode": "maggiore" },
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
   "search": "Gloria a Dio Daniele Ricci La tua dimora Ritornello Gloria a Dio nell'alto dei cieli pace in terra agli uomini di buona volontà. Strofa 1 Noi ti lodiamo ti benediciamo ti adoriamo ti glorifichiamo ti rendiamo grazie per la tua gloria immensa Signore Dio Re del cielo Dio Padre onnipotente. Strofa 2 Signore Figlio unigenito Gesù Cristo Signore Dio Agnello di Dio Figlio del Padre tu che togli i peccati del mondo abbi pietà di noi accogli la nostra supplica tu che siedi alla destra del Padre abbi pietà di noi. Finale Perché tu solo il Santo tu solo il Signore tu solo l'Altissimo Gesù Cristo con lo Spirito Santo nella gloria di Dio Padre Amen.",
   "lines": [
-    { "t": "h", "v": "Intro" },
-    { "t": "c", "v": "DO FA/DO DO  DO FA/DO DO" },
-    { "t": "s" },
-    { "t": "h", "v": "Ritornello" },
-    { "t": "c", "v": "DO FA/DO DO SOL DO/SOL SOL MI/SOL# LA- LA-/SOL FA", "anchors": [{"word":0,"chord":"DO"},{"word":1,"chord":"FA/DO"},{"word":2,"chord":"DO"},{"word":3,"chord":"SOL"},{"word":5,"chord":"DO/SOL"},{"word":6,"chord":"SOL"},{"word":8,"chord":"MI/SOL#"},{"word":10,"chord":"LA-"},{"word":11,"chord":"LA-/SOL"},{"word":13,"chord":"FA"}] },
-    { "t": "l", "v": "Gloria a Dio nell'alto dei cieli, pace in terra agli uomini di buona volontà." },
-    { "t": "s" },
-    { "t": "h", "v": "Strofa 1" },
-    { "t": "c", "v": "DO FA/DO DO SOL DO/SOL SOL", "anchors": [{"word":0,"chord":"DO"},{"word":2,"chord":"FA/DO"},{"word":3,"chord":"DO"},{"word":5,"chord":"SOL"},{"word":6,"chord":"DO/SOL"},{"word":7,"chord":"SOL"}] },
-    { "t": "l", "v": "Noi ti lodiamo, ti benediciamo, ti adoriamo, ti glorifichiamo," },
-    { "t": "c", "v": "LA- LA-/SOL FA DO MI-", "anchors": [{"word":0,"chord":"LA-"},{"word":2,"chord":"LA-/SOL"},{"word":5,"chord":"FA"},{"word":8,"chord":"DO"},{"word":11,"chord":"MI-"}] },
-    { "t": "l", "v": "ti rendiamo grazie per la tua gloria immensa, Signore Dio, Re del cielo," },
-    { "t": "c", "v": "FA RE7 DO", "anchors": [{"word":0,"chord":"FA"},{"word":1,"chord":"RE7"},{"word":2,"chord":"DO"}] },
-    { "t": "l", "v": "Dio Padre onnipotente." },
-    { "t": "s" },
-    { "t": "h", "v": "Ritornello" },
-    { "t": "c", "v": "DO FA/DO DO SOL DO/SOL SOL MI/SOL# LA- LA-/SOL FA", "anchors": [{"word":0,"chord":"DO"},{"word":1,"chord":"FA/DO"},{"word":2,"chord":"DO"},{"word":3,"chord":"SOL"},{"word":5,"chord":"DO/SOL"},{"word":6,"chord":"SOL"},{"word":8,"chord":"MI/SOL#"},{"word":10,"chord":"LA-"},{"word":11,"chord":"LA-/SOL"},{"word":13,"chord":"FA"}] },
-    { "t": "l", "v": "Gloria a Dio nell'alto dei cieli, pace in terra agli uomini di buona volontà." },
-    { "t": "s" },
-    { "t": "h", "v": "Strofa 2" },
-    { "t": "c", "v": "DO FA/DO DO SOL DO/SOL SOL", "anchors": [{"word":0,"chord":"DO"},{"word":1,"chord":"FA/DO"},{"word":2,"chord":"DO"},{"word":4,"chord":"SOL"},{"word":5,"chord":"DO/SOL"},{"word":6,"chord":"SOL"}] },
-    { "t": "l", "v": "Signore, Figlio unigenito, Gesù Cristo, Signore Dio," },
-    { "t": "c", "v": "LA- LA-/SOL FA", "anchors": [{"word":0,"chord":"LA-"},{"word":3,"chord":"LA-/SOL"},{"word":6,"chord":"FA"}] },
-    { "t": "l", "v": "Agnello di Dio, Figlio del Padre, tu che togli i peccati del mondo," },
-    { "t": "c", "v": "DO MI- FA RE7", "anchors": [{"word":0,"chord":"DO"},{"word":4,"chord":"MI-"},{"word":7,"chord":"FA"},{"word":10,"chord":"RE7"}] },
-    { "t": "l", "v": "abbi pietà di noi; tu che togli i peccati del mondo," },
-    { "t": "c", "v": "DO MI- FA RE7", "anchors": [{"word":0,"chord":"DO"},{"word":4,"chord":"MI-"},{"word":7,"chord":"FA"},{"word":10,"chord":"RE7"}] },
-    { "t": "l", "v": "accogli la nostra supplica; tu che siedi alla destra del Padre," },
-    { "t": "c", "v": "DO MI- FA RE7", "anchors": [{"word":0,"chord":"DO"},{"word":1,"chord":"MI-"},{"word":2,"chord":"FA"},{"word":3,"chord":"RE7"}] },
-    { "t": "l", "v": "abbi pietà di noi." },
-    { "t": "s" },
-    { "t": "h", "v": "Ritornello" },
-    { "t": "c", "v": "DO FA/DO DO SOL DO/SOL SOL MI/SOL# LA- LA-/SOL FA", "anchors": [{"word":0,"chord":"DO"},{"word":1,"chord":"FA/DO"},{"word":2,"chord":"DO"},{"word":3,"chord":"SOL"},{"word":5,"chord":"DO/SOL"},{"word":6,"chord":"SOL"},{"word":8,"chord":"MI/SOL#"},{"word":10,"chord":"LA-"},{"word":11,"chord":"LA-/SOL"},{"word":13,"chord":"FA"}] },
-    { "t": "l", "v": "Gloria a Dio nell'alto dei cieli, pace in terra agli uomini di buona volontà." },
-    { "t": "s" },
-    { "t": "h", "v": "Finale" },
-    { "t": "c", "v": "DO FA/DO DO SOL DO/SOL SOL LA- LA-/SOL", "anchors": [{"word":0,"chord":"DO"},{"word":2,"chord":"FA/DO"},{"word":4,"chord":"DO"},{"word":5,"chord":"SOL"},{"word":8,"chord":"DO/SOL"},{"word":10,"chord":"SOL"},{"word":12,"chord":"LA-"},{"word":13,"chord":"LA-/SOL"}] },
-    { "t": "l", "v": "Perché tu solo il Santo, tu solo il Signore, tu solo l'Altissimo, Gesù Cristo," },
-    { "t": "c", "v": "FA RE7 DO MI- FA RE7", "anchors": [{"word":0,"chord":"FA"},{"word":3,"chord":"RE7"},{"word":4,"chord":"DO"},{"word":6,"chord":"MI-"},{"word":7,"chord":"FA"},{"word":8,"chord":"RE7"}] },
-    { "t": "l", "v": "con lo Spirito Santo nella gloria di Dio Padre." },
-    { "t": "c", "v": "DO FA/DO DO", "anchors": [{"word":0,"chord":"DO"},{"word":1,"chord":"FA/DO"},{"word":2,"chord":"DO"}] },
-    { "t": "l", "v": "Amen. Amen. Amen." }
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO  DO FA/DO DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO SOL DO/SOL SOL MI/SOL# LA- LA-/SOL FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "FA/DO"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "DO/SOL"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "MI/SOL#"
+        },
+        {
+          "word": 10,
+          "chord": "LA-"
+        },
+        {
+          "word": 11,
+          "chord": "LA-/SOL"
+        },
+        {
+          "word": 13,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Gloria a Dio nell'alto dei cieli, pace in terra agli uomini di buona volontà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO SOL DO/SOL SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA/DO"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "DO/SOL"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Noi ti lodiamo, ti benediciamo, ti adoriamo, ti glorifichiamo,"
+    },
+    {
+      "t": "c",
+      "v": "LA- LA-/SOL FA DO MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "LA-/SOL"
+        },
+        {
+          "word": 5,
+          "chord": "FA"
+        },
+        {
+          "word": 8,
+          "chord": "DO"
+        },
+        {
+          "word": 11,
+          "chord": "MI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ti rendiamo grazie per la tua gloria immensa, Signore Dio, Re del cielo,"
+    },
+    {
+      "t": "c",
+      "v": "FA RE7 DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 1,
+          "chord": "RE7"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Dio Padre onnipotente."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO SOL DO/SOL SOL MI/SOL# LA- LA-/SOL FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "FA/DO"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "DO/SOL"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "MI/SOL#"
+        },
+        {
+          "word": 10,
+          "chord": "LA-"
+        },
+        {
+          "word": 11,
+          "chord": "LA-/SOL"
+        },
+        {
+          "word": 13,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Gloria a Dio nell'alto dei cieli, pace in terra agli uomini di buona volontà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO SOL DO/SOL SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "FA/DO"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "DO/SOL"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Signore, Figlio unigenito, Gesù Cristo, Signore Dio,"
+    },
+    {
+      "t": "c",
+      "v": "LA- LA-/SOL FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "LA-/SOL"
+        },
+        {
+          "word": 6,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Agnello di Dio, Figlio del Padre, tu che togli i peccati del mondo,"
+    },
+    {
+      "t": "c",
+      "v": "DO MI- FA RE7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 10,
+          "chord": "RE7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "abbi pietà di noi; tu che togli i peccati del mondo,"
+    },
+    {
+      "t": "c",
+      "v": "DO MI- FA RE7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 10,
+          "chord": "RE7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "accogli la nostra supplica; tu che siedi alla destra del Padre,"
+    },
+    {
+      "t": "c",
+      "v": "DO MI- FA RE7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "RE7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "abbi pietà di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO SOL DO/SOL SOL MI/SOL# LA- LA-/SOL FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "FA/DO"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "DO/SOL"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "MI/SOL#"
+        },
+        {
+          "word": 10,
+          "chord": "LA-"
+        },
+        {
+          "word": 11,
+          "chord": "LA-/SOL"
+        },
+        {
+          "word": 13,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Gloria a Dio nell'alto dei cieli, pace in terra agli uomini di buona volontà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO SOL DO/SOL SOL LA- LA-/SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA/DO"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "DO/SOL"
+        },
+        {
+          "word": 10,
+          "chord": "SOL"
+        },
+        {
+          "word": 12,
+          "chord": "LA-"
+        },
+        {
+          "word": 13,
+          "chord": "LA-/SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Perché tu solo il Santo, tu solo il Signore, tu solo l'Altissimo, Gesù Cristo,"
+    },
+    {
+      "t": "c",
+      "v": "FA RE7 DO MI- FA RE7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "RE7"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 8,
+          "chord": "RE7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "con lo Spirito Santo nella gloria di Dio Padre."
+    },
+    {
+      "t": "c",
+      "v": "DO FA/DO DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "FA/DO"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Amen. Amen. Amen."
+    }
   ],
   "id": "gloria-a-dio-ricci-la-tua-dimora"
 }

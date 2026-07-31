@@ -340,17 +340,6 @@
   margin-left: 0.9em;
 }
 
-/* Più accordi sulla stessa parola: sequenza leggibile senza sovrapposizioni. */
-.explicit-word-sequence {
-  margin-right: .65em;
-}
-.explicit-chord-sequence {
-  left: 0;
-  transform: none;
-  display: inline-flex;
-  gap: .55em;
-}
-
 
 .tag-suggestions {
   margin-top: 1rem;

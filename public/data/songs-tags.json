@@ -84,6 +84,15 @@
       "Canti per la Messa"
     ]
   },
+  "agnello-di-dio-ricci-la-tua-dimora": {
+    "title": "Agnello di Dio",
+    "tags": [
+      "Agnello di Dio"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
   "alleluia-buttazzo": {
     "title": "Alleluia",
     "tags": [
@@ -324,6 +333,16 @@
       "Sacramenti e celebrazioni"
     ]
   },
+  "cieli-nuovi-e-terra-nuova": {
+    "title": "Cieli Nuovi e Terra Nuova",
+    "tags": [
+      "Comunione",
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
   "come-fuoco-vivo": {
     "title": "Come Fuoco Vivo",
     "tags": [
@@ -559,6 +578,24 @@
       "Canti per la Messa"
     ]
   },
+  "gloria-giombini": {
+    "title": "Gloria",
+    "tags": [
+      "Gloria"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "gloria-a-dio-ricci-la-tua-dimora": {
+    "title": "Gloria a Dio",
+    "tags": [
+      "Gloria"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
   "gloria-gen-verde": {
     "title": "Gloria",
     "tags": [
@@ -731,6 +768,15 @@
     "title": "La Preghiera di Gesù è la Nostra",
     "tags": [
       "Comunione"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "la-tua-dimora-ricci": {
+    "title": "La Tua Dimora",
+    "tags": [
+      "Ingresso"
     ],
     "groups": [
       "Canti per la Messa"
@@ -1272,6 +1318,15 @@
     ]
   },
   "signore-pieta-versione-2": {
+    "title": "Signore Pietà",
+    "tags": [
+      "Atto penitenziale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "signore-pieta-ricci-la-tua-dimora": {
     "title": "Signore Pietà",
     "tags": [
       "Atto penitenziale"

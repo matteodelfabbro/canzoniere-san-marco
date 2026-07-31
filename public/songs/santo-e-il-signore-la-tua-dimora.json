@@ -1,9 +1,9 @@
 {
   "title": "Santo È il Signore",
-  "sub": "La tua dimora",
+  "sub": "Daniele Ricci · La tua dimora",
   "capo": null,
   "key": {
-    "note": "DO",
+    "note": "SOL",
     "mode": "maggiore"
   },
   "search": "Santo È il Signore La tua dimora Intro (x2)  Santo    Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (I cieli e la terra)     Santo  Santo   Santo  (Sono  pieni  della tua Gloria)  Osanna    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Benedetto    Benedetto    colui  che  viene  nel  nome    del  Signore  Osanna finale    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Coda    Osanna!",
@@ -25,7 +25,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL            RE        LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -36,7 +37,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL            RE        LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -47,7 +49,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL            RE        LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -58,7 +61,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL            RE        LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -73,7 +77,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL                RE       LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -88,7 +93,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL                      RE          DO      RE   DO   RE"
+      "v": "SOL RE DO RE DO RE",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":3,"chord":"RE"},{"word":5,"chord":"DO"},{"word":6,"chord":"RE"},{"word":7,"chord":"DO"},{"word":7,"chord":"RE","offset":1,"align":"right"}]
     },
     {
       "t": "l",
@@ -103,7 +109,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL                RE       LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -114,7 +121,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL                RE       LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -125,7 +133,8 @@
     },
     {
       "t": "c",
-      "v": "   SOL                RE       LA-"
+      "v": "SOL RE LA-",
+      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
     },
     {
       "t": "l",
@@ -140,7 +149,8 @@
     },
     {
       "t": "c",
-      "v": "           SOL"
+      "v": "SOL",
+      "anchors": [{"word":0,"chord":"SOL"}]
     },
     {
       "t": "l",

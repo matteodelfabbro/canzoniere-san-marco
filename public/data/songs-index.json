@@ -72,6 +72,14 @@
     "file": "songs/agnello-di-dio-buttazzo-capo-3.json"
   },
   {
+    "id": "agnello-di-dio-ricci-la-tua-dimora",
+    "numero": 162,
+    "title": "Agnello di Dio",
+    "sub": "Daniele Ricci · La tua dimora",
+    "search": "Agnello di Dio Daniele Ricci La tua dimora Intro Invocazione 1 Agnello di Dio che togli i peccati del mondo abbi pietà di noi. Invocazione 2 Agnello di Dio che togli i peccati del mondo abbi pietà di noi. Invocazione 3 Agnello di Dio che togli i peccati del mondo dona a noi la pace.",
+    "file": "songs/agnello-di-dio-ricci-la-tua-dimora.json"
+  },
+  {
     "id": "alleluia-buttazzo",
     "numero": 10,
     "title": "Alleluia",
@@ -280,6 +288,14 @@
     "file": "songs/chiamati-per-nome.json"
   },
   {
+    "id": "cieli-nuovi-e-terra-nuova",
+    "numero": 163,
+    "title": "Cieli Nuovi e Terra Nuova",
+    "sub": "Daniele Ricci · La tua dimora",
+    "search": "Cieli Nuovi e Terra Nuova Daniele Ricci La tua dimora Intro Strofa 1 Cieli nuovi e terra nuova è il destino dell'umanità viene il tempo arriva il tempo che ogni realtà si trasfigurerà. E in cieli nuovi e terra nuova il nostro anelito si placherà la tua casa la tua dimora su tutti i popoli si estenderà. Ritornello È il pane del cielo che ci fa vivere che chiama a vivere e andare nel mondo è il pane del cielo che ci fa vivere che chiama a vivere e andare a portare il tuo dono. Strofa 2 Cieli nuovi e terra nuova la speranza non inganna mai e tu risorto ci fai risorti tutto il creato un canto diverrà. E in cieli nuovi e terra nuova c'è il disegno che hai affidato a noi Gerusalemme dal cielo scende Gerusalemme in terra troverà.",
+    "file": "songs/cieli-nuovi-e-terra-nuova.json"
+  },
+  {
     "id": "come-fuoco-vivo",
     "numero": 36,
     "title": "Come Fuoco Vivo",
@@ -480,12 +496,36 @@
     "file": "songs/signore-pieta-versione-2.json"
   },
   {
+    "id": "signore-pieta-ricci-la-tua-dimora",
+    "numero": 166,
+    "title": "Signore Pietà",
+    "sub": "Daniele Ricci · La tua dimora",
+    "search": "Signore Pietà Daniele Ricci La tua dimora Intro Invocazione 1 Signore che non sei venuto a condannare ma a perdonare abbi pietà di noi. Signore Signore pietà. Invocazione 2 Cristo che fai festa per ogni peccatore pentito abbi pietà di noi. Cristo Cristo pietà. Invocazione 3 Signore che perdoni molto a chi molto ama abbi pietà di noi. Signore Signore pietà.",
+    "file": "songs/signore-pieta-ricci-la-tua-dimora.json"
+  },
+  {
     "id": "gloria-buttazzo",
     "numero": 61,
     "title": "Gloria",
     "sub": "Buttazzo",
     "search": "Gloria Buttazzo Intro  Ritornello Gloria a Dio  nell'alto dei cieli      pace  in terra agli uomini.         Gloria a  Dio nell'alto dei cieli     pace  in terra agli uomini.  Strofa 1    Ti   lodiamo,   Ti benediciamo,       Ti adoriamo,   Ti glorifichiamo.    Ti rendiamo   gra  -  zie     per la Tua  gloria immensa       RIT.  Strofa 2    Signore  Dio, Re  del cielo Dio  Padre  onnipotente.    Gesù  cristo, Agnello  di Dio, tu figlio del Padre   RIT.  Strofa 3    Tu che  togli i peccati del mondo    la nostra supplica  ascolta, Signore    Tu che  siedi alla destra del Padre  abbi  pietà di noi.  RIT.  Strofa 4    Tu solo  il Santo, Tu solo  il Signore, Tu, l'Altissimo Gesù  Cristo    con  lo Spirito Santo nella  gloria del Padre.  RIT.  Finale Gloria  a Dio  nell'alto dei cieli      pace  in terra agli uomini.    Gloria a Dio  nell'alto dei cieli     pace  in terra agli uomini.  Outro",
     "file": "songs/gloria-buttazzo.json"
+  },
+  {
+    "id": "gloria-giombini",
+    "numero": 161,
+    "title": "Gloria",
+    "sub": "Giombini",
+    "search": "Gloria Giombini Ritornello Gloria a Dio nell'alto dei cieli e pace in terra agli uomini di buona volontà. Strofa Noi ti lodiamo, ti benediciamo, ti adoriamo, ti glorifichiamo, ti rendiamo grazie per la tua gloria immensa. Recitato Signore Dio, Re del cielo, Dio Padre onnipotente. Signore, Figlio unigenito, Gesù Cristo, Signore Dio agnello di Dio, Figlio del Padre, tu che togli i peccati del mondo, accogli la nostra supplica; tu che siedi alla destra del Padre, abbi pietà di noi. Ritornello Gloria a Dio nell'alto dei cieli e pace in terra agli uomini di buona volontà. Finale Perché tu solo il Santo, tu solo il Signore, tu solo l'Altissimo, Gesù Cristo. Con lo Spirito Santo nella gloria di Dio Padre. Amen.",
+    "file": "songs/gloria-giombini.json"
+  },
+  {
+    "id": "gloria-a-dio-ricci-la-tua-dimora",
+    "numero": 164,
+    "title": "Gloria a Dio",
+    "sub": "Daniele Ricci · La tua dimora",
+    "search": "Gloria a Dio Daniele Ricci La tua dimora Ritornello Gloria a Dio nell'alto dei cieli pace in terra agli uomini di buona volontà. Strofa 1 Noi ti lodiamo ti benediciamo ti adoriamo ti glorifichiamo ti rendiamo grazie per la tua gloria immensa Signore Dio Re del cielo Dio Padre onnipotente. Strofa 2 Signore Figlio unigenito Gesù Cristo Signore Dio Agnello di Dio Figlio del Padre tu che togli i peccati del mondo abbi pietà di noi accogli la nostra supplica tu che siedi alla destra del Padre abbi pietà di noi. Finale Perché tu solo il Santo tu solo il Signore tu solo l'Altissimo Gesù Cristo con lo Spirito Santo nella gloria di Dio Padre Amen.",
+    "file": "songs/gloria-a-dio-ricci-la-tua-dimora.json"
   },
   {
     "id": "gloria-gen-verde",
@@ -646,6 +686,14 @@
     "sub": "Castiglia · Varnavà",
     "search": "La Preghiera di Gesù è la Nostra  Strofa 1       Dove   due   o  tre sono   riuniti nel  mio   nome       io sarò  con   loro,      pregherò    con   loro,       amerò    con  loro,  perché   il mondo     venga    a Te o  Padre       conoscere    il tuo  amore    e avere   vita        con  Te  Strofa 2       Voi  che  siete luce  della  terra,  miei  amici       risplendete   sempre        della  vera  luce       perché   il mondo     creda  nell'amore     che  c'è in voi  o  Padre       consacrali   per  sempre    e diano   gloria         a Te.  Cambio di tonalità - RE  Strofa 3       Ogni   beatitudine    vi attende    nel mio   giorno       se sarete  uniti,     se sarete   pace,            se sarete  puri       perché   voi  vedrete   Dio   che  è Padre       in Lui la vostra   vita  gioia  piena       sarà.  Strofa 4       Voi  che  ora  siete miei   discepoli   nel mondo       siate testimoni         di un  amore    immenso               date   prova   di       quella  speranza    che  c'è in  voi, coraggio       vi guiderò   per  sempre     Io rimango        con  voi.  Cambio di tonalità - MI  Strofa 5       Spirito  che  animi   la chiesa  e  la rinnovi       donale   fortezza,      fa che  sia fedele             come    Cristo  che       muore    e risorge   perché   il Regno   del  Padre       si compia   in  mezzo    a noi  e  abbiamo     vita     in (Lui)       si compia   in  mezzo    a noi  e  abbiamo     vita     in Lui.",
     "file": "songs/la-preghiera-di-gesu-e-la-nostra.json"
+  },
+  {
+    "id": "la-tua-dimora-ricci",
+    "numero": 165,
+    "title": "La Tua Dimora",
+    "sub": "Daniele Ricci · La tua dimora",
+    "search": "La Tua Dimora Daniele Ricci La tua dimora Intro Strofa 1 La tua dimora la tua città è sopra un fondamento che non si spezza apostoli profeti e come pietra angolare Gesù che dona vita e bellezza. La tua dimora la tua città non conosce porte chiuse e cancelli qui concittadini dei santi e familiari di te ci ritroviamo fratelli. Ritornello Fai di noi il popolo tuo che parla ogni istante con te chiamandoti Padre. Noi figli di te la vera famiglia di te raccolta da te nella tua casa. Strofa 2 La tua dimora la tua città è il richiamo della gioia infinita coro di fratelli uniti nello stesso Spirito che riempie il cuore di vita. Strofa 3 La tua dimora la tua città dove il Verbo splende della tua luce Verbo che è fratello e che ci ha dato di abitare con te nel dono della sua pace.",
+    "file": "songs/la-tua-dimora-ricci.json"
   },
   {
     "id": "laudato-sii-o-mi-signore",
@@ -1019,7 +1067,7 @@
     "id": "santo-e-il-signore-la-tua-dimora",
     "numero": 128,
     "title": "Santo È il Signore",
-    "sub": "La tua dimora",
+    "sub": "Daniele Ricci · La tua dimora",
     "search": "Santo È il Signore La tua dimora Intro (x2)  Santo    Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (I cieli e la terra)     Santo  Santo   Santo  (Sono  pieni  della tua Gloria)  Osanna    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Benedetto    Benedetto    colui  che  viene  nel  nome    del  Signore  Osanna finale    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Coda    Osanna!",
     "file": "songs/santo-e-il-signore-la-tua-dimora.json"
   },

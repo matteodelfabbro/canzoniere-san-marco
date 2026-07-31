@@ -298,6 +298,9 @@
   position: relative;
   display: inline-block;
 }
+.explicit-word:has(.explicit-chord) {
+  margin-right: .24em;
+}
 .explicit-lyric {
   font-weight: 400;
 }
@@ -335,6 +338,17 @@
 
 .explicit-chord-right {
   margin-left: 0.9em;
+}
+
+/* Più accordi sulla stessa parola: sequenza leggibile senza sovrapposizioni. */
+.explicit-word-sequence {
+  margin-right: .65em;
+}
+.explicit-chord-sequence {
+  left: 0;
+  transform: none;
+  display: inline-flex;
+  gap: .55em;
 }
 
 

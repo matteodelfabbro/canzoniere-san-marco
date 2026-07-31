@@ -14,7 +14,7 @@
     },
     {
       "t": "c",
-      "v": "| LA MI/SOL# | RE/FA# MI |"
+      "v": "| LA MI | RE MI |"
     },
     {
       "t": "s"
@@ -25,7 +25,7 @@
     },
     {
       "t": "c",
-      "v": "FA#- MI RE LA/DO#",
+      "v": "FA#- MI RE LA",
       "anchors": [
         {
           "word": 0,
@@ -41,7 +41,7 @@
         },
         {
           "word": 6,
-          "chord": "LA/DO#"
+          "chord": "LA"
         }
       ],
       "anchorLayout": "flow"
@@ -52,7 +52,7 @@
     },
     {
       "t": "c",
-      "v": "RE LA/DO# RE MI",
+      "v": "RE LA RE MI",
       "anchors": [
         {
           "word": 0,
@@ -60,7 +60,7 @@
         },
         {
           "word": 1,
-          "chord": "LA/DO#"
+          "chord": "LA"
         },
         {
           "word": 2,
@@ -149,7 +149,7 @@
     },
     {
       "t": "c",
-      "v": "LA MI/SOL# RE/FA# MI/SOL# LA",
+      "v": "LA MI RE MI LA",
       "anchors": [
         {
           "word": 0,
@@ -157,17 +157,17 @@
         },
         {
           "word": 1,
-          "chord": "MI/SOL#"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE/FA#",
+          "chord": "RE",
           "offset": 0.38,
           "align": "center"
         },
         {
           "word": 1,
-          "chord": "MI/SOL#",
+          "chord": "MI",
           "offset": 0.72,
           "align": "center"
         },
@@ -193,7 +193,7 @@
     },
     {
       "t": "c",
-      "v": "FA#- MI RE LA/DO# RE LA/DO# RE MI",
+      "v": "FA#- MI RE LA RE LA RE MI",
       "anchors": [
         {
           "word": 0,
@@ -209,7 +209,7 @@
         },
         {
           "word": 3,
-          "chord": "LA/DO#"
+          "chord": "LA"
         },
         {
           "word": 4,
@@ -217,7 +217,7 @@
         },
         {
           "word": 5,
-          "chord": "LA/DO#"
+          "chord": "LA"
         },
         {
           "word": 6,
@@ -304,7 +304,7 @@
     },
     {
       "t": "c",
-      "v": "LA MI/SOL# RE/FA# MI/SOL# LA",
+      "v": "LA MI RE MI LA",
       "anchors": [
         {
           "word": 0,
@@ -312,17 +312,17 @@
         },
         {
           "word": 1,
-          "chord": "MI/SOL#"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE/FA#",
+          "chord": "RE",
           "offset": 0.38,
           "align": "center"
         },
         {
           "word": 1,
-          "chord": "MI/SOL#",
+          "chord": "MI",
           "offset": 0.72,
           "align": "center"
         },
@@ -348,7 +348,7 @@
     },
     {
       "t": "c",
-      "v": "FA#- MI RE LA/DO# RE LA/DO# RE MI",
+      "v": "FA#- MI RE LA RE LA RE MI",
       "anchors": [
         {
           "word": 0,
@@ -364,7 +364,7 @@
         },
         {
           "word": 3,
-          "chord": "LA/DO#"
+          "chord": "LA"
         },
         {
           "word": 4,
@@ -372,7 +372,7 @@
         },
         {
           "word": 5,
-          "chord": "LA/DO#"
+          "chord": "LA"
         },
         {
           "word": 6,
@@ -459,7 +459,7 @@
     },
     {
       "t": "c",
-      "v": "LA MI/SOL# RE/FA# MI/SOL# RE LA",
+      "v": "LA MI RE MI RE LA",
       "anchors": [
         {
           "word": 0,
@@ -467,17 +467,17 @@
         },
         {
           "word": 1,
-          "chord": "MI/SOL#"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE/FA#",
+          "chord": "RE",
           "offset": 0.32,
           "align": "center"
         },
         {
           "word": 1,
-          "chord": "MI/SOL#",
+          "chord": "MI",
           "offset": 0.62,
           "align": "center"
         },

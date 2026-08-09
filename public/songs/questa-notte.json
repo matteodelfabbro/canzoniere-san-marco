@@ -1,0 +1,68 @@
+{
+  "id": "questa-notte",
+  "title": "Questa notte",
+  "sub": "Canone di Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "SI",
+    "mode": "minore"
+  },
+  "search": "Questa notte Canone di Taizé Canone Questa notte non è più notte davanti a te, il buio come luce risplende.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "SI- LA RE SOL FA# SI- SOL RE FA# SI-",
+      "flowSegments": [
+        {
+          "chord": "SI-",
+          "lyric": "Questa"
+        },
+        {
+          "chord": "LA",
+          "lyric": "notte"
+        },
+        {
+          "chord": "RE",
+          "lyric": "non è"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "più"
+        },
+        {
+          "chord": "FA#",
+          "lyric": "notte davanti"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "a"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "te,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "il buio"
+        },
+        {
+          "chord": "FA#",
+          "lyric": "come"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "luce risplende."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Questa notte non è più notte davanti a te, il buio come luce risplende."
+    }
+  ]
+}

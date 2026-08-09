@@ -1,0 +1,705 @@
+{
+  "title": "Musica di festa",
+  "sub": "Sands, Jotti",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "MI",
+    "mode": "minore"
+  },
+  "search": "Musica di festa Sands, Jotti Strofa 1 Cantate al Signore un cantico nuovo, splende la sua gloria! Grande è la sua forza, grande la sua pace, grande la Sua Santità! Ritornello In tutta la terra, popoli del mondo, gridate la sua fedeltà! Musica di festa, musica di lode, Musica di libertà! Strofa 2 Agli occhi del mondo ha manifestato la Sua salvezza! Per questo si canti, per questo si danzi, per questo si celebri! Strofa 3 Con l'arpa ed il corno, con timpani e flauti, con tutta la voce! Canti di dolcezza, canti di salvezza, canti d'immortalità! Strofa 4 I fiumi e i monti, battono le mani davanti al Signore! La sua giustizia giudica la terra giudica le genti! Strofa 5 Al Dio che ci salva, gloria in eterno Amen! Alleluja! Gloria a Dio Padre, gloria a Dio Figlio, gloria a Dio Spirito!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Cantate al Signore un cantico nuovo,"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "splende la sua gloria!"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Grande è la sua forza, grande la sua pace,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE MI- MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "grande la Sua Santità!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA- RE7 SOL7 DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "RE7"
+        },
+        {
+          "word": 3,
+          "chord": "SOL7"
+        },
+        {
+          "word": 5,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "In tutta la terra, popoli del mondo,"
+    },
+    {
+      "t": "c",
+      "v": "LA-6 SI MI- RE SOL MI7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-6"
+        },
+        {
+          "word": 1,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "MI7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "gridate la sua fedeltà!"
+    },
+    {
+      "t": "c",
+      "v": "LA- RE7 SOL7+ DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 1,
+          "chord": "RE7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL7+"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Musica di festa, musica di lode,"
+    },
+    {
+      "t": "c",
+      "v": "LA-6 SI7 MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-6"
+        },
+        {
+          "word": 1,
+          "chord": "SI7"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Musica di libertà!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Agli occhi del mondo ha manifestato"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la Sua salvezza!"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Per questo si canti, per questo si danzi,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE MI- MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "per questo si celebri!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Con l'arpa ed il corno, con timpani e flauti,"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "con tutta la voce!"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Canti di dolcezza, canti di salvezza,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE MI- MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "canti d'immortalità!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "I fiumi e i monti, battono le mani"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "davanti al Signore!"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "La sua giustizia giudica la terra"
+    },
+    {
+      "t": "c",
+      "v": "DO RE MI- MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "giudica le genti!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Al Dio che ci salva, gloria in eterno"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "SI-"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Amen! Alleluja!"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI- MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Gloria a Dio Padre, gloria a Dio Figlio,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE MI- MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "gloria a Dio Spirito!"
+    }
+  ],
+  "id": "musica-di-festa"
+}

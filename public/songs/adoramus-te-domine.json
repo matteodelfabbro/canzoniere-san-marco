@@ -1,0 +1,52 @@
+{
+  "id": "adoramus-te-domine",
+  "title": "Adoramus Te Domine",
+  "sub": "Canone di Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "SOL",
+    "mode": "maggiore"
+  },
+  "search": "Adoramus Te Domine Canone di Taizé Canone Oh, oh, oh, adoramus Te Domine.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI- LA- RE SOL",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Oh,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "oh,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "oh,"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "adoramus"
+        },
+        {
+          "chord": "RE",
+          "lyric": "Te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Domine."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Oh, oh, oh, adoramus Te Domine."
+    }
+  ]
+}

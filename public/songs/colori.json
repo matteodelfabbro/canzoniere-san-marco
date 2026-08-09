@@ -1,0 +1,506 @@
+{
+  "title": "Colori",
+  "sub": "Donovan",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "MI",
+    "mode": "maggiore"
+  },
+  "search": "Colori Donovan Strofa 1 Questo prato verde ti ricorderà la speranza del mattino non smarrirla, amico mio, perché io, perché io ritornerò. Strofa 2 Questo cielo azzurro ti ricorderà la fiducia nella vita non deporla, amico mio, perché io, perché io ritornerò. Strofa 3 Questa rosa rossa ti ricorderà la bellezza del tuo amore non tradirlo, amico mio, perché io, perché io ritornerò. Strofa 4 Questo sole d'oro ti ricorderà lo splendore del tuo dono non stancarti, amico mio, perché io, perché io ritornerò. Strofa 5 Il colore arcano della libertà sai trovarlo amico mio? Nel tuo cuore l'ho posto io perché io, perché io ritornerò.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Questo prato verde ti ricorderà"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la speranza del mattino"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "non smarrirla, amico mio,"
+    },
+    {
+      "t": "c",
+      "v": "SI LA MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché io, perché io ritornerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Questo cielo azzurro ti ricorderà"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la fiducia nella vita"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "non deporla, amico mio,"
+    },
+    {
+      "t": "c",
+      "v": "SI LA MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché io, perché io ritornerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Questa rosa rossa ti ricorderà"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la bellezza del tuo amore"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "non tradirlo, amico mio,"
+    },
+    {
+      "t": "c",
+      "v": "SI LA MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché io, perché io ritornerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Questo sole d'oro ti ricorderà"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "lo splendore del tuo dono"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "non stancarti, amico mio,"
+    },
+    {
+      "t": "c",
+      "v": "SI LA MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché io, perché io ritornerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "c",
+      "v": "MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Il colore arcano della libertà"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sai trovarlo amico mio?"
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo cuore l'ho posto io"
+    },
+    {
+      "t": "c",
+      "v": "SI LA MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché io, perché io ritornerò."
+    }
+  ],
+  "id": "colori"
+}

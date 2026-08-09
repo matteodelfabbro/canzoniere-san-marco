@@ -1,0 +1,64 @@
+{
+  "id": "misericordias-domini",
+  "title": "Misericordias Domini",
+  "sub": "Canone di Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "minore"
+  },
+  "search": "Misericordias Domini Canone di Taizé Canone Misericordias Domini, in aeternum cantabo.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "RE- LA7 RE- DO FA DO RE- LA7 RE-",
+      "flowSegments": [
+        {
+          "chord": "RE-",
+          "lyric": " "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "Misericordias"
+        },
+        {
+          "chord": "RE-",
+          "lyric": " "
+        },
+        {
+          "chord": "DO",
+          "lyric": "Domini,"
+        },
+        {
+          "chord": "FA",
+          "lyric": " "
+        },
+        {
+          "chord": "DO",
+          "lyric": "in"
+        },
+        {
+          "chord": "RE-",
+          "lyric": " "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "aeternum"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "cantabo."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Misericordias Domini, in aeternum cantabo."
+    }
+  ]
+}

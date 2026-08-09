@@ -1,0 +1,408 @@
+{
+  "title": "Pace sia, pace a voi",
+  "sub": "Gen Verde, Gen Rosso",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "MI",
+    "mode": "maggiore"
+  },
+  "search": "Pace sia, pace a voi Gen Verde, Gen Rosso Ritornello “Pace sia, pace a voi”: la tua pace sarà sulla terra com'è nei cieli. “Pace sia, pace a voi”: la tua pace sarà gioia nei nostri occhi, nei cuori. “Pace sia, pace a voi”: la tua pace sarà luce limpida nei pensieri. “Pace sia, pace a voi”: la tua pace sarà una casa per tutti. Strofa 1 “Pace a voi”: sia il tuo dono visibile. “Pace a voi”: la tua eredità. “Pace a voi”: come un canto all'unisono che sale dalle nostre città. Strofa 2 “Pace a voi”: sia un impronta nei secoli. “Pace a voi”: segno d'unità. “Pace a voi”: sia l'abbraccio tra i popoli, la tua promessa all'umanità.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SI MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace sia, pace a voi”: la tua pace sarà"
+    },
+    {
+      "t": "c",
+      "v": "DO#- SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO#-"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sulla terra com'è nei cieli."
+    },
+    {
+      "t": "c",
+      "v": "MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace sia, pace a voi”: la tua pace sarà"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "gioia nei nostri occhi, nei cuori."
+    },
+    {
+      "t": "c",
+      "v": "MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace sia, pace a voi”: la tua pace sarà"
+    },
+    {
+      "t": "c",
+      "v": "DO#- SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO#-"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "luce limpida nei pensieri."
+    },
+    {
+      "t": "c",
+      "v": "MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace sia, pace a voi”: la tua pace sarà"
+    },
+    {
+      "t": "c",
+      "v": "MI SI MI LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "una casa per tutti."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA MI SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "SI"
+        },
+        {
+          "word": 7,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace a voi”: sia il tuo dono visibile."
+    },
+    {
+      "t": "c",
+      "v": "LA MI SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "SI"
+        },
+        {
+          "word": 5,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace a voi”: la tua eredità."
+    },
+    {
+      "t": "c",
+      "v": "LA MI SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 6,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace a voi”: come un canto all'unisono"
+    },
+    {
+      "t": "c",
+      "v": "RE SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che sale dalle nostre città."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "LA MI SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "SI"
+        },
+        {
+          "word": 6,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace a voi”: sia un impronta nei secoli."
+    },
+    {
+      "t": "c",
+      "v": "LA MI SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace a voi”: segno d'unità."
+    },
+    {
+      "t": "c",
+      "v": "LA MI SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 6,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "“Pace a voi”: sia l'abbraccio tra i popoli,"
+    },
+    {
+      "t": "c",
+      "v": "RE SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la tua promessa all'umanità."
+    }
+  ],
+  "id": "pace-sia-pace-a-voi"
+}

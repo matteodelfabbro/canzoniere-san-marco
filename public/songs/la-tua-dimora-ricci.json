@@ -3,82 +3,805 @@
   "sub": "Daniele Ricci · La tua dimora",
   "capo": null,
   "compactRepeats": true,
-  "key": { "note": "RE", "mode": "maggiore" },
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
   "search": "La Tua Dimora Daniele Ricci apostoli profeti pietra angolare Fai di noi il popolo tuo Padre famiglia casa gioia Spirito Verbo pace",
   "lines": [
-    { "t": "h", "v": "Intro" },
-    { "t": "c", "v": "| RE | LA | MI- | SOL | (x2)" },
-    { "t": "s" },
-    { "t": "h", "v": "Strofa 1" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":3,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "La tua dimora, la tua città" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":6,"chord":"SOL"}] },
-    { "t": "l", "v": "è sopra un fondamento che non si spezza:" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":1,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":6,"chord":"SOL"}] },
-    { "t": "l", "v": "apostoli, profeti e come pietra angolare Gesù" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":1,"chord":"LA"},{"word":2,"chord":"MI-"},{"word":4,"chord":"SOL"}] },
-    { "t": "l", "v": "che dona vita e bellezza." },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":3,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "La tua dimora, la tua città" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":1,"chord":"LA"},{"word":3,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "non conosce porte chiuse e cancelli," },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":7,"chord":"SOL"}] },
-    { "t": "l", "v": "qui concittadini dei santi e familiari di te" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":1,"chord":"LA"},{"word":2,"chord":"MI-"},{"word":2,"chord":"SOL","offset":1,"align":"right"}], "anchorLayout": "flow" },
-    { "t": "l", "v": "ci ritroviamo fratelli." },
-    { "t": "s" },
-    { "t": "h", "v": "Ritornello" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "Fai di noi il popolo tuo" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":5,"chord":"MI-"},{"word":7,"chord":"SOL"}] },
-    { "t": "l", "v": "che parla ogni istante con te chiamandoti «Padre»." },
-    { "t": "c", "v": "RE MI- SOL RE LA", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"MI-"},{"word":4,"chord":"SOL"},{"word":6,"chord":"RE"},{"word":8,"chord":"LA"}] },
-    { "t": "l", "v": "Noi, figli di te, la vera famiglia di te," },
-    { "t": "c", "v": "MI- SOL LA", "anchors": [{"word":0,"chord":"MI-"},{"word":4,"chord":"SOL"},{"word":6,"chord":"LA"}] },
-    { "t": "l", "v": "raccolta da te nella tua casa. (x3)" },
-    { "t": "s" },
-    { "t": "h", "v": "Strofa 2" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":3,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "La tua dimora, la tua città" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "è il richiamo della gioia infinita," },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":6,"chord":"SOL"}] },
-    { "t": "l", "v": "coro di fratelli uniti nello stesso Spirito" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":5,"chord":"SOL"}], "anchorLayout": "flow" },
-    { "t": "l", "v": "che riempie il cuore di vita." },
-    { "t": "s" },
-    { "t": "h", "v": "Ritornello" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "Fai di noi il popolo tuo" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":5,"chord":"MI-"},{"word":7,"chord":"SOL"}] },
-    { "t": "l", "v": "che parla ogni istante con te chiamandoti «Padre»." },
-    { "t": "c", "v": "RE MI- SOL RE LA", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"MI-"},{"word":4,"chord":"SOL"},{"word":6,"chord":"RE"},{"word":8,"chord":"LA"}] },
-    { "t": "l", "v": "Noi, figli di te, la vera famiglia di te," },
-    { "t": "c", "v": "MI- SOL LA", "anchors": [{"word":0,"chord":"MI-"},{"word":4,"chord":"SOL"},{"word":6,"chord":"LA"}] },
-    { "t": "l", "v": "raccolta da te nella tua casa. (x3)" },
-    { "t": "s" },
-    { "t": "h", "v": "Strofa 3" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":3,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "La tua dimora, la tua città" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":6,"chord":"SOL"}] },
-    { "t": "l", "v": "dove il Verbo splende della tua luce," },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":5,"chord":"MI-"},{"word":7,"chord":"SOL"}] },
-    { "t": "l", "v": "Verbo che è fratello e che ci ha dato" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":5,"chord":"MI-"},{"word":7,"chord":"SOL"}] },
-    { "t": "l", "v": "di abitare con te nel dono della sua pace." },
-    { "t": "s" },
-    { "t": "h", "v": "Ritornello finale" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":4,"chord":"MI-"},{"word":5,"chord":"SOL"}] },
-    { "t": "l", "v": "Fai di noi il popolo tuo" },
-    { "t": "c", "v": "RE LA MI- SOL", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"LA"},{"word":5,"chord":"MI-"},{"word":7,"chord":"SOL"}] },
-    { "t": "l", "v": "che parla ogni istante con te chiamandoti «Padre»." },
-    { "t": "c", "v": "RE MI- SOL RE LA", "anchors": [{"word":0,"chord":"RE"},{"word":2,"chord":"MI-"},{"word":4,"chord":"SOL"},{"word":6,"chord":"RE"},{"word":8,"chord":"LA"}] },
-    { "t": "l", "v": "Noi, figli di te, la vera famiglia di te," },
-    { "t": "c", "v": "MI- SOL LA", "anchors": [{"word":0,"chord":"MI-"},{"word":4,"chord":"SOL"},{"word":6,"chord":"LA"}] },
-    { "t": "l", "v": "raccolta da te nella tua casa. (x3)" },
-    { "t": "s" },
-    { "t": "h", "v": "Outro" },
-    { "t": "c", "v": "| RE | LA | MI- | SOL | RE |" }
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| RE | LA | MI- | SOL | (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua dimora, la tua città"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "è sopra un fondamento che non si spezza:"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "apostoli, profeti e come pietra angolare Gesù"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "che dona vita e bellezza."
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua dimora, la tua città"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "non conosce porte chiuse e cancelli,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "qui concittadini dei santi e familiari di te"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "SOL",
+          "offset": 1,
+          "align": "right"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ci ritroviamo fratelli."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fai di noi il popolo tuo"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "che parla ogni istante con te chiamandoti «Padre»."
+    },
+    {
+      "t": "c",
+      "v": "RE MI- SOL RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        },
+        {
+          "word": 8,
+          "chord": "LA"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Noi, figli di te, la vera famiglia di te,"
+    },
+    {
+      "t": "c",
+      "v": "MI- SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "raccolta da te nella tua casa. (x3)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua dimora, la tua città"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "è il richiamo della gioia infinita,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "coro di fratelli uniti nello stesso Spirito"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che riempie il cuore di vita."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fai di noi il popolo tuo"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "che parla ogni istante con te chiamandoti «Padre»."
+    },
+    {
+      "t": "c",
+      "v": "RE MI- SOL RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        },
+        {
+          "word": 8,
+          "chord": "LA"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Noi, figli di te, la vera famiglia di te,"
+    },
+    {
+      "t": "c",
+      "v": "MI- SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "raccolta da te nella tua casa. (x3)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua dimora, la tua città"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "dove il Verbo splende della tua luce,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Verbo che è fratello e che ci ha dato"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "di abitare con te nel dono della sua pace."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fai di noi il popolo tuo"
+    },
+    {
+      "t": "c",
+      "v": "RE LA MI- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "che parla ogni istante con te chiamandoti «Padre»."
+    },
+    {
+      "t": "c",
+      "v": "RE MI- SOL RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        },
+        {
+          "word": 8,
+          "chord": "LA"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Noi, figli di te, la vera famiglia di te,"
+    },
+    {
+      "t": "c",
+      "v": "MI- SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "raccolta da te nella tua casa. (x3)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Outro"
+    },
+    {
+      "t": "c",
+      "v": "| RE | LA | MI- | SOL | RE |"
+    }
   ],
   "id": "la-tua-dimora-ricci"
 }

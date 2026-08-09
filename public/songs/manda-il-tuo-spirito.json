@@ -1,0 +1,597 @@
+{
+  "id": "manda-il-tuo-spirito",
+  "title": "Manda il tuo Spirito",
+  "sub": "RNS · A. Agrelli",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "SOL",
+    "mode": "maggiore"
+  },
+  "search": "Manda il tuo Spirito RNS · A. Agrelli Intro Ritornello Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi. Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi. Strofa 1 La tua presenza noi invochiamo per esser come tu ci vuoi. Impareremo ad amare proprio come ami tu. Un sol corpo e un solo spirito saremo. Un sol corpo e un solo spirito saremo. Ritornello Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi. Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi. Strofa 2 La tua sapienza noi invochiamo, sorgente eterna del tuo amore. Dono radioso che dà luce ai figli tuoi. Nel tuo amore confidiamo, la tua grazia ci farà Chiesa unita e santa per l’eternità. Chiesa unita e santa per l’eternità. Ritornello finale Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi. Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi. Signore, vieni in noi.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| FA DO/MI RE4 RE | DO/MI RE/FA# | MI-/SI SOL/SI DO LA- | FA DO/MI RE4 RE | DO RE/DO | MI- SOL/SI DO RE4 RE |"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO/MI RE/FA# MI-/SI SOL/SI DO LA-7 FA DO/MI RE",
+      "flowSegments": [
+        {
+          "chord": "DO/MI",
+          "lyric": "Manda"
+        },
+        {
+          "chord": "RE/FA#",
+          "lyric": "il tuo"
+        },
+        {
+          "chord": "MI-/SI",
+          "lyric": "Spirito, manda"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "il tuo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "Spirito,"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "FA",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "Signore, su"
+        },
+        {
+          "chord": "RE",
+          "lyric": "di noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi."
+    },
+    {
+      "t": "c",
+      "v": "DO RE/DO MI- SOL/SI DO RE7/4 SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Manda il"
+        },
+        {
+          "chord": "RE/DO",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "tuo Spirito, manda"
+        },
+        {
+          "chord": "DO",
+          "lyric": "il tuo"
+        },
+        {
+          "chord": "RE7/4",
+          "lyric": "Spirito, Signore,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "su di noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO/SOL MI- RE4 RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "La tua"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "presenza noi"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "invochiamo per"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "esser come"
+        },
+        {
+          "chord": "RE",
+          "lyric": "tu ci vuoi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua presenza noi invochiamo per esser come tu ci vuoi."
+    },
+    {
+      "t": "c",
+      "v": "DO/RE SOL DO/SOL",
+      "flowSegments": [
+        {
+          "chord": "DO/RE",
+          "lyric": "Impareremo ad"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "amare proprio"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "come ami tu."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Impareremo ad amare proprio come ami tu."
+    },
+    {
+      "t": "c",
+      "v": "MI- SOL/SI DO7+ DO6",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Un sol"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "corpo e"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "un solo"
+        },
+        {
+          "chord": "DO6",
+          "lyric": "spirito saremo."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Un sol corpo e un solo spirito saremo."
+    },
+    {
+      "t": "c",
+      "v": "MI- DO FA DO/MI RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Un"
+        },
+        {
+          "chord": "DO",
+          "lyric": "sol corpo"
+        },
+        {
+          "chord": "FA",
+          "lyric": "e"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "un solo"
+        },
+        {
+          "chord": "RE",
+          "lyric": "spirito saremo."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Un sol corpo e un solo spirito saremo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL/SI DO/MI RE/FA# MI- SOL/SI DO LA-7 FA DO/MI RE4",
+      "flowSegments": [
+        {
+          "chord": "SOL/SI",
+          "lyric": "Manda"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "il tuo"
+        },
+        {
+          "chord": "RE/FA#",
+          "lyric": "Spirito,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "manda"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "il tuo"
+        },
+        {
+          "chord": "FA",
+          "lyric": "Spirito,"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "Signore, su"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "di noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi."
+    },
+    {
+      "t": "c",
+      "v": "SOL/SI DO RE/DO MI- SOL/SI DO RE7/4 SOL",
+      "flowSegments": [
+        {
+          "chord": "SOL/SI",
+          "lyric": "Manda il"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "RE/DO",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "RE7/4",
+          "lyric": "Signore, su"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "di noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO/SOL",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "La tua sapienza noi invochiamo,"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "sorgente eterna del tuo amore."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua sapienza noi invochiamo, sorgente eterna del tuo amore."
+    },
+    {
+      "t": "c",
+      "v": "MI- RE4 RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Dono radioso"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "che dà luce"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ai figli tuoi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Dono radioso che dà luce ai figli tuoi."
+    },
+    {
+      "t": "c",
+      "v": "DO/RE SOL DO/SOL",
+      "flowSegments": [
+        {
+          "chord": "DO/RE",
+          "lyric": "Nel tuo amore"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "confidiamo, la tua"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "grazia ci farà"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo amore confidiamo, la tua grazia ci farà"
+    },
+    {
+      "t": "c",
+      "v": "MI- SOL/SI DO7+ DO6",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Chiesa"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "unita e"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "santa"
+        },
+        {
+          "chord": "DO6",
+          "lyric": "per l’eternità."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Chiesa unita e santa per l’eternità."
+    },
+    {
+      "t": "c",
+      "v": "MI- DO FA DO/MI RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Chiesa"
+        },
+        {
+          "chord": "DO",
+          "lyric": "unita"
+        },
+        {
+          "chord": "FA",
+          "lyric": "e"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "santa"
+        },
+        {
+          "chord": "RE",
+          "lyric": "per l’eternità."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Chiesa unita e santa per l’eternità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "LAb/DO REb/FA MIb/SOL FA- LAb/DO REb SIb-7 SOLb REb/FA MIb4",
+      "flowSegments": [
+        {
+          "chord": "LAb/DO",
+          "lyric": "Manda"
+        },
+        {
+          "chord": "REb/FA",
+          "lyric": "il tuo"
+        },
+        {
+          "chord": "MIb/SOL",
+          "lyric": "Spirito,"
+        },
+        {
+          "chord": "FA-",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "LAb/DO",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "REb",
+          "lyric": "manda"
+        },
+        {
+          "chord": "SIb-7",
+          "lyric": "il tuo"
+        },
+        {
+          "chord": "SOLb",
+          "lyric": "Spirito,"
+        },
+        {
+          "chord": "REb/FA",
+          "lyric": "Signore, su"
+        },
+        {
+          "chord": "MIb4",
+          "lyric": "di noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi."
+    },
+    {
+      "t": "c",
+      "v": "LAb/DO REb MIb/REb FA- LAb/DO REb MIb7/4 LAb",
+      "flowSegments": [
+        {
+          "chord": "LAb/DO",
+          "lyric": "Manda il"
+        },
+        {
+          "chord": "REb",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "MIb/REb",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "FA-",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "LAb/DO",
+          "lyric": "manda il"
+        },
+        {
+          "chord": "REb",
+          "lyric": "tuo Spirito,"
+        },
+        {
+          "chord": "MIb7/4",
+          "lyric": "Signore, su"
+        },
+        {
+          "chord": "LAb",
+          "lyric": "di noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Manda il tuo Spirito, manda il tuo Spirito, manda il tuo Spirito, Signore, su di noi."
+    },
+    {
+      "t": "c",
+      "v": "REb7+ MIb FA- LAb/DO REb7+ MIb/SOL FA- MIb LAb",
+      "flowSegments": [
+        {
+          "chord": "REb7+",
+          "lyric": " "
+        },
+        {
+          "chord": "MIb",
+          "lyric": " "
+        },
+        {
+          "chord": "FA-",
+          "lyric": "Signore,"
+        },
+        {
+          "chord": "LAb/DO",
+          "lyric": " "
+        },
+        {
+          "chord": "REb7+",
+          "lyric": "vieni"
+        },
+        {
+          "chord": "MIb/SOL",
+          "lyric": " "
+        },
+        {
+          "chord": "FA-",
+          "lyric": "in"
+        },
+        {
+          "chord": "MIb",
+          "lyric": " "
+        },
+        {
+          "chord": "LAb",
+          "lyric": "noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Signore, vieni in noi."
+    }
+  ]
+}

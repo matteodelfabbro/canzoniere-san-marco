@@ -1,0 +1,102 @@
+{
+  "id": "nada-te-turbe",
+  "title": "Nada te turbe",
+  "sub": "Canone di Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "LA",
+    "mode": "minore"
+  },
+  "search": "Nada te turbe Canone di Taizé Canone Nada te turbe, nada te espante. Quien a Dios tiene nada le falta. Nada te turbe, nada te espante. Solo Dios basta.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "LA- RE- SOL DO7+ FA RE- MI LA-",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Nada"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "te turbe,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "nada"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "te espante."
+        },
+        {
+          "chord": "FA",
+          "lyric": "Quien a"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "Dios"
+        },
+        {
+          "chord": "MI",
+          "lyric": "tiene nada"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "le falta."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Nada te turbe, nada te espante. Quien a Dios tiene nada le falta."
+    },
+    {
+      "t": "c",
+      "v": "LA- RE- SOL DO7+ FA RE- MI LA-",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Nada"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "turbe,"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "nada"
+        },
+        {
+          "chord": "FA",
+          "lyric": "te"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "espante."
+        },
+        {
+          "chord": "MI",
+          "lyric": "Solo"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "Dios basta."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Nada te turbe, nada te espante. Solo Dios basta."
+    }
+  ]
+}

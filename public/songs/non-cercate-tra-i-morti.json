@@ -1,0 +1,734 @@
+{
+  "id": "non-cercate-tra-i-morti",
+  "title": "Non cercate tra i morti",
+  "sub": "",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "minore"
+  },
+  "search": "Non cercate tra i morti  Ritornello Non cercate tra i morti chi la morte annientò: è tornata a cantare la vita in Colui che ci amò. È risorto il Signore, oggi è vivo tra noi: Cristo porta la pace e l’amore, egli è sempre con noi. Strofa 1 Andavano le donne al sepolcro, piangevano ed era mattino. Venivano ad ungere il corpo, sepolto dentro il giardino. Trovarono vuota la tomba che aveva accolto il Signore: sentirono canti di angeli e grande ne fu lo stupore. Ritornello Non cercate tra i morti chi la morte annientò: è tornata a cantare la vita in Colui che ci amò. È risorto il Signore, oggi è vivo tra noi: Cristo porta la pace e l’amore, egli è sempre con noi. Strofa 2 Vivevano nella paura, tenevano chiuse le porte: finita la grande avventura sentivano canti di morte. Gesù, il vivente, il risorto, si rese presente tra i suoi: soffiò su di loro lo Spirito e disse: “Sia pace tra voi!” Ritornello finale Non cercate tra i morti chi la morte annientò: è tornata a cantare la vita in Colui che ci amò. È risorto il Signore, oggi è vivo tra noi: Cristo porta la pace e l’amore, egli è sempre con noi.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "Non"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "cercate tra"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "i"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "morti chi"
+        },
+        {
+          "chord": "DO",
+          "lyric": "la"
+        },
+        {
+          "chord": "FA",
+          "lyric": "morte annientò:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Non cercate tra i morti chi la morte annientò:"
+    },
+    {
+      "t": "c",
+      "v": "FA7+ DO LA-7 SOL SIb DO RE-7",
+      "flowSegments": [
+        {
+          "chord": "FA7+",
+          "lyric": "è"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tornata a"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "cantare"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "la vita"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "in"
+        },
+        {
+          "chord": "DO",
+          "lyric": "Colui che"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "ci amò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "è tornata a cantare la vita in Colui che ci amò."
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "È"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "risorto il"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "Signore,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "oggi è"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vivo"
+        },
+        {
+          "chord": "FA",
+          "lyric": "tra noi:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "È risorto il Signore, oggi è vivo tra noi:"
+    },
+    {
+      "t": "c",
+      "v": "FA7+ DO LA-7 SOL SIb DO RE-7",
+      "flowSegments": [
+        {
+          "chord": "FA7+",
+          "lyric": "Cristo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "porta la"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "pace"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "e l’amore,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "egli"
+        },
+        {
+          "chord": "DO",
+          "lyric": "è sempre"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "con noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Cristo porta la pace e l’amore, egli è sempre con noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "Andavano"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "le donne"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "al"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "sepolcro, piangevano"
+        },
+        {
+          "chord": "DO",
+          "lyric": "ed"
+        },
+        {
+          "chord": "FA",
+          "lyric": "era mattino."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Andavano le donne al sepolcro, piangevano ed era mattino."
+    },
+    {
+      "t": "c",
+      "v": "SOL-7 LA RE- SOL-7 LA",
+      "flowSegments": [
+        {
+          "chord": "SOL-7",
+          "lyric": "Venivano"
+        },
+        {
+          "chord": "LA",
+          "lyric": "ad ungere"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "il corpo,"
+        },
+        {
+          "chord": "SOL-7",
+          "lyric": "sepolto dentro"
+        },
+        {
+          "chord": "LA",
+          "lyric": "il giardino."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Venivano ad ungere il corpo, sepolto dentro il giardino."
+    },
+    {
+      "t": "c",
+      "v": "RE-7 DO RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "Trovarono"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vuota la"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "tomba"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "che aveva"
+        },
+        {
+          "chord": "DO",
+          "lyric": "accolto"
+        },
+        {
+          "chord": "FA",
+          "lyric": "il Signore:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Trovarono vuota la tomba che aveva accolto il Signore:"
+    },
+    {
+      "t": "c",
+      "v": "SOL-7 LA RE-7 SOL-7 LA4",
+      "flowSegments": [
+        {
+          "chord": "SOL-7",
+          "lyric": "sentirono canti"
+        },
+        {
+          "chord": "LA",
+          "lyric": "di angeli"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "e grande"
+        },
+        {
+          "chord": "SOL-7",
+          "lyric": "ne fu"
+        },
+        {
+          "chord": "LA4",
+          "lyric": "lo stupore."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "sentirono canti di angeli e grande ne fu lo stupore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "Non"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "cercate tra"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "i"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "morti chi"
+        },
+        {
+          "chord": "DO",
+          "lyric": "la"
+        },
+        {
+          "chord": "FA",
+          "lyric": "morte annientò:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Non cercate tra i morti chi la morte annientò:"
+    },
+    {
+      "t": "c",
+      "v": "FA7+ DO LA-7 SOL SIb DO RE-7",
+      "flowSegments": [
+        {
+          "chord": "FA7+",
+          "lyric": "è"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tornata a"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "cantare"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "la vita"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "in"
+        },
+        {
+          "chord": "DO",
+          "lyric": "Colui che"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "ci amò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "è tornata a cantare la vita in Colui che ci amò."
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "È"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "risorto il"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "Signore,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "oggi è"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vivo"
+        },
+        {
+          "chord": "FA",
+          "lyric": "tra noi:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "È risorto il Signore, oggi è vivo tra noi:"
+    },
+    {
+      "t": "c",
+      "v": "FA7+ DO LA-7 SOL SIb DO RE-7",
+      "flowSegments": [
+        {
+          "chord": "FA7+",
+          "lyric": "Cristo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "porta la"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "pace"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "e l’amore,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "egli"
+        },
+        {
+          "chord": "DO",
+          "lyric": "è sempre"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "con noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Cristo porta la pace e l’amore, egli è sempre con noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "Vivevano"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "nella"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "paura,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "tenevano"
+        },
+        {
+          "chord": "DO",
+          "lyric": "chiuse"
+        },
+        {
+          "chord": "FA",
+          "lyric": "le porte:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Vivevano nella paura, tenevano chiuse le porte:"
+    },
+    {
+      "t": "c",
+      "v": "SOL-7 LA RE- SOL-7 LA",
+      "flowSegments": [
+        {
+          "chord": "SOL-7",
+          "lyric": "finita"
+        },
+        {
+          "chord": "LA",
+          "lyric": "la grande"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "avventura"
+        },
+        {
+          "chord": "SOL-7",
+          "lyric": "sentivano canti"
+        },
+        {
+          "chord": "LA",
+          "lyric": "di morte."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "finita la grande avventura sentivano canti di morte."
+    },
+    {
+      "t": "c",
+      "v": "RE-7 DO RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "Gesù,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "il vivente,"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "il risorto,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "si rese"
+        },
+        {
+          "chord": "DO",
+          "lyric": "presente tra"
+        },
+        {
+          "chord": "FA",
+          "lyric": "i suoi:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Gesù, il vivente, il risorto, si rese presente tra i suoi:"
+    },
+    {
+      "t": "c",
+      "v": "SOL-7 LA RE-7 SOL-7 LA4",
+      "flowSegments": [
+        {
+          "chord": "SOL-7",
+          "lyric": "soffiò su"
+        },
+        {
+          "chord": "LA",
+          "lyric": "di loro"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "lo Spirito e"
+        },
+        {
+          "chord": "SOL-7",
+          "lyric": "disse: “Sia"
+        },
+        {
+          "chord": "LA4",
+          "lyric": "pace tra voi!”"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "soffiò su di loro lo Spirito e disse: “Sia pace tra voi!”"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "Non"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "cercate tra"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "i"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "morti chi"
+        },
+        {
+          "chord": "DO",
+          "lyric": "la"
+        },
+        {
+          "chord": "FA",
+          "lyric": "morte annientò:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Non cercate tra i morti chi la morte annientò:"
+    },
+    {
+      "t": "c",
+      "v": "FA7+ DO LA-7 SOL SIb DO RE-7",
+      "flowSegments": [
+        {
+          "chord": "FA7+",
+          "lyric": "è"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tornata a"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "cantare"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "la vita"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "in"
+        },
+        {
+          "chord": "DO",
+          "lyric": "Colui che"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "ci amò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "è tornata a cantare la vita in Colui che ci amò."
+    },
+    {
+      "t": "c",
+      "v": "RE-7 LA-7 RE-7 SIb DO FA",
+      "flowSegments": [
+        {
+          "chord": "RE-7",
+          "lyric": "È"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "risorto il"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "Signore,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "oggi è"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vivo"
+        },
+        {
+          "chord": "FA",
+          "lyric": "tra noi:"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "È risorto il Signore, oggi è vivo tra noi:"
+    },
+    {
+      "t": "c",
+      "v": "FA7+ DO LA-7 SOL SIb DO RE-7",
+      "flowSegments": [
+        {
+          "chord": "FA7+",
+          "lyric": "Cristo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "porta la"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "pace"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "e l’amore,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "egli"
+        },
+        {
+          "chord": "DO",
+          "lyric": "è sempre"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "con noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Cristo porta la pace e l’amore, egli è sempre con noi."
+    }
+  ]
+}

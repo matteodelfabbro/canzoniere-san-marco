@@ -1,0 +1,268 @@
+{
+  "title": "Astro del ciel",
+  "sub": "Gruber",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "LA",
+    "mode": "maggiore"
+  },
+  "search": "Astro del ciel Gruber Strofa 1 Astro del ciel, Pargol divin, mite agnello redentor! Tu che i Vati da lungi sognar, tu che angeliche voci annunziar, Ritornello Luce dona alle menti, pace infondi nei cuor. (x2) Strofa 2 Astro del ciel, Pargol divin, mite agnello redentor, tu di stirpe regale decor, tu virgineo mistico fior. Strofa 3 Astro del ciel, Pargol divin, mite agnello redentor tu disceso a scontare l'error, tu sol nato a parlare d'amor.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Astro del ciel, Pargol divin, mite agnello redentor!"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tu che i Vati da lungi sognar,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu che angeliche voci annunziar,"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI LA FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Luce dona alle menti,"
+    },
+    {
+      "t": "c",
+      "v": "LA MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "pace infondi nei cuor. (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "LA MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Astro del ciel, Pargol divin, mite agnello redentor,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu di stirpe regale decor,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu virgineo mistico fior."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "LA MI LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Astro del ciel, Pargol divin, mite agnello redentor"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu disceso a scontare l'error,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu sol nato a parlare d'amor."
+    }
+  ],
+  "id": "astro-del-ciel"
+}

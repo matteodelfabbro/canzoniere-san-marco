@@ -1,0 +1,464 @@
+{
+  "id": "spirito-santo-dolce-presenza",
+  "title": "Spirito Santo, dolce presenza",
+  "sub": "RNS",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "FA",
+    "mode": "maggiore"
+  },
+  "search": "Spirito Santo, dolce presenza RNS Intro Strofa 1 Spirito Santo, dolce presenza, vieni a fonderci con la tua volontà. Consolatore, luce del cuore, soffia la tua vita dentro noi. Inebriaci di te, del tuo amore. Ritornello Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia. Strofa 2 Spirito Santo, testimone celeste, donaci sapienza e verità. Promessa del Padre, sorgente di grazia, vieni a dimorare dentro noi. Inebriaci di te, del tuo amore. Ritornello Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia. Bridge Scendi su di noi, scendi su di noi, tu che sei l’Eterno. Scendi su di noi, scendi su di noi, tu che sei l’Eterno. Scendi su di noi, scendi su di noi, tu che sei l’Eterno, l’Eterno. Ritornello finale Spirito Santo, Spirito di Gesù, muoviti dentro noi per rinnovare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, usaci come vuoi. Spirito Santo.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| FA SIb7+ | DO RE- |"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "FA SIb7+ DO6 RE-",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Spirito Santo,"
+        },
+        {
+          "chord": "SIb7+",
+          "lyric": "dolce presenza, vieni"
+        },
+        {
+          "chord": "DO6",
+          "lyric": "a fonderci con"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "la tua volontà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, dolce presenza, vieni a fonderci con la tua volontà."
+    },
+    {
+      "t": "c",
+      "v": "FA SIb7+ DO RE-",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Consolatore, luce"
+        },
+        {
+          "chord": "SIb7+",
+          "lyric": "del cuore, soffia"
+        },
+        {
+          "chord": "DO",
+          "lyric": "la tua"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "vita dentro noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Consolatore, luce del cuore, soffia la tua vita dentro noi."
+    },
+    {
+      "t": "c",
+      "v": "SIb DO",
+      "flowSegments": [
+        {
+          "chord": "SIb",
+          "lyric": "Inebriaci di te,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "del tuo amore."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Inebriaci di te, del tuo amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO/MI RE- SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Spirito Santo, Spirito"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "di Gesù, adesso"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "tu manda noi"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "ad infiammare la terra."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra."
+    },
+    {
+      "t": "c",
+      "v": "FA/LA DO/MI RE- SIbadd9",
+      "flowSegments": [
+        {
+          "chord": "FA/LA",
+          "lyric": "Spirito Santo, rendici"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "uno in te,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "usaci come vuoi,"
+        },
+        {
+          "chord": "SIbadd9",
+          "lyric": "con la tua grazia."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "FA SIb7+ SIb6/9 DO RE-",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Spirito"
+        },
+        {
+          "chord": "SIb7+",
+          "lyric": "Santo, testimone"
+        },
+        {
+          "chord": "SIb6/9",
+          "lyric": "celeste,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "donaci sapienza"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "e verità."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, testimone celeste, donaci sapienza e verità."
+    },
+    {
+      "t": "c",
+      "v": "FA SIb7+ SIb DO RE-",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Promessa del"
+        },
+        {
+          "chord": "SIb7+",
+          "lyric": "Padre, sorgente"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "di grazia,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vieni a"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "dimorare dentro noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Promessa del Padre, sorgente di grazia, vieni a dimorare dentro noi."
+    },
+    {
+      "t": "c",
+      "v": "SIb DO",
+      "flowSegments": [
+        {
+          "chord": "SIb",
+          "lyric": "Inebriaci di te,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "del tuo amore."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Inebriaci di te, del tuo amore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO/MI RE- SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Spirito Santo, Spirito"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "di Gesù, adesso"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "tu manda noi"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "ad infiammare la terra."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra."
+    },
+    {
+      "t": "c",
+      "v": "FA/LA DO/MI RE- SIbadd9",
+      "flowSegments": [
+        {
+          "chord": "FA/LA",
+          "lyric": "Spirito Santo, rendici"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "uno in te,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "usaci come vuoi,"
+        },
+        {
+          "chord": "SIbadd9",
+          "lyric": "con la tua grazia."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Bridge"
+    },
+    {
+      "t": "c",
+      "v": "SOL- RE- DO SIb7+",
+      "flowSegments": [
+        {
+          "chord": "SOL-",
+          "lyric": "Scendi su di"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "noi, scendi su"
+        },
+        {
+          "chord": "DO",
+          "lyric": "di noi, tu"
+        },
+        {
+          "chord": "SIb7+",
+          "lyric": "che sei l’Eterno."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Scendi su di noi, scendi su di noi, tu che sei l’Eterno."
+    },
+    {
+      "t": "c",
+      "v": "SOL- RE- DO",
+      "flowSegments": [
+        {
+          "chord": "SOL-",
+          "lyric": "Scendi su di noi,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "scendi su di noi,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tu che sei l’Eterno."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Scendi su di noi, scendi su di noi, tu che sei l’Eterno."
+    },
+    {
+      "t": "c",
+      "v": "SIb7+ SOL-7 RE- DO RE RE11",
+      "flowSegments": [
+        {
+          "chord": "SIb7+",
+          "lyric": "Scendi su"
+        },
+        {
+          "chord": "SOL-7",
+          "lyric": "di noi,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "scendi su"
+        },
+        {
+          "chord": "DO",
+          "lyric": "di noi,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "tu che"
+        },
+        {
+          "chord": "RE11",
+          "lyric": "sei l’Eterno, l’Eterno."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Scendi su di noi, scendi su di noi, tu che sei l’Eterno, l’Eterno."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello finale"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE/FA# MI- DO",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Spirito Santo, Spirito"
+        },
+        {
+          "chord": "RE/FA#",
+          "lyric": "di Gesù, muoviti"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "dentro noi per"
+        },
+        {
+          "chord": "DO",
+          "lyric": "rinnovare la terra."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, Spirito di Gesù, muoviti dentro noi per rinnovare la terra."
+    },
+    {
+      "t": "c",
+      "v": "SOL/SI RE/FA# MI- DOadd9",
+      "flowSegments": [
+        {
+          "chord": "SOL/SI",
+          "lyric": "Spirito Santo, rendici"
+        },
+        {
+          "chord": "RE/FA#",
+          "lyric": "uno in te,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "usaci come vuoi,"
+        },
+        {
+          "chord": "DOadd9",
+          "lyric": "usaci come vuoi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo, rendici uno in te, usaci come vuoi, usaci come vuoi."
+    },
+    {
+      "t": "c",
+      "v": "SOL",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Spirito Santo."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Spirito Santo."
+    }
+  ]
+}

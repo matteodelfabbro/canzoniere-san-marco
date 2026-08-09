@@ -1,0 +1,101 @@
+{
+  "title": "Jubilate Deo",
+  "sub": "Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Jubilate Deo Taizé Strofa 1 Jubilate Deo Jubilate Deo Alleluia!",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO FA SOL DO FA SOL DO FA SOL DO FA SOL DO FA SOL DO FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Jubilate Deo Jubilate Deo Alleluia!"
+    }
+  ],
+  "id": "jubilate-deo"
+}

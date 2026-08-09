@@ -1,0 +1,415 @@
+{
+  "id": "dove-due-o-tre",
+  "title": "Dove due o tre",
+  "sub": "Gen Verde",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Dove due o tre Gen Verde Strofa 1 Dove due o tre sono uniti nel mio nome, io sarò con loro, pregherò con loro, amerò con loro, perché il mondo venga a te, o Padre, conoscere il tuo amore è avere vita con te. Strofa 2 Voi che siete luce della terra, miei amici, risplendete sempre della vera luce, perché il mondo creda nell’amore che c’è in voi, o Padre, consacrali per sempre. Strofa 3 Ogni beatitudine vi attende nel mio giorno, se sarete uniti, se sarete pace, se sarete puri, perché voi vedrete Dio che è Padre, in lui la vostra vita gioia piena sarà. Strofa 4 Voi che ora siete miei discepoli nel mondo, siate testimoni di un amore immenso, date prova di quella speranza che c’è in voi, coraggio, vi guiderò per sempre.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL/DO FA/DO DO",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Dove due"
+        },
+        {
+          "chord": "SOL/DO",
+          "lyric": "o tre"
+        },
+        {
+          "chord": "FA/DO",
+          "lyric": "sono uniti"
+        },
+        {
+          "chord": "DO",
+          "lyric": "nel mio nome,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Dove due o tre sono uniti nel mio nome,"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "io sarò"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "con loro, pregherò"
+        },
+        {
+          "chord": "FA",
+          "lyric": "con loro,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "amerò con loro,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "io sarò con loro, pregherò con loro, amerò con loro,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL DO LA- RE- SOL4 SOL DO",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "perché il"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "mondo venga"
+        },
+        {
+          "chord": "DO",
+          "lyric": "a te,"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "o Padre,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "conoscere il"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "tuo amore"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "è avere"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vita con te."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "perché il mondo venga a te, o Padre, conoscere il tuo amore è avere vita con te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE LA/RE SOL/RE RE",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Voi che"
+        },
+        {
+          "chord": "LA/RE",
+          "lyric": "siete luce"
+        },
+        {
+          "chord": "SOL/RE",
+          "lyric": "della terra,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "miei amici,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Voi che siete luce della terra, miei amici,"
+    },
+    {
+      "t": "c",
+      "v": "FA#- SI- SOL LA",
+      "flowSegments": [
+        {
+          "chord": "FA#-",
+          "lyric": "risplendete"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "sempre"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "della"
+        },
+        {
+          "chord": "LA",
+          "lyric": "vera luce,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "risplendete sempre della vera luce,"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA RE SI- MI- LA4 LA RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "perché"
+        },
+        {
+          "chord": "LA",
+          "lyric": "il mondo"
+        },
+        {
+          "chord": "RE",
+          "lyric": "creda nell’amore"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "che c’è"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "in"
+        },
+        {
+          "chord": "LA4",
+          "lyric": "voi, o"
+        },
+        {
+          "chord": "LA",
+          "lyric": "Padre, consacrali"
+        },
+        {
+          "chord": "RE",
+          "lyric": "per sempre."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "perché il mondo creda nell’amore che c’è in voi, o Padre, consacrali per sempre."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL/DO FA/DO DO",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Ogni"
+        },
+        {
+          "chord": "SOL/DO",
+          "lyric": "beatitudine vi"
+        },
+        {
+          "chord": "FA/DO",
+          "lyric": "attende nel"
+        },
+        {
+          "chord": "DO",
+          "lyric": "mio giorno,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ogni beatitudine vi attende nel mio giorno,"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "se sarete"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "uniti, se"
+        },
+        {
+          "chord": "FA",
+          "lyric": "sarete pace,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "se sarete puri,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "se sarete uniti, se sarete pace, se sarete puri,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL DO LA- RE- SOL4 SOL DO",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "perché"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "voi vedrete"
+        },
+        {
+          "chord": "DO",
+          "lyric": "Dio che"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "è Padre,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "in lui"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "la vostra"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "vita gioia"
+        },
+        {
+          "chord": "DO",
+          "lyric": "piena sarà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "perché voi vedrete Dio che è Padre, in lui la vostra vita gioia piena sarà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "MI SI/MI LA/MI MI",
+      "flowSegments": [
+        {
+          "chord": "MI",
+          "lyric": "Voi che"
+        },
+        {
+          "chord": "SI/MI",
+          "lyric": "ora siete"
+        },
+        {
+          "chord": "LA/MI",
+          "lyric": "miei discepoli"
+        },
+        {
+          "chord": "MI",
+          "lyric": "nel mondo,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Voi che ora siete miei discepoli nel mondo,"
+    },
+    {
+      "t": "c",
+      "v": "SOL#- DO#- LA SI",
+      "flowSegments": [
+        {
+          "chord": "SOL#-",
+          "lyric": "siate"
+        },
+        {
+          "chord": "DO#-",
+          "lyric": "testimoni di"
+        },
+        {
+          "chord": "LA",
+          "lyric": "un"
+        },
+        {
+          "chord": "SI",
+          "lyric": "amore immenso,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "siate testimoni di un amore immenso,"
+    },
+    {
+      "t": "c",
+      "v": "LA SI MI DO#- FA#- SI4 SI MI",
+      "flowSegments": [
+        {
+          "chord": "LA",
+          "lyric": "date"
+        },
+        {
+          "chord": "SI",
+          "lyric": "prova di"
+        },
+        {
+          "chord": "MI",
+          "lyric": "quella speranza"
+        },
+        {
+          "chord": "DO#-",
+          "lyric": "che c’è"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "in"
+        },
+        {
+          "chord": "SI4",
+          "lyric": "voi, coraggio,"
+        },
+        {
+          "chord": "SI",
+          "lyric": "vi guiderò"
+        },
+        {
+          "chord": "MI",
+          "lyric": "per sempre."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "date prova di quella speranza che c’è in voi, coraggio, vi guiderò per sempre."
+    }
+  ]
+}

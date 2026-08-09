@@ -1,0 +1,427 @@
+{
+  "title": "Tutta la vita è un dono",
+  "sub": "Gen Rosso",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Tutta la vita è un dono Gen Rosso Intro Strofa 1 Tutta la vita è un dono per ogni uomo tutta la vita è un dono in ogni momento tutta la vita è un dono, canta per lei, canta per lei. Ritornello Corri corri a perdifiato contro la corrente che trascina infrangi la marea di chi ti porta giù distruggi le barriere dell'indifferenza sorridi a chi non sa che la vita non si ferma mai. Strofa 2 Tutta la vita è un dono, non la sciupare; tutta la vita è un dono, non la bruciare tutta la vita è un dono: vivi per lei, vivi per lei. Strofa 3 Anche nei giorni tristi la vita è amore; anche tra le bufere la vita è amore; la vita è sempre un dono che Dio ci dà, che Dio ci dà.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO SIb DO DO4/7 DO SIb"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 7,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tutta la vita è un dono per ogni uomo"
+    },
+    {
+      "t": "c",
+      "v": "RE- LA- SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE-"
+        },
+        {
+          "word": 4,
+          "chord": "LA-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 8,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tutta la vita è un dono in ogni momento"
+    },
+    {
+      "t": "c",
+      "v": "LA- SIb SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 4,
+          "chord": "SIb"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "FA"
+        },
+        {
+          "word": 10,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tutta la vita è un dono, canta per lei, canta per lei."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Corri corri a perdifiato"
+    },
+    {
+      "t": "c",
+      "v": "MI-7",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "MI-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "contro la corrente che trascina"
+    },
+    {
+      "t": "c",
+      "v": "LA-7 RE-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-7"
+        },
+        {
+          "word": 3,
+          "chord": "RE-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "infrangi la marea di chi ti porta giù"
+    },
+    {
+      "t": "c",
+      "v": "DO MI-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "MI-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "distruggi le barriere dell'indifferenza"
+    },
+    {
+      "t": "c",
+      "v": "FA LA-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "LA-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sorridi a chi non sa che la vita"
+    },
+    {
+      "t": "c",
+      "v": "SIb SOL4",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SIb"
+        },
+        {
+          "word": 2,
+          "chord": "SOL4"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "non si ferma mai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 7,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tutta la vita è un dono, non la sciupare;"
+    },
+    {
+      "t": "c",
+      "v": "RE- LA- SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE-"
+        },
+        {
+          "word": 4,
+          "chord": "LA-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 8,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tutta la vita è un dono, non la bruciare"
+    },
+    {
+      "t": "c",
+      "v": "LA- SIb SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 4,
+          "chord": "SIb"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "FA"
+        },
+        {
+          "word": 10,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tutta la vita è un dono: vivi per lei, vivi per lei."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 7,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Anche nei giorni tristi la vita è amore;"
+    },
+    {
+      "t": "c",
+      "v": "RE- LA- SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE-"
+        },
+        {
+          "word": 4,
+          "chord": "LA-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 7,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "anche tra le bufere la vita è amore;"
+    },
+    {
+      "t": "c",
+      "v": "LA- SIb SOL FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 4,
+          "chord": "SIb"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "FA"
+        },
+        {
+          "word": 9,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la vita è sempre un dono che Dio ci dà,"
+    },
+    {
+      "t": "l",
+      "v": "che Dio ci dà."
+    }
+  ],
+  "id": "tutta-la-vita-e-un-dono"
+}

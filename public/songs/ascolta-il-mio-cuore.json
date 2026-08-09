@@ -1,0 +1,463 @@
+{
+  "id": "ascolta-il-mio-cuore",
+  "title": "Ascolta il mio cuore",
+  "sub": "RNS",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Ascolta il mio cuore RNS Strofa 1 Ascolta il mio cuore, rispondi al mio grido, t’invoco nella mia povertà. Custodisci i miei pensieri con il tuo immenso amore, rinnova in me la tua fedeltà. Ritornello Per te canterò, per te io vivrò, perché sei oltre i confini, il Signore che vita mi dà. Per te danzerò, con te cambierò, il mio pianto nel canto nuovo, perché vivi in me: sei risorto e con me resterai. Strofa 2 Ritorno a te mio Dio, accolgo il tuo perdono, la tua misericordia è per me. Dal profondo della terra mi hai chiamato a nuova vita, per sempre grazie ti renderò. Ritornello Per te canterò, per te io vivrò, perché sei oltre i confini, il Signore che vita mi dà. Per te danzerò, con te cambierò, il mio pianto nel canto nuovo, perché vivi in me: sei risorto e con me resterai.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO FA7+",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Ascolta il mio cuore,"
+        },
+        {
+          "chord": "FA7+",
+          "lyric": "rispondi al mio grido,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ascolta il mio cuore, rispondi al mio grido,"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "t’invoco nella"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "mia povertà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "t’invoco nella mia povertà."
+    },
+    {
+      "t": "c",
+      "v": "DO FA7+",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Custodisci i miei pensieri"
+        },
+        {
+          "chord": "FA7+",
+          "lyric": "con il tuo immenso amore,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Custodisci i miei pensieri con il tuo immenso amore,"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "rinnova in"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "me la"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tua fedeltà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "rinnova in me la tua fedeltà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO SOL FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Per"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "canterò,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "per"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "io vivrò,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Per te canterò, per te io vivrò,"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SIb SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "perché"
+        },
+        {
+          "chord": "FA",
+          "lyric": "sei oltre"
+        },
+        {
+          "chord": "DO",
+          "lyric": "i confini,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "il Signore"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "che vita"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "mi dà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "perché sei oltre i confini, il Signore che vita mi dà."
+    },
+    {
+      "t": "c",
+      "v": "FA DO SOL FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Per"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "danzerò,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "con"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "cambierò,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Per te danzerò, con te cambierò,"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SIb SOL7 DO",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "il mio"
+        },
+        {
+          "chord": "FA",
+          "lyric": "pianto nel canto"
+        },
+        {
+          "chord": "DO",
+          "lyric": "nuovo, perché vivi"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "in me:"
+        },
+        {
+          "chord": "SOL7",
+          "lyric": "sei risorto e"
+        },
+        {
+          "chord": "DO",
+          "lyric": "con me resterai."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "il mio pianto nel canto nuovo, perché vivi in me: sei risorto e con me resterai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO FA7+",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Ritorno a te mio"
+        },
+        {
+          "chord": "FA7+",
+          "lyric": "Dio, accolgo il tuo perdono,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ritorno a te mio Dio, accolgo il tuo perdono,"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "la tua misericordia"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "è per me."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "la tua misericordia è per me."
+    },
+    {
+      "t": "c",
+      "v": "DO FA7+",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Dal profondo della terra mi"
+        },
+        {
+          "chord": "FA7+",
+          "lyric": "hai chiamato a nuova vita,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Dal profondo della terra mi hai chiamato a nuova vita,"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "per"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "sempre grazie"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ti renderò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "per sempre grazie ti renderò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO SOL FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Per"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "canterò,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "per"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "io vivrò,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Per te canterò, per te io vivrò,"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SIb SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "perché"
+        },
+        {
+          "chord": "FA",
+          "lyric": "sei oltre"
+        },
+        {
+          "chord": "DO",
+          "lyric": "i confini,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "il Signore"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "che vita"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "mi dà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "perché sei oltre i confini, il Signore che vita mi dà."
+    },
+    {
+      "t": "c",
+      "v": "FA DO SOL FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Per"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "danzerò,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "con"
+        },
+        {
+          "chord": "DO",
+          "lyric": "te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "cambierò,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Per te danzerò, con te cambierò,"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SIb SOL7 DO",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "il mio"
+        },
+        {
+          "chord": "FA",
+          "lyric": "pianto nel canto"
+        },
+        {
+          "chord": "DO",
+          "lyric": "nuovo, perché vivi"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "in me:"
+        },
+        {
+          "chord": "SOL7",
+          "lyric": "sei risorto e"
+        },
+        {
+          "chord": "DO",
+          "lyric": "con me resterai."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "il mio pianto nel canto nuovo, perché vivi in me: sei risorto e con me resterai."
+    }
+  ]
+}

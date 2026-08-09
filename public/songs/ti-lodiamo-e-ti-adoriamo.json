@@ -1,0 +1,247 @@
+{
+  "id": "ti-lodiamo-e-ti-adoriamo",
+  "title": "Ti lodiamo e ti adoriamo",
+  "sub": "Gruppo Peniel",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "MI",
+    "mode": "minore"
+  },
+  "search": "Ti lodiamo e ti adoriamo Gruppo Peniel Ritornello Ti lodiamo e ti adoriamo, Cristo Signor. Ti lodiamo e ti adoriamo, Cristo Signor. Strofa 1 Ti seguiamo nel cammino, ti seguiamo nel cammino, ti seguiamo nel cammino, Cristo Signor. Strofa 2 Ti doniam la nostra vita, ti doniam la nostra vita, ti doniam la nostra vita, Cristo Signor. Strofa 3 Diamo a te tutta la gloria, diamo a te tutta la gloria, diamo a te tutta la gloria, Cristo Signor.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI-7 DO7+ MI-",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Ti"
+        },
+        {
+          "chord": "SI-7",
+          "lyric": "lodiamo e"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "ti adoriamo,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Cristo Signor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ti lodiamo e ti adoriamo, Cristo Signor."
+    },
+    {
+      "t": "c",
+      "v": "MI- SI-7 DO7+ MI-",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Ti"
+        },
+        {
+          "chord": "SI-7",
+          "lyric": "lodiamo e"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "ti adoriamo,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Cristo Signor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ti lodiamo e ti adoriamo, Cristo Signor."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Ti seguiamo"
+        },
+        {
+          "chord": "RE",
+          "lyric": "nel cammino,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "ti seguiamo"
+        },
+        {
+          "chord": "RE",
+          "lyric": "nel cammino,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ti seguiamo nel cammino, ti seguiamo nel cammino,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO7+ MI-",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "ti"
+        },
+        {
+          "chord": "RE",
+          "lyric": "seguiamo nel"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "cammino,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Cristo Signor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "ti seguiamo nel cammino, Cristo Signor."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Ti doniam"
+        },
+        {
+          "chord": "RE",
+          "lyric": "la nostra vita,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "ti doniam"
+        },
+        {
+          "chord": "RE",
+          "lyric": "la nostra vita,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ti doniam la nostra vita, ti doniam la nostra vita,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO7+ MI-",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "ti"
+        },
+        {
+          "chord": "RE",
+          "lyric": "doniam la"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "nostra vita,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Cristo Signor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "ti doniam la nostra vita, Cristo Signor."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Diamo a te"
+        },
+        {
+          "chord": "RE",
+          "lyric": "tutta la gloria,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "diamo a te"
+        },
+        {
+          "chord": "RE",
+          "lyric": "tutta la gloria,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Diamo a te tutta la gloria, diamo a te tutta la gloria,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO7+ MI-",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "diamo a"
+        },
+        {
+          "chord": "RE",
+          "lyric": "te tutta"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "la gloria,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Cristo Signor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "diamo a te tutta la gloria, Cristo Signor."
+    }
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "id": "con-te-camminero",
+  "title": "Con te camminerò",
+  "sub": "Gen Verde",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "LA",
+    "mode": "minore"
+  },
+  "search": "Con te camminerò Gen Verde Intro Strofa 1 Mi hai chiamato ed ora sono qui. La mia vita ormai, Signore, trova senso solo in te. Cerco nel profondo e tu ci sei. Guardo intorno e poi ti trovo accanto a me. Ritornello Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò. Ti seguirò ovunque andrai, io con te camminerò. Strofa 2 Come servo sei venuto qui per chi è solo e chi è ferito, per chi vive in povertà. Ora, oh Signore, manda me, segno del tuo amore per l’umanità. Ritornello Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò. Ti seguirò ovunque andrai, io con te camminerò. Bridge Tu sei qui, sei con noi, sempre accanto a noi. Nel dolore di chi non ha più una casa, tu sei lì. Nel silenzio di chi ha perso ogni speranza, tu sei lì. Nei rimpianti, nei miei dubbi e nel buio delle mie fragilità, tu sei lì. Finale And I will walk on holy ground, I’ll hear your voice, I’ll see your face. I will find you in the crowd. Lord, I will go where you will lead me. I will walk on holy ground. Et avec toi, j’irai Seigneur, j’entends ta voix et je te vois. Dans les pauvres autour de moi, je te suivrai où tu me conduis. Je te vois auprès de moi. You are near, you are here. Io con te camminerò.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| LA-7 SOL/SI DO | LA- FA7+ SOL4 SOL |"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL/SI DO",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Mi hai"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "chiamato ed"
+        },
+        {
+          "chord": "DO",
+          "lyric": "ora sono qui."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Mi hai chiamato ed ora sono qui."
+    },
+    {
+      "t": "c",
+      "v": "LA-7 FA SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-7",
+          "lyric": "La mia"
+        },
+        {
+          "chord": "FA",
+          "lyric": "vita ormai, Signore,"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "trova senso"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "solo in te."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La mia vita ormai, Signore, trova senso solo in te."
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL/SI DO",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Cerco nel"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "profondo e"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tu ci sei."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Cerco nel profondo e tu ci sei."
+    },
+    {
+      "t": "c",
+      "v": "LA-7 FA SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-7",
+          "lyric": "Guardo intorno"
+        },
+        {
+          "chord": "FA",
+          "lyric": "e poi"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "ti trovo"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "accanto a me."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Guardo intorno e poi ti trovo accanto a me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL4 SOL LA-7 FA DO/SOL SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Insieme"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "a te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "camminerò, in"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "ogni volto,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "in ogni"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "pianto io"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ti riconoscerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò."
+    },
+    {
+      "t": "c",
+      "v": "FA SOL LA- FA DO/SOL SOL LA- SOL/SI DO",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": " "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Ti"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "seguirò"
+        },
+        {
+          "chord": "FA",
+          "lyric": "ovunque"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "andrai,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "io"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "con"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "te"
+        },
+        {
+          "chord": "DO",
+          "lyric": "camminerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ti seguirò ovunque andrai, io con te camminerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL/SI DO LA-7 FA",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Come servo"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "sei venuto qui"
+        },
+        {
+          "chord": "DO",
+          "lyric": "per chi"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "è solo e"
+        },
+        {
+          "chord": "FA",
+          "lyric": "chi è ferito,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Come servo sei venuto qui per chi è solo e chi è ferito,"
+    },
+    {
+      "t": "c",
+      "v": "SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "SOL4",
+          "lyric": "per chi"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "vive in povertà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "per chi vive in povertà."
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL/SI DO LA-7 FA SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Ora,"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "oh Signore,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "manda"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "me, segno"
+        },
+        {
+          "chord": "FA",
+          "lyric": "del"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "tuo amore"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "per l’umanità."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ora, oh Signore, manda me, segno del tuo amore per l’umanità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL4 SOL LA-7 FA DO/SOL SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Insieme"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "a te"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "camminerò, in"
+        },
+        {
+          "chord": "LA-7",
+          "lyric": "ogni volto,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "in ogni"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "pianto io"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ti riconoscerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò."
+    },
+    {
+      "t": "c",
+      "v": "FA SOL LA- FA DO/SOL SOL LA- SOL/SI DO",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": " "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Ti"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "seguirò"
+        },
+        {
+          "chord": "FA",
+          "lyric": "ovunque"
+        },
+        {
+          "chord": "DO/SOL",
+          "lyric": "andrai,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "io"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "con"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": "te"
+        },
+        {
+          "chord": "DO",
+          "lyric": "camminerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ti seguirò ovunque andrai, io con te camminerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Bridge"
+    },
+    {
+      "t": "c",
+      "v": "LA-7 FA SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-7",
+          "lyric": "Tu sei"
+        },
+        {
+          "chord": "FA",
+          "lyric": "qui, sei con"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "noi, sempre"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "accanto a noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Tu sei qui, sei con noi, sempre accanto a noi."
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Nel dolore di"
+        },
+        {
+          "chord": "FA",
+          "lyric": "chi non ha"
+        },
+        {
+          "chord": "DO",
+          "lyric": "più una casa,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tu sei lì."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Nel dolore di chi non ha più una casa, tu sei lì."
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Nel silenzio"
+        },
+        {
+          "chord": "FA",
+          "lyric": "di chi ha"
+        },
+        {
+          "chord": "DO",
+          "lyric": "perso ogni speranza,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tu sei lì."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Nel silenzio di chi ha perso ogni speranza, tu sei lì."
+    },
+    {
+      "t": "c",
+      "v": "FA SOL LA- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Nei rimpianti,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "nei miei dubbi"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "e nel buio"
+        },
+        {
+          "chord": "FA",
+          "lyric": "delle mie fragilità,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tu sei lì."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Nei rimpianti, nei miei dubbi e nel buio delle mie fragilità, tu sei lì."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "RE LA4 LA SI-7 SOL",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "And I will"
+        },
+        {
+          "chord": "LA4",
+          "lyric": "walk on holy"
+        },
+        {
+          "chord": "LA",
+          "lyric": "ground, I’ll hear"
+        },
+        {
+          "chord": "SI-7",
+          "lyric": "your voice, I’ll"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "see your face."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "And I will walk on holy ground, I’ll hear your voice, I’ll see your face."
+    },
+    {
+      "t": "c",
+      "v": "RE/LA LA SOL LA SI- SOL",
+      "flowSegments": [
+        {
+          "chord": "RE/LA",
+          "lyric": "I will"
+        },
+        {
+          "chord": "LA",
+          "lyric": "find you in"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "the crowd. Lord,"
+        },
+        {
+          "chord": "LA",
+          "lyric": "I will"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "go where you"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "will lead me."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "I will find you in the crowd. Lord, I will go where you will lead me."
+    },
+    {
+      "t": "c",
+      "v": "RE/LA LA SOL",
+      "flowSegments": [
+        {
+          "chord": "RE/LA",
+          "lyric": "I will"
+        },
+        {
+          "chord": "LA",
+          "lyric": "walk on"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "holy ground."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "I will walk on holy ground."
+    },
+    {
+      "t": "c",
+      "v": "LA RE SOL/RE LA4 LA SI-7 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA",
+          "lyric": "Et"
+        },
+        {
+          "chord": "RE",
+          "lyric": "avec toi,"
+        },
+        {
+          "chord": "SOL/RE",
+          "lyric": "j’irai Seigneur,"
+        },
+        {
+          "chord": "LA4",
+          "lyric": "j’entends"
+        },
+        {
+          "chord": "LA",
+          "lyric": "ta voix"
+        },
+        {
+          "chord": "SI-7",
+          "lyric": "et je"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "te vois."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Et avec toi, j’irai Seigneur, j’entends ta voix et je te vois."
+    },
+    {
+      "t": "c",
+      "v": "RE/LA LA SOL LA SI-7 SOL",
+      "flowSegments": [
+        {
+          "chord": "RE/LA",
+          "lyric": "Dans les"
+        },
+        {
+          "chord": "LA",
+          "lyric": "pauvres autour"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "de moi,"
+        },
+        {
+          "chord": "LA",
+          "lyric": "je te"
+        },
+        {
+          "chord": "SI-7",
+          "lyric": "suivrai où"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tu me conduis."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Dans les pauvres autour de moi, je te suivrai où tu me conduis."
+    },
+    {
+      "t": "c",
+      "v": "RE/LA LA SI- LA/DO# RE SOL LA RE",
+      "flowSegments": [
+        {
+          "chord": "RE/LA",
+          "lyric": "Je te"
+        },
+        {
+          "chord": "LA",
+          "lyric": "vois auprès"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "de moi."
+        },
+        {
+          "chord": "LA/DO#",
+          "lyric": "You are"
+        },
+        {
+          "chord": "RE",
+          "lyric": "near, you"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "are here."
+        },
+        {
+          "chord": "LA",
+          "lyric": "Io con"
+        },
+        {
+          "chord": "RE",
+          "lyric": "te camminerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Je te vois auprès de moi. You are near, you are here. Io con te camminerò."
+    }
+  ]
+}

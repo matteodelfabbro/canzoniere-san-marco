@@ -1,0 +1,509 @@
+{
+  "title": "Pane di vita",
+  "sub": "Marranzino, Pesare",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "SOL",
+    "mode": "maggiore"
+  },
+  "search": "Pane di vita Marranzino, Pesare Intro Strofa 1 Pane di vita sei, spezzato per tutti noi, chi ne mangia per sempre in te vivrà. Veniamo al tuo santo altare, mensa del tuo amore. Come pane vieni in mezzo a noi. Ritornello Il tuo corpo ci sazierà Il tuo sangue ci salverà perché Signor tu sei morto per amore e ti offri oggi per noi. (x2) ( II volta e ti offri oggi per noi. ) Intro Strofa 2 Fonte di vita sei, immensa carità, il tuo sangue ci dona l'eternità. Veniamo al tuo santo altare, mensa del tuo amore. Come vino vieni in mezzo a noi. Ritornello 2 Il tuo corpo ci sazierà Il tuo sangue ci salverà perché Signor tu sei morto per amore e ti offri oggi per noi. (x2) ( II volta e ti offri oggi per noi.)",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO/MI RE/FA# DO7+ DO6 DO/MI RE/FA# DO7+"
+    },
+    {
+      "t": "c",
+      "v": "DO/MI RE/FA# SOL7+ DO7+ LA-7 LA-/RE SOL4 SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Pane di vita sei,"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "spezzato per tutti noi,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE SOL7+ DO7+ RE4 RE LA-/RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "SOL7+"
+        },
+        {
+          "word": 5,
+          "chord": "DO7+"
+        },
+        {
+          "word": 7,
+          "chord": "RE4"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "LA-/RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "chi ne mangia per sempre in te vivrà."
+    },
+    {
+      "t": "l",
+      "v": "Veniamo al tuo santo altare,"
+    },
+    {
+      "t": "l",
+      "v": "mensa del tuo amore."
+    },
+    {
+      "t": "l",
+      "v": "Come pane vieni in mezzo a noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+ LA-7/RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        },
+        {
+          "word": 4,
+          "chord": "LA-7/RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Il tuo corpo ci sazierà"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Il tuo sangue ci salverà"
+    },
+    {
+      "t": "c",
+      "v": "LA7/DO# SOL/RE SI/RE# MI-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA7/DO#"
+        },
+        {
+          "word": 1,
+          "chord": "SOL/RE"
+        },
+        {
+          "word": 3,
+          "chord": "SI/RE#"
+        },
+        {
+          "word": 6,
+          "chord": "MI-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché Signor tu sei morto per amore"
+    },
+    {
+      "t": "c",
+      "v": "LA7 LA-7 RE DO RE LA-7/RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "LA-7"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "LA-7/RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e ti offri oggi per noi. (x2)"
+    },
+    {
+      "t": "c",
+      "v": "LA7 LA-7/RE RE7 DO/MI RE/FA#",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "LA7"
+        },
+        {
+          "word": 5,
+          "chord": "LA-7/RE"
+        },
+        {
+          "word": 6,
+          "chord": "RE7"
+        },
+        {
+          "word": 7,
+          "chord": "DO/MI"
+        },
+        {
+          "word": 8,
+          "chord": "RE/FA#"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "( II volta e ti offri oggi per noi. )"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "SOL7+ DO7+ LA-7 LA-/RE SOL4 SOL"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Fonte di vita sei,"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "immensa carità,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE SOL7+ DO7+ RE4 RE LA-/RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "SOL7+"
+        },
+        {
+          "word": 5,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "LA-/RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il tuo sangue ci dona l'eternità."
+    },
+    {
+      "t": "l",
+      "v": "Veniamo al tuo santo altare,"
+    },
+    {
+      "t": "l",
+      "v": "mensa del tuo amore."
+    },
+    {
+      "t": "l",
+      "v": "Come vino vieni in mezzo a noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+ LA-7/RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        },
+        {
+          "word": 4,
+          "chord": "LA-7/RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Il tuo corpo ci sazierà"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO7+",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Il tuo sangue ci salverà"
+    },
+    {
+      "t": "c",
+      "v": "LA7/DO# SOL/RE SI/RE# MI-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA7/DO#"
+        },
+        {
+          "word": 1,
+          "chord": "SOL/RE"
+        },
+        {
+          "word": 3,
+          "chord": "SI/RE#"
+        },
+        {
+          "word": 6,
+          "chord": "MI-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché Signor tu sei morto per amore"
+    },
+    {
+      "t": "c",
+      "v": "LA7 LA-7 RE DO RE LA-7/RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "LA-7"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "LA-7/RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e ti offri oggi per noi. (x2)"
+    },
+    {
+      "t": "c",
+      "v": "LA7 LA-7/RE SOL4 SOL",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "LA7"
+        },
+        {
+          "word": 5,
+          "chord": "LA-7/RE"
+        },
+        {
+          "word": 7,
+          "chord": "SOL4"
+        },
+        {
+          "word": 8,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "( II volta e ti offri oggi per noi.)"
+    }
+  ],
+  "id": "pane-di-vita"
+}

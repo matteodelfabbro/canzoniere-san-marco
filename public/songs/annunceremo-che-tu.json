@@ -1,0 +1,413 @@
+{
+  "title": "Annunceremo che Tu",
+  "sub": "Auricchio",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "SOL",
+    "mode": "maggiore"
+  },
+  "search": "Annunceremo che Tu Auricchio Ritornello Annunceremo che Tu sei Verità, lo grideremo dai tetti della nostra città, senza paura anche tu lo puoi cantare. Strofa 1 E non temere dai, che non ci vuole poi tanto, quello che non si sa non resterà nascosto. Se ti parlo nel buio, lo dirai nella luce, ogni giorno è il momento di credere in me. Strofa 2 Con il coraggio tu porterai la Parola che salva, anche se ci sarà chi non vuole accogliere il dono, tu non devi fermarti, ma continua a lottare, il mio Spirito sempre ti accompagnerà. Strofa 3 Non ti abbandono mai, io sono il Dio fedele, conosco il cuore tuo. Ogni tuo pensiero mi è noto, la tua vita è preziosa, vale più di ogni cosa, il segno più grande del mio amore per te.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE7 SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE7"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Annunceremo che Tu sei Verità,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "lo grideremo dai tetti della nostra città,"
+    },
+    {
+      "t": "c",
+      "v": "LA- DO RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "senza paura anche tu lo puoi cantare."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "E non temere dai,"
+    },
+    {
+      "t": "c",
+      "v": "RE DO SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che non ci vuole poi tanto,"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "quello che non si sa"
+    },
+    {
+      "t": "c",
+      "v": "RE DO SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "non resterà nascosto."
+    },
+    {
+      "t": "c",
+      "v": "DO RE",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Se ti parlo nel buio, lo dirai nella luce,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ogni giorno è il momento di credere in me."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Con il coraggio tu porterai la Parola che salva,"
+    },
+    {
+      "t": "c",
+      "v": "RE DO SOL",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "anche se ci sarà chi non vuole accogliere il dono,"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu non devi fermarti, ma continua a lottare,"
+    },
+    {
+      "t": "c",
+      "v": "RE DO",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il mio Spirito sempre ti accompagnerà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Non ti abbandono mai, io sono il Dio fedele,"
+    },
+    {
+      "t": "c",
+      "v": "RE DO",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "conosco il cuore tuo."
+    },
+    {
+      "t": "c",
+      "v": "DO SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Ogni tuo pensiero mi è noto,"
+    },
+    {
+      "t": "c",
+      "v": "RE DO",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 8,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la tua vita è preziosa, vale più di ogni cosa,"
+    },
+    {
+      "t": "c",
+      "v": "DO RE",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il segno più grande del mio amore per te."
+    }
+  ],
+  "id": "annunceremo-che-tu"
+}

@@ -1,0 +1,592 @@
+{
+  "title": "Benedetto Tu, Signore",
+  "sub": "Ricci",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Benedetto Tu, Signore Ricci Intro Ritornello Benedetto tu, Signore, benedetto tu nei secoli benedetto tu, Signore. Strofa 1 Prendi da queste mani il pane che offriamo a te, fanne cibo che porterà la vita tua. Ritornello 2 Benedetto tu, Signore, benedetto tu nei secoli benedetto tu, Signore. Strofa 2 Prendi da queste mani il vino che offriamo a te, fanne linfa che porterà l'eternità. Strofa 3 Queste nostre offerte, accoglile, Signore, e saranno offerte pure. Questo nostro mondo accogli, o Signore, e saranno cieli e terre che tu farai, nuovi. Ritornello 3 Benedetto tu, Signore, benedetto tu nei secoli benedetto tu, Signore. Strofa 4 Prendi da queste mani il cuore che offriamo a te, fanne dono che porterà la vita tua.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| LA- SOL | FA |"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Benedetto tu, Signore,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "benedetto tu nei secoli"
+    },
+    {
+      "t": "c",
+      "v": "FA DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "benedetto tu, Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Prendi da queste mani il pane"
+    },
+    {
+      "t": "c",
+      "v": "DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che offriamo a te,"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL FA SOL4 SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "FA"
+        },
+        {
+          "word": 6,
+          "chord": "SOL4"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "fanne cibo che porterà la vita tua."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Benedetto tu, Signore,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "benedetto tu nei secoli"
+    },
+    {
+      "t": "c",
+      "v": "FA DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "benedetto tu, Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Prendi da queste mani il vino"
+    },
+    {
+      "t": "c",
+      "v": "DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che offriamo a te,"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL FA FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "fanne linfa che porterà l'eternità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "FA DO DO FA SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Queste nostre offerte, accoglile, Signore,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO FA SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e saranno offerte pure."
+    },
+    {
+      "t": "c",
+      "v": "FA DO DO FA SOL",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "FA"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Questo nostro mondo accogli, o Signore,"
+    },
+    {
+      "t": "c",
+      "v": "SOL FA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e saranno cieli e terre"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che tu farai, nuovi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 3"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Benedetto tu, Signore,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "benedetto tu nei secoli"
+    },
+    {
+      "t": "c",
+      "v": "FA DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "benedetto tu, Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Prendi da queste mani il cuore"
+    },
+    {
+      "t": "c",
+      "v": "DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che offriamo a te,"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "FA"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "fanne dono che porterà la vita tua."
+    },
+    {
+      "t": "c",
+      "v": "DO FA DO FA DO FA DO"
+    }
+  ],
+  "id": "benedetto-tu-signore-ricci"
+}

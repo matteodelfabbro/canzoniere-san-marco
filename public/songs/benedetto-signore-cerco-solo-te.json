@@ -1,0 +1,292 @@
+{
+  "title": "Benedetto Signore, Cerco Solo Te",
+  "sub": "Montuori",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "MI",
+    "mode": "maggiore"
+  },
+  "search": "Benedetto Signore, Cerco Solo Te Montuori Ritornello Cerco solo te, Signor, mio liberatore sei, fonte dell'amore, tu, riempi la mia vita. Cerco solo te, Signor, mio liberatore sei, fonte dell'amore, tu, riempi la mia vita. Strofa 1 Volgi il tuo sguardo su di me, Dio di immensa bontà e rendi forte la mia fede; più non vacillerò. Crea un cuore puro in me, rinnova il mio spirito, la mia bocca proclami la tua lode.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA7+ SI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA7+"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Cerco solo te, Signor,"
+    },
+    {
+      "t": "c",
+      "v": "SOL#-7 DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 1,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "mio liberatore sei,"
+    },
+    {
+      "t": "c",
+      "v": "LA7+ SI LA7+",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA7+"
+        },
+        {
+          "word": 1,
+          "chord": "SI"
+        },
+        {
+          "word": 5,
+          "chord": "LA7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "fonte dell'amore, tu, riempi la mia vita."
+    },
+    {
+      "t": "c",
+      "v": "SOL#-7 FA#-7 SI7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 1,
+          "chord": "FA#-7"
+        },
+        {
+          "word": 3,
+          "chord": "SI7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Cerco solo te, Signor,"
+    },
+    {
+      "t": "c",
+      "v": "SOL#-7 DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 1,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "mio liberatore sei,"
+    },
+    {
+      "t": "c",
+      "v": "LA7+ SI DO#-7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA7+"
+        },
+        {
+          "word": 1,
+          "chord": "SI"
+        },
+        {
+          "word": 5,
+          "chord": "DO#-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "fonte dell'amore, tu, riempi la mia vita."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA7+ SI2/RE#",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA7+"
+        },
+        {
+          "word": 5,
+          "chord": "SI2/RE#"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Volgi il tuo sguardo su di me,"
+    },
+    {
+      "t": "c",
+      "v": "SOL#-7 RE/MI",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 3,
+          "chord": "RE/MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Dio di immensa bontà"
+    },
+    {
+      "t": "c",
+      "v": "LA7+ SI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA7+"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e rendi forte la mia fede;"
+    },
+    {
+      "t": "c",
+      "v": "MI7+ FA#-7",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "MI7+"
+        },
+        {
+          "word": 2,
+          "chord": "FA#-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "più non vacillerò."
+    },
+    {
+      "t": "c",
+      "v": "SOL#-7 LA7+ SI/LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 1,
+          "chord": "LA7+"
+        },
+        {
+          "word": 4,
+          "chord": "SI/LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Crea un cuore puro in me,"
+    },
+    {
+      "t": "c",
+      "v": "SOL#7/DO DO#-7 SI6",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL#7/DO"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-7"
+        },
+        {
+          "word": 3,
+          "chord": "SI6"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "rinnova il mio spirito,"
+    },
+    {
+      "t": "c",
+      "v": "LA-6/DO LA6/SI",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "LA-6/DO"
+        },
+        {
+          "word": 5,
+          "chord": "LA6/SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la mia bocca proclami la tua lode."
+    }
+  ],
+  "id": "benedetto-signore-cerco-solo-te"
+}

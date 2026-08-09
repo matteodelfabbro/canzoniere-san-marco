@@ -1,0 +1,312 @@
+{
+  "title": "Questa è la mia fede",
+  "sub": "Branca",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "MI",
+    "mode": "maggiore"
+  },
+  "search": "Questa è la mia fede Branca Ritornello Questa è la mia fede, proclamarti mio re, unico Dio, grande Signore. Questa è la speranza so che risorgerò e in Te dimorerò. (x2) Strofa 1 Canterò la gioia di esser figlio, canterò che Tu non abbandoni, non tradisci mai. Dammi sempre la tua grazia e in Te dimorerò per adorarti, per servirti in verità, mio re. Strofa 2 Canterò che solo Tu sei vita e verità, che sei salvezza, che sei vera libertà. Io porrò la mia fiducia in te che sei la via, camminerò nella Tua santa volontà, mio re.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI SOL#- LA MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "SOL#-"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 6,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Questa è la mia fede, proclamarti mio re,"
+    },
+    {
+      "t": "c",
+      "v": "DO#- MI LA7 SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO#-"
+        },
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "unico Dio, grande Signore."
+    },
+    {
+      "t": "c",
+      "v": "MI SOL#- LA SOL#",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "SOL#-"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 6,
+          "chord": "SOL#"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Questa è la speranza so che risorgerò"
+    },
+    {
+      "t": "c",
+      "v": "LA SI MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e in Te dimorerò. (x2)"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "MI- DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Canterò la gioia di esser figlio, canterò"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO RE",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che Tu non abbandoni, non tradisci mai."
+    },
+    {
+      "t": "c",
+      "v": "MI- DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Dammi sempre la tua grazia e in Te dimorerò"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO RE SI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "per adorarti, per servirti in verità, mio re."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "MI- DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Canterò che solo Tu sei vita e verità,"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO RE",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che sei salvezza, che sei vera libertà."
+    },
+    {
+      "t": "c",
+      "v": "MI- DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Io porrò la mia fiducia in te che sei la via,"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO RE SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "camminerò nella Tua santa volontà, mio re."
+    }
+  ],
+  "id": "questa-e-la-mia-fede"
+}

@@ -1,0 +1,531 @@
+{
+  "id": "il-tuo-amore-annuncero",
+  "title": "Il tuo amore annuncerò",
+  "sub": "Capo 3",
+  "capo": 3,
+  "compactRepeats": true,
+  "key": {
+    "note": "SOL",
+    "mode": "maggiore"
+  },
+  "search": "Il tuo amore annuncerò Capo 3 Intro Strofa 1 Ogni vento, ogni colore che l’arcobaleno ha, ogni sogno dentro me al vero amore mi riporterà. Le parole di ogni storia, ogni stella di lassù, ogni angolo creato parlerà di te. Ritornello Fino a quando vita avrò il tuo amore annuncerò. Sarò fedele nel silenzio se parlare non potrò. Finché respiro avrò di cuore Dio ringrazierò. Fino a quando vita avrò il tuo amore annuncerò. Strofa 2 Dai monti alle valli, ogni fiume al mare va; ogni mano che si dà porta pace in dono a chi non ne ha. Ogni semplice preghiera, ogni gesto di bontà, la speranza in ogni cuore parlerà di te. Ritornello Fino a quando vita avrò il tuo amore annuncerò. Sarò fedele nel silenzio se parlare non potrò. Finché respiro avrò di cuore Dio ringrazierò. Fino a quando vita avrò il tuo amore annuncerò. Finale · +1 tono L’amore… Fino a quando vita avrò annuncerò il tuo amor… Fino a quando vita avrò il tuo amore annuncerò. Sarò fedele nel silenzio se parlare non potrò. Finché respiro avrò di cuore Dio ringrazierò. Fino a quando vita avrò il tuo amore annuncerò.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| SOL | RE | MI- | DO |"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI- DO SOL RE MI- DO",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Ogni vento,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ogni colore"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "che l’arcobaleno"
+        },
+        {
+          "chord": "DO",
+          "lyric": "ha, ogni"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "sogno dentro"
+        },
+        {
+          "chord": "RE",
+          "lyric": "me al"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "vero amore"
+        },
+        {
+          "chord": "DO",
+          "lyric": "mi riporterà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ogni vento, ogni colore che l’arcobaleno ha, ogni sogno dentro me al vero amore mi riporterà."
+    },
+    {
+      "t": "c",
+      "v": "DO RE MI- RE DO DO SOL DO RE SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Le"
+        },
+        {
+          "chord": "RE",
+          "lyric": "parole"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "di ogni"
+        },
+        {
+          "chord": "RE",
+          "lyric": "storia,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "ogni"
+        },
+        {
+          "chord": "DO",
+          "lyric": "stella di"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "lassù,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "ogni"
+        },
+        {
+          "chord": "RE",
+          "lyric": "angolo creato"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "parlerà"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "di te."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Le parole di ogni storia, ogni stella di lassù, ogni angolo creato parlerà di te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI-",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Fino a quando"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vita avrò il"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "tuo amore annuncerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fino a quando vita avrò il tuo amore annuncerò."
+    },
+    {
+      "t": "c",
+      "v": "DO RE SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Sarò fedele"
+        },
+        {
+          "chord": "RE",
+          "lyric": "nel silenzio se"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "parlare non potrò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Sarò fedele nel silenzio se parlare non potrò."
+    },
+    {
+      "t": "c",
+      "v": "RE MI-",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Finché respiro avrò"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "di cuore Dio ringrazierò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Finché respiro avrò di cuore Dio ringrazierò."
+    },
+    {
+      "t": "c",
+      "v": "DO RE SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Fino a quando"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vita avrò il"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tuo amore annuncerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fino a quando vita avrò il tuo amore annuncerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI- DO SOL RE MI- DO",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Dai monti"
+        },
+        {
+          "chord": "RE",
+          "lyric": "alle valli, ogni"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "fiume al mare"
+        },
+        {
+          "chord": "DO",
+          "lyric": "va; ogni mano"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "che si dà"
+        },
+        {
+          "chord": "RE",
+          "lyric": "porta pace in"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "dono a chi"
+        },
+        {
+          "chord": "DO",
+          "lyric": "non ne ha."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Dai monti alle valli, ogni fiume al mare va; ogni mano che si dà porta pace in dono a chi non ne ha."
+    },
+    {
+      "t": "c",
+      "v": "DO RE MI- RE DO DO SOL DO RE SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Ogni"
+        },
+        {
+          "chord": "RE",
+          "lyric": "semplice"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "preghiera, ogni"
+        },
+        {
+          "chord": "RE",
+          "lyric": "gesto"
+        },
+        {
+          "chord": "DO",
+          "lyric": "di"
+        },
+        {
+          "chord": "DO",
+          "lyric": "bontà, la"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "speranza"
+        },
+        {
+          "chord": "DO",
+          "lyric": "in"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ogni cuore"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "parlerà"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "di te."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ogni semplice preghiera, ogni gesto di bontà, la speranza in ogni cuore parlerà di te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI-",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Fino a quando"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vita avrò il"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "tuo amore annuncerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fino a quando vita avrò il tuo amore annuncerò."
+    },
+    {
+      "t": "c",
+      "v": "DO RE SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Sarò fedele"
+        },
+        {
+          "chord": "RE",
+          "lyric": "nel silenzio se"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "parlare non potrò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Sarò fedele nel silenzio se parlare non potrò."
+    },
+    {
+      "t": "c",
+      "v": "RE MI-",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Finché respiro avrò"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "di cuore Dio ringrazierò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Finché respiro avrò di cuore Dio ringrazierò."
+    },
+    {
+      "t": "c",
+      "v": "DO RE SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Fino a quando"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vita avrò il"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tuo amore annuncerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fino a quando vita avrò il tuo amore annuncerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale · +1 tono"
+    },
+    {
+      "t": "c",
+      "v": "SIb DO RE MI- DO",
+      "flowSegments": [
+        {
+          "chord": "SIb",
+          "lyric": "L’amore… Fino"
+        },
+        {
+          "chord": "DO",
+          "lyric": "a quando"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vita avrò"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "annuncerò il"
+        },
+        {
+          "chord": "DO",
+          "lyric": "tuo amor…"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "L’amore… Fino a quando vita avrò annuncerò il tuo amor…"
+    },
+    {
+      "t": "c",
+      "v": "LA MI FA#-",
+      "flowSegments": [
+        {
+          "chord": "LA",
+          "lyric": "Fino a quando"
+        },
+        {
+          "chord": "MI",
+          "lyric": "vita avrò il"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "tuo amore annuncerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fino a quando vita avrò il tuo amore annuncerò."
+    },
+    {
+      "t": "c",
+      "v": "RE MI LA",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Sarò fedele"
+        },
+        {
+          "chord": "MI",
+          "lyric": "nel silenzio se"
+        },
+        {
+          "chord": "LA",
+          "lyric": "parlare non potrò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Sarò fedele nel silenzio se parlare non potrò."
+    },
+    {
+      "t": "c",
+      "v": "MI FA#-",
+      "flowSegments": [
+        {
+          "chord": "MI",
+          "lyric": "Finché respiro avrò"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "di cuore Dio ringrazierò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Finché respiro avrò di cuore Dio ringrazierò."
+    },
+    {
+      "t": "c",
+      "v": "RE MI LA",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Fino a quando"
+        },
+        {
+          "chord": "MI",
+          "lyric": "vita avrò il"
+        },
+        {
+          "chord": "LA",
+          "lyric": "tuo amore annuncerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fino a quando vita avrò il tuo amore annuncerò."
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "title": "Noi veniamo a Te",
+  "sub": "Buttazzo",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "FA",
+    "mode": "maggiore"
+  },
+  "search": "Noi veniamo a Te Buttazzo Intro Ritornello Noi veniamo a te, ti seguiamo Signor, solo Tu hai parole di vita e rinascerà dall'incontro con Te una nuova umanità. Strofa 1 Tu, maestro degli uomini, tu ci chiami all'ascolto e rinnovi con noi l'alleanza d'amore infinito. Strofa 2 Tu, speranza degli uomini, ti ci apri alla vita e rinnovi per noi la promessa del mondo futuro. Strofa 3 Tu, amico degli uomini, tu ci chiami fratelli e rivivi con noi l'avventura di un nuovo cammino. Intro",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "FA DO/MI RE- SIb FA/LA SIb SIb/DO SOL-7/DO"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO RE- SIb",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 5,
+          "chord": "RE-"
+        },
+        {
+          "word": 6,
+          "chord": "SIb"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Noi veniamo a te, ti seguiamo Signor,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL- SIb SOL-/DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        },
+        {
+          "word": 4,
+          "chord": "SIb"
+        },
+        {
+          "word": 5,
+          "chord": "SOL-/DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "solo Tu hai parole di vita"
+    },
+    {
+      "t": "c",
+      "v": "FA DO/MI RE- SIb",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA"
+        },
+        {
+          "word": 1,
+          "chord": "DO/MI"
+        },
+        {
+          "word": 2,
+          "chord": "RE-"
+        },
+        {
+          "word": 3,
+          "chord": "SIb"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e rinascerà dall'incontro con Te"
+    },
+    {
+      "t": "c",
+      "v": "FA SIb FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "SIb"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "una nuova umanità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL- DO FA RE-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL-"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "RE-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tu, maestro degli uomini,"
+    },
+    {
+      "t": "c",
+      "v": "SOL- DO FA MIb FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL-"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "MIb"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu ci chiami all'ascolto"
+    },
+    {
+      "t": "c",
+      "v": "SIb LA7 RE-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SIb"
+        },
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "RE-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e rinnovi con noi"
+    },
+    {
+      "t": "c",
+      "v": "SOL7 SOL-7 SOL-7/DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-7/DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "l'alleanza d'amore infinito."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL- DO FA RE-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL-"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "RE-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tu, speranza degli uomini,"
+    },
+    {
+      "t": "c",
+      "v": "SOL- DO FA MIb FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL-"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "MIb"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ti ci apri alla vita"
+    },
+    {
+      "t": "c",
+      "v": "SIb LA7 RE-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SIb"
+        },
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "RE-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e rinnovi per noi"
+    },
+    {
+      "t": "c",
+      "v": "SOL7 SOL-7 SOL-7/DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-7/DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la promessa del mondo futuro."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "SOL- DO FA RE-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL-"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "RE-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tu, amico degli uomini,"
+    },
+    {
+      "t": "c",
+      "v": "SOL- DO FA MIb FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL-"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "MIb"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu ci chiami fratelli"
+    },
+    {
+      "t": "c",
+      "v": "SIb LA7 RE-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SIb"
+        },
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "RE-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e rivivi con noi"
+    },
+    {
+      "t": "c",
+      "v": "SOL7 SOL-7 SOL-7/DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-7/DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "l'avventura di un nuovo cammino."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "FA DO/MI RE- SOL- FA"
+    }
+  ],
+  "id": "noi-veniamo-a-te"
+}

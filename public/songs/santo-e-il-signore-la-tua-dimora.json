@@ -26,7 +26,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -38,7 +51,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -50,7 +76,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -62,7 +101,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":3,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -78,7 +130,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -94,7 +159,34 @@
     {
       "t": "c",
       "v": "SOL RE DO RE DO RE",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":3,"chord":"RE"},{"word":5,"chord":"DO"},{"word":6,"chord":"RE"},{"word":7,"chord":"DO"},{"word":7,"chord":"RE","offset":1,"align":"right"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 1,
+          "align": "right"
+        }
+      ]
     },
     {
       "t": "l",
@@ -110,7 +202,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -122,7 +227,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -134,7 +252,20 @@
     {
       "t": "c",
       "v": "SOL RE LA-",
-      "anchors": [{"word":0,"chord":"SOL"},{"word":1,"chord":"RE"},{"word":2,"chord":"LA-"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -150,7 +281,12 @@
     {
       "t": "c",
       "v": "SOL",
-      "anchors": [{"word":0,"chord":"SOL"}]
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        }
+      ]
     },
     {
       "t": "l",

@@ -1,0 +1,68 @@
+{
+  "id": "bonum-est-confidere",
+  "title": "Bonum est confidere",
+  "sub": "Canone di Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "minore"
+  },
+  "search": "Bonum est confidere Canone di Taizé Canone Bonum est confidere in Domino, bonum sperare in Domino.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "RE- LA RE- DO FA SOL- FA SIb DO RE-",
+      "flowSegments": [
+        {
+          "chord": "RE-",
+          "lyric": " "
+        },
+        {
+          "chord": "LA",
+          "lyric": "Bonum"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "est"
+        },
+        {
+          "chord": "DO",
+          "lyric": "confidere"
+        },
+        {
+          "chord": "FA",
+          "lyric": "in"
+        },
+        {
+          "chord": "SOL-",
+          "lyric": "Domino,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "bonum"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "sperare"
+        },
+        {
+          "chord": "DO",
+          "lyric": "in"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "Domino."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Bonum est confidere in Domino, bonum sperare in Domino."
+    }
+  ]
+}

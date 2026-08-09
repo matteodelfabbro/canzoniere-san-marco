@@ -1,0 +1,452 @@
+{
+  "title": "Acclamate al Signore",
+  "sub": "Frisina",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Acclamate al Signore Frisina Ritornello Acclamate al Signore, voi tutti della terra e servitelo con gioia, andate a lui con lieti canti. Acclamate voi tutti al Signore. Strofa 1 Riconoscete che il Signore, che il Signore è Dio, Egli ci ha fatti siamo suoi, suo popolo e gregge del suo pascolo. Strofa 2 Entrate nelle sue porte con degli inni di grazia, i suoi atri nella lode, Benedite, lodate il suo nome. Strofa 3 Poiché buono è il Signore, eterna la sua misericordia, la sua fedeltà si estende sopra ogni generazione.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "DO LA- FA DO LA- RE- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "RE-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Acclamate al Signore, voi tutti della terra"
+    },
+    {
+      "t": "c",
+      "v": "LA- MI- FA DO LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "LA-"
+        },
+        {
+          "word": 5,
+          "chord": "FA"
+        },
+        {
+          "word": 8,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e servitelo con gioia, andate a lui con lieti canti."
+    },
+    {
+      "t": "c",
+      "v": "FA MI- LA- RE- SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "RE-"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Acclamate voi tutti al Signore."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO LA- FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Riconoscete che il Signore,"
+    },
+    {
+      "t": "c",
+      "v": "LA- RE- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "RE-"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che il Signore è Dio,"
+    },
+    {
+      "t": "c",
+      "v": "LA- MI- FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        },
+        {
+          "word": 5,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Egli ci ha fatti siamo suoi,"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "suo popolo e gregge del suo pascolo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO LA- FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Entrate nelle sue porte"
+    },
+    {
+      "t": "c",
+      "v": "LA- RE- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "RE-"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "con degli inni di grazia,"
+    },
+    {
+      "t": "c",
+      "v": "LA- MI- FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "i suoi atri nella lode,"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Benedite, lodate il suo nome."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "DO LA- FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Poiché buono è il Signore,"
+    },
+    {
+      "t": "c",
+      "v": "LA- RE- SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "RE-"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "eterna la sua misericordia,"
+    },
+    {
+      "t": "c",
+      "v": "LA- MI- FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la sua fedeltà si estende"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sopra ogni generazione."
+    }
+  ],
+  "id": "acclamate-al-signore-frisina"
+}

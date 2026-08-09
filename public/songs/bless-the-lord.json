@@ -1,0 +1,90 @@
+{
+  "id": "bless-the-lord",
+  "title": "Bless the Lord",
+  "sub": "Canone di Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "minore"
+  },
+  "search": "Bless the Lord Canone di Taizé Canone Bless the Lord, my soul, and bless God's holy name. Bless the Lord, my soul, who leads me into life.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "RE- SOL RE- SIb DO FA LA7",
+      "flowSegments": [
+        {
+          "chord": "RE-",
+          "lyric": "Bless"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "the"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "Lord, my"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "soul,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "and bless"
+        },
+        {
+          "chord": "FA",
+          "lyric": "God's"
+        },
+        {
+          "chord": "LA7",
+          "lyric": "holy name."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Bless the Lord, my soul, and bless God's holy name."
+    },
+    {
+      "t": "c",
+      "v": "RE- SOL RE- SIb DO RE-",
+      "flowSegments": [
+        {
+          "chord": "RE-",
+          "lyric": "Bless"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "the Lord,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "my soul,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "who"
+        },
+        {
+          "chord": "DO",
+          "lyric": "leads me"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "into life."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Bless the Lord, my soul, who leads me into life."
+    }
+  ]
+}

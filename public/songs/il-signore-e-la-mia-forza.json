@@ -1,0 +1,106 @@
+{
+  "id": "il-signore-e-la-mia-forza",
+  "title": "Il Signore è la mia forza",
+  "sub": "Capo 3",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
+  "search": "Il Signore è la mia forza Capo 3 Canone Il Signore è la mia forza ed io spero in lui. Il Signore è il Salvator. In lui confido, non ho timor, in lui confido, non ho timor.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE LA",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Il Signore"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "è la"
+        },
+        {
+          "chord": "LA",
+          "lyric": "mia forza"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ed io"
+        },
+        {
+          "chord": "LA",
+          "lyric": "spero in lui."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Il Signore è la mia forza ed io spero in lui."
+    },
+    {
+      "t": "c",
+      "v": "SOL FA# SI- LA RE SOL LA FA#- SI- SOL LA RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Il"
+        },
+        {
+          "chord": "FA#",
+          "lyric": "Signore"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "è il"
+        },
+        {
+          "chord": "LA",
+          "lyric": "Salvator."
+        },
+        {
+          "chord": "RE",
+          "lyric": "In lui"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "confido,"
+        },
+        {
+          "chord": "LA",
+          "lyric": "non"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "ho timor,"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "in"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "lui confido,"
+        },
+        {
+          "chord": "LA",
+          "lyric": "non"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ho timor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Il Signore è il Salvator. In lui confido, non ho timor, in lui confido, non ho timor."
+    }
+  ]
+}

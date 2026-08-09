@@ -1,0 +1,438 @@
+{
+  "title": "Amo",
+  "sub": "Fioravanti",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
+  "search": "Amo Fioravanti Ritornello Amo il Signore perché ascolta il grido della mia preghiera. Su di me ha steso la mano nel giorno che lo cercavo. Strofa 1 Ho invocato il nome del Signore ed egli mi ha risposto. Buono e giusto è il nostro Dio: protegge gli umili e gli oppressi. Strofa 2 Anima mia torna alla tua pace: il Signore ti ha ascoltato. Ha liberato i tuoi occhi dalle lacrime e non sono più caduto. Strofa 3 Ho creduto anche quando dicevo: sono troppo infelice. Che cosa posso rendere al Signore per quello che mi ha dato? Strofa 4 Il calice della salvezza innalzerò, invocherò il nome tuo, Signore. Tu lo sai, sono il tuo servo: a te offrirò sacrifici.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Amo il Signore perché ascolta"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il grido della mia preghiera."
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Su di me ha steso la mano"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE LA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nel giorno che lo cercavo."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Ho invocato il nome del Signore"
+    },
+    {
+      "t": "c",
+      "v": "RE7 SOL",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "RE7"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ed egli mi ha risposto."
+    },
+    {
+      "t": "c",
+      "v": "RE FA#",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "FA#"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Buono e giusto è il nostro Dio:"
+    },
+    {
+      "t": "c",
+      "v": "SI- LA",
+      "anchors": [
+        {
+          "word": 5,
+          "chord": "SI-"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "protegge gli umili e gli oppressi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Anima mia torna alla tua pace:"
+    },
+    {
+      "t": "c",
+      "v": "RE7 SOL",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "RE7"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il Signore ti ha ascoltato."
+    },
+    {
+      "t": "c",
+      "v": "RE FA#",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "FA#"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Ha liberato i tuoi occhi dalle lacrime"
+    },
+    {
+      "t": "c",
+      "v": "SI- LA",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "SI-"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e non sono più caduto."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Ho creduto anche quando dicevo:"
+    },
+    {
+      "t": "c",
+      "v": "RE7 SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE7"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sono troppo infelice."
+    },
+    {
+      "t": "c",
+      "v": "RE FA#",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "FA#"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Che cosa posso rendere al Signore"
+    },
+    {
+      "t": "c",
+      "v": "SI- LA",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "SI-"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "per quello che mi ha dato?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Il calice della salvezza innalzerò,"
+    },
+    {
+      "t": "c",
+      "v": "RE7 SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE7"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "invocherò il nome tuo, Signore."
+    },
+    {
+      "t": "c",
+      "v": "RE FA#",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "FA#"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tu lo sai, sono il tuo servo:"
+    },
+    {
+      "t": "c",
+      "v": "SI- LA",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "SI-"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "a te offrirò sacrifici."
+    }
+  ],
+  "id": "amo"
+}

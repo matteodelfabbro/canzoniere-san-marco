@@ -1,0 +1,94 @@
+{
+  "id": "dona-la-pace-canone",
+  "title": "Dona la pace",
+  "sub": "Canone",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "LA",
+    "mode": "minore"
+  },
+  "search": "Dona la pace Canone Canone Dona la pace, Signore, a chi confida in te. Dona, dona la pace, Signore, dona la pace.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA MI LA- FA MI",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Dona"
+        },
+        {
+          "chord": "FA",
+          "lyric": "la pace,"
+        },
+        {
+          "chord": "MI",
+          "lyric": "Signore,"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "a chi"
+        },
+        {
+          "chord": "FA",
+          "lyric": "confida"
+        },
+        {
+          "chord": "MI",
+          "lyric": "in te."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Dona la pace, Signore, a chi confida in te."
+    },
+    {
+      "t": "c",
+      "v": "LA- FA MI LA- RE- LA- MI LA-",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Dona,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "dona"
+        },
+        {
+          "chord": "MI",
+          "lyric": "la"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "pace,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "Signore,"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "dona"
+        },
+        {
+          "chord": "MI",
+          "lyric": "la"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "pace."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Dona, dona la pace, Signore, dona la pace."
+    }
+  ]
+}

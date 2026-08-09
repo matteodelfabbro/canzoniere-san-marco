@@ -1,0 +1,84 @@
+{
+  "id": "in-manus-tuas",
+  "title": "In manus tuas",
+  "sub": "Canone di Taizé",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
+  "search": "In manus tuas Canone di Taizé Canone In manus tuas, Pater, commendo spiritum meum.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Canone"
+    },
+    {
+      "t": "c",
+      "v": "RE FA#- MI- RE MI- FA# SI- MI- FA# SI- RE SOL LA RE",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": " "
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "In"
+        },
+        {
+          "chord": "MI-",
+          "lyric": " "
+        },
+        {
+          "chord": "RE",
+          "lyric": "manus"
+        },
+        {
+          "chord": "MI-",
+          "lyric": " "
+        },
+        {
+          "chord": "FA#",
+          "lyric": "tuas,"
+        },
+        {
+          "chord": "SI-",
+          "lyric": " "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Pater,"
+        },
+        {
+          "chord": "FA#",
+          "lyric": " "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "commendo"
+        },
+        {
+          "chord": "RE",
+          "lyric": " "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "spiritum"
+        },
+        {
+          "chord": "LA",
+          "lyric": " "
+        },
+        {
+          "chord": "RE",
+          "lyric": "meum."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "In manus tuas, Pater, commendo spiritum meum."
+    }
+  ]
+}

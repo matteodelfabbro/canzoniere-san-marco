@@ -513,10 +513,30 @@
       "t": "c",
       "v": "RE FA#- SOL RE",
       "anchors": [
-        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
-        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
-        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 1,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {
@@ -527,11 +547,36 @@
       "t": "c",
       "v": "MI- LA SOL LA RE",
       "anchors": [
-        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
-        { "word": 4, "chord": "SOL", "offset": 0, "align": "left" },
-        { "word": 6, "chord": "LA", "offset": 0, "align": "left" },
-        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "LA",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {
@@ -542,10 +587,30 @@
       "t": "c",
       "v": "RE FA#- SOL RE",
       "anchors": [
-        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
-        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
-        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 1,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {
@@ -556,11 +621,36 @@
       "t": "c",
       "v": "MI- LA SOL LA RE",
       "anchors": [
-        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
-        { "word": 5, "chord": "SOL", "offset": 0, "align": "left" },
-        { "word": 7, "chord": "LA", "offset": 0, "align": "left" },
-        { "word": 8, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "LA",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 8,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {
@@ -743,10 +833,30 @@
       "t": "c",
       "v": "RE FA#- SOL RE",
       "anchors": [
-        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
-        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
-        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 1,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {
@@ -757,11 +867,36 @@
       "t": "c",
       "v": "MI- LA SOL LA RE",
       "anchors": [
-        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
-        { "word": 4, "chord": "SOL", "offset": 0, "align": "left" },
-        { "word": 6, "chord": "LA", "offset": 0, "align": "left" },
-        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "LA",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {
@@ -772,10 +907,30 @@
       "t": "c",
       "v": "RE FA#- SOL RE",
       "anchors": [
-        { "word": 0, "chord": "RE", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "FA#-", "offset": 0, "align": "right" },
-        { "word": 5, "chord": "SOL", "offset": 1, "align": "left" },
-        { "word": 7, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 1,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {
@@ -786,11 +941,36 @@
       "t": "c",
       "v": "MI- LA SOL LA RE",
       "anchors": [
-        { "word": 0, "chord": "MI-", "offset": 0, "align": "left" },
-        { "word": 3, "chord": "LA", "offset": 0, "align": "right" },
-        { "word": 5, "chord": "SOL", "offset": 0, "align": "left" },
-        { "word": 7, "chord": "LA", "offset": 0, "align": "left" },
-        { "word": 8, "chord": "RE", "offset": 0, "align": "left" }
+        {
+          "word": 0,
+          "chord": "MI-",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "LA",
+          "offset": 0,
+          "align": "right"
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0,
+          "align": "left"
+        },
+        {
+          "word": 8,
+          "chord": "RE",
+          "offset": 0,
+          "align": "left"
+        }
       ]
     },
     {

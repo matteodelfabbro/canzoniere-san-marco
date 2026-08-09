@@ -1565,5 +1565,408 @@
     "groups": [
       "Canti per la Messa"
     ]
+  },
+  "acclamate-al-signore-frisina": {
+    "title": "Acclamate al Signore",
+    "tags": [
+      "Ingresso",
+      "Lode"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
+  },
+  "alza-i-tuoi-occhi-al-cielo": {
+    "title": "Alza i tuoi occhi al cielo",
+    "tags": [
+      "Finale",
+      "Lode"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
+  },
+  "amo": {
+    "title": "Amo",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "annunceremo-che-tu": {
+    "title": "Annunceremo che Tu",
+    "tags": [
+      "Finale",
+      "Lode"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
+  },
+  "ascolta-il-mio-cuore": {
+    "title": "Ascolta il mio cuore",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "astro-del-ciel": {
+    "title": "Astro del ciel",
+    "tags": [
+      "Natale"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
+  },
+  "benedetto-signore-cerco-solo-te": {
+    "title": "Benedetto Signore, Cerco Solo Te",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "benedetto-tu-signore-ricci": {
+    "title": "Benedetto Tu, Signore",
+    "tags": [
+      "Offertorio"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "colori": {
+    "title": "Colori",
+    "tags": [
+      "Ingresso",
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "con-te-camminero": {
+    "title": "Con te camminerò",
+    "tags": [
+      "Comunione",
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "dove-due-o-tre": {
+    "title": "Dove due o tre",
+    "tags": [
+      "Comunione"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "e-l-incontro-della-vita": {
+    "title": "È l'incontro della vita",
+    "tags": [
+      "Comunione"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "ecco-il-pane": {
+    "title": "Ecco il pane",
+    "tags": [
+      "Comunione"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "hai-detto-si": {
+    "title": "Hai detto sì",
+    "tags": [
+      "Maria"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "in-eterno-cantero": {
+    "title": "In eterno canterò",
+    "tags": [
+      "Lode"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "jubilate-deo": {
+    "title": "Jubilate Deo",
+    "tags": [
+      "Lode"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "lui-verra-e-ti-salvera": {
+    "title": "Lui verrà e ti salverà",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "manda-il-tuo-spirito": {
+    "title": "Manda il tuo Spirito",
+    "tags": [
+      "Spirito Santo"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "maranatha-vieni-signor": {
+    "title": "Maranathà, vieni signor",
+    "tags": [
+      "Ingresso"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "maria-tu-sei": {
+    "title": "Maria tu sei",
+    "tags": [
+      "Maria"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "musica-di-festa": {
+    "title": "Musica di festa",
+    "tags": [
+      "Ingresso",
+      "Lode"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
+  },
+  "noi-veniamo-a-te": {
+    "title": "Noi veniamo a Te",
+    "tags": [
+      "Ingresso"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "non-cercate-tra-i-morti": {
+    "title": "Non cercate tra i morti",
+    "tags": [
+      "Pasqua"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
+  },
+  "ora-e-tempo-di-gioia": {
+    "title": "Ora è tempo di gioia",
+    "tags": [
+      "Ingresso",
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "pace-sia-pace-a-voi": {
+    "title": "Pace sia, pace a voi",
+    "tags": [
+      "Pace",
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "padre-maestro-e-amico": {
+    "title": "Padre, Maestro e Amico",
+    "tags": [
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "pane-di-vita": {
+    "title": "Pane di vita",
+    "tags": [
+      "Comunione"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "quelli-che-amano-te": {
+    "title": "Quelli che amano te",
+    "tags": [
+      "Offertorio"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "questa-e-la-mia-fede": {
+    "title": "Questa è la mia fede",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "rallegriamoci": {
+    "title": "Rallegriamoci",
+    "tags": [
+      "Ingresso",
+      "Lode"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
+  },
+  "spirito-santo-dolce-presenza": {
+    "title": "Spirito Santo, dolce presenza",
+    "tags": [
+      "Spirito Santo"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "ti-lodiamo-e-ti-adoriamo": {
+    "title": "Ti lodiamo e ti adoriamo",
+    "tags": [
+      "Lode"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "tutta-la-vita-e-un-dono": {
+    "title": "Tutta la vita è un dono",
+    "tags": [
+      "Offertorio"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "il-tuo-amore-annuncero": {
+    "title": "Il tuo amore annuncerò",
+    "tags": [
+      "Finale"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
+  },
+  "il-signore-e-la-mia-forza": {
+    "title": "Il Signore è la mia forza",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "dona-la-pace-canone": {
+    "title": "Dona la pace",
+    "tags": [
+      "Pace",
+      "Meditazione"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
+  },
+  "adoramus-te-domine": {
+    "title": "Adoramus Te Domine",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "in-manus-tuas": {
+    "title": "In manus tuas",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "nada-te-turbe": {
+    "title": "Nada te turbe",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "bonum-est-confidere": {
+    "title": "Bonum est confidere",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "questa-notte": {
+    "title": "Questa notte",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "bless-the-lord": {
+    "title": "Bless the Lord",
+    "tags": [
+      "Lode"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "misericordias-domini": {
+    "title": "Misericordias Domini",
+    "tags": [
+      "Lode"
+    ],
+    "groups": [
+      "Temi"
+    ]
   }
 }

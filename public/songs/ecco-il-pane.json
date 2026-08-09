@@ -1,0 +1,129 @@
+{
+  "title": "Ecco il pane",
+  "sub": "Ricci",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "FA",
+    "mode": "minore"
+  },
+  "search": "Ecco il pane Ricci Intro Strofa 1 Ecco il pane e il vino della Cena insieme a Te, ecco questa vita che trasformi: cieli e terre nuove in noi, tu discendi dentro noi… fatti come te, noi con Te nell'anima.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "FA#- MI6 RE7 MI6"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "FA#- MI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA#-"
+        },
+        {
+          "word": 6,
+          "chord": "MI"
+        },
+        {
+          "word": 9,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Ecco il pane e il vino della Cena insieme a Te,"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ecco questa vita che trasformi:"
+    },
+    {
+      "t": "c",
+      "v": "FA#- MI DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 7,
+          "chord": "MI"
+        },
+        {
+          "word": 8,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "cieli e terre nuove in noi, tu discendi dentro noi…"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "fatti come te, noi con Te nell'anima."
+    }
+  ],
+  "id": "ecco-il-pane"
+}

@@ -1,0 +1,650 @@
+{
+  "title": "Alza i tuoi occhi al cielo",
+  "sub": "Branca, Ciancio",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "SOL",
+    "mode": "maggiore"
+  },
+  "search": "Alza i tuoi occhi al cielo Branca, Ciancio Strofa 1 Cristo Gesù, Figlio di Dio, ad ogni uomo il suo amore mostrò. Egli guarì e liberò, tutto sé stesso donò. Sai che Gesù, se tu lo vuoi, i suoi prodigi rinnova per te. Senza timor apriti a lui, ti ama così come sei, come sei. Ritornello Alza i tuoi occhi al cielo e vedrai, nuovi orizzonti tu scoprirai. lascia ogni cosa e insieme a noi canta al Dio dell'amor. Apri il tuo cuore a Cristo e vedrai, nella tristezza più non vivrai. lascia ogni cosa e insieme a noi canta al Dio dell'amor. Strofa 2 Cristo Gesù, Figlio di Dio, ad ogni uomo il suo amore mostrò. Egli morì, risuscitò, la croce sua ci salvò. Sai che Gesù, se tu lo vuoi, i suoi prodigi rinnova per te. Senza timor apriti a lui, ti ama così come sei, come sei. Strofa 3 Cristo Gesù, Figlio di Dio, ai suoi amici la pace portò. Al ciel salì ma vive in noi con il suo soffio d'amor. Sai che Gesù, se tu lo vuoi, i suoi prodigi rinnova per te. Senza timor apriti a lui, ti ama così come sei, come sei.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Cristo Gesù, Figlio di Dio,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ad ogni uomo il suo amore mostrò."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO SOL RE SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Egli guarì e liberò, tutto sé stesso donò."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Sai che Gesù, se tu lo vuoi,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "i suoi prodigi rinnova per te."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Senza timor apriti a lui,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ti ama così come sei, come sei."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Alza i tuoi occhi al cielo e vedrai,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nuovi orizzonti tu scoprirai."
+    },
+    {
+      "t": "c",
+      "v": "MI- DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "lascia ogni cosa e insieme a noi"
+    },
+    {
+      "t": "c",
+      "v": "MIb FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MIb"
+        },
+        {
+          "word": 1,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "canta al Dio dell'amor."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Apri il tuo cuore a Cristo e vedrai,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nella tristezza più non vivrai."
+    },
+    {
+      "t": "c",
+      "v": "MI- DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "lascia ogni cosa e insieme a noi"
+    },
+    {
+      "t": "c",
+      "v": "MIb FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MIb"
+        },
+        {
+          "word": 1,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "canta al Dio dell'amor."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Cristo Gesù, Figlio di Dio,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ad ogni uomo il suo amore mostrò."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO SOL RE SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Egli morì, risuscitò, la croce sua ci salvò."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Sai che Gesù, se tu lo vuoi,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "i suoi prodigi rinnova per te."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Senza timor apriti a lui,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ti ama così come sei, come sei."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Cristo Gesù, Figlio di Dio,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ai suoi amici la pace portò."
+    },
+    {
+      "t": "c",
+      "v": "SOL DO SOL RE SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Al ciel salì ma vive in noi"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "con il suo soffio d'amor."
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Sai che Gesù, se tu lo vuoi,"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "i suoi prodigi rinnova per te."
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Senza timor apriti a lui,"
+    },
+    {
+      "t": "l",
+      "v": "ti ama così come sei, come sei."
+    }
+  ],
+  "id": "alza-i-tuoi-occhi-al-cielo"
+}

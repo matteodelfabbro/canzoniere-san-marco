@@ -1,0 +1,515 @@
+{
+  "title": "Ora è tempo di gioia",
+  "sub": "Gen Rosso",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
+  "search": "Ora è tempo di gioia Gen Rosso Strofa 1 L'eco torna d'antiche valli la sua voce non porta più, ricordo di sommesse lacrime di esili in terre lontane. Ritornello Ora è tempo di gioia, non ve ne accorgete ecco faccio una cosa nuova nel deserto una strada aprirò. Strofa 2 Come l'onda che sulla sabbia copre le orme e poi passa e va, così nel tempo si cancellano le ombre scure del lungo inverno. Strofa 3 Tra i sentieri dei boschi il vento con i rami ricomporrà nuove armonie che trasformano i lamenti in canti di festa.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE MI- RE SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "L'eco torna d'antiche valli"
+    },
+    {
+      "t": "c",
+      "v": "RE MI- RE7+ DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "RE7+"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la sua voce non porta più,"
+    },
+    {
+      "t": "c",
+      "v": "SI- FA#- SOL MI7 LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI-"
+        },
+        {
+          "word": 0,
+          "chord": "FA#-"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "MI7"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ricordo di sommesse lacrime"
+    },
+    {
+      "t": "c",
+      "v": "RE MI-7 RE LA4 RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-7"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA4"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "di esili in terre lontane."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE DO RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Ora è tempo di gioia,"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA-7 SOL DO RE4 RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 0,
+          "chord": "LA-7"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "RE4"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "non ve ne accorgete"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE LA- MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ecco faccio una cosa nuova"
+    },
+    {
+      "t": "c",
+      "v": "SI7 DO7+ SI- MI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI7"
+        },
+        {
+          "word": 1,
+          "chord": "DO7+"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nel deserto una strada aprirò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE MI- RE SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Come l'onda che sulla sabbia"
+    },
+    {
+      "t": "c",
+      "v": "RE MI- RE7+ DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "RE7+"
+        },
+        {
+          "word": 6,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "copre le orme e poi passa e va,"
+    },
+    {
+      "t": "c",
+      "v": "SI- FA#- SOL MI7 LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI-"
+        },
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "MI7"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "così nel tempo si cancellano"
+    },
+    {
+      "t": "c",
+      "v": "RE MI-7 RE LA4 RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-7"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "LA4"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "le ombre scure del lungo inverno."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "RE MI- RE SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tra i sentieri dei boschi il vento"
+    },
+    {
+      "t": "c",
+      "v": "RE MI- RE7+ DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "RE7+"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "con i rami ricomporrà"
+    },
+    {
+      "t": "c",
+      "v": "SI- FA#- SOL MI7 LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI-"
+        },
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "MI7"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nuove armonie che trasformano"
+    },
+    {
+      "t": "c",
+      "v": "RE MI-7 RE LA4 RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-7"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "LA4"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "i lamenti in canti di festa."
+    }
+  ],
+  "id": "ora-e-tempo-di-gioia"
+}

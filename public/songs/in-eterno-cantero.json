@@ -1,0 +1,318 @@
+{
+  "id": "in-eterno-cantero",
+  "title": "In eterno canterò",
+  "sub": "RNS",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "FA",
+    "mode": "maggiore"
+  },
+  "search": "In eterno canterò RNS Ritornello In eterno canterò la tua lode, mio Signor. Le mie labbra esalteranno la tua fedeltà. Io per sempre ti benedirò e annuncerò il tuo nome. In eterno io ti canterò. Strofa 1 Anche se la tempesta mi colpirà, la mia lode a te, Signore, si eleverà. Sei tu la mia fiducia, io spero in te. Tu sei il mio Signore, il mio Re. Il tuo nome annuncerò. Ritornello In eterno canterò la tua lode, mio Signor. Le mie labbra esalteranno la tua fedeltà. Io per sempre ti benedirò e annuncerò il tuo nome. In eterno io ti canterò.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO RE- SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "In eterno"
+        },
+        {
+          "chord": "DO",
+          "lyric": "canterò la"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "tua lode,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "mio Signor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "In eterno canterò la tua lode, mio Signor."
+    },
+    {
+      "t": "c",
+      "v": "FA DO SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Le mie"
+        },
+        {
+          "chord": "DO",
+          "lyric": "labbra esalteranno"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "la tua fedeltà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Le mie labbra esalteranno la tua fedeltà."
+    },
+    {
+      "t": "c",
+      "v": "FA DO/MI RE-7 SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Io per"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "sempre ti benedirò"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "e annuncerò"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "il tuo nome."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Io per sempre ti benedirò e annuncerò il tuo nome."
+    },
+    {
+      "t": "c",
+      "v": "SOL-7 DO7 FA",
+      "flowSegments": [
+        {
+          "chord": "SOL-7",
+          "lyric": "In"
+        },
+        {
+          "chord": "DO7",
+          "lyric": "eterno io"
+        },
+        {
+          "chord": "FA",
+          "lyric": "ti canterò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "In eterno io ti canterò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SIb7+ FA DO RE-",
+      "flowSegments": [
+        {
+          "chord": "SIb7+",
+          "lyric": "Anche se la"
+        },
+        {
+          "chord": "FA",
+          "lyric": "tempesta mi colpirà, la"
+        },
+        {
+          "chord": "DO",
+          "lyric": "mia lode a"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "te, Signore, si eleverà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Anche se la tempesta mi colpirà, la mia lode a te, Signore, si eleverà."
+    },
+    {
+      "t": "c",
+      "v": "SIb7+ FA LA RE- DO-7 SIb LA7 RE-",
+      "flowSegments": [
+        {
+          "chord": "SIb7+",
+          "lyric": "Sei tu"
+        },
+        {
+          "chord": "FA",
+          "lyric": "la mia"
+        },
+        {
+          "chord": "LA",
+          "lyric": "fiducia, io"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "spero in"
+        },
+        {
+          "chord": "DO-7",
+          "lyric": "te. Tu"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "sei il"
+        },
+        {
+          "chord": "LA7",
+          "lyric": "mio Signore,"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "il mio Re."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Sei tu la mia fiducia, io spero in te. Tu sei il mio Signore, il mio Re."
+    },
+    {
+      "t": "c",
+      "v": "SIb FA DO4 DO",
+      "flowSegments": [
+        {
+          "chord": "SIb",
+          "lyric": "Il"
+        },
+        {
+          "chord": "FA",
+          "lyric": "tuo"
+        },
+        {
+          "chord": "DO4",
+          "lyric": "nome"
+        },
+        {
+          "chord": "DO",
+          "lyric": "annuncerò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Il tuo nome annuncerò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA DO RE- SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "In eterno"
+        },
+        {
+          "chord": "DO",
+          "lyric": "canterò la"
+        },
+        {
+          "chord": "RE-",
+          "lyric": "tua lode,"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "mio Signor."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "In eterno canterò la tua lode, mio Signor."
+    },
+    {
+      "t": "c",
+      "v": "FA DO SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Le mie"
+        },
+        {
+          "chord": "DO",
+          "lyric": "labbra esalteranno"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "la tua fedeltà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Le mie labbra esalteranno la tua fedeltà."
+    },
+    {
+      "t": "c",
+      "v": "FA DO/MI RE-7 SIb",
+      "flowSegments": [
+        {
+          "chord": "FA",
+          "lyric": "Io per"
+        },
+        {
+          "chord": "DO/MI",
+          "lyric": "sempre ti benedirò"
+        },
+        {
+          "chord": "RE-7",
+          "lyric": "e annuncerò"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "il tuo nome."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Io per sempre ti benedirò e annuncerò il tuo nome."
+    },
+    {
+      "t": "c",
+      "v": "SOL-7 DO7 FA",
+      "flowSegments": [
+        {
+          "chord": "SOL-7",
+          "lyric": "In"
+        },
+        {
+          "chord": "DO7",
+          "lyric": "eterno io"
+        },
+        {
+          "chord": "FA",
+          "lyric": "ti canterò."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "In eterno io ti canterò."
+    }
+  ]
+}

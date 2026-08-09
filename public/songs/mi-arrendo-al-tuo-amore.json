@@ -1,9 +1,9 @@
 {
   "title": "Mi Arrendo al Tuo Amore",
-  "sub": "",
+  "sub": "RNS",
   "capo": null,
   "key": {
-    "note": "DO",
+    "note": "RE",
     "mode": "maggiore"
   },
   "search": "Mi Arrendo al Tuo Amore  Intro  Strofa 1 Sotto la tua croce apro le mie braccia, accolgo il tuo perdono, la tua misericordia Adoro  nel silenzio il tuo splendore, il volto tuo che libera il mio cuore  Ritornello        Mi arrendo al tuo amore, Signore Gesù        Non  posso restare lontano da te        Mi arrendo al tuo amore, Signore Gesù        Alla tua presenza per sempre resterò  Strofa 2 Ai piedi della croce visiti il mio cuore, mi doni la tua pace, consoli la mia vita Contemplo   la maestà della tua gloria, il sangue tuo che sana le ferite  Ritornello finale        Mi arrendo al tuo amore, Signore Gesù        Non  posso restare lontano da te        Mi arrendo al tuo amore, Signore Gesù        Alla tua presenza per sempre resterò",
@@ -14,7 +14,7 @@
     },
     {
       "t": "c",
-      "v": "SOL MI- | MI LA | RE"
+      "v": "| RE MI- | RE/FA# SOL | SOL MI- | MI7 LA | RE |"
     },
     {
       "t": "s"

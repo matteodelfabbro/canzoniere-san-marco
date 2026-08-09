@@ -1,0 +1,762 @@
+{
+  "title": "Lui verrà e ti salverà",
+  "sub": "Fitts, Sadler",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "MI",
+    "mode": "maggiore"
+  },
+  "search": "Lui verrà e ti salverà Fitts, Sadler Intro Strofa 1 A chi è nell'angoscia tu dirai: ``Non devi temere, il tuo Signore è qui, con la forza sua. Quando invochi il suo nome Lui ti salverà.'' Ritornello Lui verrà e ti salverà, Dio verrà e ti salverà, di' a chi è smarrito che certo Lui tornerà. Lui verrà e ti salverà, Lui verrà e ti salverà, Dio verrà e ti salverà, alza i tuoi occhi a lui, presto ritornerà, lui verrà e ti salverà. Strofa 2 A chi ha il cuore ferito tu dirai: ``Confida in Dio, il tuo Signore è qui, con il suo grande amore. Quando invochi il suo nome Lui ti salverà.'' Strofa 3 Egli è rifugio nelle avversità, dalla tempesta ti riparerà. È il tuo baluardo e ti difenderà, la forza sua Lui ti darà. Intro Ritornello 2 Lui verrà e ti salverà, Dio verrà e ti salverà, di' a chi è smarrito che certo Lui tornerà. Lui verrà e ti salverà, Lui verrà e ti salverà, Dio verrà e ti salverà, alza i tuoi occhi a lui, presto ritornerà, lui verrà e ti salverà.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "MI/SOL# LA SI MI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "MI SI DO#- LA SI MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 1,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "DO#-"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 5,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "A chi è nell'angoscia tu dirai:"
+    },
+    {
+      "t": "c",
+      "v": "SI LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "``Non devi temere,"
+    },
+    {
+      "t": "c",
+      "v": "MI SI DO#- LA SI MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "DO#-"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        },
+        {
+          "word": 8,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il tuo Signore è qui, con la forza sua."
+    },
+    {
+      "t": "c",
+      "v": "SI LA SI LA SI4 SI MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "SI4"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        },
+        {
+          "word": 7,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Quando invochi il suo nome Lui ti salverà.''"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "MI LA SI MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Lui verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "MI LA SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Dio verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "LA SI4 SI",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI4"
+        },
+        {
+          "word": 8,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "di' a chi è smarrito che certo Lui tornerà."
+    },
+    {
+      "t": "c",
+      "v": "LA SI MI",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Lui verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "MI LA SI MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Lui verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "MI LA SI DO#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Dio verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "LA SI4 SI",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI4"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "alza i tuoi occhi a lui, presto ritornerà,"
+    },
+    {
+      "t": "c",
+      "v": "LA SI MI",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "lui verrà e ti salverà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "MI SI DO#- LA SI MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 1,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "DO#-"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 5,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "A chi ha il cuore ferito tu dirai: ``Confida in Dio,"
+    },
+    {
+      "t": "c",
+      "v": "SI LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SI"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il tuo Signore è qui, con il suo grande amore."
+    },
+    {
+      "t": "c",
+      "v": "MI SI DO#- LA SI MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "DO#-"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        },
+        {
+          "word": 7,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Quando invochi il suo nome Lui ti salverà.''"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "DO#- SI/RE# MI FA#-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO#-"
+        },
+        {
+          "word": 4,
+          "chord": "SI/RE#"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        },
+        {
+          "word": 8,
+          "chord": "FA#-7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Egli è rifugio nelle avversità, dalla tempesta ti riparerà."
+    },
+    {
+      "t": "c",
+      "v": "MI/SOL# LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI/SOL#"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "È il tuo baluardo e ti difenderà,"
+    },
+    {
+      "t": "c",
+      "v": "FA#-7 SI4 SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA#-7"
+        },
+        {
+          "word": 5,
+          "chord": "SI4"
+        },
+        {
+          "word": 5,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la forza sua Lui ti darà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "DO4 DO FA/LA"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "FA SIb DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SIb"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Lui verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "FA SIb DO RE-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SIb"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "RE-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Dio verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "SIb DO4 DO",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "SIb"
+        },
+        {
+          "word": 7,
+          "chord": "DO4"
+        },
+        {
+          "word": 8,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "di' a chi è smarrito che certo Lui tornerà."
+    },
+    {
+      "t": "c",
+      "v": "SIb DO FA",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "SIb"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Lui verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "FA SIb DO FA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SIb"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Lui verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "FA SIb DO RE-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SIb"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "RE-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Dio verrà e ti salverà,"
+    },
+    {
+      "t": "c",
+      "v": "SIb DO4 DO",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "SIb"
+        },
+        {
+          "word": 7,
+          "chord": "DO4"
+        },
+        {
+          "word": 7,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "alza i tuoi occhi a lui, presto ritornerà,"
+    },
+    {
+      "t": "c",
+      "v": "SIb DO FA",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "SIb"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 4,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "lui verrà e ti salverà."
+    }
+  ],
+  "id": "lui-verra-e-ti-salvera"
+}

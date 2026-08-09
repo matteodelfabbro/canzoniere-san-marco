@@ -1,0 +1,461 @@
+{
+  "id": "hai-detto-si",
+  "title": "Hai detto sì",
+  "sub": "Benedetti · Anselmi",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Hai detto sì Benedetti · Anselmi Intro Strofa 1 Beata sei tu, che hai creduto. Da quel momento tutto è cambiato. Hai detto sì tu, per prima, mentre tessevi il nuovo velo del tempio. Quanto coraggio hai avuto. Non conoscevi il piano di Dio. Hai detto sì tu, per prima, con la fede e la volontà. Ritornello Come te Maria rispondiamo: “Eccomi”. Come te Maria noi vogliamo fidarci così. Che si compia per noi la Parola di Dio. Strofa 2 Fra tutte le donne benedetta, Madre vestita del Verbo di Dio. Con umiltà tu ci guidi e ci insegni ad amare di più. Ritornello Come te Maria rispondiamo: “Eccomi”. Come te Maria noi vogliamo fidarci così. Che si compia per noi la Parola di Dio. Finale Oh oh, oh oh oh, oh Maria, Madre dolcissima. Hai detto sì, hai detto sì, hai detto sì.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| DO FA | SOL LA- | FA SOL |"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL LA- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Beata sei"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tu, che"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "hai creduto. Da"
+        },
+        {
+          "chord": "FA",
+          "lyric": "quel momento"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tutto è cambiato."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Beata sei tu, che hai creduto. Da quel momento tutto è cambiato."
+    },
+    {
+      "t": "c",
+      "v": "LA- MI- FA SOL4",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Hai detto sì"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "tu, per prima,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "mentre tessevi il"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "nuovo velo del tempio."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Hai detto sì tu, per prima, mentre tessevi il nuovo velo del tempio."
+    },
+    {
+      "t": "c",
+      "v": "DO SOL LA- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Quanto coraggio"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "hai avuto."
+        },
+        {
+          "chord": "LA-",
+          "lyric": "Non conoscevi"
+        },
+        {
+          "chord": "FA",
+          "lyric": "il piano"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "di Dio."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Quanto coraggio hai avuto. Non conoscevi il piano di Dio."
+    },
+    {
+      "t": "c",
+      "v": "LA- MI- FA SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Hai detto"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "sì tu,"
+        },
+        {
+          "chord": "FA",
+          "lyric": "per prima, con"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "la fede"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "e la volontà."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Hai detto sì tu, per prima, con la fede e la volontà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Come"
+        },
+        {
+          "chord": "FA",
+          "lyric": "te"
+        },
+        {
+          "chord": "DO",
+          "lyric": "Maria"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "rispondiamo: “Eccomi”."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Come te Maria rispondiamo: “Eccomi”."
+    },
+    {
+      "t": "c",
+      "v": "SOL#° LA- MI- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "SOL#°",
+          "lyric": "Come"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "te"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Maria noi"
+        },
+        {
+          "chord": "FA",
+          "lyric": "vogliamo"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "fidarci così."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Come te Maria noi vogliamo fidarci così."
+    },
+    {
+      "t": "c",
+      "v": "RE- MI- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "RE-",
+          "lyric": "Che si"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "compia per"
+        },
+        {
+          "chord": "FA",
+          "lyric": "noi la"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Parola di Dio."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Che si compia per noi la Parola di Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL LA- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Fra tutte"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "le donne"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "benedetta, Madre"
+        },
+        {
+          "chord": "FA",
+          "lyric": "vestita del"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Verbo di Dio."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Fra tutte le donne benedetta, Madre vestita del Verbo di Dio."
+    },
+    {
+      "t": "c",
+      "v": "LA- MI- FA SOL4 SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Con umiltà"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "tu ci"
+        },
+        {
+          "chord": "FA",
+          "lyric": "guidi e ci"
+        },
+        {
+          "chord": "SOL4",
+          "lyric": "insegni ad"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "amare di più."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Con umiltà tu ci guidi e ci insegni ad amare di più."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA- FA DO SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Come"
+        },
+        {
+          "chord": "FA",
+          "lyric": "te"
+        },
+        {
+          "chord": "DO",
+          "lyric": "Maria"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "rispondiamo: “Eccomi”."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Come te Maria rispondiamo: “Eccomi”."
+    },
+    {
+      "t": "c",
+      "v": "SOL#° LA- MI- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "SOL#°",
+          "lyric": "Come"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "te"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Maria noi"
+        },
+        {
+          "chord": "FA",
+          "lyric": "vogliamo"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "fidarci così."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Come te Maria noi vogliamo fidarci così."
+    },
+    {
+      "t": "c",
+      "v": "RE- MI- FA SOL",
+      "flowSegments": [
+        {
+          "chord": "RE-",
+          "lyric": "Che si"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "compia per"
+        },
+        {
+          "chord": "FA",
+          "lyric": "noi la"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Parola di Dio."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Che si compia per noi la Parola di Dio."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "LA- SOL DO FA FA SOL",
+      "flowSegments": [
+        {
+          "chord": "LA-",
+          "lyric": "Oh"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "oh, oh"
+        },
+        {
+          "chord": "DO",
+          "lyric": "oh"
+        },
+        {
+          "chord": "FA",
+          "lyric": "oh, oh"
+        },
+        {
+          "chord": "FA",
+          "lyric": "Maria,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Madre dolcissima."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Oh oh, oh oh oh, oh Maria, Madre dolcissima."
+    },
+    {
+      "t": "c",
+      "v": "DO FA DO FA DO",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Hai"
+        },
+        {
+          "chord": "FA",
+          "lyric": "detto sì,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "hai detto"
+        },
+        {
+          "chord": "FA",
+          "lyric": "sì, hai"
+        },
+        {
+          "chord": "DO",
+          "lyric": "detto sì."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Hai detto sì, hai detto sì, hai detto sì."
+    }
+  ]
+}

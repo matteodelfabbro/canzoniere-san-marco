@@ -1,0 +1,304 @@
+{
+  "id": "quelli-che-amano-te",
+  "title": "Quelli che amano te",
+  "sub": "Gen Rosso",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
+  "search": "Quelli che amano te Gen Rosso Intro Strofa 1 Ecco il frumento che noi ti portiamo, pane della Madre Terra, e del lavoro e il sudore di tanti, quelli che amano te. Strofa 2 Portiamo il vino, frutto della vite, sangue della Madre Terra, e del lavoro e la gioia di tanti, quelli che amano te. Strofa 3 · +1 tono Insieme ai doni veniamo noi stessi, figli di tutta la Terra, per riscaldarci attorno alla mensa che hai preparato per noi. Finale Per riscaldarci attorno alla mensa che hai preparato per noi.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| RE RE4 | RE RE4 |"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE RE4 RE RE4 RE LA",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Ecco"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "il frumento"
+        },
+        {
+          "chord": "RE",
+          "lyric": "che noi"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "ti portiamo,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "pane della"
+        },
+        {
+          "chord": "LA",
+          "lyric": "Madre Terra,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Ecco il frumento che noi ti portiamo, pane della Madre Terra,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI- RE SOL LA RE RE4",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "e"
+        },
+        {
+          "chord": "RE",
+          "lyric": "del lavoro"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "e"
+        },
+        {
+          "chord": "RE",
+          "lyric": "il sudore"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "di"
+        },
+        {
+          "chord": "LA",
+          "lyric": "tanti, quelli"
+        },
+        {
+          "chord": "RE",
+          "lyric": "che"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "amano te."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "e del lavoro e il sudore di tanti, quelli che amano te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE RE4 RE RE4 RE LA",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Portiamo"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "il vino,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "frutto della"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "vite,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "sangue della"
+        },
+        {
+          "chord": "LA",
+          "lyric": "Madre Terra,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Portiamo il vino, frutto della vite, sangue della Madre Terra,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI- RE SOL LA RE RE4",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "e"
+        },
+        {
+          "chord": "RE",
+          "lyric": "del lavoro"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "e"
+        },
+        {
+          "chord": "RE",
+          "lyric": "la gioia"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "di"
+        },
+        {
+          "chord": "LA",
+          "lyric": "tanti, quelli"
+        },
+        {
+          "chord": "RE",
+          "lyric": "che"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "amano te."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "e del lavoro e la gioia di tanti, quelli che amano te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3 · +1 tono"
+    },
+    {
+      "t": "c",
+      "v": "LA RE SOL LA",
+      "flowSegments": [
+        {
+          "chord": "LA",
+          "lyric": "Insieme ai"
+        },
+        {
+          "chord": "RE",
+          "lyric": "doni veniamo noi"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "stessi, figli di"
+        },
+        {
+          "chord": "LA",
+          "lyric": "tutta la Terra,"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Insieme ai doni veniamo noi stessi, figli di tutta la Terra,"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI- RE SOL LA RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "per"
+        },
+        {
+          "chord": "RE",
+          "lyric": "riscaldarci"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "attorno alla"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mensa"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "che hai"
+        },
+        {
+          "chord": "LA",
+          "lyric": "preparato"
+        },
+        {
+          "chord": "RE",
+          "lyric": "per noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "per riscaldarci attorno alla mensa che hai preparato per noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE MI- RE SOL LA RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Per"
+        },
+        {
+          "chord": "RE",
+          "lyric": "riscaldarci"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "attorno alla"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mensa"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "che hai"
+        },
+        {
+          "chord": "LA",
+          "lyric": "preparato"
+        },
+        {
+          "chord": "RE",
+          "lyric": "per noi."
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Per riscaldarci attorno alla mensa che hai preparato per noi."
+    }
+  ]
+}

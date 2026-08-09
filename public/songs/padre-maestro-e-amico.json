@@ -1,0 +1,745 @@
+{
+  "title": "Padre, Maestro e Amico",
+  "sub": "Angelo Lagorio",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "DO",
+    "mode": "maggiore"
+  },
+  "search": "Padre, Maestro e Amico Angelo Lagorio Strofa 1 Padre, di molte genti padre, il nostro grido ascolta è il canto della vita. Quella perenne giovinezza che tu portavi in cuore perché non doni a noi? Ritornello Padre, maestro ed amico, noi giovani del mondo guardiamo ancora te. Apri il nostro cuore a Cristo, sostieni il nostro impegno in questa societa'. Oh Oh Oh Oh Strofa 2 Festa, con te la vita è festa con te la vita è canto è fremito di gioia. Oggi tra noi ancora è vivo l'amore che nutrivi per tutti i figli tuoi! Ritornello 2 Padre, maestro ed amico, noi giovani del mondo guardiamo ancora te. Apri il nostro cuore a Cristo, sostieni il nostro impegno in questa societa'. Oh Oh Oh Oh",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Padre, di molte genti padre,"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il nostro grido ascolta"
+    },
+    {
+      "t": "c",
+      "v": "SOL DO LA4 LA7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "LA4"
+        },
+        {
+          "word": 4,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "è il canto della vita."
+    },
+    {
+      "t": "c",
+      "v": "RE MI- LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Quella perenne giovinezza"
+    },
+    {
+      "t": "c",
+      "v": "MI- RE FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che tu portavi in cuore"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA4 LA7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "LA4"
+        },
+        {
+          "word": 4,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "perché non doni a noi?"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Padre, maestro ed amico,"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA7 SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "noi giovani del mondo"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA4 LA7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "LA4"
+        },
+        {
+          "word": 2,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "guardiamo ancora te."
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Apri il nostro cuore a Cristo,"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sostieni il nostro impegno"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "in questa societa'."
+    },
+    {
+      "t": "c",
+      "v": "SOL LA RE SOL LA RE SOL LA SI- SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Oh Oh Oh Oh"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Festa, con te la vita è festa"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "con te la vita è canto"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA4 LA7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA4"
+        },
+        {
+          "word": 3,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "è fremito di gioia."
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Oggi tra noi ancora è vivo"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA FA#-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "l'amore che nutrivi"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA4 LA7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "LA4"
+        },
+        {
+          "word": 4,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "per tutti i figli tuoi!"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Padre, maestro ed amico,"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA7 SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "noi giovani del mondo"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA4 LA7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "LA4"
+        },
+        {
+          "word": 2,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "guardiamo ancora te."
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Apri il nostro cuore a Cristo,"
+    },
+    {
+      "t": "c",
+      "v": "SOL LA SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sostieni il nostro impegno"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "in questa societa'."
+    },
+    {
+      "t": "c",
+      "v": "SOL LA RE SOL LA RE SOL LA SI- SOL LA RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "SI-"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Oh Oh Oh Oh"
+    }
+  ],
+  "id": "padre-maestro-e-amico"
+}

@@ -1,0 +1,839 @@
+{
+  "title": "È l'incontro della vita",
+  "sub": "Ricci",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "LA",
+    "mode": "maggiore"
+  },
+  "search": "È l'incontro della vita Ricci Intro Strofa 1 È l'incontro della vita è l'incontro intorno a te. Tu che sei realtà infinita tu ci chiami tutti a te. E il tuo Spirito è una brezza che dissolve ogni tristezza nell'amore che tu vuoi fra di noi nell'amore che tu vuoi fra di noi. Strofa 2 È l'incontro della gioia è l'incontro fra di noi tu risplendi nella gloria sei presente in mezzo a noi. Non importa noi chi siamo, ciò che importa è che ci amiamo dell'amore che tu vuoi fra di noi dell'amore che tu vuoi fra di noi. Ritornello Nel tuo cuore noi troviamo il paradiso. Nel tuo cuore noi troviamo l'unità. Nel tuo cuore gli orizzonti più splendenti, nel tuo cuore è l'umanità. Strofa 3 È l'incontro dei fratelli tutti uniti qui con te e i propositi più belli adesso nascono con te. C'è la forza, la sorgente, la più pura delle fonti nell'amore che tu vuoi fra di noi nell'amore che tu vuoi fra di noi. Ritornello 2 Nel tuo cuore noi troviamo il paradiso. Nel tuo cuore noi troviamo l'unità. Nel tuo cuore gli orizzonti più splendenti, nel tuo cuore è l'umanità.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "LA LA MI MI RE RE MI4 MI"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "LA LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "È l'incontro della vita"
+    },
+    {
+      "t": "c",
+      "v": "MI MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "è l'incontro intorno a te."
+    },
+    {
+      "t": "c",
+      "v": "FA#- FA#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 4,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tu che sei realtà infinita"
+    },
+    {
+      "t": "c",
+      "v": "RE RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu ci chiami tutti a te."
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "E il tuo Spirito è una brezza"
+    },
+    {
+      "t": "c",
+      "v": "FA#- RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che dissolve ogni tristezza"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nell'amore che tu vuoi fra di noi"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nell'amore che tu vuoi fra di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "LA LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "È l'incontro della gioia"
+    },
+    {
+      "t": "c",
+      "v": "MI MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "è l'incontro fra di noi"
+    },
+    {
+      "t": "c",
+      "v": "FA#- FA#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 2,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu risplendi nella gloria"
+    },
+    {
+      "t": "c",
+      "v": "RE RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sei presente in mezzo a noi."
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Non importa noi chi siamo,"
+    },
+    {
+      "t": "c",
+      "v": "FA#- RE",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "FA#-"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ciò che importa è che ci amiamo"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "dell'amore che tu vuoi fra di noi"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "dell'amore che tu vuoi fra di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "LA DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo cuore"
+    },
+    {
+      "t": "c",
+      "v": "RE MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "noi troviamo il paradiso."
+    },
+    {
+      "t": "c",
+      "v": "LA DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo cuore"
+    },
+    {
+      "t": "c",
+      "v": "RE MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "noi troviamo l'unità."
+    },
+    {
+      "t": "c",
+      "v": "LA DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo cuore"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "gli orizzonti più splendenti,"
+    },
+    {
+      "t": "c",
+      "v": "FA#- DO#- SI MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 4,
+          "chord": "DO#-"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nel tuo cuore è l'umanità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "LA LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "È l'incontro dei fratelli"
+    },
+    {
+      "t": "c",
+      "v": "MI MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tutti uniti qui con te"
+    },
+    {
+      "t": "c",
+      "v": "FA#- FA#-",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "FA#-"
+        },
+        {
+          "word": 3,
+          "chord": "FA#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e i propositi più belli"
+    },
+    {
+      "t": "c",
+      "v": "RE RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "adesso nascono con te."
+    },
+    {
+      "t": "c",
+      "v": "LA MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "C'è la forza, la sorgente,"
+    },
+    {
+      "t": "c",
+      "v": "FA#- RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la più pura delle fonti"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nell'amore che tu vuoi fra di noi"
+    },
+    {
+      "t": "c",
+      "v": "LA MI RE RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nell'amore che tu vuoi fra di noi."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello 2"
+    },
+    {
+      "t": "c",
+      "v": "LA DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo cuore"
+    },
+    {
+      "t": "c",
+      "v": "RE MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "noi troviamo il paradiso."
+    },
+    {
+      "t": "c",
+      "v": "LA DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo cuore"
+    },
+    {
+      "t": "c",
+      "v": "RE MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "noi troviamo l'unità."
+    },
+    {
+      "t": "c",
+      "v": "LA DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Nel tuo cuore"
+    },
+    {
+      "t": "c",
+      "v": "RE LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "gli orizzonti più splendenti,"
+    },
+    {
+      "t": "c",
+      "v": "FA#- DO#- RE SI- LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "FA#-"
+        },
+        {
+          "word": 4,
+          "chord": "DO#-"
+        },
+        {
+          "word": 4,
+          "chord": "RE SI- LA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "nel tuo cuore è l'umanità."
+    }
+  ],
+  "id": "e-l-incontro-della-vita"
+}

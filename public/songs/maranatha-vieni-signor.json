@@ -1,0 +1,865 @@
+{
+  "title": "Maranathà, vieni signor",
+  "sub": "Christian Gonzales",
+  "capo": null,
+  "compactRepeats": true,
+  "key": {
+    "note": "FA",
+    "mode": "maggiore"
+  },
+  "search": "Maranathà, vieni signor Christian Gonzales Ritornello Maranathà, vieni Signor verso te, Gesù, le mani noi leviam. Maranathà, vieni Signor prendici con te e salvaci o Signor. Strofa 1 Guardo verso le montagne, donde mi verrà il soccorso, il soccorso viene da Dio, che ha creato il mondo intero. Strofa 2 Sorgi con il tuo amore, la tua luce splenderà, ogni ombra svanirà la tua gloria apparirà. Strofa 3 Santo è il nostro Signor, il peccato egli portò, dalla morte ci salvò, e la vita a noi donò. Strofa 4 Mio Signor son peccatore, a te apro il mio cuore, fa di me quello che vuoi e per sempre in te vivrò. Strofa 5 La Parola giungerà sino ad ogni estremità, testimoni noi sarem della tua Verità. Strofa 6 Tu sei la mia libertà solo in te potrò sperar, ho fiducia in te Signor, la mia vita cambierai. Strofa 7 Mi consegno a te Signor, vieni dentro il mio cuor, ti ricevo o Salvator, tu sei il mio liberator. Strofa 8 Benedici o Signor, sii custode ai nostri cuor, giorno e notte veglierai e con noi sempre sarai. Strofa 9 Ringraziamo te Signor, a te, Padre creator, allo Spirito d'Amor, vieni presto o Signor.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA LA- RE- LA-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 0,
+          "chord": "RE-"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Maranathà, vieni Signor"
+    },
+    {
+      "t": "c",
+      "v": "SIb DO FA",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "SIb"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "verso te, Gesù, le mani noi leviam."
+    },
+    {
+      "t": "c",
+      "v": "FA LA- RE- LA-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 0,
+          "chord": "RE-"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Maranathà, vieni Signor"
+    },
+    {
+      "t": "c",
+      "v": "SIb DO FA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SIb"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "FA"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "prendici con te e salvaci o Signor."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Guardo verso le montagne,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "donde mi verrà il soccorso,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il soccorso viene da Dio,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 5,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "che ha creato il mondo intero."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Sorgi con il tuo amore,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la tua luce splenderà,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ogni ombra svanirà"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la tua gloria apparirà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 3"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Santo è il nostro Signor,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il peccato egli portò,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "dalla morte ci salvò,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 5,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e la vita a noi donò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 4"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Mio Signor son peccatore,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "a te apro il mio cuore,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "fa di me quello che vuoi"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 5,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e per sempre in te vivrò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 5"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "La Parola giungerà"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sino ad ogni estremità,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "testimoni noi sarem"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "della tua Verità."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 6"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Tu sei la mia libertà"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "solo in te potrò sperar,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ho fiducia in te Signor,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "la mia vita cambierai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 7"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Mi consegno a te Signor,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "vieni dentro il mio cuor,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "ti ricevo o Salvator,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "tu sei il mio liberator."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 8"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Benedici o Signor,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "sii custode ai nostri cuor,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "giorno e notte veglierai"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "e con noi sempre sarai."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 9"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Ringraziamo te Signor,"
+    },
+    {
+      "t": "c",
+      "v": "FA DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "a te, Padre creator,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 2,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "allo Spirito d'Amor,"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "FA"
+        },
+        {
+          "word": 3,
+          "chord": "SOL-"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "vieni presto o Signor."
+    }
+  ],
+  "id": "maranatha-vieni-signor"
+}

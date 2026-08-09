@@ -111,7 +111,7 @@ function legacyBookNumber(song){
 
 
 async function loadSongs() {
-  const songDataVersion='20260809-song-import-1';
+  const songDataVersion='20260809-song-import-2';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();

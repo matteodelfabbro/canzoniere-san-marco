@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-chord-audit-1';
+const CACHE_NAME = 'canzoniere-coherence-fix-1';
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -19,6 +19,7 @@ const APP_ASSETS = [
   "./songs/agnello-di-dio.json",
   "./songs/agnello-di-dio-versione-2-capo-3.json",
   "./songs/agnello-di-dio-buttazzo-capo-3.json",
+  "./songs/agnello-di-dio-ricci-la-tua-dimora.json",
   "./songs/alleluia-buttazzo.json",
   "./songs/alleluia-canto-per-cristo.json",
   "./songs/alleluia-ed-oggi-ancora.json",
@@ -41,6 +42,7 @@ const APP_ASSETS = [
   "./songs/cantate-al-signore-ricci.json",
   "./songs/cantate-al-signore-un-canto-nuovo-fallormi.json",
   "./songs/cantiamo-te.json",
+  "./songs/cieli-nuovi-e-terra-nuova.json",
   "./songs/chi.json",
   "./songs/chi-ci-separera.json",
   "./songs/chi-dara-da-bere-a-me.json",
@@ -69,9 +71,12 @@ const APP_ASSETS = [
   "./songs/giovane-donna.json",
   "./songs/giovanni.json",
   "./songs/signore-pieta-buttazzo.json",
+  "./songs/signore-pieta-ricci-la-tua-dimora.json",
   "./songs/signore-pieta-versione-2.json",
   "./songs/gloria-buttazzo.json",
+  "./songs/gloria-giombini.json",
   "./songs/gloria-gen-verde.json",
+  "./songs/gloria-a-dio-ricci-la-tua-dimora.json",
   "./songs/gloria-a-te-parola-vivente.json",
   "./songs/grandi-cose.json",
   "./songs/ho-abbandonato.json",
@@ -91,6 +96,7 @@ const APP_ASSETS = [
   "./songs/la-gioia.json",
   "./songs/la-mia-anima-canta.json",
   "./songs/la-preghiera-di-gesu-e-la-nostra.json",
+  "./songs/la-tua-dimora-ricci.json",
   "./songs/laudato-sii-o-mi-signore.json",
   "./songs/laudato-sii-signore-mio.json",
   "./songs/le-tue-mani.json",

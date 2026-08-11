@@ -1,7 +1,7 @@
 {
   "title": "Re dei Re",
   "sub": "Capo 1",
-  "capo": null,
+  "capo": 1,
   "compactRepeats": true,
   "key": {
     "note": "DO",

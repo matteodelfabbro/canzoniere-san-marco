@@ -1,7 +1,7 @@
 {
   "title": "Alleluia",
   "sub": "Cristo è risorto veramente - Capo 2/4",
-  "capo": null,
+  "capo": [2, 4],
   "key": {
     "note": "DO",
     "mode": "maggiore"

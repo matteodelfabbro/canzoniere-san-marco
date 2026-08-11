@@ -109,9 +109,29 @@ function legacyBookNumber(song){
   return song&&LEGACY_BOOK_NUMBERS[song.id]||null;
 }
 
+function capoText(song){
+  const capo=song&&song.capo;
+  if(Array.isArray(capo) && capo.length){
+    return `Capo: ${capo.join(' / ')}`;
+  }
+  if(Number.isInteger(capo) && capo>0){
+    return song.capoOptional
+      ? `Capo ${capo} (facoltativo)`
+      : `Capo consigliato: ${capo}`;
+  }
+  return '';
+}
+
+function songSubtitleWithoutCapo(song){
+  return String(song&&song.sub||'')
+    .replace(/\s*(?:[-·]\s*)?capo\s+\d+(?:\s*\/\s*\d+)*(?:\s*)$/i,'')
+    .replace(/[,.\s]+$/,'')
+    .trim();
+}
+
 
 async function loadSongs() {
-  const songDataVersion='20260809-song-import-2';
+  const songDataVersion='20260811-capo-metadata-1';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
@@ -1791,6 +1811,8 @@ function compactRepeatedSongSections(song){
 function renderSong(i){
   const song=songs[i];
   const shift=shiftState[i]||0;
+  const displaySub=songSubtitleWithoutCapo(song);
+  const displayCapo=capoText(song);
   let html=`<div class="song-nav">
     <div class="song-nav-main">
       <button class="back-list icon-only" id="backList" type="button" aria-label="Torna all'elenco dei canti" title="Elenco canti">
@@ -1828,7 +1850,8 @@ function renderSong(i){
   <div class="song-head">
     <div class="song-heading-text">
       <h2 class="song-title">${esc(song.title)}</h2>
-      ${(song.sub||legacyBookNumber(song))?`<div class="song-sub">${song.sub?esc(song.sub):''}${song.sub&&legacyBookNumber(song)?' · ':''}${legacyBookNumber(song)?`n. ${legacyBookNumber(song)}`:''}</div>`:''}
+      ${(displaySub||legacyBookNumber(song))?`<div class="song-sub">${displaySub?esc(displaySub):''}${displaySub&&legacyBookNumber(song)?' · ':''}${legacyBookNumber(song)?`n. ${legacyBookNumber(song)}`:''}</div>`:''}
+      ${displayCapo?`<div class="song-capo">${esc(displayCapo)}</div>`:''}
     </div>
     <div class="song-title-actions" aria-label="Azioni sul canto">
       <button class="song-favorite${isFavorite(i)?' active':''}" id="songFavorite" type="button" aria-label="${isFavorite(i)?'Rimuovi dai preferiti':'Aggiungi ai preferiti'}" aria-pressed="${isFavorite(i)}">${isFavorite(i)?'★':'☆'}</button>

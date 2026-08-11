@@ -2,7 +2,7 @@
   "id": "il-signore-e-la-mia-forza",
   "title": "Il Signore è la mia forza",
   "sub": "Capo 3",
-  "capo": null,
+  "capo": 3,
   "compactRepeats": true,
   "key": {
     "note": "RE",

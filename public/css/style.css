@@ -57,6 +57,7 @@
   .song-head{display:flex;align-items:flex-start;gap:1rem;border-bottom:1px solid var(--line);padding-bottom:1.1rem;margin-bottom:1.6rem}
     .song-title{font-family:'Manrope',sans-serif;font-weight:600;font-size:clamp(1.5rem,3vw,2.1rem);margin:0;line-height:1.15;letter-spacing:-0.01em}
   .song-sub{color:rgba(28,27,23,.5);font-size:.9rem;margin-top:.3rem}
+  .song-capo{display:inline-flex;align-items:center;margin-top:.38rem;padding:.18rem .48rem;border:1px solid rgba(143,21,48,.24);border-radius:999px;color:var(--wine);font-family:Manrope,sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.015em;background:rgba(143,21,48,.035)}
   .badges{display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap}
   .badge{font-family:Manrope,sans-serif;font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;background:transparent;color:var(--wine);border:1px solid rgba(109,22,38,.25)}
   .transpose-row{display:flex;align-items:center;gap:.55rem;margin-top:.9rem;flex-wrap:wrap}
@@ -1150,6 +1151,7 @@ body.lectern-mode > footer,
 body.lectern-mode .board,
 body.lectern-mode .song-title-actions,
 body.lectern-mode .song-sub,
+body.lectern-mode .song-capo,
 body.lectern-mode .setlist-nav,
 body.lectern-mode .song-feedback-footer{
   display:none!important;

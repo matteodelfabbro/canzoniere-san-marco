@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-song-import-3';
+const CACHE_NAME = 'canzoniere-capo-metadata-1';
 const APP_ASSETS = [
   "./",
   "./index.html",

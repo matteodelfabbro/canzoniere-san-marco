@@ -1,7 +1,8 @@
 {
   "title": "Potente Sei Mio Signor",
   "sub": "Volendo, capo 2",
-  "capo": null,
+  "capo": 2,
+  "capoOptional": true,
   "compactRepeats": true,
   "key": {
     "note": "DO",

@@ -1,7 +1,7 @@
 {
   "title": "Tu Sei Bambino",
   "sub": "Capo 2/3/4",
-  "capo": null,
+  "capo": [2, 3, 4],
   "key": {
     "note": "DO",
     "mode": "maggiore"

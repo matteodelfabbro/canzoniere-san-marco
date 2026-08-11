@@ -51,17 +51,9 @@
     "id": "agnello-di-dio",
     "numero": 7,
     "title": "Agnello di Dio",
-    "sub": "",
-    "search": "Agnello di Dio  Intro  Invocazione 1              Agnello    di   Dio  che  togli  i peccati        del mondo              abbi  pietà,   abbi   pietà  di noi  Invocazione 2              Agnello    di   Dio  che  togli  i peccati        del mondo              abbi  pietà,   abbi   pietà  di noi  Invocazione 3              Agnello    di   Dio  che  togli  i peccati        del mondo                dona   a  noi  la pace,      dona   a  noi la  pace.",
+    "sub": "Come Fuoco Vivo · Capo 3",
+    "search": "Agnello di Dio Come Fuoco Vivo Capo 3 Intro Invocazione 1 Agnello di Dio, che togli i peccati del mondo, abbi pietà, abbi pietà di noi Invocazione 2 Agnello di Dio, che togli i peccati del mondo, abbi pietà, abbi pietà di noi Invocazione 3 Agnello di Dio, che togli i peccati del mondo, dona a noi la pace, dona a noi la pace.",
     "file": "songs/agnello-di-dio.json"
-  },
-  {
-    "id": "agnello-di-dio-versione-2-capo-3",
-    "numero": 8,
-    "title": "Agnello di Dio",
-    "sub": "Versione 2 - Capo 3",
-    "search": "Agnello di Dio Versione 2 - Capo 3 Intro  Invocazione 1 Agnello   di Dio,  che  togli i peccati    del  mon   - do, abbi  pietà   abbi   pietà  di no - i  Invocazione 2 Agnello   di Dio,  che  togli i peccati    del  mon   - do, abbi  pietà   abbi   pietà  di no - i  Invocazione 3 Agnello   di Dio,  che  togli i peccati    del  mon   - do,    dona   a noi la pace,    dona  a noi  la pa  - ce.",
-    "file": "songs/agnello-di-dio-versione-2-capo-3.json"
   },
   {
     "id": "agnello-di-dio-buttazzo-capo-3",
@@ -491,8 +483,8 @@
     "id": "signore-pieta-versione-2",
     "numero": 60,
     "title": "Signore Pietà",
-    "sub": "Versione 2",
-    "search": "Signore Pietà Versione 2 Intro  Invocazione 1                  Signore,   che  sei   venuto    a perdonare,                  abbi  pietà   di noi,       abbi  pietà  di  noi.                  Signore   pietà,  Signore    pietà.  Invocazione 2                  Cristo,  che  fai festa  per  chi  ritorna  a te,                  abbi  pietà   di noi,  abbi  pietà  di  noi.                  Cristo  pietà,  Cristo   pietà.  Invocazione 3                  Signore,   che  perdoni    molto    a chi  molto   ama,                  abbi  pietà   di noi,  abbi  pietà  di  noi.                  Signore   pietà,  Signore    pietà.",
+    "sub": "Buttazzo · Versione 2",
+    "search": "Signore Pietà Buttazzo Versione 2 Intro Invocazione 1 Signore, che sei venuto a perdonare, abbi pietà di noi, abbi pietà di noi. Signore pietà, Signore pietà. Invocazione 2 Cristo, che fai festa per chi ritorna a te, abbi pietà di noi, abbi pietà di noi. Cristo pietà, Cristo pietà. Invocazione 3 Signore, che perdoni molto a chi molto ama, abbi pietà di noi, abbi pietà di noi. Signore pietà, Signore pietà.",
     "file": "songs/signore-pieta-versione-2.json"
   },
   {

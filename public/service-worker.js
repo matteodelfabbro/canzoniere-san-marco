@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-capo-transpose-1';
+const CACHE_NAME = 'canzoniere-signore-pieta-accordi-1';
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -20,7 +20,6 @@ const APP_ASSETS = [
   "./songs/adoro-te.json",
   "./songs/agnello-di-dio-buttazzo-capo-3.json",
   "./songs/agnello-di-dio-ricci-la-tua-dimora.json",
-  "./songs/agnello-di-dio-versione-2-capo-3.json",
   "./songs/agnello-di-dio.json",
   "./songs/alleluia-buttazzo.json",
   "./songs/alleluia-canto-per-cristo.json",

@@ -76,18 +76,10 @@
       "id": "agnello-di-dio",
       "status": "verificato",
       "source_pages": [
-        15
-      ],
-      "notes": "Coincide con il libretto, comprese introduzione e tre invocazioni."
-    },
-    {
-      "numero": 8,
-      "id": "agnello-di-dio-versione-2-capo-3",
-      "status": "verificato",
-      "source_pages": [
+        15,
         16
       ],
-      "notes": "Coincide con la versione «Capo 3» del libretto. Mantenuta la notazione degli accordi originale."
+      "notes": "Unificato come «Agnello di Dio - Come Fuoco Vivo», con diteggiature in Re e Capo 3. La precedente scheda «Versione 2» era una duplicazione dello stesso canto."
     },
     {
       "numero": 9,
@@ -572,7 +564,7 @@
       "source_pages": [
         85
       ],
-      "notes": "Testo del Magnificat e accordi coincidono con il libretto."
+      "notes": "Attribuito a Buttazzo. Completate tutte e tre le invocazioni con la progressione armonica riportata nella prima."
     },
     {
       "numero": 61,

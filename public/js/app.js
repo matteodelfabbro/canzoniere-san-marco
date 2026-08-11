@@ -135,8 +135,15 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20260811-lazy-songs-1';
+const SONG_DATA_VERSION='20260811-signore-pieta-accordi-1';
 const songLoadPromises=new Map();
+const SONG_ID_ALIASES={
+  'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'
+};
+
+function canonicalSongId(id){
+  return SONG_ID_ALIASES[id]||id;
+}
 
 async function loadSongDetail(index){
   const song=songs[index];
@@ -328,8 +335,9 @@ function migrateStoredSongRefs(raw){
   const refs=Array.isArray(raw)?raw:[];
   const ids=[];
   refs.forEach(ref=>{
-    if(typeof ref==='string' && songs.some(song=>song.id===ref)){
-      ids.push(ref);
+    const canonicalRef=typeof ref==='string'?canonicalSongId(ref):ref;
+    if(typeof canonicalRef==='string' && songs.some(song=>song.id===canonicalRef)){
+      ids.push(canonicalRef);
     }else if(Number.isInteger(ref) && songs[ref]){
       ids.push(songs[ref].id);
     }
@@ -1053,7 +1061,8 @@ function setlistPosition(index){
   return personalSetlist.indexOf(songId(index));
 }
 function songIndexFromId(id){
-  return songs.findIndex(song=>song.id===id);
+  const canonicalId=canonicalSongId(id);
+  return songs.findIndex(song=>song.id===canonicalId);
 }
 function openFeedback(index=null){
   feedbackForm.reset();

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-signore-pieta-accordi-1';
+const CACHE_NAME = 'canzoniere-initial-song-2';
 const APP_ASSETS = [
   "./",
   "./index.html",

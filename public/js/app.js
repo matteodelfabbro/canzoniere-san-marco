@@ -164,7 +164,7 @@ async function loadSongDetail(index){
 }
 
 async function loadSongs() {
-  const response = await fetch('./data/songs-index.json');
+  const response = await fetch(`./data/songs-index.json?v=${SONG_DATA_VERSION}`);
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
   songs=songIndex.map(item=>({...item}));
@@ -175,8 +175,8 @@ async function loadSongs() {
 
   try{
     const [tagsResponse,suggestionsResponse]=await Promise.all([
-      fetch('./data/songs-tags.json'),
-      fetch('./data/search-suggestions.json')
+      fetch(`./data/songs-tags.json?v=${SONG_DATA_VERSION}`),
+      fetch(`./data/search-suggestions.json?v=${SONG_DATA_VERSION}`)
     ]);
     if(tagsResponse.ok)songsTags=await tagsResponse.json();
     if(suggestionsResponse.ok)searchSuggestionConfig=await suggestionsResponse.json();
@@ -2128,6 +2128,11 @@ const initialSong=songIndexFromHash();
 if(initialSong===null){
   history.replaceState({view:'list'},'',location.pathname+location.search);
   renderTiles();
+  void loadSongDetail(0).then(()=>{
+    if(songIndexFromHash()===null&&!document.body.classList.contains('song-open')){
+      renderSong(0);
+    }
+  }).catch(error=>console.warn('Anteprima iniziale non disponibile.',error));
 }else{
   const openedFromLegacyHash=/^#canto-\d+$/.test(location.hash);
   history.replaceState({view:'song',songId:songId(initialSong)},'',songHash(initialSong));

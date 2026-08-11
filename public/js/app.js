@@ -122,6 +122,11 @@ function capoText(song){
   return '';
 }
 
+function capoTransposeStart(song){
+  const capo=Array.isArray(song&&song.capo)?song.capo[0]:song&&song.capo;
+  return Number.isInteger(capo) && capo>0?-capo:0;
+}
+
 function songSubtitleWithoutCapo(song){
   return String(song&&song.sub||'')
     .replace(/\s*(?:[-·]\s*)?capo\s+\d+(?:\s*\/\s*\d+)*(?:\s*)$/i,'')
@@ -1800,7 +1805,9 @@ function compactRepeatedSongSections(song){
 
 function renderSong(i){
   const song=songs[i];
-  const shift=shiftState[i]||0;
+  const initialShift=capoTransposeStart(song);
+  const shift=shiftState[i]??initialShift;
+  const chordShift=shift-initialShift;
   const displaySub=songSubtitleWithoutCapo(song);
   const displayCapo=capoText(song);
   let html=`<div class="song-nav">
@@ -1894,7 +1901,7 @@ function renderSong(i){
       html+=renderChordLyricPair(
         line.v,
         next.v,
-        shift,
+        chordShift,
         line.anchors||null,
         line.anchorLayout||song.anchorLayout||'precise',
         line.flowSegments||null
@@ -1905,7 +1912,7 @@ function renderSong(i){
 
     const cleanText=(line.v||'').trimStart();
     if(line.t==='c'){
-      const chordText=esc(transposeLine(cleanText,shift));
+      const chordText=esc(transposeLine(cleanText,chordShift));
       const chordHtml=line.accent==='gold-bars'
         ?chordText.replace(/\|/g,'<span class="measure-bar">|</span>')
         :chordText;
@@ -1955,8 +1962,8 @@ function renderSong(i){
   const nextBtn=document.getElementById('setlistNext');
   if(prevBtn)prevBtn.addEventListener('click',()=>showSong(songIndexFromId(personalSetlist[setlistPosition(i)-1])));
   if(nextBtn)nextBtn.addEventListener('click',()=>showSong(songIndexFromId(personalSetlist[setlistPosition(i)+1])));
-  document.getElementById('tUp').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)+1;renderSong(i)});
-  document.getElementById('tDown').addEventListener('click',()=>{shiftState[i]=(shiftState[i]||0)-1;renderSong(i)});
+  document.getElementById('tUp').addEventListener('click',()=>{shiftState[i]=shift+1;renderSong(i)});
+  document.getElementById('tDown').addEventListener('click',()=>{shiftState[i]=shift-1;renderSong(i)});
 
   const changeFontSize=delta=>{
     songFontSize=Math.min(24,Math.max(12,songFontSize+delta));

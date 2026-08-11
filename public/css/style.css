@@ -2077,6 +2077,7 @@ header p.tag{
 /* Setlist unificate */
 .setlist-library{padding-top:0}
 .setlist-library-heading{display:flex;justify-content:flex-start;margin:.1rem 0 .6rem;padding:0}
+.setlist-back-button{display:none}
 .setlist-library-heading h2.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .setlist-new-button{
   width:100%;
@@ -2166,6 +2167,12 @@ header p.tag{
   .setlist-library-card{gap:.42rem;padding-right:.5rem}
   .setlist-card-icon-actions{gap:.08rem}
   .setlist-card-icon-button{width:1.9rem;height:1.9rem}
+}
+
+@media(max-width:1100px){
+  .setlist-library-heading{display:grid;grid-template-columns:1fr;gap:.48rem}
+  .setlist-back-button{display:inline-flex;align-items:center;justify-content:flex-start;min-height:2.35rem;padding:.45rem .65rem;border:0;border-radius:10px;background:transparent;color:var(--gold-bright);font-family:Manrope,sans-serif;font-size:.78rem;font-weight:650;cursor:pointer}
+  .setlist-back-button:hover,.setlist-back-button:focus-visible{background:rgba(198,162,77,.1);outline:none}
 }
 
 /* Setlist attiva — evidenziazione senza barra verticale */

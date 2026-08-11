@@ -214,6 +214,7 @@ const menuLogout=document.getElementById('menuLogout');
 const menuGreeting=document.getElementById('menuGreeting');
 const setlistLibrary=document.getElementById('setlistLibrary');
 const setlistLibraryTitle=document.getElementById('setlistLibraryTitle');
+const setlistBackButton=document.getElementById('setlistBackButton');
 const cloudSetlistsList=document.getElementById('cloudSetlistsList');
 const cloudSetlistsStatus=document.getElementById('cloudSetlistsStatus');
 const newSetlistButton=document.getElementById('newSetlistButton');
@@ -2013,6 +2014,10 @@ updateSearchClear();
 filterAll.addEventListener('click',()=>setListMode('all'));
 filterFavorites.addEventListener('click',()=>setListMode('favorites'));
 filterSetlist.addEventListener('click',()=>setListMode('setlist'));
+setlistBackButton.addEventListener('click',()=>{
+  setListMode('all');
+  window.scrollTo({top:0,behavior:'auto'});
+});
 newSetlistButton.addEventListener('click',createNewSetlist);
 sectionMenuToggle.addEventListener('click',toggleSectionMenu);
 sectionMenu.addEventListener('keydown',event=>{

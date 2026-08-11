@@ -1599,7 +1599,8 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
 
       const entry={
         chord:transposeLine(String(anchor.chord||''),shift),
-        offset:Math.max(0,Math.min(1,Number(anchor.offset)||0))
+        offset:Math.max(0,Math.min(1,Number(anchor.offset)||0)),
+        align:['left','center','right'].includes(anchor.align)?anchor.align:null
       };
 
       if(!anchorsByWord.has(wordIndex))anchorsByWord.set(wordIndex,[]);

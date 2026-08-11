@@ -130,52 +130,35 @@ function songSubtitleWithoutCapo(song){
 }
 
 
+const SONG_DATA_VERSION='20260811-lazy-songs-1';
+const songLoadPromises=new Map();
+
+async function loadSongDetail(index){
+  const song=songs[index];
+  if(!song)throw new Error('Canto non disponibile.');
+  if(Array.isArray(song.lines))return song;
+  if(songLoadPromises.has(index))return songLoadPromises.get(index);
+
+  const promise=(async()=>{
+    const response=await fetch(`./${song.file}?v=${SONG_DATA_VERSION}`);
+    if(!response.ok)throw new Error(`${song.title}: file non disponibile (${response.status})`);
+    const detail=await response.json();
+    songs[index]={...song,...detail,file:song.file};
+    return songs[index];
+  })().finally(()=>songLoadPromises.delete(index));
+
+  songLoadPromises.set(index,promise);
+  return promise;
+}
+
 async function loadSongs() {
-  const songDataVersion='20260811-capo-metadata-1';
   const response = await fetch('./data/songs-index.json');
   if (!response.ok) throw new Error('Impossibile caricare l’indice dei canti.');
   const songIndex = await response.json();
-  const songResults = await Promise.allSettled(
-    songIndex.map(async item => {
-      const songResponse = await fetch(`./${item.file}?v=${songDataVersion}`);
-
-      if (!songResponse.ok) {
-        throw new Error(
-          `${item.title}: file non disponibile (${songResponse.status})`
-        );
-      }
-
-      try {
-        return await songResponse.json();
-      } catch (error) {
-        throw new Error(`${item.title}: JSON non valido`, { cause: error });
-      }
-    })
-  );
-
-  songs = songResults
-    .filter(result => result.status === 'fulfilled')
-    .map(result => result.value);
-
-  const failedSongs = songResults
-    .map((result, index) => ({ result, item: songIndex[index] }))
-    .filter(({ result }) => result.status === 'rejected');
-
-  failedSongs.forEach(({ result, item }) => {
-    console.error(
-      `Canto saltato: ${item.title} (${item.file})`,
-      result.reason
-    );
-  });
+  songs=songIndex.map(item=>({...item}));
 
   if (!songs.length) {
     throw new Error('Nessun canto è stato caricato correttamente.');
-  }
-
-  if (failedSongs.length) {
-    console.warn(
-      `${failedSongs.length} canto/i non caricati. Gli altri restano disponibili.`
-    );
   }
 
   try{
@@ -1248,8 +1231,15 @@ async function trackSongOpen(id){
     console.warn('Conteggio apertura canto non riuscito.',error);
   }
 }
-function showSong(i,updateHistory=true){
+async function showSong(i,updateHistory=true){
   if(!songs[i])return;
+  try{
+    await loadSongDetail(i);
+  }catch(error){
+    console.error('Caricamento canto non riuscito.',error);
+    main.innerHTML='<p class="song-loading-error" role="alert">Non è stato possibile caricare questo canto. Riprova.</p>';
+    return;
+  }
   const wasOpen=document.body.classList.contains('song-open');
   const previousSongId=wasOpen?songId(activeIndex):null;
   const openedSongId=songId(i);
@@ -2117,16 +2107,15 @@ if ('serviceWorker' in navigator) {
   }
 }
 
-window.addEventListener('popstate',()=>{const index=songIndexFromHash();if(index===null)showList();else showSong(index,false)});
+window.addEventListener('popstate',()=>{const index=songIndexFromHash();if(index===null)showList();else void showSong(index,false)});
 const initialSong=songIndexFromHash();
 if(initialSong===null){
   history.replaceState({view:'list'},'',location.pathname+location.search);
   renderTiles();
-  renderSong(0);
 }else{
   const openedFromLegacyHash=/^#canto-\d+$/.test(location.hash);
   history.replaceState({view:'song',songId:songId(initialSong)},'',songHash(initialSong));
-  showSong(initialSong,false);
+  await showSong(initialSong,false);
   if(openedFromLegacyHash){
     history.replaceState({view:'song',songId:songId(initialSong)},'',songHash(initialSong));
   }

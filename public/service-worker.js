@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-setlist-back-1';
+const CACHE_NAME = 'canzoniere-pwa-update-1';
 const APP_ASSETS = [
   "./",
   "./index.html",

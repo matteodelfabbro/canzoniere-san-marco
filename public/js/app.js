@@ -2124,7 +2124,42 @@ if ('serviceWorker' in navigator) {
       registrations.forEach(registration => registration.unregister());
     });
   } else {
-    navigator.serviceWorker.register('/service-worker.js');
+    let hasActiveServiceWorker=Boolean(navigator.serviceWorker.controller);
+    let reloadingForUpdate=false;
+
+    navigator.serviceWorker.addEventListener('controllerchange',()=>{
+      if(!hasActiveServiceWorker){
+        hasActiveServiceWorker=true;
+        return;
+      }
+      if(reloadingForUpdate)return;
+      reloadingForUpdate=true;
+      location.reload();
+    });
+
+    navigator.serviceWorker.register('/service-worker.js',{updateViaCache:'none'})
+      .then(registration=>{
+        let updatePending=false;
+        const checkForAppUpdate=async()=>{
+          if(updatePending||!navigator.onLine)return;
+          updatePending=true;
+          try{
+            await registration.update();
+          }catch(error){
+            console.warn('Controllo aggiornamenti PWA non riuscito.',error);
+          }finally{
+            updatePending=false;
+          }
+        };
+
+        void checkForAppUpdate();
+        window.addEventListener('online',checkForAppUpdate);
+        document.addEventListener('visibilitychange',()=>{
+          if(document.visibilityState==='visible')void checkForAppUpdate();
+        });
+        window.setInterval(checkForAppUpdate,60*60*1000);
+      })
+      .catch(error=>console.warn('Registrazione PWA non riuscita.',error));
   }
 }
 

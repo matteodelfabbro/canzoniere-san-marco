@@ -37,7 +37,18 @@
     },
     {
       "t": "c",
-      "v": "         DO                FA        SOL   DO"
+      "v": "FA SOL DO",
+      "flowSegments": [
+        {
+          "parts": [
+            { "chord": "", "lyric": "Quando      la tem" },
+            { "chord": "FA", "lyric": "pe" },
+            { "chord": "", "lyric": "sta    " },
+            { "chord": "SOL", "lyric": "arrive" },
+            { "chord": "DO", "lyric": "rà" }
+          ]
+        }
+      ]
     },
     {
       "t": "l",

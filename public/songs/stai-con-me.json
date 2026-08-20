@@ -106,6 +106,56 @@
     },
     {
       "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "FA SOL DO",
+      "flowSegments": [
+        {
+          "parts": [
+            { "chord": "", "lyric": "Quando      la tem" },
+            { "chord": "FA", "lyric": "pe" },
+            { "chord": "", "lyric": "sta    " },
+            { "chord": "SOL", "lyric": "arrive" },
+            { "chord": "DO", "lyric": "rà" }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Quando      la tempesta    arriverà"
+    },
+    {
+      "t": "c",
+      "v": "                          FA       SOL        LA-"
+    },
+    {
+      "t": "l",
+      "v": "         Volerò    più  in alto  insieme   a  te,"
+    },
+    {
+      "t": "c",
+      "v": "                         FA     SOL       DO"
+    },
+    {
+      "t": "l",
+      "v": "         nelle  avversità   sarai  con  me"
+    },
+    {
+      "t": "c",
+      "v": "                     FA           SOL         DO"
+    },
+    {
+      "t": "l",
+      "v": "         ed  io  saprò   che  tu sei il mio  re."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
       "v": "Finale"
     },
     {

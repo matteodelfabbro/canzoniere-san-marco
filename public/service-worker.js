@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-pwa-update-1';
+const CACHE_NAME = 'canzoniere-offline-completo-1';
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -220,16 +220,42 @@ const APP_ASSETS = [
   "./songs/voi-siete-di-dio.json"
 ];
 
+const CORE_ASSETS = APP_ASSETS.filter(url => !url.startsWith('./songs/'));
+const SONG_ASSETS = APP_ASSETS.filter(url => url.startsWith('./songs/'));
+const PRECACHE_BATCH_SIZE = 8;
+
+async function cacheAssetBatch(cache, urls) {
+  const downloaded = await Promise.all(urls.map(async url => {
+    const request = new Request(url, { cache: 'reload' });
+    const response = await fetch(request);
+    if (!response.ok) throw new Error(`Precache non riuscita per ${url}: ${response.status}`);
+    return { request, response };
+  }));
+
+  await Promise.all(downloaded.map(({ request, response }) => cache.put(request, response)));
+}
+
+async function prepareCompleteOfflineCache() {
+  try {
+    const cache = await caches.open(CACHE_NAME);
+
+    // Prima l'app essenziale: pagina, stile, logica e indici di ricerca.
+    await cacheAssetBatch(cache, CORE_ASSETS);
+
+    // Poi i canti, pochi alla volta: evita centinaia di richieste simultanee
+    // che su iPad possono lasciare una cache solo parzialmente popolata.
+    for (let index = 0; index < SONG_ASSETS.length; index += PRECACHE_BATCH_SIZE) {
+      await cacheAssetBatch(cache, SONG_ASSETS.slice(index, index + PRECACHE_BATCH_SIZE));
+    }
+  } catch (error) {
+    // Una cache incompleta non deve mai diventare la versione offline attiva.
+    await caches.delete(CACHE_NAME);
+    throw error;
+  }
+}
+
 self.addEventListener('install', event => {
-  // Promise.allSettled: se anche un solo file manca o è stato rinominato,
-  // l'installazione non fallisce più per intero — vengono semplicemente
-  // messi in cache tutti gli altri, e quello mancante verrà comunque
-  // recuperato dalla rete al primo utilizzo (gestione nel fetch handler).
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache =>
-      Promise.allSettled(APP_ASSETS.map(url => cache.add(url)))
-    )
-  );
+  event.waitUntil(prepareCompleteOfflineCache());
   self.skipWaiting();
 });
 

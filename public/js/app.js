@@ -361,14 +361,21 @@ function readLocalSetlists(){
       if(parsed.length>1&&!localStorage.getItem(LOCAL_SETLISTS_BACKUP_KEY)){
         localStorage.setItem(LOCAL_SETLISTS_BACKUP_KEY,JSON.stringify(parsed));
       }
-      const activeId=localStorage.getItem('activeLocalSetlistId');
-      const item=parsed.find(entry=>entry?.id===activeId)||parsed[0];
-      return [{
-        id:String(item?.id||makeLocalSetlistId()),
-        name:String(item?.name||'La mia Setlist').slice(0,40),
-        songs:migrateStoredSongRefs(item?.songs||[]),
-        updatedAt:Number(item?.updatedAt)||Date.now()
-      }];
+      const seenIds=new Set();
+      const records=parsed
+        .filter(item=>item&&typeof item==='object')
+        .map(item=>({
+          id:String(item.id||makeLocalSetlistId()),
+          name:String(item.name||'La mia Setlist').slice(0,40),
+          songs:migrateStoredSongRefs(item.songs||[]),
+          updatedAt:Number(item.updatedAt)||Date.now()
+        }))
+        .filter(item=>{
+          if(seenIds.has(item.id))return false;
+          seenIds.add(item.id);
+          return true;
+        });
+      if(records.length)return records;
     }
   }catch(error){console.warn('Setlist locali non leggibili.',error);}
   let legacySongs=[];
@@ -736,7 +743,7 @@ function updateSetlistLibraryVisibility(){
   setlistLibrary.hidden=!show;
   if(!show)placeTileListInDefaultPosition();
   newSetlistButton.hidden=!(currentUser&&db);
-  setlistLibraryTitle.textContent=currentUser?'Setlist personali online':'Setlist salvata su questo dispositivo';
+  setlistLibraryTitle.textContent=currentUser?'Setlist personali online':'Setlist salvate su questo dispositivo';
   if(show)loadCloudSetlists();
 }
 function setCloudStatus(message){cloudSetlistsStatus.textContent=message||'';}
@@ -1002,8 +1009,24 @@ async function importCloudSetlistFromUrl(){
       personalSetlistName=(item.name||'Setlist condivisa').slice(0,40);
       localStorage.setItem('personalSetlist',JSON.stringify(personalSetlist));
       localStorage.setItem('personalSetlistName',personalSetlistName);
-      if(currentUser?.uid===item.ownerUid){activeCloudSetlistId=id;localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,id);}
-      else{activeCloudSetlistId=null;}
+      if(currentUser?.uid===item.ownerUid){
+        activeCloudSetlistId=id;
+        localStorage.setItem(`activeCloudSetlistId:${currentUser.uid}`,id);
+      }else{
+        activeCloudSetlistId=null;
+        if(!currentUser){
+          const localCopy={
+            id:makeLocalSetlistId(),
+            name:personalSetlistName,
+            songs:personalSetlist.slice(0,250),
+            updatedAt:Date.now()
+          };
+          localSetlists.unshift(localCopy);
+          activeLocalSetlistId=localCopy.id;
+          localStorage.setItem('activeLocalSetlistId',activeLocalSetlistId);
+          writeLocalSetlists();
+        }
+      }
       setListMode('setlist');
     }
   }catch(error){console.error('Apertura setlist condivisa non riuscita.',error);alert('Non è stato possibile aprire la setlist condivisa.');}

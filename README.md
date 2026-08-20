@@ -32,7 +32,7 @@ Non riscrivere la cronologia Git: i commit pubblicati sono la memoria del proget
 - consultazione e ricerca dei canti;
 - accordi, trasposizione e struttura delle sezioni;
 - preferiti sincronizzati per ogni utente Google;
-- una setlist locale senza login, piu setlist sincronizzate con login.
+- setlist locali senza login, piu setlist sincronizzate con login.
 
 ## Documentazione
 

@@ -35,6 +35,7 @@
     {
       "t": "c",
       "v": "MI LA DO#- SI MI LA MI LA MI LA MI",
+      "anchorLayout": "flow",
       "anchors": [
         { "word": 0, "chord": "MI" },
         { "word": 2, "chord": "LA" },

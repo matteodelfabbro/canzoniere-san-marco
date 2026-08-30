@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-offline-verificato-10';
+const CACHE_NAME = 'canzoniere-offline-verificato-11';
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -347,8 +347,9 @@ self.addEventListener('fetch', event => {
       }))
     );
   } else if (isFrequentlyUpdated) {
+    const freshRequest = new Request(event.request, { cache: 'reload' });
     event.respondWith(
-      fetch(event.request)
+      fetch(freshRequest)
         .then(response => {
           const copy = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));

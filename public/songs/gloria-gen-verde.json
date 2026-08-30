@@ -62,7 +62,7 @@
     },
     {
       "t": "c",
-      "v": "              LA    MI      FA#-7      MI"
+      "v": "              LA    MI      FA#-       MI"
     },
     {
       "t": "l",
@@ -86,7 +86,7 @@
     },
     {
       "t": "c",
-      "v": "            LA      MI   FA#-7     MI    LA       MI     RE   MI"
+      "v": "            LA      MI   FA#-      MI    LA       MI     RE   MI"
     },
     {
       "t": "l",
@@ -94,7 +94,7 @@
     },
     {
       "t": "c",
-      "v": "          LA    MI    FA#-7        MI     RE    SI  FA#-7     RE   SI"
+      "v": "          LA    MI    FA#-         MI     RE    SI  FA#-      RE   SI"
     },
     {
       "t": "l",
@@ -194,7 +194,7 @@
     },
     {
       "t": "c",
-      "v": "           LA      MI     FA#-         MI         RE    SI  FA#-7     RE   SI"
+      "v": "           LA      MI     FA#-         MI         RE    SI  FA#-      RE   SI"
     },
     {
       "t": "l",

@@ -1,7 +1,7 @@
 {
   "title": "Tu Sei",
-  "sub": "",
-  "capo": null,
+  "sub": "Capo 2",
+  "capo": 2,
   "key": {
     "note": "DO",
     "mode": "maggiore"
@@ -85,7 +85,7 @@
     },
     {
       "t": "c",
-      "v": "           SIb           LA         RE    MI     LA"
+      "v": "           FA            LA         RE    MI     LA"
     },
     {
       "t": "l",

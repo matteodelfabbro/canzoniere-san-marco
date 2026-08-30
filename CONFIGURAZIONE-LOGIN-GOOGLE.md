@@ -6,6 +6,10 @@ Il codice del sito e le regole Firestore sono gia pronti. Per rendere effettivo 
 2. Vai in **Authentication** e crea il servizio, se non esiste.
 3. In **Sign-in method**, attiva il provider **Google** e salva.
 4. In **Settings > Authorized domains**, aggiungi `canzoniere.matteodelfabbro.it` se vuoi usare anche il dominio personalizzato.
-5. Pubblica il progetto con `firebase deploy --only hosting,firestore:rules`.
+5. Nella configurazione del client OAuth Google aggiungi anche l'URI di reindirizzamento autorizzato:
+
+   `https://canzoniere.matteodelfabbro.it/__/auth/handler`
+
+6. Pubblica il progetto con `firebase deploy --only hosting,firestore:rules`.
 
 Il dominio Firebase predefinito e autorizzato automaticamente; il dominio personalizzato va aggiunto separatamente.

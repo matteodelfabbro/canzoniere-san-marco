@@ -1,9 +1,10 @@
-const CACHE_NAME = 'canzoniere-offline-completo-1';
+const CACHE_NAME = 'canzoniere-offline-verificato-8';
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./css/style.css",
   "./js/app.js",
+  "./js/firebase-config.js",
   "./data/songs-index.json",
   "./data/songs-tags.json",
   "./data/search-suggestions.json",
@@ -224,11 +225,31 @@ const CORE_ASSETS = APP_ASSETS.filter(url => !url.startsWith('./songs/'));
 const SONG_ASSETS = APP_ASSETS.filter(url => url.startsWith('./songs/'));
 const PRECACHE_BATCH_SIZE = 8;
 
+function matchOfflineAsset(request) {
+  // app.js aggiunge ?v=... a indici e canti per evitare dati vecchi online.
+  // Il precache usa invece gli URL canonici senza query: offline dobbiamo
+  // ignorare soltanto la query, mantenendo invariati percorso e origine.
+  return caches.match(request, { ignoreSearch: true });
+}
+
+async function isValidOfflineResponse(url, response) {
+  if (!response || !response.ok) return false;
+  if (!new URL(url, self.location.origin).pathname.endsWith('.json')) return true;
+  try {
+    await response.clone().json();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function cacheAssetBatch(cache, urls) {
   const downloaded = await Promise.all(urls.map(async url => {
     const request = new Request(url, { cache: 'reload' });
     const response = await fetch(request);
-    if (!response.ok) throw new Error(`Precache non riuscita per ${url}: ${response.status}`);
+    if (!await isValidOfflineResponse(url, response)) {
+      throw new Error(`Precache non valida per ${url}: ${response.status}`);
+    }
     return { request, response };
   }));
 
@@ -254,6 +275,27 @@ async function prepareCompleteOfflineCache() {
   }
 }
 
+async function missingOfflineAssets() {
+  const cache = await caches.open(CACHE_NAME);
+  const checks = await Promise.all(APP_ASSETS.map(async url => ({
+    url,
+    valid: await isValidOfflineResponse(url, await cache.match(new Request(url), { ignoreSearch: true }))
+  })));
+  return checks.filter(({ valid }) => !valid).map(({ url }) => url);
+}
+
+async function ensureOfflineCache() {
+  let missing = await missingOfflineAssets();
+  if (missing.length && self.navigator.onLine !== false) {
+    const cache = await caches.open(CACHE_NAME);
+    for (let index = 0; index < missing.length; index += PRECACHE_BATCH_SIZE) {
+      await cacheAssetBatch(cache, missing.slice(index, index + PRECACHE_BATCH_SIZE));
+    }
+    missing = await missingOfflineAssets();
+  }
+  return { ready: missing.length === 0 };
+}
+
 self.addEventListener('install', event => {
   event.waitUntil(prepareCompleteOfflineCache());
   self.skipWaiting();
@@ -264,6 +306,18 @@ self.addEventListener('activate', event => {
     caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))))
   );
   self.clients.claim();
+});
+
+self.addEventListener('message', event => {
+  if (event.data?.type !== 'CHECK_OFFLINE_READY') return;
+  const reply = event.ports?.[0];
+  const task = ensureOfflineCache()
+    .then(result => reply?.postMessage(result))
+    .catch(error => {
+      console.warn('Verifica cache offline non riuscita.', error);
+      reply?.postMessage({ ready: false });
+    });
+  event.waitUntil(task);
 });
 
 self.addEventListener('fetch', event => {
@@ -278,9 +332,21 @@ self.addEventListener('fetch', event => {
   // che di fatto non cambiano quasi mai.
   const url = new URL(event.request.url);
   const pathname = url.pathname;
+  const isSong = pathname.startsWith('/songs/') && pathname.endsWith('.json');
   const isFrequentlyUpdated = pathname.endsWith('.json') || pathname.endsWith('.css') || pathname.endsWith('.js') || pathname.endsWith('.html') || pathname.endsWith('/');
 
-  if (isFrequentlyUpdated) {
+  if (isSong) {
+    // Su Safari/iPad una richiesta rete-prima può restare sospesa a lungo in
+    // modalità aereo. I canti già verificati devono aprirsi immediatamente
+    // dalla cache; quando manca la copia locale, usiamo la rete e la salviamo.
+    event.respondWith(
+      matchOfflineAsset(event.request).then(cached => cached || fetch(event.request).then(response => {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+        return response;
+      }))
+    );
+  } else if (isFrequentlyUpdated) {
     event.respondWith(
       fetch(event.request)
         .then(response => {
@@ -288,13 +354,13 @@ self.addEventListener('fetch', event => {
           caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
           return response;
         })
-        .catch(() => caches.match(event.request))
+        .catch(() => matchOfflineAsset(event.request))
     );
   } else {
     // Cache prima solo per icone e manifest: non cambiano quasi mai,
     // niente da guadagnare a ricontrollarli ad ogni apertura del sito.
     event.respondWith(
-      caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
+      matchOfflineAsset(event.request).then(cached => cached || fetch(event.request).then(response => {
         const copy = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
         return response;

@@ -6,12 +6,15 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'accogli-i-nostri-doni':1,
   'acqua-siamo-noi':2,
   'adesso-e-la-pienezza':3,
+  'adeste-fideles':4,
   'agnello-di-dio':6,
   'adoro-te':7,
   'alleluia-canto-per-cristo':8,
   'alleluia-ed-oggi-ancora':9,
+  'amo':12,
   'alleluia-la-nostra-festa':13,
   'alleluia-passeranno-i-cieli':15,
+  'astro-del-ciel':17,
   'alleluia-taize':20,
   'andate-per-le-strade':25,
   'alleluia-verbum-panis':26,
@@ -24,6 +27,7 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'camminiamo-incontro-al-signore':43,
   'cantate-al-signore-ricci':44,
   'cantate-al-signore-un-canto-nuovo-fallormi':46,
+  'cristo-e-risorto-veramente':48,
   'cantiamo-te':51,
   'chi':53,
   'chi-ci-separera':54,
@@ -31,6 +35,7 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'come-fuoco-vivo':57,
   'come-l-aurora-verrai':59,
   'come-maria':60,
+  'e-l-incontro-della-vita':62,
   'davanti-a-questo-amore':64,
   'dall-aurora-al-tramonto':65,
   'del-tuo-spirito-signore':67,
@@ -44,6 +49,7 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'ho-abbandonato':80,
   'il-canto-dei-3-giovani':81,
   'il-canto-dell-amore':82,
+  'il-canto-del-mare':83,
   'il-disegno':84,
   'il-giovane-ricco':85,
   'il-pane-che-ci-hai-dato':86,
@@ -56,19 +62,25 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'la-preghiera-di-gesu-e-la-nostra':108,
   'laudato-sii-o-mi-signore':109,
   'laudato-sii-signore-mio':110,
+  'le-tue-mani':112,
   'le-tue-meraviglie':113,
+  'lode-al-nome-tuo':117,
   'lode-a-te-o-cristo':118,
   'luce-di-verita':120,
   'lui-m-ha-dato':121,
   'mani':122,
   'maria-porta-dell-avvento':124,
+  'musica-di-festa':130,
   'nel-tuo-silenzio':131,
   'non-avere-paura':136,
   'non-vivere-di-corsa':137,
   'oggi-e-un-giorno-di-festa':140,
   'ogni-mia-parola':141,
+  'ora-e-tempo-di-gioia':142,
+  'osanna-al-figlio-di-david':145,
   'padre-nostro-s-andrea':147,
   'pane-del-cielo':149,
+  'pane-di-vita':150,
   'pietro-vai':154,
   'popoli-tutti':156,
   'quale-gioia-salmo-121':161,
@@ -85,6 +97,7 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'santo-gen-messa-come-fuoco-vivo':180,
   'santo-gen-verde':181,
   'santo-zairese':183,
+  'segni-del-tuo-amore':184,
   'se-tu-vedrai':185,
   'scusa-signore':186,
   'segni-nuovi':187,
@@ -97,6 +110,7 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'ti-ringrazio-mio-signore':208,
   'su-ali-d-aquila':212,
   'ti-seguiro':218,
+  'tu-sei':211,
   'tu-sei-sorgente-viva':220,
   'venimus-adorare-eum-emmanuel-inno-gmg-2005':221,
   'venite-applaudiamo-al-signore':224,
@@ -227,7 +241,8 @@ const feedbackSongId=document.getElementById('feedbackSongId');
 const feedbackPage=document.getElementById('feedbackPage');
 const feedbackDevice=document.getElementById('feedbackDevice');
 const feedbackStatus=document.getElementById('feedbackStatus');
-const generalFeedback=document.getElementById('generalFeedback');
+const offlineStatus=document.getElementById('offlineStatus');
+const offlineStatusText=document.getElementById('offlineStatusText');
 const installBanner=document.getElementById('installBanner');
 const installBannerAction=document.getElementById('installBannerAction');
 const installBannerClose=document.getElementById('installBannerClose');
@@ -310,6 +325,12 @@ async function loginWithGoogle(){
     return;
   }
   try{
+    const isInstalledIosApp=(navigator.standalone===true)||window.matchMedia('(display-mode: standalone)').matches;
+    const isIpadOrIphone=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+    if(isInstalledIosApp&&isIpadOrIphone){
+      await auth.signInWithRedirect(googleProvider);
+      return;
+    }
     await auth.signInWithPopup(googleProvider);
   }catch(error){
     if(error?.code==='auth/popup-blocked'){
@@ -2054,7 +2075,7 @@ document.addEventListener('click',event=>{
 });
 menuFeedback.addEventListener('click',()=>{
   closeSectionMenu();
-  generalFeedback.click();
+  openFeedback();
 });
 menuLogin.addEventListener('click',async()=>{
   closeSectionMenu();
@@ -2130,7 +2151,6 @@ installBannerAction.addEventListener('click',async()=>{
 
 if(isIosDevice()) showInstallBanner();
 
-generalFeedback.addEventListener('click',()=>openFeedback());
 feedbackClose.addEventListener('click',closeFeedback);
 feedbackModal.querySelectorAll('[data-close-feedback]').forEach(element=>element.addEventListener('click',closeFeedback));
 feedbackForm.addEventListener('submit',submitFeedback);
@@ -2138,17 +2158,58 @@ document.addEventListener('keydown',event=>{
   if(event.key==='Escape'&&!feedbackModal.hidden)closeFeedback();
 });
 
+function setOfflineStatus(state,text){
+  if(!offlineStatus||!offlineStatusText)return;
+  offlineStatus.dataset.state=state;
+  offlineStatusText.textContent=text;
+}
+
 if ('serviceWorker' in navigator) {
   if (
     location.hostname === 'localhost' ||
     location.hostname === '127.0.0.1'
   ) {
+    setOfflineStatus('attention','Offline non disponibile in anteprima');
     navigator.serviceWorker.getRegistrations().then(registrations => {
       registrations.forEach(registration => registration.unregister());
     });
   } else {
+    setOfflineStatus('updating','Verifica aggiornamento offline…');
     let hasActiveServiceWorker=Boolean(navigator.serviceWorker.controller);
     let reloadingForUpdate=false;
+    let offlineCheckPending=false;
+
+    const checkOfflineContents=async registration=>{
+      if(offlineCheckPending)return;
+      const worker=navigator.serviceWorker.controller||registration.active;
+      if(!worker){
+        setOfflineStatus('updating','Preparazione offline in corso…');
+        return;
+      }
+      offlineCheckPending=true;
+      setOfflineStatus('updating',navigator.onLine?'Verifica e preparazione offline…':'Verifica disponibilità offline…');
+      try{
+        const result=await new Promise((resolve,reject)=>{
+          const channel=new MessageChannel();
+          const timeout=window.setTimeout(()=>reject(new Error('Verifica offline scaduta')),45000);
+          channel.port1.onmessage=event=>{
+            window.clearTimeout(timeout);
+            resolve(event.data);
+          };
+          worker.postMessage({type:'CHECK_OFFLINE_READY'},[channel.port2]);
+        });
+        if(result?.ready){
+          setOfflineStatus('ready','Canti disponibili offline');
+        }else{
+          setOfflineStatus('attention',navigator.onLine?'Preparazione offline non completata':'Canti non disponibili offline');
+        }
+      }catch(error){
+        console.warn('Verifica contenuti offline non riuscita.',error);
+        setOfflineStatus('attention','Offline non verificato');
+      }finally{
+        offlineCheckPending=false;
+      }
+    };
 
     navigator.serviceWorker.addEventListener('controllerchange',()=>{
       if(!hasActiveServiceWorker){
@@ -2162,6 +2223,24 @@ if ('serviceWorker' in navigator) {
 
     navigator.serviceWorker.register('/service-worker.js',{updateViaCache:'none'})
       .then(registration=>{
+        const refreshOfflineStatus=()=>{
+          if(registration.installing){
+            setOfflineStatus('updating','Aggiornamento offline in corso…');
+          }else if(registration.waiting){
+            setOfflineStatus('attention','Aggiornamento offline disponibile');
+          }else if(registration.active&&navigator.serviceWorker.controller){
+            void checkOfflineContents(registration);
+          }else{
+            setOfflineStatus('updating','Preparazione offline in corso…');
+          }
+        };
+
+        refreshOfflineStatus();
+        registration.addEventListener('updatefound',()=>{
+          refreshOfflineStatus();
+          registration.installing?.addEventListener('statechange',refreshOfflineStatus);
+        });
+
         let updatePending=false;
         const checkForAppUpdate=async()=>{
           if(updatePending||!navigator.onLine)return;
@@ -2170,20 +2249,33 @@ if ('serviceWorker' in navigator) {
             await registration.update();
           }catch(error){
             console.warn('Controllo aggiornamenti PWA non riuscito.',error);
+            if(!registration.active){
+              setOfflineStatus('attention','Non ancora disponibile offline');
+              return;
+            }
           }finally{
             updatePending=false;
           }
+          refreshOfflineStatus();
         };
 
         void checkForAppUpdate();
-        window.addEventListener('online',checkForAppUpdate);
+        window.addEventListener('online',async()=>{
+          await checkForAppUpdate();
+          await checkOfflineContents(registration);
+        });
         document.addEventListener('visibilitychange',()=>{
           if(document.visibilityState==='visible')void checkForAppUpdate();
         });
         window.setInterval(checkForAppUpdate,60*60*1000);
       })
-      .catch(error=>console.warn('Registrazione PWA non riuscita.',error));
+      .catch(error=>{
+        console.warn('Registrazione PWA non riuscita.',error);
+        setOfflineStatus('attention','Non ancora disponibile offline');
+      });
   }
+}else{
+  setOfflineStatus('attention','Offline non disponibile');
 }
 
 window.addEventListener('popstate',()=>{const index=songIndexFromHash();if(index===null)showList();else void showSong(index,false)});

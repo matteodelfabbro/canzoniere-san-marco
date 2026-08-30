@@ -1,7 +1,10 @@
 {
   "title": "Come Tu Mi Vuoi",
-  "sub": "Branca",
-  "capo": null,
+  "sub": "Branca - Capo 1/2",
+  "capo": [
+    1,
+    2
+  ],
   "key": {
     "note": "SOL",
     "mode": "maggiore"
@@ -145,39 +148,7 @@
     },
     {
       "t": "h",
-      "v": "Ritornello"
-    },
-    {
-      "t": "c",
-      "v": "   RE             SOL       RE                MI-          SI-"
-    },
-    {
-      "t": "l",
-      "v": "   Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,"
-    },
-    {
-      "t": "c",
-      "v": "           DO       RE         SI-    MI-         FA                         RE4"
-    },
-    {
-      "t": "l",
-      "v": "   Questa  vita io voglio  donarla  a Te  per dar  gloria al Tuo  nome   mio  Re"
-    },
-    {
-      "t": "c",
-      "v": "   RE             DO         RE   SI7          MI-         SI-"
-    },
-    {
-      "t": "l",
-      "v": "   Come   Tu  mi  vuoi, io sarò, dove   Tu mi  vuoi io andrò,"
-    },
-    {
-      "t": "c",
-      "v": "         DO               RE       SI7       MI-"
-    },
-    {
-      "t": "l",
-      "v": "   Se mi  guida il Tuo  amore   paura  non  ho,"
+      "v": "Ripetere il ritornello fino a “paura non ho”, poi:"
     },
     {
       "t": "c",

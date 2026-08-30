@@ -35,13 +35,12 @@
     {
       "t": "c",
       "v": "MI LA DO#- SI MI LA MI LA MI LA MI",
-      "anchorLayout": "flow",
       "anchors": [
         { "word": 0, "chord": "MI" },
         { "word": 2, "chord": "LA" },
-        { "word": 3, "chord": "DO#-" },
-        { "word": 4, "chord": "SI" },
-        { "word": 5, "chord": "MI" },
+        { "word": 4, "chord": "DO#-", "offset": 0, "align": "left" },
+        { "word": 4, "chord": "SI", "offset": 1, "align": "right" },
+        { "word": 5, "chord": "MI", "offset": 0.5, "align": "center" },
         { "word": 6, "chord": "LA" },
         { "word": 7, "chord": "MI" },
         { "word": 8, "chord": "LA", "offset": 0, "align": "left" },

@@ -26,7 +26,7 @@
     },
     {
       "t": "c",
-      "v": "   MI      LA      DO#-7      SI       MI          LA        DO#-7     SI"
+      "v": "   MI      LA      DO#-       SI       MI          LA        DO#-      SI"
     },
     {
       "t": "l",
@@ -34,11 +34,11 @@
     },
     {
       "t": "c",
-      "v": "MI LA DO#-7 SI MI LA MI LA MI LA MI",
+      "v": "MI LA DO#- SI MI LA MI LA MI LA MI",
       "anchors": [
         { "word": 0, "chord": "MI" },
         { "word": 2, "chord": "LA" },
-        { "word": 3, "chord": "DO#-7" },
+        { "word": 3, "chord": "DO#-" },
         { "word": 4, "chord": "SI" },
         { "word": 5, "chord": "MI" },
         { "word": 6, "chord": "LA" },

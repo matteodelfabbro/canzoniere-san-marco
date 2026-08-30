@@ -126,7 +126,9 @@ function legacyBookNumber(song){
 function capoText(song){
   const capo=song&&song.capo;
   if(Array.isArray(capo) && capo.length){
-    return `Capo: ${capo.join(' / ')}`;
+    return song.capoOptional
+      ? `Volendo capo ${capo.join(' / ')}`
+      : `Capo: ${capo.join(' / ')}`;
   }
   if(Number.isInteger(capo) && capo>0){
     return song.capoOptional
@@ -137,6 +139,7 @@ function capoText(song){
 }
 
 function capoTransposeStart(song){
+  if(song&&song.capoOptional)return 0;
   const capo=Array.isArray(song&&song.capo)?song.capo[0]:song&&song.capo;
   return Number.isInteger(capo) && capo>0?-capo:0;
 }

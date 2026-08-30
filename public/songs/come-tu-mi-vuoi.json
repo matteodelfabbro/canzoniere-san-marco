@@ -1,10 +1,11 @@
 {
   "title": "Come Tu Mi Vuoi",
-  "sub": "Branca - Capo 1/2",
+  "sub": "Branca",
   "capo": [
     1,
     2
   ],
+  "capoOptional": true,
   "key": {
     "note": "SOL",
     "mode": "maggiore"

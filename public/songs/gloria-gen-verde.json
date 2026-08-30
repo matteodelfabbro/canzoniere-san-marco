@@ -34,7 +34,20 @@
     },
     {
       "t": "c",
-      "v": "   MI      LA         DO#-7      SI  MI     LA   MI    LA   MI   LA    MI"
+      "v": "MI LA DO#-7 SI MI LA MI LA MI LA MI",
+      "anchors": [
+        { "word": 0, "chord": "MI" },
+        { "word": 2, "chord": "LA" },
+        { "word": 3, "chord": "DO#-7" },
+        { "word": 4, "chord": "SI" },
+        { "word": 5, "chord": "MI" },
+        { "word": 6, "chord": "LA" },
+        { "word": 7, "chord": "MI" },
+        { "word": 8, "chord": "LA", "offset": 0, "align": "left" },
+        { "word": 8, "chord": "MI", "offset": 0.33, "align": "center" },
+        { "word": 8, "chord": "LA", "offset": 0.66, "align": "center" },
+        { "word": 8, "chord": "MI", "offset": 1, "align": "right" }
+      ]
     },
     {
       "t": "l",

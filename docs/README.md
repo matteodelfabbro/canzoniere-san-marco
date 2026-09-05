@@ -18,4 +18,5 @@ Questa cartella conserva il lavoro di controllo e le note tecniche del canzonier
 ## Orientamento
 
 - `STORICO-PROGETTO.md`: scelte operative, pubblicazione e stato dei branch;
+- `MODIFICHE-OTTIMIZZAZIONI-2026-09.md`: registro interventi tecnici, offline font, service worker dinamico e rollback;
 - la cronologia dettagliata e definitiva rimane in GitHub, nel tab **Commits**.

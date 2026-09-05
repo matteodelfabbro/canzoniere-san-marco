@@ -39,3 +39,12 @@ git log --oneline --decorate
 - Verificati `main` e `refactor`: sono allineati e senza modifiche pendenti.
 - Confermato che i file di sistema macOS e la cache Firebase sono ignorati da Git.
 - Aggiunti un README centrale e un indice della documentazione.
+
+## Interventi di modernizzazione e ottimizzazione del 5 settembre 2026
+
+- Eseguito backup preventivo su branch GitHub `backup-pre-modernizzazione-20260905`.
+- Scaricati localmente i font Manrope in `public/fonts/` e rimossa la dipendenza esterna da Google Fonts via `@import`, ottenendo una resa identica sia online che offline al 100%.
+- Automatizzato il precache dei canti nel Service Worker tramite lettura dinamica di `data/songs-index.json`.
+- Rimosso codice morto/orfano e non definito in coda ad `app.js` e la funzione `levenshtein` non utilizzata.
+- Tutti i dettagli tecnici e la guida di rollback sono documentati in `docs/MODIFICHE-OTTIMIZZAZIONI-2026-09.md`.
+

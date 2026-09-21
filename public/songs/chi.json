@@ -135,7 +135,21 @@
     },
     {
       "t": "c",
-      "v": "       MI                             SOL#-7       DO#-7"
+      "v": "MI SOL#-7 DO#-7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 7,
+          "chord": "DO#-7"
+        }
+      ]
     },
     {
       "t": "l",
@@ -143,7 +157,29 @@
     },
     {
       "t": "c",
-      "v": "       LA        SI         MI       SI7    MI"
+      "v": "LA SI MI SI7 MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "SI7"
+        },
+        {
+          "word": 5,
+          "chord": "MI"
+        }
+      ]
     },
     {
       "t": "l",
@@ -151,7 +187,25 @@
     },
     {
       "t": "c",
-      "v": "       SOL#-7       DO#-7          LA               SI"
+      "v": "SOL#-7 DO#-7 LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-7"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        }
+      ]
     },
     {
       "t": "l",
@@ -159,7 +213,29 @@
     },
     {
       "t": "c",
-      "v": "       MI          SI  LA         SI"
+      "v": "MI SI LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 1,
+          "chord": "SI",
+          "offset": 1,
+          "align": "right"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI",
+          "offset": 1,
+          "align": "right"
+        }
+      ]
     },
     {
       "t": "l",
@@ -185,7 +261,17 @@
     },
     {
       "t": "c",
-      "v": "                     SOL                          DO7+"
+      "v": "SOL DO7+",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+"
+        }
+      ]
     },
     {
       "t": "l",
@@ -193,7 +279,21 @@
     },
     {
       "t": "c",
-      "v": "                     LA-7                       SOL         RE"
+      "v": "LA-7 SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-7"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        }
+      ]
     },
     {
       "t": "l",
@@ -201,7 +301,21 @@
     },
     {
       "t": "c",
-      "v": "                     SOL                              DO7+                       LA-7"
+      "v": "SOL DO7+ LA-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        },
+        {
+          "word": 8,
+          "chord": "LA-7"
+        }
+      ]
     },
     {
       "t": "l",
@@ -209,7 +323,17 @@
     },
     {
       "t": "c",
-      "v": "                                                 SOL                  RE"
+      "v": "SOL RE",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "RE"
+        }
+      ]
     },
     {
       "t": "l",
@@ -217,7 +341,17 @@
     },
     {
       "t": "c",
-      "v": "                     MI-                                  SI-"
+      "v": "MI- SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SI-"
+        }
+      ]
     },
     {
       "t": "l",
@@ -225,7 +359,17 @@
     },
     {
       "t": "c",
-      "v": "                                    DO                  LA"
+      "v": "DO LA",
+      "anchors": [
+        {
+          "word": 4,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "LA"
+        }
+      ]
     },
     {
       "t": "l",
@@ -240,7 +384,21 @@
     },
     {
       "t": "c",
-      "v": "       MI                             SOL#-7       DO#-7"
+      "v": "MI SOL#-7 DO#-7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 7,
+          "chord": "DO#-7"
+        }
+      ]
     },
     {
       "t": "l",
@@ -248,7 +406,29 @@
     },
     {
       "t": "c",
-      "v": "       LA        SI         MI       SI7    MI"
+      "v": "LA SI MI SI7 MI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "MI"
+        },
+        {
+          "word": 4,
+          "chord": "SI7"
+        },
+        {
+          "word": 5,
+          "chord": "MI"
+        }
+      ]
     },
     {
       "t": "l",
@@ -256,7 +436,25 @@
     },
     {
       "t": "c",
-      "v": "       SOL#-7       DO#-7          LA               SI"
+      "v": "SOL#-7 DO#-7 LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL#-7"
+        },
+        {
+          "word": 2,
+          "chord": "DO#-7"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        }
+      ]
     },
     {
       "t": "l",
@@ -264,7 +462,29 @@
     },
     {
       "t": "c",
-      "v": "       MI          SI  LA         SI"
+      "v": "MI SI LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 1,
+          "chord": "SI",
+          "offset": 1,
+          "align": "right"
+        },
+        {
+          "word": 2,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI",
+          "offset": 1,
+          "align": "right"
+        }
+      ]
     },
     {
       "t": "l",

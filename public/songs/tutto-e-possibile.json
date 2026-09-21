@@ -64,7 +64,27 @@
     },
     {
       "t": "c",
-      "v": "             SOL             RE            MI-            DO"
+      "v": "SOL RE MI- DO",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0.64
+        },
+        {
+          "word": 6,
+          "chord": "MI-"
+        },
+        {
+          "word": 9,
+          "chord": "DO",
+          "offset": 0.22
+        }
+      ]
     },
     {
       "t": "l",
@@ -72,7 +92,26 @@
     },
     {
       "t": "c",
-      "v": "         SOL             RE         MI-          DO"
+      "v": "SOL RE MI- DO",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0.64
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 8,
+          "chord": "DO"
+        }
+      ]
     },
     {
       "t": "l",

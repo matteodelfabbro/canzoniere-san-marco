@@ -1662,5 +1662,13 @@
     "sub": "Gen Rosso",
     "search": "Tutta la vita è un dono Gen Rosso Intro Strofa 1 Tutta la vita è un dono per ogni uomo tutta la vita è un dono in ogni momento tutta la vita è un dono, canta per lei, canta per lei. Ritornello Corri corri a perdifiato contro la corrente che trascina infrangi la marea di chi ti porta giù distruggi le barriere dell'indifferenza sorridi a chi non sa che la vita non si ferma mai. Strofa 2 Tutta la vita è un dono, non la sciupare; tutta la vita è un dono, non la bruciare tutta la vita è un dono: vivi per lei, vivi per lei. Strofa 3 Anche nei giorni tristi la vita è amore; anche tra le bufere la vita è amore; la vita è sempre un dono che Dio ci dà, che Dio ci dà.",
     "file": "songs/tutta-la-vita-e-un-dono.json"
+  },
+  {
+    "id": "acclamate-al-signore-marolda",
+    "numero": 210,
+    "title": "Acclamate al Signore",
+    "sub": "Gabriella Marolda · Salmo 99",
+    "search": "Acclamate al Signore Gabriella Marolda Salmo 99 Intro Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Strofa 1 Sappiate che solo il Signore è Dio, il nostro creatore, egli ci ha fatti, siamo suoi, popolo e gregge del suo pascolo. Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Strofa 2 Lodate il Signore cantando inni di gioia, entrate nella sua casa e rendete grazie a lui. Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Strofa 3 Il Signore è buono con noi, non lascia senza il suo amore, Lui ci protegge per sempre ogni giorno della vita. Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Finale Cantate, cantate a lui.",
+    "file": "songs/acclamate-al-signore-marolda.json"
   }
 ]

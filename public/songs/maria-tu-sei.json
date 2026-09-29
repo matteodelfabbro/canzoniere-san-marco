@@ -16,7 +16,8 @@
     },
     {
       "t": "c",
-      "v": "| SOL | RE | DO LA- | SOL RE |"
+      "v": "| SOL | RE | DO LA- | SOL RE |",
+      "accent": "gold-bars"
     },
     {
       "t": "s"
@@ -45,7 +46,7 @@
     },
     {
       "t": "c",
-      "v": "DO SOL RE4",
+      "v": "DO SOL",
       "flowSegments": [
         {
           "chord": "",
@@ -57,11 +58,7 @@
         },
         {
           "chord": "SOL",
-          "lyric": "tutto "
-        },
-        {
-          "chord": "RE4",
-          "lyric": "sei"
+          "lyric": "tutto sei"
         }
       ]
     },
@@ -89,7 +86,7 @@
     },
     {
       "t": "c",
-      "v": "DO SOL RE",
+      "v": "DO | SOL (3 tempi) RE |",
       "flowSegments": [
         {
           "chord": "",
@@ -100,11 +97,11 @@
           "lyric": "forza d’amore in cielo mi "
         },
         {
-          "chord": "SOL",
+          "chord": "| SOL (3 tempi)",
           "lyric": "porterai"
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": ""
         }
       ]
@@ -122,14 +119,14 @@
     },
     {
       "t": "c",
-      "v": "MI- RE DO",
+      "v": "| MI- RE | DO",
       "flowSegments": [
         {
-          "chord": "MI-",
+          "chord": "| MI-",
           "lyric": "Maria ti do "
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": "il mio cuore "
         },
         {
@@ -144,7 +141,7 @@
     },
     {
       "t": "c",
-      "v": "SOL RE4 RE",
+      "v": "SOL RE4 RE |",
       "flowSegments": [
         {
           "chord": "",
@@ -159,7 +156,7 @@
           "lyric": "mai"
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": ""
         }
       ]
@@ -170,18 +167,18 @@
     },
     {
       "t": "c",
-      "v": "MI- SI-",
+      "v": "| MI- SI- |",
       "flowSegments": [
         {
           "chord": "",
           "lyric": "Rimani "
         },
         {
-          "chord": "MI-",
+          "chord": "| MI-",
           "lyric": "con me e andiamo nel "
         },
         {
-          "chord": "SI-",
+          "chord": "SI- |",
           "lyric": "mondo insieme"
         }
       ]
@@ -214,14 +211,14 @@
     },
     {
       "t": "c",
-      "v": "RE4 RE",
+      "v": "RE4 RE |",
       "flowSegments": [
         {
           "chord": "RE4",
           "lyric": "per l’umanità"
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": ""
         }
       ]
@@ -334,14 +331,14 @@
     },
     {
       "t": "c",
-      "v": "MI- RE DO",
+      "v": "| MI- RE | DO",
       "flowSegments": [
         {
-          "chord": "MI-",
+          "chord": "| MI-",
           "lyric": "Maria ti do "
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": "il mio cuore "
         },
         {
@@ -356,7 +353,7 @@
     },
     {
       "t": "c",
-      "v": "SOL RE4 RE",
+      "v": "SOL RE4 RE |",
       "flowSegments": [
         {
           "chord": "",
@@ -371,7 +368,7 @@
           "lyric": "mai"
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": ""
         }
       ]
@@ -382,18 +379,18 @@
     },
     {
       "t": "c",
-      "v": "MI- SI-",
+      "v": "| MI- SI- |",
       "flowSegments": [
         {
           "chord": "",
           "lyric": "Rimani "
         },
         {
-          "chord": "MI-",
+          "chord": "| MI-",
           "lyric": "con me e andiamo nel "
         },
         {
-          "chord": "SI-",
+          "chord": "SI- |",
           "lyric": "mondo insieme"
         }
       ]
@@ -426,14 +423,14 @@
     },
     {
       "t": "c",
-      "v": "RE4 RE",
+      "v": "RE4 RE |",
       "flowSegments": [
         {
           "chord": "RE4",
           "lyric": "per l’umanità"
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": ""
         }
       ]

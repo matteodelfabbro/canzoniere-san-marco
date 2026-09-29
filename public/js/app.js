@@ -152,7 +152,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20260929-search-acclamate-1';
+const SONG_DATA_VERSION='20260929-hallelujah-completo-1';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'
@@ -1973,7 +1973,6 @@ function renderSong(i){
   if(songSectionOpen)html+='</section>';
 
   main.innerHTML=html+`</div>
-  ${song.sourceUrl?`<div class="song-source"><a href="${esc(String(song.sourceUrl).replace(/"/g,'%22'))}" target="_blank" rel="noopener noreferrer">Apri testo e accordi su MiaChiesa ↗</a></div>`:''}
   <div class="song-feedback-footer">
     <button class="feedback-trigger" id="songFeedback" type="button">Segnala un errore</button>
   </div>`;

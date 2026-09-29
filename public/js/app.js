@@ -152,7 +152,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20260929-full-text-search-1';
+const SONG_DATA_VERSION='20260929-search-acclamate-1';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'

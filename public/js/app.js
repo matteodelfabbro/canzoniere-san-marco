@@ -152,7 +152,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20260929-maria-tu-sei-2';
+const SONG_DATA_VERSION='20260929-maria-tu-sei-3';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'
@@ -1637,7 +1637,7 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
 
   if(Array.isArray(flowSegments) && flowSegments.length){
     const renderSegment=segment=>
-      `<div class="music-segment"><div class="segment-chord">${esc(transposeLine(String(segment.chord||''),shift))}</div><div class="segment-lyric">${esc(String(segment.lyric||''))}</div></div>`;
+      `<div class="music-segment"><div class="segment-chord">${esc(transposeLine(String(segment.chord||''),shift)).replace(/\|/g,'<span class="measure-bar">|</span>')}</div><div class="segment-lyric">${esc(String(segment.lyric||''))}</div></div>`;
 
     const renderedSegments=flowSegments.map(segment=>{
       if(Array.isArray(segment.parts) && segment.parts.length){

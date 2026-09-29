@@ -152,7 +152,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20260929-hallelujah-completo-1';
+const SONG_DATA_VERSION='20260929-acclamate-score-1';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'
@@ -1921,7 +1921,7 @@ function renderSong(i){
     <span class="setlist-position">${setlistPosition(i)+1} di ${personalSetlist.length}</span>
     <button id="setlistNext" type="button" ${setlistPosition(i)>=personalSetlist.length-1?'disabled':''}>Successivo →</button>
   </div>`:''}
-  <div class="sheet${lyricsOnly?' lyrics-only':''}" style="--song-font-size:${songFontSize}px">`;
+  <div class="sheet${lyricsOnly?' lyrics-only':''}${song.spaciousChords?' spacious-chords':''}" style="--song-font-size:${songFontSize}px">`;
 
   let songSectionOpen=false;
 

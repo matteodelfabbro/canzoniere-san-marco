@@ -1170,8 +1170,6 @@ body.lectern-mode > header,
 body.lectern-mode > footer,
 body.lectern-mode .board,
 body.lectern-mode .song-title-actions,
-body.lectern-mode .song-sub,
-body.lectern-mode .song-capo,
 body.lectern-mode .setlist-nav,
 body.lectern-mode .song-feedback-footer{
   display:none!important;

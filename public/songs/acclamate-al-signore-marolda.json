@@ -16,7 +16,7 @@
     },
     {
       "t": "c",
-      "v": "| SOL | RE/FA# | MI- | SOL/RE | DO SOL/SI LA-7 | RE DO/MI RE/FA# |",
+      "v": "| SOL RE/FA# | MI- SOL/RE | DO SOL/SI LA-7 | RE DO/MI RE/FA# | ×2",
       "accent": "gold-bars"
     },
     {
@@ -32,19 +32,19 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Acclamate "
+          "lyric": "Accla"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "al "
+          "lyric": "mate al "
         },
         {
           "chord": "DO",
-          "lyric": "Signore,"
+          "lyric": "Signo"
         },
         {
           "chord": "SOL",
-          "lyric": ""
+          "lyric": "re,"
         }
       ]
     },
@@ -62,15 +62,15 @@
         },
         {
           "chord": "RE",
-          "lyric": "della "
+          "lyric": "del"
         },
         {
           "chord": "DO/MI",
-          "lyric": "ter"
+          "lyric": "la "
         },
         {
           "chord": "RE/FA#",
-          "lyric": "ra,"
+          "lyric": "terra,"
         }
       ]
     },
@@ -84,11 +84,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "servitelo "
+          "lyric": "ser"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "con "
+          "lyric": "vitelo con "
         },
         {
           "chord": "MI-",
@@ -139,7 +139,7 @@
     },
     {
       "t": "c",
-      "v": "SOL DO RE MI- SI/RE# MI-",
+      "v": "SOL DO RE MI- SI/RE#",
       "flowSegments": [
         {
           "chord": "SOL",
@@ -147,22 +147,18 @@
         },
         {
           "chord": "DO",
-          "lyric": "piate "
+          "lyric": "piate che "
         },
         {
           "chord": "RE",
-          "lyric": "che "
-        },
-        {
-          "chord": "MI-",
           "lyric": "solo il "
         },
         {
-          "chord": "SI/RE#",
+          "chord": "MI-",
           "lyric": "Signo"
         },
         {
-          "chord": "MI-",
+          "chord": "SI/RE#",
           "lyric": "re"
         }
       ]
@@ -173,27 +169,31 @@
     },
     {
       "t": "c",
-      "v": "LA-7 RE9 SOL LA-7 SOL/SI",
+      "v": "MI- LA-7 RE9 SOL LA-7 SOL/SI",
       "flowSegments": [
         {
-          "chord": "LA-7",
+          "chord": "MI-",
           "lyric": "è "
         },
         {
+          "chord": "LA-7",
+          "lyric": "Dio, il "
+        },
+        {
           "chord": "RE9",
-          "lyric": "Dio, "
+          "lyric": "nostro crea"
         },
         {
           "chord": "SOL",
-          "lyric": "il nostro "
+          "lyric": "to"
         },
         {
           "chord": "LA-7",
-          "lyric": "crea"
+          "lyric": "re,"
         },
         {
           "chord": "SOL/SI",
-          "lyric": "tore,"
+          "lyric": ""
         }
       ]
     },
@@ -237,19 +237,19 @@
       "flowSegments": [
         {
           "chord": "LA-7",
-          "lyric": "popolo "
+          "lyric": "popolo e gregge del suo "
         },
         {
           "chord": "RE",
-          "lyric": "e gregge "
+          "lyric": "pa"
         },
         {
           "chord": "LA-/RE",
-          "lyric": "del suo "
+          "lyric": "sco"
         },
         {
           "chord": "RE",
-          "lyric": "pascolo."
+          "lyric": "lo."
         }
       ]
     },
@@ -270,19 +270,19 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Acclamate "
+          "lyric": "Accla"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "al "
+          "lyric": "mate al "
         },
         {
           "chord": "DO",
-          "lyric": "Signore,"
+          "lyric": "Signo"
         },
         {
           "chord": "SOL",
-          "lyric": ""
+          "lyric": "re,"
         }
       ]
     },
@@ -300,15 +300,15 @@
         },
         {
           "chord": "RE",
-          "lyric": "della "
+          "lyric": "del"
         },
         {
           "chord": "DO/MI",
-          "lyric": "ter"
+          "lyric": "la "
         },
         {
           "chord": "RE/FA#",
-          "lyric": "ra,"
+          "lyric": "terra,"
         }
       ]
     },
@@ -322,11 +322,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "servitelo "
+          "lyric": "ser"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "con "
+          "lyric": "vitelo con "
         },
         {
           "chord": "MI-",
@@ -377,7 +377,7 @@
     },
     {
       "t": "c",
-      "v": "SOL DO RE MI- SI/RE# MI-",
+      "v": "SOL DO RE MI- SI/RE#",
       "flowSegments": [
         {
           "chord": "SOL",
@@ -385,22 +385,18 @@
         },
         {
           "chord": "DO",
-          "lyric": "date "
+          "lyric": "date il "
         },
         {
           "chord": "RE",
-          "lyric": "il "
+          "lyric": "Sig"
         },
         {
           "chord": "MI-",
-          "lyric": "Signo"
+          "lyric": "no"
         },
         {
           "chord": "SI/RE#",
-          "lyric": ""
-        },
-        {
-          "chord": "MI-",
           "lyric": "re"
         }
       ]
@@ -411,27 +407,31 @@
     },
     {
       "t": "c",
-      "v": "LA-7 RE9 SOL LA-7 SOL/SI",
+      "v": "MI- LA-7 RE9 SOL LA-7 SOL/SI",
       "flowSegments": [
         {
+          "chord": "MI-",
+          "lyric": "can"
+        },
+        {
           "chord": "LA-7",
-          "lyric": "cantando "
+          "lyric": "tando "
         },
         {
           "chord": "RE9",
-          "lyric": "inni "
+          "lyric": "inni di "
         },
         {
           "chord": "SOL",
-          "lyric": "di "
-        },
-        {
-          "chord": "LA-7",
           "lyric": "gio"
         },
         {
-          "chord": "SOL/SI",
+          "chord": "LA-7",
           "lyric": "ia,"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": ""
         }
       ]
     },
@@ -453,11 +453,11 @@
         },
         {
           "chord": "MI-",
-          "lyric": "casa"
+          "lyric": "ca"
         },
         {
           "chord": "RE",
-          "lyric": ""
+          "lyric": "sa"
         },
         {
           "chord": "LA7/DO#",
@@ -508,19 +508,19 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Acclamate "
+          "lyric": "Accla"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "al "
+          "lyric": "mate al "
         },
         {
           "chord": "DO",
-          "lyric": "Signore,"
+          "lyric": "Signo"
         },
         {
           "chord": "SOL",
-          "lyric": ""
+          "lyric": "re,"
         }
       ]
     },
@@ -538,15 +538,15 @@
         },
         {
           "chord": "RE",
-          "lyric": "della "
+          "lyric": "del"
         },
         {
           "chord": "DO/MI",
-          "lyric": "ter"
+          "lyric": "la "
         },
         {
           "chord": "RE/FA#",
-          "lyric": "ra,"
+          "lyric": "terra,"
         }
       ]
     },
@@ -560,11 +560,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "servitelo "
+          "lyric": "ser"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "con "
+          "lyric": "vitelo con "
         },
         {
           "chord": "MI-",
@@ -649,27 +649,31 @@
     },
     {
       "t": "c",
-      "v": "LA-7 RE9 SOL LA-7 SOL/SI",
+      "v": "MI- LA-7 RE9 SOL LA-7 SOL/SI",
       "flowSegments": [
         {
-          "chord": "LA-7",
+          "chord": "MI-",
           "lyric": "non "
         },
         {
-          "chord": "RE9",
+          "chord": "LA-7",
           "lyric": "lascia "
         },
         {
-          "chord": "SOL",
+          "chord": "RE9",
           "lyric": "senza il suo "
         },
         {
-          "chord": "LA-7",
+          "chord": "SOL",
           "lyric": "amo"
         },
         {
-          "chord": "SOL/SI",
+          "chord": "LA-7",
           "lyric": "re,"
+        },
+        {
+          "chord": "SOL/SI",
+          "lyric": ""
         }
       ]
     },
@@ -746,19 +750,19 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Acclamate "
+          "lyric": "Accla"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "al "
+          "lyric": "mate al "
         },
         {
           "chord": "DO",
-          "lyric": "Signore,"
+          "lyric": "Signo"
         },
         {
           "chord": "SOL",
-          "lyric": ""
+          "lyric": "re,"
         }
       ]
     },
@@ -776,15 +780,15 @@
         },
         {
           "chord": "RE",
-          "lyric": "della "
+          "lyric": "del"
         },
         {
           "chord": "DO/MI",
-          "lyric": "ter"
+          "lyric": "la "
         },
         {
           "chord": "RE/FA#",
-          "lyric": "ra,"
+          "lyric": "terra,"
         }
       ]
     },
@@ -798,11 +802,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "servitelo "
+          "lyric": "ser"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "con "
+          "lyric": "vitelo con "
         },
         {
           "chord": "MI-",

@@ -123,11 +123,15 @@
       "flowSegments": [
         {
           "chord": "| MI-",
-          "lyric": "Maria ti do "
+          "lyric": ""
+        },
+        {
+          "chord": "",
+          "lyric": "Maria "
         },
         {
           "chord": "RE |",
-          "lyric": "il mio cuore "
+          "lyric": "ti do il mio cuore "
         },
         {
           "chord": "DO",
@@ -335,11 +339,15 @@
       "flowSegments": [
         {
           "chord": "| MI-",
-          "lyric": "Maria ti do "
+          "lyric": ""
+        },
+        {
+          "chord": "",
+          "lyric": "Maria "
         },
         {
           "chord": "RE |",
-          "lyric": "il mio cuore "
+          "lyric": "ti do il mio cuore "
         },
         {
           "chord": "DO",

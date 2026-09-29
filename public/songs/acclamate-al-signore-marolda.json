@@ -16,7 +16,8 @@
     },
     {
       "t": "c",
-      "v": "| SOL | RE/FA# | MI- | SOL/RE | DO SOL/SI LA-7 | RE DO/MI RE/FA# |"
+      "v": "| SOL | RE/FA# | MI- | SOL/RE | DO SOL/SI LA-7 | RE DO/MI RE/FA# |",
+      "accent": "gold-bars"
     },
     {
       "t": "s"

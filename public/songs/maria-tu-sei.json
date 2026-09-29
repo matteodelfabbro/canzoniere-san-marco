@@ -1,70 +1,117 @@
 {
   "id": "maria-tu-sei",
   "title": "Maria tu sei",
-  "sub": "",
+  "sub": "Gen Rosso",
   "capo": null,
   "compactRepeats": true,
   "key": {
-    "note": "LA",
+    "note": "SOL",
     "mode": "maggiore"
   },
-  "search": "Maria tu sei  Strofa 1 Maria tu sei la vita per me, sei la speranza, la gioia, l’amore, tutto sei. Maria tu sai quello che vuoi, sai con che forza d’amore in cielo mi porterai. Ritornello Maria ti do il mio cuore per sempre, se vuoi; tu dammi l’amore che non passa mai. Rimani con me e andiamo nel mondo insieme. La tua presenza sarà goccia di paradiso per l’umanità. Strofa 2 Maria con te sempre vivrò, in ogni momento giocando, cantando, ti amerò. Ritornello Maria ti do il mio cuore per sempre, se vuoi; tu dammi l’amore che non passa mai. Rimani con me e andiamo nel mondo insieme. La tua presenza sarà goccia di paradiso per l’umanità.",
+  "search": "Maria tu sei Gen Rosso Rimani con me Intro Strofa 1 Maria tu sei, la vita per me Sei la speranza e la gioia, l’amore, tutto sei Maria tu sai quello che vuoi Sai con che forza d’amore in cielo mi porterai Ritornello Maria ti do il mio cuore per sempre se vuoi Tu dammi l’amore che non passa mai Rimani con me e andiamo nel mondo insieme La tua presenza sarà goccia di paradiso per l’umanità Strofa 2 Maria con te, sempre vivrò In ogni momento giocando, cantando, ti amerò Seguendo i tuoi passi, in te io avrò La luce che illumina i giorni e le notti dell’anima Ritornello Maria ti do il mio cuore per sempre se vuoi Tu dammi l’amore che non passa mai Rimani con me e andiamo nel mondo insieme La tua presenza sarà goccia di paradiso per l’umanità",
   "lines": [
+    {
+      "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "| SOL | RE | DO LA- | SOL RE |"
+    },
+    {
+      "t": "s"
+    },
     {
       "t": "h",
       "v": "Strofa 1"
     },
     {
       "t": "c",
-      "v": "LA MI RE LA",
+      "v": "SOL RE",
       "flowSegments": [
         {
-          "chord": "LA",
-          "lyric": "Maria tu sei"
-        },
-        {
-          "chord": "MI",
-          "lyric": "la vita per me,"
+          "chord": "SOL",
+          "lyric": "Maria tu sei, "
         },
         {
           "chord": "RE",
-          "lyric": "sei la speranza, la"
-        },
-        {
-          "chord": "LA",
-          "lyric": "gioia, l’amore, tutto sei."
+          "lyric": "la vita per me"
         }
       ]
     },
     {
       "t": "l",
-      "v": "Maria tu sei la vita per me, sei la speranza, la gioia, l’amore, tutto sei."
+      "v": "Maria tu sei, la vita per me"
     },
     {
       "t": "c",
-      "v": "LA MI RE LA",
+      "v": "DO SOL RE4",
       "flowSegments": [
         {
-          "chord": "LA",
-          "lyric": "Maria tu sai"
+          "chord": "",
+          "lyric": "Sei la "
         },
         {
-          "chord": "MI",
-          "lyric": "quello che vuoi, sai"
+          "chord": "DO",
+          "lyric": "speranza e la gioia, l’amore, "
         },
         {
-          "chord": "RE",
-          "lyric": "con che forza d’amore"
+          "chord": "SOL",
+          "lyric": "tutto "
         },
         {
-          "chord": "LA",
-          "lyric": "in cielo mi porterai."
+          "chord": "RE4",
+          "lyric": "sei"
         }
       ]
     },
     {
       "t": "l",
-      "v": "Maria tu sai quello che vuoi, sai con che forza d’amore in cielo mi porterai."
+      "v": "Sei la speranza e la gioia, l’amore, tutto sei"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Maria tu sai "
+        },
+        {
+          "chord": "RE",
+          "lyric": "quello che vuoi"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Maria tu sai quello che vuoi"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Sai con che "
+        },
+        {
+          "chord": "DO",
+          "lyric": "forza d’amore in cielo mi "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "porterai"
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Sai con che forza d’amore in cielo mi porterai"
     },
     {
       "t": "s"
@@ -75,73 +122,113 @@
     },
     {
       "t": "c",
-      "v": "FA#- MI RE LA MI",
+      "v": "MI- RE DO",
       "flowSegments": [
         {
-          "chord": "FA#-",
-          "lyric": "Maria ti do"
-        },
-        {
-          "chord": "MI",
-          "lyric": "il mio cuore"
+          "chord": "MI-",
+          "lyric": "Maria ti do "
         },
         {
           "chord": "RE",
-          "lyric": "per sempre, se vuoi;"
+          "lyric": "il mio cuore "
         },
         {
-          "chord": "LA",
-          "lyric": "tu dammi l’amore"
-        },
-        {
-          "chord": "MI",
-          "lyric": "che non passa mai."
+          "chord": "DO",
+          "lyric": "per sempre se vuoi"
         }
       ]
     },
     {
       "t": "l",
-      "v": "Maria ti do il mio cuore per sempre, se vuoi; tu dammi l’amore che non passa mai."
+      "v": "Maria ti do il mio cuore per sempre se vuoi"
     },
     {
       "t": "c",
-      "v": "FA#- MI",
+      "v": "SOL RE4 RE",
       "flowSegments": [
         {
-          "chord": "FA#-",
-          "lyric": "Rimani con me e"
+          "chord": "",
+          "lyric": "Tu dammi "
         },
         {
-          "chord": "MI",
-          "lyric": "andiamo nel mondo insieme."
-        }
-      ]
-    },
-    {
-      "t": "l",
-      "v": "Rimani con me e andiamo nel mondo insieme."
-    },
-    {
-      "t": "c",
-      "v": "RE LA MI",
-      "flowSegments": [
+          "chord": "SOL",
+          "lyric": "l’amore che non passa "
+        },
+        {
+          "chord": "RE4",
+          "lyric": "mai"
+        },
         {
           "chord": "RE",
-          "lyric": "La tua presenza"
-        },
-        {
-          "chord": "LA",
-          "lyric": "sarà goccia di"
-        },
-        {
-          "chord": "MI",
-          "lyric": "paradiso per l’umanità."
+          "lyric": ""
         }
       ]
     },
     {
       "t": "l",
-      "v": "La tua presenza sarà goccia di paradiso per l’umanità."
+      "v": "Tu dammi l’amore che non passa mai"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Rimani "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "con me e andiamo nel "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "mondo insieme"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Rimani con me e andiamo nel mondo insieme"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "La "
+        },
+        {
+          "chord": "DO",
+          "lyric": "tua presenza sarà goccia di "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "paradiso"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua presenza sarà goccia di paradiso"
+    },
+    {
+      "t": "c",
+      "v": "RE4 RE",
+      "flowSegments": [
+        {
+          "chord": "RE4",
+          "lyric": "per l’umanità"
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "per l’umanità"
     },
     {
       "t": "s"
@@ -152,29 +239,91 @@
     },
     {
       "t": "c",
-      "v": "LA MI RE LA",
+      "v": "SOL RE",
       "flowSegments": [
         {
-          "chord": "LA",
-          "lyric": "Maria con te"
-        },
-        {
-          "chord": "MI",
-          "lyric": "sempre vivrò, in"
+          "chord": "SOL",
+          "lyric": "Maria con te, "
         },
         {
           "chord": "RE",
-          "lyric": "ogni momento giocando,"
-        },
-        {
-          "chord": "LA",
-          "lyric": "cantando, ti amerò."
+          "lyric": "sempre vivrò"
         }
       ]
     },
     {
       "t": "l",
-      "v": "Maria con te sempre vivrò, in ogni momento giocando, cantando, ti amerò."
+      "v": "Maria con te, sempre vivrò"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "In ogni "
+        },
+        {
+          "chord": "DO",
+          "lyric": "momento giocando, cantando, "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ti amerò"
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "In ogni momento giocando, cantando, ti amerò"
+    },
+    {
+      "t": "c",
+      "v": "SOL RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Seguendo i tuoi passi, "
+        },
+        {
+          "chord": "RE",
+          "lyric": "in te io avrò"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Seguendo i tuoi passi, in te io avrò"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "La "
+        },
+        {
+          "chord": "DO",
+          "lyric": "luce che illumina i giorni e le notti "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "dell’anima"
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La luce che illumina i giorni e le notti dell’anima"
     },
     {
       "t": "s"
@@ -185,73 +334,113 @@
     },
     {
       "t": "c",
-      "v": "FA#- MI RE LA MI",
+      "v": "MI- RE DO",
       "flowSegments": [
         {
-          "chord": "FA#-",
-          "lyric": "Maria ti do"
-        },
-        {
-          "chord": "MI",
-          "lyric": "il mio cuore"
+          "chord": "MI-",
+          "lyric": "Maria ti do "
         },
         {
           "chord": "RE",
-          "lyric": "per sempre, se vuoi;"
+          "lyric": "il mio cuore "
         },
         {
-          "chord": "LA",
-          "lyric": "tu dammi l’amore"
-        },
-        {
-          "chord": "MI",
-          "lyric": "che non passa mai."
+          "chord": "DO",
+          "lyric": "per sempre se vuoi"
         }
       ]
     },
     {
       "t": "l",
-      "v": "Maria ti do il mio cuore per sempre, se vuoi; tu dammi l’amore che non passa mai."
+      "v": "Maria ti do il mio cuore per sempre se vuoi"
     },
     {
       "t": "c",
-      "v": "FA#- MI",
+      "v": "SOL RE4 RE",
       "flowSegments": [
         {
-          "chord": "FA#-",
-          "lyric": "Rimani con me e"
+          "chord": "",
+          "lyric": "Tu dammi "
         },
         {
-          "chord": "MI",
-          "lyric": "andiamo nel mondo insieme."
-        }
-      ]
-    },
-    {
-      "t": "l",
-      "v": "Rimani con me e andiamo nel mondo insieme."
-    },
-    {
-      "t": "c",
-      "v": "RE LA MI",
-      "flowSegments": [
+          "chord": "SOL",
+          "lyric": "l’amore che non passa "
+        },
+        {
+          "chord": "RE4",
+          "lyric": "mai"
+        },
         {
           "chord": "RE",
-          "lyric": "La tua presenza"
-        },
-        {
-          "chord": "LA",
-          "lyric": "sarà goccia di"
-        },
-        {
-          "chord": "MI",
-          "lyric": "paradiso per l’umanità."
+          "lyric": ""
         }
       ]
     },
     {
       "t": "l",
-      "v": "La tua presenza sarà goccia di paradiso per l’umanità."
+      "v": "Tu dammi l’amore che non passa mai"
+    },
+    {
+      "t": "c",
+      "v": "MI- SI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Rimani "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "con me e andiamo nel "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "mondo insieme"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "Rimani con me e andiamo nel mondo insieme"
+    },
+    {
+      "t": "c",
+      "v": "DO SOL",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "La "
+        },
+        {
+          "chord": "DO",
+          "lyric": "tua presenza sarà goccia di "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "paradiso"
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "La tua presenza sarà goccia di paradiso"
+    },
+    {
+      "t": "c",
+      "v": "RE4 RE",
+      "flowSegments": [
+        {
+          "chord": "RE4",
+          "lyric": "per l’umanità"
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
+    },
+    {
+      "t": "l",
+      "v": "per l’umanità"
     }
   ]
 }

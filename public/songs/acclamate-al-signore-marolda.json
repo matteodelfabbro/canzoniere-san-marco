@@ -4,6 +4,7 @@
   "sub": "Gabriella Marolda · Salmo 99",
   "capo": null,
   "compactRepeats": true,
+  "spaciousChords": true,
   "key": {
     "note": "SOL",
     "mode": "maggiore"
@@ -32,11 +33,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Accla"
+          "lyric": "Acclama"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "mate al "
+          "lyric": "te al "
         },
         {
           "chord": "DO",
@@ -66,11 +67,11 @@
         },
         {
           "chord": "DO/MI",
-          "lyric": "la "
+          "lyric": "la ter"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "terra,"
+          "lyric": "ra,"
         }
       ]
     },
@@ -177,11 +178,11 @@
         },
         {
           "chord": "LA-7",
-          "lyric": "Dio, il "
+          "lyric": "Dio, il nostro "
         },
         {
           "chord": "RE9",
-          "lyric": "nostro crea"
+          "lyric": "crea"
         },
         {
           "chord": "SOL",
@@ -211,15 +212,15 @@
         },
         {
           "chord": "SI7",
-          "lyric": "fatti, "
+          "lyric": "fatti, siamo "
         },
         {
           "chord": "MI-",
-          "lyric": "siamo "
+          "lyric": "suo"
         },
         {
           "chord": "RE",
-          "lyric": "suoi,"
+          "lyric": "i,"
         },
         {
           "chord": "LA7/DO#",
@@ -270,11 +271,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Accla"
+          "lyric": "Acclama"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "mate al "
+          "lyric": "te al "
         },
         {
           "chord": "DO",
@@ -304,11 +305,11 @@
         },
         {
           "chord": "DO/MI",
-          "lyric": "la "
+          "lyric": "la ter"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "terra,"
+          "lyric": "ra,"
         }
       ]
     },
@@ -373,123 +374,19 @@
     },
     {
       "t": "h",
-      "v": "Strofa 2"
-    },
-    {
-      "t": "c",
-      "v": "SOL DO RE MI- SI/RE#",
-      "flowSegments": [
-        {
-          "chord": "SOL",
-          "lyric": "Lo"
-        },
-        {
-          "chord": "DO",
-          "lyric": "date il "
-        },
-        {
-          "chord": "RE",
-          "lyric": "Sig"
-        },
-        {
-          "chord": "MI-",
-          "lyric": "no"
-        },
-        {
-          "chord": "SI/RE#",
-          "lyric": "re"
-        }
-      ]
+      "v": "Strofa 2 (stessa musica della 1)"
     },
     {
       "t": "l",
       "v": "Lodate il Signore"
     },
     {
-      "t": "c",
-      "v": "MI- LA-7 RE9 SOL LA-7 SOL/SI",
-      "flowSegments": [
-        {
-          "chord": "MI-",
-          "lyric": "can"
-        },
-        {
-          "chord": "LA-7",
-          "lyric": "tando "
-        },
-        {
-          "chord": "RE9",
-          "lyric": "inni di "
-        },
-        {
-          "chord": "SOL",
-          "lyric": "gio"
-        },
-        {
-          "chord": "LA-7",
-          "lyric": "ia,"
-        },
-        {
-          "chord": "SOL/SI",
-          "lyric": ""
-        }
-      ]
-    },
-    {
       "t": "l",
       "v": "cantando inni di gioia,"
     },
     {
-      "t": "c",
-      "v": "DO SI7 MI- RE LA7/DO#",
-      "flowSegments": [
-        {
-          "chord": "DO",
-          "lyric": "entrate nella "
-        },
-        {
-          "chord": "SI7",
-          "lyric": "sua "
-        },
-        {
-          "chord": "MI-",
-          "lyric": "ca"
-        },
-        {
-          "chord": "RE",
-          "lyric": "sa"
-        },
-        {
-          "chord": "LA7/DO#",
-          "lyric": ""
-        }
-      ]
-    },
-    {
       "t": "l",
       "v": "entrate nella sua casa"
-    },
-    {
-      "t": "c",
-      "v": "LA-7 RE LA-/RE RE",
-      "flowSegments": [
-        {
-          "chord": "LA-7",
-          "lyric": "e rendete "
-        },
-        {
-          "chord": "RE",
-          "lyric": "grazie "
-        },
-        {
-          "chord": "LA-/RE",
-          "lyric": "a "
-        },
-        {
-          "chord": "RE",
-          "lyric": "lui."
-        }
-      ]
     },
     {
       "t": "l",
@@ -508,11 +405,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Accla"
+          "lyric": "Acclama"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "mate al "
+          "lyric": "te al "
         },
         {
           "chord": "DO",
@@ -542,11 +439,11 @@
         },
         {
           "chord": "DO/MI",
-          "lyric": "la "
+          "lyric": "la ter"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "terra,"
+          "lyric": "ra,"
         }
       ]
     },
@@ -611,127 +508,19 @@
     },
     {
       "t": "h",
-      "v": "Strofa 3"
-    },
-    {
-      "t": "c",
-      "v": "SOL DO RE MI- SI/RE# MI-",
-      "flowSegments": [
-        {
-          "chord": "SOL",
-          "lyric": "Il "
-        },
-        {
-          "chord": "DO",
-          "lyric": "Signore "
-        },
-        {
-          "chord": "RE",
-          "lyric": "è "
-        },
-        {
-          "chord": "MI-",
-          "lyric": "buono "
-        },
-        {
-          "chord": "SI/RE#",
-          "lyric": "con "
-        },
-        {
-          "chord": "MI-",
-          "lyric": "noi,"
-        }
-      ]
+      "v": "Strofa 3 (stessa musica della 1)"
     },
     {
       "t": "l",
       "v": "Il Signore è buono con noi,"
     },
     {
-      "t": "c",
-      "v": "MI- LA-7 RE9 SOL LA-7 SOL/SI",
-      "flowSegments": [
-        {
-          "chord": "MI-",
-          "lyric": "non "
-        },
-        {
-          "chord": "LA-7",
-          "lyric": "lascia "
-        },
-        {
-          "chord": "RE9",
-          "lyric": "senza il suo "
-        },
-        {
-          "chord": "SOL",
-          "lyric": "amo"
-        },
-        {
-          "chord": "LA-7",
-          "lyric": "re,"
-        },
-        {
-          "chord": "SOL/SI",
-          "lyric": ""
-        }
-      ]
-    },
-    {
       "t": "l",
       "v": "non lascia senza il suo amore,"
     },
     {
-      "t": "c",
-      "v": "DO SI7 MI- RE LA7/DO#",
-      "flowSegments": [
-        {
-          "chord": "DO",
-          "lyric": "Lui ci "
-        },
-        {
-          "chord": "SI7",
-          "lyric": "protegge "
-        },
-        {
-          "chord": "MI-",
-          "lyric": "per "
-        },
-        {
-          "chord": "RE",
-          "lyric": "sempre"
-        },
-        {
-          "chord": "LA7/DO#",
-          "lyric": ""
-        }
-      ]
-    },
-    {
       "t": "l",
       "v": "Lui ci protegge per sempre"
-    },
-    {
-      "t": "c",
-      "v": "LA-7 RE LA-/RE RE",
-      "flowSegments": [
-        {
-          "chord": "LA-7",
-          "lyric": "ogni giorno "
-        },
-        {
-          "chord": "RE",
-          "lyric": "della "
-        },
-        {
-          "chord": "LA-/RE",
-          "lyric": "vi"
-        },
-        {
-          "chord": "RE",
-          "lyric": "ta."
-        }
-      ]
     },
     {
       "t": "l",
@@ -750,11 +539,11 @@
       "flowSegments": [
         {
           "chord": "SOL",
-          "lyric": "Accla"
+          "lyric": "Acclama"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "mate al "
+          "lyric": "te al "
         },
         {
           "chord": "DO",
@@ -784,11 +573,11 @@
         },
         {
           "chord": "DO/MI",
-          "lyric": "la "
+          "lyric": "la ter"
         },
         {
           "chord": "RE/FA#",
-          "lyric": "terra,"
+          "lyric": "ra,"
         }
       ]
     },

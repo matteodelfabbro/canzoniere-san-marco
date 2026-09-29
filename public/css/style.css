@@ -288,6 +288,15 @@
   letter-spacing:-.005em;
 }
 
+/* Più respiro nei canti con molti accordi ravvicinati, anche con nota al basso. */
+.sheet.spacious-chords .chordline.standalone-chord{
+  word-spacing:.35em;
+}
+.sheet.spacious-chords .music-row.word-anchored{
+  column-gap:.7em;
+  row-gap:.38rem;
+}
+
 /* Le righe sensibili usano segmenti non comprimibili:
    se manca spazio, il segmento va a capo invece di sovrapporre gli accordi. */
 .music-row.word-anchored.collision-safe .music-segment{

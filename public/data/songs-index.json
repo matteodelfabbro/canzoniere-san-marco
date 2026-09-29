@@ -1670,5 +1670,13 @@
     "sub": "Gabriella Marolda · Salmo 99",
     "search": "Acclamate al Signore Gabriella Marolda Salmo 99 Intro Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Strofa 1 Sappiate che solo il Signore è Dio, il nostro creatore, egli ci ha fatti, siamo suoi, popolo e gregge del suo pascolo. Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Strofa 2 Lodate il Signore cantando inni di gioia, entrate nella sua casa e rendete grazie a lui. Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Strofa 3 Il Signore è buono con noi, non lascia senza il suo amore, Lui ci protegge per sempre ogni giorno della vita. Ritornello Acclamate al Signore, genti tutte della terra, servitelo con gioia, cantate, cantate a lui. Finale Cantate, cantate a lui.",
     "file": "songs/acclamate-al-signore-marolda.json"
+  },
+  {
+    "id": "hallelujah-riadattamento-cattolico",
+    "numero": 211,
+    "title": "Hallelujah",
+    "sub": "Riadattamento cattolico · Leonard Cohen",
+    "search": "Hallelujah riadattamento cattolico Leonard Cohen",
+    "file": "songs/hallelujah-riadattamento-cattolico.json"
   }
 ]

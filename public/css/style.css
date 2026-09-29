@@ -1065,6 +1065,14 @@
 }
 
 
+.song-source{
+  margin:.9rem 0 .25rem;
+  text-align:center;
+  font-size:.9rem;
+}
+
+.song-source a{color:var(--wine);font-weight:600}
+
 /* Segnalazione in fondo al canto */
 .song-feedback-footer{
   display:flex;

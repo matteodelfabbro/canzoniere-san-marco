@@ -152,7 +152,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20260929-acclamate-marolda-2';
+const SONG_DATA_VERSION='20260929-full-text-search-1';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'
@@ -526,6 +526,7 @@ function songScore(song,query){
 
   const title=normalizeSearch(song.title||'');
   const subtitle=normalizeSearch(song.sub||'');
+  const content=normalizeSearch(song.search||'');
   const titleTokens=textTokens(title);
   const subtitleTokens=textTokens(subtitle);
   const queryTokens=textTokens(q);
@@ -536,6 +537,7 @@ function songScore(song,query){
   if(title.includes(q))score+=7000;
   if(subtitle.startsWith(q))score+=3500;
   if(subtitle.includes(q))score+=2200;
+  if(content.includes(q))score+=queryTokens.length>1?4000:250;
 
   queryTokens.forEach(token=>{
     if(titleTokens.includes(token))score+=2500;
@@ -549,6 +551,7 @@ function songScore(song,query){
 
   if(allQueryTokensMatch(q,title))score+=3000;
   else if(allQueryTokensMatch(q,[title,subtitle].filter(Boolean).join(' ')))score+=1200;
+  else if(allQueryTokensMatch(q,content))score+=100;
 
   return score;
 }
@@ -556,11 +559,15 @@ function songScore(song,query){
 function songMatches(song,query){
   const q=normalizeSearch(query);
   if(!q)return true;
-  return allQueryTokensMatch(q,[song.title,song.sub].filter(Boolean).join(' '));
+  return allQueryTokensMatch(q,[song.title,song.sub,song.search].filter(Boolean).join(' '));
 }
 
 function songTitleMatches(song,query){
   return songMatches(song,query);
+}
+function compareSongTitles(a,b){
+  return a.song.title.localeCompare(b.song.title,'it',{sensitivity:'base'})
+    || (a.song.sub||'').localeCompare(b.song.sub||'','it',{sensitivity:'base'});
 }
 function saveFavoritesLocally(){
   localStorage.setItem(currentFavoritesStorageKey(),JSON.stringify([...favorites]));
@@ -1173,6 +1180,7 @@ function transposeLine(text,shift){
   });
 }
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function renderChordText(text){return esc(text).replace(/\|/g,'<span class="measure-bar">|</span>')}
 function songHash(index){
   const id=songId(index);
   return id?`#canto/${encodeURIComponent(id)}`:'';
@@ -1472,13 +1480,11 @@ function renderTiles(filter=search.value){
       return {song:songs[i],i};
     }).filter(item=>item.song&&item.i>=0);
   }else{
-    // Mantiene sempre l'ordine originale dell'elenco principale.
-    // I preferiti vengono mostrati separatamente solo nel relativo filtro.
-    ordered=songs.map((song,i)=>({song,i}));
+    ordered=songs.map((song,i)=>({song,i})).sort(compareSongTitles);
   }
 
   if(query && listMode!=='setlist' && !easterEggActive){
-    ordered.sort((a,b)=>songScore(b.song,query)-songScore(a.song,query));
+    ordered.sort((a,b)=>songScore(b.song,query)-songScore(a.song,query)||compareSongTitles(a,b));
   }
 
   ordered.forEach(({song,i})=>{
@@ -1637,7 +1643,7 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
 
   if(Array.isArray(flowSegments) && flowSegments.length){
     const renderSegment=segment=>
-      `<div class="music-segment"><div class="segment-chord">${esc(transposeLine(String(segment.chord||''),shift)).replace(/\|/g,'<span class="measure-bar">|</span>')}</div><div class="segment-lyric">${esc(String(segment.lyric||''))}</div></div>`;
+      `<div class="music-segment"><div class="segment-chord">${renderChordText(transposeLine(String(segment.chord||''),shift))}</div><div class="segment-lyric">${esc(String(segment.lyric||''))}</div></div>`;
 
     const renderedSegments=flowSegments.map(segment=>{
       if(Array.isArray(segment.parts) && segment.parts.length){
@@ -1685,7 +1691,7 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
       }).filter(piece=>piece.lyric||piece.chord);
 
       return `<div class="music-row word-anchored collision-safe">${pieces.map(piece=>
-        `<div class="music-segment"><div class="segment-chord">${esc(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
+        `<div class="music-segment"><div class="segment-chord">${renderChordText(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
       ).join('')}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
     }
 
@@ -1699,7 +1705,7 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
           'center'
         );
         const translate=align==='center'?-50:(align==='right'?-100:0);
-        return `<span class="explicit-chord explicit-chord-${align}" style="left:${pct}%;transform:translateX(${translate}%);">${esc(anchor.chord)}</span>`;
+        return `<span class="explicit-chord explicit-chord-${align}" style="left:${pct}%;transform:translateX(${translate}%);">${renderChordText(anchor.chord)}</span>`;
       }).join('');
 
       return `<span class="explicit-word">${chordHtml}<span class="explicit-lyric">${esc(word)}</span></span>`;
@@ -1713,7 +1719,7 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
   }
 
   if(!lyricWords.length){
-    return `<div class="chordline">${esc(chord)}</div>`;
+    return `<div class="chordline">${renderChordText(chord)}</div>`;
   }
 
   // Aggancia ogni accordo all'inizio della parola più vicina.
@@ -1767,7 +1773,7 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
   }).filter(piece=>piece.lyric||piece.chord);
 
   return `<div class="music-row word-anchored">${pieces.map(piece=>
-    `<div class="music-segment"><div class="segment-chord">${esc(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
+    `<div class="music-segment"><div class="segment-chord">${renderChordText(piece.chord)}</div><div class="segment-lyric">${esc(piece.lyric)}</div></div>`
   ).join('')}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;
 }
 
@@ -1957,10 +1963,7 @@ function renderSong(i){
 
     const cleanText=(line.v||'').trimStart();
     if(line.t==='c'){
-      const chordText=esc(transposeLine(cleanText,chordShift));
-      const chordHtml=line.accent==='gold-bars'
-        ?chordText.replace(/\|/g,'<span class="measure-bar">|</span>')
-        :chordText;
+      const chordHtml=renderChordText(transposeLine(cleanText,chordShift));
       html+=`<div class="chordline standalone-chord">${chordHtml}</div>`;
     }
     else if(line.t==='l')html+=`<div class="lyricline lyrics-only-plain">${esc(cleanText)}</div>`;
@@ -1970,6 +1973,7 @@ function renderSong(i){
   if(songSectionOpen)html+='</section>';
 
   main.innerHTML=html+`</div>
+  ${song.sourceUrl?`<div class="song-source"><a href="${esc(String(song.sourceUrl).replace(/"/g,'%22'))}" target="_blank" rel="noopener noreferrer">Apri testo e accordi su MiaChiesa ↗</a></div>`:''}
   <div class="song-feedback-footer">
     <button class="feedback-trigger" id="songFeedback" type="button">Segnala un errore</button>
   </div>`;

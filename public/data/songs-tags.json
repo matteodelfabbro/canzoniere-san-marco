@@ -1970,5 +1970,14 @@
       "Canti per la Messa",
       "Temi"
     ]
+  },
+  "hallelujah-riadattamento-cattolico": {
+    "title": "Hallelujah",
+    "tags": [
+      "Vangelo"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
   }
 }

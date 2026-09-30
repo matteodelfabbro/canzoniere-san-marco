@@ -302,7 +302,7 @@
     },
     {
       "t": "c",
-      "v": "DO SOL RE",
+      "v": "DO | SOL (3 tempi) RE |",
       "flowSegments": [
         {
           "chord": "",
@@ -313,11 +313,11 @@
           "lyric": "luce che illumina i giorni e le notti "
         },
         {
-          "chord": "SOL",
+          "chord": "| SOL (3 tempi)",
           "lyric": "dell’anima"
         },
         {
-          "chord": "RE",
+          "chord": "RE |",
           "lyric": ""
         }
       ]

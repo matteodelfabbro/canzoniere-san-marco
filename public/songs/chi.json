@@ -138,16 +138,18 @@
       "v": "MI SOL#-7 DO#-7",
       "anchors": [
         {
-          "word": 1,
+          "word": 0,
           "chord": "MI"
         },
         {
-          "word": 5,
+          "word": 4,
           "chord": "SOL#-7"
         },
         {
-          "word": 7,
-          "chord": "DO#-7"
+          "word": 6,
+          "chord": "DO#-7",
+          "offset": 0.38,
+          "align": "left"
         }
       ]
     },
@@ -173,11 +175,15 @@
         },
         {
           "word": 4,
-          "chord": "SI7"
+          "chord": "SI7",
+          "offset": 0.42,
+          "align": "left"
         },
         {
           "word": 5,
-          "chord": "MI"
+          "chord": "MI",
+          "offset": 0.26,
+          "align": "left"
         }
       ]
     },
@@ -195,7 +201,9 @@
         },
         {
           "word": 2,
-          "chord": "DO#-7"
+          "chord": "DO#-7",
+          "offset": 0.18,
+          "align": "left"
         },
         {
           "word": 5,
@@ -313,7 +321,9 @@
         },
         {
           "word": 8,
-          "chord": "LA-7"
+          "chord": "LA-7",
+          "offset": 0.77,
+          "align": "left"
         }
       ]
     },
@@ -327,11 +337,15 @@
       "anchors": [
         {
           "word": 4,
-          "chord": "SOL"
+          "chord": "SOL",
+          "offset": 0.46,
+          "align": "left"
         },
         {
           "word": 8,
-          "chord": "RE"
+          "chord": "RE",
+          "offset": 0.11,
+          "align": "left"
         }
       ]
     },
@@ -349,7 +363,9 @@
         },
         {
           "word": 6,
-          "chord": "SI-"
+          "chord": "SI-",
+          "offset": 0.34,
+          "align": "left"
         }
       ]
     },
@@ -387,16 +403,18 @@
       "v": "MI SOL#-7 DO#-7",
       "anchors": [
         {
-          "word": 1,
+          "word": 0,
           "chord": "MI"
         },
         {
-          "word": 5,
+          "word": 4,
           "chord": "SOL#-7"
         },
         {
-          "word": 7,
-          "chord": "DO#-7"
+          "word": 6,
+          "chord": "DO#-7",
+          "offset": 0.38,
+          "align": "left"
         }
       ]
     },
@@ -422,11 +440,15 @@
         },
         {
           "word": 4,
-          "chord": "SI7"
+          "chord": "SI7",
+          "offset": 0.42,
+          "align": "left"
         },
         {
           "word": 5,
-          "chord": "MI"
+          "chord": "MI",
+          "offset": 0.26,
+          "align": "left"
         }
       ]
     },
@@ -444,7 +466,9 @@
         },
         {
           "word": 2,
-          "chord": "DO#-7"
+          "chord": "DO#-7",
+          "offset": 0.18,
+          "align": "left"
         },
         {
           "word": 5,

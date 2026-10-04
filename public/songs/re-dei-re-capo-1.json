@@ -50,7 +50,29 @@
     },
     {
       "t": "c",
-      "v": "   MI-    DO    SOL     RE"
+      "v": "   MI-    DO    SOL     RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Per"
+        },
+        {
+          "parts": [
+            {
+              "chord": "DO",
+              "lyric": "a"
+            },
+            {
+              "chord": "SOL",
+              "lyric": "mo"
+            },
+            {
+              "chord": "RE",
+              "lyric": "re"
+            }
+          ]
+        }
+      ]
     },
     {
       "t": "l",

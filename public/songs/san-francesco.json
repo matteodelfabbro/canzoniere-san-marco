@@ -22,7 +22,25 @@
     },
     {
       "t": "c",
-      "v": "RE              RE4             RE5#"
+      "v": "RE              RE4             RE5#",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "O"
+        },
+        {
+          "chord": "RE",
+          "lyric": "Signore fa' di"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "me uno"
+        },
+        {
+          "chord": "RE5#",
+          "lyric": "strumento,"
+        }
+      ]
     },
     {
       "t": "l",
@@ -30,7 +48,29 @@
     },
     {
       "t": "c",
-      "v": "RE              RE4             SOL SI7"
+      "v": "RE              RE4             SOL SI7",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "fa' di"
+        },
+        {
+          "chord": "RE",
+          "lyric": "me uno"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "strumento della"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "tua"
+        },
+        {
+          "chord": "SI7",
+          "lyric": "pace:"
+        }
+      ]
     },
     {
       "t": "l",
@@ -38,7 +78,25 @@
     },
     {
       "t": "c",
-      "v": "         MI-            SOL-        LA"
+      "v": "         MI-            SOL-        LA",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dov'è"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "odio, che io"
+        },
+        {
+          "chord": "SOL-",
+          "lyric": "porti"
+        },
+        {
+          "chord": "LA",
+          "lyric": "l'amore,"
+        }
+      ]
     },
     {
       "t": "l",
@@ -46,7 +104,33 @@
     },
     {
       "t": "c",
-      "v": "           SIb           LA            RE     SOL     LA"
+      "v": "           SIb           LA            RE     SOL     LA",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dov'è"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "offesa che io"
+        },
+        {
+          "chord": "LA",
+          "lyric": "porti il"
+        },
+        {
+          "chord": "RE",
+          "lyric": "perdono,"
+        },
+        {
+          "chord": "SOL",
+          "lyric": ""
+        },
+        {
+          "chord": "LA",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -54,7 +138,25 @@
     },
     {
       "t": "c",
-      "v": "RE              RE4             RE5#"
+      "v": "RE              RE4             RE5#",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dov'è"
+        },
+        {
+          "chord": "RE",
+          "lyric": "dubbio che io"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "porti la"
+        },
+        {
+          "chord": "RE5#",
+          "lyric": "fede,"
+        }
+      ]
     },
     {
       "t": "l",
@@ -62,7 +164,25 @@
     },
     {
       "t": "c",
-      "v": "RE4             SOL             SI4/7"
+      "v": "RE4             SOL             SI4/7",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dov'è"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "discordia che io porti"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "l'unione,"
+        },
+        {
+          "chord": "SI4/7",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -70,7 +190,29 @@
     },
     {
       "t": "c",
-      "v": "          MI-            LA     FA#-      SI7"
+      "v": "          MI-            LA     FA#-      SI7",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dov'è"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "errore che io"
+        },
+        {
+          "chord": "LA",
+          "lyric": "porti"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "verità,"
+        },
+        {
+          "chord": "SI7",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -78,7 +220,25 @@
     },
     {
       "t": "c",
-      "v": "         MI-             LA             RE"
+      "v": "         MI-             LA             RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "a chi"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "dispera che io"
+        },
+        {
+          "chord": "LA",
+          "lyric": "porti la"
+        },
+        {
+          "chord": "RE",
+          "lyric": "speranza."
+        }
+      ]
     },
     {
       "t": "l",
@@ -86,7 +246,29 @@
     },
     {
       "t": "c",
-      "v": "          MI-            LA     FA#-      SI7"
+      "v": "          MI-            LA     FA#-      SI7",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Dov'è"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "errore che io"
+        },
+        {
+          "chord": "LA",
+          "lyric": "porti"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "verità,"
+        },
+        {
+          "chord": "SI7",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -94,7 +276,25 @@
     },
     {
       "t": "c",
-      "v": "         MI-             LA             RE7"
+      "v": "         MI-             LA             RE7",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "a chi"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "dispera che io"
+        },
+        {
+          "chord": "LA",
+          "lyric": "porti la"
+        },
+        {
+          "chord": "RE7",
+          "lyric": "speranza."
+        }
+      ]
     },
     {
       "t": "l",
@@ -109,7 +309,25 @@
     },
     {
       "t": "c",
-      "v": "                  SOL              SI             MI-"
+      "v": "                  SOL              SI             MI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "O"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "maestro dammi"
+        },
+        {
+          "chord": "SI",
+          "lyric": "tu un cuore"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "grande"
+        }
+      ]
     },
     {
       "t": "l",
@@ -117,7 +335,25 @@
     },
     {
       "t": "c",
-      "v": "                    LA-           DO              RE"
+      "v": "                    LA-           DO              RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che sia"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "goccia di"
+        },
+        {
+          "chord": "DO",
+          "lyric": "rugiada per il"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mondo"
+        }
+      ]
     },
     {
       "t": "l",
@@ -125,7 +361,33 @@
     },
     {
       "t": "c",
-      "v": "                   DO      RE             SI-          MI-              DO7+"
+      "v": "                   DO      RE             SI-          MI-              DO7+",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che sia"
+        },
+        {
+          "chord": "DO",
+          "lyric": "voce"
+        },
+        {
+          "chord": "RE",
+          "lyric": "di speranza"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "che sia un"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "buon"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "mattino"
+        }
+      ]
     },
     {
       "t": "l",
@@ -133,7 +395,33 @@
     },
     {
       "t": "c",
-      "v": "                  RE                  SOL7        DO          RE                SI-"
+      "v": "                  RE                  SOL7        DO          RE                SI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "per il"
+        },
+        {
+          "chord": "RE",
+          "lyric": "giorno di ogni"
+        },
+        {
+          "chord": "SOL7",
+          "lyric": "uomo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "e con gli"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ultimi del"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "mondo"
+        }
+      ]
     },
     {
       "t": "l",
@@ -141,7 +429,33 @@
     },
     {
       "t": "c",
-      "v": "          MI-                  DO      RE       SOL     LA-           RE7"
+      "v": "          MI-                  DO      RE       SOL     LA-           RE7",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "sia il mio passo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "lieto"
+        },
+        {
+          "chord": "RE",
+          "lyric": "nella"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "povertà,"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "nella"
+        },
+        {
+          "chord": "RE7",
+          "lyric": "povertà."
+        }
+      ]
     },
     {
       "t": "l",
@@ -153,7 +467,25 @@
     },
     {
       "t": "c",
-      "v": "                  SOL              SI             MI-"
+      "v": "                  SOL              SI             MI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "O"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "maestro dammi"
+        },
+        {
+          "chord": "SI",
+          "lyric": "tu un cuore"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "grande"
+        }
+      ]
     },
     {
       "t": "l",
@@ -161,7 +493,25 @@
     },
     {
       "t": "c",
-      "v": "                    LA-           DO              RE"
+      "v": "                    LA-           DO              RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che sia"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "goccia di"
+        },
+        {
+          "chord": "DO",
+          "lyric": "rugiada per il"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mondo"
+        }
+      ]
     },
     {
       "t": "l",
@@ -169,7 +519,33 @@
     },
     {
       "t": "c",
-      "v": "                   DO      RE             SI-          MI-              DO7+"
+      "v": "                   DO      RE             SI-          MI-              DO7+",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che sia"
+        },
+        {
+          "chord": "DO",
+          "lyric": "voce"
+        },
+        {
+          "chord": "RE",
+          "lyric": "di speranza"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "che sia un"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "buon"
+        },
+        {
+          "chord": "DO7+",
+          "lyric": "mattino"
+        }
+      ]
     },
     {
       "t": "l",
@@ -177,7 +553,33 @@
     },
     {
       "t": "c",
-      "v": "                  RE                  SOL7        DO          RE                SI-"
+      "v": "                  RE                  SOL7        DO          RE                SI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "per il"
+        },
+        {
+          "chord": "RE",
+          "lyric": "giorno di ogni"
+        },
+        {
+          "chord": "SOL7",
+          "lyric": "uomo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "e con gli"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ultimi del"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "mondo"
+        }
+      ]
     },
     {
       "t": "l",
@@ -185,7 +587,37 @@
     },
     {
       "t": "c",
-      "v": "          MI-                  DO      RE       SOL     LA-    DO-      SOL"
+      "v": "          MI-                  DO      RE       SOL     LA-    DO-      SOL",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "sia il mio passo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "lieto"
+        },
+        {
+          "chord": "RE",
+          "lyric": "nella"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "povertà,"
+        },
+        {
+          "chord": "LA-",
+          "lyric": "nella"
+        },
+        {
+          "chord": "DO-",
+          "lyric": "povertà."
+        },
+        {
+          "chord": "SOL",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -200,7 +632,25 @@
     },
     {
       "t": "c",
-      "v": "RE              RE4             RE5#"
+      "v": "RE              RE4             RE5#",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "O"
+        },
+        {
+          "chord": "RE",
+          "lyric": "Signore fa' di"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "me il tuo"
+        },
+        {
+          "chord": "RE5#",
+          "lyric": "canto,"
+        }
+      ]
     },
     {
       "t": "l",
@@ -208,7 +658,29 @@
     },
     {
       "t": "c",
-      "v": "RE              RE4             SOL SI7"
+      "v": "RE              RE4             SOL SI7",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "fa' di"
+        },
+        {
+          "chord": "RE",
+          "lyric": "me il tuo"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "canto di"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "pace:"
+        },
+        {
+          "chord": "SI7",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -216,7 +688,25 @@
     },
     {
       "t": "c",
-      "v": "         MI-            SOL-        LA"
+      "v": "         MI-            SOL-        LA",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "a chi è"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "triste che io"
+        },
+        {
+          "chord": "SOL-",
+          "lyric": "porti la"
+        },
+        {
+          "chord": "LA",
+          "lyric": "gioia"
+        }
+      ]
     },
     {
       "t": "l",
@@ -224,7 +714,33 @@
     },
     {
       "t": "c",
-      "v": "           SIb           LA            RE     SOL     LA"
+      "v": "           SIb           LA            RE     SOL     LA",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "a chi è nel"
+        },
+        {
+          "chord": "SIb",
+          "lyric": "buio che io"
+        },
+        {
+          "chord": "LA",
+          "lyric": "porti la"
+        },
+        {
+          "chord": "RE",
+          "lyric": "luce."
+        },
+        {
+          "chord": "SOL",
+          "lyric": ""
+        },
+        {
+          "chord": "LA",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -232,7 +748,25 @@
     },
     {
       "t": "c",
-      "v": "RE              RE4             RE5#"
+      "v": "RE              RE4             RE5#",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "È"
+        },
+        {
+          "chord": "RE",
+          "lyric": "donando che si"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "ama la"
+        },
+        {
+          "chord": "RE5#",
+          "lyric": "vita"
+        }
+      ]
     },
     {
       "t": "l",
@@ -240,7 +774,25 @@
     },
     {
       "t": "c",
-      "v": "RE4             SOL             SI4/7"
+      "v": "RE4             SOL             SI4/7",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "è"
+        },
+        {
+          "chord": "RE4",
+          "lyric": "servendo che si"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "vive con"
+        },
+        {
+          "chord": "SI4/7",
+          "lyric": "gioia,"
+        }
+      ]
     },
     {
       "t": "l",
@@ -248,7 +800,25 @@
     },
     {
       "t": "c",
-      "v": "          MI-            LA     FA#-      SI7"
+      "v": "          MI-            LA     FA#-      SI7",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "perdonando che si"
+        },
+        {
+          "chord": "LA",
+          "lyric": "trova il"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "perdono,"
+        },
+        {
+          "chord": "SI7",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -256,7 +826,25 @@
     },
     {
       "t": "c",
-      "v": "         MI-             LA             RE"
+      "v": "         MI-             LA             RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "è"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "morendo che si"
+        },
+        {
+          "chord": "LA",
+          "lyric": "vive in"
+        },
+        {
+          "chord": "RE",
+          "lyric": "eterno."
+        }
+      ]
     },
     {
       "t": "l",

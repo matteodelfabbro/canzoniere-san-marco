@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-offline-verificato-34';
+const CACHE_NAME = 'canzoniere-offline-verificato-35';
 const CORE_ASSETS = [
   "./",
   "./index.html",

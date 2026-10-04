@@ -26,7 +26,25 @@
     },
     {
       "t": "c",
-      "v": "     MI-         RE                     MI-           RE"
+      "v": "     MI-         RE                     MI-           RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Prima del"
+        },
+        {
+          "chord": "RE",
+          "lyric": "tempo, prima"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "ancora che la"
+        },
+        {
+          "chord": "RE",
+          "lyric": "terra"
+        }
+      ]
     },
     {
       "t": "l",
@@ -34,7 +52,41 @@
     },
     {
       "t": "c",
-      "v": "             MI-           RE    MI-       RE            MI-     RE    (MI-   RE)"
+      "v": "             MI-           RE    MI-       RE            MI-     RE    (MI-   RE)",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "cominciasse a"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vivere,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "il Verbo"
+        },
+        {
+          "chord": "RE",
+          "lyric": "era presso"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Dio."
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        },
+        {
+          "chord": "(MI-",
+          "lyric": ""
+        },
+        {
+          "chord": "RE)",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -42,7 +94,25 @@
     },
     {
       "t": "c",
-      "v": "     MI-            RE              MI-               RE"
+      "v": "     MI-            RE              MI-               RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Venne nel"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mondo e per"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "non"
+        },
+        {
+          "chord": "RE",
+          "lyric": "abbandonarci"
+        }
+      ]
     },
     {
       "t": "l",
@@ -50,7 +120,37 @@
     },
     {
       "t": "c",
-      "v": "                  MI-             RE   MI-       RE              MI-     RE"
+      "v": "                  MI-             RE   MI-       RE              MI-     RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "in questo"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "viaggio ci"
+        },
+        {
+          "chord": "RE",
+          "lyric": "lasciò"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "tutto se"
+        },
+        {
+          "chord": "RE",
+          "lyric": "stesso come"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "pane."
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -65,7 +165,13 @@
     },
     {
       "t": "c",
-      "v": "               MI-"
+      "v": "               MI-",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Verbum caro factum est"
+        }
+      ]
     },
     {
       "t": "l",
@@ -88,7 +194,25 @@
     },
     {
       "t": "c",
-      "v": "               SOL    RE                 DO                     RE"
+      "v": "               SOL    RE                 DO                     RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Qui"
+        },
+        {
+          "chord": "RE",
+          "lyric": "spezzi ancora il"
+        },
+        {
+          "chord": "DO",
+          "lyric": "pane in mezzo a"
+        },
+        {
+          "chord": "RE",
+          "lyric": "noi"
+        }
+      ]
     },
     {
       "t": "l",
@@ -96,7 +220,29 @@
     },
     {
       "t": "c",
-      "v": "                    SOL              RE   DO               RE"
+      "v": "                    SOL              RE   DO               RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "e"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "chiunque"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mangerà"
+        },
+        {
+          "chord": "DO",
+          "lyric": "non avrà più"
+        },
+        {
+          "chord": "RE",
+          "lyric": "fame."
+        }
+      ]
     },
     {
       "t": "l",
@@ -104,7 +250,25 @@
     },
     {
       "t": "c",
-      "v": "               SOL    RE              DO                RE"
+      "v": "               SOL    RE              DO                RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Qui"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vive la tua"
+        },
+        {
+          "chord": "DO",
+          "lyric": "chiesa intorno a"
+        },
+        {
+          "chord": "RE",
+          "lyric": "te"
+        }
+      ]
     },
     {
       "t": "l",
@@ -112,7 +276,29 @@
     },
     {
       "t": "c",
-      "v": "                         SOL           RE  DO             RE"
+      "v": "                         SOL           RE  DO             RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dove"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ognuno"
+        },
+        {
+          "chord": "RE",
+          "lyric": "troverà"
+        },
+        {
+          "chord": "DO",
+          "lyric": "la sua vera"
+        },
+        {
+          "chord": "RE",
+          "lyric": "casa."
+        }
+      ]
     },
     {
       "t": "l",
@@ -127,7 +313,13 @@
     },
     {
       "t": "c",
-      "v": "               MI-"
+      "v": "               MI-",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Verbum caro factum est"
+        }
+      ]
     },
     {
       "t": "l",
@@ -154,7 +346,25 @@
     },
     {
       "t": "c",
-      "v": "     MI-         RE                     MI-        RE"
+      "v": "     MI-         RE                     MI-        RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Prima del"
+        },
+        {
+          "chord": "RE",
+          "lyric": "tempo, quando"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "l'universo fu"
+        },
+        {
+          "chord": "RE",
+          "lyric": "creato"
+        }
+      ]
     },
     {
       "t": "l",
@@ -162,7 +372,45 @@
     },
     {
       "t": "c",
-      "v": "       MI-      RE   MI-         RE            MI-     RE    (MI-   RE)"
+      "v": "       MI-      RE   MI-         RE            MI-     RE    (MI-   RE)",
+      "flowSegments": [
+        {
+          "parts": [
+            {
+              "chord": "MI-",
+              "lyric": "dall'oscu"
+            },
+            {
+              "chord": "RE",
+              "lyric": "rità,"
+            }
+          ]
+        },
+        {
+          "chord": "MI-",
+          "lyric": "il Verbo"
+        },
+        {
+          "chord": "RE",
+          "lyric": "era presso"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Dio."
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        },
+        {
+          "chord": "(MI-",
+          "lyric": ""
+        },
+        {
+          "chord": "RE)",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -170,7 +418,25 @@
     },
     {
       "t": "c",
-      "v": "     MI-            RE              MI-          RE"
+      "v": "     MI-            RE              MI-          RE",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Venne nel"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mondo, nella"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "sua"
+        },
+        {
+          "chord": "RE",
+          "lyric": "misericordia"
+        }
+      ]
     },
     {
       "t": "l",
@@ -178,7 +444,37 @@
     },
     {
       "t": "c",
-      "v": "                    MI-              RE    MI-        RE             MI-     RE"
+      "v": "                    MI-              RE    MI-        RE             MI-     RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Dio ha"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "mandato il Figlio"
+        },
+        {
+          "chord": "RE",
+          "lyric": "suo,"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "tutto se"
+        },
+        {
+          "chord": "RE",
+          "lyric": "stesso come"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "pane."
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -193,7 +489,13 @@
     },
     {
       "t": "c",
-      "v": "               MI-"
+      "v": "               MI-",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Verbum caro factum est"
+        }
+      ]
     },
     {
       "t": "l",
@@ -216,7 +518,25 @@
     },
     {
       "t": "c",
-      "v": "               SOL     RE                 DO                     RE"
+      "v": "               SOL     RE                 DO                     RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Qui"
+        },
+        {
+          "chord": "RE",
+          "lyric": "spezzi ancora il"
+        },
+        {
+          "chord": "DO",
+          "lyric": "pane in mezzo a"
+        },
+        {
+          "chord": "RE",
+          "lyric": "noi"
+        }
+      ]
     },
     {
       "t": "l",
@@ -224,7 +544,29 @@
     },
     {
       "t": "c",
-      "v": "                     SOL              RE   DO               RE"
+      "v": "                     SOL              RE   DO               RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "e"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "chiunque"
+        },
+        {
+          "chord": "RE",
+          "lyric": "mangerà"
+        },
+        {
+          "chord": "DO",
+          "lyric": "non avrà più"
+        },
+        {
+          "chord": "RE",
+          "lyric": "fame."
+        }
+      ]
     },
     {
       "t": "l",
@@ -232,7 +574,25 @@
     },
     {
       "t": "c",
-      "v": "               SOL    RE               DO               RE"
+      "v": "               SOL    RE               DO               RE",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "Qui"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vive la tua"
+        },
+        {
+          "chord": "DO",
+          "lyric": "chiesa intorno a"
+        },
+        {
+          "chord": "RE",
+          "lyric": "te"
+        }
+      ]
     },
     {
       "t": "l",
@@ -240,7 +600,29 @@
     },
     {
       "t": "c",
-      "v": "                          SOL           RE  DO             RE"
+      "v": "                          SOL           RE  DO             RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dove"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ognuno"
+        },
+        {
+          "chord": "RE",
+          "lyric": "troverà"
+        },
+        {
+          "chord": "DO",
+          "lyric": "la sua vera"
+        },
+        {
+          "chord": "RE",
+          "lyric": "casa."
+        }
+      ]
     },
     {
       "t": "l",
@@ -255,7 +637,13 @@
     },
     {
       "t": "c",
-      "v": "               MI-"
+      "v": "               MI-",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "Verbum caro factum est"
+        }
+      ]
     },
     {
       "t": "l",

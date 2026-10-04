@@ -14,7 +14,25 @@
     },
     {
       "t": "c",
-      "v": "SOL                    RE             MI-                         SI-"
+      "v": "SOL                    RE             MI-                         SI-",
+      "flowSegments": [
+        {
+          "chord": "SOL",
+          "lyric": "C'è silenzio intorno a"
+        },
+        {
+          "chord": "RE",
+          "lyric": "noi e in un"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "istante il pensiero vola a"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "Lui"
+        }
+      ]
     },
     {
       "t": "l",
@@ -22,7 +40,25 @@
     },
     {
       "t": "c",
-      "v": "            DO                 SOL        SI-"
+      "v": "            DO                 SOL        SI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che certo"
+        },
+        {
+          "chord": "DO",
+          "lyric": "sta seduto accanto a"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "me e sta"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "chiedendo"
+        }
+      ]
     },
     {
       "t": "l",
@@ -30,7 +66,29 @@
     },
     {
       "t": "c",
-      "v": "    DO     RE       SOL             RE"
+      "v": "    DO     RE       SOL             RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "se"
+        },
+        {
+          "chord": "DO",
+          "lyric": "voglio"
+        },
+        {
+          "chord": "RE",
+          "lyric": "amarlo come"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Lui mi ha amato"
+        },
+        {
+          "chord": "RE",
+          "lyric": "già"
+        }
+      ]
     },
     {
       "t": "l",
@@ -38,7 +96,21 @@
     },
     {
       "t": "c",
-      "v": "                   MI-                 SI-"
+      "v": "                   MI-                 SI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "dal giorno in cui"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "sono stato posto"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "qua"
+        }
+      ]
     },
     {
       "t": "l",
@@ -46,7 +118,41 @@
     },
     {
       "t": "c",
-      "v": "            DO                 SOL          SI-       DO   MI- RE RE"
+      "v": "            DO                 SOL          SI-       DO   MI- RE RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "con"
+        },
+        {
+          "chord": "DO",
+          "lyric": "quell'idea di pace e"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "libertà che nei"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "suoi occhi"
+        },
+        {
+          "chord": "DO",
+          "lyric": "brilla."
+        },
+        {
+          "chord": "MI-",
+          "lyric": ""
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -61,7 +167,37 @@
     },
     {
       "t": "c",
-      "v": "DO      RE      MI-       RE             DO   SI-          MI-"
+      "v": "DO      RE      MI-       RE             DO   SI-          MI-",
+      "flowSegments": [
+        {
+          "chord": "DO",
+          "lyric": "Tu che"
+        },
+        {
+          "chord": "RE",
+          "lyric": "risplendi"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "se mi"
+        },
+        {
+          "chord": "RE",
+          "lyric": "trattengo ancora un"
+        },
+        {
+          "chord": "DO",
+          "lyric": "po'"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "abbracciato a"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Te"
+        }
+      ]
     },
     {
       "t": "l",
@@ -69,7 +205,29 @@
     },
     {
       "t": "c",
-      "v": "         RE           DO       RE   MI-"
+      "v": "         RE           DO       RE   MI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "e mi"
+        },
+        {
+          "chord": "RE",
+          "lyric": "chiedi una"
+        },
+        {
+          "chord": "DO",
+          "lyric": "follia,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "questa vita"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "mia"
+        }
+      ]
     },
     {
       "t": "l",
@@ -77,7 +235,41 @@
     },
     {
       "t": "c",
-      "v": "         RE           DO SOL      RE  DO       RE MI-"
+      "v": "         RE           DO SOL      RE  DO       RE MI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che mi"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vien da"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vivere"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "qui con"
+        },
+        {
+          "chord": "RE",
+          "lyric": "Te,"
+        },
+        {
+          "chord": "DO",
+          "lyric": "perché non mi"
+        },
+        {
+          "chord": "RE",
+          "lyric": "lasci"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "mai"
+        }
+      ]
     },
     {
       "t": "l",
@@ -85,7 +277,45 @@
     },
     {
       "t": "c",
-      "v": "        RE        DO SI-   MI-      RE         DO      RE MI-"
+      "v": "        RE        DO SI-   MI-      RE         DO      RE MI-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "mi"
+        },
+        {
+          "chord": "RE",
+          "lyric": "sostieni quando"
+        },
+        {
+          "chord": "DO",
+          "lyric": "io"
+        },
+        {
+          "chord": "SI-",
+          "lyric": ""
+        },
+        {
+          "chord": "MI-",
+          "lyric": "cederei"
+        },
+        {
+          "chord": "RE",
+          "lyric": "e poi canti"
+        },
+        {
+          "chord": "DO",
+          "lyric": "d'allegria per"
+        },
+        {
+          "chord": "RE",
+          "lyric": "la"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "malattia"
+        }
+      ]
     },
     {
       "t": "l",
@@ -93,7 +323,45 @@
     },
     {
       "t": "c",
-      "v": "       RE      DO SOL       RE  DO SOL RE RE"
+      "v": "       RE      DO SOL       RE  DO SOL RE RE",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che ho"
+        },
+        {
+          "chord": "RE",
+          "lyric": "di voler"
+        },
+        {
+          "chord": "DO",
+          "lyric": "vivere"
+        },
+        {
+          "chord": "SOL",
+          "lyric": ""
+        },
+        {
+          "chord": "RE",
+          "lyric": "qui"
+        },
+        {
+          "chord": "DO",
+          "lyric": "con Te."
+        },
+        {
+          "chord": "SOL",
+          "lyric": ""
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        },
+        {
+          "chord": "RE",
+          "lyric": ""
+        }
+      ]
     },
     {
       "t": "l",
@@ -108,7 +376,25 @@
     },
     {
       "t": "c",
-      "v": "LA                         MI          FA#-                     DO#-"
+      "v": "LA                         MI          FA#-                     DO#-",
+      "flowSegments": [
+        {
+          "chord": "LA",
+          "lyric": "Questo mondo corre e va"
+        },
+        {
+          "chord": "MI",
+          "lyric": "su larghe strade"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "verso tristi"
+        },
+        {
+          "chord": "DO#-",
+          "lyric": "oscurità."
+        }
+      ]
     },
     {
       "t": "l",
@@ -116,7 +402,37 @@
     },
     {
       "t": "c",
-      "v": "             RE                  LA           DO#-     RE    FA#- MI"
+      "v": "             RE                  LA           DO#-     RE    FA#- MI",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "ma c'è un"
+        },
+        {
+          "chord": "RE",
+          "lyric": "sentiero che lassù si"
+        },
+        {
+          "chord": "LA",
+          "lyric": "inerpica e c'è"
+        },
+        {
+          "chord": "DO#-",
+          "lyric": "una vetta"
+        },
+        {
+          "chord": "RE",
+          "lyric": "chi la"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": ""
+        },
+        {
+          "chord": "MI",
+          "lyric": "scalerà?"
+        }
+      ]
     },
     {
       "t": "l",
@@ -131,7 +447,37 @@
     },
     {
       "t": "c",
-      "v": "RE      MI   FA#-    MI                 RE   DO#-          FA#-"
+      "v": "RE      MI   FA#-    MI                 RE   DO#-          FA#-",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Tu che"
+        },
+        {
+          "chord": "MI",
+          "lyric": "risplendi"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "se mi"
+        },
+        {
+          "chord": "MI",
+          "lyric": "trattengo ancora un"
+        },
+        {
+          "chord": "RE",
+          "lyric": "po'"
+        },
+        {
+          "chord": "DO#-",
+          "lyric": "abbracciato a"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "Te"
+        }
+      ]
     },
     {
       "t": "l",
@@ -139,7 +485,29 @@
     },
     {
       "t": "c",
-      "v": "         MI           RE       MI   FA#-"
+      "v": "         MI           RE       MI   FA#-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "e mi"
+        },
+        {
+          "chord": "MI",
+          "lyric": "chiedi una"
+        },
+        {
+          "chord": "RE",
+          "lyric": "follia,"
+        },
+        {
+          "chord": "MI",
+          "lyric": "questa vita"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "mia"
+        }
+      ]
     },
     {
       "t": "l",
@@ -147,7 +515,41 @@
     },
     {
       "t": "c",
-      "v": "         MI           RE LA       MI  RE       MI FA#-"
+      "v": "         MI           RE LA       MI  RE       MI FA#-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che mi"
+        },
+        {
+          "chord": "MI",
+          "lyric": "vien da"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vivere"
+        },
+        {
+          "chord": "LA",
+          "lyric": "qui con"
+        },
+        {
+          "chord": "MI",
+          "lyric": "Te,"
+        },
+        {
+          "chord": "RE",
+          "lyric": "perché non mi"
+        },
+        {
+          "chord": "MI",
+          "lyric": "lasci"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "mai"
+        }
+      ]
     },
     {
       "t": "l",
@@ -155,7 +557,45 @@
     },
     {
       "t": "c",
-      "v": "        MI        RE DO#-  FA#-      MI        RE      MI FA#-"
+      "v": "        MI        RE DO#-  FA#-      MI        RE      MI FA#-",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "mi"
+        },
+        {
+          "chord": "MI",
+          "lyric": "sostieni quando"
+        },
+        {
+          "chord": "RE",
+          "lyric": "io"
+        },
+        {
+          "chord": "DO#-",
+          "lyric": ""
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "cederei"
+        },
+        {
+          "chord": "MI",
+          "lyric": "e poi canti"
+        },
+        {
+          "chord": "RE",
+          "lyric": "d'allegria per"
+        },
+        {
+          "chord": "MI",
+          "lyric": "la"
+        },
+        {
+          "chord": "FA#-",
+          "lyric": "malattia"
+        }
+      ]
     },
     {
       "t": "l",
@@ -163,7 +603,29 @@
     },
     {
       "t": "c",
-      "v": "       MI      RE LA       MI  RE LA  MI MI"
+      "v": "MI      RE LA       MI",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "che ho"
+        },
+        {
+          "chord": "MI",
+          "lyric": "di voler"
+        },
+        {
+          "chord": "RE",
+          "lyric": "vivere"
+        },
+        {
+          "chord": "LA",
+          "lyric": "qui con"
+        },
+        {
+          "chord": "MI",
+          "lyric": "Te."
+        }
+      ]
     },
     {
       "t": "l",
@@ -175,7 +637,21 @@
     },
     {
       "t": "c",
-      "v": "RE LA     MI"
+      "v": "RE LA     MI",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "con"
+        },
+        {
+          "chord": "LA",
+          "lyric": "Te,"
+        },
+        {
+          "chord": "MI",
+          "lyric": "qui con Te..."
+        }
+      ]
     },
     {
       "t": "l",

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'canzoniere-offline-verificato-35';
+const CACHE_NAME = 'canzoniere-offline-verificato-36';
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -16,14 +16,54 @@ const CORE_ASSETS = [
 ];
 
 const PRECACHE_BATCH_SIZE = 8;
+// Oltre questo tempo un canto già salvato (anche di versione precedente)
+// viene aperto dalla cache: su iPad in modalità aereo fetch può restare sospesa.
+const SONG_NETWORK_TIMEOUT_MS = 4000;
+
+function isSongPath(pathname) {
+  return pathname.startsWith('/songs/') && pathname.endsWith('.json');
+}
+
+function isSongUrl(url) {
+  return isSongPath(new URL(url, self.location.origin).pathname);
+}
+
+function versionedUrl(url, version) {
+  if (!version) return url;
+  return url + (url.includes('?') ? '&' : '?') + 'v=' + encodeURIComponent(version);
+}
+
+// Una sola copia per file: la query ?v=... serve solo a distinguere le versioni.
+// Prima si salva la nuova copia, poi si eliminano le altre: il file non risulta
+// mai mancante, nemmeno per un istante, durante la verifica offline.
+async function putSingle(cache, request, response) {
+  await cache.put(request, response);
+  const others = await cache.keys(request, { ignoreSearch: true });
+  await Promise.all(others
+    .filter(key => key.url !== request.url)
+    .map(key => cache.delete(key)));
+}
+
+function fetchWithTimeout(request, ms) {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error('Rete troppo lenta')), ms);
+    fetch(request).then(
+      response => { clearTimeout(timer); resolve(response); },
+      error => { clearTimeout(timer); reject(error); }
+    );
+  });
+}
 
 async function getSongAssetsFromIndex(cache) {
   try {
     const indexRequest = new Request('./data/songs-index.json');
-    let response = cache ? await cache.match(indexRequest, { ignoreSearch: true }) : null;
-    if (!response) {
-      response = await fetch(new Request('./data/songs-index.json', { cache: 'reload' }));
+    let response = null;
+    if (self.navigator.onLine !== false) {
+      // Online conta l'indice pubblicato, così entrano anche i canti nuovi.
+      response = await fetch(new Request('./data/songs-index.json', { cache: 'reload' })).catch(() => null);
+      if (response && !response.ok) response = null;
     }
+    if (!response && cache) response = await cache.match(indexRequest, { ignoreSearch: true });
     if (response && response.ok) {
       const items = await response.clone().json();
       if (Array.isArray(items)) {
@@ -66,7 +106,7 @@ async function cacheAssetBatch(cache, urls) {
     return { request, response };
   }));
 
-  await Promise.all(downloaded.map(({ request, response }) => cache.put(request, response)));
+  await Promise.all(downloaded.map(({ request, response }) => putSingle(cache, request, response)));
 }
 
 async function prepareCompleteOfflineCache() {
@@ -91,25 +131,30 @@ async function prepareCompleteOfflineCache() {
   }
 }
 
-async function missingOfflineAssets() {
+async function missingOfflineAssets(version) {
   const cache = await caches.open(CACHE_NAME);
-  const songAssets = await getSongAssetsFromIndex(cache);
+  // Con la versione dei dati nota, un canto conta come pronto solo se la
+  // copia salvata è proprio quella versione: le correzioni arrivano anche a
+  // chi ha già il Canzoniere installato, senza cambiare CACHE_NAME.
+  const songAssets = (await getSongAssetsFromIndex(cache)).map(url => versionedUrl(url, version));
   const allAssets = [...CORE_ASSETS, ...songAssets];
   const checks = await Promise.all(allAssets.map(async url => ({
     url,
-    valid: await isValidOfflineResponse(url, await cache.match(new Request(url), { ignoreSearch: true }))
+    valid: await isValidOfflineResponse(url, await cache.match(new Request(url), {
+      ignoreSearch: !(version && isSongUrl(url))
+    }))
   })));
   return checks.filter(({ valid }) => !valid).map(({ url }) => url);
 }
 
-async function ensureOfflineCache() {
-  let missing = await missingOfflineAssets();
+async function ensureOfflineCache(version) {
+  let missing = await missingOfflineAssets(version);
   if (missing.length && self.navigator.onLine !== false) {
     const cache = await caches.open(CACHE_NAME);
     for (let index = 0; index < missing.length; index += PRECACHE_BATCH_SIZE) {
       await cacheAssetBatch(cache, missing.slice(index, index + PRECACHE_BATCH_SIZE));
     }
-    missing = await missingOfflineAssets();
+    missing = await missingOfflineAssets(version);
   }
   return { ready: missing.length === 0 };
 }
@@ -129,7 +174,8 @@ self.addEventListener('activate', event => {
 self.addEventListener('message', event => {
   if (event.data?.type !== 'CHECK_OFFLINE_READY') return;
   const reply = event.ports?.[0];
-  const task = ensureOfflineCache()
+  const version = typeof event.data.version === 'string' ? event.data.version : null;
+  const task = ensureOfflineCache(version)
     .then(result => reply?.postMessage(result))
     .catch(error => {
       console.warn('Verifica cache offline non riuscita.', error);
@@ -150,27 +196,18 @@ self.addEventListener('fetch', event => {
   // che di fatto non cambiano quasi mai.
   const url = new URL(event.request.url);
   const pathname = url.pathname;
-  const isSong = pathname.startsWith('/songs/') && pathname.endsWith('.json');
+  const isSong = isSongPath(pathname);
   const isFrequentlyUpdated = pathname.endsWith('.json') || pathname.endsWith('.css') || pathname.endsWith('.js') || pathname.endsWith('.html') || pathname.endsWith('/');
 
   if (isSong) {
-    // Su Safari/iPad una richiesta rete-prima può restare sospesa a lungo in
-    // modalità aereo. I canti già verificati devono aprirsi immediatamente
-    // dalla cache; quando manca la copia locale, usiamo la rete e la salviamo.
-    event.respondWith(
-      matchOfflineAsset(event.request).then(cached => cached || fetch(event.request).then(response => {
-        const copy = response.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
-        return response;
-      }))
-    );
+    event.respondWith(handleSongRequest(event));
   } else if (isFrequentlyUpdated) {
     const freshRequest = new Request(event.request, { cache: 'reload' });
     event.respondWith(
       fetch(freshRequest)
         .then(response => {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+          if (response.ok) caches.open(CACHE_NAME).then(cache => putSingle(cache, event.request, copy));
           return response;
         })
         .catch(() => matchOfflineAsset(event.request))
@@ -187,3 +224,36 @@ self.addEventListener('fetch', event => {
     );
   }
 });
+
+async function handleSongRequest(event) {
+  const request = event.request;
+  const cache = await caches.open(CACHE_NAME);
+  // Copia salvata della stessa versione richiesta dall'app (?v=SONG_DATA_VERSION).
+  const exact = await cache.match(request);
+
+  const fromNetwork = fetchWithTimeout(new Request(request, { cache: 'no-cache' }), SONG_NETWORK_TIMEOUT_MS)
+    .then(async response => {
+      if (await isValidOfflineResponse(request.url, response)) {
+        await putSingle(cache, request, response.clone());
+      }
+      return response;
+    });
+
+  if (exact) {
+    // Apertura immediata; se si è online si ricontrolla in background, così
+    // una correzione arriva alla successiva apertura anche senza cambio versione.
+    if (self.navigator.onLine !== false) event.waitUntil(fromNetwork.catch(() => {}));
+    return exact;
+  }
+
+  // Versione nuova o canto mai aperto: prima la rete, poi qualunque copia salvata.
+  let networkResponse = null;
+  try {
+    networkResponse = await fromNetwork;
+    if (networkResponse.ok) return networkResponse;
+  } catch (error) {
+    // offline o rete lenta: si usa la copia salvata
+  }
+  const fallback = await cache.match(request, { ignoreSearch: true });
+  return fallback || networkResponse || Response.error();
+}

@@ -27,6 +27,18 @@ Sito: <https://canzoniere.matteodelfabbro.it>
 
 Non riscrivere la cronologia Git: i commit pubblicati sono la memoria del progetto.
 
+## Aggiornare i canti
+
+Dopo una correzione a testi o accordi basta cambiare `SONG_DATA_VERSION` in
+`public/js/app.js` (e il `?v=` di `app.js` in `index.html`). Il service worker
+riscarica da solo i canti della nuova versione, anche per chi ha l'app
+installata; non serve più cambiare `CACHE_NAME` in `service-worker.js`, che va
+toccato solo quando cambia la logica del service worker stesso.
+
+Anche dimenticando il cambio di versione, chi è online riceve la correzione
+alla seconda apertura del canto (la prima mostra subito la copia salvata e
+intanto la aggiorna).
+
 ## Funzioni principali
 
 - consultazione e ricerca dei canti;

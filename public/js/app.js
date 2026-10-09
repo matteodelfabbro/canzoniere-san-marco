@@ -2190,7 +2190,7 @@ if ('serviceWorker' in navigator) {
             window.clearTimeout(timeout);
             resolve(event.data);
           };
-          worker.postMessage({type:'CHECK_OFFLINE_READY'},[channel.port2]);
+          worker.postMessage({type:'CHECK_OFFLINE_READY',version:SONG_DATA_VERSION},[channel.port2]);
         });
         if(result?.ready){
           setOfflineStatus('ready','Canti disponibili offline');

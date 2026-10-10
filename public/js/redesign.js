@@ -266,6 +266,61 @@
   const ICON_PLAY=svg('<path d="M7 4v16l13-8z"></path>');
   const ICON_SEARCH=svg('<circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path>');
 
+  /* Evento speciale in cima alla home: si mostra solo tra "from" e "until".
+     Per un prossimo evento basta cambiare questi dati; id:null = canto non
+     ancora nel canzoniere (resta in scaletta col solo titolo). */
+  const EVENT={
+    title:'Pellegrinaggio a Castelmonte',
+    when:'Domenica 11 ottobre 2026 · Santa Messa',
+    from:'2026-10-10T00:00:00+02:00',
+    until:'2026-10-12T06:00:00+02:00',
+    songs:[
+      ['Ingresso','ave-maria'],
+      ['Atto penitenziale','signore-pieta-versione-2'],
+      ['Gloria','gloria-gen-verde'],
+      ['Vangelo',null,'Alleluia, chi ascolta la Parola'],
+      ['Offertorio',null,'Benedicat'],
+      ['Santo','santo-gen-messa-come-fuoco-vivo'],
+      ['Comunione','re-dei-re-capo-1'],
+      ['Finale','salve-regina']
+    ]
+  };
+  function renderEvent(){
+    const now=Date.now();
+    if(now<Date.parse(EVENT.from)||now>Date.parse(EVENT.until))return null;
+    const card=el('section','rd-ev');
+    const head=el('div','rd-ev-head');
+    head.append(el('div','rd-ev-kicker','Scaletta della Messa'),el('h3','',EVENT.title),el('p','',EVENT.when));
+    const firstId=EVENT.songs.map(item=>item[1]).find(id=>id&&songById(id));
+    if(firstId){
+      const go=el('button','rd-sl-go');
+      go.type='button';
+      go.innerHTML=ICON_PLAY+'<span>Inizia</span>';
+      go.addEventListener('click',()=>openSong(firstId));
+      head.append(go);
+    }
+    const list=el('ol','rd-ev-list');
+    EVENT.songs.forEach(([moment,id,fallback])=>{
+      const song=id&&songById(id);
+      const row=el(song?'button':'div','rd-ev-row'+(song?'':' is-missing'));
+      if(song){
+        row.type='button';
+        row.addEventListener('click',()=>openSong(song.id));
+      }
+      const text=el('span','rd-ev-text');
+      text.append(el('small','',moment),el('b','',song?song.title:fallback));
+      const note=song?(song.sub||''):'Non ancora nel canzoniere';
+      if(note)text.append(el('em','',note));
+      row.append(text);
+      if(song)row.insertAdjacentHTML('beforeend',ICON_NEXT);
+      const li=el('li');
+      li.append(row);
+      list.append(li);
+    });
+    card.append(head,list);
+    return card;
+  }
+
   function renderHome(){
     if(!allSongs().length)return;
     const box=el('div','rd-home');
@@ -277,6 +332,8 @@
 
     const today=new Date().toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'});
     box.append(fakeSearch,el('div','rd-eyebrow',today),el('h2','', 'Che cosa cantiamo oggi?'));
+    const event=renderEvent();
+    if(event)box.append(event);
 
     // Setlist attiva: è quella che il sito tiene già salvata sul dispositivo.
     const ids=readJson('personalSetlist',[]).filter(id=>songById(id));

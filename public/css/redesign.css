@@ -387,6 +387,27 @@ html.rd .rd-sl-sum span{flex:1;min-width:0;white-space:pre;overflow:hidden;text-
 html.rd .rd-sl-sum:hover{color:#fff}
 html.rd .rd-sl-sum svg{flex:none;width:1rem;height:1rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 
+/* Evento speciale in cima alla home (es. pellegrinaggio) */
+html.rd .rd-ev{margin-bottom:1.6rem;border-radius:20px;background:var(--rd-card);color:#fff;overflow:hidden;box-shadow:var(--rd-shadow-lg)}
+html.rd .rd-ev-head{display:grid;grid-template-columns:1fr auto;align-items:end;gap:.2rem 1rem;padding:1.25rem 1.25rem 1.05rem;background:linear-gradient(135deg,rgba(224,188,106,.2),rgba(224,188,106,0) 70%)}
+html.rd .rd-ev-head>*{grid-column:1}
+html.rd .rd-ev-head .rd-sl-go{grid-column:2;grid-row:1/4;align-self:center}
+html.rd .rd-ev-kicker{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-bright)}
+html.rd .rd-home .rd-ev h3{margin:.2rem 0 0;font-family:var(--rd-serif);font-weight:600;font-size:clamp(1.35rem,3.6vw,1.75rem);line-height:1.12;letter-spacing:-.01em;text-transform:none;color:#fff}
+html.rd .rd-ev-head p{margin:.2rem 0 0;font-size:.84rem;color:rgba(255,255,255,.66)}
+html.rd .rd-ev-list{list-style:none;margin:0;padding:0;counter-reset:ev}
+html.rd .rd-ev-list li{counter-increment:ev;border-top:1px solid rgba(255,255,255,.1)}
+html.rd .rd-ev-row{display:flex;align-items:center;gap:.85rem;width:100%;min-height:3.6rem;padding:.6rem 1.25rem;border:0;background:none;color:#fff;text-align:left}
+html.rd .rd-ev-row::before{content:counter(ev);flex:none;width:1.4rem;font-size:.8rem;font-weight:800;color:var(--gold-bright);font-variant-numeric:tabular-nums}
+html.rd button.rd-ev-row:hover,html.rd button.rd-ev-row:focus-visible{background:rgba(255,255,255,.06)}
+html.rd .rd-ev-text{flex:1;min-width:0;display:flex;flex-direction:column}
+html.rd .rd-ev-text small{font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+html.rd .rd-ev-text b{font-family:var(--rd-serif);font-weight:600;font-size:1.12rem;line-height:1.2}
+html.rd .rd-ev-text em{font-style:normal;font-size:.78rem;color:rgba(255,255,255,.6)}
+html.rd .rd-ev-row svg{flex:none;width:1rem;height:1rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:.6}
+html.rd .rd-ev-row.is-missing b{color:rgba(255,255,255,.75)}
+html.rd .rd-ev-row.is-missing em{font-style:italic}
+
 html.rd .rd-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:0 1.5rem}
 html.rd .rd-step{display:flex;align-items:center;gap:.7rem;height:3rem;padding:0 .4rem;border:0;border-bottom:1px solid var(--rd-line);background:none;color:var(--rd-ink);text-align:left}
 html.rd .rd-step:hover{background:var(--rd-surface-2)}

@@ -481,4 +481,42 @@
   decorateSong();
   renderHome();
   updateTabbar();
+
+  /* ---------- Versione nuova pubblicata: avviso "Aggiorna" ----------
+     Nell'app installata non c'è il "tira per aggiornare": quando si torna
+     nel canzoniere si confrontano i file ?v= della pagina con quelli
+     pubblicati e, se sono cambiati, basta un tocco per ricaricare. */
+  const versioned=root=>[...root.querySelectorAll('script[src],link[rel="stylesheet"][href]')]
+    .map(node=>node.getAttribute('src')||node.getAttribute('href'))
+    .filter(url=>/\?v=/.test(url)).sort().join(' ');
+  const loadedVersion=versioned(document);
+  let updateBanner=null;
+  async function checkForUpdate(){
+    if(updateBanner||navigator.onLine===false||document.visibilityState!=='visible')return;
+    try{
+      const response=await fetch('/index.html',{cache:'no-store'});
+      if(!response.ok)return;
+      const page=new DOMParser().parseFromString(await response.text(),'text/html');
+      const published=versioned(page);
+      if(!published||published===loadedVersion)return;
+      updateBanner=el('div','rd-update');
+      updateBanner.setAttribute('role','status');
+      const reload=el('button','rd-sl-go','Aggiorna');
+      reload.type='button';
+      reload.addEventListener('click',()=>location.reload());
+      updateBanner.append(el('span','','Nuova versione del canzoniere'),reload);
+      document.body.append(updateBanner);
+    }catch(error){/* offline o rete lenta: si riprova al prossimo ritorno */}
+  }
+  // Sempre a portata di mano: "Aggiorna" in fondo, accanto al bollino offline.
+  const offlineLine=document.getElementById('offlineStatus');
+  if(offlineLine){
+    const refresh=el('button','rd-refresh','Aggiorna');
+    refresh.type='button';
+    refresh.addEventListener('click',()=>location.reload());
+    offlineLine.append(refresh);
+  }
+  document.addEventListener('visibilitychange',checkForUpdate);
+  window.addEventListener('online',checkForUpdate);
+  setTimeout(checkForUpdate,4000);
 })();

@@ -89,14 +89,6 @@ html.rd header{
   padding:calc(.7rem + env(safe-area-inset-top)) clamp(1rem,2.2vw,1.5rem) .7rem;
   text-align:left;border-bottom:0;
 }
-html.rd header::before{
-  content:"";flex:none;width:2.1rem;height:2.1rem;border-radius:.6rem;
-  background:
-    linear-gradient(var(--gold-bright),var(--gold-bright)) 50% 50%/2px 1.15rem no-repeat,
-    linear-gradient(var(--gold-bright),var(--gold-bright)) 50% 36%/.8rem 2px no-repeat,
-    rgba(224,188,106,.14);
-  box-shadow:inset 0 0 0 1px rgba(224,188,106,.35);
-}
 html.rd header h1{font-family:var(--rd-serif);font-weight:600;font-size:1.3rem;margin:0;letter-spacing:-.01em;line-height:1.1}
 html.rd header p.tag{font-size:.78rem;margin:0 0 0 auto;color:rgba(233,226,205,.55)}
 @media (max-width:600px){

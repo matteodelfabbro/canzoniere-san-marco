@@ -418,7 +418,16 @@ html.rd .rd-ev-next-go:hover,html.rd .rd-ev-next-go:focus-visible{background:var
 html.rd .rd-ev-next-go b{font-size:1.25rem}
 html.rd .rd-ev-next-go svg{flex:none;width:1.2rem;height:1.2rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 html.rd .rd-ev-next-end{margin:0;padding:.8rem 1.2rem;border-top:1px solid var(--rd-card-line);font-size:.86rem;color:var(--rd-card-ink-2)}
-html.rd body.lectern-mode .rd-ev-next{display:none}
+/* A schermo intero (leggio): solo una riga discreta "Prossimo › titolo" */
+html.rd body.lectern-mode .rd-ev-next{max-width:none;margin:2.4rem 0 1.5rem;border:0;border-radius:0;background:none;box-shadow:none;color:var(--rd-ink-3)}
+html.rd body.lectern-mode .rd-ev-next-back{display:none}
+html.rd body.lectern-mode .rd-ev-next-go{min-height:0;padding:.9rem 0;border-top:1px solid var(--rd-line);color:var(--rd-ink-3)}
+html.rd body.lectern-mode .rd-ev-next-go:hover{background:none;color:var(--rd-ink)}
+html.rd body.lectern-mode .rd-ev-next-go .rd-ev-text{flex-direction:row;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+html.rd body.lectern-mode .rd-ev-next-go .rd-ev-text small{color:var(--rd-ink-3)}
+html.rd body.lectern-mode .rd-ev-next-go b{font-size:1rem;color:var(--rd-ink-2)}
+html.rd body.lectern-mode .rd-ev-next-go em{display:none}
+html.rd body.lectern-mode .rd-ev-next-end{padding:.9rem 0;border-top:1px solid var(--rd-line);color:var(--rd-ink-3)}
 
 html.rd .rd-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:0 1.5rem}
 html.rd .rd-step{display:flex;align-items:center;gap:.7rem;height:3rem;padding:0 .4rem;border:0;border-bottom:1px solid var(--rd-line);background:none;color:var(--rd-ink);text-align:left}

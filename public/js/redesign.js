@@ -335,8 +335,7 @@
     fakeSearch.innerHTML=ICON_SEARCH+'<span>Cerca titolo o parole…</span>';
     fakeSearch.addEventListener('click',()=>{showListView('filterAll');search.focus();});
 
-    const today=new Date().toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'});
-    box.append(fakeSearch,el('div','rd-eyebrow',today),el('h2','', 'Che cosa cantiamo oggi?'));
+    box.append(fakeSearch);
     const event=renderEvent();
     if(event)box.append(event);
 

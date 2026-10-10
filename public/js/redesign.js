@@ -278,8 +278,8 @@
       ['Ingresso','ave-maria'],
       ['Atto penitenziale','signore-pieta-versione-2'],
       ['Gloria','gloria-gen-verde'],
-      ['Vangelo',null,'Alleluia, chi ascolta la Parola'],
-      ['Offertorio',null,'Benedicat'],
+      ['Vangelo','alleluia-buttazzo'],
+      ['Offertorio','benedizione-a-frate-leone'],
       ['Santo','santo-gen-messa-come-fuoco-vivo'],
       ['Comunione','re-dei-re-capo-1'],
       ['Finale','salve-regina']

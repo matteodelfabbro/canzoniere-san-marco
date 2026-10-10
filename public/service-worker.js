@@ -13,6 +13,7 @@ const CORE_ASSETS = [
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
+  "./icon.svg",
   "./fonts/manrope-latin.woff2",
   "./fonts/manrope-latin-ext.woff2",
   "./fonts/fraunces-latin.woff2"

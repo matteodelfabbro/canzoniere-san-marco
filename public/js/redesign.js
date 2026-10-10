@@ -506,15 +506,15 @@
       reload.addEventListener('click',()=>location.reload());
       updateBanner.append(el('span','','Nuova versione del canzoniere'),reload);
       document.body.append(updateBanner);
+      // Anche in fondo, accanto al bollino offline.
+      const offlineLine=document.getElementById('offlineStatus');
+      if(offlineLine){
+        const refresh=el('button','rd-refresh','Aggiorna');
+        refresh.type='button';
+        refresh.addEventListener('click',()=>location.reload());
+        offlineLine.append(refresh);
+      }
     }catch(error){/* offline o rete lenta: si riprova al prossimo ritorno */}
-  }
-  // Sempre a portata di mano: "Aggiorna" in fondo, accanto al bollino offline.
-  const offlineLine=document.getElementById('offlineStatus');
-  if(offlineLine){
-    const refresh=el('button','rd-refresh','Aggiorna');
-    refresh.type='button';
-    refresh.addEventListener('click',()=>location.reload());
-    offlineLine.append(refresh);
   }
   document.addEventListener('visibilitychange',checkForUpdate);
   window.addEventListener('online',checkForUpdate);

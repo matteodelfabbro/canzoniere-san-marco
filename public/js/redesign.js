@@ -242,7 +242,7 @@
      ancora nel canzoniere (resta in scaletta col solo titolo). */
   const EVENT={
     title:'Pellegrinaggio a Castelmonte',
-    when:'Domenica 11 ottobre 2026 · Santa Messa',
+    when:'Domenica 11 ottobre · Santa Messa',
     from:'2026-10-10T00:00:00+02:00',
     until:'2026-10-12T06:00:00+02:00',
     songs:[

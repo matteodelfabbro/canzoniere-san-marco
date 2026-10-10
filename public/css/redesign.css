@@ -228,8 +228,7 @@ html.rd .install-banner-action{background:var(--rd-accent);color:var(--rd-accent
 /* ---------- Canto ---------- */
 html.rd main{background:var(--rd-bg)}
 html.rd body:not(.lectern-mode) .song-nav{
-  background:color-mix(in srgb,var(--rd-bg) 86%,transparent);
-  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:var(--rd-bg);box-shadow:0 1px 0 var(--rd-line);
 }
 html.rd .song-nav .back-list,
 html.rd .song-nav .song-view-toggle{color:var(--rd-ink-2)!important;border-radius:10px}
@@ -245,11 +244,12 @@ html.rd .song-title{
 }
 html.rd .song-sub{color:var(--rd-ink-2);font-size:1rem;margin-top:.45rem}
 html.rd .song-capo{
-  margin-top:.7rem;padding:.3rem .7rem;border:0;border-radius:999px;
+  display:inline-flex;align-items:center;height:1.9rem;vertical-align:top;
+  margin-top:.7rem;padding:0 .75rem;border:0;border-radius:999px;
   background:var(--rd-gold-soft);color:var(--rd-ink);font-size:.78rem;font-weight:700;
 }
 html.rd .rd-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
-html.rd .song-capo + .rd-tags{margin-top:.5rem}
+html.rd .song-capo + .rd-tags{display:inline-flex;vertical-align:top;margin:.7rem 0 0 .4rem}
 html.rd .rd-tag{
   display:inline-flex;align-items:center;height:1.9rem;padding:0 .75rem;border-radius:999px;
   border:1px solid var(--rd-line);background:var(--rd-surface);color:var(--rd-ink-2);
@@ -263,17 +263,6 @@ html.rd .song-setlist:hover{background:var(--rd-surface-2);color:var(--rd-ink)}
 html.rd .song-favorite.active{color:var(--rd-gold);background:transparent}
 html.rd .song-setlist.active{color:var(--rd-accent);background:transparent}
 
-/* Struttura del canto: salta alle sezioni */
-html.rd .rd-struct{display:flex;gap:.3rem;overflow-x:auto;scrollbar-width:none;margin:0 0 1.3rem;padding:.1rem 0}
-html.rd .rd-struct::-webkit-scrollbar{display:none}
-html.rd .rd-struct button{
-  flex:none;height:1.9rem;min-width:1.9rem;padding:0 .6rem;border-radius:9px;
-  border:1px solid var(--rd-line);background:var(--rd-surface);color:var(--rd-ink-2);
-  font:800 .72rem/1 Manrope,sans-serif;letter-spacing:.03em;cursor:pointer;
-}
-html.rd .rd-struct button.refrain{color:var(--rd-gold);border-color:var(--rd-gold-line)}
-html.rd .rd-struct button:hover{border-color:var(--rd-line-2);color:var(--rd-ink)}
-html.rd body.lectern-mode .rd-struct,
 html.rd body.lectern-mode .rd-tags{display:none}
 html.rd .song-section{scroll-margin-top:4.5rem}
 

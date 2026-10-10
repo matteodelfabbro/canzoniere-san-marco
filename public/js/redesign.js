@@ -144,18 +144,7 @@
     });
   }
 
-  /* ---------- Canto: etichette e struttura ---------- */
-  function shortName(heading){
-    const text=heading.trim();
-    const number=(text.match(/\d+/)||[''])[0];
-    if(/^(ritornello|refrain)/i.test(text))return 'R'+number;
-    if(/^strofa/i.test(text))return 'S'+number;
-    if(/^intro/i.test(text))return 'Intro';
-    if(/^(ponte|bridge)/i.test(text))return 'Ponte';
-    if(/^(finale|coda|outro|conclusione)/i.test(text))return 'Fine';
-    if(/^interludio/i.test(text))return 'Int'+number;
-    return text.length>10?text.slice(0,9)+'…':text;
-  }
+  /* ---------- Canto: etichette ---------- */
   function currentSongId(){
     const match=location.hash.match(/^#canto\/(.+)$/);
     const fromHash=match?decodeURIComponent(match[1]):null;
@@ -195,29 +184,6 @@
       });
       box.hidden=!tags.length;
       head.append(box);
-    }
-
-    if(!main.querySelector('.rd-struct')){
-      const nav=document.createElement('nav');
-      nav.className='rd-struct';
-      nav.setAttribute('aria-label','Struttura del canto');
-      sheet.querySelectorAll('.song-section').forEach(section=>{
-        const heading=section.querySelector('.headline, .repeat-section-title');
-        const text=heading&&heading.textContent.trim();
-        if(!text||section.children.length<2)return;
-        const button=document.createElement('button');
-        button.type='button';
-        button.textContent=shortName(text);
-        button.title=text;
-        if(section.classList.contains('refrain-section'))button.className='refrain';
-        button.addEventListener('click',()=>section.scrollIntoView({behavior:'smooth',block:'start'}));
-        nav.append(button);
-      });
-      if(nav.children.length>=3)sheet.insertAdjacentElement('beforebegin',nav);
-      else{
-        nav.hidden=true;
-        sheet.insertAdjacentElement('beforebegin',nav);
-      }
     }
   }
 

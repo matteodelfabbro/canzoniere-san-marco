@@ -435,6 +435,11 @@
 
   // Tocco sull'intestazione: si torna alla home.
   const header=document.querySelector('body > header');
+  const brand=header&&header.querySelector('h1');
+  if(brand){
+    brand.setAttribute('aria-label','Canzoniere San Marco, Udine: torna a Oggi');
+    brand.innerHTML='<span class="rd-brand-name">Canzoniere</span><span class="rd-brand-place">Parrocchia San Marco · Udine</span>';
+  }
   if(header)header.addEventListener('click',()=>{
     document.body.classList.add('rd-at-home');
     if(document.body.classList.contains('song-open')){

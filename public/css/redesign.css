@@ -107,11 +107,14 @@ html.rd header{
   padding:calc(.7rem + env(safe-area-inset-top)) clamp(1rem,2.2vw,1.5rem) .7rem;
   text-align:left;border-bottom:0;
 }
-html.rd header h1{font-family:var(--rd-serif);font-weight:600;font-size:1.3rem;margin:0;letter-spacing:-.01em;line-height:1.1}
-html.rd header p.tag{font-size:.78rem;margin:0 0 0 auto;color:rgba(233,226,205,.55)}
+html.rd header h1{display:flex;flex-direction:column;margin:0;line-height:1}
+html.rd .rd-brand-name{font-family:var(--rd-serif);font-weight:600;font-size:1.3rem;letter-spacing:-.01em;line-height:1.05}
+html.rd .rd-brand-place{margin-top:.2rem;font:800 .62rem/1 Manrope,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#e0bc6a}
+html.rd header p.tag{display:none}
 @media (max-width:600px){
   html.rd header{padding:calc(.6rem + env(safe-area-inset-top)) 1rem .6rem}
   html.rd header p.tag{display:none}
+  html.rd .rd-brand-name{font-size:1.15rem}
 }
 
 /* ---------- Colonna dell'elenco: chiara ---------- */
@@ -556,3 +559,11 @@ html.rd .rd-theme-item em{margin-left:auto;font-style:normal;font-weight:700;col
   html.rd body:not(.lectern-mode) .song-nav-main{width:auto;justify-content:flex-start;gap:.3rem}
   html.rd body:not(.lectern-mode) .toolbar-controls{display:flex;flex:1;width:auto;align-items:center;justify-content:space-between;gap:1.4rem;padding-left:1rem;border-left:1px solid var(--rd-line)}
 }
+
+/* Accordi: mai attaccati. Spazio tra accordi sulla stessa parola e dopo
+   ogni accordo più largo della sua sillaba; il segmento non si stringe
+   sotto la larghezza del suo accordo. */
+html.rd .chordline,
+html.rd .segment-chord{word-spacing:.4em}
+html.rd .music-row.word-anchored .segment-chord{padding-right:.4em}
+html.rd .music-row.word-anchored .music-segment{min-width:min-content}

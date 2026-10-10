@@ -1,9 +1,11 @@
-const CACHE_NAME = 'canzoniere-offline-verificato-36';
+const CACHE_NAME = 'canzoniere-offline-verificato-37';
 const CORE_ASSETS = [
   "./",
   "./index.html",
   "./css/style.css",
+  "./css/redesign.css",
   "./js/app.js",
+  "./js/redesign.js",
   "./js/firebase-config.js",
   "./data/songs-index.json",
   "./data/songs-tags.json",
@@ -11,8 +13,10 @@ const CORE_ASSETS = [
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
+  "./icon.svg",
   "./fonts/manrope-latin.woff2",
-  "./fonts/manrope-latin-ext.woff2"
+  "./fonts/manrope-latin-ext.woff2",
+  "./fonts/fraunces-latin.woff2"
 ];
 
 const PRECACHE_BATCH_SIZE = 8;

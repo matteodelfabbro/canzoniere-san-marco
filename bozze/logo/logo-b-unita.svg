@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Canzoniere San Marco">
+  <rect width="512" height="512" fill="#FBF1E1"/>
+  <g transform="translate(256 256) scale(.88) translate(-256 -258)">
+    <path fill="#DFA22E" d="M240 76a16 16 0 0 1 32 0v298h-32z"/>
+    <rect x="158" y="134" width="196" height="32" rx="16" fill="#DFA22E"/>
+    <path fill="#9E1B34" stroke="#9E1B34" stroke-width="6" stroke-linejoin="round" d="M272 198c30 36 116 66 107 134-2 17-9 31-21 42 4-34-14-70-86-116z"/>
+    <ellipse cx="208" cy="396" rx="68" ry="56" transform="rotate(-20 208 396)" fill="#9E1B34"/>
+  </g>
+</svg>

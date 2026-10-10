@@ -185,6 +185,11 @@
       box.hidden=!tags.length;
       head.append(box);
     }
+
+    if(!main.querySelector('.rd-ev-next')){
+      const next=renderEventNext();
+      if(next)sheet.insertAdjacentElement('afterend',next);
+    }
   }
 
   /* ---------- Home: "Che cosa cantiamo oggi?" ---------- */
@@ -285,6 +290,40 @@
     });
     card.append(head,list);
     return card;
+  }
+
+  // In fondo a un canto della scaletta: il canto successivo, senza tornare alla home.
+  function renderEventNext(){
+    const now=Date.now();
+    if(now<Date.parse(EVENT.from)||now>Date.parse(EVENT.until))return null;
+    const steps=EVENT.songs.filter(item=>item[1]&&songById(item[1]));
+    const index=steps.findIndex(item=>item[1]===currentSongId());
+    if(index<0)return null;
+    const box=el('nav','rd-ev-next');
+    box.setAttribute('aria-label','Scaletta');
+    const back=el('button','rd-ev-next-back',`${EVENT.title} · ${index+1} di ${steps.length}`);
+    back.type='button';
+    back.addEventListener('click',()=>{
+      const header=document.querySelector('body > header');
+      if(header)header.click();
+    });
+    box.append(back);
+    const following=steps[index+1];
+    if(following){
+      const go=el('button','rd-ev-next-go');
+      go.type='button';
+      const text=el('span','rd-ev-text');
+      text.append(el('small','','Prossimo · '+following[0]),el('b','',songById(following[1]).title));
+      const sub=songById(following[1]).sub;
+      if(sub)text.append(el('em','',sub));
+      go.append(text);
+      go.insertAdjacentHTML('beforeend',ICON_NEXT);
+      go.addEventListener('click',()=>{openSong(following[1]);window.scrollTo({top:0,behavior:'auto'});});
+      box.append(go);
+    }else{
+      box.append(el('p','rd-ev-next-end','Ultimo canto della scaletta'));
+    }
+    return box;
   }
 
   function renderHome(){

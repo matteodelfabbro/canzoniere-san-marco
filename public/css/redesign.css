@@ -4,8 +4,16 @@
    Tutte le regole sono sotto html.rd: togliendo la classe
    dall'elemento <html> si torna alla grafica precedente.
    ========================================================= */
-/* Titoli: Fraunces se presente sul dispositivo, altrimenti il serif di sistema.
-   Per averlo ovunque (e offline) va aggiunto in /fonts come già Manrope. */
+/* Titoli: Fraunces, servito dal sito come Manrope (funziona anche offline).
+   Licenza SIL Open Font License. */
+@font-face{
+  font-family:'Fraunces';
+  font-style:normal;
+  font-weight:500 600;
+  font-display:swap;
+  src:url('/fonts/fraunces-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 
 html.rd{
   --rd-bg:#f7f5f0;
@@ -22,7 +30,55 @@ html.rd{
   --rd-chord:#9a1b38;
   --rd-shadow:0 1px 2px rgba(22,35,61,.05),0 8px 24px -10px rgba(22,35,61,.14);
   --rd-shadow-lg:0 2px 4px rgba(22,35,61,.06),0 22px 50px -14px rgba(22,35,61,.3);
+  --rd-accent:#16233d;
+  --rd-accent-ink:#ffffff;
+  --rd-card:#16233d;
   --rd-serif:'Fraunces','New York',ui-serif,Georgia,serif;
+  color-scheme:light;
+}
+
+/* Tema scuro: automatico con il dispositivo, oppure scelto dal menu. */
+@media (prefers-color-scheme:dark){
+  html.rd:not([data-theme="light"]){
+  --rd-bg:#0e131d;
+    --rd-surface:#151b28;
+    --rd-surface-2:#1d2535;
+    --rd-ink:#eef0f5;
+    --rd-ink-2:#b6bbc9;
+    --rd-ink-3:#8089a0;
+    --rd-line:#252d3f;
+    --rd-line-2:#3a445c;
+    --rd-gold:#e0bc6a;
+    --rd-gold-soft:rgba(224,188,106,.12);
+    --rd-gold-line:rgba(224,188,106,.35);
+    --rd-chord:#f2a765;
+    --rd-accent:#e0bc6a;
+    --rd-accent-ink:#141a26;
+    --rd-card:#1a2540;
+    --rd-shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -10px rgba(0,0,0,.5);
+    --rd-shadow-lg:0 22px 50px -14px rgba(0,0,0,.75);
+    color-scheme:dark;
+  }
+}
+html.rd[data-theme="dark"]{
+  --rd-bg:#0e131d;
+  --rd-surface:#151b28;
+  --rd-surface-2:#1d2535;
+  --rd-ink:#eef0f5;
+  --rd-ink-2:#b6bbc9;
+  --rd-ink-3:#8089a0;
+  --rd-line:#252d3f;
+  --rd-line-2:#3a445c;
+  --rd-gold:#e0bc6a;
+  --rd-gold-soft:rgba(224,188,106,.12);
+  --rd-gold-line:rgba(224,188,106,.35);
+  --rd-chord:#f2a765;
+  --rd-accent:#e0bc6a;
+  --rd-accent-ink:#141a26;
+  --rd-card:#1a2540;
+  --rd-shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -10px rgba(0,0,0,.5);
+  --rd-shadow-lg:0 22px 50px -14px rgba(0,0,0,.75);
+  color-scheme:dark;
 }
 
 html.rd body{background:var(--rd-bg);color:var(--rd-ink);-webkit-font-smoothing:antialiased}
@@ -71,7 +127,7 @@ html.rd .section-menu{
 html.rd .section-menu-item{color:var(--rd-ink);border-radius:10px;letter-spacing:.02em}
 html.rd .section-menu-item:hover,
 html.rd .section-menu-item:focus-visible{background:var(--rd-surface-2)}
-html.rd .section-menu-item.active{background:var(--navy);color:#fff}
+html.rd .section-menu-item.active{background:var(--rd-accent);color:var(--rd-accent-ink)}
 html.rd .section-menu-secondary{color:var(--rd-ink-2)}
 html.rd .section-menu-divider{background:var(--rd-line)}
 html.rd .section-menu-greeting{color:var(--rd-gold);font-family:var(--rd-serif);font-size:1.1rem}
@@ -98,7 +154,7 @@ html.rd .rd-filters-toggle{
   background:var(--rd-surface-2);color:var(--rd-ink-2);font:700 .78rem/1 Manrope,sans-serif;cursor:pointer;
 }
 html.rd .rd-filters-toggle svg{width:.95rem;height:.95rem;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round}
-html.rd .rd-filters-toggle[aria-expanded="true"]{background:var(--navy);color:#fff}
+html.rd .rd-filters-toggle[aria-expanded="true"]{background:var(--rd-accent);color:var(--rd-accent-ink)}
 html.rd .rd-filters-panel{padding:.7rem 0 .2rem}
 html.rd .rd-filters-panel[hidden]{display:none}
 html.rd .rd-filters-group{font:800 .66rem/1 Manrope,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--rd-ink-3);margin:.8rem 0 .45rem}
@@ -111,7 +167,7 @@ html.rd .rd-chip{
 }
 html.rd .rd-chip:hover{border-color:var(--rd-line-2);color:var(--rd-ink)}
 html.rd .rd-chip em{font-style:normal;font-size:.7rem;font-weight:700;color:var(--rd-ink-3)}
-html.rd .rd-chip.active{background:var(--navy);border-color:var(--navy);color:#fff}
+html.rd .rd-chip.active{background:var(--rd-accent);border-color:var(--rd-accent);color:var(--rd-accent-ink)}
 html.rd .rd-chip.active em{color:rgba(255,255,255,.7)}
 
 /* Righe dell'elenco */
@@ -133,13 +189,13 @@ html.rd .favorite-btn:hover,
 html.rd .setlist-add:hover,
 html.rd .setlist-order:hover{background:var(--rd-surface);color:var(--rd-ink)}
 html.rd .favorite-btn.active{color:var(--rd-gold)}
-html.rd .setlist-add.active{color:var(--navy)}
+html.rd .setlist-add.active{color:var(--rd-accent)}
 html.rd .setlist-order{color:var(--rd-ink-3)}
 html.rd .empty-note{color:var(--rd-ink-3);text-align:center;padding:2rem 1rem;font-size:.9rem}
 @media (hover:none){
   html.rd .favorite-btn,html.rd .setlist-add{color:var(--rd-ink-3)}
   html.rd .favorite-btn.active{color:var(--rd-gold)}
-  html.rd .setlist-add.active{color:var(--navy)}
+  html.rd .setlist-add.active{color:var(--rd-accent)}
 }
 
 /* Risultati per categoria */
@@ -157,7 +213,7 @@ html.rd .install-banner-copy strong{color:var(--rd-ink)}
 html.rd .install-banner-copy span,
 html.rd .install-banner-ios{color:var(--rd-ink-2)}
 html.rd .install-banner-close{color:var(--rd-ink-3)}
-html.rd .install-banner-action{background:var(--navy);color:#fff;border-color:var(--navy);border-radius:10px}
+html.rd .install-banner-action{background:var(--rd-accent);color:var(--rd-accent-ink);border-color:var(--rd-accent);border-radius:10px}
 
 /* ---------- Canto ---------- */
 html.rd main{background:var(--rd-bg)}
@@ -167,7 +223,7 @@ html.rd body:not(.lectern-mode) .song-nav{
 }
 html.rd .song-nav .back-list,
 html.rd .song-nav .song-view-toggle{color:var(--rd-ink-2)!important;border-radius:10px}
-html.rd .song-nav .song-view-toggle.active{color:var(--navy)!important}
+html.rd .song-nav .song-view-toggle.active{color:var(--rd-accent)!important}
 html.rd .song-nav .transpose-value,
 html.rd .song-nav .text-size-value{color:var(--rd-ink)!important}
 html.rd .song-nav .transpose-value:not(.is-original){color:var(--rd-chord)!important}
@@ -195,7 +251,7 @@ html.rd .song-setlist{border:0;border-radius:11px;color:var(--rd-ink-3);backgrou
 html.rd .song-favorite:hover,
 html.rd .song-setlist:hover{background:var(--rd-surface-2);color:var(--rd-ink)}
 html.rd .song-favorite.active{color:var(--rd-gold);background:transparent}
-html.rd .song-setlist.active{color:var(--navy);background:transparent}
+html.rd .song-setlist.active{color:var(--rd-accent);background:transparent}
 
 /* Struttura del canto: salta alle sezioni */
 html.rd .rd-struct{display:flex;gap:.3rem;overflow-x:auto;scrollbar-width:none;margin:0 0 1.3rem;padding:.1rem 0}
@@ -262,7 +318,7 @@ html.rd .feedback-field select:focus,
 html.rd .feedback-field textarea:focus{border-color:var(--rd-gold);box-shadow:0 0 0 4px var(--rd-gold-soft)}
 html.rd .feedback-cancel,
 html.rd .feedback-submit{border-radius:11px}
-html.rd .feedback-submit{background:var(--navy);border-color:var(--navy)}
+html.rd .feedback-submit{background:var(--rd-accent);border-color:var(--rd-accent)}
 html.rd .feedback-close{color:var(--rd-ink-3)}
 
 /* ---------- Setlist ---------- */
@@ -283,7 +339,7 @@ html.rd .setlist-library-card:hover,
 html.rd .setlist-library-card:focus-visible{background:var(--rd-surface);border-color:var(--rd-line-2)}
 html.rd .setlist-library-info strong{color:var(--rd-ink);font-family:var(--rd-serif);font-weight:600;font-size:1.1rem}
 html.rd .setlist-library-info span{color:var(--rd-ink-3)}
-html.rd .setlist-library-card.active{background:var(--navy);border-color:var(--navy);box-shadow:var(--rd-shadow)}
+html.rd .setlist-library-card.active{background:var(--rd-card);border-color:var(--rd-card);box-shadow:var(--rd-shadow)}
 html.rd .setlist-library-card.active .setlist-library-info strong{color:#fff}
 html.rd .setlist-library-card.active .setlist-library-info span{color:rgba(255,255,255,.6)}
 html.rd .setlist-card-icon-button{color:var(--rd-ink-3);border-radius:10px}
@@ -300,3 +356,173 @@ html.rd .setlist-card-actions{background:var(--rd-surface);border:1px solid var(
 html.rd .setlist-card-actions button{color:var(--rd-ink)}
 html.rd .setlist-card-actions button:hover{background:var(--rd-surface-2);color:var(--rd-ink)}
 html.rd .setlist-card-actions button.danger{color:var(--rd-chord)}
+
+/* ---------- Home: "Che cosa cantiamo oggi?" ----------
+   Compare quando nessun canto è aperto. Su schermi larghi sta accanto
+   all'elenco; su telefono e iPad verticale è la scheda "Oggi". */
+html.rd #rdHome{display:none;min-width:0;background:var(--rd-bg)}
+html.rd .rd-tabbar{display:none}
+html.rd body:not(.song-open) main{display:none}
+html.rd body:not(.song-open) #rdHome{display:block}
+html.rd header{cursor:pointer}
+
+html.rd .rd-home{max-width:980px;margin:0 auto;padding:2.4rem clamp(1.1rem,4vw,3rem) 4rem}
+html.rd .rd-eyebrow{font:800 .74rem/1.2 Manrope,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--rd-gold)}
+html.rd .rd-home h2{font-family:var(--rd-serif);font-weight:600;font-size:clamp(2rem,4.6vw,2.9rem);line-height:1.06;letter-spacing:-.02em;margin:.45rem 0 1.5rem;color:var(--rd-ink);text-wrap:balance}
+html.rd .rd-home h3{font:800 .74rem/1.2 Manrope,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--rd-ink-3);margin:2.3rem 0 .7rem}
+html.rd .rd-home button{font-family:Manrope,sans-serif;cursor:pointer}
+html.rd .rd-home-search{display:none}
+
+html.rd .rd-sl{border-radius:20px;background:var(--rd-card);color:#fff;overflow:hidden;box-shadow:var(--rd-shadow-lg)}
+html.rd .rd-sl-head{display:flex;align-items:center;gap:1rem;padding:1.15rem 1.25rem 1rem}
+html.rd .rd-sl-icon{flex:none;display:grid;place-items:center;width:2.9rem;height:2.9rem;border-radius:13px;background:rgba(224,188,106,.16);color:var(--gold-bright)}
+html.rd .rd-sl-icon svg{width:1.3rem;height:1.3rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+html.rd .rd-sl-text{flex:1;min-width:0}
+html.rd .rd-sl-text b{display:block;font-family:var(--rd-serif);font-weight:600;font-size:1.25rem;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html.rd .rd-sl-text small{display:block;margin-top:.15rem;font-size:.8rem;color:rgba(255,255,255,.62);line-height:1.35}
+html.rd .rd-sl-go{flex:none;display:inline-flex;align-items:center;gap:.4rem;height:2.65rem;padding:0 1rem;border:0;border-radius:12px;background:var(--gold-bright);color:var(--navy-deep);font-weight:800;font-size:.86rem}
+html.rd .rd-sl-go svg{width:.85rem;height:.85rem;fill:currentColor}
+html.rd .rd-sl-sum{display:flex;align-items:center;gap:.6rem;width:100%;border:0;border-top:1px solid rgba(255,255,255,.1);background:none;color:rgba(255,255,255,.74);padding:.8rem 1.25rem;font-size:.84rem;text-align:left}
+html.rd .rd-sl-sum span{flex:1;min-width:0;white-space:pre;overflow:hidden;text-overflow:ellipsis}
+html.rd .rd-sl-sum:hover{color:#fff}
+html.rd .rd-sl-sum svg{flex:none;width:1rem;height:1rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+html.rd .rd-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:0 1.5rem}
+html.rd .rd-step{display:flex;align-items:center;gap:.7rem;height:3rem;padding:0 .4rem;border:0;border-bottom:1px solid var(--rd-line);background:none;color:var(--rd-ink);text-align:left}
+html.rd .rd-step:hover{background:var(--rd-surface-2)}
+html.rd .rd-step i{flex:none;width:1.3rem;font-style:normal;font-size:.74rem;font-weight:700;color:var(--rd-gold);font-variant-numeric:tabular-nums}
+html.rd .rd-step b{flex:1;font-size:.95rem;font-weight:600}
+html.rd .rd-step small{font-size:.76rem;font-weight:700;color:var(--rd-ink-3)}
+
+html.rd .rd-recent{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.55rem}
+html.rd .rd-recent button{padding:.8rem .9rem;border-radius:14px;background:var(--rd-surface);border:1px solid var(--rd-line);color:var(--rd-ink);text-align:left;min-width:0}
+html.rd .rd-recent button:hover{border-color:var(--rd-line-2);box-shadow:var(--rd-shadow)}
+html.rd .rd-recent b{display:block;font-family:var(--rd-serif);font-weight:600;font-size:1.05rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html.rd .rd-recent small{font-size:.74rem;color:var(--rd-ink-3)}
+
+/* Telefono e iPad verticale: "Oggi" è una scheda a sé, con barra in basso */
+@media (max-width:820px), (orientation:portrait) and (min-width:700px) and (max-width:1100px){
+  html.rd body:not(.song-open) #rdHome{display:none}
+  html.rd body.rd-at-home:not(.song-open) #rdHome{display:block}
+  html.rd body.rd-at-home:not(.song-open) .board{display:none}
+  html.rd .rd-home{padding-top:1.4rem;padding-bottom:2rem}
+  html.rd .rd-home-search{
+    display:flex;align-items:center;gap:.6rem;width:100%;height:3rem;margin:0 0 1.6rem;padding:0 .9rem;
+    border:1px solid var(--rd-line);border-radius:13px;background:var(--rd-surface);color:var(--rd-ink-3);font-size:16px;text-align:left;
+  }
+  html.rd .rd-home-search svg{flex:none;width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+  html.rd body:not(.song-open) .rd-tabbar{
+    display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;justify-content:space-around;
+    padding:.4rem .5rem calc(.4rem + env(safe-area-inset-bottom));
+    background:color-mix(in srgb,var(--rd-surface) 90%,transparent);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--rd-line);
+  }
+  html.rd .rd-tabbar button{flex:1;display:flex;flex-direction:column;align-items:center;gap:.15rem;border:0;background:transparent;padding:.3rem;color:var(--rd-ink-3);font:700 .66rem/1.2 Manrope,sans-serif;cursor:pointer}
+  html.rd .rd-tabbar svg{width:1.3rem;height:1.3rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  html.rd .rd-tabbar button.active{color:var(--rd-ink)}
+  html.rd .rd-tabbar button.active svg{color:var(--rd-gold)}
+  html.rd body:not(.song-open) > footer{padding-bottom:calc(5.2rem + env(safe-area-inset-bottom))}
+}
+@media (max-width:520px){
+  html.rd .rd-sl-icon{display:none}
+}
+/* Con la home aperta nessun canto è "quello corrente" */
+html.rd body:not(.song-open) .tile-row:has(.tile.active):not(:hover){background:transparent;box-shadow:none}
+html.rd .setlist-nav{margin-bottom:1rem}
+
+/* Schermi larghi: l'elenco resta attaccato al bordo sinistro e il contenuto
+   usa lo spazio che c'è, invece di galleggiare in mezzo a due fasce vuote. */
+@media (min-width:1101px){
+  html.rd .app{max-width:none;margin:0;grid-template-columns:clamp(340px,27vw,430px) minmax(0,1fr)}
+  html.rd main{width:100%;max-width:1180px;justify-self:center}
+}
+
+/* ---------- Tema scuro: raccordo con il vecchio foglio di stile ----------
+   style.css usa pochi colori di base: nel tema scuro li si ridefinisce qui,
+   così anche le parti non ridisegnate seguono il tema. */
+html.rd header{background:#16233d;color:#fff}
+html.rd.iphone-standalone-app body::before{background:#16233d}
+@media (prefers-color-scheme:dark){
+  html.rd:not([data-theme="light"]){
+    --ink:var(--rd-ink);--paper:var(--rd-surface);--navy:var(--rd-ink);
+    --wine:var(--rd-chord);--wine-bright:var(--rd-chord);--line:var(--rd-line);
+  }
+}
+html.rd[data-theme="dark"]{
+  --ink:var(--rd-ink);--paper:var(--rd-surface);--navy:var(--rd-ink);
+  --wine:var(--rd-chord);--wine-bright:var(--rd-chord);--line:var(--rd-line);
+}
+
+/* Colori scritti a mano nel vecchio stile: ora seguono il tema. */
+html.rd .sheet .lyricline,
+html.rd .sheet .segment-lyric,
+html.rd .sheet .explicit-lyric,
+html.rd .sheet .lyrics-only-line,
+html.rd .sheet .lyrics-only-plain,
+html.rd .sheet .music-row.word-anchored .segment-lyric{color:var(--rd-ink)}
+html.rd .sheet .chordline,
+html.rd .sheet .segment-chord,
+html.rd .sheet .explicit-chord,
+html.rd .sheet .music-row.word-anchored .segment-chord{color:var(--rd-chord);--chord-color:var(--rd-chord)}
+html.rd .measure-bar{color:var(--rd-ink-3)}
+html.rd .transpose-btn,
+html.rd .command-btn,
+html.rd .transpose-reset,
+html.rd .song-nav .back-list{color:var(--rd-ink-2)}
+html.rd .transpose-btn:hover,
+html.rd .command-btn:hover{color:var(--rd-ink);background:var(--rd-surface-2);border-color:transparent}
+html.rd .transpose-label,
+html.rd .text-size-label,
+html.rd .feedback-field small,
+html.rd .feedback-intro{color:var(--rd-ink-3)}
+html.rd .song-title-actions .song-favorite,
+html.rd .song-title-actions .song-setlist{color:var(--rd-ink-3)}
+html.rd .song-title-actions .song-favorite.active{color:var(--rd-gold)}
+html.rd .song-title-actions .song-setlist.active{color:var(--rd-accent)}
+html.rd .song-feedback-footer .feedback-trigger{color:var(--rd-ink-3)}
+html.rd .song-feedback-footer .feedback-trigger:hover{color:var(--rd-ink)}
+html.rd .song-more-menu{background:var(--rd-surface);border-color:var(--rd-line);color:var(--rd-ink)}
+html.rd .song-loading-error{color:var(--rd-ink-2)}
+html.rd .feedback-card{background:var(--rd-surface);color:var(--rd-ink)}
+html.rd .feedback-field input,
+html.rd .feedback-field select,
+html.rd .feedback-field textarea{color:var(--rd-ink)}
+html.rd .feedback-cancel{color:var(--rd-ink);border-color:var(--rd-line)}
+html.rd .feedback-submit{color:var(--rd-accent-ink)}
+html.rd .feedback-status{color:var(--rd-chord)}
+html.rd .favorite-btn,
+html.rd .setlist-add,
+html.rd .setlist-order{color:color-mix(in srgb,var(--rd-ink-3) 75%,transparent)}
+html.rd .install-banner-action{color:var(--rd-accent-ink)}
+
+/* Leggio */
+html.rd body.lectern-mode{background:var(--rd-bg)}
+html.rd body.lectern-mode .song-nav{background:color-mix(in srgb,var(--rd-surface) 96%,transparent);box-shadow:var(--rd-shadow)}
+html.rd body.lectern-mode .lectern-controls-handle{background:color-mix(in srgb,var(--rd-surface) 88%,transparent);color:var(--rd-ink-2)}
+
+/* Voce "Tema" nel menu */
+html.rd .rd-theme-item em{margin-left:auto;font-style:normal;font-weight:700;color:var(--rd-ink-3)}
+
+/* ---------- Elenco e canto affiancati ----------
+   L'elenco resta fermo a sinistra e scorre per conto suo: leggendo un canto
+   non sparisce, e sotto un canto corto non resta una pagina vuota. */
+@media (min-width:1101px), (min-width:821px) and (orientation:landscape){
+  html.rd .board{
+    position:sticky;top:0;align-self:start;
+    height:100vh;height:100dvh;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;
+    padding-top:.6rem!important;
+  }
+  html.rd .search-field{position:sticky;top:-.6rem;z-index:6;background:var(--rd-surface);padding:.6rem 0 .35rem;margin-bottom:.4rem}
+  html.rd .search-clear{top:calc(50% + .12rem)}
+  html.rd .app{min-height:0}
+  html.rd #rdHome,
+  html.rd main{min-height:calc(100vh - 3.6rem)}
+
+  /* Comandi del canto su una sola riga, raggruppati */
+  html.rd body:not(.lectern-mode) .song-nav{
+    display:flex!important;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;
+    gap:1rem;padding:.55rem 0;margin-bottom:.6rem;
+  }
+  html.rd body:not(.lectern-mode) .song-nav-main{width:auto;justify-content:flex-start;gap:.3rem}
+  html.rd body:not(.lectern-mode) .toolbar-controls{display:flex;flex:1;width:auto;align-items:center;justify-content:space-between;gap:1.4rem;padding-left:1rem;border-left:1px solid var(--rd-line)}
+}

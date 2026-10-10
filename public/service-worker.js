@@ -14,7 +14,8 @@ const CORE_ASSETS = [
   "./icon-192.png",
   "./icon-512.png",
   "./fonts/manrope-latin.woff2",
-  "./fonts/manrope-latin-ext.woff2"
+  "./fonts/manrope-latin-ext.woff2",
+  "./fonts/fraunces-latin.woff2"
 ];
 
 const PRECACHE_BATCH_SIZE = 8;

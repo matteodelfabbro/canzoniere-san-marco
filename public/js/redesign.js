@@ -237,46 +237,57 @@
   const ICON_PLAY=svg('<path d="M7 4v16l13-8z"></path>');
   const ICON_SEARCH=svg('<circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path>');
 
-  /* Evento speciale in cima alla home: si mostra solo tra "from" e "until".
-     Per un prossimo evento basta cambiare questi dati; id:null = canto non
-     ancora nel canzoniere (resta in scaletta col solo titolo). */
-  const EVENT={
-    title:'Pellegrinaggio a Castelmonte',
-    when:'Domenica 11 ottobre · Santa Messa',
-    from:'2026-10-10T00:00:00+02:00',
-    until:'2026-10-12T06:00:00+02:00',
-    songs:[
-      ['Ingresso','ave-maria'],
-      ['Atto penitenziale','signore-pieta-versione-2'],
-      ['Gloria','gloria-gen-verde'],
-      ['Vangelo','alleluia-buttazzo'],
-      ['Offertorio','benedizione-a-frate-leone'],
-      ['Santo','santo-gen-messa-come-fuoco-vivo'],
-      ['Comunione','re-dei-re-capo-1'],
-      ['Finale','salve-regina']
-    ]
-  };
-  function renderEvent(){
+  /* Scalette della parrocchia (Castelmonte, Natale, Pasqua…): archivio nella
+     sezione Setlist, la più recente in alto. Per aggiungerne una basta un
+     nuovo elemento in cima. "home":{from,until} la mette anche in cima alla
+     home in quei giorni. id:null = canto non ancora nel canzoniere. */
+  const SCALETTE=[
+    {
+      id:'castelmonte-2026',
+      title:'Pellegrinaggio a Castelmonte',
+      when:'Domenica 11 ottobre 2026',
+      songs:[
+        ['Ingresso','ave-maria'],
+        ['Atto penitenziale','signore-pieta-versione-2'],
+        ['Gloria','gloria-gen-verde'],
+        ['Vangelo','alleluia-buttazzo'],
+        ['Offertorio','benedizione-a-frate-leone'],
+        ['Santo','santo-gen-messa-come-fuoco-vivo'],
+        ['Comunione','re-dei-re-capo-1'],
+        ['Finale','salve-regina']
+      ]
+    }
+  ];
+  const ACTIVE_KEY='rdScalettaAttiva';
+  const scalettaById=id=>SCALETTE.find(item=>item.id===id);
+  const scalettaOnHome=()=>SCALETTE.find(item=>{
     const now=Date.now();
-    if(now<Date.parse(EVENT.from)||now>Date.parse(EVENT.until))return null;
+    return item.home&&now>=Date.parse(item.home.from)&&now<=Date.parse(item.home.until);
+  });
+  // Si ricorda quale scaletta si sta seguendo, per il "Prossimo" in fondo ai canti.
+  function followScaletta(item,songId){
+    try{sessionStorage.setItem(ACTIVE_KEY,item.id);}catch(error){/* niente "Prossimo" */}
+    openSong(songId);
+  }
+  function renderScaletta(item){
     const card=el('section','rd-ev');
     const head=el('div','rd-ev-head');
-    head.append(el('div','rd-ev-kicker','Scaletta della Messa'),el('h3','',EVENT.title),el('p','',EVENT.when));
-    const firstId=EVENT.songs.map(item=>item[1]).find(id=>id&&songById(id));
+    head.append(el('div','rd-ev-kicker','Scaletta della Messa'),el('h3','',item.title),el('p','',item.when));
+    const firstId=item.songs.map(entry=>entry[1]).find(id=>id&&songById(id));
     if(firstId){
       const go=el('button','rd-sl-go');
       go.type='button';
       go.innerHTML=ICON_PLAY+'<span>Inizia</span>';
-      go.addEventListener('click',()=>openSong(firstId));
+      go.addEventListener('click',()=>followScaletta(item,firstId));
       head.append(go);
     }
     const list=el('ol','rd-ev-list');
-    EVENT.songs.forEach(([moment,id,fallback])=>{
+    item.songs.forEach(([moment,id,fallback])=>{
       const song=id&&songById(id);
       const row=el(song?'button':'div','rd-ev-row'+(song?'':' is-missing'));
       if(song){
         row.type='button';
-        row.addEventListener('click',()=>openSong(song.id));
+        row.addEventListener('click',()=>followScaletta(item,song.id));
       }
       const text=el('span','rd-ev-text');
       text.append(el('small','',moment),el('b','',song?song.title:fallback));
@@ -292,30 +303,44 @@
     return card;
   }
 
+  // Archivio nella sezione Setlist: una riga per scaletta, si apre al tocco.
+  function renderArchive(){
+    const library=document.getElementById('setlistLibrary');
+    const grid=document.getElementById('cloudSetlistsList');
+    if(!library||!grid||library.querySelector('.rd-arch')||!allSongs().length)return;
+    const box=el('div','rd-arch');
+    box.append(el('h3','rd-arch-title','Scalette della parrocchia'));
+    SCALETTE.forEach(item=>{
+      const details=el('details','rd-arch-item');
+      const summary=el('summary');
+      const text=el('span','rd-arch-text');
+      text.append(el('b','',item.title),el('small','',item.when));
+      summary.append(text);
+      summary.insertAdjacentHTML('beforeend',ICON_NEXT);
+      details.append(summary,renderScaletta(item).querySelector('.rd-ev-list'));
+      box.append(details);
+    });
+    box.append(el('h3','rd-arch-title','Le tue setlist'));
+    library.querySelector('.setlist-library-heading').after(box);
+  }
+
   // In fondo a un canto della scaletta: il canto successivo, senza tornare alla home.
   function renderEventNext(){
-    const now=Date.now();
-    if(now<Date.parse(EVENT.from)||now>Date.parse(EVENT.until))return null;
-    const steps=EVENT.songs.filter(item=>item[1]&&songById(item[1]));
+    let active=null;
+    try{active=scalettaById(sessionStorage.getItem(ACTIVE_KEY));}catch(error){/* nessuna */}
+    active=active||scalettaOnHome();
+    if(!active)return null;
+    const steps=active.songs.filter(item=>item[1]&&songById(item[1]));
     const index=steps.findIndex(item=>item[1]===currentSongId());
     if(index<0)return null;
     const box=el('nav','rd-ev-next');
     box.setAttribute('aria-label','Scaletta');
-    const back=el('button','rd-ev-next-back',`${EVENT.title} · ${index+1} di ${steps.length}`);
-    back.type='button';
-    back.addEventListener('click',()=>{
-      const header=document.querySelector('body > header');
-      if(header)header.click();
-    });
-    box.append(back);
     const following=steps[index+1];
     if(following){
       const go=el('button','rd-ev-next-go');
       go.type='button';
       const text=el('span','rd-ev-text');
       text.append(el('small','','Prossimo · '+following[0]),el('b','',songById(following[1]).title));
-      const sub=songById(following[1]).sub;
-      if(sub)text.append(el('em','',sub));
       go.append(text);
       go.insertAdjacentHTML('beforeend',ICON_NEXT);
       go.addEventListener('click',()=>{openSong(following[1]);window.scrollTo({top:0,behavior:'auto'});});
@@ -336,8 +361,8 @@
     fakeSearch.addEventListener('click',()=>{showListView('filterAll');search.focus();});
 
     box.append(fakeSearch);
-    const event=renderEvent();
-    if(event)box.append(event);
+    const event=scalettaOnHome();
+    if(event)box.append(renderScaletta(event));
 
     // Setlist attiva: è quella che il sito tiene già salvata sul dispositivo.
     const ids=readJson('personalSetlist',[]).filter(id=>songById(id));
@@ -476,10 +501,11 @@
   document.getElementById('sectionMenu')?.addEventListener('click',()=>setTimeout(updateTabbar,0));
 
   new MutationObserver(()=>{decorateSong();rememberSong();}).observe(main,{childList:true});
-  new MutationObserver(()=>{decorateTiles();if(!home.firstChild)renderHome();}).observe(tileList,{childList:true});
+  new MutationObserver(()=>{decorateTiles();if(!home.firstChild)renderHome();renderArchive();}).observe(tileList,{childList:true});
   decorateTiles();
   decorateSong();
   renderHome();
+  renderArchive();
   updateTabbar();
 
   /* ---------- Versione nuova pubblicata: avviso "Aggiorna" ----------

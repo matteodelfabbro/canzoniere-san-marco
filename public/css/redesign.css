@@ -568,8 +568,22 @@ html.rd .rd-theme-item em{margin-left:auto;font-style:normal;font-weight:700;col
     height:100vh;height:100dvh;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;
     padding-top:.6rem!important;
   }
+  /* In fondo i canti sfumano invece di finire tagliati a metà riga */
+  html.rd .board::after{
+    content:"";display:block;position:sticky;bottom:-2.5rem;z-index:5;height:2.5rem;margin:0 -.9rem -2.5rem;
+    background:linear-gradient(to bottom,transparent,var(--rd-surface) 85%);pointer-events:none;
+  }
   html.rd .search-field{position:sticky;top:-.6rem;z-index:6;background:var(--rd-surface);padding:.6rem 0 .35rem;margin-bottom:.4rem}
   html.rd .search-clear{top:calc(50% + .12rem)}
+  /* Il piede prosegue la colonna dell'elenco fino in fondo alla pagina,
+     invece di tagliarla con un bordo netto; il testo sta sotto ai canti. */
+  html.rd body:not(.lectern-mode) > footer{
+    padding-left:calc(var(--rd-board-edge,0px) + 1rem);
+    background:linear-gradient(to right,
+      var(--rd-surface) 0 calc(var(--rd-board-edge,0px) - 1px),
+      var(--rd-line) calc(var(--rd-board-edge,0px) - 1px) var(--rd-board-edge,0px),
+      var(--rd-bg) var(--rd-board-edge,0px));
+  }
   html.rd .app{min-height:0}
   html.rd #rdHome,
   html.rd main{min-height:calc(100vh - 3.6rem)}

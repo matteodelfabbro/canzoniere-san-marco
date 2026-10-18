@@ -599,6 +599,18 @@
       }
     }catch(error){/* offline o rete lenta: si riprova al prossimo ritorno */}
   }
+  // Il piede della pagina continua la colonna dell'elenco: serve sapere
+  // dove finisce l'elenco, che cambia larghezza con lo schermo.
+  const board=document.querySelector('.board');
+  if(board && 'ResizeObserver' in window){
+    const syncBoardEdge=()=>{
+      const right=board.offsetParent ? Math.round(board.getBoundingClientRect().right) : 0;
+      document.documentElement.style.setProperty('--rd-board-edge',right+'px');
+    };
+    new ResizeObserver(syncBoardEdge).observe(board);
+    window.addEventListener('resize',syncBoardEdge);
+    syncBoardEdge();
+  }
   document.addEventListener('visibilitychange',checkForUpdate);
   window.addEventListener('online',checkForUpdate);
   setTimeout(checkForUpdate,4000);

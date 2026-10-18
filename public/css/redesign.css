@@ -300,7 +300,7 @@ html.rd .repeat-section-action{color:var(--rd-ink-3)}
 html.rd .refrain-section:not(.repeat-section-collapsible){
   background:var(--rd-gold-soft);
   border-radius:11px;padding:.75em 1em .8em;margin:.9em 0 1em;
-  width:auto;break-inside:avoid;-webkit-column-break-inside:avoid;
+  width:fit-content;max-width:100%;box-sizing:border-box;break-inside:avoid;-webkit-column-break-inside:avoid;
 }
 html.rd .refrain-section:not(.repeat-section-collapsible) > .headline{color:var(--rd-gold);margin-top:0}
 html.rd .refrain-section .spacer:last-child{display:none}

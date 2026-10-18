@@ -445,6 +445,11 @@ html.rd .rd-recent button{padding:.8rem .9rem;border-radius:14px;background:var(
 html.rd .rd-recent button:hover{border-color:var(--rd-line-2);box-shadow:var(--rd-shadow)}
 html.rd .rd-recent b{display:block;font-family:var(--rd-serif);font-weight:600;font-size:1.05rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 html.rd .rd-recent small{font-size:.74rem;color:var(--rd-ink-3)}
+html.rd .rd-recent button{position:relative}
+html.rd .rd-recent i{position:absolute;top:.55rem;right:.75rem;font-style:normal;font-size:.7rem;font-weight:700;color:var(--rd-gold);font-variant-numeric:tabular-nums}
+html.rd .rd-recent i+b{padding-right:1.2rem}
+html.rd .rd-shelf-tabs{margin:0 0 .7rem}
+@media (max-width:560px){html.rd .rd-recent{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* Telefono e iPad verticale: "Oggi" è una scheda a sé, con barra in basso */
 @media (max-width:820px), (orientation:portrait) and (min-width:700px) and (max-width:1100px){

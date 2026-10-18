@@ -575,14 +575,12 @@ html.rd .rd-theme-item em{margin-left:auto;font-style:normal;font-weight:700;col
   }
   html.rd .search-field{position:sticky;top:-.6rem;z-index:6;background:var(--rd-surface);padding:.6rem 0 .35rem;margin-bottom:.4rem}
   html.rd .search-clear{top:calc(50% + .12rem)}
-  /* Il piede prosegue la colonna dell'elenco fino in fondo alla pagina,
-     invece di tagliarla con un bordo netto; il testo sta sotto ai canti. */
+  /* L'elenco scende fino in fondo alla pagina: il piede si sovrappone allo
+     spazio lasciato sotto al contenuto, solo nella colonna di destra. */
+  html.rd #rdHome,
+  html.rd main{margin-bottom:var(--rd-foot-h,0px)}
   html.rd body:not(.lectern-mode) > footer{
-    padding-left:calc(var(--rd-board-edge,0px) + 1rem);
-    background:linear-gradient(to right,
-      var(--rd-surface) 0 calc(var(--rd-board-edge,0px) - 1px),
-      var(--rd-line) calc(var(--rd-board-edge,0px) - 1px) var(--rd-board-edge,0px),
-      var(--rd-bg) var(--rd-board-edge,0px));
+    position:relative;margin-top:calc(-1 * var(--rd-foot-h,0px));margin-left:var(--rd-board-edge,0px);
   }
   html.rd .app{min-height:0}
   html.rd #rdHome,

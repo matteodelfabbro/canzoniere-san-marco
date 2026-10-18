@@ -262,19 +262,27 @@
   // Signore pietà, Gloria, Santo e Agnello hanno più versioni e le aperture si
   // dividono tra queste: la versione più aperta di ciascuno entra comunque.
   const ORDINARY=['Atto penitenziale','Gloria','Santo','Agnello di Dio'];
-  function withOrdinary(ids){
+  function withOrdinary(ids,size=SHELF_SIZE){
     const tags=allTags();
     const hasTag=(id,tag)=>(tags[id]?.tags||[]).includes(tag);
-    const picked=ids.slice(0,SHELF_SIZE);
+    const picked=ids.slice(0,size);
     ORDINARY.forEach(tag=>{
       if(picked.some(id=>hasTag(id,tag)))return;
       const best=ids.find(id=>hasTag(id,tag));
-      if(best)picked.push(best);
+      if(!best)return;
+      // Nella top ten il posto si libera togliendo l'ultimo canto non di Messa.
+      if(size===TOP_SIZE){
+        for(let i=picked.length-1;i>=0;i--){
+          if(!ORDINARY.some(t=>hasTag(picked[i],t))){picked.splice(i,1);break;}
+        }
+      }
+      picked.push(best);
     });
     return picked.sort((a,b)=>ids.indexOf(a)-ids.indexOf(b));
   }
   const SHELF_KEY='rdHomeShelf';
   const SHELF_SIZE=8;
+  const TOP_SIZE=10;
 
   function el(tag,className,text){
     const node=document.createElement(tag);
@@ -420,7 +428,7 @@
     const shelves=[
       ['recenti','Recenti',readJson(RECENT_KEY,[]).slice(0,SHELF_SIZE)],
       ['tuoi','Aperti di frequente',withOrdinary(mostUsedIds())],
-      ['tutti','Più aperti da tutti',withOrdinary(globalTop||[])]
+      ['tutti','Top ten',withOrdinary(globalTop||[],TOP_SIZE)]
     ].map(([key,label,ids])=>[key,label,ids.map(songById).filter(Boolean)])
      .filter(([,,songs])=>songs.length);
     if(shelves.length){

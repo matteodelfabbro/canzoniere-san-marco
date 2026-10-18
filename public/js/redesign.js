@@ -259,22 +259,20 @@
       .catch(error=>console.warn('Classifica canti non disponibile.',error))
       .finally(()=>{globalLoading=false;});
   }
-  // Signore pietà, Gloria, Santo e Agnello hanno più versioni e le aperture si
-  // dividono tra queste: la versione più aperta di ciascuno entra comunque.
-  const ORDINARY=['Atto penitenziale','Gloria','Santo','Agnello di Dio'];
-  function withOrdinary(ids){
+  // "Aperti di frequente": per ogni momento della Messa il canto più fatto.
+  // Prima contano le aperture su questo dispositivo, poi la classifica generale.
+  function bySection(){
     const tags=allTags();
-    const hasTag=(id,tag)=>(tags[id]?.tags||[]).includes(tag);
-    const picked=ids.slice(0,SHELF_SIZE);
-    ORDINARY.forEach(tag=>{
-      if(picked.some(id=>hasTag(id,tag)))return;
-      const best=ids.find(id=>hasTag(id,tag));
-      if(best)picked.push(best);
-    });
-    return picked.sort((a,b)=>ids.indexOf(a)-ids.indexOf(b));
+    const ranking=[...new Set([...mostUsedIds(),...(globalTop||[])])];
+    const picked=new Set();
+    return MASS_MOMENTS.map(tag=>{
+      const id=ranking.find(item=>!picked.has(item)&&(tags[item]?.tags||[]).includes(tag));
+      if(!id)return null;
+      picked.add(id);
+      return [id,tag];
+    }).filter(Boolean);
   }
   const SHELF_KEY='rdHomeShelf';
-  const SHELF_SIZE=8;
   const TOP_SIZE=10;
 
   function el(tag,className,text){
@@ -416,14 +414,13 @@
     const event=scalettaOnHome();
     if(event)box.append(renderScaletta(event));
 
-    // I tuoi canti: recenti / più usati da te / più aperti da tutti, in schede.
+    // I tuoi canti: aperti di frequente (uno per momento) e top ten, in schede.
     loadGlobalTop();
     const shelves=[
-      ['recenti','Recenti',readJson(RECENT_KEY,[]).slice(0,SHELF_SIZE)],
-      ['tuoi','Aperti di frequente',withOrdinary(mostUsedIds())],
-      ['tutti','Top ten',(globalTop||[]).slice(0,TOP_SIZE)]
-    ].map(([key,label,ids])=>[key,label,ids.map(songById).filter(Boolean)])
-     .filter(([,,songs])=>songs.length);
+      ['tuoi','Aperti di frequente',bySection()],
+      ['tutti','Top ten',(globalTop||[]).slice(0,TOP_SIZE).map(id=>[id,''])]
+    ].map(([key,label,items])=>[key,label,items.filter(([id])=>songById(id))])
+     .filter(([,,items])=>items.length);
     if(shelves.length){
       let current=null;
       try{current=localStorage.getItem(SHELF_KEY);}catch(error){/* niente */}
@@ -437,12 +434,13 @@
           button.classList.toggle('active',on);
           button.setAttribute('aria-selected',String(on));
         });
-        const songs=shelves.find(([name])=>name===key)[2];
-        grid.replaceChildren(...songs.map((song,index)=>{
+        const items=shelves.find(([name])=>name===key)[2];
+        grid.replaceChildren(...items.map(([id,moment],index)=>{
+          const song=songById(id);
           const button=el('button');
           button.type='button';
-          if(key!=='recenti')button.append(el('i','',String(index+1)));
-          button.append(el('b','',song.title),el('small','',[song.sub,mainTag(song.id)].filter(Boolean).join(' · ')||' '));
+          if(!moment)button.append(el('i','',String(index+1)));
+          button.append(el('b','',song.title),el('small','',(moment?[moment,song.sub]:[song.sub,mainTag(song.id)]).filter(Boolean).join(' · ')||' '));
           button.addEventListener('click',()=>openSong(song.id));
           return button;
         }));

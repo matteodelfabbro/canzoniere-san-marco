@@ -216,14 +216,51 @@
     updateTabbar();
     window.scrollTo({top:0,behavior:'auto'});
   }
+  // Uso personale dei canti, solo su questo dispositivo: {id:{n:aperture,t:ultima}}.
+  const USE_KEY='rdSongUse';
+  let countedId='';
   function rememberSong(){
-    if(!document.body.classList.contains('song-open'))return;
+    if(!document.body.classList.contains('song-open')){countedId='';return;}
     const id=currentSongId();
     if(!id||!songById(id))return;
     const recent=readJson(RECENT_KEY,[]).filter(item=>item!==id);
     recent.unshift(id);
-    try{localStorage.setItem(RECENT_KEY,JSON.stringify(recent.slice(0,8)));}catch(error){/* spazio pieno: pazienza */}
+    try{localStorage.setItem(RECENT_KEY,JSON.stringify(recent.slice(0,24)));}catch(error){/* spazio pieno: pazienza */}
+    // Lo stesso canto rimasto aperto non si conta due volte.
+    if(id===countedId)return;
+    countedId=id;
+    const use=readJson(USE_KEY,{});
+    const entry=use[id]||{n:0,t:0};
+    use[id]={n:entry.n+1,t:Date.now()};
+    try{localStorage.setItem(USE_KEY,JSON.stringify(use));}catch(error){/* spazio pieno: pazienza */}
   }
+  // "Più usati": contano le aperture, ma quelle vecchie pesano meno
+  // (dimezzano ogni ~3 mesi), così sale in cima il repertorio del periodo.
+  function mostUsedIds(){
+    const use=readJson(USE_KEY,{});
+    const now=Date.now();
+    return Object.entries(use)
+      .filter(([id,entry])=>songById(id)&&entry.n>=2)
+      .map(([id,entry])=>[id,entry.n*Math.pow(.5,(now-entry.t)/(90*864e5))])
+      .sort((a,b)=>b[1]-a[1])
+      .map(([id])=>id);
+  }
+  // Più aperti da tutti (Firestore songStats), letti una volta per visita.
+  let globalTop=null;
+  let globalLoading=false;
+  function loadGlobalTop(){
+    if(globalTop||globalLoading||!window.firebase?.firestore)return;
+    globalLoading=true;
+    firebase.firestore().collection('songStats').orderBy('openCount','desc').limit(20).get()
+      .then(snapshot=>{
+        globalTop=snapshot.docs.map(doc=>doc.id).filter(id=>songById(id));
+        if(document.body.classList.contains('rd-at-home'))renderHome();
+      })
+      .catch(error=>console.warn('Classifica canti non disponibile.',error))
+      .finally(()=>{globalLoading=false;});
+  }
+  const SHELF_KEY='rdHomeShelf';
+  const SHELF_SIZE=8;
 
   function el(tag,className,text){
     const node=document.createElement(tag);
@@ -364,32 +401,51 @@
     const event=scalettaOnHome();
     if(event)box.append(renderScaletta(event));
 
-    // Setlist attiva: è quella che il sito tiene già salvata sul dispositivo.
-    const ids=readJson('personalSetlist',[]).filter(id=>songById(id));
-    const name=localStorage.getItem('personalSetlistName')||'La mia Setlist';
-    const card=el('section','rd-sl');
-    const head=el('div','rd-sl-head');
-    const icon=el('span','rd-sl-icon');
-    icon.innerHTML=ICON_LIST;
-    const text=el('span','rd-sl-text');
-    text.append(el('b','',name),el('small','',ids.length
-      ?`${ids.length} ${ids.length===1?'canto':'canti'}`
-      :'Ancora vuota: aggiungi i canti con il pulsante setlist accanto al titolo.'));
-    head.append(icon,text);
-    if(ids.length){
-      const go=el('button','rd-sl-go');
-      go.type='button';
-      go.innerHTML=ICON_PLAY+'<span>Inizia</span>';
-      go.addEventListener('click',()=>openSong(ids[0]));
-      head.append(go);
+    // I tuoi canti: recenti / più usati da te / più aperti da tutti, in schede.
+    loadGlobalTop();
+    const shelves=[
+      ['recenti','Recenti',readJson(RECENT_KEY,[])],
+      ['tuoi','I tuoi più usati',mostUsedIds()],
+      ['tutti','Più aperti da tutti',globalTop||[]]
+    ].map(([key,label,ids])=>[key,label,ids.map(songById).filter(Boolean).slice(0,SHELF_SIZE)])
+     .filter(([,,songs])=>songs.length);
+    if(shelves.length){
+      let current=null;
+      try{current=localStorage.getItem(SHELF_KEY);}catch(error){/* niente */}
+      if(!shelves.some(([key])=>key===current))current=shelves[0][0];
+      const tabs=el('div','rd-chips rd-shelf-tabs');
+      tabs.setAttribute('role','tablist');
+      const grid=el('div','rd-recent');
+      const show=key=>{
+        tabs.querySelectorAll('button').forEach(button=>{
+          const on=button.dataset.key===key;
+          button.classList.toggle('active',on);
+          button.setAttribute('aria-selected',String(on));
+        });
+        const songs=shelves.find(([name])=>name===key)[2];
+        grid.replaceChildren(...songs.map((song,index)=>{
+          const button=el('button');
+          button.type='button';
+          if(key!=='recenti')button.append(el('i','',String(index+1)));
+          button.append(el('b','',song.title),el('small','',[song.sub,mainTag(song.id)].filter(Boolean).join(' · ')||' '));
+          button.addEventListener('click',()=>openSong(song.id));
+          return button;
+        }));
+      };
+      shelves.forEach(([key,label])=>{
+        const tab=el('button','rd-chip',label);
+        tab.type='button';
+        tab.dataset.key=key;
+        tab.setAttribute('role','tab');
+        tab.addEventListener('click',()=>{
+          try{localStorage.setItem(SHELF_KEY,key);}catch(error){/* niente */}
+          show(key);
+        });
+        tabs.append(tab);
+      });
+      show(current);
+      box.append(el('h3','','I tuoi canti'),tabs,grid);
     }
-    const summary=el('button','rd-sl-sum');
-    summary.type='button';
-    summary.append(el('span','',ids.length?ids.map(id=>songById(id).title).join('  ·  '):'Apri le setlist'));
-    summary.insertAdjacentHTML('beforeend',ICON_NEXT);
-    summary.addEventListener('click',()=>showListView('filterSetlist'));
-    card.append(head,summary);
-    box.append(card);
 
     const counts={};
     Object.values(allTags()).forEach(entry=>(entry.tags||[]).forEach(tag=>{counts[tag]=(counts[tag]||0)+1;}));
@@ -408,18 +464,6 @@
     });
     box.append(el('h3','','Momenti della Messa'),steps);
 
-    const recent=readJson(RECENT_KEY,[]).map(songById).filter(Boolean).slice(0,3);
-    if(recent.length){
-      const grid=el('div','rd-recent');
-      recent.forEach(song=>{
-        const button=el('button');
-        button.type='button';
-        button.append(el('b','',song.title),el('small','',[song.sub,mainTag(song.id)].filter(Boolean).join(' · ')||' '));
-        button.addEventListener('click',()=>openSong(song.id));
-        grid.append(button);
-      });
-      box.append(el('h3','','Aperti di recente'),grid);
-    }
     home.replaceChildren(box);
   }
 

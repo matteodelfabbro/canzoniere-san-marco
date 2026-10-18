@@ -139,7 +139,7 @@
       else{
         const added=document.createElement('small');
         added.textContent=tag;
-        title.append(added);
+        title.insertBefore(added,title.querySelector('.tile-book-num'));
       }
     });
   }
@@ -357,7 +357,7 @@
 
     const fakeSearch=el('button','rd-home-search');
     fakeSearch.type='button';
-    fakeSearch.innerHTML=ICON_SEARCH+'<span>Cerca titolo o parole…</span>';
+    fakeSearch.innerHTML=ICON_SEARCH+'<span>Cerca titolo, parole o numero…</span>';
     fakeSearch.addEventListener('click',()=>{showListView('filterAll');search.focus();});
 
     box.append(fakeSearch);

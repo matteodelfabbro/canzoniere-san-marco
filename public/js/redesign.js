@@ -251,13 +251,27 @@
   function loadGlobalTop(){
     if(globalTop||globalLoading||!window.firebase?.firestore)return;
     globalLoading=true;
-    firebase.firestore().collection('songStats').orderBy('openCount','desc').limit(20).get()
+    firebase.firestore().collection('songStats').orderBy('openCount','desc').limit(80).get()
       .then(snapshot=>{
         globalTop=snapshot.docs.map(doc=>doc.id).filter(id=>songById(id));
         if(document.body.classList.contains('rd-at-home'))renderHome();
       })
       .catch(error=>console.warn('Classifica canti non disponibile.',error))
       .finally(()=>{globalLoading=false;});
+  }
+  // Signore pietà, Gloria, Santo e Agnello hanno più versioni e le aperture si
+  // dividono tra queste: la versione più aperta di ciascuno entra comunque.
+  const ORDINARY=['Atto penitenziale','Gloria','Santo','Agnello di Dio'];
+  function withOrdinary(ids){
+    const tags=allTags();
+    const hasTag=(id,tag)=>(tags[id]?.tags||[]).includes(tag);
+    const picked=ids.slice(0,SHELF_SIZE);
+    ORDINARY.forEach(tag=>{
+      if(picked.some(id=>hasTag(id,tag)))return;
+      const best=ids.find(id=>hasTag(id,tag));
+      if(best)picked.push(best);
+    });
+    return picked.sort((a,b)=>ids.indexOf(a)-ids.indexOf(b));
   }
   const SHELF_KEY='rdHomeShelf';
   const SHELF_SIZE=8;
@@ -404,10 +418,10 @@
     // I tuoi canti: recenti / più usati da te / più aperti da tutti, in schede.
     loadGlobalTop();
     const shelves=[
-      ['recenti','Recenti',readJson(RECENT_KEY,[])],
-      ['tuoi','I tuoi più usati',mostUsedIds()],
-      ['tutti','Più aperti da tutti',globalTop||[]]
-    ].map(([key,label,ids])=>[key,label,ids.map(songById).filter(Boolean).slice(0,SHELF_SIZE)])
+      ['recenti','Recenti',readJson(RECENT_KEY,[]).slice(0,SHELF_SIZE)],
+      ['tuoi','Aperti di frequente',withOrdinary(mostUsedIds())],
+      ['tutti','Più aperti da tutti',withOrdinary(globalTop||[])]
+    ].map(([key,label,ids])=>[key,label,ids.map(songById).filter(Boolean)])
      .filter(([,,songs])=>songs.length);
     if(shelves.length){
       let current=null;

@@ -151,7 +151,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261018-preghiera-gesu-2';
+const SONG_DATA_VERSION='20261018-signore-che-sei';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'

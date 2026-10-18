@@ -298,7 +298,7 @@ html.rd .repeat-section-action{color:var(--rd-ink-3)}
 
 /* Il ritornello: riquadro dorato */
 html.rd .refrain-section:not(.repeat-section-collapsible){
-  background:var(--rd-gold-soft);box-shadow:inset 3px 0 0 var(--rd-gold);
+  background:var(--rd-gold-soft);
   border-radius:11px;padding:.75em 1em .8em;margin:.9em 0 1em;
   width:auto;break-inside:avoid;-webkit-column-break-inside:avoid;
 }

@@ -275,6 +275,7 @@
   }
   const SHELF_KEY='rdHomeShelf';
   const SHELF_SIZE=8;
+  const TOP_SIZE=10;
 
   function el(tag,className,text){
     const node=document.createElement(tag);
@@ -420,7 +421,7 @@
     const shelves=[
       ['recenti','Recenti',readJson(RECENT_KEY,[]).slice(0,SHELF_SIZE)],
       ['tuoi','Aperti di frequente',withOrdinary(mostUsedIds())],
-      ['tutti','Più aperti da tutti',withOrdinary(globalTop||[])]
+      ['tutti','Top ten',(globalTop||[]).slice(0,TOP_SIZE)]
     ].map(([key,label,ids])=>[key,label,ids.map(songById).filter(Boolean)])
      .filter(([,,songs])=>songs.length);
     if(shelves.length){

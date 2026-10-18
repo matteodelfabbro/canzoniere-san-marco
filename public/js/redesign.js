@@ -599,6 +599,23 @@
       }
     }catch(error){/* offline o rete lenta: si riprova al prossimo ritorno */}
   }
+  // L'elenco scende fin sotto al piede della pagina: serve sapere dove
+  // finisce l'elenco e quanto è alto il piede, che cambiano con lo schermo.
+  const board=document.querySelector('.board');
+  const pageFoot=document.querySelector('body > footer');
+  if(board && pageFoot && 'ResizeObserver' in window){
+    const rootStyle=document.documentElement.style;
+    const syncBoardEdge=()=>{
+      const right=board.offsetParent ? Math.round(board.getBoundingClientRect().right) : 0;
+      rootStyle.setProperty('--rd-board-edge',right+'px');
+      rootStyle.setProperty('--rd-foot-h',pageFoot.offsetHeight+'px');
+    };
+    const observer=new ResizeObserver(syncBoardEdge);
+    observer.observe(board);
+    observer.observe(pageFoot);
+    window.addEventListener('resize',syncBoardEdge);
+    syncBoardEdge();
+  }
   document.addEventListener('visibilitychange',checkForUpdate);
   window.addEventListener('online',checkForUpdate);
   setTimeout(checkForUpdate,4000);

@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "La Preghiera di Gesù è la Nostra  Strofa 1       Dove   due   o  tre sono   riuniti nel  mio   nome       io sarò  con   loro,      pregherò    con   loro,       amerò    con  loro,  perché   il mondo     venga    a Te o  Padre       conoscere    il tuo  amore    e avere   vita        con  Te  Strofa 2       Voi  che  siete luce  della  terra,  miei  amici       risplendete   sempre        della  vera  luce       perché   il mondo     creda  nell'amore     che  c'è in voi  o  Padre       consacrali   per  sempre    e diano   gloria         a Te.  Cambio di tonalità - RE  Strofa 3       Ogni   beatitudine    vi attende    nel mio   giorno       se sarete  uniti,     se sarete   pace,            se sarete  puri       perché   voi  vedrete   Dio   che  è Padre       in Lui la vostra   vita  gioia  piena       sarà.  Strofa 4       Voi  che  ora  siete miei   discepoli   nel mondo       siate testimoni         di un  amore    immenso               date   prova   di       quella  speranza    che  c'è in  voi, coraggio       vi guiderò   per  sempre     Io rimango        con  voi.  Cambio di tonalità - MI  Strofa 5       Spirito  che  animi   la chiesa  e  la rinnovi       donale   fortezza,      fa che  sia fedele             come    Cristo  che       muore    e risorge   perché   il Regno   del  Padre       si compia   in  mezzo    a noi  e  abbiamo     vita     in (Lui)       si compia   in  mezzo    a noi  e  abbiamo     vita     in Lui.",
+  "search": "La Preghiera di Gesù è la Nostra Strofa 1 Dove due o tre sono riuniti nel mio nome io sarò con loro, pregherò con loro, amerò con loro, perché il mondo venga a Te o Padre conoscere il tuo amore e avere vita con Te Strofa 2 Voi che siete luce della terra, miei amici risplendete sempre della vera luce perché il mondo creda nell'amore che c'è in voi o Padre consacrali per sempre e diano gloria a Te. Cambio di tonalità - RE Strofa 3 Ogni beatitudine vi attende nel mio giorno se sarete uniti, se sarete pace, se sarete puri perché voi vedrete Dio che è Padre in Lui la vostra vita gioia piena sarà. Strofa 4 Voi che ora siete miei discepoli nel mondo siate testimoni di un amore immenso date prova di quella speranza che c'è in voi, coraggio vi guiderò per sempre Io rimango con voi. Cambio di tonalità - MI Strofa 5 Spirito che animi la chiesa e la rinnovi donale fortezza, fa che sia fedele come Cristo che muore e risorge perché il Regno del Padre si compia in mezzo a noi e abbiamo vita in (Lui) si compia in mezzo a noi e abbiamo vita in Lui.",
   "lines": [
     {
       "t": "h",
@@ -14,35 +14,119 @@
     },
     {
       "t": "c",
-      "v": "      DO             SOL            LA-             FA      SOL"
+      "v": "DO SOL LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "LA-"
+        },
+        {
+          "word": 8,
+          "chord": "FA"
+        },
+        {
+          "word": 8,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      Dove   due   o  tre sono   riuniti nel  mio   nome"
+      "v": "Dove due o tre sono riuniti nel mio nome"
     },
     {
       "t": "c",
-      "v": "                    DO     FA                     SI-7"
+      "v": "DO FA SOL",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "FA"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      io sarò  con   loro,      pregherò    con   loro,"
+      "v": "io sarò con loro, pregherò con loro,"
     },
     {
       "t": "c",
-      "v": "      MI            LA-                                    FA     SOL"
+      "v": "MI LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "LA-"
+        },
+        {
+          "word": 8,
+          "chord": "FA"
+        },
+        {
+          "word": 10,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      amerò    con  loro,  perché   il mondo     venga    a Te o  Padre"
+      "v": "amerò con loro, perché il mondo venga a Te o Padre"
     },
     {
       "t": "c",
-      "v": "         DO                  LA-7              FA  SOL        DO      SOL"
+      "v": "DO LA-7 FA SOL DO SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "LA-7"
+        },
+        {
+          "word": 6,
+          "chord": "FA"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 8,
+          "chord": "DO"
+        },
+        {
+          "word": 8,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      conoscere    il tuo  amore    e avere   vita        con  Te"
+      "v": "conoscere il tuo amore e avere vita con Te"
     },
     {
       "t": "s"
@@ -53,35 +137,119 @@
     },
     {
       "t": "c",
-      "v": "      DO             SOL           LA-             FA      SOL"
+      "v": "DO SOL LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "LA-"
+        },
+        {
+          "word": 7,
+          "chord": "FA"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      Voi  che  siete luce  della  terra,  miei  amici"
+      "v": "Voi che siete luce della terra, miei amici"
     },
     {
       "t": "c",
-      "v": "                    DO       FA               SI-7"
+      "v": "DO FA SOL",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "DO"
+        },
+        {
+          "word": 1,
+          "chord": "FA"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      risplendete   sempre        della  vera  luce"
+      "v": "risplendete sempre della vera luce"
     },
     {
       "t": "c",
-      "v": "      MI                    LA-                                FA     SOL"
+      "v": "MI LA- FA SOL",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 3,
+          "chord": "LA-"
+        },
+        {
+          "word": 8,
+          "chord": "FA"
+        },
+        {
+          "word": 10,
+          "chord": "SOL"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      perché   il mondo     creda  nell'amore     che  c'è in voi  o  Padre"
+      "v": "perché il mondo creda nell'amore che c'è in voi o Padre"
     },
     {
       "t": "c",
-      "v": "         DO            LA-7                  FA    SOL      DO     LA7"
+      "v": "DO LA-7 FA SOL DO LA7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "DO"
+        },
+        {
+          "word": 2,
+          "chord": "LA-7"
+        },
+        {
+          "word": 5,
+          "chord": "FA"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "DO"
+        },
+        {
+          "word": 7,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      consacrali   per  sempre    e diano   gloria         a Te."
+      "v": "consacrali per sempre e diano gloria a Te."
     },
     {
       "t": "s"
@@ -99,35 +267,119 @@
     },
     {
       "t": "c",
-      "v": "      RE           LA             SI-                SOL      LA"
+      "v": "RE LA SI- SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      Ogni   beatitudine    vi attende    nel mio   giorno"
+      "v": "Ogni beatitudine vi attende nel mio giorno"
     },
     {
       "t": "c",
-      "v": "                   RE  SOL            DO#-7      FA#-7               SI-"
+      "v": "RE SOL LA FA#7 SI-",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "FA#7"
+        },
+        {
+          "word": 8,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      se sarete  uniti,     se sarete   pace,            se sarete  puri"
+      "v": "se sarete uniti, se sarete pace, se sarete puri"
     },
     {
       "t": "c",
-      "v": "                              SOL          LA"
+      "v": "SOL LA",
+      "anchors": [
+        {
+          "word": 3,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      perché   voi  vedrete   Dio   che  è Padre"
+      "v": "perché voi vedrete Dio che è Padre"
     },
     {
       "t": "c",
-      "v": "         RE              SI-          SOL    LA   RE     LA"
+      "v": "RE SI- SOL LA RE LA",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "SI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      in Lui la vostra   vita  gioia  piena       sarà."
+      "v": "in Lui la vostra vita gioia piena sarà."
     },
     {
       "t": "s"
@@ -138,35 +390,119 @@
     },
     {
       "t": "c",
-      "v": "      RE             LA               SI-          SOL       LA"
+      "v": "RE LA SI- SOL LA",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "SI-"
+        },
+        {
+          "word": 7,
+          "chord": "SOL"
+        },
+        {
+          "word": 7,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      Voi  che  ora  siete miei   discepoli   nel mondo"
+      "v": "Voi che ora siete miei discepoli nel mondo"
     },
     {
       "t": "c",
-      "v": "                   RE   SOL                       DO#-7     FA#-7                  SI-"
+      "v": "RE SOL LA FA#7 SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "FA#7"
+        },
+        {
+          "word": 8,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      siate testimoni         di un  amore    immenso               date   prova   di"
+      "v": "siate testimoni di un amore immenso date prova di"
     },
     {
       "t": "c",
-      "v": "                                      SOL      LA"
+      "v": "SOL LA",
+      "anchors": [
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      quella  speranza    che  c'è in  voi, coraggio"
+      "v": "quella speranza che c'è in voi, coraggio"
     },
     {
       "t": "c",
-      "v": "          RE             SI-            SOL     LA         RE     SI7"
+      "v": "RE SI- SOL LA RE SI7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "SI-"
+        },
+        {
+          "word": 5,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "SI7"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      vi guiderò   per  sempre     Io rimango        con  voi."
+      "v": "vi guiderò per sempre Io rimango con voi."
     },
     {
       "t": "s"
@@ -184,43 +520,142 @@
     },
     {
       "t": "c",
-      "v": "      MI            SI          DO#-            LA     SI"
+      "v": "MI SI DO#- LA SI",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI"
+        },
+        {
+          "word": 2,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "DO#-"
+        },
+        {
+          "word": 7,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      Spirito  che  animi   la chiesa  e  la rinnovi"
+      "v": "Spirito che animi la chiesa e la rinnovi"
     },
     {
       "t": "c",
-      "v": "                   MI     LA               RE#-7    SOL#7                    DO#-"
+      "v": "MI LA SI SOL#7 DO#-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 1,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "SI"
+        },
+        {
+          "word": 5,
+          "chord": "SOL#7"
+        },
+        {
+          "word": 8,
+          "chord": "DO#-"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      donale   fortezza,      fa che  sia fedele             come    Cristo  che"
+      "v": "donale fortezza, fa che sia fedele come Cristo che"
     },
     {
       "t": "c",
-      "v": "                                      LA             SI"
+      "v": "LA SI",
+      "anchors": [
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 7,
+          "chord": "SI"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      muore    e risorge   perché   il Regno   del  Padre"
+      "v": "muore e risorge perché il Regno del Padre"
     },
     {
       "t": "c",
-      "v": "         MI                     DO#-                 LA  SI7"
+      "v": "MI DO#- LA SI7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "DO#-"
+        },
+        {
+          "word": 8,
+          "chord": "LA"
+        },
+        {
+          "word": 8,
+          "chord": "SI7"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      si compia   in  mezzo    a noi  e  abbiamo     vita     in (Lui)"
+      "v": "si compia in mezzo a noi e abbiamo vita in (Lui)"
     },
     {
       "t": "c",
-      "v": "         MI                     DO#-                 LA  SI7     MI"
+      "v": "MI DO#- LA SI7 MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "MI"
+        },
+        {
+          "word": 5,
+          "chord": "DO#-"
+        },
+        {
+          "word": 8,
+          "chord": "LA"
+        },
+        {
+          "word": 8,
+          "chord": "SI7"
+        },
+        {
+          "word": 10,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
     },
     {
       "t": "l",
-      "v": "      si compia   in  mezzo    a noi  e  abbiamo     vita     in Lui."
+      "v": "si compia in mezzo a noi e abbiamo vita in Lui."
     }
   ],
   "id": "la-preghiera-di-gesu-e-la-nostra"

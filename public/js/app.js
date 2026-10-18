@@ -519,9 +519,24 @@ function allQueryTokensMatch(query,text){
   );
 }
 
+// "187", "n 187", "n. 187", "numero 187": ricerca per numero del libretto.
+function bookNumberQuery(query){
+  const match=normalizeSearch(query).match(/^(?:n|nr|num|numero)?\s*(\d{1,3})$/);
+  return match?String(Number(match[1])):null;
+}
+function bookNumberScore(song,query){
+  const wanted=bookNumberQuery(query);
+  const number=legacyBookNumber(song);
+  if(!wanted||!number)return 0;
+  if(String(number)===wanted)return 50000;
+  return String(number).startsWith(wanted)?30000:0;
+}
+
 function songScore(song,query){
   const q=normalizeSearch(query);
   if(!q)return 0;
+  const numberScore=bookNumberScore(song,query);
+  if(numberScore)return numberScore;
 
   const title=normalizeSearch(song.title||'');
   const subtitle=normalizeSearch(song.sub||'');
@@ -558,6 +573,7 @@ function songScore(song,query){
 function songMatches(song,query){
   const q=normalizeSearch(query);
   if(!q)return true;
+  if(bookNumberScore(song,query))return true;
   return allQueryTokensMatch(q,[song.title,song.sub,song.search].filter(Boolean).join(' '));
 }
 
@@ -1496,7 +1512,8 @@ function renderTiles(filter=search.value){
 
     const btn=document.createElement('button');
     btn.className='tile'+(i===activeIndex?' active':'');
-    btn.innerHTML=`<span class="num" aria-hidden="true"></span><span class="tile-title">${esc(song.title)}${song.sub?`<small>${esc(song.sub)}</small>`:''}</span>`;
+    const bookNumber=bookNumberQuery(query)&&legacyBookNumber(song);
+    btn.innerHTML=`<span class="num" aria-hidden="true"></span><span class="tile-title">${esc(song.title)}${song.sub?`<small>${esc(song.sub)}</small>`:''}${bookNumber?`<span class="tile-book-num">n. ${bookNumber}</span>`:''}</span>`;
     btn.addEventListener('click',()=>showSong(i));
 
     const actions=document.createElement('div');

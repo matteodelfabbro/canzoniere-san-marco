@@ -614,3 +614,18 @@ html.rd .rd-update{
   html.rd body:not(.song-open) .rd-update{bottom:calc(4.8rem + env(safe-area-inset-bottom))}
 }
 
+
+/* Canto, su schermi touch: area di tocco di almeno ~44px per i comandi
+   piccoli (tonalità, dimensione testo, indietro, leggio, «Mostra»),
+   senza cambiarne l'aspetto. */
+@media (pointer:coarse){
+  html.rd .song-nav .transpose-btn,html.rd .song-nav .command-btn,html.rd .song-nav .back-list,html.rd .song-nav .song-view-toggle,html.rd .sheet .repeat-section-toggle,html.rd .song-head .rd-tag{position:relative}
+  html.rd .song-nav .transpose-btn::after,html.rd .song-nav .command-btn::after{content:"";position:absolute;inset:-8px}
+  html.rd .song-nav .back-list::after,html.rd .song-nav .song-view-toggle::after,html.rd .song-head .rd-tag::after{content:"";position:absolute;inset:-6px -4px}
+  html.rd .sheet .repeat-section-toggle::after{content:"";position:absolute;inset:-14px -8px}
+}
+
+/* «Solo testo»: gli spazi servivano solo ad allineare gli accordi;
+   senza accordi il testo scorre con spazi normali. */
+html.rd .sheet.lyrics-only .lyrics-only-line,
+html.rd .sheet.lyrics-only .lyricline{white-space:normal}

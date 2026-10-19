@@ -398,8 +398,12 @@
   },
   "cristo-e-risorto-veramente": {
     "title": "Cristo è Risorto Veramente",
-    "tags": [],
-    "groups": []
+    "tags": [
+      "Pasqua"
+    ],
+    "groups": [
+      "Tempi liturgici"
+    ]
   },
   "dall-aurora-al-tramonto": {
     "title": "Dall'Aurora al Tramonto",

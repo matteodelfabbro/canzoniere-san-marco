@@ -25,6 +25,7 @@ html.rd{
   --rd-line:#e5e1d6;
   --rd-line-2:#d3cdbf;
   --rd-gold:#a8822f;
+  --rd-gold-ink:#83641e;
   --rd-gold-soft:#f5ebd2;
   --rd-gold-line:#e3cf9c;
   --rd-chord:#9a1b38;
@@ -51,10 +52,11 @@ html.rd{
     --rd-surface-2:#1d2535;
     --rd-ink:#eef0f5;
     --rd-ink-2:#b6bbc9;
-    --rd-ink-3:#8089a0;
+    --rd-ink-3:#9098ad;
     --rd-line:#252d3f;
     --rd-line-2:#3a445c;
     --rd-gold:#e0bc6a;
+    --rd-gold-ink:#e0bc6a;
     --rd-gold-soft:rgba(224,188,106,.12);
     --rd-gold-line:rgba(224,188,106,.35);
     --rd-chord:#f2a765;
@@ -78,10 +80,11 @@ html.rd[data-theme="dark"]{
   --rd-surface-2:#1d2535;
   --rd-ink:#eef0f5;
   --rd-ink-2:#b6bbc9;
-  --rd-ink-3:#8089a0;
+  --rd-ink-3:#9098ad;
   --rd-line:#252d3f;
   --rd-line-2:#3a445c;
   --rd-gold:#e0bc6a;
+  --rd-gold-ink:#e0bc6a;
   --rd-gold-soft:rgba(224,188,106,.12);
   --rd-gold-line:rgba(224,188,106,.35);
   --rd-chord:#f2a765;
@@ -100,6 +103,8 @@ html.rd[data-theme="dark"]{
 }
 
 html.rd body{background:var(--rd-bg);color:var(--rd-ink);-webkit-font-smoothing:antialiased}
+/* Accessibilità: anello di focus da tastiera ben visibile (WCAG 2.4.7/1.4.11) */
+html.rd :is(button,a,summary,[tabindex]):focus-visible{outline:2px solid var(--rd-accent);outline-offset:2px}
 
 /* ---------- Intestazione: fascia sottile ---------- */
 html.rd header{
@@ -297,7 +302,7 @@ html.rd .repeat-section-toggle{
 html.rd .headline::before,
 html.rd .repeat-section-toggle::before{display:none}
 html.rd .sheet > .song-section:first-child > .headline{margin-top:0}
-html.rd .repeat-section-toggle{display:inline-flex;color:var(--rd-gold)}
+html.rd .repeat-section-toggle{display:inline-flex;color:var(--rd-gold-ink)}
 html.rd .repeat-section-toggle:hover{background:transparent;color:var(--rd-ink)}
 html.rd .repeat-section-action{color:var(--rd-ink-3)}
 
@@ -312,14 +317,14 @@ html.rd .refrain-section:not(.repeat-section-collapsible){
 html.rd .sheet{padding-left:14px;margin-left:-14px}
 /* Nelle due colonne dell'iPad il margine delle sezioni è riscritto: la bolla resta comunque spostata a sinistra */
 html.rd body.song-open .sheet.tablet-two-columns .refrain-section:not(.repeat-section-collapsible){margin:0 0 .7rem -14px}
-html.rd .refrain-section:not(.repeat-section-collapsible) > .headline{color:var(--rd-gold);margin-top:0}
+html.rd .refrain-section:not(.repeat-section-collapsible) > .headline{color:var(--rd-gold-ink);margin-top:0}
 html.rd .refrain-section .spacer:last-child{display:none}
 
 html.rd .feedback-trigger{border:0;color:var(--rd-ink-3);border-radius:10px}
 html.rd .feedback-trigger:hover{background:var(--rd-surface-2);color:var(--rd-ink)}
 html.rd footer{color:var(--rd-ink-3);background:var(--rd-bg)}
 html.rd .offline-status{color:var(--rd-ink-3)}
-html.rd .rd-refresh{margin-left:.3rem;padding:.35rem .2rem;border:0;background:none;color:var(--rd-gold);font:700 .79rem/1 Manrope,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+html.rd .rd-refresh{margin-left:.3rem;padding:.35rem .2rem;border:0;background:none;color:var(--rd-gold-ink);font:700 .79rem/1 Manrope,sans-serif;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 html.rd .rd-refresh::before{content:"·";margin-right:.5rem;color:var(--rd-ink-3);text-decoration:none;display:inline-block}
 
 /* Finestra segnalazioni */
@@ -405,13 +410,13 @@ html.rd .rd-ev{margin-bottom:1.6rem;border-radius:20px;background:var(--rd-card)
 html.rd .rd-ev-head{display:grid;grid-template-columns:1fr auto;align-items:end;gap:.2rem 1rem;padding:1.25rem 1.25rem 1.05rem;background:linear-gradient(135deg,rgba(224,188,106,.18),rgba(224,188,106,0) 70%)}
 html.rd .rd-ev-head>*{grid-column:1}
 html.rd .rd-ev-head .rd-sl-go{grid-column:2;grid-row:1/3;align-self:center}
-html.rd .rd-ev-kicker{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--rd-card-accent)}
+html.rd .rd-ev-kicker{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--rd-gold-ink)}
 html.rd .rd-home .rd-ev h3{margin:.2rem 0 0;font-family:var(--rd-serif);font-weight:600;font-size:clamp(1.35rem,3.6vw,1.75rem);line-height:1.12;letter-spacing:-.01em;text-transform:none;color:var(--rd-card-ink)}
 html.rd .rd-ev-head p{grid-column:1/-1;margin:.2rem 0 0;font-size:.84rem;color:var(--rd-card-ink-2)}
 html.rd .rd-ev-list{list-style:none;margin:0;padding:0;counter-reset:ev}
 html.rd .rd-ev-list li{counter-increment:ev;border-top:1px solid var(--rd-card-line)}
 html.rd .rd-ev-row{display:flex;align-items:center;gap:.85rem;width:100%;min-height:3.6rem;padding:.6rem 1.25rem;border:0;background:none;color:var(--rd-card-ink);text-align:left}
-html.rd .rd-ev-row::before{content:counter(ev);flex:none;width:1.4rem;font-size:.8rem;font-weight:800;color:var(--rd-card-accent);font-variant-numeric:tabular-nums}
+html.rd .rd-ev-row::before{content:counter(ev);flex:none;width:1.4rem;font-size:.8rem;font-weight:800;color:var(--rd-gold-ink);font-variant-numeric:tabular-nums}
 html.rd button.rd-ev-row:hover,html.rd button.rd-ev-row:focus-visible{background:var(--rd-card-hover)}
 html.rd .rd-ev-text{flex:1;min-width:0;display:flex;flex-direction:column}
 html.rd .rd-ev-text small{font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--rd-card-ink-2)}
@@ -446,7 +451,7 @@ html.rd .rd-ev-next-end{margin:0;font-size:.86rem;padding:.9rem 0;border-top:1px
 html.rd .rd-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:0 1.5rem}
 html.rd .rd-step{display:flex;align-items:center;gap:.7rem;height:3rem;padding:0 .4rem;border:0;border-bottom:1px solid var(--rd-line);background:none;color:var(--rd-ink);text-align:left}
 html.rd .rd-step:hover{background:var(--rd-surface-2)}
-html.rd .rd-step i{flex:none;width:1.3rem;font-style:normal;font-size:.74rem;font-weight:700;color:var(--rd-gold);font-variant-numeric:tabular-nums}
+html.rd .rd-step i{flex:none;width:1.3rem;font-style:normal;font-size:.74rem;font-weight:700;color:var(--rd-gold-ink);font-variant-numeric:tabular-nums}
 html.rd .rd-step b{flex:1;font-size:.95rem;font-weight:600}
 html.rd .rd-step small{font-size:.76rem;font-weight:700;color:var(--rd-ink-3)}
 
@@ -456,7 +461,7 @@ html.rd .rd-recent button:hover{border-color:var(--rd-line-2);box-shadow:var(--r
 html.rd .rd-recent b{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;font-family:var(--rd-serif);font-weight:600;font-size:1.05rem;line-height:1.22;overflow:hidden;overflow-wrap:anywhere}
 html.rd .rd-recent small{display:block;margin-top:.25rem;font-size:.74rem;line-height:1.35;color:var(--rd-ink-3)}
 html.rd .rd-recent button{position:relative;display:flex;flex-direction:column;justify-content:flex-start}
-html.rd .rd-recent i{position:absolute;top:.55rem;right:.75rem;font-style:normal;font-size:.7rem;font-weight:700;color:var(--rd-gold);font-variant-numeric:tabular-nums}
+html.rd .rd-recent i{position:absolute;top:.55rem;right:.75rem;font-style:normal;font-size:.7rem;font-weight:700;color:var(--rd-gold-ink);font-variant-numeric:tabular-nums}
 html.rd .rd-recent i+b{padding-right:1.2rem}
 html.rd .rd-shelf-tabs{margin:0 0 .7rem}
 @media (max-width:560px){html.rd .rd-recent{grid-template-columns:repeat(2,minmax(0,1fr))}}

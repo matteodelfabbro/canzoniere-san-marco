@@ -1420,7 +1420,8 @@ function renderCategorySuggestions(query){
 
   const matches=songs
     .map((song,index)=>({song,index}))
-    .filter(({song})=>taggedIds.has(song.id));
+    .filter(({song})=>taggedIds.has(song.id))
+    .sort(compareSongTitles);
 
   if(!matches.length)return false;
 

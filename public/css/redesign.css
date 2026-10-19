@@ -21,7 +21,7 @@ html.rd{
   --rd-surface-2:#f1eee6;
   --rd-ink:#1b1d24;
   --rd-ink-2:#4b4f5c;
-  --rd-ink-3:#858996;
+  --rd-ink-3:#6b6f7c;
   --rd-line:#e5e1d6;
   --rd-line-2:#d3cdbf;
   --rd-gold:#a8822f;
@@ -210,6 +210,11 @@ html.rd .empty-note{color:var(--rd-ink-3);text-align:center;padding:2rem 1rem;fo
   html.rd .favorite-btn,html.rd .setlist-add{color:var(--rd-ink-3)}
   html.rd .favorite-btn.active{color:var(--rd-gold)}
   html.rd .setlist-add.active{color:var(--rd-accent)}
+}
+
+@media (pointer:coarse){
+  html.rd .tile-actions .favorite-btn,html.rd .tile-actions .setlist-add{width:2.3rem;height:2.75rem}
+  html.rd .rd-chip,html.rd .rd-filters-toggle{height:2.5rem}
 }
 
 /* Risultati per categoria */
@@ -448,9 +453,9 @@ html.rd .rd-step small{font-size:.76rem;font-weight:700;color:var(--rd-ink-3)}
 html.rd .rd-recent{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.55rem}
 html.rd .rd-recent button{padding:.8rem .9rem;border-radius:14px;background:var(--rd-surface);border:1px solid var(--rd-line);color:var(--rd-ink);text-align:left;min-width:0}
 html.rd .rd-recent button:hover{border-color:var(--rd-line-2);box-shadow:var(--rd-shadow)}
-html.rd .rd-recent b{display:block;font-family:var(--rd-serif);font-weight:600;font-size:1.05rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-html.rd .rd-recent small{font-size:.74rem;color:var(--rd-ink-3)}
-html.rd .rd-recent button{position:relative}
+html.rd .rd-recent b{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;font-family:var(--rd-serif);font-weight:600;font-size:1.05rem;line-height:1.22;overflow:hidden;overflow-wrap:anywhere}
+html.rd .rd-recent small{display:block;margin-top:.25rem;font-size:.74rem;line-height:1.35;color:var(--rd-ink-3)}
+html.rd .rd-recent button{position:relative;display:flex;flex-direction:column;justify-content:flex-start}
 html.rd .rd-recent i{position:absolute;top:.55rem;right:.75rem;font-style:normal;font-size:.7rem;font-weight:700;color:var(--rd-gold);font-variant-numeric:tabular-nums}
 html.rd .rd-recent i+b{padding-right:1.2rem}
 html.rd .rd-shelf-tabs{margin:0 0 .7rem}

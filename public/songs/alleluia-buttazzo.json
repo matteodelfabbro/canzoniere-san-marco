@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Alleluia Buttazzo Intro  Ritornello    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia  Strofa 1    Chi  ascolta  la parola    È come    uno   che    Attinge   acqua   alla sorgente    Che   lo disseterà    RIT.  Strofa 2    Chi  accoglie   la parola    È come    uno   che    Ha  costruito   sulla  roccia    E mai   vacillerà   RIT.  Finale     Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia    Alleluia,  Alleluia,        Alleluia!",
+  "search": "Alleluia Buttazzo Intro  Ritornello    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia  Strofa 1    Chi  ascolta  la parola    È come    uno   che    Attinge   acqua   alla sorgente    Che   lo disseterà  Strofa 2    Chi  accoglie   la parola    È come    uno   che    Ha  costruito   sulla  roccia    E mai   vacillerà  Finale     Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alleluia    Alleluia,  Alleluia,  Alle  - lu  - u -  ia    Alleluia,  Alleluia,        Alleluia!",
   "lines": [
     {
       "t": "h",
@@ -14,7 +14,7 @@
     },
     {
       "t": "c",
-      "v": "SOL     MIm      DO      RE"
+      "v": "SOL     MI-      DO      RE"
     },
     {
       "t": "s"
@@ -25,7 +25,7 @@
     },
     {
       "t": "c",
-      "v": "   SOL        MIm       DO     RE"
+      "v": "   SOL        MI-       DO     RE"
     },
     {
       "t": "l",
@@ -33,7 +33,7 @@
     },
     {
       "t": "c",
-      "v": "   SOL        MIm       DO     RE"
+      "v": "   SOL        MI-       DO     RE"
     },
     {
       "t": "l",
@@ -41,7 +41,7 @@
     },
     {
       "t": "c",
-      "v": "   SOL        MIm       DO     RE"
+      "v": "   SOL        MI-       DO     RE"
     },
     {
       "t": "l",
@@ -49,7 +49,7 @@
     },
     {
       "t": "c",
-      "v": "   SOL        MIm       DO       RE        SOL"
+      "v": "   SOL        MI-       DO       RE        SOL"
     },
     {
       "t": "l",
@@ -64,7 +64,7 @@
     },
     {
       "t": "c",
-      "v": "     SOL            MIm"
+      "v": "     SOL            MI-"
     },
     {
       "t": "l",
@@ -72,7 +72,7 @@
     },
     {
       "t": "c",
-      "v": "     LAm          RE"
+      "v": "     LA-          RE"
     },
     {
       "t": "l",
@@ -80,7 +80,7 @@
     },
     {
       "t": "c",
-      "v": "           SOL            MIm"
+      "v": "           SOL            MI-"
     },
     {
       "t": "l",
@@ -88,11 +88,18 @@
     },
     {
       "t": "c",
-      "v": "      LAm           RE"
+      "v": "      LA-           RE"
     },
     {
       "t": "l",
-      "v": "   Che   lo disseterà    RIT."
+      "v": "   Che   lo disseterà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -103,7 +110,7 @@
     },
     {
       "t": "c",
-      "v": "     SOL              MIm"
+      "v": "     SOL              MI-"
     },
     {
       "t": "l",
@@ -111,7 +118,7 @@
     },
     {
       "t": "c",
-      "v": "      LAm          RE"
+      "v": "      LA-          RE"
     },
     {
       "t": "l",
@@ -119,7 +126,7 @@
     },
     {
       "t": "c",
-      "v": "             SOL          MIm"
+      "v": "             SOL          MI-"
     },
     {
       "t": "l",
@@ -127,11 +134,18 @@
     },
     {
       "t": "c",
-      "v": "    LAm           RE      MI"
+      "v": "    LA-           RE      MI"
     },
     {
       "t": "l",
-      "v": "   E mai   vacillerà   RIT."
+      "v": "   E mai   vacillerà"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -145,7 +159,7 @@
     },
     {
       "t": "c",
-      "v": "   LA        FA#m        RE    MI"
+      "v": "   LA        FA#-        RE    MI"
     },
     {
       "t": "l",
@@ -153,7 +167,7 @@
     },
     {
       "t": "c",
-      "v": "   LA        FA#m        RE    MI"
+      "v": "   LA        FA#-        RE    MI"
     },
     {
       "t": "l",
@@ -161,7 +175,7 @@
     },
     {
       "t": "c",
-      "v": "   LA        FA#m        RE    MI"
+      "v": "   LA        FA#-        RE    MI"
     },
     {
       "t": "l",
@@ -169,7 +183,7 @@
     },
     {
       "t": "c",
-      "v": "   LA        FA#m        RE      MI        LA   MI"
+      "v": "   LA        FA#-        RE      MI        LA   MI"
     },
     {
       "t": "l",
@@ -177,7 +191,7 @@
     },
     {
       "t": "c",
-      "v": "   LA        FA#m          RE     MI   LA"
+      "v": "   LA        FA#-          RE     MI   LA"
     },
     {
       "t": "l",

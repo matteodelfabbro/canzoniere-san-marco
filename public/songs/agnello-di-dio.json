@@ -14,7 +14,7 @@
     },
     {
       "t": "c",
-      "v": "RE LA SIm LA"
+      "v": "RE LA SI- LA"
     },
     {
       "t": "s"
@@ -25,7 +25,7 @@
     },
     {
       "t": "c",
-      "v": "RE    LA    SIm        SOL          RE   LA     FA#m     SOL"
+      "v": "RE    LA    SI-        SOL          RE   LA     FA#-     SOL"
     },
     {
       "t": "l",
@@ -33,7 +33,7 @@
     },
     {
       "t": "c",
-      "v": "RE      LA    FA#m     SOL     RE  LA    SIm   LA"
+      "v": "RE      LA    FA#-     SOL     RE  LA    SI-   LA"
     },
     {
       "t": "l",
@@ -48,7 +48,7 @@
     },
     {
       "t": "c",
-      "v": "RE    LA    SIm        SOL          RE   LA     FA#m     SOL"
+      "v": "RE    LA    SI-        SOL          RE   LA     FA#-     SOL"
     },
     {
       "t": "l",
@@ -56,7 +56,7 @@
     },
     {
       "t": "c",
-      "v": "RE      LA    FA#m     SOL     RE  LA    SIm   LA"
+      "v": "RE      LA    FA#-     SOL     RE  LA    SI-   LA"
     },
     {
       "t": "l",
@@ -71,7 +71,7 @@
     },
     {
       "t": "c",
-      "v": "RE    LA    SIm        SOL          RE   LA     FA#m     SOL"
+      "v": "RE    LA    SI-        SOL          RE   LA     FA#-     SOL"
     },
     {
       "t": "l",
@@ -79,7 +79,7 @@
     },
     {
       "t": "c",
-      "v": "SIm                 LA   SOL               FA#m   SI SI"
+      "v": "SI-                 LA   SOL               FA#-   SI SI"
     },
     {
       "t": "l",

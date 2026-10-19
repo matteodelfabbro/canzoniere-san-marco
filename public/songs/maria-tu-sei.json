@@ -8,7 +8,7 @@
     "note": "SOL",
     "mode": "maggiore"
   },
-  "search": "Maria tu sei Gen Rosso Rimani con me Intro Strofa 1 Maria tu sei, la vita per me Sei la speranza e la gioia, l’amore, tutto sei Maria tu sai quello che vuoi Sai con che forza d’amore in cielo mi porterai Ritornello Maria ti do il mio cuore per sempre se vuoi Tu dammi l’amore che non passa mai Rimani con me e andiamo nel mondo insieme La tua presenza sarà goccia di paradiso per l’umanità Strofa 2 Maria con te, sempre vivrò In ogni momento giocando, cantando, ti amerò Seguendo i tuoi passi, in te io avrò La luce che illumina i giorni e le notti dell’anima Ritornello Maria ti do il mio cuore per sempre se vuoi Tu dammi l’amore che non passa mai Rimani con me e andiamo nel mondo insieme La tua presenza sarà goccia di paradiso per l’umanità",
+  "search": "Maria tu sei Gen Rosso Rimani con me Intro Strofa 1 Maria tu sei, la vita per me Sei la speranza e la gioia, l'amore, tutto sei Maria tu sai quello che vuoi Sai con che forza d'amore in cielo mi porterai Ritornello Maria ti do il mio cuore per sempre se vuoi Tu dammi l'amore che non passa mai Rimani con me e andiamo nel mondo insieme La tua presenza sarà goccia di paradiso per l'umanità Strofa 2 Maria con te, sempre vivrò In ogni momento giocando, cantando, ti amerò Seguendo i tuoi passi, in te io avrò La luce che illumina i giorni e le notti dell'anima Ritornello Maria ti do il mio cuore per sempre se vuoi Tu dammi l'amore che non passa mai Rimani con me e andiamo nel mondo insieme La tua presenza sarà goccia di paradiso per l'umanità",
   "lines": [
     {
       "t": "h",
@@ -54,7 +54,7 @@
         },
         {
           "chord": "DO",
-          "lyric": "speranza e la gioia, l’amore, "
+          "lyric": "speranza e la gioia, l'amore, "
         },
         {
           "chord": "SOL",
@@ -64,7 +64,7 @@
     },
     {
       "t": "l",
-      "v": "Sei la speranza e la gioia, l’amore, tutto sei"
+      "v": "Sei la speranza e la gioia, l'amore, tutto sei"
     },
     {
       "t": "c",
@@ -94,7 +94,7 @@
         },
         {
           "chord": "DO",
-          "lyric": "forza d’amore in cielo mi "
+          "lyric": "forza d'amore in cielo mi "
         },
         {
           "chord": "| SOL (3 tempi)",
@@ -108,7 +108,7 @@
     },
     {
       "t": "l",
-      "v": "Sai con che forza d’amore in cielo mi porterai"
+      "v": "Sai con che forza d'amore in cielo mi porterai"
     },
     {
       "t": "s"
@@ -153,7 +153,7 @@
         },
         {
           "chord": "SOL",
-          "lyric": "l’amore che non passa "
+          "lyric": "l'amore che non passa "
         },
         {
           "chord": "RE4",
@@ -167,7 +167,7 @@
     },
     {
       "t": "l",
-      "v": "Tu dammi l’amore che non passa mai"
+      "v": "Tu dammi l'amore che non passa mai"
     },
     {
       "t": "c",
@@ -219,7 +219,7 @@
       "flowSegments": [
         {
           "chord": "RE4",
-          "lyric": "per l’umanità"
+          "lyric": "per l'umanità"
         },
         {
           "chord": "RE |",
@@ -229,7 +229,7 @@
     },
     {
       "t": "l",
-      "v": "per l’umanità"
+      "v": "per l'umanità"
     },
     {
       "t": "s"
@@ -314,7 +314,7 @@
         },
         {
           "chord": "| SOL (3 tempi)",
-          "lyric": "dell’anima"
+          "lyric": "dell'anima"
         },
         {
           "chord": "RE |",
@@ -324,7 +324,7 @@
     },
     {
       "t": "l",
-      "v": "La luce che illumina i giorni e le notti dell’anima"
+      "v": "La luce che illumina i giorni e le notti dell'anima"
     },
     {
       "t": "s"
@@ -369,7 +369,7 @@
         },
         {
           "chord": "SOL",
-          "lyric": "l’amore che non passa "
+          "lyric": "l'amore che non passa "
         },
         {
           "chord": "RE4",
@@ -383,7 +383,7 @@
     },
     {
       "t": "l",
-      "v": "Tu dammi l’amore che non passa mai"
+      "v": "Tu dammi l'amore che non passa mai"
     },
     {
       "t": "c",
@@ -435,7 +435,7 @@
       "flowSegments": [
         {
           "chord": "RE4",
-          "lyric": "per l’umanità"
+          "lyric": "per l'umanità"
         },
         {
           "chord": "RE |",
@@ -445,7 +445,7 @@
     },
     {
       "t": "l",
-      "v": "per l’umanità"
+      "v": "per l'umanità"
     }
   ]
 }

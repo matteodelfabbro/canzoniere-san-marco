@@ -3,10 +3,10 @@
   "sub": "",
   "capo": null,
   "key": {
-    "note": "DO",
+    "note": "RE",
     "mode": "maggiore"
   },
-  "search": "Le Tue Mani  Intro  Strofa 1    Le tue mani   son piene  di fiori    dove  li portavi fratello mio?    Li portavo  alla tomba   di Cristo,    ma  l'ho trovata  vuota  sorella mia.  Ritornello Al    -     le -  lu - ia        Al  - le - lu - ia                           Al    -     le -  lu - ia        Al - le - lu - ia  Strofa 2    I tuoi occhi riflettono gioia,    dimmi   cosa hai visto fratello mio?    Ho  veduto   morire  la morte,    ecco  cosa ho  visto sorella mia.  Rit.  Strofa 3    Hai portato   una  mano   all'orecchio,    dimmi   cosa ascolti fratello mio?    Sento  squilli di tromba  lontani,    sento  cori d'angeli sorella mia.  RIT.  Strofa 4    Stai cantando   un'allegra canzone    dimmi   perché  canti fratello mio?    Perché  so che  la vita non muore    ecco  perché  canto  sorella mia.     RIT.",
+  "search": "Le Tue Mani  Intro  Strofa 1    Le tue mani   son piene  di fiori    dove  li portavi fratello mio?    Li portavo  alla tomba   di Cristo,    ma  l'ho trovata  vuota  sorella mia.  Ritornello Al    -     le -  lu - ia        Al  - le - lu - ia                           Al    -     le -  lu - ia        Al - le - lu - ia  Strofa 2    I tuoi occhi riflettono gioia,    dimmi   cosa hai visto fratello mio?    Ho  veduto   morire  la morte,    ecco  cosa ho  visto sorella mia.  Strofa 3    Hai portato   una  mano   all'orecchio,    dimmi   cosa ascolti fratello mio?    Sento  squilli di tromba  lontani,    sento  cori d'angeli sorella mia.  Strofa 4    Stai cantando   un'allegra canzone    dimmi   perché  canti fratello mio?    Perché  so che  la vita non muore    ecco  perché  canto  sorella mia.",
   "lines": [
     {
       "t": "h",
@@ -115,7 +115,14 @@
     },
     {
       "t": "l",
-      "v": "   ecco  cosa ho  visto sorella mia.  Rit."
+      "v": "   ecco  cosa ho  visto sorella mia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -154,7 +161,14 @@
     },
     {
       "t": "l",
-      "v": "   sento  cori d'angeli sorella mia.  RIT."
+      "v": "   sento  cori d'angeli sorella mia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -193,7 +207,14 @@
     },
     {
       "t": "l",
-      "v": "   ecco  perché  canto  sorella mia.     RIT."
+      "v": "   ecco  perché  canto  sorella mia."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     }
   ],
   "id": "le-tue-mani"

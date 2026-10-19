@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Gloria a Te, Parola Vivente  Ritornello    Gloria   a Te,  Parola   vivente    Verbo   di  Dio  gloria  a  Te,    Cristo  mae     -   stro, Cristo  Signo    -   re!  Strofa 1    Tu  solo  hai  parole   di vita  per  noi.    Beato   colui  che  ti ascolta,  Signore,   perché    vivrà.   Rit.  Strofa 2    Tu  solo  hai  proposte    di amore     per  noi.    Beato   colui  che  le accoglie,   Signore,   perché    vivrà.  Rit.  Strofa 3    Tu  solo  sei via  alla vita  per  noi.    Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit.  Strofa 4    Tu  solo  dischiudi   l'eterno   per  noi.    Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit.",
+  "search": "Gloria a Te, Parola Vivente  Ritornello    Gloria   a Te,  Parola   vivente    Verbo   di  Dio  gloria  a  Te,    Cristo  mae     -   stro, Cristo  Signo    -   re!  Strofa 1    Tu  solo  hai  parole   di vita  per  noi.    Beato   colui  che  ti ascolta,  Signore,   perché    vivrà.  Strofa 2    Tu  solo  hai  proposte    di amore     per  noi.    Beato   colui  che  le accoglie,   Signore,   perché    vivrà.  Strofa 3    Tu  solo  sei via  alla vita  per  noi.    Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Strofa 4    Tu  solo  dischiudi   l'eterno   per  noi.    Beato   colui  che  in te  spera,  Signore,   perché    vivrà.",
   "lines": [
     {
       "t": "h",
@@ -57,7 +57,14 @@
     },
     {
       "t": "l",
-      "v": "   Beato   colui  che  ti ascolta,  Signore,   perché    vivrà.   Rit."
+      "v": "   Beato   colui  che  ti ascolta,  Signore,   perché    vivrà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -80,7 +87,14 @@
     },
     {
       "t": "l",
-      "v": "   Beato   colui  che  le accoglie,   Signore,   perché    vivrà.  Rit."
+      "v": "   Beato   colui  che  le accoglie,   Signore,   perché    vivrà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -103,7 +117,14 @@
     },
     {
       "t": "l",
-      "v": "   Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit."
+      "v": "   Beato   colui  che  in te  spera,  Signore,   perché    vivrà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -126,7 +147,14 @@
     },
     {
       "t": "l",
-      "v": "   Beato   colui  che  in te  spera,  Signore,   perché    vivrà.  Rit."
+      "v": "   Beato   colui  che  in te  spera,  Signore,   perché    vivrà."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     }
   ],
   "id": "gloria-a-te-parola-vivente"

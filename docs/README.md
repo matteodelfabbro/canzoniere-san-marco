@@ -6,6 +6,7 @@ Questa cartella conserva il lavoro di controllo e le note tecniche del canzonier
 
 - `revisione-canti-001-010.md` fino a `revisione-canti-151-159.md`: controlli svolti a blocchi di dieci canti;
 - `revisione-completa-001-159.md`: riepilogo della revisione complessiva;
+- `revisione-canti-2026-10-19.md`: revisione di tutti i 210 canti (correzioni applicate ed elenco dei dubbi);
 - `aggiornamento-autori-sottotitoli.md`: interventi su titoli, sottotitoli e autori.
 
 ## Ricerca e tag

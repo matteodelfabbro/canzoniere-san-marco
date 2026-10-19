@@ -8,7 +8,7 @@
     "note": "FA",
     "mode": "maggiore"
   },
-  "search": "Spirito Santo, dolce presenza RNS Intro Strofa 1 Spirito Santo, dolce presenza, vieni a fonderci con la tua volontà. Consolatore, luce del cuore, soffia la tua vita dentro noi. Inebriaci di te, del tuo amore. Ritornello Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia. Strofa 2 Spirito Santo, testimone celeste, donaci sapienza e verità. Promessa del Padre, sorgente di grazia, vieni a dimorare dentro noi. Inebriaci di te, del tuo amore. Ritornello Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia. Bridge Scendi su di noi, scendi su di noi, tu che sei l’Eterno. Scendi su di noi, scendi su di noi, tu che sei l’Eterno. Scendi su di noi, scendi su di noi, tu che sei l’Eterno, l’Eterno. Ritornello finale Spirito Santo, Spirito di Gesù, muoviti dentro noi per rinnovare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, usaci come vuoi. Spirito Santo.",
+  "search": "Spirito Santo, dolce presenza RNS Intro Strofa 1 Spirito Santo, dolce presenza, vieni a fonderci con la tua volontà. Consolatore, luce del cuore, soffia la tua vita dentro noi. Inebriaci di te, del tuo amore. Ritornello Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia. Strofa 2 Spirito Santo, testimone celeste, donaci sapienza e verità. Promessa del Padre, sorgente di grazia, vieni a dimorare dentro noi. Inebriaci di te, del tuo amore. Ritornello Spirito Santo, Spirito di Gesù, adesso tu manda noi ad infiammare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, con la tua grazia. Ponte Scendi su di noi, scendi su di noi, tu che sei l'Eterno. Scendi su di noi, scendi su di noi, tu che sei l'Eterno. Scendi su di noi, scendi su di noi, tu che sei l'Eterno, l'Eterno. Ritornello finale Spirito Santo, Spirito di Gesù, muoviti dentro noi per rinnovare la terra. Spirito Santo, rendici uno in te, usaci come vuoi, usaci come vuoi. Spirito Santo.",
   "lines": [
     {
       "t": "h",
@@ -303,7 +303,7 @@
     },
     {
       "t": "h",
-      "v": "Bridge"
+      "v": "Ponte"
     },
     {
       "t": "c",
@@ -323,13 +323,13 @@
         },
         {
           "chord": "SIb7+",
-          "lyric": "che sei l’Eterno."
+          "lyric": "che sei l'Eterno."
         }
       ]
     },
     {
       "t": "l",
-      "v": "Scendi su di noi, scendi su di noi, tu che sei l’Eterno."
+      "v": "Scendi su di noi, scendi su di noi, tu che sei l'Eterno."
     },
     {
       "t": "c",
@@ -345,13 +345,13 @@
         },
         {
           "chord": "DO",
-          "lyric": "tu che sei l’Eterno."
+          "lyric": "tu che sei l'Eterno."
         }
       ]
     },
     {
       "t": "l",
-      "v": "Scendi su di noi, scendi su di noi, tu che sei l’Eterno."
+      "v": "Scendi su di noi, scendi su di noi, tu che sei l'Eterno."
     },
     {
       "t": "c",
@@ -379,13 +379,13 @@
         },
         {
           "chord": "RE11",
-          "lyric": "sei l’Eterno, l’Eterno."
+          "lyric": "sei l'Eterno, l'Eterno."
         }
       ]
     },
     {
       "t": "l",
-      "v": "Scendi su di noi, scendi su di noi, tu che sei l’Eterno, l’Eterno."
+      "v": "Scendi su di noi, scendi su di noi, tu che sei l'Eterno, l'Eterno."
     },
     {
       "t": "s"

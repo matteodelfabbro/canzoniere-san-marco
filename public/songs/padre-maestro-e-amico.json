@@ -4,10 +4,10 @@
   "capo": null,
   "compactRepeats": true,
   "key": {
-    "note": "DO",
+    "note": "RE",
     "mode": "maggiore"
   },
-  "search": "Padre, Maestro e Amico Angelo Lagorio Strofa 1 Padre, di molte genti padre, il nostro grido ascolta è il canto della vita. Quella perenne giovinezza che tu portavi in cuore perché non doni a noi? Ritornello Padre, maestro ed amico, noi giovani del mondo guardiamo ancora te. Apri il nostro cuore a Cristo, sostieni il nostro impegno in questa societa'. Oh Oh Oh Oh Strofa 2 Festa, con te la vita è festa con te la vita è canto è fremito di gioia. Oggi tra noi ancora è vivo l'amore che nutrivi per tutti i figli tuoi! Ritornello 2 Padre, maestro ed amico, noi giovani del mondo guardiamo ancora te. Apri il nostro cuore a Cristo, sostieni il nostro impegno in questa societa'. Oh Oh Oh Oh",
+  "search": "Padre, Maestro e Amico Angelo Lagorio Strofa 1 Padre, di molte genti padre, il nostro grido ascolta è il canto della vita. Quella perenne giovinezza che tu portavi in cuore perché non doni a noi? Ritornello Padre, maestro ed amico, noi giovani del mondo guardiamo ancora te. Apri il nostro cuore a Cristo, sostieni il nostro impegno in questa società. Oh Oh Oh Oh Strofa 2 Festa, con te la vita è festa con te la vita è canto è fremito di gioia. Oggi tra noi ancora è vivo l'amore che nutrivi per tutti i figli tuoi! Ritornello 2 Padre, maestro ed amico, noi giovani del mondo guardiamo ancora te. Apri il nostro cuore a Cristo, sostieni il nostro impegno in questa società. Oh Oh Oh Oh",
   "lines": [
     {
       "t": "h",
@@ -314,7 +314,7 @@
     },
     {
       "t": "l",
-      "v": "in questa societa'."
+      "v": "in questa società."
     },
     {
       "t": "c",
@@ -679,7 +679,7 @@
     },
     {
       "t": "l",
-      "v": "in questa societa'."
+      "v": "in questa società."
     },
     {
       "t": "c",

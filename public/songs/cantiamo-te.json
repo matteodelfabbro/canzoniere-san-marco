@@ -3,7 +3,7 @@
   "sub": "Gragnani",
   "capo": null,
   "key": {
-    "note": "DO",
+    "note": "RE",
     "mode": "maggiore"
   },
   "search": "Cantiamo Te  Intro  Strofa 1    Cantiamo     Te,  Signore   della  vita:    il nome   tuo   è grande    sulla terra    tutto  parla  di  te e    canta  la tua  gloria.    Grande    Tu  sei e   compi    meraviglie:    tu sei Dio.  Strofa 2    Cantiamo     Te,  Signore   Gesù   Cristo:    Figlio  di Dio   venuto   sulla  terra,    fatto  uomo    per  noi  nel  grembo     di Maria.    Dolce   Gesù     risorto  dalla  morte    sei con  noi.  Strofa 3    Cantiamo     Te,  amore    senza   fine:    Tu  che  sei Dio    lo  Spirito  del  Padre    vivi dentro    di noi  e  guida   i nostri  passi.    Accendi    in noi  il fuoco  dell'eterna    carità",
@@ -14,7 +14,7 @@
     },
     {
       "t": "c",
-      "v": "RE  SIm   SOL   LA7"
+      "v": "RE  SI-   SOL   LA7"
     },
     {
       "t": "s"
@@ -25,7 +25,7 @@
     },
     {
       "t": "c",
-      "v": "   RE           FA#-    MIm          LA7"
+      "v": "   RE           FA#-    MI-          LA7"
     },
     {
       "t": "l",
@@ -33,7 +33,7 @@
     },
     {
       "t": "c",
-      "v": "   RE        FA#-      MIm         LA7"
+      "v": "   RE        FA#-      MI-         LA7"
     },
     {
       "t": "l",
@@ -41,7 +41,7 @@
     },
     {
       "t": "c",
-      "v": "           RE       FA#-     MIm         LA"
+      "v": "           RE       FA#-     MI-         LA"
     },
     {
       "t": "l",
@@ -49,7 +49,7 @@
     },
     {
       "t": "c",
-      "v": "     RE          FA#-      MIm        LA7"
+      "v": "     RE          FA#-      MI-        LA7"
     },
     {
       "t": "l",
@@ -57,7 +57,7 @@
     },
     {
       "t": "c",
-      "v": "           RE        SIm   SOL    LA7"
+      "v": "           RE        SI-   SOL    LA7"
     },
     {
       "t": "l",
@@ -72,7 +72,7 @@
     },
     {
       "t": "c",
-      "v": "   RE           FA#-     MIm          LA7"
+      "v": "   RE           FA#-     MI-          LA7"
     },
     {
       "t": "l",
@@ -80,7 +80,7 @@
     },
     {
       "t": "c",
-      "v": "   RE          FA#-    MIm         LA7"
+      "v": "   RE          FA#-    MI-         LA7"
     },
     {
       "t": "l",
@@ -88,7 +88,7 @@
     },
     {
       "t": "c",
-      "v": "          RE           FA#-        MIm        LA"
+      "v": "          RE           FA#-        MI-        LA"
     },
     {
       "t": "l",
@@ -96,7 +96,7 @@
     },
     {
       "t": "c",
-      "v": "     RE       FA#-     MIm          LA7"
+      "v": "     RE       FA#-     MI-          LA7"
     },
     {
       "t": "l",
@@ -104,7 +104,7 @@
     },
     {
       "t": "c",
-      "v": "             RE        SIm   SOL    LA7"
+      "v": "             RE        SI-   SOL    LA7"
     },
     {
       "t": "l",
@@ -119,7 +119,7 @@
     },
     {
       "t": "c",
-      "v": "   RE           FA#-    MIm          LA7"
+      "v": "   RE           FA#-    MI-          LA7"
     },
     {
       "t": "l",
@@ -127,7 +127,7 @@
     },
     {
       "t": "c",
-      "v": "   RE            FA#-       MIm         LA7"
+      "v": "   RE            FA#-       MI-         LA7"
     },
     {
       "t": "l",
@@ -135,7 +135,7 @@
     },
     {
       "t": "c",
-      "v": "         RE           FA#-    MIm           LA"
+      "v": "         RE           FA#-    MI-           LA"
     },
     {
       "t": "l",
@@ -143,7 +143,7 @@
     },
     {
       "t": "c",
-      "v": "   RE           FA#-      MIm        LA7          RE       SIm   SOL    LA7    RE"
+      "v": "   RE           FA#-      MI-        LA7          RE       SI-   SOL    LA7    RE"
     },
     {
       "t": "l",

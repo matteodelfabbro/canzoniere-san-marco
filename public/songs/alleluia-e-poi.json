@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Alleluia e Poi  Intro  Strofa 1    Chiama    ed  io  verrò  da   Te    Figlio  nel silenzio   mi  accoglierai.    Voce   e poi  la  libertà    nella  tua  parola   camminerò  Ritornello    Alleluia      Alleluia        Alleluia    Alleluia      Alle -    lu  -   ia    Alleluia      Alleluia        Alleluia    Alleluia      Alle -  lu - ia  Strofa 2    Danza    ed  io verrò   con  Te    Figlio  la tua  strada  comprenderò.    Luce  e  poi  nel tempo     Tuo    oltre il desiderio riposerò    RIT.",
+  "search": "Alleluia e Poi  Intro  Strofa 1    Chiama    ed  io  verrò  da   Te    Figlio  nel silenzio   mi  accoglierai.    Voce   e poi  la  libertà    nella  tua  parola   camminerò  Ritornello    Alleluia      Alleluia        Alleluia    Alleluia      Alle -    lu  -   ia    Alleluia      Alleluia        Alleluia    Alleluia      Alle -  lu - ia  Strofa 2    Danza    ed  io verrò   con  Te    Figlio  la tua  strada  comprenderò.    Luce  e  poi  nel tempo     Tuo    oltre il desiderio riposerò",
   "lines": [
     {
       "t": "h",
@@ -132,7 +132,14 @@
     },
     {
       "t": "l",
-      "v": "   oltre il desiderio riposerò    RIT."
+      "v": "   oltre il desiderio riposerò"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     }
   ],
   "id": "alleluia-e-poi"

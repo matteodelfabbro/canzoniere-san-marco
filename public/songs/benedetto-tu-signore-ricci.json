@@ -91,7 +91,7 @@
       "v": "DO FA",
       "flowSegments": [
         { "chord": "DO", "lyric": "che offriamo" },
-        { "chord": "FA", "lyric": "a Te" }
+        { "chord": "FA", "lyric": "a Te." }
       ]
     },
     {
@@ -104,7 +104,7 @@
       "flowSegments": [
         { "chord": "LA-", "lyric": "Fanne cibo" },
         { "chord": "SOL", "lyric": "che porterà" },
-        { "chord": "FA", "lyric": "la vita tua" }
+        { "chord": "FA", "lyric": "la vita tua." }
       ]
     },
     {
@@ -184,7 +184,7 @@
       "v": "DO FA",
       "flowSegments": [
         { "chord": "DO", "lyric": "che offriamo" },
-        { "chord": "FA", "lyric": "a Te" }
+        { "chord": "FA", "lyric": "a Te." }
       ]
     },
     {
@@ -197,12 +197,12 @@
       "flowSegments": [
         { "chord": "LA-", "lyric": "Fanne linfa" },
         { "chord": "SOL", "lyric": "che porterà" },
-        { "chord": "FA", "lyric": "l’eternità" }
+        { "chord": "FA", "lyric": "l'eternità." }
       ]
     },
     {
       "t": "l",
-      "v": "Fanne linfa che porterà l’eternità."
+      "v": "Fanne linfa che porterà l'eternità."
     },
     {
       "t": "s"
@@ -230,7 +230,7 @@
       "flowSegments": [
         { "chord": "SOL", "lyric": "e saranno" },
         { "chord": "FA", "lyric": "offerte" },
-        { "chord": "DO", "lyric": "pure" }
+        { "chord": "DO", "lyric": "pure." }
       ]
     },
     {
@@ -257,7 +257,7 @@
         { "chord": "SOL", "lyric": "e saranno" },
         { "chord": "FA", "lyric": "cieli e terre" },
         { "chord": "FA", "lyric": "che Tu farai" },
-        { "chord": "SOL", "lyric": "nuovi" }
+        { "chord": "SOL", "lyric": "nuovi." }
       ]
     },
     {
@@ -337,7 +337,7 @@
       "v": "DO FA",
       "flowSegments": [
         { "chord": "DO", "lyric": "che offriamo" },
-        { "chord": "FA", "lyric": "a Te" }
+        { "chord": "FA", "lyric": "a Te." }
       ]
     },
     {
@@ -350,7 +350,7 @@
       "flowSegments": [
         { "chord": "LA-", "lyric": "Fanne dono" },
         { "chord": "SOL", "lyric": "che porterà" },
-        { "chord": "FA", "lyric": "la vita tua" }
+        { "chord": "FA", "lyric": "la vita tua." }
       ]
     },
     {

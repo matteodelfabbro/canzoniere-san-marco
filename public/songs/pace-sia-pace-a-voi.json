@@ -7,7 +7,7 @@
     "note": "MI",
     "mode": "maggiore"
   },
-  "search": "Pace sia, pace a voi Gen Verde, Gen Rosso Ritornello “Pace sia, pace a voi”: la tua pace sarà sulla terra com'è nei cieli. “Pace sia, pace a voi”: la tua pace sarà gioia nei nostri occhi, nei cuori. “Pace sia, pace a voi”: la tua pace sarà luce limpida nei pensieri. “Pace sia, pace a voi”: la tua pace sarà una casa per tutti. Strofa 1 “Pace a voi”: sia il tuo dono visibile. “Pace a voi”: la tua eredità. “Pace a voi”: come un canto all'unisono che sale dalle nostre città. Strofa 2 “Pace a voi”: sia un impronta nei secoli. “Pace a voi”: segno d'unità. “Pace a voi”: sia l'abbraccio tra i popoli, la tua promessa all'umanità.",
+  "search": "Pace sia, pace a voi Gen Verde, Gen Rosso Ritornello “Pace sia, pace a voi”: la tua pace sarà sulla terra com'è nei cieli. “Pace sia, pace a voi”: la tua pace sarà gioia nei nostri occhi, nei cuori. “Pace sia, pace a voi”: la tua pace sarà luce limpida nei pensieri. “Pace sia, pace a voi”: la tua pace sarà una casa per tutti. Strofa 1 “Pace a voi”: sia il tuo dono visibile. “Pace a voi”: la tua eredità. “Pace a voi”: come un canto all'unisono che sale dalle nostre città. Strofa 2 “Pace a voi”: sia un'impronta nei secoli. “Pace a voi”: segno d'unità. “Pace a voi”: sia l'abbraccio tra i popoli, la tua promessa all'umanità.",
   "lines": [
     {
       "t": "h",
@@ -316,11 +316,11 @@
           "chord": "MI"
         },
         {
-          "word": 5,
+          "word": 4,
           "chord": "SI"
         },
         {
-          "word": 6,
+          "word": 5,
           "chord": "DO#-"
         }
       ],
@@ -328,7 +328,7 @@
     },
     {
       "t": "l",
-      "v": "“Pace a voi”: sia un impronta nei secoli."
+      "v": "“Pace a voi”: sia un'impronta nei secoli."
     },
     {
       "t": "c",

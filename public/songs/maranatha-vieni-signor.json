@@ -1,5 +1,5 @@
 {
-  "title": "Maranathà, vieni signor",
+  "title": "Maranathà, vieni Signor",
   "sub": "Christian Gonzales",
   "capo": null,
   "compactRepeats": true,
@@ -7,7 +7,7 @@
     "note": "FA",
     "mode": "maggiore"
   },
-  "search": "Maranathà, vieni signor Christian Gonzales Ritornello Maranathà, vieni Signor verso te, Gesù, le mani noi leviam. Maranathà, vieni Signor prendici con te e salvaci o Signor. Strofa 1 Guardo verso le montagne, donde mi verrà il soccorso, il soccorso viene da Dio, che ha creato il mondo intero. Strofa 2 Sorgi con il tuo amore, la tua luce splenderà, ogni ombra svanirà la tua gloria apparirà. Strofa 3 Santo è il nostro Signor, il peccato egli portò, dalla morte ci salvò, e la vita a noi donò. Strofa 4 Mio Signor son peccatore, a te apro il mio cuore, fa di me quello che vuoi e per sempre in te vivrò. Strofa 5 La Parola giungerà sino ad ogni estremità, testimoni noi sarem della tua Verità. Strofa 6 Tu sei la mia libertà solo in te potrò sperar, ho fiducia in te Signor, la mia vita cambierai. Strofa 7 Mi consegno a te Signor, vieni dentro il mio cuor, ti ricevo o Salvator, tu sei il mio liberator. Strofa 8 Benedici o Signor, sii custode ai nostri cuor, giorno e notte veglierai e con noi sempre sarai. Strofa 9 Ringraziamo te Signor, a te, Padre creator, allo Spirito d'Amor, vieni presto o Signor.",
+  "search": "Maranathà, vieni Signor Christian Gonzales Ritornello Maranathà, vieni Signor verso te, Gesù, le mani noi leviam. Maranathà, vieni Signor prendici con te e salvaci o Signor. Strofa 1 Guardo verso le montagne, donde mi verrà il soccorso, il soccorso viene da Dio, che ha creato il mondo intero. Strofa 2 Sorgi con il tuo amore, la tua luce splenderà, ogni ombra svanirà la tua gloria apparirà. Strofa 3 Santo è il nostro Signor, il peccato egli portò, dalla morte ci salvò, e la vita a noi donò. Strofa 4 Mio Signor son peccatore, a te apro il mio cuore, fa' di me quello che vuoi e per sempre in te vivrò. Strofa 5 La Parola giungerà sino ad ogni estremità, testimoni noi sarem della tua Verità. Strofa 6 Tu sei la mia libertà solo in te potrò sperar, ho fiducia in te Signor, la mia vita cambierai. Strofa 7 Mi consegno a te Signor, vieni dentro il mio cuor, ti ricevo o Salvator, tu sei il mio liberator. Strofa 8 Benedici o Signor, sii custode ai nostri cuor, giorno e notte veglierai e con noi sempre sarai. Strofa 9 Ringraziamo te Signor, a te, Padre creator, allo Spirito d'Amor, vieni presto o Signor.",
   "lines": [
     {
       "t": "h",
@@ -424,7 +424,7 @@
     },
     {
       "t": "l",
-      "v": "fa di me quello che vuoi"
+      "v": "fa' di me quello che vuoi"
     },
     {
       "t": "c",

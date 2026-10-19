@@ -6,7 +6,7 @@
     "note": "MI",
     "mode": "minore"
   },
-  "search": "Vita in Abbondanza Intro Strofa 1 I gigli del campo e gli uccelli del cielo non temono nulla, perché ho cura di loro. Abbiate fede in me, perché io sarò con voi. Amate la vita in ogni momento: io sono con voi, tra le gioie e i dolori, fino alla fine del tempo: farò nuove tutte le cose. Ritornello Io vengo a donar la Vita, Vita in abbondanza, in abbondanza. Io sono la Via, la Verità e la Vita, Vita in abbondanza, in abbondanza. Strofa 2 Non ho fatto l’uomo perché fosse da solo, ma vi ho comandato: siate come fratelli, con ogni bontà e pazienza, nell’amore, nell’unità. A voi ho promesso la Vita del Cielo e inizia con me, adesso in Terra. È questa la vostra gioia: il mio Regno è in mezzo a voi. Ritornello x2",
+  "search": "Vita in Abbondanza Intro Strofa 1 I gigli del campo e gli uccelli del cielo non temono nulla, perché ho cura di loro. Abbiate fede in me, perché io sarò con voi. Amate la vita in ogni momento: io sono con voi, tra le gioie e i dolori, fino alla fine del tempo: farò nuove tutte le cose. Ritornello Io vengo a donar la Vita, Vita in abbondanza, in abbondanza. Io sono la Via, la Verità e la Vita, Vita in abbondanza, in abbondanza. Strofa 2 Non ho fatto l'uomo perché fosse da solo, ma vi ho comandato: siate come fratelli, con ogni bontà e pazienza, nell'amore, nell'unità. A voi ho promesso la Vita del Cielo e inizia con me, adesso in Terra. È questa la vostra gioia: il mio Regno è in mezzo a voi. Ripetere il ritornello (x2)",
   "lines": [
     {
       "t": "h",
@@ -127,7 +127,7 @@
     },
     {
       "t": "l",
-      "v": "Non ho fatto l’uomo perché fosse da solo,"
+      "v": "Non ho fatto l'uomo perché fosse da solo,"
     },
     {
       "t": "c",
@@ -143,7 +143,7 @@
     },
     {
       "t": "l",
-      "v": "con ogni bontà e pazienza, nell’amore, nell’unità."
+      "v": "con ogni bontà e pazienza, nell'amore, nell'unità."
     },
     {
       "t": "c",
@@ -174,7 +174,7 @@
     },
     {
       "t": "h",
-      "v": "Ritornello x2"
+      "v": "Ripetere il ritornello (x2)"
     }
   ],
   "id": "vita-in-abbondanza"

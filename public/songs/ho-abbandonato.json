@@ -3,10 +3,10 @@
   "sub": "",
   "capo": null,
   "key": {
-    "note": "DO",
+    "note": "SOL",
     "mode": "maggiore"
   },
-  "search": "Ho Abbandonato  Ritornello 1                Ho   abbandonato                dietro  di me                Ogni   paura   ogni   dubbio    perché                Una   grande    gioia           mi  sento   in cuor                Se  penso   a quanto    è buono    il mio   Signor  Strofa 1         Ha  fatto  i cieli sopra   di me         Ha  fatto  il sole, il mare   i fior         Ma   il più bel  dono    che  mi  ha  fatto  il mio  Signor         È stata la  vita ed  il suo  amor  Ritornello 2                Ho   abbandonato       dietro   di me                Ogni   tristezza   ogni  dolor                E  credo   ancora   in un   mondo     che                Sarà  diverso   a causa   del  suo  amor  Strofa 2         Se  poi  un  giorno   mi  chiamerà         Un   lungo   viaggio   io farò         Per  monti   e  valli allor a  tutti io dirò         Sappiate    che  è buono    il mio  signor  Ritornello finale                Ho   abbandonato       dietro  di  me                Ogni   paura   ogni   dubbio    perché                Una   grande    gioia  mi  sento   in cuor                Se  penso   a quanto    è buono    il mio   Signor",
+  "search": "Ho Abbandonato  Ritornello 1                Ho   abbandonato                dietro  di me                Ogni   paura   ogni   dubbio    perché                Una   grande    gioia           mi  sento   in cuor                Se  penso   a quanto    è buono    il mio   Signor  Strofa 1         Ha  fatto  i cieli sopra   di me         Ha  fatto  il sole, il mare   i fior         Ma   il più bel  dono    che  mi  ha  fatto  il mio  Signor         È stata la  vita ed  il suo  amor  Ritornello 2                Ho   abbandonato       dietro   di me                Ogni   tristezza   ogni  dolor                E  credo   ancora   in un   mondo     che                Sarà  diverso   a causa   del  suo  amor  Strofa 2         Se  poi  un  giorno   mi  chiamerà         Un   lungo   viaggio   io farò         Per  monti   e  valli allor a  tutti io dirò         Sappiate    che  è buono    il mio  Signor  Ritornello finale                Ho   abbandonato       dietro  di  me                Ogni   paura   ogni   dubbio    perché                Una   grande    gioia  mi  sento   in cuor                Se  penso   a quanto    è buono    il mio   Signor",
   "lines": [
     {
       "t": "h",
@@ -143,7 +143,7 @@
     },
     {
       "t": "l",
-      "v": "        Sappiate    che  è buono    il mio  signor"
+      "v": "        Sappiate    che  è buono    il mio  Signor"
     },
     {
       "t": "s"

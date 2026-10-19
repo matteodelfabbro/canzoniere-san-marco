@@ -3,8 +3,8 @@
   "sub": "Ed oggi ancora",
   "capo": null,
   "key": {
-    "note": "DO",
-    "mode": "maggiore"
+    "note": "RE",
+    "mode": "minore"
   },
   "search": "Alleluia Ed oggi ancora Ritornello Alleluia,         alleluia,       alleluia,       alleluia!                       Alleluia,          alleluia,      alleluia,        alleluia!  Strofa               Ed  oggi  ancora,    o mio   Signore,   ascolterò    la tua  Parola              che  mi  guida   nel  cammino      della  vita.  Ritornello Alleluia,         alleluia,       alleluia,       alleluia!                       Alleluia,          alleluia,      alleluia,        alleluia!",
   "lines": [
@@ -14,7 +14,7 @@
     },
     {
       "t": "c",
-      "v": "                   RE-7     SOL7-      DO      FA      SIb    SOL-      LA7   RE-"
+      "v": "                   RE-7     SOL-7      DO      FA      SIb    SOL-      LA7   RE-"
     },
     {
       "t": "l",
@@ -56,7 +56,7 @@
     },
     {
       "t": "c",
-      "v": "                   RE-7     SOL7-      DO      FA      SIb    SOL-      LA7   RE-"
+      "v": "                   RE-7     SOL-7      DO      FA      SIb    SOL-      LA7   RE-"
     },
     {
       "t": "l",

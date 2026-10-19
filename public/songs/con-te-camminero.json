@@ -8,7 +8,7 @@
     "note": "LA",
     "mode": "minore"
   },
-  "search": "Con te camminerò Gen Verde Intro Strofa 1 Mi hai chiamato ed ora sono qui. La mia vita ormai, Signore, trova senso solo in te. Cerco nel profondo e tu ci sei. Guardo intorno e poi ti trovo accanto a me. Ritornello Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò. Ti seguirò ovunque andrai, io con te camminerò. Strofa 2 Come servo sei venuto qui per chi è solo e chi è ferito, per chi vive in povertà. Ora, oh Signore, manda me, segno del tuo amore per l’umanità. Ritornello Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò. Ti seguirò ovunque andrai, io con te camminerò. Bridge Tu sei qui, sei con noi, sempre accanto a noi. Nel dolore di chi non ha più una casa, tu sei lì. Nel silenzio di chi ha perso ogni speranza, tu sei lì. Nei rimpianti, nei miei dubbi e nel buio delle mie fragilità, tu sei lì. Finale And I will walk on holy ground, I’ll hear your voice, I’ll see your face. I will find you in the crowd. Lord, I will go where you will lead me. I will walk on holy ground. Et avec toi, j’irai Seigneur, j’entends ta voix et je te vois. Dans les pauvres autour de moi, je te suivrai où tu me conduis. Je te vois auprès de moi. You are near, you are here. Io con te camminerò.",
+  "search": "Con te camminerò Gen Verde Intro Strofa 1 Mi hai chiamato ed ora sono qui. La mia vita ormai, Signore, trova senso solo in te. Cerco nel profondo e tu ci sei. Guardo intorno e poi ti trovo accanto a me. Ritornello Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò. Ti seguirò ovunque andrai, io con te camminerò. Strofa 2 Come servo sei venuto qui per chi è solo e chi è ferito, per chi vive in povertà. Ora, oh Signore, manda me, segno del tuo amore per l'umanità. Ritornello Insieme a te camminerò, in ogni volto, in ogni pianto io ti riconoscerò. Ti seguirò ovunque andrai, io con te camminerò. Ponte Tu sei qui, sei con noi, sempre accanto a noi. Nel dolore di chi non ha più una casa, tu sei lì. Nel silenzio di chi ha perso ogni speranza, tu sei lì. Nei rimpianti, nei miei dubbi e nel buio delle mie fragilità, tu sei lì. Finale And I will walk on holy ground, I'll hear your voice, I'll see your face. I will find you in the crowd. Lord, I will go where you will lead me. I will walk on holy ground. Et avec toi, j'irai Seigneur, j'entends ta voix et je te vois. Dans les pauvres autour de moi, je te suivrai où tu me conduis. Je te vois auprès de moi. You are near, you are here. Io con te camminerò.",
   "lines": [
     {
       "t": "h",
@@ -297,13 +297,13 @@
         },
         {
           "chord": "SOL",
-          "lyric": "per l’umanità."
+          "lyric": "per l'umanità."
         }
       ]
     },
     {
       "t": "l",
-      "v": "Ora, oh Signore, manda me, segno del tuo amore per l’umanità."
+      "v": "Ora, oh Signore, manda me, segno del tuo amore per l'umanità."
     },
     {
       "t": "s"
@@ -401,7 +401,7 @@
     },
     {
       "t": "h",
-      "v": "Bridge"
+      "v": "Ponte"
     },
     {
       "t": "c",
@@ -532,11 +532,11 @@
         },
         {
           "chord": "LA",
-          "lyric": "ground, I’ll hear"
+          "lyric": "ground, I'll hear"
         },
         {
           "chord": "SI-7",
-          "lyric": "your voice, I’ll"
+          "lyric": "your voice, I'll"
         },
         {
           "chord": "SOL",
@@ -546,7 +546,7 @@
     },
     {
       "t": "l",
-      "v": "And I will walk on holy ground, I’ll hear your voice, I’ll see your face."
+      "v": "And I will walk on holy ground, I'll hear your voice, I'll see your face."
     },
     {
       "t": "c",
@@ -618,11 +618,11 @@
         },
         {
           "chord": "SOL/RE",
-          "lyric": "j’irai Seigneur,"
+          "lyric": "j'irai Seigneur,"
         },
         {
           "chord": "LA4",
-          "lyric": "j’entends"
+          "lyric": "j'entends"
         },
         {
           "chord": "LA",
@@ -640,7 +640,7 @@
     },
     {
       "t": "l",
-      "v": "Et avec toi, j’irai Seigneur, j’entends ta voix et je te vois."
+      "v": "Et avec toi, j'irai Seigneur, j'entends ta voix et je te vois."
     },
     {
       "t": "c",

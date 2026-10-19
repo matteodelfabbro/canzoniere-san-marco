@@ -3,10 +3,10 @@
   "sub": "Gen Verde",
   "capo": null,
   "key": {
-    "note": "DO",
-    "mode": "maggiore"
+    "note": "MI",
+    "mode": "minore"
   },
-  "search": "Te, al Centro del Mio Cuore  Strofa 1           Ho   bisogno    d'incontrarti    nel mio   cuore,           di  trovare   Te,  di stare  insieme   a  Te:           unico   riferimento     del mio   andare,           unica   ragione    Tu,  unico  sostegno    Tu.           Al  centro   del  mio   cuore   ci sei solo  Tu.  Strofa 2           Anche    il cielo gira  intorno    e non   ha  pace,           ma   c'è un   punto   fermo,   è  quella  stella  là.           La  stella polare    è fissa ed  è la sola,           la  stella polare   Tu,  la stella sicura  Tu.  Ritornello                 Tutto  ruota   attorno    a Te,  in funzione    di Te                 e poi  non   importa    il «come»,   il «dove»,   il «se».  Strofa 3          Che   Tu  splenda    sempre    al centro   del  mio   cuore,          il significato  allora  sarai  Tu,          quello   che  farò  sarà  soltanto   amore.          Unico    sostegno    Tu,  la stella polare   Tu.          Al  centro   del  mio  cuore   ci sei solo  tu.",
+  "search": "Te, al Centro del Mio Cuore  Strofa 1           Ho   bisogno    d'incontrarti    nel mio   cuore,           di  trovare   Te,  di stare  insieme   a  Te:           unico   riferimento     del mio   andare,           unica   ragione    Tu,  unico  sostegno    Tu.           Al  centro   del  mio   cuore   ci sei solo  Tu.  Strofa 2           Anche    il cielo gira  intorno    e non   ha  pace,           ma   c'è un   punto   fermo,   è  quella  stella  là.           La  stella polare    è fissa ed  è la sola,           la  stella polare   Tu,  la stella sicura  Tu.  Ritornello                 Tutto  ruota   attorno    a Te,  in funzione    di Te                 e poi  non   importa    il «come»,   il «dove»,   il «se».  Strofa 3          Che   Tu  splenda    sempre    al centro   del  mio   cuore,          il significato  allora  sarai  Tu,          quello   che  farò  sarà  soltanto   amore.          Unico    sostegno    Tu,  la stella polare   Tu.          Al  centro   del  mio  cuore   ci sei solo  Tu.",
   "lines": [
     {
       "t": "h",
@@ -159,7 +159,7 @@
     },
     {
       "t": "l",
-      "v": "         Al  centro   del  mio  cuore   ci sei solo  tu."
+      "v": "         Al  centro   del  mio  cuore   ci sei solo  Tu."
     }
   ],
   "id": "te-al-centro-del-mio-cuore"

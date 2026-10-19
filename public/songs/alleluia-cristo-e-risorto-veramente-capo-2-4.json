@@ -1,12 +1,15 @@
 {
   "title": "Alleluia",
   "sub": "Cristo è risorto veramente - Capo 2/4",
-  "capo": [2, 4],
+  "capo": [
+    2,
+    4
+  ],
   "key": {
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Alleluia Cristo è risorto veramente - Capo 2/4 Ritornello Alleluia,  alleluia,  alleluia,  alleluia!          Cristo   è risorto  veramente      alleluia, alleluia!    (x2)  Strofa 1    Cristo  ha  inaugurato     il suo regno,    salvezza   e vita  sono   con   lui.    Rallegriamoci,     esultiamo    con  lui:    la morte   è  stata  vinta,  la vita ora   trionfa.  RIT.  Strofa 2    L'Agnello    ha  redento    il suo gregge    riconciliando    l'uomo    con   Dio.    Rallegriamoci,     esultiamo    con  lui:    il Signore  della  vita  era  morto,    ora  trionfa.  RIT.  Ritornello finale Alleluia,  alleluia,  alleluia,  alleluia!                        Cristo  è  risorto  veramente     alleluia,  alleluia!    (x2)",
+  "search": "Alleluia Cristo è risorto veramente - Capo 2/4 Ritornello Alleluia,  alleluia,  alleluia,  alleluia!          Cristo   è risorto  veramente      alleluia, alleluia!    (x2)  Strofa 1    Cristo  ha  inaugurato     il suo regno,    salvezza   e vita  sono   con   lui.    Rallegriamoci,     esultiamo    con  lui:    la morte   è  stata  vinta,  la vita ora   trionfa.  Strofa 2    L'Agnello    ha  redento    il suo gregge    riconciliando    l'uomo    con   Dio.    Rallegriamoci,     esultiamo    con  lui:    il Signore  della  vita  era  morto,    ora  trionfa.  Ritornello finale Alleluia,  alleluia,  alleluia,  alleluia!                        Cristo  è  risorto  veramente     alleluia,  alleluia!    (x2)",
   "lines": [
     {
       "t": "h",
@@ -65,7 +68,14 @@
     },
     {
       "t": "l",
-      "v": "   la morte   è  stata  vinta,  la vita ora   trionfa.  RIT."
+      "v": "   la morte   è  stata  vinta,  la vita ora   trionfa."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"
@@ -104,7 +114,14 @@
     },
     {
       "t": "l",
-      "v": "   il Signore  della  vita  era  morto,    ora  trionfa.  RIT."
+      "v": "   il Signore  della  vita  era  morto,    ora  trionfa."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ripetere il ritornello"
     },
     {
       "t": "s"

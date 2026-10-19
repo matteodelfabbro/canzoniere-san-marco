@@ -7,7 +7,7 @@
     "note": "MI",
     "mode": "maggiore"
   },
-  "search": "Lui verrà e ti salverà Fitts, Sadler Intro Strofa 1 A chi è nell'angoscia tu dirai: ``Non devi temere, il tuo Signore è qui, con la forza sua. Quando invochi il suo nome Lui ti salverà.'' Ritornello Lui verrà e ti salverà, Dio verrà e ti salverà, di' a chi è smarrito che certo Lui tornerà. Lui verrà e ti salverà, Lui verrà e ti salverà, Dio verrà e ti salverà, alza i tuoi occhi a lui, presto ritornerà, lui verrà e ti salverà. Strofa 2 A chi ha il cuore ferito tu dirai: ``Confida in Dio, il tuo Signore è qui, con il suo grande amore. Quando invochi il suo nome Lui ti salverà.'' Strofa 3 Egli è rifugio nelle avversità, dalla tempesta ti riparerà. È il tuo baluardo e ti difenderà, la forza sua Lui ti darà. Intro Ritornello 2 Lui verrà e ti salverà, Dio verrà e ti salverà, di' a chi è smarrito che certo Lui tornerà. Lui verrà e ti salverà, Lui verrà e ti salverà, Dio verrà e ti salverà, alza i tuoi occhi a lui, presto ritornerà, lui verrà e ti salverà.",
+  "search": "Lui verrà e ti salverà Fitts, Sadler Intro Strofa 1 A chi è nell'angoscia tu dirai: “Non devi temere, il tuo Signore è qui, con la forza sua. Quando invochi il suo nome Lui ti salverà.” Ritornello Lui verrà e ti salverà, Dio verrà e ti salverà, di' a chi è smarrito che certo Lui tornerà. Lui verrà e ti salverà, Lui verrà e ti salverà, Dio verrà e ti salverà, alza i tuoi occhi a lui, presto ritornerà, Lui verrà e ti salverà. Strofa 2 A chi ha il cuore ferito tu dirai: “Confida in Dio, il tuo Signore è qui, con il suo grande amore. Quando invochi il suo nome Lui ti salverà.” Strofa 3 Egli è rifugio nelle avversità, dalla tempesta ti riparerà. È il tuo baluardo e ti difenderà, la forza sua Lui ti darà. Intro Ritornello 2 Lui verrà e ti salverà, Dio verrà e ti salverà, di' a chi è smarrito che certo Lui tornerà. Lui verrà e ti salverà, Lui verrà e ti salverà, Dio verrà e ti salverà, alza i tuoi occhi a lui, presto ritornerà, Lui verrà e ti salverà.",
   "lines": [
     {
       "t": "h",
@@ -80,7 +80,7 @@
     },
     {
       "t": "l",
-      "v": "``Non devi temere,"
+      "v": "“Non devi temere,"
     },
     {
       "t": "c",
@@ -154,7 +154,7 @@
     },
     {
       "t": "l",
-      "v": "Quando invochi il suo nome Lui ti salverà.''"
+      "v": "Quando invochi il suo nome Lui ti salverà.”"
     },
     {
       "t": "s"
@@ -361,7 +361,7 @@
     },
     {
       "t": "l",
-      "v": "lui verrà e ti salverà."
+      "v": "Lui verrà e ti salverà."
     },
     {
       "t": "s"
@@ -383,19 +383,19 @@
           "chord": "SI"
         },
         {
-          "word": 3,
+          "word": 4,
           "chord": "DO#-"
         },
         {
-          "word": 3,
+          "word": 5,
           "chord": "LA"
         },
         {
-          "word": 4,
+          "word": 6,
           "chord": "SI"
         },
         {
-          "word": 5,
+          "word": 7,
           "chord": "MI"
         }
       ],
@@ -403,7 +403,7 @@
     },
     {
       "t": "l",
-      "v": "A chi ha il cuore ferito tu dirai: ``Confida in Dio,"
+      "v": "A chi ha il cuore ferito tu dirai:"
     },
     {
       "t": "c",
@@ -426,7 +426,7 @@
     },
     {
       "t": "l",
-      "v": "il tuo Signore è qui, con il suo grande amore."
+      "v": "“Confida in Dio,"
     },
     {
       "t": "c",
@@ -445,8 +445,47 @@
           "chord": "DO#-"
         },
         {
-          "word": 6,
+          "word": 7,
           "chord": "LA"
+        },
+        {
+          "word": 8,
+          "chord": "SI"
+        },
+        {
+          "word": 9,
+          "chord": "MI"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "il tuo Signore è qui, con il suo grande amore."
+    },
+    {
+      "t": "c",
+      "v": "SI LA SI LA SI4 SI MI",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SI"
+        },
+        {
+          "word": 3,
+          "chord": "LA"
+        },
+        {
+          "word": 4,
+          "chord": "SI"
+        },
+        {
+          "word": 4,
+          "chord": "LA"
+        },
+        {
+          "word": 5,
+          "chord": "SI4"
         },
         {
           "word": 7,
@@ -461,7 +500,7 @@
     },
     {
       "t": "l",
-      "v": "Quando invochi il suo nome Lui ti salverà.''"
+      "v": "Quando invochi il suo nome Lui ti salverà.”"
     },
     {
       "t": "s"
@@ -755,7 +794,7 @@
     },
     {
       "t": "l",
-      "v": "lui verrà e ti salverà."
+      "v": "Lui verrà e ti salverà."
     }
   ],
   "id": "lui-verra-e-ti-salvera"

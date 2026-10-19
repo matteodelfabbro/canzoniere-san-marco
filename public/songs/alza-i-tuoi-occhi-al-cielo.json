@@ -582,6 +582,25 @@
     },
     {
       "t": "c",
+      "v": "SOL DO",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "DO"
+        }
+      ],
+      "anchorLayout": "flow"
+    },
+    {
+      "t": "l",
+      "v": "Sai che Gesù, se tu lo vuoi,"
+    },
+    {
+      "t": "c",
       "v": "SOL RE",
       "anchors": [
         {
@@ -597,7 +616,7 @@
     },
     {
       "t": "l",
-      "v": "Sai che Gesù, se tu lo vuoi,"
+      "v": "i suoi prodigi rinnova per te."
     },
     {
       "t": "c",
@@ -616,7 +635,7 @@
     },
     {
       "t": "l",
-      "v": "i suoi prodigi rinnova per te."
+      "v": "Senza timor apriti a lui,"
     },
     {
       "t": "c",
@@ -631,15 +650,11 @@
           "chord": "RE"
         },
         {
-          "word": 4,
+          "word": 5,
           "chord": "DO"
         }
       ],
       "anchorLayout": "flow"
-    },
-    {
-      "t": "l",
-      "v": "Senza timor apriti a lui,"
     },
     {
       "t": "l",

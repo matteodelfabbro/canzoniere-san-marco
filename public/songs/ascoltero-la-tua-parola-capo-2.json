@@ -6,7 +6,7 @@
     "note": "DO",
     "mode": "maggiore"
   },
-  "search": "Ascolterò la Tua Parola Capo 2 Intro  Strofa 1 Ascolterò     la tua parola, nel profondo del mio   cuore    io l'ascolterò. E nel buio della notte la Parola come luce      ri - splenderà.  Strofa 2                                  Mediterò          la tua Parola,                                  nel silenzio della mente       la   mediterò.                                  Nel deserto  delle voci                                  la Parola dell'amore       ri - suonerà.  Strofa 3 E seguirò       la tua Parola, sul sentiero della vita io la seguirò. Nel passaggio del dolore la Parola della croce mi   salverà.  Strofa 4 Custodirò la tua Parola, per la sete dei miei giorni la custodirò. Nello scorrere del tempo la parola dell'eterno non passerà.  Strofa 5 Annuncerò      la tua Parola, camminando   in questo  mondo    io l'annuncerò. Le frontiere del tuo regno la Parola come un  vento   spa  - lancherà",
+  "search": "Ascolterò la Tua Parola Capo 2 Intro  Strofa 1 Ascolterò     la tua Parola, nel profondo del mio   cuore    io l'ascolterò. E nel buio della notte la Parola come luce      ri - splenderà.  Strofa 2                                  Mediterò          la tua Parola,                                  nel silenzio della mente       la   mediterò.                                  Nel deserto  delle voci                                  la Parola dell'amore       ri - suonerà.  Strofa 3 E seguirò       la tua Parola, sul sentiero della vita io la seguirò. Nel passaggio del dolore la Parola della croce mi   salverà.  Strofa 4 Custodirò la tua Parola, per la sete dei miei giorni la custodirò. Nello scorrere del tempo la Parola dell'eterno non passerà.  Strofa 5 Annuncerò      la tua Parola, camminando   in questo  mondo    io l'annuncerò. Le frontiere del tuo regno la Parola come un  vento   spa  - lancherà",
   "lines": [
     {
       "t": "h",
@@ -29,7 +29,7 @@
     },
     {
       "t": "l",
-      "v": "Ascolterò     la tua parola,"
+      "v": "Ascolterò     la tua Parola,"
     },
     {
       "t": "c",
@@ -170,7 +170,7 @@
     },
     {
       "t": "l",
-      "v": "la parola dell'eterno non passerà."
+      "v": "la Parola dell'eterno non passerà."
     },
     {
       "t": "s"

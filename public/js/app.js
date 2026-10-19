@@ -151,7 +151,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261018-signore-che-sei';
+const SONG_DATA_VERSION='20261019-audit-dati';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'
@@ -1182,7 +1182,7 @@ async function submitFeedback(event){
 }
 const NOTES=['DO','DO#','RE','RE#','MI','FA','FA#','SOL','SOL#','LA','LA#','SI'];
 const NOTE_INDEX={'DO':0,'DO#':1,'REB':1,'RE':2,'RE#':3,'MIB':3,'MI':4,'FAB':4,'FA':5,'FA#':6,'SOLB':6,'SOL':7,'SOL#':8,'LAB':8,'LA':9,'LA#':10,'SIB':10,'SI':11,'DOB':11};
-const ROOT_RE=/^([([{]*)(DO|RE|MI|FA|SOL|LA|SI)(#|[Bb])?([A-Za-z0-9+\-]*)([)\]}]*)$/;
+const ROOT_RE=/^([([{]*)(DO|RE|MI|FA|SOL|LA|SI)(#|[Bb])?([A-Za-z0-9+\-#°]*)([)\]}]*)$/;
 function transposeSingle(tok,shift){const m=tok.match(ROOT_RE);if(!m)return tok;const[,pre,root,acc,suffix,post]=m;const idx=NOTE_INDEX[root+(acc?acc.toUpperCase():'')];if(idx===undefined)return tok;return pre+NOTES[((idx+shift)%12+12)%12]+suffix+post}
 function transposeToken(tok,shift){return tok.includes('/')?tok.split('/').map(p=>transposeSingle(p,shift)).join('/'):transposeSingle(tok,shift)}
 function transposeLine(text,shift){

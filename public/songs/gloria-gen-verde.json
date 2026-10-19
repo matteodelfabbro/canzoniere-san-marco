@@ -15,7 +15,7 @@
     },
     {
       "t": "c",
-      "v": "MI  RE    LA   SI"
+      "v": "RE  DO    SOL  LA"
     },
     {
       "t": "s"
@@ -26,7 +26,7 @@
     },
     {
       "t": "c",
-      "v": "   MI      LA      DO#-       SI       MI          LA        DO#-      SI"
+      "v": "   RE      SOL     SI-        LA       RE          SOL       SI-       LA"
     },
     {
       "t": "l",
@@ -34,20 +34,20 @@
     },
     {
       "t": "c",
-      "v": "MI LA DO#- SI MI LA MI LA MI LA MI",
+      "v": "RE SOL SI-  LA RE SOL RE SOL RE SOL RE",
       "anchorLayout": "flow",
       "anchors": [
-        { "word": 0, "chord": "MI" },
-        { "word": 2, "chord": "LA" },
-        { "word": 4, "chord": "DO#-", "offset": 0, "align": "left" },
-        { "word": 4, "chord": "SI", "offset": 1, "align": "right" },
-        { "word": 5, "chord": "MI", "offset": 0.5, "align": "center" },
-        { "word": 6, "chord": "LA" },
-        { "word": 7, "chord": "MI" },
-        { "word": 8, "chord": "LA", "offset": 0, "align": "left" },
-        { "word": 8, "chord": "MI", "offset": 0.33, "align": "center" },
-        { "word": 8, "chord": "LA", "offset": 0.66, "align": "center" },
-        { "word": 8, "chord": "MI", "offset": 1, "align": "right" }
+        { "word": 0, "chord": "RE" },
+        { "word": 2, "chord": "SOL" },
+        { "word": 4, "chord": "SI-", "offset": 0, "align": "left" },
+        { "word": 4, "chord": "LA", "offset": 1, "align": "right" },
+        { "word": 5, "chord": "RE", "offset": 0.5, "align": "center" },
+        { "word": 6, "chord": "SOL" },
+        { "word": 7, "chord": "RE" },
+        { "word": 8, "chord": "SOL", "offset": 0, "align": "left" },
+        { "word": 8, "chord": "RE", "offset": 0.33, "align": "center" },
+        { "word": 8, "chord": "SOL", "offset": 0.66, "align": "center" },
+        { "word": 8, "chord": "RE", "offset": 1, "align": "right" }
       ]
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "t": "c",
-      "v": "              LA    MI      FA#-       MI"
+      "v": "              SOL   RE      MI-        RE"
     },
     {
       "t": "l",
@@ -71,7 +71,7 @@
     },
     {
       "t": "c",
-      "v": "             LA    MI       RE          MI"
+      "v": "             SOL   RE       DO          RE"
     },
     {
       "t": "l",
@@ -79,7 +79,7 @@
     },
     {
       "t": "c",
-      "v": "          LA     MI     FA#-          MI             RE    SI"
+      "v": "          SOL    RE     MI-           RE             DO    LA"
     },
     {
       "t": "l",
@@ -87,7 +87,7 @@
     },
     {
       "t": "c",
-      "v": "            LA      MI   FA#-      MI    LA       MI     RE   MI"
+      "v": "            SOL     RE   MI-       RE    SOL      RE     DO   RE"
     },
     {
       "t": "l",
@@ -95,7 +95,7 @@
     },
     {
       "t": "c",
-      "v": "          LA    MI    FA#-         MI     RE    SI  FA#-      RE   SI"
+      "v": "          SOL   RE    MI-          RE     DO    LA  MI-       DO   LA"
     },
     {
       "t": "l",
@@ -121,7 +121,7 @@
     },
     {
       "t": "c",
-      "v": "            MI                 RE      LA       MI"
+      "v": "            RE                 DO      SOL      RE"
     },
     {
       "t": "l",
@@ -129,7 +129,7 @@
     },
     {
       "t": "c",
-      "v": "            MI                   RE   LA           MI"
+      "v": "            RE                   DO   SOL          RE"
     },
     {
       "t": "l",
@@ -137,7 +137,7 @@
     },
     {
       "t": "c",
-      "v": "            MI                RE                LA            MI"
+      "v": "            RE                DO                SOL           RE"
     },
     {
       "t": "l",
@@ -145,7 +145,7 @@
     },
     {
       "t": "c",
-      "v": "            MI                RE                LA                MI"
+      "v": "            RE                DO                SOL               RE"
     },
     {
       "t": "l",
@@ -153,7 +153,7 @@
     },
     {
       "t": "c",
-      "v": "            MI               RE                 LA            SI"
+      "v": "            RE               DO                 SOL           LA"
     },
     {
       "t": "l",
@@ -179,7 +179,7 @@
     },
     {
       "t": "c",
-      "v": "             LA       MI     FA#-       MI"
+      "v": "             SOL      RE     MI-        RE"
     },
     {
       "t": "l",
@@ -187,7 +187,7 @@
     },
     {
       "t": "c",
-      "v": "             LA       MI       RE      MI"
+      "v": "             SOL      RE       DO      RE"
     },
     {
       "t": "l",
@@ -195,7 +195,7 @@
     },
     {
       "t": "c",
-      "v": "           LA      MI     FA#-         MI         RE    SI  FA#-      RE   SI"
+      "v": "           SOL     RE     MI-          RE         DO    LA  MI-       DO   LA"
     },
     {
       "t": "l",

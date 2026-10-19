@@ -139,7 +139,7 @@
       else{
         const added=document.createElement('small');
         added.textContent=tag;
-        title.append(added);
+        title.insertBefore(added,title.querySelector('.tile-book-num'));
       }
     });
   }
@@ -216,14 +216,64 @@
     updateTabbar();
     window.scrollTo({top:0,behavior:'auto'});
   }
+  // Uso personale dei canti, solo su questo dispositivo: {id:{n:aperture,t:ultima}}.
+  const USE_KEY='rdSongUse';
+  let countedId='';
   function rememberSong(){
-    if(!document.body.classList.contains('song-open'))return;
+    if(!document.body.classList.contains('song-open')){countedId='';return;}
     const id=currentSongId();
     if(!id||!songById(id))return;
     const recent=readJson(RECENT_KEY,[]).filter(item=>item!==id);
     recent.unshift(id);
-    try{localStorage.setItem(RECENT_KEY,JSON.stringify(recent.slice(0,8)));}catch(error){/* spazio pieno: pazienza */}
+    try{localStorage.setItem(RECENT_KEY,JSON.stringify(recent.slice(0,24)));}catch(error){/* spazio pieno: pazienza */}
+    // Lo stesso canto rimasto aperto non si conta due volte.
+    if(id===countedId)return;
+    countedId=id;
+    const use=readJson(USE_KEY,{});
+    const entry=use[id]||{n:0,t:0};
+    use[id]={n:entry.n+1,t:Date.now()};
+    try{localStorage.setItem(USE_KEY,JSON.stringify(use));}catch(error){/* spazio pieno: pazienza */}
   }
+  // "Più usati": contano le aperture, ma quelle vecchie pesano meno
+  // (dimezzano ogni ~3 mesi), così sale in cima il repertorio del periodo.
+  function mostUsedIds(){
+    const use=readJson(USE_KEY,{});
+    const now=Date.now();
+    return Object.entries(use)
+      .filter(([id,entry])=>songById(id)&&entry.n>=2)
+      .map(([id,entry])=>[id,entry.n*Math.pow(.5,(now-entry.t)/(90*864e5))])
+      .sort((a,b)=>b[1]-a[1])
+      .map(([id])=>id);
+  }
+  // Più aperti da tutti (Firestore songStats), letti una volta per visita.
+  let globalTop=null;
+  let globalLoading=false;
+  function loadGlobalTop(){
+    if(globalTop||globalLoading||!window.firebase?.firestore)return;
+    globalLoading=true;
+    firebase.firestore().collection('songStats').orderBy('openCount','desc').limit(80).get()
+      .then(snapshot=>{
+        globalTop=snapshot.docs.map(doc=>doc.id).filter(id=>songById(id));
+        if(document.body.classList.contains('rd-at-home'))renderHome();
+      })
+      .catch(error=>console.warn('Classifica canti non disponibile.',error))
+      .finally(()=>{globalLoading=false;});
+  }
+  // "Aperti di frequente": per ogni momento della Messa il canto più fatto.
+  // Prima contano le aperture su questo dispositivo, poi la classifica generale.
+  function bySection(){
+    const tags=allTags();
+    const ranking=[...new Set([...mostUsedIds(),...(globalTop||[])])];
+    const picked=new Set();
+    return MASS_MOMENTS.map(tag=>{
+      const id=ranking.find(item=>!picked.has(item)&&(tags[item]?.tags||[]).includes(tag));
+      if(!id)return null;
+      picked.add(id);
+      return [id,tag];
+    }).filter(Boolean);
+  }
+  const SHELF_KEY='rdHomeShelf';
+  const TOP_SIZE=10;
 
   function el(tag,className,text){
     const node=document.createElement(tag);
@@ -237,46 +287,57 @@
   const ICON_PLAY=svg('<path d="M7 4v16l13-8z"></path>');
   const ICON_SEARCH=svg('<circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path>');
 
-  /* Evento speciale in cima alla home: si mostra solo tra "from" e "until".
-     Per un prossimo evento basta cambiare questi dati; id:null = canto non
-     ancora nel canzoniere (resta in scaletta col solo titolo). */
-  const EVENT={
-    title:'Pellegrinaggio a Castelmonte',
-    when:'Domenica 11 ottobre · Santa Messa',
-    from:'2026-10-10T00:00:00+02:00',
-    until:'2026-10-12T06:00:00+02:00',
-    songs:[
-      ['Ingresso','ave-maria'],
-      ['Atto penitenziale','signore-pieta-versione-2'],
-      ['Gloria','gloria-gen-verde'],
-      ['Vangelo','alleluia-buttazzo'],
-      ['Offertorio','benedizione-a-frate-leone'],
-      ['Santo','santo-gen-messa-come-fuoco-vivo'],
-      ['Comunione','re-dei-re-capo-1'],
-      ['Finale','salve-regina']
-    ]
-  };
-  function renderEvent(){
+  /* Scalette della parrocchia (Castelmonte, Natale, Pasqua…): archivio nella
+     sezione Setlist, la più recente in alto. Per aggiungerne una basta un
+     nuovo elemento in cima. "home":{from,until} la mette anche in cima alla
+     home in quei giorni. id:null = canto non ancora nel canzoniere. */
+  const SCALETTE=[
+    {
+      id:'castelmonte-2026',
+      title:'Pellegrinaggio a Castelmonte',
+      when:'Domenica 11 ottobre 2026',
+      songs:[
+        ['Ingresso','ave-maria'],
+        ['Atto penitenziale','signore-pieta-versione-2'],
+        ['Gloria','gloria-gen-verde'],
+        ['Vangelo','alleluia-buttazzo'],
+        ['Offertorio','benedizione-a-frate-leone'],
+        ['Santo','santo-gen-messa-come-fuoco-vivo'],
+        ['Comunione','re-dei-re-capo-1'],
+        ['Finale','salve-regina']
+      ]
+    }
+  ];
+  const ACTIVE_KEY='rdScalettaAttiva';
+  const scalettaById=id=>SCALETTE.find(item=>item.id===id);
+  const scalettaOnHome=()=>SCALETTE.find(item=>{
     const now=Date.now();
-    if(now<Date.parse(EVENT.from)||now>Date.parse(EVENT.until))return null;
+    return item.home&&now>=Date.parse(item.home.from)&&now<=Date.parse(item.home.until);
+  });
+  // Si ricorda quale scaletta si sta seguendo, per il "Prossimo" in fondo ai canti.
+  function followScaletta(item,songId){
+    try{sessionStorage.setItem(ACTIVE_KEY,item.id);}catch(error){/* niente "Prossimo" */}
+    openSong(songId);
+  }
+  function renderScaletta(item){
     const card=el('section','rd-ev');
     const head=el('div','rd-ev-head');
-    head.append(el('div','rd-ev-kicker','Scaletta della Messa'),el('h3','',EVENT.title),el('p','',EVENT.when));
-    const firstId=EVENT.songs.map(item=>item[1]).find(id=>id&&songById(id));
+    head.append(el('div','rd-ev-kicker','Scaletta della Messa'),el('h3','',item.title),el('p','',item.when));
+    const firstId=item.songs.map(entry=>entry[1]).find(id=>id&&songById(id));
     if(firstId){
       const go=el('button','rd-sl-go');
       go.type='button';
       go.innerHTML=ICON_PLAY+'<span>Inizia</span>';
-      go.addEventListener('click',()=>openSong(firstId));
+      go.addEventListener('click',()=>followScaletta(item,firstId));
       head.append(go);
     }
     const list=el('ol','rd-ev-list');
-    EVENT.songs.forEach(([moment,id,fallback])=>{
+    item.songs.forEach(([moment,id,fallback])=>{
       const song=id&&songById(id);
       const row=el(song?'button':'div','rd-ev-row'+(song?'':' is-missing'));
       if(song){
         row.type='button';
-        row.addEventListener('click',()=>openSong(song.id));
+        row.addEventListener('click',()=>followScaletta(item,song.id));
       }
       const text=el('span','rd-ev-text');
       text.append(el('small','',moment),el('b','',song?song.title:fallback));
@@ -292,30 +353,44 @@
     return card;
   }
 
+  // Archivio nella sezione Setlist: una riga per scaletta, si apre al tocco.
+  function renderArchive(){
+    const library=document.getElementById('setlistLibrary');
+    const grid=document.getElementById('cloudSetlistsList');
+    if(!library||!grid||library.querySelector('.rd-arch')||!allSongs().length)return;
+    const box=el('div','rd-arch');
+    box.append(el('h3','rd-arch-title','Scalette della parrocchia'));
+    SCALETTE.forEach(item=>{
+      const details=el('details','rd-arch-item');
+      const summary=el('summary');
+      const text=el('span','rd-arch-text');
+      text.append(el('b','',item.title),el('small','',item.when));
+      summary.append(text);
+      summary.insertAdjacentHTML('beforeend',ICON_NEXT);
+      details.append(summary,renderScaletta(item).querySelector('.rd-ev-list'));
+      box.append(details);
+    });
+    box.append(el('h3','rd-arch-title','Le tue setlist'));
+    library.querySelector('.setlist-library-heading').after(box);
+  }
+
   // In fondo a un canto della scaletta: il canto successivo, senza tornare alla home.
   function renderEventNext(){
-    const now=Date.now();
-    if(now<Date.parse(EVENT.from)||now>Date.parse(EVENT.until))return null;
-    const steps=EVENT.songs.filter(item=>item[1]&&songById(item[1]));
+    let active=null;
+    try{active=scalettaById(sessionStorage.getItem(ACTIVE_KEY));}catch(error){/* nessuna */}
+    active=active||scalettaOnHome();
+    if(!active)return null;
+    const steps=active.songs.filter(item=>item[1]&&songById(item[1]));
     const index=steps.findIndex(item=>item[1]===currentSongId());
     if(index<0)return null;
     const box=el('nav','rd-ev-next');
     box.setAttribute('aria-label','Scaletta');
-    const back=el('button','rd-ev-next-back',`${EVENT.title} · ${index+1} di ${steps.length}`);
-    back.type='button';
-    back.addEventListener('click',()=>{
-      const header=document.querySelector('body > header');
-      if(header)header.click();
-    });
-    box.append(back);
     const following=steps[index+1];
     if(following){
       const go=el('button','rd-ev-next-go');
       go.type='button';
       const text=el('span','rd-ev-text');
       text.append(el('small','','Prossimo · '+following[0]),el('b','',songById(following[1]).title));
-      const sub=songById(following[1]).sub;
-      if(sub)text.append(el('em','',sub));
       go.append(text);
       go.insertAdjacentHTML('beforeend',ICON_NEXT);
       go.addEventListener('click',()=>{openSong(following[1]);window.scrollTo({top:0,behavior:'auto'});});
@@ -332,40 +407,58 @@
 
     const fakeSearch=el('button','rd-home-search');
     fakeSearch.type='button';
-    fakeSearch.innerHTML=ICON_SEARCH+'<span>Cerca titolo o parole…</span>';
+    fakeSearch.innerHTML=ICON_SEARCH+'<span>Cerca titolo, parole o numero…</span>';
     fakeSearch.addEventListener('click',()=>{showListView('filterAll');search.focus();});
 
-    const today=new Date().toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'});
-    box.append(fakeSearch,el('div','rd-eyebrow',today),el('h2','', 'Che cosa cantiamo oggi?'));
-    const event=renderEvent();
-    if(event)box.append(event);
+    box.append(fakeSearch);
+    const event=scalettaOnHome();
+    if(event)box.append(renderScaletta(event));
 
-    // Setlist attiva: è quella che il sito tiene già salvata sul dispositivo.
-    const ids=readJson('personalSetlist',[]).filter(id=>songById(id));
-    const name=localStorage.getItem('personalSetlistName')||'La mia Setlist';
-    const card=el('section','rd-sl');
-    const head=el('div','rd-sl-head');
-    const icon=el('span','rd-sl-icon');
-    icon.innerHTML=ICON_LIST;
-    const text=el('span','rd-sl-text');
-    text.append(el('b','',name),el('small','',ids.length
-      ?`${ids.length} ${ids.length===1?'canto':'canti'}`
-      :'Ancora vuota: aggiungi i canti con il pulsante setlist accanto al titolo.'));
-    head.append(icon,text);
-    if(ids.length){
-      const go=el('button','rd-sl-go');
-      go.type='button';
-      go.innerHTML=ICON_PLAY+'<span>Inizia</span>';
-      go.addEventListener('click',()=>openSong(ids[0]));
-      head.append(go);
+    // I tuoi canti: aperti di frequente (uno per momento) e top ten, in schede.
+    loadGlobalTop();
+    const shelves=[
+      ['tuoi','Aperti di frequente',bySection()],
+      ['tutti','Top ten',(globalTop||[]).slice(0,TOP_SIZE).map(id=>[id,''])]
+    ].map(([key,label,items])=>[key,label,items.filter(([id])=>songById(id))])
+     .filter(([,,items])=>items.length);
+    if(shelves.length){
+      let current=null;
+      try{current=localStorage.getItem(SHELF_KEY);}catch(error){/* niente */}
+      if(!shelves.some(([key])=>key===current))current=shelves[0][0];
+      const tabs=el('div','rd-chips rd-shelf-tabs');
+      tabs.setAttribute('role','tablist');
+      const grid=el('div','rd-recent');
+      const show=key=>{
+        tabs.querySelectorAll('button').forEach(button=>{
+          const on=button.dataset.key===key;
+          button.classList.toggle('active',on);
+          button.setAttribute('aria-selected',String(on));
+        });
+        const items=shelves.find(([name])=>name===key)[2];
+        grid.replaceChildren(...items.map(([id,moment],index)=>{
+          const song=songById(id);
+          const button=el('button');
+          button.type='button';
+          if(!moment)button.append(el('i','',String(index+1)));
+          button.append(el('b','',song.title),el('small','',(moment?[moment,song.sub]:[song.sub,mainTag(song.id)]).filter(Boolean).join(' · ')||' '));
+          button.addEventListener('click',()=>openSong(song.id));
+          return button;
+        }));
+      };
+      shelves.forEach(([key,label])=>{
+        const tab=el('button','rd-chip',label);
+        tab.type='button';
+        tab.dataset.key=key;
+        tab.setAttribute('role','tab');
+        tab.addEventListener('click',()=>{
+          try{localStorage.setItem(SHELF_KEY,key);}catch(error){/* niente */}
+          show(key);
+        });
+        tabs.append(tab);
+      });
+      show(current);
+      box.append(el('h3','','I tuoi canti'),tabs,grid);
     }
-    const summary=el('button','rd-sl-sum');
-    summary.type='button';
-    summary.append(el('span','',ids.length?ids.map(id=>songById(id).title).join('  ·  '):'Apri le setlist'));
-    summary.insertAdjacentHTML('beforeend',ICON_NEXT);
-    summary.addEventListener('click',()=>showListView('filterSetlist'));
-    card.append(head,summary);
-    box.append(card);
 
     const counts={};
     Object.values(allTags()).forEach(entry=>(entry.tags||[]).forEach(tag=>{counts[tag]=(counts[tag]||0)+1;}));
@@ -384,18 +477,6 @@
     });
     box.append(el('h3','','Momenti della Messa'),steps);
 
-    const recent=readJson(RECENT_KEY,[]).map(songById).filter(Boolean).slice(0,3);
-    if(recent.length){
-      const grid=el('div','rd-recent');
-      recent.forEach(song=>{
-        const button=el('button');
-        button.type='button';
-        button.append(el('b','',song.title),el('small','',[song.sub,mainTag(song.id)].filter(Boolean).join(' · ')||' '));
-        button.addEventListener('click',()=>openSong(song.id));
-        grid.append(button);
-      });
-      box.append(el('h3','','Aperti di recente'),grid);
-    }
     home.replaceChildren(box);
   }
 
@@ -477,9 +558,65 @@
   document.getElementById('sectionMenu')?.addEventListener('click',()=>setTimeout(updateTabbar,0));
 
   new MutationObserver(()=>{decorateSong();rememberSong();}).observe(main,{childList:true});
-  new MutationObserver(()=>{decorateTiles();if(!home.firstChild)renderHome();}).observe(tileList,{childList:true});
+  new MutationObserver(()=>{decorateTiles();if(!home.firstChild)renderHome();renderArchive();}).observe(tileList,{childList:true});
   decorateTiles();
   decorateSong();
   renderHome();
+  renderArchive();
   updateTabbar();
+
+  /* ---------- Versione nuova pubblicata: avviso "Aggiorna" ----------
+     Nell'app installata non c'è il "tira per aggiornare": quando si torna
+     nel canzoniere si confrontano i file ?v= della pagina con quelli
+     pubblicati e, se sono cambiati, basta un tocco per ricaricare. */
+  const versioned=root=>[...root.querySelectorAll('script[src],link[rel="stylesheet"][href]')]
+    .map(node=>node.getAttribute('src')||node.getAttribute('href'))
+    .filter(url=>/\?v=/.test(url)).sort().join(' ');
+  const loadedVersion=versioned(document);
+  let updateBanner=null;
+  async function checkForUpdate(){
+    if(updateBanner||navigator.onLine===false||document.visibilityState!=='visible')return;
+    try{
+      const response=await fetch('/index.html',{cache:'no-store'});
+      if(!response.ok)return;
+      const page=new DOMParser().parseFromString(await response.text(),'text/html');
+      const published=versioned(page);
+      if(!published||published===loadedVersion)return;
+      updateBanner=el('div','rd-update');
+      updateBanner.setAttribute('role','status');
+      const reload=el('button','rd-sl-go','Aggiorna');
+      reload.type='button';
+      reload.addEventListener('click',()=>location.reload());
+      updateBanner.append(el('span','','Nuova versione del canzoniere'),reload);
+      document.body.append(updateBanner);
+      // Anche in fondo, accanto al bollino offline.
+      const offlineLine=document.getElementById('offlineStatus');
+      if(offlineLine){
+        const refresh=el('button','rd-refresh','Aggiorna');
+        refresh.type='button';
+        refresh.addEventListener('click',()=>location.reload());
+        offlineLine.append(refresh);
+      }
+    }catch(error){/* offline o rete lenta: si riprova al prossimo ritorno */}
+  }
+  // L'elenco scende fin sotto al piede della pagina: serve sapere dove
+  // finisce l'elenco e quanto è alto il piede, che cambiano con lo schermo.
+  const board=document.querySelector('.board');
+  const pageFoot=document.querySelector('body > footer');
+  if(board && pageFoot && 'ResizeObserver' in window){
+    const rootStyle=document.documentElement.style;
+    const syncBoardEdge=()=>{
+      const right=board.offsetParent ? Math.round(board.getBoundingClientRect().right) : 0;
+      rootStyle.setProperty('--rd-board-edge',right+'px');
+      rootStyle.setProperty('--rd-foot-h',pageFoot.offsetHeight+'px');
+    };
+    const observer=new ResizeObserver(syncBoardEdge);
+    observer.observe(board);
+    observer.observe(pageFoot);
+    window.addEventListener('resize',syncBoardEdge);
+    syncBoardEdge();
+  }
+  document.addEventListener('visibilitychange',checkForUpdate);
+  window.addEventListener('online',checkForUpdate);
+  setTimeout(checkForUpdate,4000);
 })();

@@ -7,45 +7,45 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'acqua-siamo-noi':2,
   'adesso-e-la-pienezza':3,
   'adeste-fideles':4,
-  'agnello-di-dio':6,
-  'adoro-te':7,
-  'alleluia-canto-per-cristo':8,
-  'alleluia-ed-oggi-ancora':9,
+  'alleluia-ed-oggi-ancora':6,
+  'alleluia-canto-per-cristo':7,
+  'alleluia-la-nostra-festa':8,
+  'alleluia-passeranno-i-cieli':9,
   'amo':12,
-  'alleluia-la-nostra-festa':13,
-  'alleluia-passeranno-i-cieli':15,
+  'andate-per-le-strade':13,
+  'antica-eterna-danza':15,
   'astro-del-ciel':17,
-  'alleluia-taize':20,
-  'andate-per-le-strade':25,
-  'alleluia-verbum-panis':26,
-  'antica-eterna-danza':27,
-  'ave-maria':28,
-  'benedici-o-signore':29,
-  'benedizione-a-frate-leone':33,
-  'camminero-in-re':36,
-  'bisognerebbe':37,
-  'camminiamo-incontro-al-signore':43,
-  'cantate-al-signore-ricci':44,
-  'cantate-al-signore-un-canto-nuovo-fallormi':46,
+  'ave-maria':20,
+  'benedizione-a-frate-leone':25,
+  'benedici-o-signore':26,
+  'bisognerebbe':27,
+  'camminero-in-re':28,
+  'camminiamo-incontro-al-signore':29,
+  'cantate-al-signore-ricci':32,
+  'cantiamo-te':33,
+  'chi-ci-separera':36,
+  'chi':37,
+  'come-fuoco-vivo':43,
+  'come-maria':44,
+  'con-voce-di-giubilo':46,
   'cristo-e-risorto-veramente':48,
-  'cantiamo-te':51,
-  'chi':53,
-  'chi-ci-separera':54,
-  'chi-dara-da-bere-a-me':55,
-  'come-fuoco-vivo':57,
-  'come-l-aurora-verrai':59,
-  'come-maria':60,
-  'e-l-incontro-della-vita':62,
-  'davanti-a-questo-amore':64,
-  'dall-aurora-al-tramonto':65,
-  'del-tuo-spirito-signore':67,
-  'con-voce-di-giubilo':68,
-  'devo-dire-che':69,
-  'dolce-sentire':71,
-  'dove-troveremo-tutto-il-pane':72,
-  'e-sono-solo-un-uomo-symbolum-79':73,
-  'e-bello-lodarti':74,
-  'ecco-il-nostro-si':76,
+  'dall-aurora-al-tramonto':51,
+  'davanti-a-questo-amore':53,
+  'del-tuo-spirito-signore':54,
+  'devo-dire-che':55,
+  'dolce-sentire':57,
+  'dove-troveremo-tutto-il-pane':59,
+  'e-bello-lodarti':60,
+  'ecco-il-nostro-si':62,
+  'eccomi-salmo-39':64,
+  'ecco-quel-che-abbiamo':65,
+  'emmanuel':67,
+  'e-sono-solo-un-uomo-symbolum-79':68,
+  'fammi-conoscere':69,
+  'giovane-donna':71,
+  'giovanni':72,
+  'gloria-giombini':73,
+  'grandi-cose':76,
   'ho-abbandonato':80,
   'il-canto-dei-3-giovani':81,
   'il-canto-dell-amore':82,
@@ -64,10 +64,8 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'laudato-sii-signore-mio':110,
   'le-tue-mani':112,
   'le-tue-meraviglie':113,
-  'lode-al-nome-tuo':117,
   'lode-a-te-o-cristo':118,
   'luce-di-verita':120,
-  'lui-m-ha-dato':121,
   'mani':122,
   'maria-porta-dell-avvento':124,
   'musica-di-festa':130,
@@ -80,7 +78,7 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'osanna-al-figlio-di-david':145,
   'padre-nostro-s-andrea':147,
   'pane-del-cielo':149,
-  'pane-di-vita':150,
+  'pane-vivo-sei':150,
   'pietro-vai':154,
   'popoli-tutti':156,
   'quale-gioia-salmo-121':161,
@@ -92,31 +90,32 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'salve-regina':174,
   'san-francesco':176,
   'santa-maria-del-cammino':177,
-  'santo-classico':178,
+  'santo-gen-messa-come-fuoco-vivo':178,
   'santo':179,
-  'santo-gen-messa-come-fuoco-vivo':180,
-  'santo-gen-verde':181,
-  'santo-zairese':183,
+  'santo-gen-verde':180,
+  'santo-zairese':181,
+  'scusa-signore':183,
   'segni-del-tuo-amore':184,
-  'se-tu-vedrai':185,
-  'scusa-signore':186,
-  'segni-nuovi':187,
-  'se-m-accogli':188,
-  'servo-per-amore':190,
-  'spirito-di-dio':195,
-  'symbolum-77-tu-sei-la-mia-vita':198,
-  'symbolum-80-oltre-le-memorie':200,
-  'te-al-centro-del-mio-cuore':204,
-  'ti-ringrazio-mio-signore':208,
-  'su-ali-d-aquila':212,
-  'ti-seguiro':218,
+  'segni-nuovi':185,
+  'se-m-accogli':186,
+  'servo-per-amore':187,
+  'se-tu-vedrai':188,
+  'signore-pieta-buttazzo':190,
+  'spirito-di-dio':193,
+  'su-ali-d-aquila':196,
+  'symbolum-80-oltre-le-memorie':198,
+  'te-al-centro-del-mio-cuore':200,
+  'ti-ringrazio-mio-signore':205,
+  'ti-seguiro':208,
   'tu-sei':211,
-  'tu-sei-sorgente-viva':220,
-  'venimus-adorare-eum-emmanuel-inno-gmg-2005':221,
-  'venite-applaudiamo-al-signore':224,
-  'verbum-panis':228,
-  'vieni-e-seguimi':229,
-  'vivere-la-vita':230,
+  'symbolum-77-tu-sei-la-mia-vita':212,
+  'venimus-adorare-eum-emmanuel-inno-gmg-2005':218,
+  'venite-applaudiamo-al-signore':220,
+  'verbum-panis':221,
+  'vieni-e-seguimi':224,
+  'vivere-la-vita':228,
+  'vocazione':229,
+  'voi-siete-di-dio':230,
 });
 
 function legacyBookNumber(song){
@@ -520,9 +519,24 @@ function allQueryTokensMatch(query,text){
   );
 }
 
+// "187", "n 187", "n. 187", "numero 187": ricerca per numero del libretto.
+function bookNumberQuery(query){
+  const match=normalizeSearch(query).match(/^(?:n|nr|num|numero)?\s*(\d{1,3})$/);
+  return match?String(Number(match[1])):null;
+}
+function bookNumberScore(song,query){
+  const wanted=bookNumberQuery(query);
+  const number=legacyBookNumber(song);
+  if(!wanted||!number)return 0;
+  if(String(number)===wanted)return 50000;
+  return String(number).startsWith(wanted)?30000:0;
+}
+
 function songScore(song,query){
   const q=normalizeSearch(query);
   if(!q)return 0;
+  const numberScore=bookNumberScore(song,query);
+  if(numberScore)return numberScore;
 
   const title=normalizeSearch(song.title||'');
   const subtitle=normalizeSearch(song.sub||'');
@@ -559,6 +573,7 @@ function songScore(song,query){
 function songMatches(song,query){
   const q=normalizeSearch(query);
   if(!q)return true;
+  if(bookNumberScore(song,query))return true;
   return allQueryTokensMatch(q,[song.title,song.sub,song.search].filter(Boolean).join(' '));
 }
 
@@ -1497,7 +1512,8 @@ function renderTiles(filter=search.value){
 
     const btn=document.createElement('button');
     btn.className='tile'+(i===activeIndex?' active':'');
-    btn.innerHTML=`<span class="num" aria-hidden="true"></span><span class="tile-title">${esc(song.title)}${song.sub?`<small>${esc(song.sub)}</small>`:''}</span>`;
+    const bookNumber=bookNumberQuery(query)&&legacyBookNumber(song);
+    btn.innerHTML=`<span class="num" aria-hidden="true"></span><span class="tile-title">${esc(song.title)}${song.sub?`<small>${esc(song.sub)}</small>`:''}${bookNumber?`<span class="tile-book-num">n. ${bookNumber}</span>`:''}</span>`;
     btn.addEventListener('click',()=>showSong(i));
 
     const actions=document.createElement('div');

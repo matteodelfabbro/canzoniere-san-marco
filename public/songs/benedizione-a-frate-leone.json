@@ -6,7 +6,7 @@
     "note": "LA",
     "mode": "maggiore"
   },
-  "search": "Benedizione a Frate Leone  Strofa Benedicat   tibi Dominus       et  custodiat   te Ostendat   faciem    suam   tibi et miseratur    tui Convertat    vultum   suum    ad  te et  det  tibi pa   -   cem Dominus    benedicat,    frater  Leo,  te.  Ritornello      Benedi      - i  - cat,  benedi    -  i -  cat      Benedicat    tibi     Do   - mi   - nus       et custodiat   te  Interludio - Violini 1 battuta  Ritornello (ripetere)      Benedicat    tibi     Do   - mi   - nus       et custodiat   te  Finale    Benedicat,    benedicat,    benedicat,    benedicat Tibi Dominus,     benedicat    tibi Dominus     et custodiat    te",
+  "search": "Benedizione a Frate Leone  Strofa Benedicat   tibi Dominus       et  custodiat   te Ostendat   faciem    suam   tibi et misereatur    tui Convertat    vultum   suum    ad  te et  det  tibi pa   -   cem Dominus    benedicat,    frater  Leo,  te. Ritornello      Benedi      - i  - cat,  benedi    -  i -  cat      Benedicat    tibi     Do   - mi   - nus       et custodiat   te Interludio - Violini 1 battuta Ritornello (ripetere)      Benedicat    tibi     Do   - mi   - nus       et custodiat   te Ponte    Benedicat,    benedicat,    benedicat,    benedicat Tibi Dominus,     benedicat    tibi Dominus     et custodiat    te Strofa · +1 tono (MI) Benedicat   tibi Dominus       et  custodiat   te Ostendat   faciem    suam   tibi et misereatur    tui Convertat    vultum   suum    ad  te et  det  tibi pa   -   cem Dominus    benedicat,    frater  Leo,  te. Ritornello      Benedi      - i  - cat,  benedi    -  i -  cat      Benedicat    tibi     Do   - mi   - nus       et custodiat   te Interludio - Violini 1 battuta Ritornello (ripetere)      Benedicat    tibi     Do   - mi   - nus       et custodiat   te Finale - Violini et custodiat   te",
   "lines": [
     {
       "t": "h",
@@ -102,7 +102,7 @@
     },
     {
       "t": "h",
-      "v": "Finale"
+      "v": "Ponte"
     },
     {
       "t": "c",
@@ -119,6 +119,117 @@
     {
       "t": "l",
       "v": "Tibi Dominus,     benedicat    tibi Dominus     et custodiat    te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa · +1 tono (MI)"
+    },
+    {
+      "t": "c",
+      "v": "MI          LA              MI                SI"
+    },
+    {
+      "t": "l",
+      "v": "Benedicat   tibi Dominus       et  custodiat   te"
+    },
+    {
+      "t": "c",
+      "v": "  MI                LA          MI               SI"
+    },
+    {
+      "t": "l",
+      "v": "Ostendat   faciem    suam   tibi et misereatur    tui"
+    },
+    {
+      "t": "c",
+      "v": "   LA                 SI          MI              LA        SI4    SI"
+    },
+    {
+      "t": "l",
+      "v": "Convertat    vultum   suum    ad  te et  det  tibi pa   -   cem"
+    },
+    {
+      "t": "c",
+      "v": "MI                 LA      SI4    SI    MI"
+    },
+    {
+      "t": "l",
+      "v": "Dominus    benedicat,    frater  Leo,  te."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "           LA     SI    MI         LA     MI    SI"
+    },
+    {
+      "t": "l",
+      "v": "     Benedi      - i  - cat,  benedi    -  i -  cat"
+    },
+    {
+      "t": "c",
+      "v": "            MI    SOL#-     DO#-  SI    LA        SI4     SI       MI"
+    },
+    {
+      "t": "l",
+      "v": "     Benedicat    tibi     Do   - mi   - nus       et custodiat   te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Interludio - Violini"
+    },
+    {
+      "t": "c",
+      "v": "LA SI | MI | LA SI | SI"
+    },
+    {
+      "t": "l",
+      "v": "1 battuta"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Ritornello (ripetere)"
+    },
+    {
+      "t": "c",
+      "v": "            MI    SOL#-     DO#-  SI    LA        SI4     SI       MI"
+    },
+    {
+      "t": "l",
+      "v": "     Benedicat    tibi     Do   - mi   - nus       et custodiat   te"
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale - Violini"
+    },
+    {
+      "t": "c",
+      "v": "MI SOL#- | DO#- SI LA"
+    },
+    {
+      "t": "c",
+      "v": "SI4   SI       MI"
+    },
+    {
+      "t": "l",
+      "v": "et custodiat   te"
     }
   ],
   "id": "benedizione-a-frate-leone"

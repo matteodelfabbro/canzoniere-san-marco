@@ -534,6 +534,17 @@
 
   // All'avvio senza un canto nell'indirizzo si parte dalla home.
   if(!/^#canto[/-]/.test(location.hash))document.body.classList.add('rd-at-home');
+  // Canto inesistente nell'indirizzo (link vecchio o sbagliato): app.js toglie l'hash e mostra l'elenco, si torna alla home.
+  else{
+    const startup=new MutationObserver(()=>{
+      startup.disconnect();
+      if(location.hash||document.body.classList.contains('song-open'))return;
+      document.body.classList.add('rd-at-home');
+      renderHome();
+      updateTabbar();
+    });
+    startup.observe(tileList,{childList:true});
+  }
   let wasSongOpen=document.body.classList.contains('song-open');
   new MutationObserver(()=>{
     const open=document.body.classList.contains('song-open');

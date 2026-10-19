@@ -639,3 +639,12 @@ html.rd .rd-update{
    senza accordi il testo scorre con spazi normali. */
 html.rd .sheet.lyrics-only .lyrics-only-line,
 html.rd .sheet.lyrics-only .lyricline{white-space:normal}
+
+/* Sezioni secondarie: allineamento schede setlist, modulo segnalazioni, aree di tocco */
+html.rd .setlist-library-card{padding:.7rem .6rem .7rem 1.1rem}
+html.rd .feedback-status:empty{display:none}
+@media (pointer:coarse){
+  html.rd .setlist-card-icon-button{width:2.5rem;height:2.5rem}
+  html.rd .feedback-close{top:.4rem;right:.45rem;width:2.5rem;height:2.5rem}
+  html.rd .install-banner-close{top:.1rem;right:.15rem;width:2.5rem;height:2.5rem}
+}

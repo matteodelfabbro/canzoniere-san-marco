@@ -1605,9 +1605,9 @@ function renderTiles(filter=search.value){
       return;
     }
     const message=listMode==='favorites'
-      ?'Nessun canto preferito.'
+      ?'Nessun canto preferito. Tocca la stella accanto a un canto per ritrovarlo qui.'
       :listMode==='setlist'
-        ?'La scaletta è vuota. Aggiungi i canti con il pulsante +.'
+        ?'La scaletta è vuota. Aggiungi i canti con il pulsante ≡+ accanto a ogni titolo.'
         :'Nessun canto trovato.';
     tileList.innerHTML=`<p class="empty-note">${message}</p>`;
   }

@@ -16,6 +16,8 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'antica-eterna-danza':15,
   'astro-del-ciel':17,
   'ave-maria':20,
+  'ave-o-vergjne':22,
+  'beati-voi':24,
   'benedizione-a-frate-leone':25,
   'benedici-o-signore':26,
   'bisognerebbe':27,

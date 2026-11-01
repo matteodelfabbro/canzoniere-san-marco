@@ -1979,5 +1979,23 @@
     "groups": [
       "Canti per la Messa"
     ]
+  },
+  "ave-o-vergjne": {
+    "title": "Ave, o Vergjne",
+    "tags": [
+      "Maria"
+    ],
+    "groups": [
+      "Temi"
+    ]
+  },
+  "beati-voi": {
+    "title": "Beati Voi",
+    "tags": [
+      "Meditazione"
+    ],
+    "groups": [
+      "Canti per la Messa"
+    ]
   }
 }

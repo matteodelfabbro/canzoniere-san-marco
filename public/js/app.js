@@ -16,6 +16,8 @@ const LEGACY_BOOK_NUMBERS=Object.freeze({
   'antica-eterna-danza':15,
   'astro-del-ciel':17,
   'ave-maria':20,
+  'ave-o-vergjne':22,
+  'beati-voi':24,
   'benedizione-a-frate-leone':25,
   'benedici-o-signore':26,
   'bisognerebbe':27,
@@ -151,7 +153,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261019-revisione-completa';
+const SONG_DATA_VERSION='20261101-accordi-beati-ave';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'

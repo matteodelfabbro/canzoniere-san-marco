@@ -2,12 +2,106 @@
   "title": "Beati Voi",
   "sub": "",
   "capo": null,
-  "key": null,
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
   "search": "Beati Voi  Ritornello Beati voi, beati voi, beati voi, beati! Strofa 1 Se un uomo vive oggi nella vera povertà, il Regno del Signore dentro lui presente è già. Per voi che siete tristi e senza senso nella vita c'è un Dio che può donarvi una speranza nel dolor. Strofa 2 Voi che lottate senza la violenza e per amore possiederete un giorno questa terra, dice Dio. Voi che desiderate ciò che Dio vuole per noi un'infinita pace regnerà dentro di voi. Strofa 3 E quando nel tuo cuore nasce tanta compassione è Dio che si commuove come un bimbo dentro te. Beati quelli che nel loro cuore sono puri già vedono il Signore totalmente anche quaggiù. Strofa 4 Beato chi diffonde pace vera intorno a sé il Padre che è nei cieli già lo chiama “figlio mio”. Chi soffre per amore e sa morire oggi per Lui riceve il Regno subito e la vita eterna ha in sé. Strofa 5 Se poi diranno male perché siete amici suoi sappiate che l'han fatto già con Lui prima di voi. Chi soffre per amore e sa morire oggi per Lui riceve il Regno subito e la vita eterna ha in sé. Finale Siate felici, siate felici, siate felici. Amen",
   "lines": [
     {
       "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL MI- LA RE SI- MI- SOL RE"
+    },
+    {
+      "t": "h",
       "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL MI- LA RE SI- MI- SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "LA",
+          "offset": 0.4
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "SI-"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE",
+          "offset": 0.5
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Beati "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "voi, "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "be"
+        },
+        {
+          "chord": "LA",
+          "lyric": "ati "
+        },
+        {
+          "chord": "RE",
+          "lyric": "voi, "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "beati "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "voi, "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "bea"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ti!"
+        }
+      ]
     },
     {
       "t": "l",
@@ -18,16 +112,166 @@
       "v": "Strofa 1"
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Se un "
+        },
+        {
+          "chord": "RE",
+          "lyric": "uomo vive oggi nella "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "vera povertà,"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Se un uomo vive oggi nella vera povertà,"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 3,
+          "chord": "MI-",
+          "offset": 0.286
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 8,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "il "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Regno del Si"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "gnore dentro "
+        },
+        {
+          "chord": "LA",
+          "lyric": "lui presente è "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "già."
+        }
+      ]
     },
     {
       "t": "l",
       "v": "il Regno del Signore dentro lui presente è già."
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Per "
+        },
+        {
+          "chord": "RE",
+          "lyric": "voi che siete tristi e senza "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "senso nella vita"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Per voi che siete tristi e senza senso nella vita"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "SOL"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0.375
+        },
+        {
+          "word": 9,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "c'è un "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Dio che può "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "donarvi una spe"
+        },
+        {
+          "chord": "LA",
+          "lyric": "ranza nel "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "dolor."
+        }
+      ]
     },
     {
       "t": "l",
@@ -38,16 +282,168 @@
       "v": "Strofa 2"
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Voi che "
+        },
+        {
+          "chord": "RE",
+          "lyric": "lottate senza la violenza "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "e per amore"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Voi che lottate senza la violenza e per amore"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL",
+          "offset": 0.25
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 3,
+          "chord": "LA",
+          "offset": 0.5
+        },
+        {
+          "word": 6,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "pos"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "siederete "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "un giorno que"
+        },
+        {
+          "chord": "LA",
+          "lyric": "sta terra, dice "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "Dio."
+        }
+      ]
     },
     {
       "t": "l",
       "v": "possiederete un giorno questa terra, dice Dio."
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Voi "
+        },
+        {
+          "chord": "RE",
+          "lyric": "che desiderate ciò "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "che Dio vuole per noi"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Voi che desiderate ciò che Dio vuole per noi"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL",
+          "offset": 0.455
+        },
+        {
+          "word": 1,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "LA",
+          "offset": 0.714
+        },
+        {
+          "word": 4,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "un'in"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "finita "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "pace regne"
+        },
+        {
+          "chord": "LA",
+          "lyric": "rà dentro "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "di voi."
+        }
+      ]
     },
     {
       "t": "l",
@@ -58,16 +454,170 @@
       "v": "Strofa 3"
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE",
+          "offset": 0.667
+        },
+        {
+          "word": 6,
+          "chord": "SI-",
+          "offset": 0.6
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "E quan"
+        },
+        {
+          "chord": "RE",
+          "lyric": "do nel tuo cuore nasce tan"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "ta compassione"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "E quando nel tuo cuore nasce tanta compassione"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "MI-",
+          "offset": 0.375
+        },
+        {
+          "word": 6,
+          "chord": "LA"
+        },
+        {
+          "word": 9,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "è "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Dio che si com"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "muove come "
+        },
+        {
+          "chord": "LA",
+          "lyric": "un bimbo dentro "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "te."
+        }
+      ]
     },
     {
       "t": "l",
       "v": "è Dio che si commuove come un bimbo dentro te."
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0.4
+        },
+        {
+          "word": 5,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Be"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ati quelli che nel loro "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "cuore sono puri"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Beati quelli che nel loro cuore sono puri"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL",
+          "offset": 0.333
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 4,
+          "chord": "LA",
+          "offset": 0.8
+        },
+        {
+          "word": 6,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "già ve"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "dono il "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Signore totalmen"
+        },
+        {
+          "chord": "LA",
+          "lyric": "te anche "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "quaggiù."
+        }
+      ]
     },
     {
       "t": "l",
@@ -78,16 +628,169 @@
       "v": "Strofa 4"
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE",
+          "offset": 0.6
+        },
+        {
+          "word": 5,
+          "chord": "SI-"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Bea"
+        },
+        {
+          "chord": "RE",
+          "lyric": "to chi diffonde pace vera "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "intorno a sé"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Beato chi diffonde pace vera intorno a sé"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "LA"
+        },
+        {
+          "word": 10,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "il "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "Padre che è "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "nei cieli già "
+        },
+        {
+          "chord": "LA",
+          "lyric": "lo chiama “figlio "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "mio”."
+        }
+      ]
     },
     {
       "t": "l",
       "v": "il Padre che è nei cieli già lo chiama “figlio mio”."
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "SI-",
+          "offset": 0.333
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Chi "
+        },
+        {
+          "chord": "RE",
+          "lyric": "soffre per amore e sa mo"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "rire oggi per Lui"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Chi soffre per amore e sa morire oggi per Lui"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL",
+          "offset": 0.667
+        },
+        {
+          "word": 2,
+          "chord": "MI-",
+          "offset": 0.4
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0.167
+        },
+        {
+          "word": 9,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "rice"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ve il Re"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "gno subito e la vita e"
+        },
+        {
+          "chord": "LA",
+          "lyric": "terna ha "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "in sé."
+        }
+      ]
     },
     {
       "t": "l",
@@ -98,16 +801,170 @@
       "v": "Strofa 5"
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 5,
+          "chord": "SI-",
+          "offset": 0.6
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Se poi "
+        },
+        {
+          "chord": "RE",
+          "lyric": "diranno male perché sie"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "te amici suoi"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Se poi diranno male perché siete amici suoi"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL",
+          "offset": 0.375
+        },
+        {
+          "word": 3,
+          "chord": "MI-"
+        },
+        {
+          "word": 5,
+          "chord": "LA"
+        },
+        {
+          "word": 9,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "sap"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "piate che l'han "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "fatto già "
+        },
+        {
+          "chord": "LA",
+          "lyric": "con Lui prima di "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "voi."
+        }
+      ]
     },
     {
       "t": "l",
       "v": "sappiate che l'han fatto già con Lui prima di voi."
     },
     {
+      "t": "c",
+      "v": "RE SI-",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "SI-",
+          "offset": 0.333
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Chi "
+        },
+        {
+          "chord": "RE",
+          "lyric": "soffre per amore e sa mo"
+        },
+        {
+          "chord": "SI-",
+          "lyric": "rire oggi per Lui"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Chi soffre per amore e sa morire oggi per Lui"
+    },
+    {
+      "t": "c",
+      "v": "SOL MI- LA LA4",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL",
+          "offset": 0.667
+        },
+        {
+          "word": 2,
+          "chord": "MI-",
+          "offset": 0.4
+        },
+        {
+          "word": 7,
+          "chord": "LA",
+          "offset": 0.167
+        },
+        {
+          "word": 9,
+          "chord": "LA4"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "rice"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "ve il Re"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "gno subito e la vita e"
+        },
+        {
+          "chord": "LA",
+          "lyric": "terna ha "
+        },
+        {
+          "chord": "LA4",
+          "lyric": "in sé."
+        }
+      ]
     },
     {
       "t": "l",
@@ -116,6 +973,91 @@
     {
       "t": "h",
       "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL MI- LA RE SI- MI- SOL RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "RE"
+        },
+        {
+          "word": 1,
+          "chord": "SOL",
+          "offset": 0.286
+        },
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "LA",
+          "offset": 0.6
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0.286
+        },
+        {
+          "word": 4,
+          "chord": "SI-"
+        },
+        {
+          "word": 5,
+          "chord": "MI-"
+        },
+        {
+          "word": 6,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE",
+          "offset": 0.25
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "RE",
+          "lyric": "Siate fe"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "lici, "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "sia"
+        },
+        {
+          "chord": "LA",
+          "lyric": "te fe"
+        },
+        {
+          "chord": "RE",
+          "lyric": "lici, "
+        },
+        {
+          "chord": "SI-",
+          "lyric": "siate "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "felici. "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "A"
+        },
+        {
+          "chord": "RE",
+          "lyric": "men"
+        }
+      ]
     },
     {
       "t": "l",

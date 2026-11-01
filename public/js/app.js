@@ -153,7 +153,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261101-beati-voi-ave-vergjne';
+const SONG_DATA_VERSION='20261101-accordi-beati-ave';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'

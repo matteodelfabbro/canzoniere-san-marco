@@ -2,24 +2,265 @@
   "title": "Ave, o Vergjne",
   "sub": "",
   "capo": null,
-  "key": null,
+  "key": {
+    "note": "RE",
+    "mode": "maggiore"
+  },
   "search": "Ave, o Vergjne  Strofa 1 Ave, o Vergjne, us saludi come l'agnul ancje io! Ave, plene di ogni gracie: il Signôr al è cun vô. Daimi, daimi une cjalade cun chel voli plen d'amôr o gran Mari Imacolade, o colombe dal Signôr! Strofa 2 Biele l'albe matutine, biel un agnul dal Signôr, ma vô Vergjine divine o sês biele plui di lôr! Faisi dongje, cjare Mari cun chel vuestri biel bambin ch'io lu cjali, ch'io lu tocj, ch'io lu bussi chel ninin.",
   "lines": [
     {
       "t": "h",
+      "v": "Intro"
+    },
+    {
+      "t": "c",
+      "v": "RE SOL LA7 RE"
+    },
+    {
+      "t": "h",
       "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "RE LA7 RE MI- LA7",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA7"
+        },
+        {
+          "word": 4,
+          "chord": "RE",
+          "offset": 0.667
+        },
+        {
+          "word": 6,
+          "chord": "MI-",
+          "offset": 0.429
+        },
+        {
+          "word": 8,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Ave, o "
+        },
+        {
+          "chord": "RE",
+          "lyric": "Vergjne, "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "us salu"
+        },
+        {
+          "chord": "RE",
+          "lyric": "di come l'a"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "gnul ancje "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "io!"
+        }
+      ]
     },
     {
       "t": "l",
       "v": "Ave, o Vergjne, us saludi come l'agnul ancje io!"
     },
     {
+      "t": "c",
+      "v": "RE LA7 RE MI- LA7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 3,
+          "chord": "LA7"
+        },
+        {
+          "word": 4,
+          "chord": "RE",
+          "offset": 0.429
+        },
+        {
+          "word": 6,
+          "chord": "MI-",
+          "offset": 0.333
+        },
+        {
+          "word": 10,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Ave, "
+        },
+        {
+          "chord": "RE",
+          "lyric": "plene di "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "ogni gra"
+        },
+        {
+          "chord": "RE",
+          "lyric": "cie: il Si"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "gnôr al è cun "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "vô."
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Ave, plene di ogni gracie: il Signôr al è cun vô."
     },
     {
+      "t": "c",
+      "v": "SOL LA7 RE RE7 SOL",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA7"
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0.429
+        },
+        {
+          "word": 6,
+          "chord": "RE7"
+        },
+        {
+          "word": 8,
+          "chord": "SOL",
+          "offset": 0.5
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Daimi, "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "daimi "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "une cja"
+        },
+        {
+          "chord": "RE",
+          "lyric": "lade cun chel "
+        },
+        {
+          "chord": "RE7",
+          "lyric": "voli plen d'a"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "môr"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Daimi, daimi une cjalade cun chel voli plen d'amôr"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA7 RE SOL LA7 RE",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "LA7",
+          "offset": 0.5
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0.5
+        },
+        {
+          "word": 5,
+          "chord": "SOL",
+          "offset": 0.286
+        },
+        {
+          "word": 6,
+          "chord": "LA7"
+        },
+        {
+          "word": 7,
+          "chord": "RE",
+          "offset": 0.286
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "o gran "
+        },
+        {
+          "chord": "MI-",
+          "lyric": "Ma"
+        },
+        {
+          "chord": "LA7",
+          "lyric": "ri Imaco"
+        },
+        {
+          "chord": "RE",
+          "lyric": "lade, o co"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "lombe "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "dal Si"
+        },
+        {
+          "chord": "RE",
+          "lyric": "gnôr!"
+        }
+      ]
     },
     {
       "t": "l",
@@ -30,16 +271,241 @@
       "v": "Strofa 2"
     },
     {
+      "t": "c",
+      "v": "RE LA7 RE MI- LA7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA7"
+        },
+        {
+          "word": 2,
+          "chord": "RE",
+          "offset": 0.667
+        },
+        {
+          "word": 5,
+          "chord": "MI-",
+          "offset": 0.2
+        },
+        {
+          "word": 7,
+          "chord": "LA7",
+          "offset": 0.286
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Biele "
+        },
+        {
+          "chord": "RE",
+          "lyric": "l'albe "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "matuti"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ne, biel un a"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "gnul dal Si"
+        },
+        {
+          "chord": "LA7",
+          "lyric": "gnôr,"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Biele l'albe matutine, biel un agnul dal Signôr,"
+    },
+    {
+      "t": "c",
+      "v": "RE LA7 RE MI- LA7",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "RE"
+        },
+        {
+          "word": 2,
+          "chord": "LA7",
+          "offset": 0.375
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0.667
+        },
+        {
+          "word": 6,
+          "chord": "MI-",
+          "offset": 0.6
+        },
+        {
+          "word": 9,
+          "chord": "LA7"
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "ma vô "
+        },
+        {
+          "chord": "RE",
+          "lyric": "Ver"
+        },
+        {
+          "chord": "LA7",
+          "lyric": "gjine divi"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ne o sês bie"
+        },
+        {
+          "chord": "MI-",
+          "lyric": "le plui di "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "lôr!"
+        }
+      ]
     },
     {
       "t": "l",
       "v": "ma vô Vergjine divine o sês biele plui di lôr!"
     },
     {
+      "t": "c",
+      "v": "SOL LA7 RE RE7 SOL",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL"
+        },
+        {
+          "word": 2,
+          "chord": "LA7"
+        },
+        {
+          "word": 3,
+          "chord": "RE",
+          "offset": 0.5
+        },
+        {
+          "word": 6,
+          "chord": "RE7"
+        },
+        {
+          "word": 8,
+          "chord": "SOL",
+          "offset": 0.5
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "",
+          "lyric": "Faisi "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "dongje, "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "cjare Ma"
+        },
+        {
+          "chord": "RE",
+          "lyric": "ri cun chel "
+        },
+        {
+          "chord": "RE7",
+          "lyric": "vuestri biel bam"
+        },
+        {
+          "chord": "SOL",
+          "lyric": "bin"
+        }
+      ]
+    },
+    {
       "t": "l",
       "v": "Faisi dongje, cjare Mari cun chel vuestri biel bambin"
+    },
+    {
+      "t": "c",
+      "v": "MI- LA7 RE SOL LA7 RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "MI-"
+        },
+        {
+          "word": 2,
+          "chord": "LA7"
+        },
+        {
+          "word": 5,
+          "chord": "RE"
+        },
+        {
+          "word": 8,
+          "chord": "SOL"
+        },
+        {
+          "word": 9,
+          "chord": "LA7"
+        },
+        {
+          "word": 10,
+          "chord": "RE",
+          "offset": 0.333
+        }
+      ],
+      "anchorLayout": "flow",
+      "flowSegments": [
+        {
+          "chord": "MI-",
+          "lyric": "ch'io lu "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "cjali, ch'io lu "
+        },
+        {
+          "chord": "RE",
+          "lyric": "tocj, ch'io lu "
+        },
+        {
+          "chord": "SOL",
+          "lyric": "bussi "
+        },
+        {
+          "chord": "LA7",
+          "lyric": "chel ni"
+        },
+        {
+          "chord": "RE",
+          "lyric": "nin."
+        }
+      ]
     },
     {
       "t": "l",

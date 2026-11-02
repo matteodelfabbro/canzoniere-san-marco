@@ -153,10 +153,11 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261101-alleluia-chi-ascolta';
+const SONG_DATA_VERSION='20261102-tolto-dove-due-o-tre';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
-  'agnello-di-dio-versione-2-capo-3':'agnello-di-dio'
+  'agnello-di-dio-versione-2-capo-3':'agnello-di-dio',
+  'dove-due-o-tre':'la-preghiera-di-gesu-e-la-nostra'
 };
 
 function canonicalSongId(id){

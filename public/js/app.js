@@ -153,7 +153,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261102-tolto-dove-due-o-tre';
+const SONG_DATA_VERSION='20261113-resta-qui-con-noi-6';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio',
@@ -1727,7 +1727,12 @@ function renderChordLyricPair(chordText,lyricText,shift,explicitAnchors=null,anc
         return `<span class="explicit-chord explicit-chord-${align}" style="left:${pct}%;transform:translateX(${translate}%);">${renderChordText(anchor.chord)}</span>`;
       }).join('');
 
-      return `<span class="explicit-word">${chordHtml}<span class="explicit-lyric">${esc(word)}</span></span>`;
+      // Una parola corta (es. «E») non deve essere più stretta del suo accordo,
+      // altrimenti l'accordo della parola seguente ci finisce sopra.
+      const spacer=anchors.length
+        ?`<span class="explicit-chord-spacer" aria-hidden="true">${esc(anchors.map(anchor=>anchor.chord).join(' '))}</span>`
+        :'';
+      return `<span class="explicit-word">${chordHtml}${spacer}<span class="explicit-lyric">${esc(word)}</span></span>`;
     }).join(' ');
 
     return `<div class="explicit-music-row">${renderedWords}</div><div class="lyrics-only-line">${esc(lyric)}</div>`;

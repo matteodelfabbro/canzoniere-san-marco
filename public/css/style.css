@@ -321,12 +321,15 @@
 .explicit-music-row {
   display: block;
   line-height: 1.35;
-  padding-top: 1.35em;
   white-space: normal;
 }
+/* Lo spazio per gli accordi sta su ogni parola, non sulla riga:
+   se la riga va a capo, anche la seconda riga visiva ha il suo spazio
+   e gli accordi non finiscono sopra il testo della riga precedente. */
 .explicit-word {
   position: relative;
   display: inline-block;
+  padding-top: 1.35em;
 }
 .explicit-word:has(.explicit-chord) {
   margin-right: .24em;
@@ -334,9 +337,19 @@
 .explicit-lyric {
   font-weight: 400;
 }
+/* Copia invisibile dell'accordo: dà alla parola almeno la larghezza dell'accordo. */
+.explicit-chord-spacer {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  white-space: nowrap;
+  font-weight: 700;
+  padding: 0 .3em 0 .18em;
+}
 .explicit-chord {
   position: absolute;
-  top: -1.25em;
+  top: .1em;
   white-space: nowrap;
   font-weight: 700;
   line-height: 1;

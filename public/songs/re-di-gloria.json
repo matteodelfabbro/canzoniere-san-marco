@@ -14,7 +14,19 @@
     },
     {
       "t": "c",
-      "v": "SOL                          RE"
+      "v": "SOL  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE",
+          "offset": 0.25,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -22,7 +34,33 @@
     },
     {
       "t": "c",
-      "v": "LA-          LA-7        RE   LA-7 RE"
+      "v": "LA-  LA-7  RE  LA-7  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "LA-7"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        },
+        {
+          "word": 6,
+          "chord": "LA-7",
+          "offset": 0.3,
+          "align": "left"
+        },
+        {
+          "word": 6,
+          "chord": "RE",
+          "offset": 0.8,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -30,7 +68,33 @@
     },
     {
       "t": "c",
-      "v": "SOL                          DO   SI7 MI-  MI-7"
+      "v": "SOL  DO  SI7  MI-  MI-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "SI7",
+          "offset": 0.5,
+          "align": "left"
+        },
+        {
+          "word": 8,
+          "chord": "MI-"
+        },
+        {
+          "word": 8,
+          "chord": "MI-7",
+          "offset": 0.5,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -38,7 +102,31 @@
     },
     {
       "t": "c",
-      "v": "  LA-       DO7+        RE4     RE"
+      "v": "LA-  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-",
+          "offset": 0.1,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+",
+          "offset": 0.143,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -46,7 +134,17 @@
     },
     {
       "t": "c",
-      "v": "SOL                        RE"
+      "v": "SOL  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ]
     },
     {
       "t": "l",
@@ -54,7 +152,31 @@
     },
     {
       "t": "c",
-      "v": "LA-        LA-7                RE     LA-7     RE"
+      "v": "LA-  LA-7  RE  LA-7  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "LA-7"
+        },
+        {
+          "word": 8,
+          "chord": "RE"
+        },
+        {
+          "word": 9,
+          "chord": "LA-7"
+        },
+        {
+          "word": 9,
+          "chord": "RE",
+          "offset": 0.714,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -62,7 +184,33 @@
     },
     {
       "t": "c",
-      "v": "SOL                            DO     SI7 MI-   MI-7"
+      "v": "SOL  DO  SI7  MI-  MI-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "SI7",
+          "offset": 0.5,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "MI-7",
+          "offset": 0.5,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -70,7 +218,31 @@
     },
     {
       "t": "c",
-      "v": "  LA-       DO7+        RE4     RE"
+      "v": "LA-  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-",
+          "offset": 0.1,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+",
+          "offset": 0.143,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -82,7 +254,27 @@
     },
     {
       "t": "c",
-      "v": "SOL                  DO7+  RE4    RE"
+      "v": "SOL  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -90,7 +282,31 @@
     },
     {
       "t": "c",
-      "v": "      LA-7      DO7+    RE4  RE       RE7"
+      "v": "LA-7  DO7+  RE4  RE  RE7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA-7"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "RE7",
+          "offset": 0.5,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -98,7 +314,29 @@
     },
     {
       "t": "c",
-      "v": "      SOL     DO7+      RE4     RE"
+      "v": "SOL  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL",
+          "offset": 0.25,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -106,7 +344,29 @@
     },
     {
       "t": "c",
-      "v": "          LA- DO7+  RE4 SOL"
+      "v": "LA-  DO7+  RE4  SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "DO7+",
+          "offset": 0.5,
+          "align": "left"
+        },
+        {
+          "word": 4,
+          "chord": "RE4"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0.571,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -121,7 +381,17 @@
     },
     {
       "t": "c",
-      "v": "SOL                        RE"
+      "v": "SOL  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "RE"
+        }
+      ]
     },
     {
       "t": "l",
@@ -129,7 +399,31 @@
     },
     {
       "t": "c",
-      "v": "LA-        LA-7                    RE       LA-7   RE"
+      "v": "LA-  LA-7  RE  LA-7  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-"
+        },
+        {
+          "word": 3,
+          "chord": "LA-7"
+        },
+        {
+          "word": 8,
+          "chord": "RE"
+        },
+        {
+          "word": 9,
+          "chord": "LA-7"
+        },
+        {
+          "word": 10,
+          "chord": "RE",
+          "offset": 0.4,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -137,7 +431,33 @@
     },
     {
       "t": "c",
-      "v": "SOL                            DO     SI7 MI-   MI-7"
+      "v": "SOL  DO  SI7  MI-  MI-7",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 6,
+          "chord": "DO"
+        },
+        {
+          "word": 6,
+          "chord": "SI7",
+          "offset": 0.5,
+          "align": "left"
+        },
+        {
+          "word": 7,
+          "chord": "MI-"
+        },
+        {
+          "word": 7,
+          "chord": "MI-7",
+          "offset": 0.5,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -145,7 +465,31 @@
     },
     {
       "t": "c",
-      "v": "  LA-       DO7+        RE4     RE"
+      "v": "LA-  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "LA-",
+          "offset": 0.1,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+",
+          "offset": 0.143,
+          "align": "left"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -157,7 +501,27 @@
     },
     {
       "t": "c",
-      "v": "SOL                  DO7+  RE4    RE"
+      "v": "SOL  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -165,7 +529,31 @@
     },
     {
       "t": "c",
-      "v": "      LA-7      DO7+    RE4  RE       RE7"
+      "v": "LA-7  DO7+  RE4  RE  RE7",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "LA-7"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 7,
+          "chord": "RE"
+        },
+        {
+          "word": 7,
+          "chord": "RE7",
+          "offset": 0.5,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -173,7 +561,29 @@
     },
     {
       "t": "c",
-      "v": "      SOL     DO7+      RE4     RE"
+      "v": "SOL  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 1,
+          "chord": "SOL",
+          "offset": 0.25,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -181,7 +591,29 @@
     },
     {
       "t": "c",
-      "v": "          LA- DO7+  RE4 SOL"
+      "v": "LA-  DO7+  RE4  SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA-"
+        },
+        {
+          "word": 2,
+          "chord": "DO7+",
+          "offset": 0.5,
+          "align": "left"
+        },
+        {
+          "word": 4,
+          "chord": "RE4"
+        },
+        {
+          "word": 4,
+          "chord": "SOL",
+          "offset": 0.571,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -196,7 +628,27 @@
     },
     {
       "t": "c",
-      "v": "SOL                  DO7+  RE4    RE"
+      "v": "SOL  DO7+  RE4  RE",
+      "anchors": [
+        {
+          "word": 0,
+          "chord": "SOL"
+        },
+        {
+          "word": 4,
+          "chord": "DO7+"
+        },
+        {
+          "word": 5,
+          "chord": "RE4"
+        },
+        {
+          "word": 5,
+          "chord": "RE",
+          "offset": 0.667,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -211,8 +663,33 @@
       "v": "LA-7  DO7+  RE4  RE  RE7  SOL  DO7+  RE4  RE"
     },
     {
+      "t": "s"
+    },
+    {
       "t": "c",
-      "v": "      LA-7 DO7+ RE MI-"
+      "v": "LA-7  DO7+  RE  MI-",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA-7"
+        },
+        {
+          "word": 2,
+          "chord": "DO7+",
+          "offset": 0.556,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "MI-",
+          "offset": 0.143,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -220,7 +697,33 @@
     },
     {
       "t": "c",
-      "v": "      LA-7 DO RE  SI7 MI-"
+      "v": "LA-7  DO  RE  SI7  MI-",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA-7"
+        },
+        {
+          "word": 2,
+          "chord": "DO",
+          "offset": 0.714,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "RE"
+        },
+        {
+          "word": 4,
+          "chord": "SI7"
+        },
+        {
+          "word": 4,
+          "chord": "MI-",
+          "offset": 0.571,
+          "align": "left"
+        }
+      ]
     },
     {
       "t": "l",
@@ -228,7 +731,27 @@
     },
     {
       "t": "c",
-      "v": "      LA-7 DO RE7 SOL"
+      "v": "LA-7  DO  RE7  SOL",
+      "anchors": [
+        {
+          "word": 2,
+          "chord": "LA-7"
+        },
+        {
+          "word": 2,
+          "chord": "DO",
+          "offset": 0.714,
+          "align": "left"
+        },
+        {
+          "word": 3,
+          "chord": "RE7"
+        },
+        {
+          "word": 4,
+          "chord": "SOL"
+        }
+      ]
     },
     {
       "t": "l",

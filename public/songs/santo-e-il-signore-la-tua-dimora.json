@@ -3,7 +3,7 @@
   "sub": "Daniele Ricci · La tua dimora",
   "capo": null,
   "key": {
-    "note": "SOL",
+    "note": "MI",
     "mode": "maggiore"
   },
   "search": "Santo È il Signore La tua dimora Intro (x2)  Santo    Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (È  il Signore  Dio   dell'universo)     Santo  Santo   Santo  (I cieli e la terra)     Santo  Santo   Santo  (Sono  pieni  della tua Gloria)  Osanna    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Benedetto    Benedetto    colui  che  viene  nel  nome    del  Signore  Osanna finale    Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)     Osanna    Osanna    Osanna   (Osanna    Osanna    nell'alto dei  cieli)  Coda    Osanna!",
@@ -14,7 +14,7 @@
     },
     {
       "t": "c",
-      "v": "   SOL      RE       LA-"
+      "v": "   MI       SI       FA#-"
     },
     {
       "t": "s"
@@ -25,19 +25,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 3,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -50,19 +50,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 3,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -75,19 +75,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 3,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -100,19 +100,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 3,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -129,19 +129,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 2,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -158,31 +158,31 @@
     },
     {
       "t": "c",
-      "v": "SOL RE DO RE DO RE",
+      "v": "MI SI LA SI LA SI",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 3,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 5,
-          "chord": "DO"
+          "chord": "LA"
         },
         {
           "word": 6,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 7,
-          "chord": "DO"
+          "chord": "LA"
         },
         {
           "word": 7,
-          "chord": "RE",
+          "chord": "SI",
           "offset": 1,
           "align": "right"
         }
@@ -201,19 +201,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 2,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -226,19 +226,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 2,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -251,19 +251,19 @@
     },
     {
       "t": "c",
-      "v": "SOL RE LA-",
+      "v": "MI SI FA#-",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         },
         {
           "word": 1,
-          "chord": "RE"
+          "chord": "SI"
         },
         {
           "word": 2,
-          "chord": "LA-"
+          "chord": "FA#-"
         }
       ]
     },
@@ -280,11 +280,11 @@
     },
     {
       "t": "c",
-      "v": "SOL",
+      "v": "MI",
       "anchors": [
         {
           "word": 0,
-          "chord": "SOL"
+          "chord": "MI"
         }
       ]
     },

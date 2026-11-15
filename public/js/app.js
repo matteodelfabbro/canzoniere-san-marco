@@ -153,7 +153,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261113-resta-qui-con-noi-7';
+const SONG_DATA_VERSION='20261115-santo-ricci-mi';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio',

@@ -1686,5 +1686,13 @@
     "sub": "",
     "search": "Beati Voi  Ritornello Beati voi, beati voi, beati voi, beati! Strofa 1 Se un uomo vive oggi nella vera povertà, il Regno del Signore dentro lui presente è già. Per voi che siete tristi e senza senso nella vita c'è un Dio che può donarvi una speranza nel dolor. Strofa 2 Voi che lottate senza la violenza e per amore possiederete un giorno questa terra, dice Dio. Voi che desiderate ciò che Dio vuole per noi un'infinita pace regnerà dentro di voi. Strofa 3 E quando nel tuo cuore nasce tanta compassione è Dio che si commuove come un bimbo dentro te. Beati quelli che nel loro cuore sono puri già vedono il Signore totalmente anche quaggiù. Strofa 4 Beato chi diffonde pace vera intorno a sé il Padre che è nei cieli già lo chiama “figlio mio”. Chi soffre per amore e sa morire oggi per Lui riceve il Regno subito e la vita eterna ha in sé. Strofa 5 Se poi diranno male perché siete amici suoi sappiate che l'han fatto già con Lui prima di voi. Chi soffre per amore e sa morire oggi per Lui riceve il Regno subito e la vita eterna ha in sé. Finale Siate felici, siate felici, siate felici. Amen",
     "file": "songs/beati-voi.json"
+  },
+  {
+    "id": "re-di-gloria",
+    "numero": 214,
+    "title": "Re di Gloria",
+    "sub": "De Luca · Marranzino",
+    "search": "Re di Gloria  Strofa 1  Ho incontrato Te Gesù e ogni cosa in me è cambiata  tutta la mia vita ora ti appartiene.  Tutto il mio passato io lo affido a Te,  Gesù, Re di gloria, mio Signor.  Tutto in Te riposa, la mia mente il mio cuore,  trovo pace in Te Signor, Tu mi dai la gioia.  Voglio stare insieme a Te, non lasciarti mai,  Gesù, Re di gloria, mio Signor.  Ritornello  Dal Tuo amore chi mi separerà,  sulla croce hai dato la vita per me,  una corona di gloria mi darai  quando un giorno Ti vedrò.  Strofa 2  Tutto in Te riposa, la mia mente il mio cuore,  trovo pace in Te Signor, Tu mi dai la gioia vera.  Voglio stare insieme a Te, non lasciarti mai,  Gesù, Re di gloria, mio Signor.  Ritornello  Dal Tuo amore chi mi separerà,  sulla croce hai dato la vita per me,  una corona di gloria mi darai  quando un giorno Ti vedrò.  Finale  Dal Tuo amore chi mi separerà…  Strumentale  Io Ti aspetto mio Signor…  io Ti aspetto mio Signor,  io Ti aspetto mio Re.",
+    "file": "songs/re-di-gloria.json"
   }
 ]

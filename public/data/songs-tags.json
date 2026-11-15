@@ -1988,5 +1988,16 @@
     "groups": [
       "Canti per la Messa"
     ]
+  },
+  "re-di-gloria": {
+    "title": "Re di Gloria",
+    "tags": [
+      "Comunione",
+      "Lode"
+    ],
+    "groups": [
+      "Canti per la Messa",
+      "Temi"
+    ]
   }
 }

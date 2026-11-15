@@ -153,7 +153,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261115-ritornello-ripetuto-1';
+const SONG_DATA_VERSION='20261115-ritornello-ripetuto-2';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio',

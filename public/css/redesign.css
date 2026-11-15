@@ -297,7 +297,8 @@ html.rd .repeat-section-toggle:hover{background:transparent;color:var(--rd-ink)}
 html.rd .repeat-section-action{color:var(--rd-ink-3)}
 
 /* Il ritornello: riquadro dorato */
-html.rd .refrain-section:not(.repeat-section-collapsible){
+html.rd .refrain-section:not(.repeat-section-collapsible),
+html.rd .refrain-section.repeat-open{
   background:var(--rd-gold-soft);
   border-radius:11px;padding:.75em 14px .8em;margin:.9em 0 1em -14px;
   width:fit-content;max-width:calc(100% + 14px);box-sizing:border-box;break-inside:avoid;-webkit-column-break-inside:avoid;
@@ -306,7 +307,10 @@ html.rd .refrain-section:not(.repeat-section-collapsible){
    il foglio (overflow-x:auto) le fa spazio senza spostare il contenuto */
 html.rd .sheet{padding-left:14px;margin-left:-14px}
 /* Nelle due colonne dell'iPad il margine delle sezioni è riscritto: la bolla resta comunque spostata a sinistra */
-html.rd body.song-open .sheet.tablet-two-columns .refrain-section:not(.repeat-section-collapsible){margin:0 0 .7rem -14px}
+html.rd body.song-open .sheet.tablet-two-columns .refrain-section:not(.repeat-section-collapsible),
+html.rd body.song-open .sheet.tablet-two-columns .refrain-section.repeat-open{margin:0 0 .7rem -14px}
+/* Ritornello ripetuto aperto con «Mostra»: stessa bolla, il pulsante fa da titolo */
+html.rd .refrain-section.repeat-open > .repeat-section-toggle{margin-top:0}
 html.rd .refrain-section:not(.repeat-section-collapsible) > .headline{color:var(--rd-gold);margin-top:0}
 html.rd .refrain-section .spacer:last-child{display:none}
 

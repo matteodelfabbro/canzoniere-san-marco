@@ -153,7 +153,7 @@ function songSubtitleWithoutCapo(song){
 }
 
 
-const SONG_DATA_VERSION='20261115-re-di-gloria';
+const SONG_DATA_VERSION='20261115-ritornello-ripetuto-2';
 const songLoadPromises=new Map();
 const SONG_ID_ALIASES={
   'agnello-di-dio-versione-2-capo-3':'agnello-di-dio',
@@ -1869,6 +1869,7 @@ function compactRepeatedSongSections(song){
       const expanded=toggle.getAttribute('aria-expanded')==='true';
       toggle.setAttribute('aria-expanded',String(!expanded));
       content.hidden=expanded;
+      section.classList.toggle('repeat-open',!expanded);
       toggle.querySelector('.repeat-section-action').textContent=expanded?'— Mostra':'— Nascondi';
       applyTabletSongColumns();
     });

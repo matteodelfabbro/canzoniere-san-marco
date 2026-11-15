@@ -1,0 +1,238 @@
+{
+  "title": "Re di Gloria",
+  "sub": "De Luca · Marranzino",
+  "capo": null,
+  "key": {
+    "note": "SOL",
+    "mode": "maggiore"
+  },
+  "search": "Re di Gloria  Strofa 1  Ho incontrato Te Gesù e ogni cosa in me è cambiata  tutta la mia vita ora ti appartiene.  Tutto il mio passato io lo affido a Te,  Gesù, Re di gloria, mio Signor.  Tutto in Te riposa, la mia mente il mio cuore,  trovo pace in Te Signor, Tu mi dai la gioia.  Voglio stare insieme a Te, non lasciarti mai,  Gesù, Re di gloria, mio Signor.  Ritornello  Dal Tuo amore chi mi separerà,  sulla croce hai dato la vita per me,  una corona di gloria mi darai  quando un giorno Ti vedrò.  Strofa 2  Tutto in Te riposa, la mia mente il mio cuore,  trovo pace in Te Signor, Tu mi dai la gioia vera.  Voglio stare insieme a Te, non lasciarti mai,  Gesù, Re di gloria, mio Signor.  Ritornello  Dal Tuo amore chi mi separerà,  sulla croce hai dato la vita per me,  una corona di gloria mi darai  quando un giorno Ti vedrò.  Finale  Dal Tuo amore chi mi separerà…  Strumentale  Io Ti aspetto mio Signor…  io Ti aspetto mio Signor,  io Ti aspetto mio Re.",
+  "lines": [
+    {
+      "t": "h",
+      "v": "Strofa 1"
+    },
+    {
+      "t": "c",
+      "v": "SOL                          RE"
+    },
+    {
+      "t": "l",
+      "v": "Ho incontrato Te Gesù e ogni cosa in me è cambiata"
+    },
+    {
+      "t": "c",
+      "v": "LA-          LA-7        RE   LA-7 RE"
+    },
+    {
+      "t": "l",
+      "v": "tutta la mia vita ora ti appartiene."
+    },
+    {
+      "t": "c",
+      "v": "SOL                          DO   SI7 MI-  MI-7"
+    },
+    {
+      "t": "l",
+      "v": "Tutto il mio passato io lo affido a Te,"
+    },
+    {
+      "t": "c",
+      "v": "  LA-       DO7+        RE4     RE"
+    },
+    {
+      "t": "l",
+      "v": "Gesù, Re di gloria, mio Signor."
+    },
+    {
+      "t": "c",
+      "v": "SOL                        RE"
+    },
+    {
+      "t": "l",
+      "v": "Tutto in Te riposa, la mia mente il mio cuore,"
+    },
+    {
+      "t": "c",
+      "v": "LA-        LA-7                RE     LA-7     RE"
+    },
+    {
+      "t": "l",
+      "v": "trovo pace in Te Signor, Tu mi dai la gioia."
+    },
+    {
+      "t": "c",
+      "v": "SOL                            DO     SI7 MI-   MI-7"
+    },
+    {
+      "t": "l",
+      "v": "Voglio stare insieme a Te, non lasciarti mai,"
+    },
+    {
+      "t": "c",
+      "v": "  LA-       DO7+        RE4     RE"
+    },
+    {
+      "t": "l",
+      "v": "Gesù, Re di gloria, mio Signor."
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL                  DO7+  RE4    RE"
+    },
+    {
+      "t": "l",
+      "v": "Dal Tuo amore chi mi separerà,"
+    },
+    {
+      "t": "c",
+      "v": "      LA-7      DO7+    RE4  RE       RE7"
+    },
+    {
+      "t": "l",
+      "v": "sulla croce hai dato la vita per me,"
+    },
+    {
+      "t": "c",
+      "v": "      SOL     DO7+      RE4     RE"
+    },
+    {
+      "t": "l",
+      "v": "una corona di gloria mi darai"
+    },
+    {
+      "t": "c",
+      "v": "          LA- DO7+  RE4 SOL"
+    },
+    {
+      "t": "l",
+      "v": "quando un giorno Ti vedrò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Strofa 2"
+    },
+    {
+      "t": "c",
+      "v": "SOL                        RE"
+    },
+    {
+      "t": "l",
+      "v": "Tutto in Te riposa, la mia mente il mio cuore,"
+    },
+    {
+      "t": "c",
+      "v": "LA-        LA-7                    RE       LA-7   RE"
+    },
+    {
+      "t": "l",
+      "v": "trovo pace in Te Signor, Tu mi dai la gioia vera."
+    },
+    {
+      "t": "c",
+      "v": "SOL                            DO     SI7 MI-   MI-7"
+    },
+    {
+      "t": "l",
+      "v": "Voglio stare insieme a Te, non lasciarti mai,"
+    },
+    {
+      "t": "c",
+      "v": "  LA-       DO7+        RE4     RE"
+    },
+    {
+      "t": "l",
+      "v": "Gesù, Re di gloria, mio Signor."
+    },
+    {
+      "t": "h",
+      "v": "Ritornello"
+    },
+    {
+      "t": "c",
+      "v": "SOL                  DO7+  RE4    RE"
+    },
+    {
+      "t": "l",
+      "v": "Dal Tuo amore chi mi separerà,"
+    },
+    {
+      "t": "c",
+      "v": "      LA-7      DO7+    RE4  RE       RE7"
+    },
+    {
+      "t": "l",
+      "v": "sulla croce hai dato la vita per me,"
+    },
+    {
+      "t": "c",
+      "v": "      SOL     DO7+      RE4     RE"
+    },
+    {
+      "t": "l",
+      "v": "una corona di gloria mi darai"
+    },
+    {
+      "t": "c",
+      "v": "          LA- DO7+  RE4 SOL"
+    },
+    {
+      "t": "l",
+      "v": "quando un giorno Ti vedrò."
+    },
+    {
+      "t": "s"
+    },
+    {
+      "t": "h",
+      "v": "Finale"
+    },
+    {
+      "t": "c",
+      "v": "SOL                  DO7+  RE4    RE"
+    },
+    {
+      "t": "l",
+      "v": "Dal Tuo amore chi mi separerà…"
+    },
+    {
+      "t": "h",
+      "v": "Strumentale"
+    },
+    {
+      "t": "c",
+      "v": "LA-7  DO7+  RE4  RE  RE7  SOL  DO7+  RE4  RE"
+    },
+    {
+      "t": "c",
+      "v": "      LA-7 DO7+ RE MI-"
+    },
+    {
+      "t": "l",
+      "v": "Io Ti aspetto mio Signor…"
+    },
+    {
+      "t": "c",
+      "v": "      LA-7 DO RE  SI7 MI-"
+    },
+    {
+      "t": "l",
+      "v": "io Ti aspetto mio Signor,"
+    },
+    {
+      "t": "c",
+      "v": "      LA-7 DO RE7 SOL"
+    },
+    {
+      "t": "l",
+      "v": "io Ti aspetto mio Re."
+    }
+  ]
+}
